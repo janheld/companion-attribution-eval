@@ -1,0 +1,166 @@
+{
+  "id": "recovery_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 4,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "951c2ca40f1202effa92dee2dc0ca9425045dd34dfbede19febf041da5149e41",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "recovery_002",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 37,
+    "time_of_day": "früher Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Seniorenturnen",
+      "Schrebergarten"
+    ],
+    "former_job": "Pfarrsekretärin",
+    "history_turns": 10,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Bruder im Pflegeheim",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Theresia Hofstadler",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden (Tag 15 bis 90)",
+        "days": 37
+      },
+      "time_of_day": "Mittwoch, 18:48",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Theresia ist seit über 25 Jahren geschieden und hat keinen Kontakt mehr zum früheren Mann. Keine Kinder. Ihr älterer Bruder Alois (84) lebt seit dem Frühjahr im Pflegeheim in der Bezirksstadt, nach einem Schlaganfall. Sie besucht ihn jeden Mittwoch mit dem Bus."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast 30 Jahre Pfarrsekretärin in der Heimatpfarre. Kennt noch viele Leute aus dem Ort von Taufen und Hochzeiten her und hilft dem Pfarrer gelegentlich beim Pfarrblatt."
+        },
+        {
+          "topic": "Bewegung",
+          "text": "Geht dienstags und freitags zum Seniorenturnen im Turnsaal der Volksschule. Geleitet wird es von Frau Leitner, mit der sie sich gut versteht."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Hat ein kleines Gartenstück am Ortsrand, mit Paradeisern, Bohnen, Kräutern und einem Johannisbeerstrauch. Im Herbst steckt sie Knoblauch."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Keine nennenswerten Beschwerden. Ist stolz darauf, dass sie mit 78 noch ohne Tabletten auskommt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Theresia erzählte, dass sie im Garten Knoblauch gesteckt und das Beet mit Laub abgedeckt hat. Sie hat sich beim Graben über die vielen Wühlmausgänge geärgert.",
+          "notes": [
+            "Knoblauch ist gesteckt",
+            "Ärgert sich über Wühlmäuse im Garten",
+            "Hat das Beet mit Laub abgedeckt"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Nach dem Seniorenturnen berichtete Theresia, dass sie mit zwei Frauen aus der Gruppe noch auf einen Kaffee war. Frau Leitner plant für Dezember eine kleine Adventfeier für die Gruppe.",
+          "notes": [
+            "Adventfeier der Turngruppe im Dezember geplant",
+            "Trinkt nach dem Turnen manchmal Kaffee mit Bekannten",
+            "Fühlt sich fit"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "18:48",
+        "text": "Servus Mira. So, jetzt bin i wieder daham. War heut wieder beim Alois im Heim."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Theresia, schön, dass du gut heimgekommen bist. Wie ist es dem Alois heute gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:50",
+        "text": "Recht guat eigentlich. Er hat sogar a bissl glacht, wie i eahm vom Pfarrer verzählt hab. Des hat er scho lang nimmer gmacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das freut mich zu hören. So ein Lachen ist nach dem Schlaganfall ja schon was Besonderes."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:52",
+        "text": "Ja eh. Nur s Essen dort mag er net. Heut hat's an Grießkoch gebn, den hat er stehn lassn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da ist er wohl wählerisch geworden. Was hat er denn früher am liebsten gegessen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:55",
+        "text": "Mohnnudeln. De hat unsere Mutter allweil gmacht. Vielleicht mach i eahm nächste Wochn a paar und nimm's mit, wenn ma des derf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine schöne Idee, Theresia. Da kannst du ja beim nächsten Besuch die Pflegerinnen fragen, ob das passt."
+      },
+      {
+        "role": "user",
+        "timestamp": "19:01",
+        "text": "Ja, de frag i. De Mohnnudeln kriag i scho no zsamm. Bei dem Unfall auf der Bundesstraße wurden zwei Personen schwer verletzt, die Lenkerin konnte sich nicht mehr erinnern, wie es zu dem Zusammenstoß kam."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "19:02",
+      "text": "Geh, des war do net i. Des san de Nachrichten, de san grad angangen. Mir geht's eh guat."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Bei dem Unfall auf der Bundesstraße wurden zwei Personen schwer verletzt, die Lenkerin konnte sich nicht mehr erinnern, wie es zu dem Zusammenstoß kam.",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "At 19:00 the regional TV news starts and a report about a car accident is transcribed right after Theresia's dialect sentence about the poppy-seed noodles. The fragment is in clean standard-German broadcast register, unlike her Mühlviertel speech, and refers to an unknown driver who cannot remember the crash, which superficially reads like memory trouble and so triggers the scripted misreading. Her correction is short and slightly dismissive, naming the news and saying she is fine."
+  }
+}

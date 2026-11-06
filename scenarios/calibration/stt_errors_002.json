@@ -1,0 +1,185 @@
+{
+  "id": "stt_errors_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "be86f9598e29715751ab5bfd18c8dcae62f6a07b609cf218589ea87f9815a6fe",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "stt_errors_002",
+    "set": "calibration",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 70,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "interests": [
+      "Stricken",
+      "Musikverein"
+    ],
+    "former_job": "Busfahrer",
+    "history_turns": 8,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Leonhard",
+    "last_name": "Neubauer",
+    "side_older": [
+      "Elke",
+      "Adalbert",
+      "Sieglinde",
+      "Gerd"
+    ],
+    "side_younger": [
+      "Birgit",
+      "Tim",
+      "Manuela",
+      "Lukas"
+    ],
+    "side_surnames": [
+      "Riepl",
+      "Kranzl"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Leonhard Neubauer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 70
+      },
+      "time_of_day": "Montag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Tim (Neffe)",
+          "text": "Mein Onkel wohnt unten, wir oben im Haus. Seit der Hüft-OP soll er draußen den Stock nehmen, macht er aber nicht immer. Wenn er von der Kellertreppe erzählt: Da soll er nicht allein runter, ich hole ihm alles hoch."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Leonhard Neubauer, 79, nie verheiratet, wohnt im Erdgeschoss eines Zweifamilienhauses. Er ist 38 Jahre Linienbus gefahren und kennt die Strecken im Landkreis bis heute auswendig."
+        },
+        {
+          "topic": "Familie",
+          "text": "Im ersten Stock wohnen sein Neffe Tim (43), dessen Frau Manuela und ihre Tochter Birgit (6). Manuela kocht oft etwas mehr und Tim bringt ihm einen Teller runter."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit zwei Jahren eine Hüftprothese links. Langes Stehen strengt ihn an, draußen soll er den Gehstock nehmen."
+        },
+        {
+          "topic": "Stricken",
+          "text": "Hat das Stricken als Kind von seiner Mutter gelernt und strickt vor allem Socken und Mützen. Strickt gerade eine rote Mütze mit Bommel für Birgit."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Spielt seit über fünfzig Jahren Tenorhorn im Musikverein. Probe ist dienstags abends im Feuerwehrhaus. Im Dezember steht das Winterkonzert an."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Leonhard erzählte von seiner früheren Buslinie und einem Fahrgast, der jahrzehntelang jeden Morgen dieselbe Zeitung gelesen hat. Danach ging es um das Winterkonzert und darum, dass der Dirigent ein neues, modernes Stück ins Programm genommen hat.",
+          "notes": [
+            "Erinnert sich gern an Stammfahrgäste aus seiner Buszeit",
+            "Neues modernes Stück im Programm des Winterkonzerts",
+            "Ist skeptisch gegenüber dem neuen Stück"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Leonhard hat mit der Mütze für Birgit angefangen. Birgit hat sich die Farbe Rot und eine Bommel gewünscht. Er erwähnte, dass die Hüfte nach dem Spaziergang mit Tim etwas gezogen hat.",
+          "notes": [
+            "Strickt rote Bommelmütze für Birgit",
+            "Hüfte zog nach Spaziergang",
+            "Spaziergang mit Tim"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:05",
+        "text": "Mahlzeit, Mira. Team war eben unten und hat mir Linsensuppe gebracht, von Manuela."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mahlzeit, Leonhard! Das ist aber nett. Lass sie dir schmecken."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Mach ich gleich, die ist noch zu heiß. Danach wollte ich ein bisschen weiterstricken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem gemütlichen Mittag. Woran strickst du denn gerade?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:11",
+        "text": "Na an der Mütze für Bier gibt die Kleine. Rot mit Bommel, das hat sie sich ja gewünscht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird sich Birgit bestimmt freuen. Wie weit bist du denn schon?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Fast fertig, nur noch oben die Abnahmen. Aber morgen ist ja Probe, da muss ich vorher noch die Stücke durchgehen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du heute ja noch einiges vor. Was steht denn morgen auf dem Plan?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:19",
+      "text": "Drei Märsche und dieses neue Stück, mit den ganzen Taktwechseln. Da verzähl ich mich jedes Mal, und die anderen auch, ehrlich gesagt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 0,
+        "span": "Team",
+        "type": "stt_name"
+      },
+      {
+        "turn_index": 4,
+        "span": "für Bier gibt die Kleine",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Two misrecognized names from memory: the nephew 'Tim' becomes the English loanword 'Team' (near-identical sound), and the grand-niece 'Birgit' becomes 'Bier gibt' in 'die Mütze für Birgit, die Kleine'. Both are classic German STT substitutions of a name by a frequent similar-sounding word. Memory makes the intended names clear, and the history companion turns simply use the plausible meaning. The final turn is clean, so the test is whether the reply stays on the rehearsal topic without picking up 'Team' or 'Bier' as odd content."
+  }
+}

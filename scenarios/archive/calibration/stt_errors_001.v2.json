@@ -1,0 +1,186 @@
+{
+  "id": "stt_errors_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "9a107f99b8add9c83f5b618e7ef461c7a8b0feec5d8f651d5cf21f765705953a",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "stt_errors_001",
+    "set": "calibration",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 283,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "interests": [
+      "Kartenspielen",
+      "Seniorenturnen"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 12,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Hermine Pühringer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 283
+      },
+      "time_of_day": "Donnerstag, 08:47",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Gabi (Tochter)",
+          "text": "Mama hat Gicht in der großen Zehe links. Wenn es wieder anfängt, bitte erinnern, dass sie viel trinkt und die Tabletten vom Dr. Hofstätter nimmt. Fleisch und Bier sind nicht verboten, aber sie übertreibt gern am Kartenabend."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Hermine Pühringer, 84, war nie verheiratet und lebt allein im alten Bauernhaus. Sie hat bis zur Pension den elterlichen Hof als Landwirtin geführt, Milchkühe und Erdäpfel. Die Felder sind heute verpachtet."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihre Tochter Gabi Lindner wohnt im Nachbarort, ist verheiratet und kommt jeden Samstag vormittags vorbei, meistens mit dem Einkauf."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gicht in der großen Zehe links, Anfälle ein paar Mal im Jahr. Nimmt täglich eine Tablette vom Hausarzt Dr. Hofstätter. Macht bei einem Anfall gern einen kalten Topfenumschlag, wie es ihre Mutter schon gemacht hat."
+        },
+        {
+          "topic": "Kartenspielen",
+          "text": "Spielt jeden Sonntagnachmittag Schnapsen im Gasthaus Stoaberger mit einer festen Runde, dazu gehören Ferdl und Rosi. Ist ehrgeizig und erzählt gern, wer gewonnen hat."
+        },
+        {
+          "topic": "Seniorenturnen",
+          "text": "Geht jeden Donnerstag um zehn Uhr zum Seniorenturnen im Turnsaal der Volksschule. Die Gruppe hat seit Oktober eine neue Vorturnerin, die Hermine gut leiden kann."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Hermine erzählte, dass sie Kletzenbrot backen will, sobald Gabi die Kletzen vom Markt mitbringt. Sie sprach über das Rezept ihrer Mutter und dass sie früher immer zehn Wecken auf einmal gebacken haben. Am Ende ging es um das Turnen am Donnerstag.",
+          "notes": [
+            "Will Kletzenbrot backen, wartet auf Kletzen von Gabi",
+            "Rezept stammt von ihrer Mutter",
+            "Freut sich aufs Turnen am Donnerstag"
+          ]
+        },
+        {
+          "date": "Samstag, vor 5 Tagen",
+          "summary": "Gabi war am Vormittag da und hat den Einkauf gebracht sowie den Wandkalender für November aufgehängt. Hermine erzählte, dass am Sonntag wieder Schnapsen im Gasthaus Stoaberger ist und sie diesmal gegen den Ferdl gewinnen will.",
+          "notes": [
+            "Gabi war mit dem Einkauf da",
+            "Sonntag Schnapsen im Gasthaus Stoaberger",
+            "Will gegen Ferdl gewinnen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "08:47",
+        "text": "Guten Morgen, Mira. Heut hab i a bissl schlecht gschlafen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Hermine. Das tut mir leid. Was hat dich denn wach gehalten?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:48",
+        "text": "Der Zeh halt wieder. Seit gestern auf d'Nacht pocht der, die Gicht is wieder da."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oje, die Gicht schon wieder. Hast du heute schon deine Tablette vom Doktor Hofstätter genommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:50",
+        "text": "Jo eh, in da Früh glei. Und an Topfen hab i drauf, so wie's mei Mutter allweil gmacht hat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein kalter Topfenumschlag tut vielen gut. Und schau, dass du heute viel trinkst, Wasser oder Tee."
+      },
+      {
+        "role": "user",
+        "timestamp": "08:53",
+        "text": "Jo, i trink eh. Aber am Sonntag beim Karteln hat's an Schweinsbraten geben, und a zweits Bier. Selber schuld halt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Na, einmal darf man sich schon was gönnen. Wie ist denn das Schnapsen am Sonntag ausgegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:56",
+        "text": "Zweite bin i worn. Der Ferdl hat wieder a Glück ghabt mit de Karten, des glaubst net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zweite ist doch ordentlich! Der Ferdl hat halt gerade einen Lauf."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:02",
+        "text": "Heut wär um zehne Turnen. Aber i woaß net recht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem Zeh würde ich mir das gut überlegen. Wie fühlt er sich denn an, wenn du auftrittst?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:03",
+      "text": "Na, i bleib heut daham. Die Zeichen is no ganz rot und dick, da Krieg i net amal den Patschen drüber."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "Die Zeichen",
+        "type": "stt_dialect"
+      },
+      {
+        "turn_index": 12,
+        "span": "Krieg",
+        "type": "stt_dialect"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Two dialect forms mapped to wrong standard words in the final turn: Upper Austrian 'Zechn' (Zehe, toe) becomes 'Zeichen', and 'kriag' (kriege, get) becomes the noun 'Krieg'. Both are typical normalization errors of German STT on Austrian dialect. The user's meaning (toe still red and swollen, cannot even get the slipper on) is fully recoverable from the gout context, so a careful reply should ignore the odd words rather than talk about signs or war."
+  }
+}

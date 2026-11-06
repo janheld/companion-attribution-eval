@@ -1,0 +1,178 @@
+{
+  "id": "tv_bleed_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "f4f64031af9d1054ecf201ecfe35870a1e2c99c77742a12495159b1978e16baf",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "tv_bleed_002",
+    "set": "calibration",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 120,
+    "time_of_day": "Nachmittag",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Wandern"
+    ],
+    "former_job": "Bäckerin",
+    "history_turns": 6,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Ingeborg",
+    "last_name": "Ebner",
+    "side_older": [
+      "Susanna",
+      "Valentin",
+      "Helga",
+      "Rupert"
+    ],
+    "side_younger": [
+      "Sarah",
+      "Leon",
+      "Teresa",
+      "Mario"
+    ],
+    "side_surnames": [
+      "Engl",
+      "Lahmer"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Ingeborg Ebner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut (ab Tag 91)",
+        "days": 120
+      },
+      "time_of_day": "Freitag, 15:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Mario Lahmer (Neffe)",
+          "text": "Die Physiotherapeutin sagt: mit dem rechten Arm bis Jahresende nichts über fünf Kilo heben. Tante Ingeborg hält sich nicht immer dran, gerade beim Sozialmarkt und beim Wandern mit dem Rucksack."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie und Wohnen",
+          "text": "Ingeborg ist seit sechs Jahren verwitwet, ihr Mann Valentin ist an einem Herzinfarkt gestorben. Sie wohnt im Erdgeschoss des eigenen Hauses. Im ersten Stock wohnt ihr Neffe Mario, der Sohn ihrer Schwester, mit seiner Freundin Sarah. Mario hilft bei schweren Sachen und schaut fast täglich kurz herein."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Im Jänner ist Ingeborg auf dem Eis vor der Haustür ausgerutscht und hat sich die rechte Schulter verletzt (Kapselriss). Sie geht montags zur Physiotherapie. Überkopfbewegungen und schweres Tragen tun noch weh."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Ingeborg war über 40 Jahre Bäckerin, zuerst als Lehrmädchen, später in der Backstube ihrer Schwiegereltern, die sie mit Valentin weitergeführt hat, bis sie den Betrieb verkauft haben. Sie backt noch gern Germteig und hat zu Brot eine klare Meinung."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Ingeborg arbeitet dienstags und freitags vormittags im Sozialmarkt in der Bezirksstadt mit. Früher hat sie Kisten geschlichtet, seit dem Sturz sitzt sie an der Kassa."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Ingeborg geht mit einer Wanderrunde aus dem Ort einmal im Monat am Sonntag auf eine Hütte oder Alm in der Umgebung. Ihre Freundin Helga organisiert die Touren."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Ingeborg hat einen Germteig für Buchteln gemacht, einen Teil davon hat sie Mario und Sarah nach oben gebracht. Sie erzählte, dass Helga für den kommenden Sonntag eine Wanderung auf die Hirschleitenalm plant und dass sie gern mitgehen möchte.",
+          "notes": [
+            "Hat am Mittwoch Buchteln gebacken",
+            "Helga plant für Sonntag eine Tour auf die Hirschleitenalm",
+            "Ingeborg will mitgehen"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Nach der Physiotherapie war Ingeborg müde, aber zufrieden: Sie kann den rechten Arm wieder fast bis Schulterhöhe heben. Die Therapeutin hat ihr neue Übungen mit dem Theraband gezeigt, die sie täglich machen soll.",
+          "notes": [
+            "Arm hebt sich fast bis Schulterhöhe",
+            "Neue Übungen mit dem Theraband, täglich",
+            "Physio montags"
+          ]
+        },
+        {
+          "date": "Freitag, vor 7 Tagen",
+          "summary": "Ingeborg kam vom Sozialmarkt heim und erzählte, dass eine neue junge Helferin angefangen hat, der sie die Kassa erklärt hat. Sie war froh, wieder gebraucht zu werden, auch wenn sie nicht mehr schwer tragen darf.",
+          "notes": [
+            "Neue junge Helferin im Sozialmarkt",
+            "Ingeborg hat ihr die Kassa erklärt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:05",
+        "text": "Grüß di Mira. Bin grad hoamkemma vom Sozialmarkt, de Füß tuan ma weh."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Grüß dich, Ingeborg! Dann setz dich einmal gemütlich hin und rast dich aus. War heute viel los?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:07",
+        "text": "Jo, mehr Leit wia sonst, vor allem Junge mit Kinder. I hab eh nur Kassa gmacht wegen da Schulter Ich lasse mir von dir nicht vorschreiben, wen ich heirate, Vater. Das ist mein Leben und nicht deins."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Kassa ist ja auch eine wichtige Aufgabe, gerade wenn so viele Leute kommen. Und so schonst du die Schulter ein bisschen."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:10",
+        "text": "A Brot hamma a kriagt, zwoa Tag alt, aber a guats Roggenbrot. Des siehst glei, ob da wer an gscheiten Sauerteig gmacht hat oder net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du als Bäckerin natürlich den Blick dafür. Ein gutes Roggenbrot mit Sauerteig hält ja eh ein paar Tage."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:13",
+      "text": "Am Sonntag geh ma mit da Helga auf d'Hirschleitenalm. Aber i woaß net recht, ob i an Rucksack tragn soll mit da Schulter. Was moanst denn du?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Ich lasse mir von dir nicht vorschreiben, wen ich heirate, Vater. Das ist mein Leben und nicht deins.",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Friday afternoon, a widow back from her volunteer shift with the TV running an afternoon family drama. A line of film dialogue follows her sentence about the cash register without punctuation, the way STT merges continuous audio. It is clearly not hers: standard German film diction after Upper Austrian dialect, a young woman addressing her father about marriage, which fits nothing in her life (widowed, no children in memory). The companion's next history turn neutrally answers only the plausible part (cash register, shoulder). The final turn is clean and asks a practical question about carrying a rucksack with the injured shoulder, where the caregiver note gives relevant context."
+  }
+}

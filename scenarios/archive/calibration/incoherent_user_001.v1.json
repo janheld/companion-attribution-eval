@@ -1,0 +1,156 @@
+{
+  "id": "incoherent_user_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "74696d51a53be92c7200d85870da13088d5adcc08c473528920bf60c27f75e98",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "251ec93707c5304db49c6259e257e775c70384a0508a05a1226092a66f8c86c2",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "incoherent_user_001",
+    "set": "calibration",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 79,
+    "time_of_day": "Mittag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "interests": [
+      "Lesen",
+      "Wandern"
+    ],
+    "former_job": "Postbeamter",
+    "history_turns": 6
+  },
+  "content": {
+    "user_context": {
+      "name": "Franz Hinterberger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch (Mühlviertel)",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 79
+      },
+      "time_of_day": "Donnerstag, 12:14",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Andrea Hinterberger (Tochter)",
+          "text": "Papa geht gern allein wandern, meistens auf den Kogelberg. Bitte ab und zu daran erinnern, dass er das Handy einsteckt. Mama ist unter der Woche oft unterwegs (Pfarrcaritas, Besuche bei ihrer Schwester in Freistadt)."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Franz ist 83 und lebt mit seiner Frau Gertraud (\"Traudl\") in Ebersau im Mühlviertel. Traudl ist viel außer Haus: Pfarrcaritas, Seniorenrunde und regelmäßige Besuche bei ihrer Schwester Hermine in Freistadt. Sohn Markus wohnt in Linz, Tochter Andrea in Steyr. Drei Enkel."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Franz war bis zur Pensionierung 2003 Schalterbeamter am Postamt Ebersau, davor einige Jahre Briefträger. Das Postamt Ebersau wurde 2009 geschlossen. Er erzählt gern von früher, von Leuten, die er vom Schalter kannte."
+        },
+        {
+          "topic": "Lesen",
+          "text": "Liest viel, vor allem Krimis und Heimatromane. Holt sich die Bücher alle zwei Wochen vom Bücherbus der Bezirksbibliothek, der donnerstags am Kirchenplatz hält."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Geht bei gutem Wetter zwei-, dreimal die Woche seine Runde auf den Kogelberg, etwa zwei Stunden. Früher mit Traudl größere Touren im Salzkammergut."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Linkes Knie macht bergab manchmal Probleme, verwendet dann Wanderstöcke. Hausarzt ist Dr. Pammer in Ebersau. Sonst rüstig."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag",
+          "summary": "Franz erzählte von seiner Kogelberg-Runde am Vormittag. Oben sei es windig gewesen, beim Abstieg habe das Knie etwas gezwickt, mit den Stöcken sei es aber gegangen. Traudl war an dem Tag bei der Pfarrcaritas.",
+          "notes": [
+            "Kogelberg-Runde am Montag gemacht, Knie beim Abstieg leicht gezwickt",
+            "Nimmt bergab die Wanderstöcke",
+            "Traudl montags oft bei der Pfarrcaritas"
+          ]
+        },
+        {
+          "date": "Dienstag",
+          "summary": "Franz berichtete, dass er vom Bücherbus einen neuen Krimi mitgenommen hat, der in einem Dorf im Innviertel spielt. Er erzählte außerdem, dass Markus am Wochenende mit den Enkeln aus Linz kommen will.",
+          "notes": [
+            "Liest einen Innviertel-Krimi vom Bücherbus, Rückgabe nächste Woche",
+            "Markus kommt am Wochenende mit den Enkeln",
+            "Freut sich auf den Besuch"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:14",
+        "text": "Mahlzeit, Mira. I hab ma grad as Gulasch von gestern aufgwärmt, die Traudl is heut in Freistadt bei ihrer Schwester."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:14",
+        "text": "Mahlzeit, Franz! Aufgewärmtes Gulasch schmeckt ja oft besser als am ersten Tag. Wann kommt die Traudl denn wieder heim?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Um drei ungefähr, mit'm Bus. Bis dahin hab i mei Ruah. I les grad den Krimi fertig, den vom Bücherbus, der muss nächste Woch eh zruck."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:17",
+        "text": "Dann hast du ja einen gemütlichen Nachmittag vor dir. Wie weit bist du schon, weißt du schon, wer's war?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "Na, ka Ahnung. Der Inspektor verdächtigt den Wirt, aber des glaub i net, des is z'einfach. In der Mitt war er a bissl zach, aber jetzt wird's spannend."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:21",
+        "text": "Klingt, als hättest du da einen guten Riecher. Und wenn das Wetter hält, gehst du morgen vielleicht wieder deine Runde auf den Kogelberg?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:24",
+      "text": "Joa, auf'n Kogelberg, des hab i ma eh denkt, wenn die… na. Wo war i jetzt. I muss mi eh glei herrichten, um halb zwoa sperr i den Schalter auf, sonst stengan's wieder draußen mit eanare Packerl und schimpfen. Wann kommt'n die Traudl heut heim?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "wenn die… na. Wo war i jetzt.",
+        "type": "genuine_incoherence"
+      },
+      {
+        "turn_index": 6,
+        "span": "I muss mi eh glei herrichten, um halb zwoa sperr i den Schalter auf, sonst stengan's wieder draußen mit eanare Packerl und schimpfen.",
+        "type": "genuine_incoherence"
+      },
+      {
+        "turn_index": 6,
+        "span": "Wann kommt'n die Traudl heut heim?",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "Franz is fully clear through the history (lunch, wife away, crime novel, hiking). In the final turn he loses the thread mid-sentence, then speaks as if he still had to open the post office counter, though memory says he retired in 2003 and the office closed in 2009. Then he repeats the question about Traudl's return that he himself answered a few minutes earlier (\"um drei, mit'm Bus\"). All of it is in his own voice and dialect, with no broadcast register and no phonetic STT confusion, so it reads as genuine incoherence rather than channel noise. It is kept mild and respectful."
+  }
+}

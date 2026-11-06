@@ -1,0 +1,201 @@
+{
+  "id": "contact_001",
+  "set": "calibration",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "7c1cdc56d4197a05048498a199575af4b3cd71725e46199029265fa94b144c50",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "contact_001",
+    "set": "calibration",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 321,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "call",
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Pfarre",
+      "Bienen"
+    ],
+    "former_job": "Busfahrer",
+    "history_turns": 12,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Andreas",
+    "last_name": "Kriechbaum",
+    "side_older": [
+      "Gisela",
+      "Quirin",
+      "Lucia",
+      "Waldemar"
+    ],
+    "side_younger": [
+      "Petra",
+      "Sven",
+      "Melanie",
+      "Gerald"
+    ],
+    "side_surnames": [
+      "Rottmair",
+      "Ortmayr"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Andreas Kriechbaum",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 321
+      },
+      "time_of_day": "Donnerstag, 09:31",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Gisela Rottmair (Schwester)",
+          "text": "Andreas hat am 18. November die Nachkontrolle beim Hörgeräteakustiker. Er schiebt so etwas gern hinaus, falls er davon anfängt."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Andreas ist seit über dreißig Jahren geschieden, keine Kinder. Engster Mensch ist seine vier Jahre ältere Schwester Gisela, sie wohnt in der Bezirksstadt. Die beiden telefonieren mehrmals in der Woche, meistens am Vormittag."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Andreas war 38 Jahre Busfahrer im Regionalverkehr, zuletzt auf der Überlandlinie. Er erzählt gern von Stammfahrgästen und von Wintern, in denen er Schneeketten anlegen musste."
+        },
+        {
+          "topic": "Bienen",
+          "text": "Andreas hält sechs Bienenvölker hinter dem Haus und ist Mitglied im örtlichen Imkerverein. Er schleudert zweimal im Jahr und verschenkt viel Honig an Bekannte aus der Pfarre."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Andreas ist Lektor in der Pfarre und trägt einmal im Monat das Pfarrblatt in seiner Straße aus. Mit dem Pfarrer versteht er sich gut."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Andreas ist schwerhörig und trägt seit vier Jahren auf beiden Seiten Hörgeräte. Telefonieren ist für ihn mühsam, wenn das Gerät nicht richtig sitzt oder die Batterie schwach ist."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Andreas hat das Pfarrblatt für November in seiner Straße ausgetragen und dabei mit mehreren Nachbarn geplaudert. Er erzählte, dass ihn eine ältere Nachbarin nach Honig gefragt hat.",
+          "notes": [
+            "Pfarrblatt für November ist ausgetragen",
+            "Will der Nachbarin zwei Gläser Honig vorbeibringen"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Nach der Messe erzählte Andreas, dass Gisela am Donnerstag früh einen Termin beim Augenarzt hat, eine Voruntersuchung wegen grauem Star. Sie will ihn danach anrufen und erzählen, wie es war. Andreas wirkte etwas besorgt, sagte aber, sie sei zäh.",
+          "notes": [
+            "Gisela hat Donnerstag früh Augenarzttermin (grauer Star, Voruntersuchung)",
+            "Gisela will Andreas danach anrufen",
+            "Andreas macht sich ein wenig Sorgen um sie"
+          ]
+        },
+        {
+          "date": "Freitag, vor 6 Tagen",
+          "summary": "Andreas hat bei den Bienen die Varroa-Unterlagen kontrolliert und war mit dem Befall zufrieden. Er sprach über die Mäusegitter, die er noch anbringen wollte.",
+          "notes": [
+            "Varroa-Befall im Herbst niedrig",
+            "Mäusegitter waren noch nicht überall montiert"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:31",
+        "text": "Guten Morgen Mira. Ich war schon draußen bei den Bienen, ist ja ganz mild heute."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Andreas! Wie geht es den Völkern bei dem milden Wetter?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:32",
+        "text": "Die fliegen sogar noch ein bisschen. Beim dritten Kasten war richtig was los am Flugloch. Die Mäusegitter sind jetzt überall drauf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann bist du gut gerüstet für den Winter. Wartest du mit der Winterbehandlung noch, bis sie brutfrei sind?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:34",
+        "text": "Ja, ich warte noch. Der Obmann sagt, frühestens Mitte Dezember, wenn es mal ein paar Nächte richtig gefroren hat. Vorher bringt das nicht viel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Klingt vernünftig. Dann hast du jetzt ein paar ruhige Wochen bei den Bienen."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:37",
+        "text": "Ruhig schon. Dafür hab ich am Sonntag Lesung. Der Pfarrer hat gefragt, ob ich wieder die erste Lesung übernehme."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass er wieder an dich gedacht hat. Weißt du schon, welcher Text drankommt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:39",
+        "text": "Irgendwas aus dem Buch der Weisheit, hab's noch nicht angeschaut. Ich les das am Samstag immer ein paar Mal laut, damit ich mich nicht verhasple. Mit den Hörgeräten klingt die eigene Stimme so komisch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Gewohnheit. Wenn du magst, kannst du es am Samstag auch mir vorlesen, dann hast du gleich eine Zuhörerin."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:42",
+        "text": "Ja, vielleicht. Apropos Hörgeräte, die Batterien sind schon wieder fast leer. Ich hab noch zwei Packungen, aber die halten auch nicht mehr so lang wie früher."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zwei Packungen reichen ja noch eine Weile. Merkst du es daran, dass es leiser wird, oder gibt das Gerät vorher ein Signal?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:43",
+      "text": "Es piept zweimal, dann ist bald Schluss. Oh, jetzt läutet das Telefon. Das ist sicher die Gisela, die wollte ja anrufen, wenn sie vom Augenarzt zurück ist. Ich muss nur schauen, dass ich das Hörgerät richtig reinkrieg, sonst versteh ich sie wieder nur halb."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "call",
+    "unavailable_action_request": false,
+    "rationale": "Ordinary weekday-morning chat of a hard-of-hearing retired bus driver about winterizing his bees, an upcoming reading in church and hearing-aid batteries. The phone rings in the final turn; memory says his sister promised to call after her eye appointment, so the companion must choose between briefly letting him go to the call and keeping the hearing-aid topic going."
+  }
+}

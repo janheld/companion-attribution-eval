@@ -1,0 +1,183 @@
+{
+  "id": "clean_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T12:40:07.330101+00:00"
+  },
+  "content_hash": "4c4a00a663e5795cdbb013cd282ce3f626fd15dde8e63e2bd0def9ef644cf8ec",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "932183686250c80249a45019c47bec6c55bb5f6f2b5468101c9fa339b4b3fa69",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "clean_001",
+    "set": "calibration",
+    "condition": "clean",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 192,
+    "time_of_day": "Vormittag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Chor",
+      "Schrebergarten"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 12
+  },
+  "content": {
+    "user_context": {
+      "name": "Hermine Lehner",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 192
+      },
+      "time_of_day": "Donnerstag, 09:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Gerlinde Hofstätter (Tochter)",
+          "text": "Mama hat seit dem Frühjahr Probleme mit dem rechten Knie. Sie mag nicht ständig darauf angesprochen werden, aber wenn sie viel im Garten war, darf man ruhig nachfragen, ob sie sich geschont hat."
+        },
+        {
+          "author": "Gerlinde Hofstätter (Tochter)",
+          "text": "Der Chor ist ihr sehr wichtig. Am Donnerstagabend ist Probe im Pfarrsaal, da geht sie fast nie ab."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Hermine ist 79 und seit 2017 verwitwet, ihr Mann Alois ist an einem Herzleiden gestorben. Tochter Gerlinde Hofstätter wohnt mit ihrem Mann Robert ebenfalls in Oberschwand, etwa fünf Minuten entfernt. Sohn Franz hat den elterlichen Hof übernommen und lebt dort mit seiner Familie. Hermine hat drei Enkelkinder."
+        },
+        {
+          "topic": "Früheres Leben",
+          "text": "Hermine hat über vierzig Jahre mit Alois den Lehnerhof bewirtschaftet, Milchvieh und Ackerbau. Nach der Hofübergabe ist sie in ein kleines Haus im Ortszentrum von Oberschwand gezogen. Sie kocht und konserviert vieles noch so, wie sie es von ihrer Mutter gelernt hat."
+        },
+        {
+          "topic": "Kirchenchor",
+          "text": "Hermine singt seit über dreißig Jahren im Kirchenchor Oberschwand, Stimme Alt. Probe ist donnerstags um 19 Uhr im Pfarrsaal. Chorleiter ist Herr Pichler, den sie als genau und manchmal streng beschreibt."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Sie hat eine Parzelle in der Kleingartenanlage am Mühlbach, Parzelle 14. Dort baut sie Fisolen, Paradeiser, Zucchini, Kraut und Kräuter an. Ihre Gartennachbarin ist Frau Wiesinger, mit der sie sich gut versteht und Pflanzen tauscht."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Rechtes Knie macht seit dem Frühjahr Beschwerden, besonders nach längerem Bücken oder Knien im Garten. Hausarzt ist Dr. Aigner in Oberschwand."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Hermine erzählte, dass Frau Wiesinger ihr Setzlinge von Wintersalat angeboten hat. Sie überlegte, wo sie in der Parzelle noch Platz dafür hat, und erwähnte, dass die Fisolen heuer besonders gut tragen.",
+          "notes": [
+            "Fisolen tragen heuer sehr reichlich",
+            "Frau Wiesinger bringt Wintersalat-Setzlinge vorbei",
+            "Will am Wochenende ein Beet für den Salat freimachen"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Nach der Messe sprach Hermine über die Vorbereitung des Chors für das Erntedankfest. Herr Pichler hat eine neue Messe ausgewählt, die sie stellenweise schwierig findet. Am Nachmittag war Gerlinde mit den Enkeln zum Kaffee bei ihr.",
+          "notes": [
+            "Chor probt eine neue Messe für Erntedank",
+            "Findet einige Stellen im Alt schwierig",
+            "Gerlinde und Enkel waren am Sonntag zu Besuch"
+          ]
+        },
+        {
+          "date": "Freitag, vor 6 Tagen",
+          "summary": "Hermine erwähnte, dass ihr das Knie nach einem langen Vormittag im Garten weh getan hat. Sie wollte es ein paar Tage ruhiger angehen lassen und hat es mit Topfenwickel versucht.",
+          "notes": [
+            "Knie schmerzte nach langer Gartenarbeit",
+            "Hat Topfenwickel gemacht",
+            "Wollte sich ein paar Tage schonen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:40",
+        "text": "Guten Morgen, Mira. Na, i bin heut scho seit siebne auf, war scho im Garten draußen, weil's in der Fruah no so schön kühl is."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:40",
+        "text": "Guten Morgen, Hermine! Da warst du ja schon fleißig. Was hast du denn heute draußen gemacht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:41",
+        "text": "Fisolen hab i brockt. A ganzer Kübel voll. Heuer tragen's wie verrückt, i woaß gar net wohin damit."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:41",
+        "text": "Ein ganzer Kübel, das ist eine schöne Ernte. Willst du sie gleich verkochen oder einen Teil einlegen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:43",
+        "text": "Einlegen möcht i's, sauer. Aber i hab des Rezept von meiner Mutter nimmer gfunden. Wie viel Essig nimmt ma da aufs Wasser?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:43",
+        "text": "Üblich ist etwa ein Teil Essig auf zwei Teile Wasser, dazu pro Liter ungefähr ein Esslöffel Salz und zwei Esslöffel Zucker. Die Fisolen vorher ein paar Minuten blanchieren, dann bleiben sie schön grün."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:45",
+        "text": "Ja, so ungefähr hab i's eh im Kopf ghabt. Und a bissl Dille und a Knoblauchzehen dazu, so hat's die Mutter gmacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:45",
+        "text": "Dille und Knoblauch passen wunderbar dazu. Hast du genug Gläser daheim, oder musst du noch welche besorgen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:47",
+        "text": "Gläser hab i gnua, im Keller stehen no a Haufen vom letzten Jahr. Nur bei de Deckel muss i schaun, ob de no dicht san."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:47",
+        "text": "Ja, bei den Deckeln lohnt sich ein genauer Blick, die Gummierung wird mit der Zeit spröde. Neue bekommt man meistens im Lagerhaus oder im Haushaltsgeschäft."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:50",
+        "text": "Na, die Gerlinde fahrt eh am Nachmittag in d' Stadt eini, de soll ma welche mitnehmen. Und am Abend is ja Chorprob, bis dahin muss i fertig sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:50",
+        "text": "Das klingt nach einem guten Plan, dann sind die Gläser am Nachmittag gefüllt und du hast den Abend frei für die Probe. Was singt ihr denn gerade?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:52",
+      "text": "Für Erntedank üben ma, de neue Messe. Der Pichler is heuer recht streng. Aber sag, wie lang muss i de Gläser nachher im Wasserbad drinlassen?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "rationale": "Clean condition. A typical practical late-summer morning: a former farmer with a big bean harvest from her allotment wants to pickle Fisolen the way her mother did, asks for ratios, checks jars and lids, delegates buying new lids to her daughter in the same village, and keeps the evening choir rehearsal in mind. The final turn answers the companion's question briefly and moves back to a concrete preserving question, consistent with memory (choir, Pichler, Erntedank mass, abundant beans, daughter Gerlinde). Light Mühlviertel color (brockt, heuer, gnua, eini, Fisolen) without phonetic overload; no disturbance."
+  }
+}

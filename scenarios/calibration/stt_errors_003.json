@@ -1,0 +1,205 @@
+{
+  "id": "stt_errors_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 4,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "9fd8c6489d688216d1f669b3d2c6250a4869d04a0cc9cb628ae4d23a3dba1768",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "stt_errors_003",
+    "set": "calibration",
+    "condition": "stt_errors",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 297,
+    "time_of_day": "später Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Schrebergarten",
+      "Briefmarken"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 12,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "Bruder im Pflegeheim",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Roswitha",
+    "last_name": "Schöberl",
+    "side_older": [
+      "Alma",
+      "Erhard",
+      "Renate",
+      "Bernhard"
+    ],
+    "side_younger": [
+      "Sabine",
+      "Tobias",
+      "Edith",
+      "Jakob"
+    ],
+    "side_surnames": [
+      "Reindl",
+      "Pammer"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Roswitha Schöberl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 297
+      },
+      "time_of_day": "Sonntag, 21:38",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sabine (Heimhilfe)",
+          "text": "Frau Schöberl soll den rechten Arm nicht über Schulterhöhe heben und die Übungen von der Physiotherapie täglich machen. Schwere Gießkannen im Garten bitte nur halb voll."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Roswitha Schöberl, 81, seit vielen Jahrzehnten geschieden, keine Kinder. War Landwirtin auf einem kleinen Hof, den sie vor zwanzig Jahren verkauft hat. Wohnt seither allein in einem kleinen Haus im Ort."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihr älterer Bruder Erhard, 86, lebt seit einem Schlaganfall im vergangenen Jahr im Pflegeheim in der Bezirksstadt. Roswitha fährt jeden Sonntag mit dem Bus hin und bringt meistens etwas Selbstgebackenes mit."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ist im Februar auf dem Glatteis gestürzt und hat sich die rechte Schulter schwer geprellt. Macht Physiotherapie-Übungen, bei feuchtem Wetter tut die Schulter mehr weh."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Hat eine Parzelle in der Kleingartenanlage am Rand der Bezirksstadt mit Rosen, Beerensträuchern und einem kleinen Gartenhüttl. Der Gartennachbar Herr Reindl hilft ihr bei schweren Arbeiten."
+        },
+        {
+          "topic": "Briefmarken",
+          "text": "Sammelt seit ihrer Kindheit österreichische Briefmarken. Hat damit gemeinsam mit Erhard angefangen, der früher selbst gesammelt hat."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Roswitha erzählte, dass sie für den Sonntagsbesuch bei Erhard Vanillekipferl backen will, weil er die am liebsten mag. Sie meinte, das Ausrollen sei mit der Schulter mühsam, sie mache es aber trotzdem.",
+          "notes": [
+            "Will Vanillekipferl für Erhard backen",
+            "Schulter macht das Teigrollen mühsam",
+            "Besuch bei Erhard am Sonntag"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Roswitha war im Schrebergarten und hat mit Herrn Reindl die letzten Äpfel geerntet. Sie sprach darüber, was vor dem Winter noch zu tun ist: Rosen einwintern, Wasser abdrehen, das Hüttl zusperren.",
+          "notes": [
+            "Äpfel mit Herrn Reindl geerntet",
+            "Rosen müssen noch eingewintert werden",
+            "Hüttl muss vor dem Winter zugesperrt werden"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:38",
+        "text": "Na, Mira, bist no munter? I kann net schlafen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ich bin da, Roswitha. Was hält dich denn wach?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:39",
+        "text": "Ah, d'Schulter halt, wenn's so feucht is. Und i war heut beim Erhard drin, des geht ma no a bissl nach."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kann ich gut verstehen. Wie ist es ihm denn heute gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:42",
+        "text": "Recht guat eigentlich. I hab Alma die Kipferl mitbracht, de mag er so gern, und er hat glei zwoa gessen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass er mit Appetit gegessen hat. Die Kipferl hast du ja extra für ihn gebacken."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:44",
+        "text": "Jo eh. Des Ausrolln is mit der Schulter a Gfrett, aber für eahm mach i des scho."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du dir viel Mühe gemacht, und es hat sich gelohnt."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:48",
+        "text": "In da Früh war i no kurz im Garten draußen. De Rosen hab i jetzt ein Winter, fehlt nur no des Hüttl."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist der Garten ja fast fertig für den Winter. Das Hüttl kann sicher noch ein paar Tage warten."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:52",
+        "text": "Jetzt sitz i no a bissl bei de Briefmarken. Der Erhard hat ma heut sei oids Album mitgeben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja ein besonderes Geschenk. Was ist denn da alles drin?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:55",
+      "text": "Lauter alte Marken aus de Fünfzgerjahr, a paar san no auf de Kuverts drauf. I glaub, er will des herschenken, solang er no kann. Des hat mi scho a bissl hergnommen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Alma",
+        "type": "stt_phonetic"
+      },
+      {
+        "turn_index": 8,
+        "span": "ein Winter",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Two phonetic recognition errors in the history: dialect 'eahm' (ihm, him) is heard as the name 'Alma', which invents a person who does not exist in memory; and the participle 'eingwintert' is split at the wrong word boundary into 'ein Winter'. Both match how German STT handles soft, dialect speech. The companion's history turns just follow the plausible meaning (cookies for Erhard, roses winterized). The final turn is clean and emotionally meaningful, so the reply should respond to the brother giving away his album, without mentioning an 'Alma'."
+  }
+}

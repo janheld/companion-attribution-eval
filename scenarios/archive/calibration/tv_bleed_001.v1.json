@@ -1,0 +1,166 @@
+{
+  "id": "tv_bleed_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "e2074b9e71c41ba52ef1bb5f0559516a0f60440acc62d259a62bd4c74d20382e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "8cd20af165a925e2eabc94c4cb25b3ffa47f094d43c08f7b625a7ca3cd7073f1",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "tv_bleed_001",
+    "set": "calibration",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 167,
+    "time_of_day": "früher Morgen",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Seniorenturnen",
+      "Pfarre"
+    ],
+    "former_job": "Busfahrer",
+    "history_turns": 10
+  },
+  "content": {
+    "user_context": {
+      "name": "Franz Hölzl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 167
+      },
+      "time_of_day": "Donnerstag, 05:50",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Manuel Hölzl (Sohn)",
+          "text": "Papa hat seit dem Sommer immer wieder Schmerzen im rechten Knie. Orthopädentermin bei Dr. Wiesinger in Freistadt am 14. Oktober, bitte gelegentlich dran erinnern. Er übertreibt es gern beim Turnen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Beruf",
+          "text": "Franz war 38 Jahre Busfahrer bei einem regionalen Busunternehmen, zuletzt auf der Linie zwischen Hinterberg im Mühlkreis und Linz. Seit 2009 in Pension. Steht aus Gewohnheit immer noch um Viertel nach fünf auf."
+        },
+        {
+          "topic": "Familie",
+          "text": "Seit 1997 von Gertraud (Gerti) geschieden, kaum Kontakt, aber kein Groll. Sohn Manuel (51) wohnt mit Frau Sandra in Linz-Urfahr, Enkelin Lena (17) macht gerade den Führerschein, Franz übt manchmal mit ihr."
+        },
+        {
+          "topic": "Seniorenturnen",
+          "text": "Jeden Donnerstag um 9 Uhr Seniorenturnen im Pfarrsaal Hinterberg, geleitet von Frau Brunner. Franz ist einer von drei Männern in der Gruppe und nimmt das mit Humor."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Franz hilft in der Pfarre Hinterberg mit, vor allem bei Festen. Er fährt den Pfarrbus, wenn ältere Leute aus dem Seniorenheim zu Messen oder Ausflügen gebracht werden. Guter Kontakt zum Mesner Alois Pichler."
+        },
+        {
+          "topic": "Alltag",
+          "text": "Lebt allein in einem kleinen Haus am Ortsrand. Hausarzt ist Dr. Leitner im Ort. Frühstückt meistens Schwarzbrot mit Butter und Honig, trinkt zwei Häferl Kaffee. In der Früh läuft oft nebenbei der Fernseher."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag",
+          "summary": "Franz erzählte, dass er am Wochenende mit Enkelin Lena eine Übungsfahrt Richtung Bad Leonfelden gemacht hat. Er war zufrieden mit ihr, nur beim Einparken müsse sie noch üben. Er überlegte, ob er ihr zum Führerschein etwas schenken soll.",
+          "notes": [
+            "Übungsfahrt mit Lena am Samstag, lief gut",
+            "Lena hat Schwierigkeiten beim Einparken",
+            "Überlegt Geschenk zum Führerschein, noch keine Idee"
+          ]
+        },
+        {
+          "date": "Dienstag",
+          "summary": "Gespräch über das Knie. Franz sagte, es zwicke vor allem beim Stiegensteigen, er wolle aber trotzdem weiter zum Turnen gehen. Erwähnte, dass am kommenden Sonntag Erntedank ist und er wieder den Pfarrbus fahren soll.",
+          "notes": [
+            "Rechtes Knie schmerzt beim Stiegensteigen",
+            "Will trotzdem zum Turnen",
+            "Erntedank am Sonntag, Franz fährt den Pfarrbus für das Seniorenheim"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "05:52",
+        "text": "Guten Morgen Mira. Na, bin eh scho wieder munter seit viertel sechs. Des geht ma halt nimmer aus, nach so vül Jahr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:52",
+        "text": "Guten Morgen, Franz! Der Busfahrer-Wecker im Kopf, gell. Hast gut geschlafen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "05:54",
+        "text": "Joa, passt eh. Des Knie hat si a bissl gmeldet in der Nacht, aber heit is eh Turnen, da wird's scho wieder."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:54",
+        "text": "Heute um neun im Pfarrsaal, gell. Mach halt bei den Übungen nur so viel, wie das Knie mitmacht, Frau Brunner versteht das sicher."
+      },
+      {
+        "role": "user",
+        "timestamp": "05:57",
+        "text": "Na freilich. Sag amal, soll i vorher was gscheit essen oder lieber net so vül? Letztes Mal war ma a bissl flau."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:57",
+        "text": "Lieber etwas Leichtes, aber nicht nüchtern hingehen. Dein Schwarzbrot mit Honig passt gut, und trink ein Glas Wasser dazu, nicht nur Kaffee."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:00",
+        "text": "Guat. Und am Samstag muss i zum Alois, an Schlüssel für'n Pfarrbus holen, wegen Erntedank am Sonntag. Den vergiss i sonst wieder."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:00",
+        "text": "Soll ich dich am Samstag daran erinnern? Sag mir einfach, wann du beim Alois sein willst."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:02",
+        "text": "Ja, mach des. Um zehne beim Pfarrhof, hat er gsagt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:02",
+        "text": "Passt, Samstag um zehn, Schlüssel für den Pfarrbus beim Alois im Pfarrhof. Ich erinnere dich am Samstag in der Früh."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:05",
+      "text": "Danke dir. Na, jetzt trink i no mei zweites Häferl und dann schau i, dass i mi herricht. Sie haben mich die ganze Zeit belogen, Herr Doktor, und das wissen Sie ganz genau."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "Sie haben mich die ganze Zeit belogen, Herr Doktor, und das wissen Sie ganz genau.",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "Franz's own words (second coffee, getting ready for Turnen) are coherent Upper Austrian dialect. STT then merges a line of dramatic dialogue from a crime-series rerun on the TV that is often on in the morning per memory: standard German, Sie-form, theatrical accusation. The 'Herr Doktor' creates a plausible but false link to his GP Dr. Leitner or the upcoming orthopedist appointment, tempting a misreading, yet the register shift and the absence of any context make it clear on careful reading that it is not Franz speaking."
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "incoherent_user_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 2,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "c6a26db7505e563f6fb2dd9161ccbd8886b3d341b1a3f1858e049f70aa98a441",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "incoherent_user_003",
+    "set": "calibration",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 189,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Musikverein"
+    ],
+    "former_job": "Pfarrsekretärin",
+    "history_turns": 12,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Rosa Hinterleitner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 189
+      },
+      "time_of_day": "Sonntag, 12:00",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Thomas (Neffe)",
+          "text": "Tante Rosa hört ohne Hörgerät sehr schlecht. Wenn sie sagt, sie versteht nichts, ist meistens die Batterie leer. Ich wohne unten im Haus und schau jeden Tag vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Rosa ist 79, war 38 Jahre Pfarrsekretärin im Pfarramt des Ortes. Nie verheiratet, lebt allein in der oberen Wohnung des Hauses, das früher ihren Eltern gehörte."
+        },
+        {
+          "topic": "Familie",
+          "text": "Neffe Thomas (52) wohnt mit seiner Frau Karin im Erdgeschoss desselben Hauses. Karin bringt Rosa am Sonntag oft ein Mittagessen hinauf. Thomas erledigt Reparaturen und Gartenarbeit."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörig auf beiden Ohren, trägt seit vier Jahren Hörgeräte. Wechselt die Batterien selbst. Die Akustikerin ist in der Bezirksstadt."
+        },
+        {
+          "topic": "Sozialmarkt",
+          "text": "Arbeitet ehrenamtlich im Sozialmarkt, jeden Mittwoch und Samstag am Vormittag, meistens bei der Warenannahme. Ist dort seit der Gründung dabei. Sonntags ist der Sozialmarkt geschlossen."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Hat früher im Musikverein Klarinette gespielt, ist jetzt unterstützendes Mitglied. Beim Cäcilienkonzert in drei Wochen hat sie den Kartenverkauf übernommen. Eintritt 15 Euro, für Mitglieder 12 Euro."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Rosa hat vom Obmann des Musikvereins ein Kuvert mit den vorbestellten Karten für das Cäcilienkonzert bekommen. Sie wollte sich eine Liste machen, wer schon bezahlt hat.",
+          "notes": [
+            "Kartenverkauf für das Cäcilienkonzert übernommen",
+            "Plant eine Liste der Bezahlungen",
+            "Kuvert mit Karten liegt bei ihr zu Hause"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Rosa erzählte vom Dienst im Sozialmarkt. Es kam viel Gemüse von einem Bauern, sie hat beim Sortieren geholfen. Am Nachmittag hat sie die Hörgerätbatterien nachgekauft, weil der Vorrat leer war.",
+          "notes": [
+            "Dienst im Sozialmarkt am Mittwochvormittag",
+            "Viel gespendetes Gemüse sortiert",
+            "Neue Hörgerätbatterien gekauft"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:04",
+        "text": "Servus Mira. I hab grad gessn, d'Karin hat ma a Schnitzl auffabracht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Rosa, das ist aber fein von ihr. Hat's dir geschmeckt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:06",
+        "text": "Joa, guat wars. Nur a bissl vü Erdäpfelsalat, den hob i ma für auf d'Nacht aufghobn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du heute Abend gleich wieder was Gutes. Warst du am Vormittag unterwegs?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:08",
+        "text": "In da Kirchn, freilich. Des Hörgerät hab i scho in da Früh mit da neuen Batterie eingsetzt, drum hab i heut alles guat ghört. D'Musi hat gspüt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass der Musikverein in der Messe gespielt hat und du alles mitbekommen hast."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:11",
+        "text": "Ja, de warn guat beinand. Und de Kartn fürs Cäcilienkonzert, de liegn bei mir im Kuvert, de muass i no zähln."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du hast ja den Kartenverkauf übernommen. Wie viele sind es denn ungefähr?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "An de hundert, glaub i. Jetzt muass i mi eh bald richtn, um oans sperr ma in Sozialmarkt auf, und heut kimmt de Lieferung vom Großmarkt, do brauchns jede Hand."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hundert Karten, das ist ein ordentlicher Stapel. Da lohnt es sich, in Ruhe durchzuzählen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Joa. Fünfzehn Euro is da Eintritt, für Mitglieder zwölf, und des Kuvert, wo hob i des jetzt, de Hollerstauden beim Zaun ghört a amoi zruckgschnittn, de wachst ma scho übern Weg."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fünfzehn und zwölf Euro, das kann man sich gut merken. Und den Holler kann man im Winter gut zurückschneiden, da ist noch Zeit."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:21",
+      "text": "Des sog i im Thomas, der hot eh a Sag. Du, Mira, wos moanst, soll i de Kartn heut no zähln oder liaba morgn in da Fruah, wenn i ausgschlafn bin?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Jetzt muass i mi eh bald richtn, um oans sperr ma in Sozialmarkt auf, und heut kimmt de Lieferung vom Großmarkt, do brauchns jede Hand.",
+        "type": "genuine_incoherence"
+      },
+      {
+        "turn_index": 10,
+        "span": "und des Kuvert, wo hob i des jetzt, de Hollerstauden beim Zaun ghört a amoi zruckgschnittn, de wachst ma scho übern Weg.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Two genuine signs in Rosa's own Upper Austrian voice, spread over a long Sunday chat. In turn 8 she believes she has to open the Sozialmarkt at one o'clock for a delivery, although it is Sunday, she was at Mass this morning, and memory says the market is closed on Sundays and her shifts are Wednesday and Saturday mornings (day confusion that matters, since she would set off). In turn 10 she loses the thread mid-sentence while looking for the ticket envelope and continues with the elder bush by the fence. Both continue her own sentence, dialect and first-person perspective, so they cannot be TV, a neighbor or an STT error; the hearing aid is explicitly working today. The final turn is clean and practical."
+  }
+}

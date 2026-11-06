@@ -1,0 +1,160 @@
+{
+  "id": "contact_001",
+  "set": "calibration",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "a9756f3f77b73d1bc967295d9940adf8d2e379cacf459da99693cfba1937acc0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "dbd47485e9aa2619135000ad6e63fb211a22ffc396f4ca21d99184e19e5abe08",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "contact_001",
+    "set": "calibration",
+    "condition": "contact",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 312,
+    "time_of_day": "früher Morgen",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "call",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "interests": [
+      "Enkelkinder",
+      "Wandern"
+    ],
+    "former_job": "Schlosser",
+    "history_turns": 10
+  },
+  "content": {
+    "user_context": {
+      "name": "Josef Hackl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 312
+      },
+      "time_of_day": "Dienstag, 06:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Martina Pühringer (Tochter)",
+          "text": "Papa geht oft allein wandern. Bitte erinnern, dass er das Handy mitnimmt und mir sagt, wohin er geht. Das linke Knie macht ihm bergab manchmal Probleme."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Josef ist 76 und verheiratet mit Rosa (74). Rosa ist viel unterwegs: Kirchenchor, Pfarrcafé und derzeit oft bei ihrer Schwester Hermine in Linz-Urfahr. Tochter Martina wohnt mit Familie in Freistadt, Sohn Gerhard lebt in Salzburg."
+        },
+        {
+          "topic": "Enkelkinder",
+          "text": "Martinas Kinder sind Lukas (16, macht eine Lehre als KFZ-Techniker, fährt ein Moped) und Lena (12). Josef bastelt gern mit Lukas in der Werkstatt in der Garage."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Josef war über 40 Jahre Schlosser, zuletzt Vorarbeiter in einer Landmaschinenwerkstatt in Kefermarkt. Hat noch eine gut ausgestattete Werkstatt zu Hause."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Geht mehrmals pro Woche wandern, am liebsten auf den Hirschkogel hinter dem Ort. Ist beim Wanderverein Liebenau-Kogl, Organisator der Gruppenwanderungen ist sein Freund Ferdinand 'Ferdl' Mayrhofer, der gern früh morgens anruft."
+        },
+        {
+          "topic": "Wohnort",
+          "text": "Lebt in einem Einfamilienhaus in St. Leonhard am Kogl im unteren Mühlviertel."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag",
+          "summary": "Josef erzählte, dass Rosas Schwester Hermine nach einer Hüftoperation im Krankenhaus in Linz liegt und Rosa sie fast täglich besucht. Er kocht in dieser Zeit öfter selbst und fragte nach einem einfachen Rezept für Erdäpfelgulasch.",
+          "notes": [
+            "Hermine (Rosas Schwester) nach Hüft-OP im Krankenhaus Linz",
+            "Rosa fährt oft nach Linz",
+            "Josef kocht derzeit mehr selbst, Erdäpfelgulasch ausprobiert"
+          ]
+        },
+        {
+          "date": "Sonntag",
+          "summary": "Josef berichtete von einer Wanderung mit dem Wanderverein. Für kommenden Samstag ist eine größere Tour geplant, Ferdl organisiert die Fahrgemeinschaften. Das linke Knie hat beim Abstieg etwas gezwickt, er will künftig die Stöcke mitnehmen.",
+          "notes": [
+            "Vereinswanderung am kommenden Samstag, Ferdl organisiert",
+            "Knie beim Abstieg gezwickt",
+            "Will Wanderstöcke mitnehmen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Guten Morgen, Mira. Bin heut scho seit fünfe munter, die Rosa is um halb sechse weg nach Linz."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:12",
+        "text": "Guten Morgen, Josef! Da war ja früh Betrieb bei euch. Fährt die Rosa wieder zur Hermine?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:14",
+        "text": "Ja, zur Hermi. Die wird heut entlassen, und die Rosa bringt's heim nach Urfahr. Vorm Abend is die net zruck."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:14",
+        "text": "Schön, dass die Hermine heim darf. Dann hast du heute das Haus für dich – hast du schon was vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:17",
+        "text": "Na, i wollt eigentlich auf'n Hirschkogel auffi, aber schau ma amal, wia's Wetter wird. Draußen is no ganz neblig."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:17",
+        "text": "Um diese Jahreszeit hebt sich der Nebel oft erst am Vormittag. Vielleicht erst gegen zehn losgehen? Und denk ans Handy und die Stöcke."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:21",
+        "text": "Jaja, des Handy. Die Martina is wia ihr Mama. Aber eh recht. Du, was nimmt ma da am besten mit zur Jause, i hab no a Geselchtes und a Schwarzbrot daheim."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:21",
+        "text": "Geselchtes mit Schwarzbrot ist doch eine gute Jause. Dazu ein Apfel und eine Thermoskanne Tee, oben wird's um die Zeit frisch."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:25",
+        "text": "Tee, ja. Oder an Kaffee. Und am Nachmittag kommt eventuell der Lukas vorbei, beim Moped is die Kette ganz locker, des schau ma uns z'samm an."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:25",
+        "text": "Da ist er bei dir als altem Schlosser genau richtig. Dann passt die Wanderung am Vormittag gut, und am Nachmittag hast du Zeit für ihn."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:28",
+      "text": "Ja, genau so mach ma's. Geh, jetzt läut des Telefon, um die Zeit. Des is sicher der Ferdl wegen Samstag, der ruft immer so früh an. Der redt aber eh wieder a halbe Stund."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "call",
+    "rationale": "Clean early-morning conversation with a retired Mühlviertel locksmith whose wife is away for the day: planning a hike, a simple snack, and helping his grandson with a moped chain in the afternoon. All details match memory (Rosa's sister Hermine, daughter's caregiver note about the phone and knee, grandson Lukas, the hiking club). The final turn brings a real call: the phone is ringing right now, probably from his friend Ferdl about Saturday's hike. His dry remark that Ferdl always talks for half an hour leaves the companion a real choice between telling him to answer and keeping the chat going."
+  }
+}

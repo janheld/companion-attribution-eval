@@ -1,0 +1,166 @@
+{
+  "id": "recovery_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "61f5e137c9d31f8f4d8dbbe77ba1d4815d2ac54ed83e671f89d575f901ea9581",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "788882191e31c781eb3c7e1ca2c8d2fa2d354c1fd3e475d892788edeeb7880c9",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "recovery_001",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 317,
+    "time_of_day": "früher Morgen",
+    "disturbance_position": "history",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Kochen und Backen",
+      "Garten"
+    ],
+    "former_job": "Bäckerin",
+    "history_turns": 10
+  },
+  "content": {
+    "user_context": {
+      "name": "Rosemarie Leitner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 317
+      },
+      "time_of_day": "Samstag, 05:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sabine Leitner (Tochter)",
+          "text": "Mama nimmt morgens ihre Blutdrucktablette, meistens nach dem ersten Kaffee. Wenn sie beim Backen ist, vergisst sie es manchmal – gerne beiläufig daran erinnern, aber bitte nicht drängen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Beruf",
+          "text": "Rosemarie war fast vierzig Jahre Bäckerin, zuletzt in der Bäckerei Mayrhofer in Hollerbach im Mühlkreis. Steht bis heute gewohnheitsmäßig gegen fünf Uhr auf."
+        },
+        {
+          "topic": "Familie",
+          "text": "Geschieden seit über dreißig Jahren, kein Kontakt zum Ex-Mann. Tochter Sabine wohnt in Linz und kommt etwa jedes zweite Wochenende, Enkel Lukas ist 9 Jahre alt."
+        },
+        {
+          "topic": "Kochen und Backen",
+          "text": "Bäckt gern Germteig-Sachen: Buchteln, Germzopf, Kipferl. Lukas mag Buchteln mit Powidl am liebsten. Arbeitet aus Gewohnheit mit frischer Germ, nicht mit Trockengerm."
+        },
+        {
+          "topic": "Haus und Garten",
+          "text": "Lebt allein in einem kleinen Haus mit Kachelofen am Ortsrand von Hollerbach. Gemüsegarten mit Paradeisern, Bohnen und Kräutern, im Herbst wird der Garten winterfest gemacht."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Nachbarin Frau Wögerbauer schaut regelmäßig vorbei, die beiden tauschen Gartenzeug und Gebäck."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch",
+          "summary": "Rosemarie erzählte, dass sie die letzten Paradeiser abgeerntet und die grünen zum Nachreifen in Zeitungspapier eingewickelt hat. Sie plant, die Beete mit Laub abzudecken.",
+          "notes": [
+            "Letzte Paradeiser geerntet, grüne reifen im Keller nach",
+            "Will Beete am Wochenende mit Laub abdecken",
+            "Frau Wögerbauer hat ihr Kürbisse gebracht"
+          ]
+        },
+        {
+          "date": "Donnerstag",
+          "summary": "Rosemarie erwähnte, dass Sabine und Lukas am Samstagnachmittag zu Besuch kommen. Sie überlegte, was sie backen soll, und entschied sich für Buchteln mit Powidl.",
+          "notes": [
+            "Besuch von Sabine und Lukas am Samstagnachmittag",
+            "Will Buchteln mit Powidl backen",
+            "Powidl ist noch vom Vorjahr im Keller"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "05:42",
+        "text": "Guten Morgen Mira. Bin schon seit fünfe auf, wie halt immer. Des kriegst nimmer raus, des frühe Aufstehen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:42",
+        "text": "Guten Morgen, Rosemarie! Nach so vielen Jahren in der Backstube sitzt das wohl einfach. Was steht denn heute so früh schon an?"
+      },
+      {
+        "role": "user",
+        "timestamp": "05:44",
+        "text": "I mach an Germteig für die Buchteln. Die Sabine kommt ja am Nachmittag mitn Lukas, und der mag's eh nur mit Powidl."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:44",
+        "text": "Buchteln mit Powidl, da wird sich der Lukas freuen. Nimmst du wieder frische Germ?"
+      },
+      {
+        "role": "user",
+        "timestamp": "05:47",
+        "text": "Sicher, an halben Würfel auf a halbes Kilo Mehl. Aber die Milch hab i a bissl z'warm erwischt, glaub i. Macht des der Germ was?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:47",
+        "text": "Lauwarm ist ideal, so um die 35 Grad. Wenn sie richtig heiß war, lass sie kurz abkühlen, bevor die Germ hineinkommt, sonst geht der Teig schlecht auf."
+      },
+      {
+        "role": "user",
+        "timestamp": "05:51",
+        "text": "Na, i hab's eh mitn Finger probiert, passt scho. Jetzt is er abgeschlagen und schön glatt. Draußen is no stockfinster."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:51",
+        "text": "Dann ist das Wichtigste schon geschafft. Wo lässt du ihn gehen, beim Ofen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "05:58",
+        "text": "Aufn Kachelofen stell i eam, mit an Tuch drüber, da geht er am besten im Mühlviertel und im Innviertel zunächst dichter Nebel, Sichtweiten teils unter hundert Metern, ab Mittag von Westen her Regen, die Schneefallgrenze sinkt auf achthundert Meter."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:58",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "05:59",
+      "text": "Geh, des war ja's Radio, der Wetterbericht. Mir geht's eh guat, i bin seit fünfe munter. Na, dann wird's heut nix mit der Wäsch draußen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "im Mühlviertel und im Innviertel zunächst dichter Nebel, Sichtweiten teils unter hundert Metern, ab Mittag von Westen her Regen, die Schneefallgrenze sinkt auf achthundert Meter.",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "A former baker is up before six making yeast dough while the early-morning regional radio plays. In turn 8 the radio weather forecast merges into her sentence without a boundary ('...da geht er am besten im Mühlviertel...'), exactly as STT would transcribe continuous audio. The register (Sichtweiten, Schneefallgrenze, regional forecast phrasing) is clearly broadcast, not her dialect. The scripted companion turn misreads this as confusion; the final turn is her short, dry correction in Upper Austrian dialect, adding a practical reaction to the forecast (no laundry outside), which gives the companion a natural way to recover."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "clean_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "468e2ba6d138ef3dd3ebdf6bfb3ff6b2a881c9d47b2860b2df480cebda0db26a",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "815d1a7fdd04cf7799fe740a985d94390a95365faf193dbedab69608e5808059",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "clean_002",
+    "set": "calibration",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 89,
+    "time_of_day": "Mittag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Volkstanz",
+      "Chor"
+    ],
+    "former_job": "Bäckerin",
+    "history_turns": 12
+  },
+  "content": {
+    "user_context": {
+      "name": "Renate Haberl",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 89
+      },
+      "time_of_day": "Mittwoch, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sabine Gruber (Tochter)",
+          "text": "Mama hat seit dem Frühjahr manchmal Probleme mit dem rechten Knie. Bitte ab und zu nachfragen, ob sie beim Tanzen gut auf sich aufpasst. Sie sagt es von sich aus selten."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Renate ist seit 1998 von Herbert Haberl geschieden, kaum Kontakt. Tochter Sabine Gruber lebt mit Mann und zwei Kindern (Lena, 14, und Jonas, 11) in Wels und kommt etwa alle zwei Wochen am Sonntag. Sohn Thomas lebt in Graz und ruft meist am Mittwochabend an."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Renate war über 35 Jahre Bäckerin, zuletzt in der Bäckerei Moser in Thalbach, bis zur Pension mit 60. Sie backt bis heute gern und viel, vor allem Germgebäck und Strudel, und wird bei Festen oft um Gebäck gebeten."
+        },
+        {
+          "topic": "Volkstanz",
+          "text": "Seit über 20 Jahren Mitglied in der Volkstanzgruppe Thalbach. Probe jeden Donnerstagabend im Pfarrsaal. Ihre engste Freundin dort ist Ingrid Schöberl, mit der sie auch Tanzpartnerin bei den Damentänzen ist."
+        },
+        {
+          "topic": "Chor",
+          "text": "Singt im Alt im Kirchenchor St. Ulrich. Probe Dienstagabend. Chorleiter ist Herr Wimmer. Sie mag besonders die Marienlieder im Mai."
+        },
+        {
+          "topic": "Wohnen",
+          "text": "Lebt allein in einer Erdgeschosswohnung mit kleinem Balkon am Ortsrand von Thalbach. Fährt noch selbst Auto, kauft meist beim Nahversorger im Ort ein."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag",
+          "summary": "Renate erzählte, dass sie am Wochenende bei Sabine in Wels war und mit den Enkeln Mensch ärgere dich nicht gespielt hat. Jonas habe ihr stolz sein Zeugnis gezeigt. Danach ging es um das Wetter und darum, dass sie die Balkonblumen gießen muss.",
+          "notes": [
+            "Jonas hatte ein gutes Zeugnis, Renate ist stolz auf ihn",
+            "Besuch bei Sabine in Wels am Sonntag",
+            "Balkonblumen brauchen bei der Hitze täglich Wasser"
+          ]
+        },
+        {
+          "date": "Dienstag",
+          "summary": "Kurzes Gespräch am Vormittag vor der Chorprobe. Renate erwähnte, dass die Volkstanzgruppe am Samstag ihr Sommerfest im Pfarrgarten feiert und sie das Gebäck übernehmen soll. Genaues hatte sie noch nicht entschieden. Ihr Knie sei momentan ruhig.",
+          "notes": [
+            "Sommerfest der Volkstanzgruppe am Samstag im Pfarrgarten",
+            "Renate ist für das Gebäck zuständig",
+            "Chorprobe Dienstagabend",
+            "Knie aktuell beschwerdefrei"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:08",
+        "text": "Mahlzeit, Mira. Ich hab mir grad die Suppe vom Sonntag aufgewärmt, die reicht noch für heute."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:08",
+        "text": "Mahlzeit, Renate! Aufgewärmte Suppe schmeckt am zweiten Tag ja oft noch besser. Was für eine ist es denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "Gemüsesuppe mit Grießnockerl. Die Nockerl sind halt ein bisschen weich geworden, aber passt schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:09",
+        "text": "Das passiert Grießnockerln leider immer, wenn sie in der Suppe liegen bleiben. Hauptsache, sie schmeckt dir."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Du, am Samstag ist ja das Sommerfest von der Tanzgruppe. Ich hab jetzt fix zugesagt, dass ich Buchteln mach. Für so vierzig Leute."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:12",
+        "text": "Vierzig Leute, das ist ordentlich! Aber für eine gelernte Bäckerin ist das wahrscheinlich kein großer Schrecken, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Nein, Schrecken nicht. Früher hab ich ganz andere Mengen gemacht. Aber mein Backofen ist halt klein, da muss ich in drei Durchgängen backen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:14",
+        "text": "Drei Durchgänge, da braucht es einen guten Plan. Machst du den Teig auf einmal oder in mehreren Portionen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "In zwei Portionen. Sonst geht mir der Teig zu weit, bis das letzte Blech drin ist. Ich fang am Freitag nach dem Mittagessen an."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:16",
+        "text": "Das klingt gut durchdacht. Und bei der Füllung, nimmst du Powidl?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:18",
+        "text": "Powidl und ein paar mit Topfen, weil die Ingrid keinen Powidl mag. Den Powidl hab ich noch vom Herbst, selber eingekocht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:18",
+        "text": "Selbst eingekochter Powidl, da werden sich alle freuen. Und dass Ingrid ihre Topfenbuchteln bekommt, ist lieb von dir."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:21",
+      "text": "Kannst du mir eine Liste machen, was ich noch kaufen muss? Mehl hab ich genug, aber Hefe brauch ich, Topfen und Butter auch, glaub ich. Und erinner mich morgen am Vormittag, dass ich einkaufen fahr, weil am Abend ist ja Probe."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "rationale": "Clean midday conversation with a retired baker: she starts with small talk about reheated soup, then plans baking Buchteln for 40 people for her folk-dance group's summer party, drawing on her professional experience (dough portions, small oven, homemade Powidl, a Topfen variant for her friend Ingrid). The final turn is a typical practical request: a shopping list plus a reminder timed around Thursday's dance rehearsal, consistent with memory (Sommerfest on Saturday, Thursday rehearsal, Ingrid). No disturbances, no contact event."
+  }
+}

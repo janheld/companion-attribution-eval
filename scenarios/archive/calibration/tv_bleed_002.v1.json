@@ -1,0 +1,171 @@
+{
+  "id": "tv_bleed_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "8dd8674647423a92f2054990de5ebad7f86000d15a3ce19b15bfc874f448e18e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "c64345d79e5291d3c1c9a9d2539d09aa4b1e7b6cbc2a12340e231b93acf02439",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "tv_bleed_002",
+    "set": "calibration",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 81,
+    "time_of_day": "Vormittag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Kochen und Backen",
+      "Seniorenturnen"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 10
+  },
+  "content": {
+    "user_context": {
+      "name": "Brigitte Aigner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 81
+      },
+      "time_of_day": "Donnerstag, 09:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Thomas Aigner (Sohn)",
+          "text": "Mama hat seit Juli einen neuen Backofen mit Umluft und ist mit den Temperaturen noch unsicher. Wenn sie fragt, gern konkrete Zeiten und Grade nennen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Brigitte ist 74 Jahre alt. Ihr Sohn Thomas lebt mit seiner Frau Katrin in Regensburg und kommt etwa alle zwei Wochen am Sonntag. Enkelin Lena ist 16 und macht gerade eine Ausbildung zur Konditorin, worauf Brigitte sehr stolz ist."
+        },
+        {
+          "topic": "Scheidung",
+          "text": "Brigitte ist seit 1994 von Herbert geschieden. Kaum Kontakt. Sie spricht nicht gern darüber und wechselt dann meist das Thema."
+        },
+        {
+          "topic": "Früherer Beruf",
+          "text": "Brigitte hat bis 2009 einen Milchviehbetrieb geführt, die letzten Jahre allein. Die Flächen sind heute an den Nachbarn Josef Grubmüller verpachtet. Das Haus mit Garten und ein paar Obstbäumen hat sie behalten."
+        },
+        {
+          "topic": "Seniorenturnen",
+          "text": "Dienstags und donnerstags um 14 Uhr Seniorenturnen im Pfarrheim, Übungsleiterin ist Frau Kerschbaumer. Ihre beste Freundin aus der Gruppe ist Hilde Moosbauer."
+        },
+        {
+          "topic": "Kochen und Backen",
+          "text": "Kocht und backt fast täglich, oft auch für andere. Hat viele Rezepte im Kopf, schreibt sie aber selten auf. Der neue Backofen mit Umluft seit Juli bereitet ihr noch Unsicherheit bei Zeiten und Temperaturen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, 14.10.",
+          "summary": "Brigitte erzählte vom Seniorenturnen, bei dem Frau Kerschbaumer neue Übungen mit dem Gymnastikband eingeführt hat. Sie erwähnte, dass Hilde Moosbauer am Freitag 75 wird und sie ihr etwas backen möchte.",
+          "notes": [
+            "Hilde Moosbauer hat am Freitag, 17.10., Geburtstag (75)",
+            "Neue Übungen mit Gymnastikband beim Turnen",
+            "Brigitte will für Hilde einen Kuchen backen, Sorte noch offen"
+          ]
+        },
+        {
+          "date": "Samstag, 11.10.",
+          "summary": "Brigitte hat die letzten Äpfel vom Boskoop-Baum geerntet und im Keller eingelagert. Sie sprach darüber, dass ihr der neue Ofen bei einem Zwetschgenkuchen zu dunkel geworden sei, obwohl sie die gewohnte Temperatur eingestellt hatte.",
+          "notes": [
+            "Boskoop-Äpfel im Keller eingelagert",
+            "Zwetschgenkuchen im neuen Ofen zu dunkel geworden",
+            "Vermutet, dass Umluft heißer ist als ihr alter Ofen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:41",
+        "text": "Guten Morgen, Mira. Ich steh schon seit acht in der Küche, heut ist Backtag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:41",
+        "text": "Guten Morgen, Brigitte! Backtag klingt gut. Was entsteht denn heute bei dir?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:42",
+        "text": "Ein Apfelkuchen mit Streusel. Die Hilde hat ja morgen Geburtstag, und ich hab gesagt, ich bring ihr was vorbei."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:42",
+        "text": "Das freut sie bestimmt. Nimmst du die Äpfel von deinem eigenen Baum?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:44",
+        "text": "Ja, die Boskoop aus dem Keller, die sind jetzt grad richtig. Ich hab schon zwei Kilo geschält im Süden und Osten zunächst zäher Hochnebel, der sich erst am Nachmittag lichtet, sonst sonnig bei acht bis dreizehn Grad"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:44",
+        "text": "Zwei Kilo, da hast du schon ordentlich was geschafft. Boskoop sind ideal zum Backen, schön säuerlich."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:47",
+        "text": "Jetzt muss ich dich was fragen. Im Rezept stehen 250 Gramm Butter für die Streusel, das kommt mir viel vor für ein Blech. Was meinst du?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:47",
+        "text": "Für ein ganzes Blech sind 250 Gramm Butter mit etwa 350 Gramm Mehl und 200 Gramm Zucker ganz üblich. Wenn du es etwas leichter magst, gehen auch 200 Gramm gut."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:49",
+        "text": "Dann nehm ich 200, die Hilde muss eh ein bissl auf ihr Cholesterin schauen. In der Nacht auf Freitag gebietsweise Frost bis minus drei Grad, in Bodennähe auch darunter."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:49",
+        "text": "200 Gramm sind eine gute Wahl, die Streusel werden trotzdem schön mürb und knusprig."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:52",
+      "text": "So, der Teig ist auf dem Blech. Sag, wie lang lass ich den bei Umluft drin? Beim alten Herd hab ich das im Gefühl gehabt, aber mit dem neuen trau ich mich noch nicht so."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "im Süden und Osten zunächst zäher Hochnebel, der sich erst am Nachmittag lichtet, sonst sonnig bei acht bis dreizehn Grad",
+        "type": "weather"
+      },
+      {
+        "turn_index": 8,
+        "span": "In der Nacht auf Freitag gebietsweise Frost bis minus drei Grad, in Bodennähe auch darunter.",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "A kitchen radio's morning weather forecast bleeds into two of Brigitte's turns while she bakes. In turn 4 the forecast is appended without punctuation right after her sentence about peeling apples, as STT would merge continuous audio; in turn 8 it follows as a separate sentence. Both fragments use broadcast phrasing (regional forecast language, 'gebietsweise', 'in Bodennähe') that does not match her personal, practical register, yet nothing marks them. The companion's history turns respond only to her plausible content. The final turn is clean and draws on memory (new convection oven, caregiver note), so the companion should give concrete baking times without referring to frost or fog as if she had said it."
+  }
+}

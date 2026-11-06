@@ -1,0 +1,170 @@
+{
+  "id": "tv_bleed_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "bc022edbe2f04dc96e85a99fc12dbf4ed711909152f45ce6c28b6da6fe05ffc6",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "tv_bleed_001",
+    "set": "calibration",
+    "condition": "tv_bleed",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 286,
+    "time_of_day": "früher Abend",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "interests": [
+      "Radfahren",
+      "Lesen"
+    ],
+    "former_job": "Schlosser",
+    "history_turns": 6,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Patenkind, schreibt Karten",
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Gottlieb",
+    "last_name": "Loidl",
+    "side_older": [
+      "Dora",
+      "Erwin",
+      "Adelinde",
+      "Xaver"
+    ],
+    "side_younger": [
+      "Mara",
+      "Clemens",
+      "Lena",
+      "Erik"
+    ],
+    "side_surnames": [
+      "Krenn",
+      "Grillmayr"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Gottlieb Loidl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut (ab Tag 91)",
+        "days": 286
+      },
+      "time_of_day": "Dienstag, 18:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Dora Loidl (Ehefrau)",
+          "text": "Dienstagabend bin ich immer in der Pfarrbücherei, da isst Gottlieb meistens nur kalt und trinkt zu wenig. Ruhig einmal nachfragen, ob er was Ordentliches gegessen hat."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Gottlieb ist mit Dora verheiratet. Dora ist viel unterwegs: Sie leitet ehrenamtlich die Pfarrbücherei (Dienstagabend und Sonntag nach der Messe) und hilft unter der Woche oft bei ihrer Schwester aus. Die beiden haben einen Sohn, Clemens, der etwa zwei Autostunden entfernt wohnt und alle paar Wochen vorbeikommt."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Erik, 26, ist der Sohn von Gottliebs Nichte und sein Patenkind. Er studiert Forstwirtschaft in der Stadt und ist viel auf Reisen. Von jeder Reise schreibt er Gottlieb eine Postkarte; Gottlieb hebt alle in einer Blechdose in der Küche auf."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Seit zwei Jahren hat Gottlieb eine Hüftprothese links. Die Reha ist gut verlaufen. Seitdem fährt er E-Bike statt dem alten Rennrad. Längeres Stehen auf hartem Boden mag die Hüfte nicht."
+        },
+        {
+          "topic": "Beruf und Werkstatt",
+          "text": "Gottlieb war 38 Jahre Schlosser in einer Landmaschinenwerkstatt. In der Garage hat er noch eine kleine Werkstatt und richtet Nachbarn gern Gartentore, Scharniere oder Fahrräder her."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Radfahren, am liebsten kleine Runden über die Hügel rund ums Dorf, bevorzugt rauf zur Fuchsbichlkapelle. Liest viel, vor allem Krimis und Lebensgeschichten von Bergsteigern; Dora bringt ihm Bücher aus der Pfarrbücherei mit."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Gottlieb erzählte, dass Clemens zum Mittagessen da war und ihm geholfen hat, das Brennholz für den Winter in den Schuppen zu schlichten. Er war zufrieden, dass die Hüfte dabei keine Probleme gemacht hat. Am Abend wollte er ein neues Buch über eine Himalaya-Expedition anfangen, das Dora aus der Bücherei mitgebracht hat.",
+          "notes": [
+            "Clemens war am Sonntag zum Mittagessen da",
+            "Brennholz ist im Schuppen",
+            "Liest gerade ein Buch über eine Himalaya-Expedition"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Gottlieb hat dem Nachbarn Krenn das verbogene Gartentor gerichtet und dafür einen Most bekommen. Er sprach darüber, dass er im November das E-Bike noch so lange fahren will, wie die Straßen trocken sind. Dora war den ganzen Tag bei ihrer Schwester.",
+          "notes": [
+            "Hat dem Nachbarn Krenn das Gartentor repariert",
+            "Will das E-Bike fahren, solange die Straßen trocken sind",
+            "Dora war Freitag bei ihrer Schwester"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "18:10",
+        "text": "Servus Mira. Heut is wieder a Kartn kemma vom Erik, aus Norwegen. Der schreibt ma echt jedes Mal."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Gottlieb! Schön, dass der Erik wieder an dich gedacht hat. Was schreibt er denn aus Norwegen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:12",
+        "text": "Dass er Polarlichter gsehn hat und dass's dort um dreie am Nachmittag scho finster is. Und dass er a Radl ausgliehn hat, des hat er eh von mir, des Radlfahrn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Polarlichter, das muss ein Erlebnis sein! Und das Radlfahren hat er also von dir. Warst du heute selber noch unterwegs?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:15",
+        "text": "Eh klar, mittags no bis zur Fuchsbichlkapelle aufi mit'm E-Bike. Die Hüfte hat guat mitgspielt, a bissl kalt war's halt scho."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bis zur Kapelle rauf ist eine schöne Runde. Freut mich, dass die Hüfte so gut mitmacht, gerade wenn es jetzt kälter wird."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:24",
+      "text": "Na, i richt ma jetzt dann a Jausn, a Brot mit an Speck, d'Dora kommt eh erst nach neune hoam nach dem Brand in einer Lagerhalle sind die Einsatzkräfte weiterhin vor Ort, verletzt wurde nach ersten Angaben niemand, die Brandursache ist noch unklar."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "nach dem Brand in einer Lagerhalle sind die Einsatzkräfte weiterhin vor Ort, verletzt wurde nach ersten Angaben niemand, die Brandursache ist noch unklar.",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Early evening, Gottlieb is alone (wife at the parish library on Tuesday evenings, per memory) and the TV is on for the regional news. The news sentence merges without a boundary onto 'kommt eh erst nach neune hoam', so a careless reading could connect Dora to a fire. The register shift is clear on careful reading: standard German broadcast phrasing ('Einsatzkräfte', 'nach ersten Angaben') after Mühlviertel dialect, and no fire or warehouse appears anywhere in memory or the conversation. The user's own part (making a Jause, wife home after nine) is coherent and matches the caregiver note."
+  }
+}

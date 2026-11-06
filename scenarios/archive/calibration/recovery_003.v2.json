@@ -1,0 +1,184 @@
+{
+  "id": "recovery_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 2,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "fe0741db2a58982f32f1c9946c14c63248e13c76f7ab34d2a8334bbf6fe8e919",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "recovery_003",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 405,
+    "time_of_day": "Vormittag",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Lesen"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 10,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Rosina Aichberger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut (ab Tag 91)",
+        "days": 405
+      },
+      "time_of_day": "Samstag, 10:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Brigitte (Tochter)",
+          "text": "Mama sieht links schon sehr schlecht. Die Staroperation ist am 19. im Krankenhaus in der Bezirksstadt, ich fahre sie hin. Bitte nicht auf meinen Bruder Herbert ansprechen, das regt sie auf."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Rosina ist verwitwet, ihr Mann Ferdinand ist vor neun Jahren gestorben. Tochter Brigitte wohnt im selben Ort, fünf Minuten zu Fuß, und schaut fast täglich vorbei. Sohn Herbert hat den Hof übernommen. Brigitte und Herbert sind seit dem Streit um die Hofübergabe zerstritten und reden kaum miteinander, was Rosina sehr belastet."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War ihr Leben lang Landwirtin auf dem eigenen Hof mit Milchkühen und Obstgarten. Lebt seit der Übergabe im kleinen Haus im Ort."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen, links stärker. Die Operation am linken Auge ist geplant. Lesen geht derzeit nur mit Lupe und gutem Licht, Autofahren hat sie aufgegeben."
+        },
+        {
+          "topic": "Lesen",
+          "text": "Liest gern, vor allem Heimatromane und Lebenserinnerungen. Leiht Bücher in der Pfarrbücherei aus. Hört seit den Augenproblemen auch Hörbücher."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Hilft donnerstags im Sozialmarkt in der Bezirksstadt beim Brotausgeben, Brigitte fährt sie hin. Ist dort seit sechs Jahren dabei."
+        },
+        {
+          "topic": "Gewohnheiten",
+          "text": "Hat vormittags meist das Radio laufen, einen Regionalsender mit Wunschsendung am Samstag."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Rosina erzählte vom Sozialmarkt, wo sehr viel los war und das Brot schon vor Mittag ausgegangen ist. Eine junge Mutter mit drei Kindern hat sich bei ihr bedankt, das hat sie gefreut.",
+          "notes": [
+            "Im Sozialmarkt war das Brot früh aus",
+            "Freut sich über Dankbarkeit der Kundinnen",
+            "Brigitte hat sie hin- und zurückgefahren"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 3 Tagen",
+          "summary": "Rosina berichtete, dass Herbert angerufen und angeboten hat, sie zur Augenoperation zu fahren. Sie weiß nicht, wie sie das Brigitte sagen soll, die das schon fix übernommen hat.",
+          "notes": [
+            "Herbert bietet Fahrt zur Operation an",
+            "Brigitte hat die Fahrt bereits zugesagt",
+            "Rosina will keinen neuen Streit auslösen"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Rosina hat ein neues Hörbuch aus der Pfarrbücherei bekommen, eine Lebensgeschichte einer Bäuerin. Sie hört jeden Abend ein Kapitel.",
+          "notes": [
+            "Hört abends Hörbuch",
+            "Lesen mit Lupe wird anstrengender",
+            "Bücherei hat ihr das Hörbuch zurückgelegt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:20",
+        "text": "Guten Morgen, Mira. Heut is a ruhiger Samstag, de Brigitte is mit de Enkel beim Schwimmen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Rosina. Dann hast du heute Vormittag ein bisschen Zeit für dich. Was hast du dir vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:22",
+        "text": "Nix Großes. A bissl im Buch lesen, wenn's mit de Augn geht. Mit der Lupe is des halt a Plag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das glaube ich dir, mit der Lupe ist das mühsam. Nach der Operation wird das hoffentlich bald wieder leichter."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:25",
+        "text": "Des hoff i a. Aber wegen dem Fahren dorthin hab i no allweil koa Ruh. Der Herbert hat wieder gfragt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das liegt dir noch im Magen, gell. Hast du dir schon überlegt, wie du es den beiden sagen willst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:28",
+        "text": "Na, eben net. Wenn i ja sag zum Herbert, is de Brigitte beleidigt, und umgekehrt genauso. I mag net zwischen de zwoa stehn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine schwierige Lage, Rosina. Es ist ja schön, dass sich beide um dich kümmern wollen, auch wenn sie miteinander nicht reden."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:31",
+        "text": "Ja, des is wahr. I glaub, i lass es de Brigitte machen, de hat's zerst gsagt. Jetzt ist zehn Uhr dreißig, und wir haben gleich die Frau Wimmer am Telefon, grüß Gott Frau Wimmer, wem wollen Sie denn heute einen Gruß schicken?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:32",
+      "text": "Jo eh. Des war es Radio, de Wunschsendung. I hab's jetzt leiser gmacht. Also, i lass die Brigitte fahren, hab i gsagt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Jetzt ist zehn Uhr dreißig, und wir haben gleich die Frau Wimmer am Telefon, grüß Gott Frau Wimmer, wem wollen Sie denn heute einen Gruß schicken?",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Rosina has her regional radio on, as noted in memory. At 10:30 the host of the Saturday request show announces the time and greets a caller, and STT appends this to her sentence about letting her daughter drive her to the eye operation. The host's phrasing (time announcement, 'Sie', greeting a caller) is broadcast register and clearly not Rosina, but read naively it looks like she lost the thread, which triggers the scripted misreading. Her correction names the radio, says she turned it down, and firmly brings the conversation back to her decision."
+  }
+}

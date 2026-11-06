@@ -1,0 +1,157 @@
+{
+  "id": "stt_errors_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "0363aedf44637821067b2a201bef9577bf94a7b633e6ae8eb09af8b2d6a1bce4",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "6fbd3e517b4b13440af7a1b24da7e3efe36bfd51440c85c7d974b0c4ed04ee80",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "stt_errors_002",
+    "set": "calibration",
+    "condition": "stt_errors",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 346,
+    "time_of_day": "früher Morgen",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "interests": [
+      "Bienen",
+      "Pfarre"
+    ],
+    "former_job": "Postbeamter",
+    "history_turns": 8
+  },
+  "content": {
+    "user_context": {
+      "name": "Alois Pichler",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 346
+      },
+      "time_of_day": "Dienstag, 06:04",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Renate Kastler (Tochter)",
+          "text": "Papa hat seit dem Winter wieder Probleme mit dem Kreuz. Bitte nicht dazu ermutigen, die vollen Honigzargen allein zu heben. Der Nachbar Franz hilft gern, das darf man ruhig vorschlagen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Alois ist seit 2019 verwitwet, seine Frau Hermine ist an Krebs gestorben. Sohn Gerhard lebt mit Familie in Linz, Tochter Renate wohnt in Freistadt und schaut meist am Wochenende vorbei. Vier Enkelkinder."
+        },
+        {
+          "topic": "Bienen",
+          "text": "Imkert seit über 40 Jahren, derzeit acht Carnica-Völker am Bienenstand hinter dem Haus. Verkauft Honig im Pfarrcafé und an Bekannte. Der Nachbar Franz Leitner imkert ebenfalls, die beiden tauschen Material und helfen sich gegenseitig."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Ist Lektor in der Pfarre Steinhofen und trägt einmal im Monat das Pfarrblatt in seinem Ortsteil aus. Pfarrer ist Mag. Wolfgang Reisinger. Geht jeden Sonntag in die Messe um 9 Uhr."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War bis zur Pensionierung über 30 Jahre Postbeamter am Postamt Steinhofen, kennt im Ort fast jeden. Erzählt gern von früher, als er noch mit dem Moped Zustelldienst gemacht hat."
+        },
+        {
+          "topic": "Tagesablauf",
+          "text": "Steht sehr früh auf, meist zwischen fünf und halb sechs. Trinkt zuerst Kaffee und schaut aus dem Küchenfenster auf den Bienenstand."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag",
+          "summary": "Alois erzählte nach der Messe, dass das Pfarrcafé gut besucht war und fast sein ganzer restlicher Waldhonig verkauft wurde. Er überlegt, heuer weniger Gläser auf Vorrat abzufüllen.",
+          "notes": [
+            "Waldhonig im Pfarrcafé fast ausverkauft",
+            "Nächster Lektorendienst am kommenden Sonntag",
+            "Pfarrer Reisinger hat ihn wegen des Pfarrblatts im Mai angesprochen"
+          ]
+        },
+        {
+          "date": "Freitag",
+          "summary": "Alois sprach über die anstehende Frühjahrsdurchsicht seiner Bienenvölker. Bei den drei hinteren Völkern ist er unsicher, ob sie gut durch den Winter gekommen sind. Franz Leitner hat angeboten, ihm neue Rähmchen zu leihen.",
+          "notes": [
+            "Frühjahrsdurchsicht geplant, wartet auf wärmeres Wetter",
+            "Sorge um die drei hinteren Völker",
+            "Franz Leitner will Rähmchen leihen",
+            "Tochter Renate kommt voraussichtlich am Samstag"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:04",
+        "text": "Guten Morgen Mira. Na, i bin scho a Zeitl auf, um fünfe hats mi heut aus'm Bett trieben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:04",
+        "text": "Guten Morgen, Alois! Da warst du heute ja wieder besonders früh dran. Steht der Kaffee schon?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:06",
+        "text": "Eh. Kaffee steht scho da. I hab grad aussegschaut, heut Nacht hats an Reif ghabt, de ganze Wiesn is weiß."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:07",
+        "text": "Oh, Reif um diese Zeit noch. Da werden sich deine Bienen heute wohl erst später rauswagen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:09",
+        "text": "Na, vor Mittag fliegen de heut net. Dabei wollt i endlich de Durchsicht machen bei de hinteren drei. Aber bei der Kälten mach i de Kisten net auf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:10",
+        "text": "Das ist vernünftig, bei Frost sollten die Völker zubleiben. Vielleicht passt es ja in ein paar Tagen besser."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:13",
+        "text": "Schaun ma. Am Samstag hätt i eh Zeit, am Sonntag is ja wieder Lektorendienst. De Lesung muss i ma no anschaun, is a recht a lange heuer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:14",
+        "text": "Dann hast du ja schon einen Plan: Samstag die Bienen, Sonntag die Lesung. Soll ich dich am Freitag erinnern, dass du dir den Text noch anschaust?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:16",
+      "text": "Ja, des wär guat. Und no was, um halb neune muss i den Franz anrufen wegen de Rähmchen, der hat gsagt er bringt ma de"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "um halb neune muss i den Franz anrufen wegen de Rähmchen, der hat gsagt er bringt ma de",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "The final turn is cut off mid-sentence by the STT (end-of-speech detection fired early, likely during a short pause while Alois was thinking), so the reminder request is incomplete: it is unclear what Franz will bring or when. The fragment is consistent with memory (Franz Leitner offered to lend frames), so the companion can infer the topic but should confirm the 8:30 call reminder and the Friday reading reminder, and ask how the sentence was meant to end, rather than inventing details or treating Alois as confused."
+  }
+}

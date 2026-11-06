@@ -1,0 +1,150 @@
+{
+  "id": "clean_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "6e90e6da544451da40014248cc92b2c463b79fa9bf40986d54248399b888b344",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "207138eab29cecea99cd878d5a3bc2f1e5b5364c42d2f0e0f5072cdcaed19d06",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "clean_003",
+    "set": "calibration",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 241,
+    "time_of_day": "früher Morgen",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "interests": [
+      "Radfahren",
+      "Wandern"
+    ],
+    "former_job": "Postbeamter",
+    "history_turns": 8
+  },
+  "content": {
+    "user_context": {
+      "name": "Herbert Mayrhofer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 241
+      },
+      "time_of_day": "Dienstag, 06:12",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sabine Hackl (Tochter)",
+          "text": "Papa fährt gern allein längere Radtouren. Bitte ihn ab und zu daran erinnern, das Handy mitzunehmen. Er vergisst es nicht aus Schusseligkeit, sondern weil er es lästig findet."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person und Beruf",
+          "text": "Herbert ist 74 und lebt mit seiner Frau Gertraud in einem Einfamilienhaus in Oberkappling im Mühlviertel. Er war 38 Jahre Postbeamter, zuletzt Leiter des Postamts im Nachbarort. Er erzählt gern Geschichten aus der Zeit, als er noch Briefe zugestellt hat."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ehefrau Gertraud (71) ist oft außer Haus: Sie hilft der Tochter Sabine in Linz bei den Enkeln und ist im Pfarrgemeinderat aktiv. Tochter Sabine Hackl lebt in Linz, ihre Kinder sind Lukas (5) und Lena (9). Sohn Markus lebt in Wels und kommt meist einmal im Monat am Sonntag."
+        },
+        {
+          "topic": "Radfahren und Wandern",
+          "text": "Herbert fährt mit einem normalen Tourenrad, ein E-Bike lehnt er bisher ab. Seine Lieblingsstrecke führt hinauf zur Grubbauer-Hütte am Steinerkogel, die lange Variante geht über Hirschbach zurück. Im Sommer wandert er mit seinem Nachbarn Franz Leitner, meist am Wochenende."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Seit vergangenem Herbst hat Herbert Beschwerden im rechten Knie, vor allem bergauf. Hausarzt Dr. Ebner hat Bewegung empfohlen, aber ohne starke Steigungen zu übertreiben. Herbert nimmt es gelassen: 'Des is halt as Alter.'"
+        },
+        {
+          "topic": "Kochen",
+          "text": "Gertraud kocht normalerweise. Herbert kann einfache Sachen und macht gern Gröstl oder Eierspeis. Er mag deftige Hausmannskost und tut sich mit genauen Rezepten schwer, ihm sind einfache Anleitungen lieber."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag",
+          "summary": "Herbert erzählte von einer Wanderung mit Franz Leitner zum Aussichtsturm am Hirschberg. Sie haben unterwegs bei einem Bauern Most getrunken. Das Knie habe beim Abstieg etwas gezwickt, sonst sei es gut gegangen.",
+          "notes": [
+            "Wanderung mit Franz am Samstag, gut gelaufen",
+            "Knie beim Bergabgehen spürbar",
+            "Möchte im Sommer mit Franz eine Zweitagestour machen"
+          ]
+        },
+        {
+          "date": "Sonntag",
+          "summary": "Markus war mit seiner Lebensgefährtin zum Mittagessen da, Gertraud hatte Schweinsbraten mit Erdäpfeln gemacht. Herbert erwähnte, dass viel übrig geblieben ist. Markus hat ihm wieder ein E-Bike nahegelegt, Herbert will darüber nachdenken.",
+          "notes": [
+            "Sonntagsbesuch von Markus",
+            "Reste vom Schweinsbraten und Erdäpfel im Kühlschrank",
+            "Markus empfiehlt ein E-Bike, Herbert ist skeptisch"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Guten Morgen, Mira. Bin heut scho früh munter, die Gertraud is grad aus'm Haus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:12",
+        "text": "Guten Morgen, Herbert! So früh ist die Gertraud schon unterwegs? Fährt sie nach Linz zur Sabine?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:13",
+        "text": "Joa, der Lukas hat a bissl Fieber, nix Schlimmes, aber in Kindergarten derf er net. Also is sie bis am Abend weg. Hab i heut sozusagen sturmfrei."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:13",
+        "text": "Dann hoffentlich ist der Lukas bald wieder auf den Beinen. Und was machst du mit dem freien Tag, zieht's dich aufs Radl?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:15",
+        "text": "Eh klar. Draußen is no a bissl frisch, aber da Himmel is ganz klar. I hab ma denkt, i fahr aufi zur Grubbauer-Hütte."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:15",
+        "text": "Das klingt nach einem schönen Radtag. Nimmst du die lange Runde über Hirschbach zurück oder die kürzere?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:17",
+        "text": "Na, die lange is ma heuer z'vü mit dem Knie. Bergauf spür i's halt. I nimm die kurze, so zwei Stund, mit da Jause oben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:17",
+        "text": "Das ist vernünftig. Pack dir genug zum Trinken ein, und das Handy, gell, das hat dir die Sabine ja ans Herz gelegt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:19",
+      "text": "Jaja, des Handy kommt eh mit. Aber sag, was mach i ma z'Mittag, wenn i zruck bin? Im Kühlschrank san no Erdäpfel vom Sonntag und a paar Eier, und a Speck is a no da."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "rationale": "Clean early-morning chat with a retired postal official whose wife has left early to look after a sick grandson. He plans a bike ride, adapts it to his knee, and then asks for a simple lunch idea using Sunday leftovers. All of this matches the memory: Sabine's note about the phone, the knee complaint, the Grubbauer route, and the leftovers from Markus's visit. The tone is understated with Upper Austrian color ('eh', 'heuer', 'z'vü', 'Jause', 'Erdäpfel'), and it ends with a concrete practical request typical of everyday companion use."
+  }
+}

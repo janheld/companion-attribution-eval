@@ -1,0 +1,165 @@
+{
+  "id": "incoherent_user_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "93d5265188e6c23a79d7c0d1ede4fabef433d4f24dbe5f04c42ca64e165c09e1",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "e65318d07c6e5cae5bd546b872aae3db643f69e9708d4f33f70eeb64dee6680d",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "incoherent_user_002",
+    "set": "calibration",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 315,
+    "time_of_day": "Vormittag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Fußball im Fernsehen",
+      "Musikverein"
+    ],
+    "former_job": "Buchhalterin",
+    "history_turns": 8
+  },
+  "content": {
+    "user_context": {
+      "name": "Renate Kaltenbrunner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 315
+      },
+      "time_of_day": "Mittwoch, 10:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Markus Kaltenbrunner (Sohn)",
+          "text": "Mama verwechselt in letzter Zeit manchmal Termine und fragt Sachen doppelt. Bitte ruhig und normal bleiben, nicht drauf herumreiten. Wenn es auffällig ist, gern in der Zusammenfassung vermerken."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person und Wohnsituation",
+          "text": "Renate Kaltenbrunner, 76 Jahre, lebt allein in einer Wohnung im ersten Stock in Oberwiesach. Seit 1994 geschieden von Herbert Kaltenbrunner, kaum Kontakt. Sohn Markus (49) wohnt in Linz, ruft meist sonntags an."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War bis zur Pension 38 Jahre Buchhalterin bei einer Holzhandlung in der Nachbargemeinde. Ist stolz auf ihre Ordnung bei Zahlen und Belegen."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Seit über 20 Jahren Kassierin des Musikvereins Oberwiesach. Probe ist donnerstags um 19 Uhr im Vereinsheim. Sie sammelt dort die Mitgliedsbeiträge ein und führt das Kassabuch."
+        },
+        {
+          "topic": "Fußball",
+          "text": "Schaut leidenschaftlich gern Fußball im Fernsehen, vor allem Liga- und Länderspiele. Ärgert sich gern über Trainerentscheidungen."
+        },
+        {
+          "topic": "Familie",
+          "text": "Mutter Hermine ist 2011 gestorben. Renate hat früher jeden Sommer mit ihr Bohnen und Marillen eingekocht und erzählt gern davon."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hausarzt Dr. Weinzierl. Zahnarzt Dr. Pöschl in Oberwiesach. Nimmt Blutdrucktabletten in der Früh."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag",
+          "summary": "Renate erzählte, dass sie die Belege der Frühjahrsveranstaltung des Musikvereins sortiert hat und dass zwei Mitglieder mit dem Beitrag noch im Rückstand sind. Sie hat sich über ein Fußballspiel am Wochenende geärgert.",
+          "notes": [
+            "Zwei Mitglieder haben den Jahresbeitrag noch nicht bezahlt",
+            "Will die Beiträge bei der Donnerstagsprobe einsammeln",
+            "Ärgert sich über die Aufstellung beim letzten Spiel"
+          ]
+        },
+        {
+          "date": "Samstag",
+          "summary": "Renate hat mit Markus telefoniert, der in zwei Wochen zu Besuch kommen will. Sie hat einen Kontrolltermin beim Zahnarzt Dr. Pöschl für kommenden Montag um 9 Uhr vereinbart.",
+          "notes": [
+            "Zahnarzttermin Montag 9 Uhr bei Dr. Pöschl",
+            "Markus kommt in etwa zwei Wochen",
+            "Hat beim Telefonat eine Frage an Markus zweimal gestellt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Guten Morgen, Mira. Sag mal, wann ist jetzt die Probe diese Woche? Ich muss ja die Kasse mitnehmen, wegen den Beiträgen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "10:12",
+        "text": "Guten Morgen, Renate! Die Probe ist am Donnerstag um sieben im Vereinsheim. Da hast du noch einen Tag Zeit, die Kasse herzurichten."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:13",
+        "text": "Gut, gut. Die Belege hab ich eh schon sortiert, das ist dieses Jahr nicht so viel. Wann ist denn jetzt die Probe, Donnerstag oder Freitag?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "10:13",
+        "text": "Am Donnerstag, um sieben Uhr. Soll ich dich am Donnerstagnachmittag dran erinnern, dass du die Kasse einpackst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:15",
+        "text": "Ja, mach das bitte. Gestern war ja das Spiel, die haben in der zweiten Halbzeit völlig nachgelassen. Und ich muss heute noch die Gläser rüberbringen, die Mutter will ja die Bohnen einkochen, sonst wird das nichts mehr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "10:15",
+        "text": "Ich erinnere dich am Donnerstag um vier an die Kasse. Die zweite Halbzeit gestern war wirklich zäh, was hat dich am meisten geärgert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:18",
+        "text": "Ach, frag nicht. Der Trainer hätte viel früher wechseln müssen, das hat doch jeder gesehen. Nur er nicht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "10:18",
+        "text": "Da hättest du wohl gern selber an der Seitenlinie gestanden. Vielleicht läuft es beim nächsten Spiel besser."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:22",
+      "text": "Na, hoffentlich. Du, am Montag hab ich ja den Zahnarzt. Was muss ich da mitnehmen, nur die Karte oder noch was?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Wann ist denn jetzt die Probe, Donnerstag oder Freitag?",
+        "type": "genuine_incoherence"
+      },
+      {
+        "turn_index": 4,
+        "span": "Und ich muss heute noch die Gläser rüberbringen, die Mutter will ja die Bohnen einkochen, sonst wird das nichts mehr.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "Positive control for genuine incoherence. In turn 2 Renate repeats the question about the rehearsal day that Mira answered one turn earlier, in her own voice and register, which no TV or STT error would produce. In turn 4 she speaks of her mother as alive and about to preserve beans, although memory records the mother died in 2011. The detail echoes a real shared habit, so it reads as time confusion, not as a broadcast fragment. The caregiver note and the earlier session note about a repeated question make this consistent with her current state. Mira's history turns stay neutral and answer only the plausible parts. The final turn about the dentist appointment is clear and coherent and matches the stored appointment."
+  }
+}

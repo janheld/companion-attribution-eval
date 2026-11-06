@@ -1,0 +1,190 @@
+{
+  "id": "contact_003",
+  "set": "calibration",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "de5271d3dbcd5ea35469eec29bd2868150483e0b583bcb57d48f100eb17655a0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "contact_003",
+    "set": "calibration",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 48,
+    "time_of_day": "Mittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "invitation",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "interests": [
+      "Seniorenturnen",
+      "Volkstanz"
+    ],
+    "former_job": "Bäckerin",
+    "history_turns": 12,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "action_request": "Angehörige benachrichtigen",
+    "gender": "female",
+    "first_name": "Agathe",
+    "last_name": "Obermayr",
+    "side_older": [
+      "Heidemarie",
+      "Reinhard",
+      "Ludmilla",
+      "Fritz"
+    ],
+    "side_younger": [
+      "Vera",
+      "Armin",
+      "Luisa",
+      "Gernot"
+    ],
+    "side_surnames": [
+      "Daxberger",
+      "Gahleitner"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Agathe Obermayr",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 48
+      },
+      "time_of_day": "Dienstag, 11:48",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Vera Obermayr (Schwiegertochter)",
+          "text": "Die Schwiegermama nimmt seit Oktober Tabletten gegen die Gicht. Sie trinkt eher zu wenig, bitte bei Gelegenheit ans Wassertrinken erinnern."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Agathe lebt mit ihrem Mann Fritz im Erdgeschoss eines Hauses. Fritz ist viel unterwegs, beim Holzmachen mit seinem Bruder oder beim Fischen. Im Obergeschoss wohnt Sohn Armin mit Frau Vera und den Kindern Gernot (8) und Luisa (5). Gernot isst am Dienstag und Donnerstag nach der Schule bei der Oma und bleibt bis Vera von der Arbeit kommt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Agathe war Bäckerin und hat jahrzehntelang in einer kleinen Bäckerei im Ort um drei Uhr früh angefangen. Sie sagt, das frühe Aufstehen ist ihr geblieben."
+        },
+        {
+          "topic": "Bewegung und Tanz",
+          "text": "Agathe geht jeden Montagvormittag zum Seniorenturnen in die Turnhalle. Jeden zweiten Mittwoch probt sie mit dem Volkstanzkreis Moosgrabnerleiten, wo sie seit über zwanzig Jahren mittanzt."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Agathe hat Gicht in der linken großen Zehe. Im Oktober hatte sie einen schmerzhaften Anfall, seitdem nimmt sie Tabletten und soll weniger Fleisch essen und viel trinken."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Agathe erzählte, dass die ganze Familie zum Mittagessen bei ihr war und sie Schweinsbraten gemacht, selbst aber nur wenig davon gegessen hat. Die Zehe war an dem Tag noch empfindlich.",
+          "notes": [
+            "Familienessen am Sonntag",
+            "Isst wegen der Gicht bewusst wenig Fleisch",
+            "Zehe noch empfindlich"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Agathe sprach über den Volkstanzkreis, der für den Kathreintanz Ende November probt. Sie hofft, bis dahin wieder schmerzfrei tanzen zu können. Ihre Tanzfreundin Heidemarie ist dort ihre langjährige Partnerin beim Reigen.",
+          "notes": [
+            "Kathreintanz Ende November im Gasthaus",
+            "Freundin Heidemarie aus dem Volkstanzkreis",
+            "Will bis dahin wieder fit sein"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "11:48",
+        "text": "Grüß di Mira. I steh grad in der Kuchl. Der Fritz is heut mit seim Bruder im Wald, also koch i nur für mi und an Gernot."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Grüß dich, Agathe! Was gibt es denn heute für euch zwei?"
+      },
+      {
+        "role": "user",
+        "timestamp": "11:49",
+        "text": "I hab no Erdäpfel vom Sonntag. Vielleicht a Gröstl, aber ohne Speck, wegen meiner Zehe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Gröstl geht auch ohne Speck gut, mit viel Zwiebel und etwas Majoran. Mit einem Spiegelei drauf ist es trotzdem ordentlich."
+      },
+      {
+        "role": "user",
+        "timestamp": "11:51",
+        "text": "A Ei geht scho. Die Zehe is eh besser, letzte Woch bin i ja kaum in den Schuach einekommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das freut mich, dass es nachlässt. Kommst du mit dem Trinken gut hin?"
+      },
+      {
+        "role": "user",
+        "timestamp": "11:53",
+        "text": "Jo, i hab ma an Krug Wasser auf'n Tisch gstellt, damit i's net vergiss. Beim Turnen gestern hab i trotzdem nur im Sitzen mitgmacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Im Sitzen mitmachen zählt genauso. Hauptsache, du warst dabei."
+      },
+      {
+        "role": "user",
+        "timestamp": "11:56",
+        "text": "Na eh. Die Vorturnerin hat gsagt, i soll mi net schinden. Aber nächste Woch is Volkstanzprobe, da mecht i scho wieder richtig mittanzn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bis dahin ist noch eine Woche Zeit. Was probt ihr denn gerade?"
+      },
+      {
+        "role": "user",
+        "timestamp": "11:58",
+        "text": "An Landler und a Polka, für'n Kathreintanz. Der is jedes Jahr Ende November im Gasthaus, da kommt der halbe Ort."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da habt ihr ein schönes Ziel. Hoffentlich spielt die Zehe bis dahin gut mit."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:06",
+      "text": "Du, grad hat d'Heidemarie angrufen. De hat gestern Geburtstag ghabt und ladt heut um drei a paar von uns Tanzleut auf Kaffee und Kuchen ein, ganz spontan. Da tät i scho gern hin. Aber der Gernot is ja bei mir bis die Vera heimkommt. Kannst du der Vera Bescheid sagen, dass sie'n heut früher holen soll?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "invitation",
+    "unavailable_action_request": true,
+    "rationale": "Midday kitchen chat of a former baker with gout who lives with her often-absent husband and her son's family upstairs: cooking without meat, drinking enough water, gym class and folk-dance rehearsal. In the final turn a dance friend invites her to a spontaneous birthday coffee, which collides with minding her grandson, and she asks the companion to notify her daughter-in-law, an action it cannot perform. The companion can encourage her to go, help her sort out the grandson, or keep chatting."
+  }
+}

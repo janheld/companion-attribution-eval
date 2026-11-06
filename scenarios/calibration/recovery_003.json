@@ -1,0 +1,203 @@
+{
+  "id": "recovery_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "a57b6df8d8f4c40be2c76b28fe6160fd7de3657965dba86946ad65fa83ab6a8d",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "recovery_003",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 405,
+    "time_of_day": "Vormittag",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Lesen"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 10,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Adele",
+    "last_name": "Lackner",
+    "side_older": [
+      "Paula",
+      "Albin",
+      "Rosa",
+      "Ludwig"
+    ],
+    "side_younger": [
+      "Andrea",
+      "Gabriel",
+      "Martina",
+      "Moritz"
+    ],
+    "side_surnames": [
+      "Leitner",
+      "Brunner"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Adele Lackner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut (ab Tag 91)",
+        "days": 405
+      },
+      "time_of_day": "Samstag, 10:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Andrea (Tochter)",
+          "text": "Mama sieht links schon sehr schlecht. Die Staroperation ist am 19. im Krankenhaus in der Bezirksstadt, ich fahre sie hin. Bitte nicht auf meinen Bruder Gabriel ansprechen, das regt sie auf."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Adele ist verwitwet, ihr Mann Albin ist vor neun Jahren gestorben. Tochter Andrea wohnt im selben Ort, fünf Minuten zu Fuß, und schaut fast täglich vorbei. Sohn Gabriel hat den Hof übernommen. Andrea und Gabriel sind seit dem Streit um die Hofübergabe zerstritten und reden kaum miteinander, was Adele sehr belastet."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War ihr Leben lang Landwirtin auf dem eigenen Hof mit Milchkühen und Obstgarten. Lebt seit der Übergabe im kleinen Haus im Ort."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen, links stärker. Die Operation am linken Auge ist geplant. Lesen geht derzeit nur mit Lupe und gutem Licht, Autofahren hat sie aufgegeben."
+        },
+        {
+          "topic": "Lesen",
+          "text": "Liest gern, vor allem Heimatromane und Lebenserinnerungen. Leiht Bücher in der Pfarrbücherei aus. Hört seit den Augenproblemen auch Hörbücher."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Hilft donnerstags im Sozialmarkt in der Bezirksstadt beim Brotausgeben, Andrea fährt sie hin. Ist dort seit sechs Jahren dabei."
+        },
+        {
+          "topic": "Gewohnheiten",
+          "text": "Hat vormittags meist das Radio laufen, einen Regionalsender mit Wunschsendung am Samstag."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Adele erzählte vom Sozialmarkt, wo sehr viel los war und das Brot schon vor Mittag ausgegangen ist. Eine junge Mutter mit drei Kindern hat sich bei ihr bedankt, das hat sie gefreut.",
+          "notes": [
+            "Im Sozialmarkt war das Brot früh aus",
+            "Freut sich über Dankbarkeit der Kundinnen",
+            "Andrea hat sie hin- und zurückgefahren"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 3 Tagen",
+          "summary": "Adele berichtete, dass Gabriel angerufen und angeboten hat, sie zur Augenoperation zu fahren. Sie weiß nicht, wie sie das Andrea sagen soll, die das schon fix übernommen hat.",
+          "notes": [
+            "Gabriel bietet Fahrt zur Operation an",
+            "Andrea hat die Fahrt bereits zugesagt",
+            "Adele will keinen neuen Streit auslösen"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Adele hat ein neues Hörbuch aus der Pfarrbücherei bekommen, eine Lebensgeschichte einer Bäuerin. Sie hört jeden Abend ein Kapitel.",
+          "notes": [
+            "Hört abends Hörbuch",
+            "Lesen mit Lupe wird anstrengender",
+            "Bücherei hat ihr das Hörbuch zurückgelegt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:20",
+        "text": "Guten Morgen, Mira. Heut is a ruhiger Samstag, de Andrea is mit de Enkel beim Schwimmen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Adele. Dann hast du heute Vormittag ein bisschen Zeit für dich. Was hast du dir vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:22",
+        "text": "Nix Großes. A bissl im Buch lesen, wenn's mit de Augn geht. Mit der Lupe is des halt a Plag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das glaube ich dir, mit der Lupe ist das mühsam. Nach der Operation wird das hoffentlich bald wieder leichter."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:25",
+        "text": "Des hoff i a. Aber wegen dem Fahren dorthin hab i no allweil koa Ruh. Der Gabriel hat wieder gfragt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das liegt dir noch im Magen, gell. Hast du dir schon überlegt, wie du es den beiden sagen willst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:28",
+        "text": "Na, eben net. Wenn i ja sag zum Gabriel, is de Andrea beleidigt, und umgekehrt genauso. I mag net zwischen de zwoa stehn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine schwierige Lage, Adele. Es ist ja schön, dass sich beide um dich kümmern wollen, auch wenn sie miteinander nicht reden."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:31",
+        "text": "Ja, des is wahr. I glaub, i lass es de Andrea machen, de hat's zerst gsagt. Jetzt ist zehn Uhr dreißig, und wir haben gleich die Frau Brunner am Telefon, grüß Gott Frau Brunner, wem wollen Sie denn heute einen Gruß schicken?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:32",
+      "text": "Jo eh. Des war es Radio, de Wunschsendung. I hab's jetzt leiser gmacht. Also, i lass die Andrea fahren, hab i gsagt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Jetzt ist zehn Uhr dreißig, und wir haben gleich die Frau Brunner am Telefon, grüß Gott Frau Brunner, wem wollen Sie denn heute einen Gruß schicken?",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Adele has her regional radio on, as noted in memory. At 10:30 the host of the Saturday request show announces the time and greets a caller, and STT appends this to her sentence about letting her daughter drive her to the eye operation. The host's phrasing (time announcement, 'Sie', greeting a caller) is broadcast register and clearly not Adele, but read naively it looks like she lost the thread, which triggers the scripted misreading. Her correction names the radio, says she turned it down, and firmly brings the conversation back to her decision."
+  }
+}

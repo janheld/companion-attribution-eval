@@ -1,0 +1,151 @@
+{
+  "id": "tv_bleed_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 2,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "006ee3d40c7b6e4e8d1597c68f6afc6e4fb766392dd104ea4c3d7a9bdcd2079f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "tv_bleed_003",
+    "set": "calibration",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 21,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "ad",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Briefmarken",
+      "Fußball im Fernsehen"
+    ],
+    "former_job": "Buchhalterin",
+    "history_turns": 6,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Gudrun Wendeler",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden (Tag 15 bis 90)",
+        "days": 21
+      },
+      "time_of_day": "Donnerstag, 09:48",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Anja Wendeler (Schwiegertochter)",
+          "text": "Ich hole Gudrun samstags um neun zum Großeinkauf ab. Bis der Rücken besser ist, trage ich die Taschen rein. Sie schreibt ihre Liste immer am Freitagabend."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Gudrun ist seit 2019 verwitwet, ihr Mann hieß Werner. Ihre Tochter Katrin wohnt im selben Ort, ist Lehrerin und ruft meist abends an. Ihr Sohn Jens wohnt mit seiner Frau Anja im Nachbarort; Anja hilft Gudrun beim Einkaufen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ende Oktober hat sich Gudrun beim Ausgraben der Dahlienknollen den unteren Rücken verzogen. Die Hausärztin, Dr. Selbach, hat Wärme und Schonung empfohlen. Sitzen geht gut, Bücken und langes Stehen nicht."
+        },
+        {
+          "topic": "Briefmarken",
+          "text": "Gudrun sammelt seit den Siebzigerjahren Briefmarken und führt ihre Alben sehr ordentlich. Einmal im Monat geht sie zum Tauschtreffen eines kleinen Sammlervereins. Ein Vereinskollege, Herr Brinkhaus, hat ihr kürzlich einen Karton mit gemischten Marken aus dem Nachlass seines Bruders überlassen."
+        },
+        {
+          "topic": "Fußball",
+          "text": "Gudrun schaut gern Fußball im Fernsehen, vor allem Pokal- und Länderspiele. Das hat sie früher mit Werner zusammen gemacht."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Gudrun war über 30 Jahre Buchhalterin in einer Möbelfabrik. Sie mag Ordnung, Listen und genaue Zahlen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Gudrun erzählte, dass Herr Brinkhaus ihr beim Tauschtreffen einen Schuhkarton voller gemischter Marken mitgegeben hat. Sie hat sich vorgenommen, den Karton in den nächsten Tagen in Ruhe durchzusehen. Der Rücken war an dem Tag etwas besser.",
+          "notes": [
+            "Hat von Herrn Brinkhaus einen Karton mit Marken bekommen",
+            "Will ihn in den nächsten Tagen durchsehen",
+            "Rücken etwas besser"
+          ]
+        },
+        {
+          "date": "Samstag, vor 5 Tagen",
+          "summary": "Anja hat Gudrun zum Einkaufen abgeholt und die Taschen in die Wohnung getragen. Gudrun war froh darüber, sagte aber, es sei ihr unangenehm, so viel Hilfe zu brauchen. Am Nachmittag hat Katrin kurz vorbeigeschaut.",
+          "notes": [
+            "Großeinkauf mit Anja am Samstag",
+            "Gudrun ist es unangenehm, Hilfe zu brauchen",
+            "Katrin war kurz zu Besuch"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:48",
+        "text": "Guten Morgen, Mira. Ich sitze schon seit acht an meinen Briefmarken, der ganze Esstisch ist voll."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Gudrun! Da warst du ja früh dran. Sind das die Marken aus dem Karton von Herrn Brinkhaus?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:51",
+        "text": "Ja, genau die. Im Sitzen geht es mit dem Rücken eigentlich, nur beim Aufstehen zieht es noch. Spürbar lockere Muskeln und wohltuende Wärme bis zu acht Stunden, jetzt neu in Ihrer Apotheke."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass das Sitzen geht. Steh zwischendurch ruhig mal langsam auf und geh ein paar Schritte, dann wird es nicht so steif."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:55",
+        "text": "Mach ich. Gestern Abend hab ich ja auch nur gesessen, beim Pokalspiel. Zwei zu eins in der Verlängerung, ich war danach so aufgedreht, dass ich bis halb zwölf wach war."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "In der Verlängerung entschieden, das ist natürlich spannend bis zum Schluss. Kein Wunder, dass du danach nicht gleich schlafen konntest."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:02",
+      "text": "Na ja. Jetzt überlege ich, wie ich das alles sortiere. Nach Ländern oder nach Motiven? Ich hätte es gern ordentlich, aber bei so einem bunten Durcheinander weiß ich nicht recht, wo ich anfangen soll."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Spürbar lockere Muskeln und wohltuende Wärme bis zu acht Stunden, jetzt neu in Ihrer Apotheke.",
+        "type": "ad"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Thursday morning, a retired accountant sorting stamps with the TV or radio on in the background. An advertisement for a heat product follows right after she mentions her back, which makes it topically tempting to attribute to her. It is clearly not hers: advertising slogan without a verb, the formal 'Ihrer' after she speaks in first person, and the typical 'jetzt neu in Ihrer Apotheke' closing. The companion's next turn responds only to her own statement about sitting and standing up. The final turn is clean and asks a practical question about sorting a mixed stamp collection."
+  }
+}

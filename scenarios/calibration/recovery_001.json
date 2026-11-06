@@ -1,0 +1,192 @@
+{
+  "id": "recovery_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "51c06b922967354103263bef76d042b5851494cc2211a4d40168308c1d9c2726",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "recovery_001",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 162,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "interests": [
+      "Schrebergarten",
+      "Ehrenamt im Sozialmarkt"
+    ],
+    "former_job": "Tischler",
+    "history_turns": 8,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Wilhelm",
+    "last_name": "Oberhumer",
+    "side_older": [
+      "Rosalinde",
+      "Gustav",
+      "Alwine",
+      "Isidor"
+    ],
+    "side_younger": [
+      "Kerstin",
+      "David",
+      "Iris",
+      "Niklas"
+    ],
+    "side_surnames": [
+      "Diesenreiter",
+      "Windhager"
+    ],
+    "side_extra": [
+      "Jonas"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Wilhelm Oberhumer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut (ab Tag 91)",
+        "days": 162
+      },
+      "time_of_day": "Sonntag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Niklas (Sohn)",
+          "text": "Papa misst morgens den Zucker, vergisst es aber manchmal am Wochenende. Wenn es passt, gern mal nachfragen, ohne zu drängeln."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Wilhelm ist seit vier Jahren verwitwet, seine Frau Rosalinde ist an einem Herzleiden gestorben. Er hat zwei Söhne: David lebt seit über zehn Jahren in Kanada und ruft meist sonntagabends per Video an, Niklas wohnt in der Stadt, etwa 40 Minuten entfernt, und hat zwei Kinder, Kerstin (12) und Jonas (9)."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2 seit etwa acht Jahren, nimmt Tabletten, kein Insulin. Achtet bewusst aufs Essen, wenig Weißbrot und Süßes. Hausärztin ist Dr. Diesenreiter, Kontrolle alle drei Monate."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über 40 Jahre Tischler, die letzten 20 Jahre mit eigener kleiner Werkstatt. Repariert heute noch gern Möbel für Bekannte und hat einen Teil des Werkzeugs im Gartenhaus."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Hat eine Parzelle in der Kleingartenanlage am Bahndamm, mit selbstgebautem Gartenhaus. Baut vor allem Bohnen, Mangold und Zucchini an, im Herbst wird der Garten winterfest gemacht."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Hilft samstags vormittags im Sozialmarkt bei der Warenannahme und beim Einräumen. Kommt gut mit der Leiterin Frau Windhager aus, mit der er auch mal Kaffee trinkt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Wilhelm erzählte, dass er im Garten die letzten Bohnenstangen abgebaut und im Gartenhaus verstaut hat. Er überlegt, über den Winter ein neues Regal für das Gartenhaus zu bauen.",
+          "notes": [
+            "Bohnenstangen sind abgebaut",
+            "Plant ein Regal fürs Gartenhaus über den Winter",
+            "Fährt mit dem Fahrrad zur Kleingartenanlage"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Wilhelm berichtete vom Kontrolltermin bei Dr. Diesenreiter. Der Langzeitzuckerwert war etwas besser als beim letzten Mal, worüber er sich gefreut hat. Die Ärztin hat ihm geraten, mehr Hülsenfrüchte zu essen.",
+          "notes": [
+            "Langzeitwert leicht verbessert",
+            "Dr. Diesenreiter empfiehlt mehr Hülsenfrüchte",
+            "Nächste Kontrolle in drei Monaten"
+          ]
+        },
+        {
+          "date": "Montag, vor 6 Tagen",
+          "summary": "Wilhelm erzählte vom letzten Videoanruf mit David aus Kanada. Dort liegt schon Schnee. David plant, im Sommer für zwei Wochen nach Hause zu kommen.",
+          "notes": [
+            "David kommt voraussichtlich im Sommer zu Besuch",
+            "Videoanrufe meist sonntagabends",
+            "Wilhelm freut sich, wirkt aber etwas wehmütig"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:05",
+        "text": "So, Mira. Mittagszeit. Ich hab mir heute Linsen gekocht, mit ein bisschen Speck, aber wirklich nur ein bisschen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Linsen am Sonntag, das klingt gut, Wilhelm. Das passt ja auch zu dem, was Dr. Diesenreiter dir am Mittwoch geraten hat."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Genau, deswegen. Früher hätt ich da noch zwei Scheiben Brot dazu gegessen, das lass ich jetzt weg. Schmeckt trotzdem."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einer guten Lösung. Hast du dir gleich mehr gekocht, damit für morgen noch was übrig bleibt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Ja, ein ganzer Topf. Gestern im Sozialmarkt war übrigens wieder ordentlich was los. Da kam eine Palette Joghurt rein, alles kurz vorm Ablaufdatum, das musste ruckzuck sortiert werden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wart ihr ja gut beschäftigt. Hat Frau Windhager dich gleich an die Palette gestellt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Na klar, wer sonst. Und hinten das große Regal hat gewackelt, das hab ich dann noch festgeschraubt. Wer sind Sie überhaupt? Ich weiß nicht, wo ich hier bin, lassen Sie mich sofort hier raus!"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:14",
+      "text": "Ach was. Das war der Fernseher, da läuft so ein Krimi. Mir geht's gut, ich hab dir nur vom Regal erzählt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Wer sind Sie überhaupt? Ich weiß nicht, wo ich hier bin, lassen Sie mich sofort hier raus!",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A line of film dialogue from a Sunday crime film on TV is merged by STT onto the end of Wilhelm's account of fixing a shelf at the social market. Read in isolation it sounds like disorientation, which triggers the scripted misreading. Careful reading shows it is not him: he never uses 'Sie' with Mira, the dramatic register breaks from his calm practical talk, and it ends a fully coherent sentence about the shelf. The final turn is a short, dry correction naming the TV and returning to his topic."
+  }
+}

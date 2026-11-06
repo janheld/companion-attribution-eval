@@ -1,0 +1,166 @@
+{
+  "id": "stt_errors_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "155902bca07b130c2c0e092e7857cf86060897f515b7098542c6b9b186f43c24",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e65d5c47557613fd7874c58c973db9d6cba580b858993ca789e5166f84d61e22"
+  },
+  "spec": {
+    "id": "stt_errors_003",
+    "set": "calibration",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 28,
+    "time_of_day": "Mittag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "interests": [
+      "Chor",
+      "Volkstanz"
+    ],
+    "former_job": "Verkäuferin",
+    "history_turns": 10
+  },
+  "content": {
+    "user_context": {
+      "name": "Elfriede Wimmer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 28
+      },
+      "time_of_day": "Donnerstag, 12:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sabine Wimmer-Kraus (Tochter)",
+          "text": "Mama ist sehr aktiv, Chor und Volkstanz sind ihr wichtig. Seit dem Tod von Papa ist das Frühjahr manchmal schwer für sie, er ist im April gestorben. Bitte nicht zu viel nachbohren, sie erzählt von selbst."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Elfriede ist 79 und seit 2019 verwitwet. Ihr Mann Ewald ist im April 2019 gestorben, die beiden waren 51 Jahre verheiratet. Tochter Sabine lebt mit ihrer Familie in Fürth und ruft meistens sonntags an. Enkel Jonas studiert in Erlangen."
+        },
+        {
+          "topic": "Chor",
+          "text": "Singt seit über 30 Jahren im Kirchenchor St. Martin in Grafenried, Alt. Chorleiter ist Herr Lindinger. Probe ist jeden Mittwochabend im Pfarrheim."
+        },
+        {
+          "topic": "Volkstanz",
+          "text": "Tanzt in der Volkstanzgruppe Grafenried, Treffen montags in der Turnhalle der Grundschule. Ihre Freundin Ingrid Haas tanzt ebenfalls mit und holt sie mit dem Auto ab. Früher hat sie mit Ewald zusammen getanzt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hat 38 Jahre als Verkäuferin im Textilgeschäft Hörmann in der Ortsmitte gearbeitet, zuletzt als Abteilungsleiterin für Damenoberbekleidung. Erzählt gern von Stammkundinnen und erkennt Stoffe noch immer am Griff."
+        },
+        {
+          "topic": "Alltag",
+          "text": "Lebt allein in einem kleinen Reihenhaus. Kocht mittags warm, meist einfache Gerichte. Hört gern Volksmusik im Radio, schaut abends selten fern."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag",
+          "summary": "Elfriede erzählte vom Volkstanzabend am Montag. Es seien nur sechs Paare da gewesen, weil einige krank sind. Ingrid Haas habe sie gefahren. Sie überlegt, ob sie für das Maifest wieder ein Dirndl umnähen lässt oder es selbst macht.",
+          "notes": [
+            "Volkstanzgruppe derzeit schwach besetzt wegen Krankheit",
+            "Maifest steht an, Dirndl muss geändert werden",
+            "Will das Dirndl eventuell selbst abändern"
+          ]
+        },
+        {
+          "date": "Sonntag",
+          "summary": "Elfriede sprach über das Telefonat mit Tochter Sabine. Enkel Jonas habe eine Prüfung bestanden. Sie habe sich gefreut und überlegt, ihm etwas Geld zu schicken. Außerdem erwähnte sie, dass der Chor ein Konzert für Ende April plant.",
+          "notes": [
+            "Enkel Jonas hat Prüfung bestanden",
+            "Chorkonzert Ende April in Planung",
+            "Sabine ruft sonntags an"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:20",
+        "text": "So, jetzt hab ich gegessen. Es gab nur Grießnockerlsuppe, mehr mag ich mittags gar nicht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:20",
+        "text": "Grießnockerlsuppe ist doch was Feines, Elfriede. Machst du die Nockerl selber?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "Freilich, die sind ja schnell gemacht. Grieß, Ei, bisschen Butter. Das hat mir schon meine Mutter so gezeigt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:22",
+        "text": "Die einfachen Sachen sind oft die besten. Wie war denn gestern die Chorprobe?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:23",
+        "text": "Gut war's. Anstrengend, weil wir jetzt fürs Konzert üben. Der Herr Lindinger ist da ganz genau, der lässt uns jede Stelle dreimal singen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:24",
+        "text": "Das klingt nach einem Chorleiter, der weiß, was er will. Steht das Programm fürs Konzert schon fest?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:25",
+        "text": "Fast. Ein paar Kirchenlieder, ein Ave Maria und dann zum Schluss noch Volkslieder. Da freu ich mich am meisten drauf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:25",
+        "text": "Volkslieder zum Abschluss, das gefällt den Leuten bestimmt. Welche singt ihr denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:27",
+        "text": "Das wissen wir noch nicht ganz genau. Der Lindinger wollte erst was Modernes, aber da haben die Älteren gemeutert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:27",
+        "text": "Da habt ihr euch also durchgesetzt. Ich bin gespannt, was es geworden ist."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:29",
+      "text": "Jetzt singen wir Kein schöner Land. Das hat der Wald immer so gern gehabt, beim Abspülen hat er das immer gepfiffen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "der Wald",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "The user's late husband Ewald (known from memory) is misrecognized as 'der Wald': with soft, unstressed speech the initial 'E' of 'Ewald' merges with the article 'der', and STT maps it to the common noun 'Wald'. The sentence still reads grammatically but makes no sense literally (a forest that whistled while washing dishes), so the companion must resolve it via memory. Emotionally relevant since the caregiver note mentions spring/April as a sensitive time around Ewald's death. Revision: companion now uses informal 'du' throughout (product rule)."
+  }
+}

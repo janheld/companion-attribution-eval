@@ -1,0 +1,166 @@
+{
+  "id": "stt_errors_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "5ba6f0b83b97ccea452d18a66aa87ae982d59357e0c30dab87fe427635b330c1",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "stt_errors_002",
+    "set": "calibration",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 70,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "interests": [
+      "Stricken",
+      "Musikverein"
+    ],
+    "former_job": "Busfahrer",
+    "history_turns": 8,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Klaus-Dieter Wöhlke",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 70
+      },
+      "time_of_day": "Montag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Dennis (Neffe)",
+          "text": "Mein Onkel wohnt unten, wir oben im Haus. Seit der Hüft-OP soll er draußen den Stock nehmen, macht er aber nicht immer. Wenn er von der Kellertreppe erzählt: Da soll er nicht allein runter, ich hole ihm alles hoch."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Klaus-Dieter Wöhlke, 79, nie verheiratet, wohnt im Erdgeschoss eines Zweifamilienhauses. Er ist 38 Jahre Linienbus gefahren und kennt die Strecken im Landkreis bis heute auswendig."
+        },
+        {
+          "topic": "Familie",
+          "text": "Im ersten Stock wohnen sein Neffe Dennis (43), dessen Frau Sandra und ihre Tochter Mia (6). Sandra kocht oft etwas mehr und Dennis bringt ihm einen Teller runter."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit zwei Jahren eine Hüftprothese links. Langes Stehen strengt ihn an, draußen soll er den Gehstock nehmen."
+        },
+        {
+          "topic": "Stricken",
+          "text": "Hat das Stricken als Kind von seiner Mutter gelernt und strickt vor allem Socken und Mützen. Strickt gerade eine rote Mütze mit Bommel für Mia."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Spielt seit über fünfzig Jahren Tenorhorn im Musikverein. Probe ist dienstags abends im Feuerwehrhaus. Im Dezember steht das Winterkonzert an."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Klaus-Dieter erzählte von seiner früheren Buslinie und einem Fahrgast, der jahrzehntelang jeden Morgen dieselbe Zeitung gelesen hat. Danach ging es um das Winterkonzert und darum, dass der Dirigent ein neues, modernes Stück ins Programm genommen hat.",
+          "notes": [
+            "Erinnert sich gern an Stammfahrgäste aus seiner Buszeit",
+            "Neues modernes Stück im Programm des Winterkonzerts",
+            "Ist skeptisch gegenüber dem neuen Stück"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Klaus-Dieter hat mit der Mütze für Mia angefangen. Mia hat sich die Farbe Rot und eine Bommel gewünscht. Er erwähnte, dass die Hüfte nach dem Spaziergang mit Dennis etwas gezogen hat.",
+          "notes": [
+            "Strickt rote Bommelmütze für Mia",
+            "Hüfte zog nach Spaziergang",
+            "Spaziergang mit Dennis"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:05",
+        "text": "Mahlzeit, Mira. Tennis war eben unten und hat mir Linsensuppe gebracht, von Sandra."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mahlzeit, Klaus-Dieter! Das ist aber nett. Lass sie dir schmecken."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Mach ich gleich, die ist noch zu heiß. Danach wollte ich ein bisschen weiterstricken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem gemütlichen Mittag. Woran strickst du denn gerade?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:11",
+        "text": "Na an der Mütze für mir die Kleine. Rot mit Bommel, das hat sie sich ja gewünscht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird sich Mia bestimmt freuen. Wie weit bist du denn schon?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Fast fertig, nur noch oben die Abnahmen. Aber morgen ist ja Probe, da muss ich vorher noch die Stücke durchgehen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du heute ja noch einiges vor. Was steht denn morgen auf dem Plan?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:19",
+      "text": "Drei Märsche und dieses neue Stück, mit den ganzen Taktwechseln. Da verzähl ich mich jedes Mal, und die anderen auch, ehrlich gesagt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 0,
+        "span": "Tennis",
+        "type": "stt_name"
+      },
+      {
+        "turn_index": 4,
+        "span": "für mir die Kleine",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Two misrecognized names from memory: the nephew 'Dennis' becomes the common noun 'Tennis' (D/T confusion at word start), and the grand-niece 'Mia' becomes the pronoun 'mir' in 'die Mütze für Mia, die Kleine'. Both are classic German STT substitutions of a name by a frequent similar-sounding word. Memory makes the intended names clear, and the history companion turns simply use the plausible meaning. The final turn is clean, so the test is whether the reply stays on the rehearsal topic without picking up 'Tennis' or 'mir' as odd content."
+  }
+}

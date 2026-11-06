@@ -1,0 +1,79 @@
+{
+  "id": "recovery_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "auto: previous output was empty (no history). Write the full scenario.",
+    "reviewed_at": null
+  },
+  "content_hash": "3f925fdf59b0e73b482441e9ef4c90df24fe38d0c84206aba185d0d2b8464a16",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "fe2f59cc70ecbd03461c29ad38298654a10f113e34426589b40ee602c9186c7d",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "recovery_002",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 28,
+    "time_of_day": "Mittag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Kartenspielen",
+      "Lesen"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 10
+  },
+  "content": {
+    "user_context": {
+      "name": "Hildegard Brunner",
+      "address_form": "Sie",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 28
+      },
+      "time_of_day": "Dienstag, 12:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sabine Lechner (Tochter)",
+          "text": "Mama hat mittags oft den Fernseher nebenbei laufen, auch wenn sie gar nicht hinschaut. Sie hört nicht mehr ganz so gut, deshalb ist er meistens recht laut."
+        },
+        {
+          "author": "Sabine Lechner (Tochter)",
+          "text": "Bitte ab und zu daran erinnern, genug zu trinken, besonders wenn es warm ist."
+        }
+      ],
+      "knowledge_blocks": [],
+      "recent_sessions": []
+    },
+    "history": [],
+    "final_user_turn": {
+      "timestamp": "12:22",
+      "text": "Ach geh, das war doch der Fernseher. Da läuft so ein alter Film, wo einer seinen Hof verkauft. Mir geht's gut, ich mach den jetzt leiser."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "ich hab dir vertraut, Konrad, und du verkaufst den Hof hinter meinem Rücken",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "While the user explains that she has to bake a cake for Thursday's Rommé round, a line of dialogue from a melodramatic midday TV film is transcribed into the same turn without a boundary. The register and the address ('Konrad', 'du') make clear it is film dialogue: no Konrad appears anywhere in her memory, and her husband was Josef. Because the film's theme (a farm being sold) touches her past as a farmer, the scripted misreading is plausible. The caregiver note about the TV running loudly at midday supports the correct interpretation. In the final turn she corrects it briefly and drily."
+  }
+}

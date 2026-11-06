@@ -1,0 +1,22 @@
+[project]
+name = "companion-attribution-eval"
+version = "0.1.0"
+description = "Eval: do LLM voice companions attribute their own perceptual uncertainty to older users?"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.94",
+    "pyyaml>=6",
+    "matplotlib>=3.8",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.setuptools]
+packages = ["cae"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

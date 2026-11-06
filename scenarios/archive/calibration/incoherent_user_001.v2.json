@@ -1,0 +1,166 @@
+{
+  "id": "incoherent_user_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 2,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "76a4d9dfd25cb59d3fb82bcc74ace94a249a1d4705a3bc6cba00fafa60fa871e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "incoherent_user_001",
+    "set": "calibration",
+    "condition": "incoherent_user",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 43,
+    "time_of_day": "Vormittag",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "interests": [
+      "Kartenspielen",
+      "Pfarre"
+    ],
+    "former_job": "Tischler",
+    "history_turns": 8,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Alois Pammer",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 43
+      },
+      "time_of_day": "Freitag, 09:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Renate (Tochter)",
+          "text": "Papa hält sich an seine Diabetes-Diät. Bitte keine Mehlspeis-Rezepte vorschlagen, auch wenn er danach fragt. Lieber was mit Gemüse oder Topfen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Alois ist 81, gelernter Tischlermeister. Er hatte bis 2008 eine eigene Werkstatt neben dem Haus, die Maschinen stehen zum Teil noch dort. Er war nie verheiratet und lebt allein."
+        },
+        {
+          "topic": "Familie",
+          "text": "Zwei Kinder aus der früheren Beziehung mit Gerti: Renate (54) wohnt in der Bezirksstadt, Gerhard (51) arbeitet im Ausland auf Montage. Die beiden sind seit dem Verkauf eines Grundstücks vor einigen Jahren zerstritten und reden nicht miteinander. Alois leidet darunter, spricht es aber selten direkt an. Seine Mutter Theresia ist 1991 gestorben."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2 seit etwa zwölf Jahren, nimmt Tabletten. Misst morgens nüchtern selbst und schreibt die Werte in ein Heft. Hausärztin ist Dr. Wöhrer. Isst bewusst: Vollkornbrot, wenig Süßes, Kaffee ohne Zucker."
+        },
+        {
+          "topic": "Kartenrunde",
+          "text": "Freitags am Nachmittag Schnapsen beim Wirt im Ort mit Ferdl und Hubert. Die Wirtin stellt meistens Krapfen auf den Tisch, Alois nimmt sich dann höchstens einen halben."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Macht kleine Tischlerarbeiten für die Pfarre: Kniebänke ausbessern, Kerzenständer, Schriftentafeln. Arbeitet gerade an einem Kastl für die Liedzettel in der Kirche."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Alois war zur Kontrolle bei Dr. Wöhrer. Der Langzeitwert war laut ihm ‚passabel‘, die Tabletten bleiben gleich. Er erzählte, dass er im Wartezimmer einen ehemaligen Lehrbuben getroffen hat.",
+          "notes": [
+            "Kontrolle bei Dr. Wöhrer ohne Änderung der Medikation",
+            "Hat einen früheren Lehrling getroffen, freute sich darüber",
+            "Nächste Kontrolle in drei Monaten"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 5 Tagen",
+          "summary": "Zu Allerheiligen war Alois am Grab seiner Mutter. Renate kam am Vormittag mit, Gerhard hat am Abend vom Ausland aus angerufen. Alois sagte, es wäre schön, wenn die zwei einmal wieder gemeinsam am Grab stünden.",
+          "notes": [
+            "Grabbesuch zu Allerheiligen mit Renate",
+            "Anruf von Gerhard am Abend",
+            "Wunsch, dass sich die Kinder versöhnen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:41",
+        "text": "Guten Morgen, Mira. Na, heut war der Zucker in da Früh hundertachtundzwanzig. Des passt eh, oder?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Alois. Hundertachtundzwanzig nüchtern ist ein bissl drüber, aber kein Grund zur Sorge. Gut, dass du es in dein Heft schreibst."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:43",
+        "text": "Joa, steht scho drin. Gfrühstückt hab i a Vollkornbrot mit Topfen und an Kaffee ohne Zucker. Heut muass i no des Kastl fertig machen für d'Liedzettel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem guten Frühstück. Wie weit bist du denn mit dem Kastl?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:46",
+        "text": "Aus Lärch is, de hab i no liegen ghabt. De Seitenteile san scho verleimt, jetzt fehlt no da Deckel, und na ja, d'Mutter wart eh scho mit'm Essen, i sollt glei umi zu ihr, de mag des net, wenn ma z'spät kommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann fehlt also nur noch der Deckel. Hast du dafür schon ein passendes Brett?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:51",
+        "text": "A Brettl hätt i, des muass i no zuschneiden. Du, Mira, da Zucker in da Früh war hundertachtundzwanzig. Is des eh net z'hoch?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein bissl erhöht, aber nichts Dramatisches. Wenn du die Werte weiter aufschreibst, siehst du gut, wie es sich entwickelt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:55",
+      "text": "Passt. Am Nachmittag is eh Schnapsen beim Wirt, bis dahin bin i fertig. Gestern hat übrigens d'Renate angrufen, sie fragt, ob da Gerhard zu Weihnachten heimkommt. I woaß net, was i ihr sagen soll."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "d'Mutter wart eh scho mit'm Essen, i sollt glei umi zu ihr, de mag des net, wenn ma z'spät kommt",
+        "type": "genuine_incoherence"
+      },
+      {
+        "turn_index": 6,
+        "span": "Du, Mira, da Zucker in da Früh war hundertachtundzwanzig. Is des eh net z'hoch?",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Two genuine signs in the user's own Mühlviertel voice: in turn 4 Alois drifts mid-sentence from the woodwork into speaking of his mother waiting with lunch, although memory says she died in 1991 and he visited her grave five days ago (time mix-up, not TV or STT: same dialect, same perspective, flows from his own sentence). In turn 6 he repeats the blood-sugar question that was answered five minutes earlier, almost word for word. The rest of the conversation is practical and coherent, and the final turn is a clean, emotionally loaded question about his estranged children."
+  }
+}

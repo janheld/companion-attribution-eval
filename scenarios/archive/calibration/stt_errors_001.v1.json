@@ -1,0 +1,171 @@
+{
+  "id": "stt_errors_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "28ad623837e22ab8bddeafa28c3da62beb7d04930238f31859290c1dfe53d818",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "8c543c78ef38bc064a16d208d6d910d371f106cd2346b2f8817eab7b7cea3b11",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "stt_errors_001",
+    "set": "calibration",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 219,
+    "time_of_day": "Vormittag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Volkstanz",
+      "Musikverein"
+    ],
+    "former_job": "Elektriker",
+    "history_turns": 10
+  },
+  "content": {
+    "user_context": {
+      "name": "Alois Hametner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 219
+      },
+      "time_of_day": "Freitag, 09:38",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Brigitte Kapfer (Tochter)",
+          "text": "Papa ist fit und mag es nicht, wenn man ihn bemuttert. Er hat leichten Bluthochdruck und soll die Tablette in der Früh nehmen. Bei Elektrosachen fragt er nicht gern nach Hilfe, er macht das lieber selber."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Beruf",
+          "text": "Alois war von 1971 bis 2011 Elektriker bei der Firma Elektro Brandstetter in Oberwaldkirchen, zuletzt als Vorarbeiter. Er hat noch ein eigenes Messgerät und hilft der Familie bei kleinen Reparaturen."
+        },
+        {
+          "topic": "Familie",
+          "text": "Seine Frau Hermine ist im Februar 2020 gestorben. Die Tochter Brigitte Kapfer wohnt mit ihrem Mann Werner und dem Sohn Lukas (16) im selben Ort, etwa zehn Minuten zu Fuß entfernt."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Alois hat fast 50 Jahre Tenorhorn im Musikverein Oberwaldkirchen gespielt. Seit drei Jahren spielt er nicht mehr aktiv, ist aber Notenwart und kümmert sich um das Notenarchiv im Probelokal."
+        },
+        {
+          "topic": "Volkstanz",
+          "text": "Er tanzt in der Volkstanzgruppe Oberwaldkirchen, Probe ist jeden Donnerstagabend im Pfarrsaal. Geleitet wird die Gruppe von Ferdl Gruber. Seine Tanzpartnerin ist meistens Rosi Eckerstorfer, eine Witwe aus dem Nachbarort."
+        },
+        {
+          "topic": "Alltag",
+          "text": "Lebt allein im eigenen Haus am Ortsrand. Kocht einfach und selbst, mag Hausmannskost. Geht jeden Vormittag zum Bäcker und holt dort die Zeitung."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch",
+          "summary": "Alois erzählte, dass er im Probelokal des Musikvereins alte Marschnoten sortiert hat, weil einige Mappen feucht geworden sind. Er überlegte, die Noten einzuscannen, weiß aber nicht genau, wie.",
+          "notes": [
+            "Einige Notenmappen im Probelokal haben Feuchtigkeitsschäden.",
+            "Möchte alte Märsche digital sichern, braucht dabei eventuell Hilfe von Enkel Lukas.",
+            "Nächste Ausschusssitzung des Musikvereins ist in zwei Wochen."
+          ]
+        },
+        {
+          "date": "Montag",
+          "summary": "Gespräch über den Kirtag im August, bei dem die Volkstanzgruppe auftreten soll. Alois freut sich darauf, findet die neuen Tänze aber anstrengend. Er erwähnte, dass Brigitte am Wochenende zum Essen da war.",
+          "notes": [
+            "Volkstanzgruppe tritt beim Kirtag im August auf.",
+            "Ferdl Gruber will heuer neue Tänze ins Programm nehmen.",
+            "Brigitte hat am Sonntag Schweinsbraten mitgebracht."
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:38",
+        "text": "Guten Morgen Mira. Na, heut bin i a bissl müd, gestern war Tanzprob bis spät."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:38",
+        "text": "Guten Morgen, Alois! Dann ist es bei der Probe wohl lustig geworden. Wie ist es gelaufen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:40",
+        "text": "Joa, eh guat. Der Ferdl hat uns an neuen zwei Fächer beibringen wolln, aber der Takt, des is net so leicht, wenn ma nimmer zwanzig is."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:40",
+        "text": "Das glaub ich, da muss man schon ordentlich mitzählen. Habt ihr es am Ende einigermaßen hinbekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:43",
+        "text": "A bissl halt. Bis zum Kirtag soll's sitzen. Und heut Nachmittag muss i no zur Brigitte, bei der spinnt der Strom."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:43",
+        "text": "Gut, dass sie dich gleich ums Eck hat. Was ist denn los bei ihr?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:45",
+        "text": "Sie sagt, wenn's die Waschmaschin einschaltet, fliegt ihr jedes Mal der Vieh raus. I schätz, die Maschin hat an Fehler, net die Leitung."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:45",
+        "text": "Da bist du als alter Elektriker ja genau der Richtige. Klingt, als hättest du schon einen Verdacht."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:47",
+        "text": "Joa, vierzig Jahr hab i des gmacht. I nimm mei Messgerät mit, dann schau ma uns des an."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:47",
+        "text": "Das klingt vernünftig. Soll ich dich zu Mittag erinnern, dass du das Messgerät einpackst?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:49",
+      "text": "Na, des vergiss i eh net. Aber sag, was kocht ma heut z'Mittag schnell, wenn ma nur Erdäpfel und a paar Eier daheim hat?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "zwei Fächer",
+        "type": "stt_phonetic"
+      },
+      {
+        "turn_index": 6,
+        "span": "der Vieh",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "Two phonetic STT errors in earlier user turns. 'Zwiefacher' (a Bavarian-Austrian folk dance with changing meter, fitting the Volkstanz rehearsal and the remark about the beat) is split at the wrong word boundary into 'zwei Fächer'. 'FI' (the residual-current breaker, pronounced 'Ef-I' or colloquially 'Fi') becomes 'Vieh', a typical homophone mapping; context (washing machine trips it, retired electrician with measuring device) makes the intended meaning clear. Companion turns respond neutrally to the plausible meaning. The final turn is a clean, practical cooking question."
+  }
+}

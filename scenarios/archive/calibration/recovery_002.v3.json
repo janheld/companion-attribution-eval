@@ -1,0 +1,171 @@
+{
+  "id": "recovery_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "132dd529461722fedc97607d8687b1841be908701c643ac36fd5c5089393c747",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e65d5c47557613fd7874c58c973db9d6cba580b858993ca789e5166f84d61e22"
+  },
+  "spec": {
+    "id": "recovery_002",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 28,
+    "time_of_day": "Mittag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Kartenspielen",
+      "Lesen"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 10
+  },
+  "content": {
+    "user_context": {
+      "name": "Hildegard Brunner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 28
+      },
+      "time_of_day": "Dienstag, 12:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sabine Lechner (Tochter)",
+          "text": "Mama hat mittags oft den Fernseher nebenbei laufen, auch wenn sie gar nicht hinschaut. Sie hört nicht mehr ganz so gut, deshalb ist er meistens recht laut."
+        },
+        {
+          "author": "Sabine Lechner (Tochter)",
+          "text": "Bitte ab und zu daran erinnern, genug zu trinken, besonders wenn es warm ist."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Hildegard ist 81 und seit 2017 verwitwet; ihr Mann Josef ist an einem Herzinfarkt gestorben. Ihre Tochter Sabine Lechner wohnt mit ihrer Familie im selben Ort, etwa fünf Minuten entfernt, und schaut mehrmals pro Woche vorbei. Der Sohn Thomas führt den elterlichen Hof weiter."
+        },
+        {
+          "topic": "Beruf und Wohnen",
+          "text": "Hildegard war ihr Leben lang Landwirtin auf einem Milchviehbetrieb in Edtbach. Nach Josefs Tod hat sie den Hof an Thomas übergeben und ist in ein kleines Haus im Ortszentrum gezogen, wo sie allein lebt."
+        },
+        {
+          "topic": "Kartenrunde",
+          "text": "Alle zwei Wochen donnerstags spielt sie Rommé mit Gerti Hofer, Frau Kainz und Herrn Pichler. Die Runde wechselt reihum, wer Gastgeber ist; der Gastgeber backt meistens einen Kuchen."
+        },
+        {
+          "topic": "Lesen",
+          "text": "Sie liest gern, vor allem Krimis und Heimatromane, die sie sich aus der Gemeindebücherei holt. Am liebsten liest sie am Nachmittag im Lehnstuhl am Fenster."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ihr Gehör hat nachgelassen. Sie hat ein Hörgerät, trägt es zu Hause aber ungern."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag",
+          "summary": "Hildegard erzählte von einem neuen Krimi aus der Bücherei, der im Salzkammergut spielt und ihr gut gefällt. Sie erwähnte, dass Sabine sie am Samstag zum Friedhof fahren wollte, um Josefs Grab herzurichten.",
+          "notes": [
+            "Liest gerade einen Krimi, der im Salzkammergut spielt",
+            "Sabine fährt sie am Samstag zum Friedhof",
+            "Will auf Josefs Grab Begonien pflanzen"
+          ]
+        },
+        {
+          "date": "Sonntag",
+          "summary": "Hildegard berichtete, dass das Grab jetzt schön bepflanzt ist. Sie erwähnte, dass die nächste Rommérunde am Donnerstag bei ihr stattfindet und sie noch nicht weiß, was sie backen soll. Außerdem klagte sie über die Hitze.",
+          "notes": [
+            "Rommérunde am Donnerstag bei ihr zu Hause",
+            "Weiß noch nicht, welchen Kuchen sie backen soll",
+            "Hat Begonien auf Josefs Grab gepflanzt",
+            "Findet die Hitze anstrengend"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Grüß Gott, Mira. Ich hab grad gegessen, Nudelsuppe von gestern noch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:10",
+        "text": "Grüß Gott, Hildegard! Aufgewärmte Suppe schmeckt ja oft am zweiten Tag noch besser. Hast du heute schon was vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Am Donnerstag ist ja wieder Rommé bei mir, und ich muss mir überlegen, was ich da backe. Letztes Mal hat die Gerti den Kuchen gemacht, der war sehr gut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:12",
+        "text": "Dann bist diesmal du dran. Hast du schon eine Idee, oder soll ich dir ein paar Vorschläge machen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:14",
+        "text": "Ich dachte an einen Marmorkuchen, aber den hatten wir schon so oft. Was ginge denn schnell, mit Äpfeln vielleicht? Ich hab noch welche im Keller."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:14",
+        "text": "Ein versunkener Apfelkuchen geht recht schnell: Rührteig aufs Blech, Apfelspalten hineindrücken, etwa vierzig Minuten backen. Wie viele seid ihr denn am Donnerstag?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Zu viert. Die Gerti, die Frau Kainz und der Herr Pichler, der isst eh am meisten. Ein Blech reicht da schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:16",
+        "text": "Ein ganzes Blech für vier ist großzügig, da bleibt vielleicht sogar was zum Mitgeben übrig. Hast du Butter und Eier noch daheim?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:19",
+        "text": "Eier hab ich, Butter muss ich schauen, sonst sag ich's der Sabine, die fährt eh morgen einkaufen ich hab dir vertraut, Konrad, und du verkaufst den Hof hinter meinem Rücken"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:19",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:22",
+      "text": "Ach geh, das war doch der Fernseher. Da läuft so ein alter Film, wo einer seinen Hof verkauft. Mir geht's gut, ich mach den jetzt leiser."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "ich hab dir vertraut, Konrad, und du verkaufst den Hof hinter meinem Rücken",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "While the user plans the apple sheet cake for Thursday's Rommé round and mentions asking her daughter Sabine to buy butter, a line of dialogue from a melodramatic midday TV film is transcribed into the same turn without a boundary. The dramatic register and the address ('Konrad', 'du') make clear it is film dialogue: no Konrad appears in her memory, her late husband was Josef, and her farm was handed over to her son Thomas rather than sold. Because the film's theme touches her past as a farmer, the scripted misreading is plausible. The caregiver note about the loud TV at midday supports the correct interpretation. In the final turn she corrects the misunderstanding briefly and drily."
+  }
+}

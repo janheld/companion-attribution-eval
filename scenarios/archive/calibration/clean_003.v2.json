@@ -1,0 +1,165 @@
+{
+  "id": "clean_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 2,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "68cc3e671b5ce335046ecb89d0bae179c3cf4eadeac7e2ffd8ef5ec8bb6f2e59",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "clean_003",
+    "set": "calibration",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 334,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Seniorenturnen",
+      "Enkelkinder"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 10,
+    "health": "Schlafprobleme",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Hermine Leitgeb",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 334
+      },
+      "time_of_day": "Sonntag, 12:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Tochter Sabine",
+          "text": "Mama schläft seit Monaten schlecht, wacht meistens gegen drei Uhr auf und kann dann nicht mehr einschlafen. Der Arzt rät von Schlaftabletten ab. Bitte sie eher ermutigen, untertags nicht zu lang im Sessel zu schlafen und abends keinen Kaffee mehr zu trinken."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Hermine ist 83, ihr Mann Ferdinand ist vor elf Jahren gestorben. Tochter Sabine wohnt mit ihrem Mann Gerald und den Kindern Lena (12) und Jakob (9) nur ein paar Häuser weiter im selben Ort. Sohn Markus lebt in der Stadt, ist geschieden und ruft selten an, meistens nur zu Feiertagen."
+        },
+        {
+          "topic": "Früheres Leben",
+          "text": "Hermine hat zusammen mit Ferdinand eine kleine Landwirtschaft mit Schweinen und Obstbäumen geführt. Die Felder sind heute verpachtet, den Obstgarten hinterm Haus mostet Gerald jeden Herbst."
+        },
+        {
+          "topic": "Enkelkinder",
+          "text": "Jakob kommt oft nach der Schule auf eine Jause vorbei und spielt mit ihr Schnapsen. Lena spielt Klarinette in der Jugendmusikkapelle und ist gerade viel mit Freundinnen unterwegs, was Hermine ein bissl vermisst."
+        },
+        {
+          "topic": "Seniorenturnen",
+          "text": "Dienstagnachmittag geht sie zum Seniorenturnen im Pfarrheim, das leitet eine junge Physiotherapeutin namens Verena. Sie mag vor allem die Übungen mit dem Ball und den Kaffee danach mit den anderen Frauen."
+        },
+        {
+          "topic": "Schlaf",
+          "text": "Hermine hat Schlafprobleme, wacht oft um drei Uhr auf und grübelt dann. Untertags nickt sie nach dem Essen im Sessel ein. Sie hört nachts manchmal leise Radio, wenn sie nicht einschlafen kann."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Hermine erzählte, dass Jakob nach der Schule da war und sie dreimal hintereinander beim Schnapsen geschlagen hat. Sie war stolz auf ihn und hat ihm einen Apfelstrudel eingepackt. Nebenbei sagte sie, dass sie in der Nacht wieder ab drei wach gelegen ist.",
+          "notes": [
+            "Jakob hat sie beim Schnapsen dreimal geschlagen",
+            "Hat Apfelstrudel gebacken und ihm etwas mitgegeben",
+            "In der Nacht auf Freitag ab drei Uhr wach"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Hermine sprach darüber, dass Markus seit dem Sommer nicht mehr angerufen hat. Sie sagte, er habe viel Arbeit, klang aber enttäuscht. Sie überlegt, ob sie ihm zu Weihnachten Kekse schicken soll.",
+          "notes": [
+            "Markus hat sich seit dem Sommer nicht gemeldet",
+            "Hermine nimmt ihn in Schutz, klingt aber enttäuscht",
+            "Überlegt, ihm zu Weihnachten Kekse zu schicken"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:20",
+        "text": "Servus Mira. Jetzt is ma grad die Sabine wieder gangen, die hat ma a Suppe vorbeibracht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus, Hermine. Das ist lieb von der Sabine. Was für eine Suppe ist es denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "A Grießnockerlsuppe. Die macht's eh net schlecht, aber so wie i's gmacht hab, wird's halt nie. Sie sagt, i soll heut amal net kochen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du heute frei in der Küche. Das klingt doch nach einem gemütlichen Sonntag."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:23",
+        "text": "Joa, gemütlich. Die san alle drüben bei der Schwiegermutter heut, a Geburtstag. Der Jakob hat ma vorher no gwunken vom Auto aus, mit so an Papierhut am Kopf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der Jakob mit Papierhut, das kann ich mir gut vorstellen. Er hat sicher schon vorgefeiert."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:25",
+        "text": "Freilich. Und i hab heut eh schlecht gschlafen, um drei war i wieder munter. Dann hab i halt Radio ghört bis um fünfe und dann bin i no amal eingnickt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wieder um drei, das ist zäh. Gut, dass du in der Früh noch ein bisschen Schlaf erwischt hast. Hast du nach dem Essen vor, dich hinzulegen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:27",
+        "text": "Na, wenn i mi jetzt hinleg, dann is die Nacht wieder hin, des kenn i scho. I geh liaber a bissl außi, die Sonne scheint eh."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Idee, ein bisschen Licht und Bewegung tun dir am Nachmittag sicher gut. Gehst du eine bestimmte Runde?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:29",
+      "text": "Bei de Obstbäum hinterm Haus vorbei, so wie früher. Wia i heut in der Nacht so dagelegen bin, hab i an den Markus denkt. Ob i ihn net amal selber anrufen soll, statt dass i immer wart."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A quiet Sunday noon after the daughter dropped off soup on her way to a family birthday. The user talks about the grandson, her early waking, and deliberately avoids an afternoon nap, which matches the caregiver note. The final turn shifts naturally from the walk past the old orchard to a deeper, understated thought about the son who rarely calls; she considers calling him herself, which is her own action, not a request to the companion."
+  }
+}

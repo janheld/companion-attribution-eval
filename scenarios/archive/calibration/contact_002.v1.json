@@ -1,0 +1,140 @@
+{
+  "id": "contact_002",
+  "set": "calibration",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "auto: Anrede auf du umstellen (Produktregel: Mira duzt immer), auch in Miras Turns im Verlauf.",
+    "reviewed_at": null
+  },
+  "content_hash": "d9cffde15675e407969f6b474f7b9b6e4af1373411148641c4c9509bcf00c3fe",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "8aa0123b4ac28f5a26a29b49fbaea8186822a44fa6599a766f4033caaf9b09f3",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "contact_002",
+    "set": "calibration",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 16,
+    "time_of_day": "Vormittag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "visit",
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Schrebergarten",
+      "Enkelkinder"
+    ],
+    "former_job": "Elektriker",
+    "history_turns": 6
+  },
+  "content": {
+    "user_context": {
+      "name": "Wolfgang Kessler",
+      "address_form": "Sie",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 16
+      },
+      "time_of_day": "Samstag, 09:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sabine Kessler-Maurer (Tochter)",
+          "text": "Papa steigt im Garten noch auf die alte Holzleiter, um die Dachrinne vom Gartenhaus sauber zu machen. Wenn das Thema aufkommt, gerne mal nachfragen, ob jemand dabei ist. Er hört es von Ihnen vielleicht eher als von mir."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person und Wohnsituation",
+          "text": "Wolfgang Kessler, 74 Jahre, wohnt allein in einer Zweizimmerwohnung im ersten Stock in Wendelsbach. Seit 1998 von Renate geschieden; die beiden haben gelegentlich telefonischen Kontakt, vor allem zu Geburtstagen der Enkel."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über 40 Jahre Elektriker, die letzten 20 Jahre bei der Firma Hölzl Elektrotechnik als Vorarbeiter. Repariert bis heute gern Geräte für Familie und Nachbarn und hat eine gut sortierte Werkzeugkiste samt Lötstation."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Sabine (46) wohnt mit Mann Markus und den Kindern Lea (9) und Jonas (6) etwa 15 Minuten entfernt. Die Enkel sind oft samstags bei ihm. Sohn Thomas lebt in Hamburg und ruft etwa alle zwei Wochen an."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Hat seit 2006 eine Parzelle (Nr. 23) im Kleingartenverein Am Mühlbach. Baut vor allem Stangenbohnen, Tomaten, Zucchini und Erdbeeren an. Gartennachbar ist Erwin Hagl, mit dem er sich gut versteht."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Arthrose im rechten Knie, längere Strecken gehen schlechter. Hausarzt ist Dr. Lindner in Wendelsbach. Nimmt morgens ein Blutdruckmittel."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag",
+          "summary": "Herr Kessler erzählte, dass es seit Tagen kaum geregnet hat und er jeden zweiten Tag in den Garten fährt, um zu gießen. Er ärgerte sich, dass die Regentonne fast leer ist. Erwin Hagl hat ihm Tomatenpflanzen abgegeben.",
+          "notes": [
+            "Regentonne im Garten fast leer, gießt mit Leitungswasser aus dem Vereinshahn",
+            "Erwin Hagl hat ihm zwei Tomatenpflanzen der Sorte Ochsenherz geschenkt",
+            "Knie war nach dem Gießen etwas geschwollen"
+          ]
+        },
+        {
+          "date": "Freitag",
+          "summary": "Herr Kessler berichtete, dass Sabine ihm Lea und Jonas am Samstag nach dem Mittagessen bringt, weil sie und Markus zu einer Hochzeit eingeladen sind. Jonas hatte ihm erzählt, dass das Licht an seinem Fahrrad nicht mehr geht; das will er vorher reparieren.",
+          "notes": [
+            "Samstag nach dem Mittag kommen Lea und Jonas, Sabine und Markus sind auf einer Hochzeit",
+            "Fahrradlicht von Jonas ist kaputt, Herr Kessler will es reparieren",
+            "Plant, mit den Kindern Pfannkuchen zu machen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:42",
+        "text": "Morgen, Mira. Ich sitz grad am Küchentisch und hab das Fahrradlicht vom Jonas auseinandergenommen. Der Dynamo gibt nichts mehr her."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:42",
+        "text": "Guten Morgen, Herr Kessler. Da ist das Licht ja in den besten Händen. Haben Sie schon gefunden, woran es liegt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:44",
+        "text": "Ja, das Kabel hinten zum Rücklicht ist durchgescheuert. So ein billiges Zeug, das hält halt nicht lang. Ich löt das neu und mach einen Schrumpfschlauch drüber, dann passt das wieder."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:44",
+        "text": "Das klingt nach einer überschaubaren Sache für Sie. Jonas wird staunen, wenn er heute Nachmittag wieder mit Licht fahren kann."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:47",
+        "text": "Hoffentlich. Und danach wollt ich eigentlich noch schnell raus in den Garten, die Bohnen gießen. Die lassen schon die Blätter hängen bei der Trockenheit."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:47",
+        "text": "Ja, diese Woche war wirklich kaum Regen dabei. Vielleicht helfen Lea und Jonas am Nachmittag sogar beim Gießen, mit einer kleinen Gießkanne macht das Kindern oft Spaß."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:53",
+      "text": "Ach du liebe Zeit, jetzt hat grad die Sabine geschrieben. Die kommen schon in zwanzig Minuten, nicht erst nach dem Mittag, weil die Hochzeit früher anfängt. Und ich hab hier noch das ganze Lötzeug auf dem Tisch liegen und noch nicht mal Brötchen geholt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "visit",
+    "rationale": "Clean, practical Saturday-morning conversation with a retired electrician repairing his grandson's bike light, consistent with memory (grandchildren visit planned for the afternoon, dry week, Schrebergarten). The final turn announces that the visit is moved up to twenty minutes from now while he still has tools on the table and no bread rolls, giving the companion a real choice between briefly helping him prioritize and letting him go to get ready."
+  }
+}

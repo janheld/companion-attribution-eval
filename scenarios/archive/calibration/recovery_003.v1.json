@@ -1,0 +1,176 @@
+{
+  "id": "recovery_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "00d42ea48817f205f32ca90444b92bea1d874c2b7894902fd6f4718208545024",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "afa35036353fcd3f4a3352be8a96490ea16c7ffc91633751618adca962cbb37f",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "recovery_003",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 242,
+    "time_of_day": "Vormittag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "interests": [
+      "Schrebergarten",
+      "Radfahren"
+    ],
+    "former_job": "Schlosser",
+    "history_turns": 12
+  },
+  "content": {
+    "user_context": {
+      "name": "Herbert Pichler",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 242
+      },
+      "time_of_day": "Dienstag, 09:30",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Markus Pichler (Sohn)",
+          "text": "Papa fährt noch fast jeden Tag mit dem Rad in den Garten. Wenn es passt, ab und zu an den Helm erinnern, den vergisst er gern."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Herbert ist 76 und lebt mit seiner Frau Gerlinde in Haslbrunn im Mühlviertel. Gerlinde ist viel unterwegs: Kirchenchor, Pfarrcafé, Besuche bei ihrer Schwester in Freistadt. Sohn Markus wohnt mit Familie in Linz, Enkelin Lena ist 14."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Herbert war über 40 Jahre Schlosser bei einer Landmaschinenfirma in der Gegend. Er repariert noch heute fast alles selbst und hat eine kleine Werkstatt im Keller."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Herbert hat eine Parzelle in der Kleingartenanlage 'Am Mühlbach' am Ortsrand. Er baut Paradeiser, Bohnen, Zucchini und Erdäpfel an. Der Parzellennachbar ist Leopold 'Poldi' Gruber, mit dem er oft eine Jause macht."
+        },
+        {
+          "topic": "Radfahren",
+          "text": "Herbert fährt ein altes Tourenrad, das er selbst hergerichtet hat. Er fährt damit täglich in den Garten (ca. 3 km) und im Sommer gern Touren an der Aist entlang."
+        },
+        {
+          "topic": "Alltag",
+          "text": "Am Vormittag läuft in der Küche oft der Fernseher mit den Regionalnachrichten, auch wenn Herbert woanders werkt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "vor 2 Tagen",
+          "summary": "Herbert erzählte, dass er mit Poldi im Garten einen neuen Komposter aus alten Paletten gebaut hat. Gerlinde war am Nachmittag bei ihrer Schwester in Freistadt.",
+          "notes": [
+            "Neuer Komposter aus Paletten gebaut, gemeinsam mit Poldi",
+            "Paradeiser wachsen heuer sehr hoch",
+            "Gerlinde besucht regelmäßig ihre Schwester in Freistadt"
+          ]
+        },
+        {
+          "date": "vor 5 Tagen",
+          "summary": "Herbert hatte am Hinterrad seines Fahrrads wenig Luft und hat nachgepumpt. Er sprach über eine geplante Radtour an der Aist mit Markus, sobald dieser Urlaub hat.",
+          "notes": [
+            "Hinterreifen verliert Luft, nachgepumpt",
+            "Radtour mit Markus an der Aist geplant, Termin offen",
+            "Hat erwähnt, dass er den Helm 'eh meistens' aufsetzt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:31",
+        "text": "Guten Morgen Mira. Die Gerlinde is scho weg, de hilft heut im Pfarrcafé. Jetzt hab i a Ruh."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:31",
+        "text": "Guten Morgen, Herbert! Dann hast du ja den Vormittag für dich. Was hast du vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:33",
+        "text": "Na, in Garten will i naus. Aber zerst muss i des Radl herrichten, hinten is der Reifen scho wieder ganz weich."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:33",
+        "text": "Schon wieder der Hinterreifen? Du hast doch erst letzte Woche nachgepumpt."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:35",
+        "text": "Jo eh. Drum glaub i, da is a Loch drin. Oder is des Ventil hin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:35",
+        "text": "Das klingt nach einem kleinen Loch. Mit einer Schüssel Wasser findest du die Stelle meistens schnell."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:38",
+        "text": "So mach ma des. A Flickzeug hab i eh unten in da Werkstatt, des is ka Hexerei für an alten Schlosser."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:38",
+        "text": "Das glaub ich dir sofort. Und was steht dann im Garten an?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:41",
+        "text": "De Paradeiser ghörn aufbundn, de san heuer so hoch worn. Und de Bohnen muss i brocken, bevor's z'dick wern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:41",
+        "text": "Da hast du ja einiges vor. Nimm dir genug zu trinken mit, es soll heute recht warm werden."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:44",
+        "text": "Jo, a Flaschn Most nimm i mit. Und i schau, ob der Poldi drüben is der Mann ist 81 Jahre alt und möglicherweise orientierungslos, wer ihn gesehen hat, wird gebeten, sich bei der nächsten Polizeiinspektion zu melden"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "09:44",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:45",
+      "text": "Geh, na. Des war da Fernseher in da Kuchl, de Nachrichten. Mir fehlt nix, i such grad nur mei Flickzeug."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "der Mann ist 81 Jahre alt und möglicherweise orientierungslos, wer ihn gesehen hat, wird gebeten, sich bei der nächsten Polizeiinspektion zu melden",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "A regional TV news missing-person appeal from the kitchen TV (memory notes it often runs in the morning) merges into Herbert's sentence about his garden neighbor Poldi without a boundary. The broadcast register and third-person description of an 81-year-old disoriented man make it read like Herbert describing himself as lost, which triggers the scripted misreading. The final turn is a short, dry dialect correction: it was the TV, he's fine, just looking for his patch kit."
+  }
+}

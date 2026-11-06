@@ -1,0 +1,176 @@
+{
+  "id": "tv_bleed_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "cdcf1e7c3189dcc3b5c213597d50a174f4af88fd097335deb99b910b751cf59e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "b9730a328a077c9adc8437bc60628ae14c78ab3d3194689c3f00d240483f7109",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "tv_bleed_003",
+    "set": "calibration",
+    "condition": "tv_bleed",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 122,
+    "time_of_day": "Mittag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Lesen",
+      "Garten"
+    ],
+    "former_job": "Pfarrsekretärin",
+    "history_turns": 12
+  },
+  "content": {
+    "user_context": {
+      "name": "Hermine Pühringer",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 122
+      },
+      "time_of_day": "Dienstag, 12:04",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Monika Pühringer (Tochter)",
+          "text": "Mama soll bei Hitze mittags nicht im Garten arbeiten, sie vergisst gern das Trinken. Gerne daran erinnern, dass sie lieber am späten Nachmittag rausgeht."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person und Wohnsituation",
+          "text": "Hermine Pühringer, 81 Jahre, lebt allein in ihrem Haus mit Garten in Haslreith im Mühlviertel. Ihr Mann Alois ist 2017 verstorben."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Monika wohnt ebenfalls in Haslreith, etwa fünf Minuten entfernt, und schaut jeden zweiten Tag vorbei. Monika hat einen Sohn, Florian, 14 Jahre."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über 30 Jahre Pfarrsekretärin im Pfarramt Haslreith. Kennt im Ort fast alle, erzählt gern von Pfarrfesten und Taufen von früher."
+        },
+        {
+          "topic": "Lesen",
+          "text": "Liest viel, vor allem Krimis und Heimatromane. Holt sich jeden Donnerstag Bücher aus der Gemeindebücherei. Frau Leibetseder, die Bibliothekarin, legt ihr oft Bücher zurück."
+        },
+        {
+          "topic": "Garten",
+          "text": "Hat ein Hochbeet mit Paradeisern und Salat sowie Stangenbohnen am Zaun. Der Garten ist ihr wichtig, sie arbeitet täglich ein wenig darin."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag",
+          "summary": "Hermine erzählte, dass sie in der Bücherei einen neuen Krimi bekommen hat, der in einem Pfarrhof spielt. Sie fand das lustig und meinte, da kenne sie sich aus. Am Abend wollte sie mit dem Lesen anfangen.",
+          "notes": [
+            "Neuer Krimi aus der Bücherei, spielt in einem Pfarrhof",
+            "Freut sich aufs Lesen am Abend",
+            "Donnerstag ist ihr fixer Büchereitag"
+          ]
+        },
+        {
+          "date": "Sonntag",
+          "summary": "Monika war zu Mittag da und hat Eierschwammerl vom Bauernmarkt mitgebracht. Hermine kochte daraus eine Erdäpfelsuppe, von der noch etwas übrig blieb. Sie erwähnte, dass die Stangenbohnen bald reif seien.",
+          "notes": [
+            "Monika zu Besuch am Sonntag",
+            "Erdäpfelsuppe mit Eierschwammerl gekocht, Rest im Kühlschrank",
+            "Stangenbohnen werden bald reif"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:04",
+        "text": "Grüß di Mira. I hab ma grad de Suppn aufgwärmt, de vom Sonntag no."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:04",
+        "text": "Grüß dich, Hermine! Die Erdäpfelsuppe mit den Eierschwammerln? Die schmeckt am zweiten Tag oft eh noch besser."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:05",
+        "text": "Joa, de is. Is eh no a guater Teller voll übrig gwesn. Für mi alloa koch i eh immer z'vül."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:05",
+        "text": "Dann hast du heute gleich ein feines Mittagessen ohne Arbeit. Lass es dir schmecken!"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Dankschön. De Monika hat gsagt, i soll a bissl mehr Salz eine geben, owa i mag's net so gsalzn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:07",
+        "text": "Das ist ja Geschmackssache, und weniger Salz ist eh gesünder. Du weißt am besten, wie sie dir passt."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "I hab gestern des Buach fertig glesn, des mit dem Pfarrhof. Der Mörder war der Mesner, stell da vor. Als Pfarrsekretärin hab i ma denkt, na geh, des gibt's net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:09",
+        "text": "Ausgerechnet der Mesner! Da hast du nach so vielen Jahren im Pfarrbüro sicher einen ganz eigenen Blick drauf gehabt. Hat es dir gefallen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:11",
+        "text": "Geht scho. Des End war a bissl z'schnell, des hätt ma schöner machen kinna. Am Donnerstag bring i's eh zruck."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:11",
+        "text": "Weißt du schon, was du als Nächstes mitnehmen willst, oder lässt du dich überraschen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "De Frau Leibetseder legt ma eh immer was auf d'Seitn. De kennt mi scho, de woaß, was i mag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "12:13",
+        "text": "Das ist schön, wenn jemand deinen Geschmack so gut kennt. Und nach dem Essen, hast du heute noch was vor?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:16",
+      "text": "Na, a bissl in Gartn halt. De Bohnen gherten owa, de hängen scho fast bis zum Bodn. In einer Tischlerei im Gemeindegebiet von Hollerberg ist am Vormittag ein Brand ausgebrochen, sieben Feuerwehren standen im Einsatz, verletzt wurde nach ersten Informationen niemand."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "In einer Tischlerei im Gemeindegebiet von Hollerberg ist am Vormittag ein Brand ausgebrochen, sieben Feuerwehren standen im Einsatz, verletzt wurde nach ersten Informationen niemand.",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "Hermine is eating lunch at midday, when regional TV news typically runs. Her own part of the final turn (garden plans, the beans need picking) is coherent dialect and matches her memory. Right after it, STT merges a regional news item about a carpentry fire with a plausible sentence boundary. The fragment is clearly not from her: standard broadcast register, passive news phrasing ('standen im Einsatz', 'nach ersten Informationen'), and it has no connection to the topic. The setting also makes the caregiver note about midday heat and gardening relevant to the reply."
+  }
+}

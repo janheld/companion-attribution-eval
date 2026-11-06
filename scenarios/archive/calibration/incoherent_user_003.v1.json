@@ -1,0 +1,185 @@
+{
+  "id": "incoherent_user_003",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "71f0c3515b30a56d810fb6050afb629c61edb084bdf09c4111a16dc464df9c3f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "b754b9350e84d40117f51ede468f76ac0359c05eb33b22f62fcdf6bb01927c7b",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "incoherent_user_003",
+    "set": "calibration",
+    "condition": "incoherent_user",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 119,
+    "time_of_day": "früher Morgen",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Radfahren"
+    ],
+    "former_job": "Schlosser",
+    "history_turns": 12
+  },
+  "content": {
+    "user_context": {
+      "name": "Alois Pühringer",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 119
+      },
+      "time_of_day": "Mittwoch, 05:48",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Markus Pühringer (Neffe)",
+          "text": "Onkel Alois nimmt in der Früh seine Blutdrucktablette, bitte ab und zu daran erinnern. Er fährt noch viel Rad, das ist ihm wichtig. Ich schau meistens am Wochenende vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenssituation",
+          "text": "Alois ist 78, nie verheiratet, keine Kinder. Er lebt allein im Elternhaus in Haslbach im Mühlkreis. Bis zu ihrem Tod 2004 hat er dort mit seiner Mutter Theresia gelebt und sie die letzten Jahre gepflegt."
+        },
+        {
+          "topic": "Familie",
+          "text": "Seine Schwester Hermine (81) lebt in Linz, sie telefonieren etwa einmal pro Woche. Ihr Sohn Markus wohnt in Tannberg und kümmert sich um Alois, kommt meist samstags."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Alois war über 40 Jahre Schlosser bei einer Landmaschinenfirma im Bezirk. Er repariert bis heute gern selbst, vor allem sein Fahrrad und Geräte von Nachbarn."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Seit seiner Pension hilft er jeden Donnerstag ab 8 Uhr im Sozialmarkt Tannberg bei der Warenannahme. Er nimmt die Lieferung vom Großhandel an und schlichtet die Kisten ein. Die Leiterin heißt Frau Grubmüller."
+        },
+        {
+          "topic": "Radfahren",
+          "text": "Fährt fast täglich mit seinem Trekkingrad (kein E-Bike), gern nach Tannberg zum Bäcker und weiter zum Stausee. Hatte im Frühjahr einen leichten Sturz ohne größere Folgen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hausarzt ist Dr. Rabl in Tannberg. Nimmt morgens eine Blutdrucktablette. Steht gewöhnlich sehr früh auf."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag",
+          "summary": "Alois erzählte, dass er am Wochenende die Kette seines Fahrrads gewechselt hat. Markus war am Samstag da und hat ihm Zwetschken aus dem eigenen Garten mitgebracht. Alois überlegt, einen Zwetschkenfleck zu backen, hat aber seit Jahren keinen mehr gemacht.",
+          "notes": [
+            "Neue Fahrradkette montiert",
+            "Markus hat Zwetschken gebracht",
+            "Möchte eventuell Zwetschkenfleck backen, Rezept war Thema"
+          ]
+        },
+        {
+          "date": "Vorwoche Donnerstag",
+          "summary": "Alois kam vom Sozialmarkt zurück und berichtete, dass die Lieferung größer war als sonst und zwei Helfer krank waren. Er war müde, aber zufrieden. Frau Grubmüller hat ihn gefragt, ob er im Herbst auch dienstags aushelfen könnte; er hat noch nicht zugesagt.",
+          "notes": [
+            "Viel Arbeit bei der Warenannahme",
+            "Frau Grubmüller fragt nach zusätzlichem Dienstag",
+            "Noch keine Entscheidung"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "05:48",
+        "text": "Guten Morgen, Mira. Bin heut scho um halbe fünfe munter gwesn, i woaß net warum."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:48",
+        "text": "Guten Morgen, Alois! So früh schon wach – hast du schlecht geschlafen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "05:50",
+        "text": "Na, gschlafen hab i eh guat. Is halt so im Alter. Da Kaffee rinnt grad durch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:50",
+        "text": "Dann trink den ersten Kaffee in Ruhe. Hast du heute schon was vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "05:53",
+        "text": "Wenn's net regnet, fahr i mit'm Radl nach Tannberg ume zum Bäcker und dann a bissl weiter zum Stausee. Wia schaut's aus mit'm Wetter heut?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:53",
+        "text": "Bis Mittag soll es trocken bleiben, am Nachmittag können ein paar Schauer kommen. Am Vormittag passt es also gut zum Radeln."
+      },
+      {
+        "role": "user",
+        "timestamp": "05:56",
+        "text": "Guat, dann fahr i glei nach'm Fruahstück. Da hintere Reifen verliert a bissl Luft, den muass i vorher no aufpumpen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "05:56",
+        "text": "Mach das. Wenn er öfter Luft verliert, könnt auch das Ventil ein bissl locker sein."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:01",
+        "text": "Des woaß i eh, i war vierzg Jahr Schlosser. Und morgen is Sozialmarkt, gell? Da kimmt de Lieferung vom Großhandel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:01",
+        "text": "Genau, morgen ist Donnerstag, da bist du ab acht bei der Warenannahme. Heute ist Mittwoch, du hast also den ganzen Tag fürs Radeln."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:03",
+        "text": "Passt. Da Kaffee is fertig, und de Tablettn hab i a scho gnommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "06:03",
+        "text": "Sehr gut, Alois. Dann lass dir den Kaffee schmecken."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:09",
+      "text": "Mira, is heut eh Donnerstag? Weil um achte muass i im Markt sein, de Kisten warten net. De Mutter hat ma eh scho s'Gwand hergricht, de is drent in da Kuchl und schimpft, weil i so trödl. Wos wollt i jetzt grad sagn."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "is heut eh Donnerstag? Weil um achte muass i im Markt sein, de Kisten warten net.",
+        "type": "genuine_incoherence"
+      },
+      {
+        "turn_index": 12,
+        "span": "De Mutter hat ma eh scho s'Gwand hergricht, de is drent in da Kuchl und schimpft, weil i so trödl. Wos wollt i jetzt grad sagn.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "rationale": "Positive control for genuine incoherence. The session is clear and practical (early rising, weather, bike tire, the Sozialmarkt shift). Eight minutes after Mira explicitly confirmed it is Wednesday and the market is tomorrow, Alois asks again whether it is Thursday and plans to be at the market at eight. This is a repeated, just-answered question that matters for his day. He then speaks of his mother as being in the kitchen preparing his clothes, although memory states she died in 2004, and he loses the thread ('Wos wollt i jetzt grad sagn'). Everything is in his own Mühlviertel voice and first-person perspective, with no broadcast register and no phonetic misrecognition. It therefore cannot be explained as TV bleed or an STT error. Earlier turns are fully coherent, so the shift is marked but plausible and respectful."
+  }
+}

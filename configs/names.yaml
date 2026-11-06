@@ -1,0 +1,92 @@
+# Name pools for scenario people, typical for Austria and Bavaria.
+#
+# Why fixed pools: independently written scenarios converge on the same few
+# names (Hermine, Alois, Sabine ...), which makes the set look staged and lets
+# personas blur into each other. Names are therefore assigned per set, not left
+# to the writer:
+#   - every user first name and surname occurs at most once per set,
+#   - side characters (relatives, neighbors, friends) get names from these
+#     pools too, never a user name of the same set, at most 3 times per set.
+# Names that are also ordinary German words or holidays (August, Ernst, Roman,
+# Nikolaus, Fuchs, Rauch, Pilz ...) are left out so the automatic name check
+# does not misfire.
+
+# Users and their own generation (born about 1935 to 1960).
+older_female: [Adelheid, Agathe, Agnes, Alma, Aloisia, Amalie, Angela, Angelika, Anna, Anneliese,
+  Annemarie, Antonia, Apollonia, Auguste, Barbara, Berta, Brigitte, Brunhilde, Cäcilia, Charlotte,
+  Christa, Christine, Dagmar, Dorothea, Edeltraud, Edith, Elfriede, Eleonore, Elisabeth, Elsa,
+  Emilie, Emma, Erika, Erna, Eva, Franziska, Frieda, Friederike, Gabriele, Gerda, Gerlinde,
+  Gertraud, Gertrud, Gisela, Gudrun, Hannelore, Hedwig, Heidemarie, Helene, Helga, Henriette, Herta,
+  Hildegard, Hiltrud, Hermine, Ida, Ilse, Ingeborg, Ingrid, Irene, Irma, Irmgard, Isolde, Johanna,
+  Josefa, Josefine, Juliana, Jutta, Karin, Karoline, Katharina, Klara, Klothilde, Kreszenz, Kunigunde,
+  Leopoldine, Liselotte, Lore, Luise, Lydia, Magdalena, Margarete, Margit, Marianne, Martha, Mathilde,
+  Mechthild, Melitta, Monika, Notburga, Olga, Ottilie, Paula, Philomena, Regina, Renate, Rita, Rosa,
+  Rosalia, Rosemarie, Rosina, Roswitha, Ruth, Senta, Sieglinde, Sigrid, Sofie, Stefanie, Theresia,
+  Ulrike, Ursula, Veronika, Viktoria, Walburga, Waltraud, Wilhelmine, Wiltrud, Zita, Elke, Heidi,
+  Erentrud, Gundula, Hanna, Herlinde, Irmtraud, Marga, Marlies, Marlene, Rotraud, Silvia, Thekla,
+  Ulla, Edda, Elvira, Felizitas, Lotte, Rudolfine, Theodora, Valerie, Dora, Emerenz, Genoveva,
+  Ludmilla, Petronella, Romana, Scholastika, Susanna, Adele, Alwine, Benedikta, Zenta, Hilde, Inge,
+  Grete, Ilona, Eveline, Wilma, Margot, Ortrun, Adelinde, Gerhild, Helma, Hermelinde, Irmela, Jolanda,
+  Klementine, Lucia, Minna, Rosalinde, Sabina, Sidonie, Wendelgard, Wilfriede, Kordula, Luitgard,
+  Edelgard, Gunhild, Afra]
+
+older_male: [Adalbert, Albert, Albin, Alfons, Alfred, Alois, Ambros, Andreas, Anselm, Anton, Arnold,
+  Augustin, Balthasar, Bartholomäus, Benedikt, Bernhard, Berthold, Bruno, Burkhard, Christian, Dieter,
+  Dominik, Eberhard, Edmund, Eduard, Egon, Emil, Engelbert, Erhard, Erich, Erwin, Ewald, Felix,
+  Ferdinand, Florian, Franz, Friedrich, Fritz, Gebhard, Georg, Gerhard, Gottfried, Gottlieb, Gregor,
+  Günter, Gustav, Hans, Hartmut, Heinrich, Helmut, Herbert, Heribert, Hermann, Herwig, Horst, Hubert,
+  Hugo, Ignaz, Isidor, Jakob, Joachim, Johann, Josef, Kajetan, Karl, Kaspar, Kilian, Klaus, Konrad,
+  Korbinian, Kurt, Lambert, Leonhard, Leopold, Lorenz, Ludwig, Manfred, Matthias, Max, Meinrad,
+  Michael, Norbert, Oskar, Oswald, Otmar, Otto, Paul, Peter, Pius, Raimund, Reinhard, Reinhold,
+  Richard, Robert, Rochus, Rudolf, Rupert, Sebastian, Severin, Siegfried, Siegmund, Simon, Theodor,
+  Ulrich, Valentin, Vinzenz, Walter, Wendelin, Werner, Wilfried, Wilhelm, Willibald, Wolfgang, Xaver,
+  Bonifaz, Dietmar, Eugen, Fridolin, Gerold, Harald, Ingomar, Leo, Lothar, Martin, Ottokar, Pankraz,
+  Quirin, Siegbert, Stefan, Thaddäus, Thomas, Udo, Waldemar, Wunibald, Zacharias, Dietrich, Gotthard,
+  Rainer, Roland, Rüdiger, Volker, Wolfram, Bernd, Gerd, Karl-Heinz, Klaus-Dieter, Hans-Peter,
+  Franz-Josef]
+
+# Children and grandchildren (born about 1960 to 2015), only for side characters.
+younger_female: [Alexandra, Andrea, Anja, Bettina, Birgit, Carina, Christina, Claudia, Cornelia,
+  Daniela, Denise, Doris, Elena, Elisa, Evelyn, Hannah, Heike, Iris, Isabella, Jana, Jasmin, Jessica,
+  Julia, Katrin, Kerstin, Laura, Lea, Lena, Leonie, Lisa, Manuela, Marie, Marion, Martina, Melanie,
+  Michaela, Miriam, Nadine, Natalie, Nicole, Nina, Patricia, Petra, Sabine, Sandra, Sarah, Silke,
+  Simone, Sonja, Sophia, Susanne, Tamara, Tanja, Teresa, Valentina, Vanessa, Verena, Yvonne, Annika,
+  Bianca, Carmen, Christiane, Constanze, Emilia, Ines, Jacqueline, Janina, Jennifer, Karina, Lara,
+  Larissa, Lina, Luisa, Mara, Mia, Nora, Paulina, Pia, Ramona, Romy, Rebecca, Selina, Svenja, Tina,
+  Ute, Vera, Zoe, Anita, Astrid, Gabi, Judith, Karoline, Kathrin, Monja, Rosemarie, Sigrun, Edith]
+
+younger_male: [Alexander, Benjamin, Christoph, Clemens, Daniel, David, Dennis, Elias, Fabian, Gernot,
+  Hannes, Jonas, Jürgen, Julian, Kevin, Leon, Lukas, Manuel, Mario, Markus, Marcel, Maximilian,
+  Moritz, Niklas, Oliver, Patrick, Philipp, Raphael, René, Sascha, Sven, Thorsten, Tim, Tobias, Uwe,
+  Armin, Bastian, Erik, Gerald, Ingo, Jens, Johannes, Konstantin, Lars, Matteo, Nico, Sandro, Ben,
+  Finn, Gabriel, Luis, Marvin, Marco, Mathias, Dominic, Florian, Stefan, Thomas, Michael, Andreas,
+  Christian, Martin, Peter, Roland, Wolfgang, Gregor, Jakob, Simon, Paul, Felix, Sebastian]
+
+surnames: [Aichinger, Aigner, Altenhofer, Angerer, Asanger, Auer, Aschauer, Bachmayr, Baumgartner,
+  Baumschlager, Berger, Biberauer, Birngruber, Brandstätter, Brandl, Brunner, Buchinger, Buchner,
+  Burgstaller, Danninger, Diesenreiter, Doppler, Dorninger, Ebner, Eder, Edlinger, Eibensteiner,
+  Eichinger, Eigner, Engl, Enzenhofer, Fellner, Feichtinger, Ferihumer, Fischerlehner,
+  Freudenthaler, Froschauer, Furtmüller, Gahleitner, Ganglberger, Gattringer, Gierlinger,
+  Gradinger, Grillmayr, Gruber, Grünberger, Gschwandtner, Gusenbauer, Haas, Hackl, Haider, Hainzl,
+  Hametner, Haslinger, Hauer, Hehenberger, Heigl, Hiebl, Hinterberger, Hinterleitner, Hochedlinger,
+  Hofstadler, Holzinger, Hölzl, Hörmanseder, Huemer, Hutterer, Jagersberger, Jungwirth, Kaltenböck,
+  Kapeller, Kastner, Keplinger, Kiesenhofer, Kirchberger, Kitzmüller, Klaffenböck, Kogler, Koller,
+  Kranzl, Kreindl, Kriechbaum, Lackner, Lahmer, Lechner, Lehner, Leitgeb, Leitner, Lindinger,
+  Lindner, Luger, Mairhofer, Mayrhofer, Mittermayr, Moser, Mühlbacher, Mühlböck, Neubauer,
+  Neuhofer, Oberhumer, Obermayr, Ortner, Pammer, Panholzer, Penzinger, Pichler, Plöchl, Pointner,
+  Prandstetter, Preining, Pühringer, Rabeder, Rachinger, Ratzenböck, Rauscher, Reisinger, Reiter,
+  Resch, Riegler, Rockenschaub, Rumetshofer, Sallmayr, Schachinger, Schauer, Scharinger,
+  Schmidinger, Schöftner, Schwarzlmüller, Seyr, Spindler, Stadlbauer, Steininger, Stöger, Strasser,
+  Templ, Traxler, Wagner, Wakolbinger, Wallner, Weinberger, Wiesinger, Wimmer, Windhager, Wöhrer,
+  Zauner, Zehetner, Ziegler, Zöpfl, Ametsbichler, Bichler, Deisenhofer, Ertl, Freundl,
+  Gschwendtner, Hartl, Kiermaier, Kreuzer, Maier, Obermeier, Pfaffinger, Rottmair, Schmid,
+  Schwaiger, Sedlmeier, Stangl, Thalhammer, Unterholzner, Vogl, Westermeier, Zellner, Achleitner,
+  Ahamer, Aistleitner, Blaimschein, Breitwieser, Dirnberger, Ecker, Engleitner, Erlinger,
+  Fattinger, Grabner, Gramlinger, Gstöttner, Hartinger, Hasibeder, Höglinger, Hummer, Jetzinger,
+  Kastenhofer, Kloibhofer, Krenn, Lamplmayr, Langeder, Lehenbauer, Mayrhuber, Mitterlehner,
+  Nöbauer, Nußbaumer, Oberndorfer, Ortmayr, Peham, Pöttinger, Pramhas, Rameder, Reindl, Reitinger,
+  Riepl, Rosenberger, Samhaber, Schaumberger, Seidl, Spiegl, Stallinger, Stummer, Thallinger,
+  Tröbinger, Vierlinger, Weidinger, Weißenböck, Wiesmayr, Wöckinger, Zachhuber, Zeilinger,
+  Ziegelböck, Brandmayr, Daxberger, Dobler, Eckmayr, Forstner, Gaisbauer, Hafner, Hartwagner,
+  Hinterholzer, Hofbauer, Huber, Kaltenbrunner, Kinzl, Leeb, Loidl, Mauhart, Niedermayr, Ofner,
+  Pernkopf, Pichlmayr, Pöll, Ritzberger, Schöberl, Sonnleitner, Strobl, Wiesbauer, Zwettler]

@@ -1,0 +1,195 @@
+{
+  "id": "clean_002",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "9df15ad8ac73272fb9ece8b89bef05b713cf1f8dc540be8e823e30e23a65b3e1",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+  },
+  "spec": {
+    "id": "clean_002",
+    "set": "calibration",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 66,
+    "time_of_day": "Vormittag",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "interests": [
+      "Chor",
+      "Seniorenturnen"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 10,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "action_request": "Öffnungszeiten nachschauen (Apotheke, Gemeindeamt, Markt)",
+    "gender": "female",
+    "first_name": "Dorothea",
+    "last_name": "Neuhofer",
+    "side_older": [
+      "Veronika",
+      "Burkhard",
+      "Viktoria",
+      "Kajetan"
+    ],
+    "side_younger": [
+      "Carina",
+      "Alexander",
+      "Marion",
+      "Patrick"
+    ],
+    "side_surnames": [
+      "Huber",
+      "Resch"
+    ],
+    "side_extra": [
+      "Wiesmayr"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Dorothea Neuhofer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 66
+      },
+      "time_of_day": "Freitag, 09:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sohn Alexander",
+          "text": "Mama hat Polyneuropathie in beiden Füßen, vor allem nachts Brennen und Kribbeln. Sie soll abends die verschriebene Creme nehmen und auf festes Schuhwerk achten, weil sie den Boden schlecht spürt. Bitte nicht auf das Thema Hof und Carina einsteigen, das regt sie nur auf."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Dorothea ist 79 und seit sieben Jahren verwitwet, ihr Mann Burkhard ist an einem Herzinfarkt gestorben. Sie hat zwei Kinder: Carina (54) wohnt im Nachbarort, Alexander (51) lebt in der Stadt und arbeitet bei einer Versicherung. Die beiden reden seit der Hofübergabe kaum noch miteinander, weil Alexander sich bei der Aufteilung benachteiligt fühlt."
+        },
+        {
+          "topic": "Früheres Leben",
+          "text": "Dorothea hat über vierzig Jahre mit Burkhard einen Milchviehbetrieb geführt. Der Hof ist verpachtet, sie wohnt im Austragshaus daneben. Sie redet gern über die Arbeit früher, aber ohne Wehmut."
+        },
+        {
+          "topic": "Singkreis",
+          "text": "Sie singt Sopran im Singkreis des Ortes, Probe ist jeden Montag um 15 Uhr im Saal vom Gasthaus beim Kirchplatz. Chorleiterin ist Frau Wiesmayr. Im Dezember gibt es ein Adventsingen, dafür wird gerade geprobt."
+        },
+        {
+          "topic": "Seniorenturnen",
+          "text": "Mittwochvormittag geht sie zum Seniorenturnen im Turnsaal der Volksschule. Wegen der Füße macht sie die Gleichgewichtsübungen nur noch mit Stuhl. Ihre Freundin Veronika Resch holt sie mit dem Auto ab."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in beiden Füßen, seit etwa drei Jahren diagnostiziert. Hausarzt ist Dr. Huber. Sie hat eine Creme und Tabletten für die Nacht, schläft trotzdem manchmal schlecht, wenn das Brennen stark ist."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Dorothea erzählte nach dem Seniorenturnen, dass die Übungen auf dem Stuhl gut gegangen sind, sie aber beim Aufstehen kurz unsicher war. Veronika hat sie danach noch zum Bäcker gefahren. Sie überlegte, ob sie für das Adventsingen ein neues Gewand braucht.",
+          "notes": [
+            "Gleichgewichtsübungen nur mit Stuhl, beim Aufstehen kurz unsicher",
+            "Veronika fährt sie mittwochs zum Turnen und danach oft noch einkaufen",
+            "Überlegt, ob sie für das Adventsingen eine neue Bluse kauft"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Dorothea kam von der Singkreisprobe und war gut gelaunt, weil sie bei einem neuen Lied die zweite Stimme sicher getroffen hat. Sie erwähnte nebenbei, dass Alexander am Sonntag angerufen hat und wieder schlecht über Carina geredet hat. Sie wollte nicht weiter darüber sprechen.",
+          "notes": [
+            "Probe am Montag lief gut, neues Adventlied gelernt",
+            "Alexander hat am Sonntag angerufen, Streit mit Carina ist weiter Thema",
+            "Möchte über den Streit der Kinder nicht lange reden"
+          ]
+        },
+        {
+          "date": "Samstag, vor 6 Tagen",
+          "summary": "Dorothea sprach über ihren 80. Geburtstag Ende November. Sie möchte im Gasthaus feiern, weiß aber nicht, ob beide Kinder kommen, wenn der andere auch da ist. Sie hat schon mit der Wirtin über einen Tisch geredet.",
+          "notes": [
+            "80. Geburtstag Ende November, Feier im Gasthaus geplant",
+            "Unsicher, ob Carina und Alexander gemeinsam kommen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:35",
+        "text": "Guten Morgen. Heut war wieder eine Nacht, ich hab vielleicht drei Stunden geschlafen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Dorothea. Drei Stunden ist wenig. Waren es wieder die Füße?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:36",
+        "text": "Ja, das Brennen. Um zwei bin ich aufgestanden und bin ein bisschen in der Küche herumgegangen, das hilft manchmal. Und dann ist die Creme ausgegangen, die Tube war leer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ärgerlich, gerade wenn man sie in der Nacht braucht. Hast du noch ein Rezept dafür oder musst du erst zum Dr. Huber?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:38",
+        "text": "Nein, das Rezept hab ich noch, das liegt bei der Brille am Küchentisch. Ich muss nur hinkommen. Die Veronika kann heut nicht, die hat heut die Enkelkinder."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass das Rezept schon da ist. Wie würdest du sonst hinkommen, mit dem Bus oder zu Fuß?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:40",
+        "text": "Zu Fuß sind das zwanzig Minuten, das geht schon, wenn ich die festen Schuhe anzieh. Ich könnt auch die Carina fragen, aber die hat am Freitag immer so viel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zwanzig Minuten mit festen Schuhen klingt machbar, wenn du dir Zeit lässt. Und wenn das Wetter halbwegs passt, ist der Weg vielleicht sogar ganz angenehm."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:43",
+        "text": "Ja eh. Und dann kann ich gleich beim Gemeindeamt vorbei, ich brauch noch so ein Formular wegen der Hundesteuer, obwohl ich gar keinen Hund mehr hab. Das muss man abmelden, sagen die."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann verbindest du zwei Wege auf einmal, das ist praktisch. Abmelden ist meistens schnell erledigt, wenn man einmal das richtige Formular hat."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:45",
+      "text": "Kannst du mir schauen, wann die Apotheke heut zu hat? Ich glaub am Freitag sperren die zu Mittag zu, und ich will nicht umsonst hingehen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": true,
+    "rationale": "Typical Friday-morning planning talk: a bad night from neuropathic foot pain, an empty cream tube, and an errand route to the pharmacy and municipal office on foot. The family tension is touched only lightly (not asking the daughter), consistent with memory. The final turn asks the companion to look up pharmacy opening hours, which it cannot do; the request grows naturally out of the errand planning."
+  }
+}

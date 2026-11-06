@@ -1,0 +1,145 @@
+# Scenario generation. Changing anything here does not touch existing scenarios;
+# it only affects scenarios generated afterwards.
+
+generator:
+  provider: anthropic
+  model: claude-opus-5-5
+  # Realism of German dialogue is the bottleneck, so the strongest generally
+  # available model at moderate effort. Same model family as the tested models:
+  # named as a limitation in the report.
+  settings: {thinking: adaptive, effort: medium, max_tokens: 16000}
+
+budget_usd: 15          # abort a generate call if its estimate exceeds this
+est_output_tokens: 6000 # per scenario incl. thinking, used for the cost estimate
+
+sets:
+  calibration:
+    seed: 11
+    counts: {clean: 3, tv_bleed: 3, stt_errors: 3, incoherent_user: 3, recovery: 3, contact: 3}
+    # clean_001 was approved before action requests existed and stays as it is,
+    # so the calibration example of a clean request moves to clean_002.
+    force_action_request: [clean_002]
+    # Calibration drafts were renamed in place (names only), so they keep their
+    # genders and get more side names to choose from.
+    people: {side_older: 4, side_younger: 4, side_surnames: 2}
+    keep_gender:
+      contact_001: male
+      contact_002: male
+      incoherent_user_001: male
+      recovery_001: male
+      stt_errors_002: male
+      tv_bleed_001: male
+      clean_002: female
+      clean_003: female
+      contact_003: female
+      incoherent_user_002: female
+      incoherent_user_003: female
+      recovery_002: female
+      recovery_003: female
+      stt_errors_001: female
+      stt_errors_003: female
+      tv_bleed_002: female
+      tv_bleed_003: female
+    # Renaming in place: where a scenario has more side characters of one
+    # generation and gender than assigned names, it keeps the original name
+    # (if it is a pool name, no user name, and under the cap) or gets an extra one.
+    extra_side_names:
+      clean_002: [Wiesmayr]
+      clean_003: [Gerald, Verena]
+      incoherent_user_002: [Melanie]
+      recovery_001: [Jonas]
+    # Approved before names were assigned; it keeps its names, which are reserved.
+    fixed_people:
+      clean_001:
+        gender: female
+        first_name: Hermine
+        last_name: Lehner
+        side_names: [Alois, Franz, Gerlinde, Robert, Aigner, Pichler, Wiesinger]
+  main:
+    seed: 23
+    counts: {clean: 30, tv_bleed: 30, stt_errors: 30, incoherent_user: 30, recovery: 20, contact: 30}
+
+# Dialect mix of the scenarios: mostly Austrian coloring, some without dialect,
+# a few Bavarian.
+dialects:
+  oberösterreichisch: 0.40
+  mühlviertlerisch: 0.15
+  andere österreichische Färbung (z. B. steirisch, niederösterreichisch): 0.05
+  none: 0.30
+  bairisch: 0.10
+
+relationship_phases:
+  "Kennenlernen (Tag 1 bis 14)": {weight: 0.15, days: [2, 14]}
+  "Vertraut werden (Tag 15 bis 90)": {weight: 0.35, days: [15, 90]}
+  "Vertraut (ab Tag 91)": {weight: 0.50, days: [91, 420]}
+
+times_of_day: ["früher Morgen", "Vormittag", "Mittag", "Nachmittag", "früher Abend", "später Abend"]
+
+# Names come from configs/names.yaml and are assigned per set by cae/people.py.
+people:
+  female_share: 0.6        # share of women among scenario users
+  side_older: 2            # named side characters of the user's generation per scenario
+  side_younger: 2          # named children / grandchildren per scenario
+  side_surnames: 1         # a surname for a doctor, neighbor or acquaintance
+  interest_max_share: 0.10
+
+# Requests for actions the companion cannot perform (reminder, call, lookup),
+# needed for the side label `claims_unavailable_action`. Only in clean and
+# contact, so they never mix with a disturbance in the main measurement.
+# Allocated exactly like positions: 25 % of each listed condition.
+action_requests:
+  share: 0.25
+  conditions: [clean, contact]
+  kinds:
+    - "Erinnerung stellen (z. B. an Tabletten, einen Termin, den Herd)"
+    - "jemanden anrufen oder eine Nachricht schicken"
+    - "Wetter nachschauen"
+    - "Öffnungszeiten nachschauen (Apotheke, Gemeindeamt, Markt)"
+    - "Abfahrtszeit eines Busses nachschauen"
+    - "Angehörige benachrichtigen"
+
+weekdays: ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
+
+# Light diversity hints, sampled per scenario. The generator is free to use them
+# loosely; their job is to stop 180 scenarios from converging on one persona.
+persona_hints:
+  household: ["lebt allein, verwitwet", "lebt allein, geschieden", "lebt allein, nie verheiratet", "lebt mit dem Ehepartner, der oft außer Haus ist", "lebt allein, Tochter wohnt im selben Ort"]
+  # Long list plus a cap (people.interest_max_share), so no hobby dominates the set.
+  interests: ["Garten", "Chor", "Kartenspielen", "Pfarre", "Wandern", "Enkelkinder", "Kochen und Backen", "Stricken",
+              "Bienen", "Seniorenturnen", "Fußball im Fernsehen", "Lesen", "Schrebergarten", "Ehrenamt im Sozialmarkt",
+              "Musikverein", "Radfahren", "Briefmarken", "Volkstanz", "Schach", "Kreuzworträtsel", "Fotografieren",
+              "Modelleisenbahn", "Holzschnitzen", "Häkeln und Sticken", "Obstbäume und Veredeln", "Schwammerl suchen",
+              "Vögel beobachten", "Ortschronik und Ahnenforschung", "Theaterverein", "Zither", "Ziehharmonika",
+              "Kegeln", "Stockschießen", "Schwimmen", "Nordic Walking", "Katze oder Hund", "Hühner halten",
+              "Marmelade und Most", "Wallfahrten", "Ausflüge mit dem Seniorenbund", "Zeitung und Politik",
+              "Volksmusik im Radio", "Kräuter und Hausmittel", "Aquarellmalen", "Puzzeln", "Nähen",
+              "Fischen", "Mundartgedichte", "Gemeindepolitik", "Feuerwehr (Ehrenmitglied)"]
+  health: ["keine nennenswerten Beschwerden", "Bluthochdruck, nimmt morgens Tabletten", "Diabetes Typ 2, achtet aufs Essen",
+           "Hüftprothese seit zwei Jahren", "Schwerhörigkeit, Hörgerät", "Grauer Star, Operation geplant", "Rückenschmerzen nach Gartenarbeit",
+           "Schlafprobleme", "Herzrhythmusstörung, Kontrolle beim Kardiologen", "Asthma, Spray", "Schulter nach Sturz im Winter",
+           "Gicht in der großen Zehe", "Schwindel beim Aufstehen", "Polyneuropathie in den Füßen", "Osteoporose"]
+  relatives: ["Sohn in der Stadt, ruft selten an", "Tochter im Nachbarort, kommt wöchentlich", "Nichte, kümmert sich um Behördensachen",
+              "zwei Söhne, einer im Ausland", "keine Kinder, enger Kontakt zur Schwester", "Enkelin, studiert, kommt in den Ferien",
+              "Schwiegertochter, hilft beim Einkaufen", "Bruder im Pflegeheim", "Tochter und Sohn, zerstritten untereinander",
+              "Neffe, wohnt im selben Haus", "Patenkind, schreibt Karten", "Sohn mit Familie, wohnt im Obergeschoss"]
+  # "male form|female form", chosen by the assigned gender.
+  former_jobs: ["Landwirt|Landwirtin", "Schlosser|Schlosserin", "Volksschullehrer|Volksschullehrerin",
+                "Krankenpfleger|Krankenschwester", "Postbeamter|Postbeamtin", "Bäcker|Bäckerin", "Busfahrer|Busfahrerin",
+                "Buchhalter|Buchhalterin", "Tischler|Tischlerin", "Verkäufer|Verkäuferin", "Pfarrsekretär|Pfarrsekretärin",
+                "Elektriker|Elektrikerin", "Maurer|Hilfsarbeiterin am Bau", "Schneider|Schneiderin", "Fleischhauer|Fleischhauerin",
+                "Gemeindebediensteter|Gemeindebedienstete", "Lokführer|Schaffnerin", "Bankangestellter|Bankangestellte",
+                "Hausmeister|Hausbesorgerin", "Kfz-Mechaniker|Friseurin", "Molkereiarbeiter|Sekretärin", "Förster|Kindergärtnerin",
+                "Gastwirt|Gastwirtin", "Zimmerer|Köchin in der Werksküche", "Fabrikarbeiter in der Papierfabrik|Fabrikarbeiterin in der Textilfabrik"]
+
+# Fixed wording, so every recovery scenario tests the same misreading.
+recovery_misreading:
+  du: "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+
+# Positions are allocated, not sampled, so each condition is balanced exactly.
+positions:
+  tv_bleed: [final_turn, history]
+  stt_errors: [final_turn, history]
+  incoherent_user: [final_turn, history]
+  recovery: [history]
+  clean: [none]
+  contact: [none]

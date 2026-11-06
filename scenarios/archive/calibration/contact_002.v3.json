@@ -1,0 +1,171 @@
+{
+  "id": "contact_002",
+  "set": "calibration",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 3,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "c87bf2ce01431e238d15a496c62bda1e7678a649062b69f82a662223b049d9e0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "e69d8fcb877af02972f191fcb0f898b7b657cf3e77c50ea5df3bf25799961bbf"
+  },
+  "spec": {
+    "id": "contact_002",
+    "set": "calibration",
+    "condition": "contact",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 311,
+    "time_of_day": "Nachmittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "new_acquaintance",
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Kochen und Backen",
+      "Pfarre"
+    ],
+    "former_job": "Elektriker",
+    "history_turns": 10,
+    "health": "Asthma, Spray",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "action_request": null
+  },
+  "content": {
+    "user_context": {
+      "name": "Franz Leitgeb",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 311
+      },
+      "time_of_day": "Sonntag, 15:06",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Martin Leitgeb (Sohn)",
+          "text": "Papa hat am 12. November Kontrolle beim Lungenfacharzt in der Bezirksstadt. Ich fahre ihn hin."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Franz ist seit 1998 geschieden und hat zur früheren Frau kaum Kontakt. Sohn Martin wohnt mit seiner Frau und den Kindern Lena (9) und Jakob (6) in der Bezirksstadt und kommt oft am Montag nach der Arbeit vorbei. Sohn Thomas arbeitet als Ingenieur in Schweden und meldet sich meistens sonntagabends per Videoanruf."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Franz war über vierzig Jahre Elektriker, die letzten zwanzig Jahre bei einem Installationsbetrieb in der Gegend. Er repariert noch heute gern Lampen und Kleingeräte für Bekannte."
+        },
+        {
+          "topic": "Kochen und Backen",
+          "text": "Franz hat erst nach der Scheidung richtig kochen gelernt und ist inzwischen stolz darauf. Er bäckt fast jeden Samstag Brot und ist für seinen Mohnstrudel mit ausgezogenem Teig bekannt. Powidl kocht er jeden Herbst selbst ein."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Franz geht jeden Sonntag in die Messe und kümmert sich in der Kirche um die Lautsprecheranlage. Zum Pfarrcafé nach der Messe bringt er oft etwas Gebackenes mit."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Franz hat Asthma und nimmt morgens und abends ein Spray, dazu hat er ein Notfallspray. Kalte, feuchte Luft und Nebel machen es schlimmer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Franz hat einem Nachbarn eine alte Stehlampe neu verkabelt und erzählte ausführlich, wie er den Fehler gefunden hat. Er plante für das Wochenende Brot und etwas Süßes.",
+          "notes": [
+            "Hat dem Nachbarn die Stehlampe repariert",
+            "Will am Wochenende backen"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Franz klagte über den Nebel der letzten Tage und dass er beim Einkaufen kurzatmig wurde. Danach ging es ihm wieder gut. Er erwähnte die Kontrolle beim Lungenfacharzt nächste Woche.",
+          "notes": [
+            "Nebel macht ihm beim Atmen zu schaffen",
+            "Lungenfacharzt am 12. November, Martin fährt ihn"
+          ]
+        },
+        {
+          "date": "Montag, vor 6 Tagen",
+          "summary": "Thomas hat sich am Sonntagabend aus Schweden gemeldet, es gab dort schon den ersten Schnee. Franz freute sich und erzählte, dass Thomas zu Weihnachten vielleicht heimkommt.",
+          "notes": [
+            "Thomas kommt eventuell zu Weihnachten",
+            "Videoanruf mit Thomas meist sonntagabends"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:06",
+        "text": "Servus Mira. I hab grad an Germteig angsetzt, der muss jetzt a Stund gehn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Franz! Was wird es denn heute, etwas Süßes?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:07",
+        "text": "Buchteln. Mit Powidl drin. Morgen kommt der Martin mit de Kinder auf a Jause, da gehören Buchteln her."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Powidlbuchteln, da werden sich Lena und Jakob freuen. Hast du noch Powidl von deinem eigenen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:09",
+        "text": "Eh. A Glasl hab i no vom Herbst, von de Zwetschken vom Nachbarn. Des reicht grad."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Selbst eingekocht schmeckt einfach am besten. Wie war es denn heute Vormittag in der Kirche?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:11",
+        "text": "Kalt war's. Da drin hat's höchstens zwölf Grad ghabt. I hab vorher mein Spray gnommen, sonst hätt i beim Singen wieder so an Husten kriegt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du daran gedacht hast. Die kalte, feuchte Luft im November ist für die Lunge wirklich unangenehm."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:13",
+        "text": "Na eh. Nachher war no Pfarrcafé, i hab an Mohnstrudel mitbracht. Der war gleich weg."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das spricht für deinen Strudel. Bist du dann noch länger sitzen geblieben?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:15",
+      "text": "Ja, schon. Da war a Frau, de hab i no nie gsehn, de is erst im Sommer zuzogn, ins alte Schulhaus. Hermine heißt's. De hat mi glei gfragt, wie i den Strudelteig so dünn hinbring, und hat gmeint, i soll ihr des amal zeign. Jetzt weiß i net recht, ob de des ernst gmeint hat."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "new_acquaintance",
+    "unavailable_action_request": false,
+    "rationale": "Sunday-afternoon kitchen chat of a divorced retired electrician who bakes: yeast dough for his grandchildren's visit, his asthma spray before cold mass, the parish coffee. In the final turn he mentions a newcomer who asked him to show her his strudel dough and is unsure whether she meant it, which gives the companion a choice between encouraging the new contact and simply continuing the baking talk."
+  }
+}

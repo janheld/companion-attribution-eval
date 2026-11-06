@@ -1,0 +1,73 @@
+{
+  "id": "clean_001",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "auto: previous output was empty (no history). Write the full scenario.",
+    "reviewed_at": null
+  },
+  "content_hash": "4abd931b6d42c9779ff3e5058cc1f5299c2c56ecc0b698251005fa66d8261d27",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "cache_key": "ed204293bf861b83e09892cbbaf70c5edb6e76020f2ae8ff9461c8bc28759a0a",
+    "prompt_sha256": "251a3f38bcce8d0288e23b8590aaa5626b424ea629a4bb0d4c16e2a7aa0d5616"
+  },
+  "spec": {
+    "id": "clean_001",
+    "set": "calibration",
+    "condition": "clean",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 192,
+    "time_of_day": "Vormittag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "interests": [
+      "Chor",
+      "Schrebergarten"
+    ],
+    "former_job": "Landwirtin",
+    "history_turns": 12
+  },
+  "content": {
+    "user_context": {
+      "name": "Hermine Lehner",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 192
+      },
+      "time_of_day": "Donnerstag, 09:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Gerlinde Hofstätter (Tochter)",
+          "text": "Mama hat seit dem Frühjahr Probleme mit dem rechten Knie. Sie mag nicht ständig darauf angesprochen werden, aber wenn sie viel im Garten war, darf man ruhig nachfragen, ob sie sich geschont hat."
+        },
+        {
+          "author": "Gerlinde Hofstätter (Tochter)",
+          "text": "Der Chor ist ihr sehr wichtig. Am Donnerstagabend ist Probe im Pfarrsaal, da geht sie fast nie ab."
+        }
+      ],
+      "knowledge_blocks": [],
+      "recent_sessions": []
+    },
+    "history": [],
+    "final_user_turn": {
+      "timestamp": "",
+      "text": ""
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "rationale": ""
+  }
+}
