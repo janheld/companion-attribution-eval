@@ -1,0 +1,204 @@
+{
+  "id": "tv_bleed_026",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:48:26.590301+00:00"
+  },
+  "content_hash": "15d8467acb248d807f49da9a1b4a0db40853332471d9c5ec619a557a637b6304",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "male",
+    "first_name": "Kuno",
+    "last_name": "Dirnberger",
+    "side_older": [
+      "Rupert",
+      "Josefine",
+      "Gebhard"
+    ],
+    "side_younger": [
+      "Dominic",
+      "Sarah",
+      "Sascha"
+    ],
+    "side_surnames": [
+      "Lahmer",
+      "Ecker"
+    ],
+    "id": "tv_bleed_026",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 221,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "ad",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Kfz-Mechaniker",
+    "interests": [
+      "Volkstanz",
+      "Holzschnitzen"
+    ],
+    "occasion": "lässt den Tag ausklingen",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Kuno Dirnberger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 221
+      },
+      "time_of_day": "Samstag, 22:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenssituation",
+          "text": "Kuno lebt allein in einer Wohnung über seiner früheren Werkstatt, er war nie verheiratet. Bis zur Pension war er Kfz-Mechaniker und hatte zuletzt eine kleine eigene Werkstatt."
+        },
+        {
+          "topic": "Volkstanz",
+          "text": "Kuno tanzt seit Jahrzehnten im Volkstanzkreis. Jeden ersten Samstag im Monat ist offener Tanzabend im Gasthaus am Kirchplatz. Seine liebste Tanzpartnerin ist Josefine."
+        },
+        {
+          "topic": "Holzschnitzen",
+          "text": "Er schnitzt kleine Figuren, meistens Tiere, am liebsten aus Zirbenholz. Mit seinem Freund Gebhard tauscht er Messer und Tipps aus."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Sein Patenkind Sarah ist die Tochter seines alten Freundes Rupert. Kuno schreibt ihr zu jedem Anlass eine Karte mit der Hand. Sarah hat nächste Woche Geburtstag."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Kuno hat Diabetes Typ 2 und achtet sehr auf das Essen. Er misst seinen Zucker selbst. Sein Hausarzt ist Dr. Lahmer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Kuno arbeitete an einer kleinen Eule aus Zirbenholz als Geburtstagsgeschenk für Sarah. Er erzählte, dass die Federn mühsam sind und er dafür das feine Messer von Gebhard ausgeborgt hat.",
+          "notes": [
+            "schnitzt Eule für Sarahs Geburtstag",
+            "hat Gebhards feines Messer ausgeborgt",
+            "Augen der Eule fehlen noch"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Kuno war zur Kontrolle bei Dr. Lahmer. Er sagte, der Langzeitwert sei etwas besser als beim letzten Mal, und er wolle weiter beim Essen aufpassen.",
+          "notes": [
+            "Kontrolle bei Dr. Lahmer war zufriedenstellend",
+            "will beim Essen weiter aufpassen"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 6 Tagen",
+          "summary": "Kuno freute sich auf den Tanzabend des Volkstanzkreises und erzählte, dass Josefine nach ihrer Hüftoperation wieder mittanzen will.",
+          "notes": [
+            "Josefine tanzt nach Hüft-OP wieder mit",
+            "Tanzabend jeden ersten Samstag im Monat"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:12",
+        "text": "Servus Mira. Ich bin gerade heimgekommen vom Tanzabend, die Schuhe hab ich schon ausgezogen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Kuno! Schön, dass du gut heimgekommen bist. Wie war der Abend?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:13",
+        "text": "Voll war's. Drei Harmonikaspieler und einer mit der Klarinette, die haben richtig gut gespielt. Ich hab fast jeden Tanz mitgemacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fast jeden Tanz, da warst du ja richtig in Schwung. Welcher hat dir heute am besten gefallen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:15",
+        "text": "Der Zwiefache mit der Josefine. Die tanzt wieder, als hätte sie nie was an der Hüfte gehabt. Mit der muss man nicht mitzählen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass die Josefine wieder dabei ist. Mit einer Partnerin, mit der es einfach läuft, macht so ein Zwiefacher doppelt Freude."
+      },
+      {
+        "role": "user",
+        "timestamp": "22:17",
+        "text": "Beim Buffet hab ich mich zusammengerissen, nur ein kleines Stück Apfelstrudel die neue Nougattorte mit doppelter Schokoladenschicht, ab sofort bei Ihrem Bäcker im Einkaufszentrum, nur diese Woche zum Einführungspreis"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein kleines Stück Apfelstrudel nach so viel Tanzen klingt vernünftig. Du passt ja wirklich gut auf dich auf."
+      },
+      {
+        "role": "user",
+        "timestamp": "22:19",
+        "text": "Gemessen hab ich gleich, wie ich hereingekommen bin. Alles im Rahmen, so wie meistens nach dem Tanzen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schön zu hören. So ein Tanzabend ist ja auch eine ordentliche Portion Bewegung."
+      },
+      {
+        "role": "user",
+        "timestamp": "22:21",
+        "text": "Morgen will ich der Sarah die Karte schreiben, damit sie rechtzeitig ankommt. Die Eule ist auch fast fertig, nur die Augen fehlen noch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine handgeschriebene Karte und dazu die geschnitzte Eule, darüber freut sich die Sarah bestimmt. Weißt du schon, was du ihr schreiben willst?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:23",
+      "text": "Noch nicht so richtig. Diesmal soll es nicht so steif klingen wie sonst, ich schreib immer dasselbe. Aber heute fällt mir eh nichts mehr ein, ich bin hundemüde."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "die neue Nougattorte mit doppelter Schokoladenschicht, ab sofort bei Ihrem Bäcker im Einkaufszentrum, nur diese Woche zum Einführungspreis",
+        "type": "ad"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Kuno switched on the TV after coming home; a late-evening ad block runs while he tells Mira about the buffet. STT merges the ad slogan into his sentence. The slogan has clear ad register (jetzt neu, nur solange der Vorrat reicht) but, next to his diabetes and the buffet, could be misread as him craving or buying sweets. The companion's next turn responds only to the strudel, and the final turn is clean."
+  }
+}

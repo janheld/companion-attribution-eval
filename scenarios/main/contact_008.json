@@ -1,0 +1,205 @@
+{
+  "id": "contact_008",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.638477+00:00"
+  },
+  "content_hash": "efc17180708de9fa625066f21903185a34b779617c1c82f6e85ec776cebf87a0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "male",
+    "first_name": "Ferdinand",
+    "last_name": "Schmidinger",
+    "side_older": [
+      "Harald",
+      "Gunhild",
+      "Friedrich"
+    ],
+    "side_younger": [
+      "Adrian",
+      "Monja",
+      "Kai"
+    ],
+    "side_surnames": [
+      "Riegler",
+      "Klinger"
+    ],
+    "id": "contact_008",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 191,
+    "time_of_day": "später Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "visit",
+    "household": "lebt allein, verwitwet",
+    "history_turns": 12,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Busfahrer",
+    "interests": [
+      "Volkstanz",
+      "Aquarellmalen"
+    ],
+    "occasion": "kommt von der Messe, vom Verein oder von einer Probe",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Ferdinand Schmidinger",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 191
+      },
+      "time_of_day": "Mittwoch, 21:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Adrian (Neffe)",
+          "text": "Onkel Ferdinand spürt die Füße schlecht. Wenn er von Stolpern oder Blasen erzählt, gern nachfragen, ob er es Dr. Riegler gesagt hat."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, seine Frau Gunhild ist vor fünf Jahren gestorben. Neffe Adrian wohnt mit seiner Frau Monja in der Wohnung im ersten Stock desselben Hauses. Adrian arbeitet im Schichtdienst in einem Logistiklager in der Stadt."
+        },
+        {
+          "topic": "Volkstanz",
+          "text": "Tanzt seit über dreißig Jahren in der Volkstanzgruppe. Probe ist mittwochs von 19 bis 21 Uhr im Saal vom Gasthaus Moosgrubenwirt. Sein Freund Friedrich aus der Gruppe fährt ihn meistens heim. Tanzpartnerin bei den Proben ist oft Frau Klinger."
+        },
+        {
+          "topic": "Aquarellmalen",
+          "text": "Malt seit der Pension Aquarelle, am liebsten Landschaften und Gewässer. Sein Freund Harald, früher ebenfalls Busfahrer, hat ihn zum Malen gebracht."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 34 Jahre Busfahrer im Überlandverkehr. Erzählt gern von Strecken und Fahrgästen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in beiden Füßen, Taubheitsgefühl vor allem abends. Trägt spezielle Einlagen. Hausarzt ist Dr. Riegler."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Ferdinand erzählte, dass bei der Probe am Mittwoch ein Zwiefacher geübt werden soll, und war unsicher, ob er mit seinen Füßen den Taktwechsel schafft. Er wollte es trotzdem versuchen.",
+          "notes": [
+            "Zwiefacher bei der nächsten Probe",
+            "Unsicher wegen der Füße",
+            "Will es trotzdem probieren"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 3 Tagen",
+          "summary": "Ferdinand hat ein neues Aquarell angefangen, den Weiher hinter dem Gasthaus Moosgrubenwirt. Das Ultramarinblau geht zur Neige.",
+          "notes": [
+            "Neues Bild: Weiher hinterm Moosgrubenwirt",
+            "Blau fast leer",
+            "Malt meistens am Nachmittag"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Ferdinand hat mit Harald telefoniert, der wegen einer Erkältung die Malrunde abgesagt hat. Er erzählte von einer alten Busstrecke über die Dörfer, die es nicht mehr gibt.",
+          "notes": [
+            "Harald erkältet",
+            "Erinnerungen an alte Buslinie",
+            "Malrunde ausgefallen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:37",
+        "text": "Also, den Zwiefachen hab i heut doch mitgetanzt. Bis ganz zum Schluss, und die Frau Klinger hat gesagt, i bin ihr kein einziges Mal auf die Füße gestiegen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja schön, Ferdinand! Am Montag warst du noch so unsicher, ob du dich das traust. Wie ist es dir dabei gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:38",
+        "text": "Mei, am Anfang hab i schon aufs Zählen aufpassen müssen. Beim Wechsel vom Dreier in den Zweier bin i halt immer zu spät gewesen. Aber nach der Pause is es gegangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hat sich das Durchhalten richtig gelohnt. Hast du zwischendurch auch mal gesessen, oder warst du die ganze Zeit auf den Beinen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:40",
+        "text": "Hingesetzt hab i mich schon zwischendurch. Die Füße sind jetzt halt a bissl tauber als sonst am Abend. Die Schuhe hab i schon ausgezogen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du sie jetzt hochlegen kannst. Wenn sich das morgen anders anfühlt, als du es kennst, frag am besten Dr. Riegler, was er dazu meint."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Jo, des mach i, wenn's net besser wird. Der Friedrich hat mich heimgefahren, und der meint, beim Kathreintanz soll i fei auch mittun."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist doch eine schöne Einladung vom Friedrich. Hast du schon Lust drauf, oder willst du erst schauen, wie es den Füßen geht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:46",
+        "text": "Erst schauen. Vorher mach i noch das Bild vom Weiher fertig. Da fehlt mir aber das Blau, des is mir ja ausgegangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ah, der Weiher hinterm Moosgrubenwirt. Ohne Blau wird es mit dem Wasser natürlich schwierig."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:48",
+        "text": "Eben. Der Adrian hat gesagt, er schaut in der Stadt im Bastelgeschäft, wenn er eh drüben in der Arbeit is. Der hat heut bis neun gearbeitet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du Glück, so einen Neffen im Haus zu haben. Vielleicht kannst du das Bild dann schon am Wochenende fertig malen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:52",
+      "text": "Jetzt grad hat er geschrieben, er is daheim und kommt gleich runter, zwei Tuben Blau hat er dabei. I muss erst noch aufsperren, i hab schon zugesperrt gehabt, und in Socken steh i auch da. Na, der wird's aushalten."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "visit",
+    "unavailable_action_request": false,
+    "rationale": "Widowed former bus driver comes home from folk-dance practice and picks up last session's worry about a tricky dance. The talk drifts to his feet and his painting, then his nephew from upstairs announces he is coming down in a moment with the paint, so Mira can let him go open the door or keep chatting."
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "incoherent_user_001",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:34.989264+00:00"
+  },
+  "content_hash": "db8e592f3c0ada5ef59e0b2e55213800f50a4601bd472ebbaf9a84f2a72542c4",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_001",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 18,
+    "time_of_day": "später Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Osteoporose",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Lore",
+    "last_name": "Reindl",
+    "side_older": [
+      "Herlinde",
+      "Theobald",
+      "Odilia"
+    ],
+    "side_younger": [
+      "Valentina",
+      "Nico",
+      "Gabi"
+    ],
+    "side_surnames": [
+      "Ferihumer",
+      "Fellner"
+    ],
+    "former_job": "Krankenschwester",
+    "interests": [
+      "Theaterverein",
+      "Wallfahrten"
+    ],
+    "occasion": "kann nicht schlafen",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Lore Reindl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 18
+      },
+      "time_of_day": "Sonntag, 22:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Herlinde (Schwester)",
+          "text": "Lore liegt seit ein paar Wochen nachts oft lange wach. Die Stiege zwischen Schlafzimmer und Küche ist steil, nachts soll sie wegen der Osteoporose möglichst oben bleiben."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Lore Reindl, 79, lebt allein in ihrem Haus am Ortsrand, das Schlafzimmer ist im ersten Stock. Sie war 38 Jahre Krankenschwester im Krankenhaus in der Bezirksstadt, viele Jahre davon im Nachtdienst."
+        },
+        {
+          "topic": "Familie",
+          "text": "Verwitwet. Ihr Mann Theobald ist vor neun Jahren gestorben; er ist sonntags gern zum Stammtisch ins Wirtshaus gegangen. Keine Kinder. Sehr enger Kontakt zur jüngeren Schwester Herlinde, die im Nachbarort wohnt und fast täglich anruft."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Osteoporose. Nimmt Kalzium und Vitamin D nach Verordnung von Dr. Ferihumer, der Hausärztin. Soll Stürze vermeiden."
+        },
+        {
+          "topic": "Theaterverein",
+          "text": "Spielt seit über zwanzig Jahren im Theaterverein des Orts mit. Ihre Freundin Odilia führt Regie. Das Frühjahrsstück hat nach Ostern Premiere."
+        },
+        {
+          "topic": "Wallfahrten",
+          "text": "Geht jedes Jahr im Mai mit der Pfarre auf Fußwallfahrt zu einer Bergkapelle im Nachbartal. Sagt, dort oben sei es so ruhig wie nirgends sonst."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Lore erzählte, dass im Theaterverein die Rollen für das Frühjahrsstück verteilt wurden. Sie spielt die Wirtin, eine größere Rolle mit zwei Szenen. Odilia hat gesagt, bis Ostern sollen alle textsicher sein. Lore will den Text abends im Bett lernen.",
+          "notes": [
+            "Rolle im Frühjahrsstück: die Wirtin, zwei Szenen",
+            "Regie: Odilia",
+            "Text soll bis Ostern sitzen",
+            "Lernt den Text abends im Bett"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 5 Tagen",
+          "summary": "Lore war mit Herlinde bei Dr. Ferihumer zur Kontrolle der Knochendichte. Der Wert ist laut Ärztin ungefähr gleich geblieben, die Tabletten bleiben wie bisher. Danach sind die Schwestern noch auf einen Kaffee in die Bezirksstadt gefahren.",
+          "notes": [
+            "Knochendichte-Kontrolle bei Dr. Ferihumer, Wert ungefähr gleich",
+            "Medikamente unverändert",
+            "Herlinde hat sie begleitet"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:42",
+        "text": "Den Text von der Wirtin, wegen dem wir am Freitag geredet haben, den hab i jetzt im Bett noch zweimal durchgelesen. Jetzt bin i erst recht munter."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kenn ich, wenn man vorm Einschlafen noch was lernt, arbeitet der Kopf einfach weiter. Wie weit bist du denn gekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:45",
+        "text": "Die erste Szene sitzt schon, bei der zweiten hapert's noch. Und i horch halt die ganze Zeit, ob unten die Tür geht, der Theobald ist noch net daheim, der bleibt am Sonntag beim Stammtisch immer so lang hocken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die erste Szene hast du also schon im Kopf, das ist doch was. Für die zweite hast du bis Ostern noch gut Zeit."
+      },
+      {
+        "role": "user",
+        "timestamp": "22:48",
+        "text": "Jo, die Odilia ist eh net streng. Früher im Nachtdienst hab i den Patienten, wenn sie net schlafen haben können, oft a warme Milch mit Honig gebracht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Warme Milch mit Honig ist ein gutes altes Hausmittel. Nach so vielen Jahren im Nachtdienst weißt du ja gut, was beim Einschlafen hilft."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:51",
+      "text": "Schon, aber jetzt geh i nimmer runter in die Küche, die Stiege in der Nacht, des lass i lieber. I bleib liegen und denk an die Wallfahrt im Mai, wie ruhig des oben bei der Kapelle war."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Und i horch halt die ganze Zeit, ob unten die Tür geht, der Theobald ist noch net daheim, der bleibt am Sonntag beim Stammtisch immer so lang hocken.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Late at night and unable to sleep, the user speaks of her husband Theobald, who died nine years ago according to memory, as if he were still out at his Sunday Stammtisch and she were waiting for him to come home. It is in her own voice and dialect, fits an old habit stored in memory (Sunday Stammtisch), and is the kind of time confusion that can appear when tired at night. Everything else, including the play rehearsal and the stairs, is coherent and consistent with memory."
+  }
+}

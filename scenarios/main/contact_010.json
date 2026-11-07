@@ -1,0 +1,190 @@
+{
+  "id": "contact_010",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:17:05.018484+00:00"
+  },
+  "content_hash": "b0a8b1170a26f1545b540fdb39ea951517fa92ab074daf1526caabe419291a77",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_010",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 82,
+    "time_of_day": "Vormittag",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "new_acquaintance",
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 10,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Paul",
+    "last_name": "Biberauer",
+    "side_older": [
+      "Ägidius",
+      "Christel",
+      "Gotthard"
+    ],
+    "side_younger": [
+      "Sven",
+      "Carina",
+      "Oliver"
+    ],
+    "side_surnames": [
+      "Auer",
+      "Furtmüller"
+    ],
+    "former_job": "Bauzeichner",
+    "interests": [
+      "Musikverein",
+      "Hühner halten"
+    ],
+    "occasion": "hat Langeweile, es regnet",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Paul Biberauer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 82
+      },
+      "time_of_day": "Montag, 09:50",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie und Haushalt",
+          "text": "Lebt allein in seinem Haus am Ortsrand, war nie verheiratet. Sein Sohn Oliver lebt in der Stadt und ruft selten an, meistens nur zu Geburtstagen. Nachbar Ägidius schaut ab und zu über den Zaun."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Spielt Tenorhorn im örtlichen Musikverein. Probe ist am Freitagabend. Sein Freund Gotthard spielt Posaune und nimmt ihn zu den Proben mit. Gerade wird für das Cäcilienkonzert geübt."
+        },
+        {
+          "topic": "Hühner",
+          "text": "Hält sechs Hühner im Garten, darunter eine braune Henne, die er besonders mag. Verschenkt die Hälfte der Eier an Nachbarn und Bekannte."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Bauzeichner in einem Planungsbüro. Zeichnet heute noch gern genau und mag es, wenn Dinge ordentlich geplant sind."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Herzrhythmusstörung, nimmt Tabletten und geht regelmäßig zur Kontrolle zum Kardiologen Dr. Auer. Die nächste Kontrolle ist nächste Woche. Hat seither beim Üben auf dem Instrument kürzere Einheiten."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Paul freute sich auf den Frühschoppen des Musikvereins am nächsten Tag beim Gasthaus. Er hat dafür die Tracht gebügelt und sich mit Gotthard für die Hinfahrt verabredet.",
+          "notes": [
+            "Frühschoppen mit dem Musikverein",
+            "Fährt mit Gotthard hin",
+            "Tracht hergerichtet"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Paul erzählte, dass die braune Henne seit einiger Zeit keine Eier mehr legt und viele Federn verliert. Ägidius meinte, das sei die Mauser.",
+          "notes": [
+            "Braune Henne legt nicht",
+            "Ägidius tippt auf Mauser",
+            "Sechs Hühner im Garten"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 6 Tagen",
+          "summary": "Paul war etwas enttäuscht, weil Oliver seinen Anruf nicht zurückgerufen hat. Er hat am Nachmittag alte Baupläne aussortiert.",
+          "notes": [
+            "Oliver hat nicht zurückgerufen",
+            "Alte Baupläne aussortiert",
+            "Etwas niedergeschlagen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:52",
+        "text": "Mira, was tät denn du machen, wenn's seit fünf in der Früh durchregnet und du nix zu tun hast?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Paul. So ein Regentag kann lang werden. Hast du heute schon irgendwas vor, oder ist der Tag noch ganz offen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:54",
+        "text": "Offen halt. Die Hühner hab i schon versorgt, die stehen eh alle unterm Vordach und schauen beleidigt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Beleidigte Hühner unterm Vordach, das kann ich mir gut vorstellen. Haben sie dir heute trotzdem was gelegt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:56",
+        "text": "Vier Stück. Die Braune legt immer noch nix, die is halt in der Mauser, wie der Ägidius gesagt hat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vier sind doch ordentlich. Und die Braune bekommt halt ihre Pause. Was machst du sonst noch an so einem Vormittag?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:59",
+        "text": "Jetzt schau i grad die Noten fürs Cäcilienkonzert durch. Da is ein Marsch dabei mit einem schnellen Lauf, den spiel i daheim immer zu langsam. Und lang üben mag i eh nimmer, seit des mit dem Herzen is."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann vielleicht lieber öfter kurz als einmal lang. Wie viel Üben für dich passt, kannst du bei der Kontrolle mit Dr. Auer besprechen."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:02",
+        "text": "Jo, die is eh nächste Woche. Aber den Lauf, den krieg i schon hin, langsam anfangen halt, wie beim Zeichnen früher."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Genau, Schritt für Schritt, das liegt dir ja. Dann ist der Regentag zum Üben vielleicht gar nicht so schlecht."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:04",
+      "text": "Du, gestern beim Frühschoppen hab i eine kennengelernt, die Christel. Die is neu im Ort, spielt Klarinette und will zu uns in den Verein. Die hat gesagt, sie tät gern einmal meine Hühner anschauen, und ihre Nummer hab i auch. Ob i die heut anruf, bei dem Wetter? Oder is des aufdringlich?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "new_acquaintance",
+    "unavailable_action_request": false,
+    "rationale": "Bored bachelor on a rainy morning chats about his hens and practicing for a band concert. He then mentions a newcomer he met at the band's event yesterday who wants to see his hens, and wonders whether to call her today, so Mira can encourage the new contact or keep the rainy-day chat going."
+  }
+}

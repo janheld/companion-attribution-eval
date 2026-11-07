@@ -1,0 +1,157 @@
+{
+  "id": "clean_030",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:15:03.598156+00:00"
+  },
+  "content_hash": "1c69c634a433cf17d2bfb2fd967c4446ac64caaaa738838d9d1fc26c1afacfb8",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_030",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 6,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Gerlinde",
+    "last_name": "Atteneder",
+    "side_older": [
+      "Ottokar",
+      "Ilse",
+      "Johann"
+    ],
+    "side_younger": [
+      "Leonard",
+      "Sabine",
+      "Nico"
+    ],
+    "side_surnames": [
+      "Hiebl",
+      "Pumberger"
+    ],
+    "former_job": "Bauzeichnerin",
+    "interests": [
+      "Katze oder Hund",
+      "Musikverein"
+    ],
+    "occasion": "sitzt gerade an einem Hobby",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gerlinde Atteneder",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 6
+      },
+      "time_of_day": "Donnerstag, 10:03",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenssituation",
+          "text": "Gerlinde lebt allein mit ihrem Kater, war nie verheiratet. Ihr Sohn Leonard lebt mit Familie im Ausland. Enkelin Sabine studiert in der Landeshauptstadt und kommt in den Ferien zu Besuch."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Gerlinde ist seit vielen Jahren Notenwartin im Musikverein. Sie verwaltet das Notenarchiv und schreibt abgenutzte Stimmen von Hand neu ab. Kapellmeister ist Ottokar, ihre Freundin Ilse spielt Flügelhorn."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Bauzeichnerin in einem Planungsbüro und zeichnet bis heute sauber mit Lineal."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gicht in der großen Zehe, die immer wieder aufflammt. Hausarzt ist Dr. Hiebl."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Gerlinde erzählte, dass Ottokar ihr nach der Probe einen Stapel alter Stimmen gegeben hat, die kaum mehr lesbar sind. Sie will sie bis zur nächsten Probe neu abschreiben.",
+          "notes": [
+            "Hat alte, verblasste Stimmen zum Abschreiben bekommen",
+            "Soll bis zur nächsten Probe fertig sein",
+            "Kapellmeister heißt Ottokar"
+          ]
+        },
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Gerlinde erzählte von ihrer Enkelin Sabine, die angerufen hat und in den Weihnachtsferien kommen will. Außerdem erwähnte sie, dass der Kater neuerdings morgens auf dem Küchentisch schläft.",
+          "notes": [
+            "Sabine kommt in den Weihnachtsferien",
+            "Kater schläft gern auf dem Küchentisch",
+            "Freut sich auf den Besuch"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:05",
+        "text": "I sitz grad beim Küchentisch und schreib die zweite Stimme fürs Flügelhorn ab, das alte Blatt kann man ja nimmer lesen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine schöne Arbeit, Gerlinde. Da kommt dir deine ruhige Hand vom Zeichnen sicher zugute."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:08",
+        "text": "Eh, die Notenlinien zieh i noch immer mit dem Lineal. Nur der Kater legt sich ständig mitten aufs Papier."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der will halt dabei sein. Vielleicht legst du ihm einen Polster auf den Sessel daneben, dann hat er seinen eigenen Platz."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:11",
+        "text": "Hab i schon probiert, der will genau dort liegen, wo die Lampe hinscheint. Die Ilse braucht das Blatt aber bis zur nächsten Probe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann schaffst du das sicher noch rechtzeitig. Wie viele Seiten sind es denn noch?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:13",
+      "text": "Drei noch. Aber lang sitzen mag i heut net, die große Zehe zwickt seit gestern wieder. Tät da a kalter Umschlag was helfen?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean conversation: a retired draughtswoman who keeps the brass band's music archive copies out a worn part by hand while her cat gets in the way, then mentions her gout flaring and asks about a cold compress. Everyday hobby talk with a small, ordinary health question."
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": "contact_026",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Doppelt sich mit contact_005 (früher Morgen, 50. Jahrestag, Mira fragt wortgleich „Weißt du noch, wie dein erster Tag war?“). Bitte in #0 „Heut is halt so ein Tag, da schlaft man net recht.“ ersetzen durch „I hab schon den Rucksack hergerichtet, bevor's überhaupt hell war.“, in Mira #3 die Frage ersetzen durch „Was kommt dir heute als Erstes in den Sinn?“ und in Mira #9 den Satz ersetzen durch „Dr. Strasser hat dir ja das langsame Aufstehen über den Bettrand und genug Trinken geraten. Wenn der Schwindel öfter kommt, sprich ihn bei ihm noch einmal an.“",
+    "reviewed_at": "2026-11-06T15:30:17.066499+00:00"
+  },
+  "content_hash": "5ae7d74edcb2a157aaf9f45767af6fab8bf69e14f1a8ef4b5d30fce53ee60a7c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_026",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 386,
+    "time_of_day": "früher Morgen",
+    "weekday": "Samstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "visit",
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Theodor",
+    "last_name": "Leitner",
+    "side_older": [
+      "Manfred",
+      "Frieda",
+      "Michael"
+    ],
+    "side_younger": [
+      "Christian",
+      "Emilia",
+      "Samuel"
+    ],
+    "side_surnames": [
+      "Strasser",
+      "Scharinger"
+    ],
+    "former_job": "Förster",
+    "interests": [
+      "Zither",
+      "Mundartgedichte"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Theodor Leitner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 386
+      },
+      "time_of_day": "Samstag, 05:55",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenssituation",
+          "text": "Theodor lebt allein in einem kleinen Haus am Waldrand. Er ist seit über dreißig Jahren von Frieda geschieden, die beiden haben kaum noch Kontakt. Kinder hat er keine."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Theodor war fast vierzig Jahre Förster im selben Revier. Michael war dort lange Holzknecht, die beiden sind bis heute befreundet und gehen regelmäßig miteinander wandern."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Sein Patenkind Emilia ist die Tochter seines verstorbenen Jugendfreundes Manfred. Sie wohnt weiter weg und schreibt ihm zu jedem Anlass eine Karte, die er in der Küche aufhebt."
+        },
+        {
+          "topic": "Zither und Gedichte",
+          "text": "Theodor spielt Zither und schreibt Gedichte im Dialekt, meistens über den Wald und die Jahreszeiten. Er schreibt sie mit der Hand in ein Heft."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Beim Aufstehen, vor allem in der Früh, wird Theodor manchmal schwindlig. Er war deswegen bei seinem Hausarzt Dr. Strasser, der ihm geraten hat, langsam aufzustehen und genug zu trinken."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Theodor erzählte, dass Michael angerufen hat. Sie wollen am Samstag die Runde gehen, die Theodor vor fünfzig Jahren an seinem ersten Tag als Förster gegangen ist. Michael holt ihn am Samstag um sieben Uhr früh mit dem Auto ab.",
+          "notes": [
+            "Michael holt ihn am Samstag um 7 Uhr ab",
+            "Wanderung zum 50. Jahrestag im Revier",
+            "Theodor will dafür ein Gedicht schreiben"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Theodor war bei Dr. Strasser wegen des Schwindels beim Aufstehen. Der Blutdruck wurde gemessen. Dr. Strasser hat ihm geraten, sich in der Früh zuerst an den Bettrand zu setzen und mehr zu trinken.",
+          "notes": [
+            "Termin bei Dr. Strasser wegen Schwindel",
+            "zuerst am Bettrand sitzen, dann aufstehen",
+            "mehr trinken"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 6 Tagen",
+          "summary": "Theodor hat eine Karte von Emilia bekommen, die an den Jahrestag gedacht hat. Er hat am Nachmittag Zither gespielt und überlegt, ob er zum Jahrestag ein Gedicht schreibt.",
+          "notes": [
+            "Karte von Emilia zum Jahrestag",
+            "Zither gespielt",
+            "Idee für ein Gedicht"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "05:57",
+        "text": "Mei, seit vier bin i schon munter. Heut is halt so ein Tag, da schlaft man net recht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Theodor. Ist heute der Tag, an dem du mit dem Michael ins Revier gehst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:00",
+        "text": "Jo, genau. Heut vor fünfzig Jahren hab i das Revier übernommen. Des geht einem schon nach."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fünfzig Jahre, das ist ein Tag, an dem man viel zurückdenkt. Weißt du noch, wie dein erster Tag war?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:03",
+        "text": "Freilich. Geregnet hat's, und der alte Förster, der hat mir den ganzen Tag nur Grenzsteine gezeigt. Am Abend hab i nimmer gewusst, wo vorn und hinten is."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat er dich gleich gründlich eingeführt. Die Grenzsteine findest du heute wahrscheinlich noch im Schlaf."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:06",
+        "text": "Die meisten schon. Ein paar sind beim Forstweg verschwunden, wie sie den gebaut haben. Des hat mich damals geärgert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kann ich verstehen, wenn man so lange auf ein Revier geschaut hat. Wollt ihr heute genau die Runde von damals gehen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:10",
+        "text": "Die gleiche Runde, ja. Drei Stunden, wenn's geht. Nur heut in der Früh war der Schwindel wieder da, wie i aufgestanden bin. Net arg, aber halt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie Dr. Strasser gesagt hat, hilft vielen das langsame Aufstehen über den Bettrand und genug trinken. Wenn der Schwindel öfter kommt, sprich ihn bei ihm noch einmal an."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:14",
+        "text": "Jo, i hab eh schon zwei Gläser Wasser getrunken. Und gestern Abend hab i das Gedicht noch fertig gemacht, vier Strophen über den Wald da oben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vier Strophen zu so einem Tag, das ist schön. Liest du es dem Michael oben im Revier vor?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:24",
+      "text": "Vorlesen, mal schauen, ob i mich trau. Jetzt is schon bald halb sieben, und um sieben steht der Michael vor der Tür. I bin noch im Schlafanzug und eine Jause hab i auch noch keine. Aber einen Kaffee trink i noch in Ruh."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "visit",
+    "unavailable_action_request": false,
+    "rationale": "A divorced former forester wakes early on the 50th anniversary of taking over his forest district. He talks about his first day, mild dizziness on standing (left to his doctor) and a dialect poem. The final turn brings the friend's pickup at seven, planned in memory, closer: he still has to dress and pack food but also wants a quiet coffee, so Mira can either help him get going or keep talking."
+  }
+}

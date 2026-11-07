@@ -1,0 +1,191 @@
+{
+  "id": "stt_errors_008",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:48:26.527334+00:00"
+  },
+  "content_hash": "c6eafb296c0495fb473075485dbcd4ba8d102e05b609961f336a2e06b59b08ed",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Alwine",
+    "last_name": "Kogler",
+    "side_older": [
+      "Bernd",
+      "Afra",
+      "Blasius"
+    ],
+    "side_younger": [
+      "Lukas",
+      "Clara",
+      "Frederik"
+    ],
+    "side_surnames": [
+      "Pichlmayr",
+      "Kreindl"
+    ],
+    "id": "stt_errors_008",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 117,
+    "time_of_day": "Mittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Installateurin",
+    "interests": [
+      "Schwammerl suchen",
+      "Gemeindepolitik"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Alwine Kogler",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 117
+      },
+      "time_of_day": "Mittwoch, 12:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Clara (Tochter)",
+          "text": "Mama ist fit und viel unterwegs, im Wald und bei jeder Gemeinderatssitzung. Sie organisiert gern alles selber, da hilft Nachfragen mehr als Ratschläge."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Alwine ist verwitwet, ihr Mann Bernd ist vor sieben Jahren gestorben. Ihre Tochter Clara wohnt im selben Ort, ein paar Häuser weiter, und schaut fast täglich vorbei. Ihr älterer Bruder Blasius lebt im Nachbarort und spielt Zither."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Ihr Patenkind Frederik arbeitet als Koch in einem Hotel in einer Stadt im Westen. Alwine schreibt ihm zu Weihnachten, zum Geburtstag und zu Ostern eine Karte, er ruft dann meistens an."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Alwine hat mit Bernd einen Installationsbetrieb geführt und selbst als Installateurin gearbeitet, was damals im Ort ungewöhnlich war. Den Betrieb haben sie vor ihrer Pension verkauft."
+        },
+        {
+          "topic": "Schwammerl",
+          "text": "Alwine geht seit ihrer Kindheit Schwammerl suchen und kennt ihre Plätze im Wald genau. Steinpilze friert sie ein oder trocknet sie. Oft geht sie mit ihrer Freundin Afra."
+        },
+        {
+          "topic": "Gemeindepolitik",
+          "text": "Alwine verfolgt die Gemeindepolitik genau und sitzt bei fast jeder öffentlichen Gemeinderatssitzung als Zuhörerin im Saal. Mit dem Herrn Pichlmayr, einem Gemeinderat, diskutiert sie gern über den neuen Gehsteig an der Hauptstraße."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 3 Tagen",
+          "summary": "Alwine erzählte, dass ihr Bruder Blasius in knapp drei Wochen 85 wird. Sie und Clara wollen ihm eine Jause bei Alwine zu Hause ausrichten. Blasius soll vorher nichts davon erfahren.",
+          "notes": [
+            "Blasius wird 85, Überraschungsjause bei Alwine geplant",
+            "Clara hilft bei der Organisation",
+            "Gästeliste noch offen"
+          ]
+        },
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Alwine war am Abend bei der Gemeinderatssitzung und ärgerte sich, dass der Gehsteig an der Hauptstraße wieder verschoben wurde. Sie hatte danach noch mit dem Herrn Pichlmayr darüber geredet.",
+          "notes": [
+            "Gehsteigbau an der Hauptstraße erneut verschoben",
+            "Gespräch mit Herrn Pichlmayr nach der Sitzung"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:11",
+        "text": "Mei, heut bin i schon seit sechs auf, und weitergebracht hab i fast nix."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Solche Tage gibt's, Alwine. Was hast du dir denn für heute vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Die Einladungen für den Blasius seinen Geburtstag. Die Clara und i wollen die diese Woche noch verschicken, sonst wird des zu knapp."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein guter Plan, dann haben alle noch genug Zeit. Wie viele Leute wollt ihr denn einladen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:14",
+        "text": "Zwölf, vierzehn vielleicht. Die Afra kommt fix, und der Frederik, wenn er frei kriegt. Dem schreib i eh a eigene Karte."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Über eine Karte von dir freut sich der Frederik bestimmt. Was soll es denn zum Essen geben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Die Clara backt Krapfen, und i mach a Schwammerlsuppe. I hab noch Steinpilze eingefroren, die reichen leicht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine Suppe aus deinen eigenen Steinpilzen, das passt gut zu so einem Fest. Hast du genug Platz für so viele Leute?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:18",
+        "text": "Des is ja das Problem. In der Stube sitzen höchstens zehn, mehr gehen net hinein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann wird's eng. Könntet ihr vielleicht in der Küche noch einen Tisch dazustellen?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:20",
+      "text": "Die Küche nehmen wir dazu, die Tür lassen wir offen. Und nach dem Essen soll der Blasius die Zither spielen, die alte steht eh noch bei mir in der Kammer, dann wird des a richtiger hoher Gast wie früher bei uns daheim."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "a richtiger hoher Gast",
+        "type": "stt_dialect"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user says 'dann wird des a richtiger Hoagascht', using the Mühlviertel word for an evening get-together with music and talk. The STT model does not know the dialect word and maps it to the closest standard words, 'hoher Gast', which sounds very similar but makes no sense in the sentence. The surrounding sentence about Blasius playing the zither after the meal makes the intended meaning recoverable."
+  }
+}

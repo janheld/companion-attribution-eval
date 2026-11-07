@@ -1,0 +1,204 @@
+{
+  "id": "contact_001",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:16:47.546262+00:00"
+  },
+  "content_hash": "3d9d9cbb495610fa3bc8e1feaa8e8239d6f050b2117c5eecec8a1b6fcbd964c7",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_001",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 60,
+    "time_of_day": "Vormittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "visit",
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Erika",
+    "last_name": "Enzenhofer",
+    "side_older": [
+      "Senta",
+      "Otmar",
+      "Ursula"
+    ],
+    "side_younger": [
+      "Jana",
+      "Sebastian",
+      "Sophia"
+    ],
+    "side_surnames": [
+      "Rockenschaub",
+      "Ziegelböck"
+    ],
+    "former_job": "Apothekenhelferin",
+    "interests": [
+      "Häkeln und Sticken",
+      "Ortschronik und Ahnenforschung"
+    ],
+    "occasion": "hat Post oder ein Paket bekommen",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Erika Enzenhofer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 60
+      },
+      "time_of_day": "Mittwoch, 09:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sebastian (Sohn)",
+          "text": "Mama hat seit zwei Jahren eine Hüftprothese links. Sie soll nichts Schweres vom Boden heben. Ich lebe in Kanada und melde mich meistens am Sonntagabend per Videoanruf."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Erika ist seit über zwanzig Jahren geschieden und lebt allein in einer Wohnung im ersten Stock. Ihr Sohn Sebastian lebt mit seiner Frau Jana und der Tochter Sophia seit vielen Jahren in Kanada."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hüftprothese links seit zwei Jahren. Geht im Ort ohne Stock, nimmt ihn auf längeren Wegen mit. Hausarzt ist Dr. Rockenschaub."
+        },
+        {
+          "topic": "Ortschronik und Ahnenforschung",
+          "text": "Arbeitet im Arbeitskreis Ortschronik von Wenzelsöd mit, der sich am ersten Donnerstag im Monat in der Gemeindebücherei trifft. Ihre Freundin Ursula betreut dort die Fotosammlung. Erika kann Kurrentschrift lesen und forscht in den Taufbüchern der Pfarre."
+        },
+        {
+          "topic": "Handarbeit",
+          "text": "Häkelt und stickt viel. Arbeitet gerade an einer Tischdecke im Kreuzstich für ihre Enkelin Sophia."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast vierzig Jahre Apothekenhelferin in der Apotheke im Nachbarort."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Erika erzählte vom Videoanruf mit Sebastian am Sonntagabend. Er hatte ein Paket angekündigt, aber nicht verraten, was drin ist. Danach ging es um die Kreuzstich-Tischdecke für Sophia, bei der sie mit der Bordüre fast fertig ist.",
+          "notes": [
+            "Sebastian hat ein Paket aus Kanada angekündigt, Inhalt unbekannt",
+            "Tischdecke für Sophia: Bordüre fast fertig",
+            "Erika freut sich, dass Sophia inzwischen ein bisschen Deutsch lernt"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Erika war mit Ursula in der Pfarrkanzlei und hat in einem alten Taufbuch nach Familien vom Kirchenplatz gesucht. Die Einträge um 1900 waren schwer zu lesen, sie hat sich einiges abgeschrieben.",
+          "notes": [
+            "Taufbuch um 1900 durchgesehen, zusammen mit Ursula",
+            "Interessiert sich besonders für die Häuser rund um den Kirchenplatz",
+            "Will ihre Abschriften für den Arbeitskreis ordnen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 6 Tagen",
+          "summary": "Kurzes Gespräch am Abend. Erika hatte die Nachbarin, Frau Ziegelböck, zum Arzt begleitet und war danach müde. Sie hat noch ein Stück an der Bordüre gestickt.",
+          "notes": [
+            "Hat Frau Ziegelböck zum Arzt begleitet",
+            "War am Abend müde, sonst zufrieden"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:47",
+        "text": "Stell dir vor, der Briefträger hat mir grad ein Paket aus Kanada heraufgetragen. Vom Sebastian, und das wiegt gut seine fünf Kilo."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das angekündigte Paket ist also da! Weißt du schon, was drin ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:50",
+        "text": "Ich hab's eben aufgeschnitten. Ein altes Fotoalbum und ein Bündel Briefe. Der Sebastian hat drüben eine Familie kennengelernt, deren Urgroßvater neunzehnhundertzwölf aus Wenzelsöd ausgewandert ist. Die wollten, dass die Sachen wieder heimkommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja ein Schatz für eure Ortschronik. Sind die Briefe noch gut lesbar?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:54",
+        "text": "Teils, teils. Kurrent halt, und die Tinte ist an manchen Stellen ganz blass. Aber auf einem Foto erkenn ich die alte Schmiede beim Kirchenplatz, die steht ja schon lang nicht mehr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass du die Schmiede wiedererkennst. Mit Kurrent hast du ja Übung, da kommst du sicher Stück für Stück durch."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:58",
+        "text": "Die Lupe hab ich mir schon geholt. Nur das Bücken zum Karton war dumm, mit der Hüfte heb ich so was eigentlich nicht mehr vom Boden auf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann lass den Karton ruhig stehen und nimm die Sachen einzeln heraus. Falls sich die Hüfte danach anders meldet als sonst, kann Dr. Rockenschaub das am besten beurteilen."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:01",
+        "text": "Nein, die passt schon. Das Album liegt jetzt auf dem Küchentisch. Und weißt du, was mich am meisten freut? Da ist eine Hochzeit drin, vor dem alten Gasthaus, und hinten steht mit Bleistift die Jahreszahl, neunzehnhundertneun."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Foto mit Jahreszahl, das ist für die Chronik besonders wertvoll. Vielleicht findest du das Brautpaar sogar in deinen Abschriften aus dem Taufbuch."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:04",
+        "text": "Das wär was. Ich hab der Ursula vorhin ein Handyfoto davon geschickt, die war ganz aus dem Häuschen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das glaub ich gern, die Fotosammlung ist ja ihr Herzensprojekt. Da habt ihr beide jetzt einiges zu entdecken."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:07",
+      "text": "Jetzt hat sie grad zurückgeschrieben, sie ist in einer Viertelstunde da, sie will das Album unbedingt gleich sehen. Dabei hab ich noch nicht einmal Kaffee aufgesetzt, und den Tisch wollt ich auch noch abwischen, bevor wir das Album drauflegen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "visit",
+    "unavailable_action_request": false,
+    "rationale": "A divorced former pharmacy assistant who works on the village chronicle receives a parcel from her son in Canada with an emigrant family's photo album and letters. The conversation is practical and pleased, touches her hip prosthesis briefly, and ends with her friend announcing a visit in fifteen minutes while coffee and table are not ready: the companion can let her get ready or keep talking about the album."
+  }
+}

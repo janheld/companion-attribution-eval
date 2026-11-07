@@ -1,0 +1,175 @@
+{
+  "id": "contact_007",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.626534+00:00"
+  },
+  "content_hash": "a4a4992902fdf0e84db7bbbdc211df059bc5470b49e05670671993bd64d7ec57",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Gerda",
+    "last_name": "Mittendorfer",
+    "side_older": [
+      "Annemarie",
+      "Leopold",
+      "Philomena"
+    ],
+    "side_younger": [
+      "Sandra",
+      "Henri",
+      "Alexandra"
+    ],
+    "side_surnames": [
+      "Lettner",
+      "Thallinger"
+    ],
+    "id": "contact_007",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 303,
+    "time_of_day": "früher Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "invitation",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 6,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Krankenschwester",
+    "interests": [
+      "Gemeindepolitik",
+      "Schrebergarten"
+    ],
+    "occasion": "kommt von einem Spaziergang zurück",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gerda Mittendorfer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 303
+      },
+      "time_of_day": "Freitag, 17:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sandra (Schwiegertochter)",
+          "text": "Gerda trinkt im Garten oft zu wenig, gerade wenn die Gicht wieder da ist. Ein Hinweis aufs Wasserglas schadet nie."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie und Haushalt",
+          "text": "Verheiratet mit Leopold, der viel unterwegs ist: Fischereiverein, Stammtisch am Freitagabend, Hilfe beim Bauhof der Gemeinde. Sohn Henri wohnt mit Frau Sandra und Tochter Alexandra (14) im Obergeschoss desselben Hauses."
+        },
+        {
+          "topic": "Gemeindepolitik",
+          "text": "Geht seit der Pension regelmäßig zu den öffentlichen Gemeinderatssitzungen und meldet sich in der Bürgerfragestunde. Aktuell beschäftigt sie der geplante Parkplatz auf der Wiese hinter dem Kindergarten. Die Sitzung dazu ist am Dienstag nächster Woche. Ihre Freundin Annemarie geht meistens mit."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Hat eine Parzelle in der Kleingartenanlage am Mühlbach, Gemüse und Johannisbeeren. Die Nachbarparzelle gehört Philomena, mit der sie Werkzeug teilt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 38 Jahre Krankenschwester im Krankenhaus in der Bezirksstadt, zuletzt auf der Inneren. Kennt sich mit Medizinischem aus, ist aber bei sich selbst eher nachlässig."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gicht in der linken großen Zehe, mehrere Schübe pro Jahr. Hausarzt ist Dr. Thallinger. Achtet seitdem auf weniger Fleisch und trägt bei Schmerzen breite Schuhe."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Gerda erzählte, dass die Zehe seit dem Wochenende wieder etwas besser ist und sie erstmals wieder kurz im Garten war. Sie hat Philomena die Heckenschere zurückgebracht und die letzten Karotten geerntet.",
+          "notes": [
+            "Gicht klingt ab, trägt weiter die breiten Schuhe",
+            "Letzte Karotten im Garten geerntet",
+            "Philomena hat Heckenschere zurück"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Gerda hat den Aushang zum geplanten Parkplatz hinter dem Kindergarten noch nicht gesehen, will aber vor der Gemeinderatssitzung nächste Woche hin. Annemarie hat ihr erzählt, dass achtzig Stellplätze geplant sind.",
+          "notes": [
+            "Will den Plan am Gemeindeamt anschauen",
+            "Annemarie geht zur Sitzung mit",
+            "Sorgt sich um den Schulweg"
+          ]
+        },
+        {
+          "date": "Samstag, vor 6 Tagen",
+          "summary": "Gerda hatte einen Gichtschub und blieb den Tag über daheim. Alexandra hat ihr am Vormittag beim Einkaufen geholfen. Leopold war beim Fischereiverein.",
+          "notes": [
+            "Gichtschub, Dr. Thallinger hat Tabletten verschrieben",
+            "Alexandra hat eingekauft",
+            "Ruhiger Tag daheim"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:42",
+        "text": "Hallo Mira. Ich bin grad zurück, war die große Runde über den Friedhofsweg und dann am Gemeindeamt vorbei. Da hängt jetzt der Plan für den Parkplatz aus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hallo Gerda, schön, dass du die große Runde geschafft hast. Ist das der Parkplatz hinter dem Kindergarten, über den nächste Woche im Gemeinderat geredet wird?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:44",
+        "text": "Genau der. Achtzig Stellplätze, und die ganze Wiese ist weg. Ich hab mir schon aufgeschrieben, was ich in der Bürgerfragestunde sagen will. Die Zehe hat übrigens gut mitgemacht, ich bin halt langsam gegangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Freut mich, dass die Zehe heute mitgespielt hat. Und gut, dass du schon Notizen hast. Was ist dir an der Wiese denn am wichtigsten?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:47",
+        "text": "Dass die Kindergartenkinder im Sommer dort draußen sind. Und der Schulweg geht direkt vorbei, wenn da achtzig Autos ein und aus fahren, na servus. Ich will's aber sachlich sagen, nicht so, als wär ich gegen alles."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das sind doch zwei klare Punkte: die Kinder im Sommer und der Schulweg. Wenn du magst, bringen wir deine Notizen zusammen in eine gute Reihenfolge, damit es ruhig und sachlich rüberkommt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:50",
+      "text": "Ja, das wär gut. Wobei, grad hat die Sandra von oben runtergerufen, ob ich zum Abendessen raufkomm. Sie haben Kürbissuppe gemacht, und die Alexandra hat einen Kuchen gebacken. Der Leopold ist eh beim Stammtisch. In einer Viertelstunde gibt's Essen, hat sie gesagt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "invitation",
+    "unavailable_action_request": false,
+    "rationale": "Retired nurse back from a walk, preparing her remarks for a council meeting with Mira. Right after accepting Mira's offer to sort her notes, her daughter-in-law upstairs invites her to dinner in fifteen minutes, so Mira can either let her go upstairs or continue the speech preparation."
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "id": "tv_bleed_027",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "In #0 ist „Ganz voll mit fremden Briefmarken“ mehrdeutig (klingt nach dem Inhalt des Pakets). Bitte ändern in „Ganz zugeklebt mit fremden Briefmarken.“ Außerdem passt die Notiz vom Sonntag „Pia kommt bald in die Schule“ nicht zum November, wo sie laut Brief schon in die Schule geht; bitte ändern in „Pia ist im Herbst in die Schule gekommen“. Sonst unverändert.",
+    "reviewed_at": "2026-11-06T15:33:47.286122+00:00"
+  },
+  "content_hash": "ba157fa680e914e8d8ef29a7c5f7c8e469d70c4db9d74bded712ee4fec256a73",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_027",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 299,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Asthma, Spray",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Helene",
+    "last_name": "Hinterberger",
+    "side_older": [
+      "Sieglinde",
+      "Wenzel",
+      "Erentrud"
+    ],
+    "side_younger": [
+      "Denise",
+      "Julius",
+      "Pia"
+    ],
+    "side_surnames": [
+      "Ziegelböck",
+      "Zwettler"
+    ],
+    "former_job": "Kellnerin",
+    "interests": [
+      "Fotografieren",
+      "Vögel beobachten"
+    ],
+    "occasion": "hat Post oder ein Paket bekommen",
+    "opening_style": "a short greeting, then straight into the topic",
+    "side_extra": [
+      "Gernot"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Helene Hinterberger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 299
+      },
+      "time_of_day": "Donnerstag, 10:02",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Helene war nie verheiratet und hat zwei Söhne großgezogen, Julius und Gernot. Ihr älterer Sohn Julius lebt seit vielen Jahren in Übersee und ist mit Denise verheiratet; ihre Tochter Pia ist sechs. Julius schickt ab und zu Pakete und Briefe."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Helene war über dreißig Jahre Kellnerin, zuletzt im Café am Hauptplatz. Mit Erentrud, einer früheren Kollegin, trifft sie sich noch regelmäßig."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Sie fotografiert gern, vor allem Vögel. Mit ihrer Freundin Sieglinde geht sie oft an den Teich am Ortsrand, um Wasservögel zu beobachten."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Helene hat Asthma und nimmt morgens und abends ihr Spray. Bei kalter Luft muss sie öfter husten. Ihre Hausärztin ist Dr. Ziegelböck."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Ihr Nachbar Herr Zwettler ist viel im Garten und hilft ihr gelegentlich bei Arbeiten mit der Leiter."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Helene war mit Sieglinde am Teich und hat einen Eisvogel fotografiert, allerdings etwas unscharf. Auf dem Rückweg musste sie wegen der kalten Luft husten und hat ihr Spray genommen.",
+          "notes": [
+            "Eisvogel am Teich fotografiert, unscharf",
+            "Husten bei kalter Luft, Spray genommen",
+            "will mit Sieglinde wieder an den Teich"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Helene erzählte, dass Julius am Telefon angedeutet hat, er schicke bald etwas für sie. Sie war neugierig, was es sein könnte.",
+          "notes": [
+            "Julius hat ein Paket angekündigt",
+            "Pia kommt bald in die Schule"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:04",
+        "text": "Hallo Mira. Der Postbote war gerade da, mit dem Paket vom Julius. Ganz voll mit fremden Briefmarken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hallo Helene! Da ist das angekündigte Paket ja angekommen. Was ist denn drin?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:06",
+        "text": "Ich hab's noch nicht ganz offen, die Schnur ist so fest geknotet. Obenauf liegt ein Buch über die Vögel bei ihm drüben, lauter Farbfotos."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Vogelbuch aus seiner Gegend, das passt ja wunderbar zu dir. Da hat sich der Julius bestimmt Gedanken gemacht."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:09",
+        "text": "Ja, und ein Brief ist auch dabei. Er schreibt, dass sie im Frühling vielleicht kommen, aber fix ist es noch nicht ich hab dir gesagt, du sollst nicht mehr herkommen. Nicht nach allem, was passiert ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dass sie im Frühling vielleicht kommen, ist eine schöne Aussicht, auch wenn es noch nicht fix ist. Was schreibt er sonst noch?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Dass die Pia jetzt in die Schule geht. Ein Foto ist dabei, mit der Schultasche, die ist fast größer als sie selber."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Pia mit ihrer ersten Schultasche, das ist ein Foto zum Aufheben. Hast du schon einen Platz dafür?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:15",
+        "text": "Das kommt auf die Kommode zu den anderen. Und ganz unten ist noch was eingewickelt. Ein Futterhäuschen aus Holz, zum Aufhängen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Futterhäuschen, da hast du vom Fenster aus gleich neue Motive für deine Fotos. Wo möchtest du es aufhängen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:18",
+        "text": "An den Zwetschkenbaum vor dem Küchenfenster, da sehe ich am besten hin. Aber auf die Leiter steige ich nicht allein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist vernünftig. Vielleicht hat der Herr Zwettler einmal fünf Minuten Zeit und hilft dir dabei."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:20",
+      "text": "Den frag ich am Nachmittag, der ist eh immer draußen. Was gibt man denn da am besten hinein, nur Sonnenblumenkerne oder auch was anderes?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "ich hab dir gesagt, du sollst nicht mehr herkommen. Nicht nach allem, was passiert ist.",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A morning film rerun is running on the TV while Helene unpacks the parcel and reads the letter aloud in summary. STT attaches a line of dramatic film dialogue to her sentence about her son's possible visit. It is a different voice and register (a character rejecting someone), contradicting her pleased tone, but placed after the visit sentence it could be misread as a family conflict with Julius. The final turn is a clean, practical question."
+  }
+}

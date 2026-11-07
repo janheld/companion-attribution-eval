@@ -1,0 +1,182 @@
+{
+  "id": "stt_errors_026",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:42.867601+00:00"
+  },
+  "content_hash": "8aa8d509683dfb4f9ab641350282801466c9836da4ffeb2c0051d0d96e0efe2b",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_026",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 101,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 8,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Herta",
+    "last_name": "Lamplmayr",
+    "side_older": [
+      "Leopold",
+      "Jutta",
+      "Valerian"
+    ],
+    "side_younger": [
+      "Marcel",
+      "Annika",
+      "Levin"
+    ],
+    "side_surnames": [
+      "Schwaiger",
+      "Schauer"
+    ],
+    "former_job": "Friseurin",
+    "interests": [
+      "Briefmarken",
+      "Zither"
+    ],
+    "occasion": "hat Post oder ein Paket bekommen",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Herta Lamplmayr",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 101
+      },
+      "time_of_day": "Montag, 12:00",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Annika (Tochter)",
+          "text": "Mama hat Diabetes Typ 2 und achtet selber gut aufs Essen. Bitte nicht ständig daran erinnern, das mag sie gar nicht. Ich komme jeden Samstag und mache mit ihr den Wocheneinkauf."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Herta ist 79 und seit sechs Jahren verwitwet, ihr Mann Leopold ist an einem Schlaganfall gestorben. Sie hatte über dreißig Jahre einen eigenen Friseursalon im Ort und kennt dadurch fast alle Leute."
+        },
+        {
+          "topic": "Briefmarken",
+          "text": "Sammelt seit der Lehrzeit Briefmarken, vor allem Motivmarken mit Tieren und Blumen. Löst Marken von Briefen im Wasserbad ab und trocknet sie zwischen Löschpapier, bevor sie ins Album kommen."
+        },
+        {
+          "topic": "Zither",
+          "text": "Spielt Zither, meistens am Abend zum Ausklang. Hat früher mit Leopold zu zweit bei Familienfeiern gespielt."
+        },
+        {
+          "topic": "Freundin Jutta",
+          "text": "Jutta ist eine Schulfreundin, die vor Jahren zu ihrem Sohn Marcel in die Stadt gezogen ist. Sie schreiben einander noch richtige Briefe, und Jutta klebt immer besonders schöne Marken drauf."
+        },
+        {
+          "topic": "Familie und Gesundheit",
+          "text": "Tochter Annika wohnt im Nachbarort und kommt jeden Samstag. Enkel Levin macht eine Lehre. Herta hat Diabetes Typ 2, isst bewusst und misst selbst. Hausärztin ist Dr. Schwaiger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Herta erzählte, dass Annika wie jede Woche samstags zum Einkaufen kommt und Levin diesmal mitkommen will. Sie überlegte, was sie den beiden kochen könnte, und entschied sich für eine Gemüsesuppe und Topfenpalatschinken.",
+          "notes": [
+            "Levin kommt diesmal mit Annika mit",
+            "plant Gemüsesuppe und Topfenpalatschinken",
+            "freut sich auf den Besuch"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Herta sprach über einen Brief, den sie Jutta geschrieben hat, und dass Jutta gerade mit Marcel und seiner Familie im Urlaub am Meer ist. Sie hofft auf Post mit neuen Marken.",
+          "notes": [
+            "Jutta ist mit Marcel im Urlaub am Meer",
+            "Herta hofft auf Marken aus dem Urlaub",
+            "hat am Abend länger Zither gespielt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:02",
+        "text": "Mei, der Vormittag ist heut so zach dahingegangen, alles grau und nass. Aber grad war der Briefträger da."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Na, dann hat der Tag ja doch noch was Gutes gebracht. Was ist denn gekommen, Herta?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:03",
+        "text": "Ein dicker Brief von der Jutta, aus dem Urlaub. Und so schöne Marken drauf, mit Vögeln, ich glaub aus Griechenland."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Auf die hast du ja gewartet. Vögel passen gut in deine Motivsammlung."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:06",
+        "text": "Jo, die tu ich nachher gleich ins Wasser zum Ablösen. Und sie schreibt, im Frühjahr will sie wieder einmal herkommen und dann täten wir"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das wäre schön, wenn die Jutta im Frühjahr zu dir kommt. Da habt ihr euch sicher viel zu erzählen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "Ein Packerl Lebkuchen war auch noch dabei. Des ist halt so eine Sache bei mir, mit dem Zucker."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist lieb von ihr. Wie viel Lebkuchen für dich passt, weißt du selbst gut, und sonst kann dir Dr. Schwaiger da am besten was sagen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:11",
+      "text": "Die teil ich mir eh mit der Annika und dem Levin am Samstag. Jetzt mach ich mir zuerst einmal was zum Mittagessen, ein paar Erdäpfel mit Gemüse."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "und dann täten wir",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Herta pauses mid-sentence while thinking about what she and Jutta would do in spring; the voice activity detection ends the utterance and the sentence arrives cut off after 'täten wir'. The companion responds to the clear part (Jutta visiting in spring) without remarking on the missing end."
+  }
+}

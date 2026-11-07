@@ -1,0 +1,202 @@
+{
+  "id": "tv_bleed_014",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:12.732819+00:00"
+  },
+  "content_hash": "543f4dc00b901c07c225ff03c236c449fbc5f3d1ffd6c4d3bcb371e0175c4de7",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_014",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 71,
+    "time_of_day": "Mittag",
+    "weekday": "Freitag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Marga",
+    "last_name": "Hölzl",
+    "side_older": [
+      "Oswald",
+      "Odilia",
+      "Blasius"
+    ],
+    "side_younger": [
+      "Mario",
+      "Daniela",
+      "Dario"
+    ],
+    "side_surnames": [
+      "Vierlinger",
+      "Kaltenböck"
+    ],
+    "former_job": "Bankangestellte",
+    "interests": [
+      "Modelleisenbahn",
+      "Briefmarken"
+    ],
+    "occasion": "gerade vom Einkaufen oder vom Markt zurück",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Marga Hölzl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 71
+      },
+      "time_of_day": "Freitag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Oswald (Ehemann)",
+          "text": "Marga hat Polyneuropathie in beiden Füßen. Wenn es schlimmer wird, sagt sie es meistens nicht von selber."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Haushalt",
+          "text": "Lebt mit ihrem Mann Oswald in einem Haus am Ortsrand. Oswald ist viel unterwegs: hilft Freunden beim Holzmachen, ist bei der Feuerwehr-Seniorenrunde. Mittags kommt er meistens zum Essen heim."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in den Füßen, Kribbeln und Taubheit, schlimmer nach langem Stehen. Hausärztin ist Dr. Vierlinger. Soll Schuhe mit weicher Sohle tragen."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Sammelt Briefmarken, am liebsten mit Eisenbahnmotiven. Im Keller hat sie eine Modelleisenbahn aufgebaut, an der sie im Winter weiterbaut. Tauscht Marken mit ihrer Freundin Odilia."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sohn Mario lebt mit seiner Frau Daniela und Sohn Dario in der Stadt. Mario ruft selten an, was Marga ein bisschen kränkt, auch wenn sie es nicht zugibt."
+        },
+        {
+          "topic": "Früherer Beruf und Alltag",
+          "text": "War Bankangestellte in der Bezirksstadt. Freitags geht sie am Vormittag auf den Wochenmarkt. Mittags schaut sie beim Kochen die Nachrichten im Fernsehen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 3 Tagen",
+          "summary": "Marga erzählte, dass sie im Keller ein neues Stück Gleis mit einer Brücke verlegt hat. Oswald hat ihr beim Sägen der Holzplatte geholfen. Ihre Füße waren nach dem langen Stehen im Keller taub.",
+          "notes": [
+            "Baut an einer Brücke für die Modelleisenbahn",
+            "Oswald hat beim Sägen geholfen",
+            "Füße nach langem Stehen taub"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 5 Tagen",
+          "summary": "Marga berichtete, dass Mario überraschend angerufen hat und Dario in der Schule ein Referat über Eisenbahnen halten will. Sie hat ihm angeboten, alte Briefmarken mit Lokomotiven dafür herzuleihen.",
+          "notes": [
+            "Mario hat angerufen, hat sie gefreut",
+            "Dario macht ein Referat über Eisenbahnen",
+            "Will Dario Briefmarken mit Lokomotiven herleihen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Grüß dich, Mira. Am Markt ist heut einer gestanden mit lauter alten Briefmarken, ganze Schachteln voll."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Grüß dich, Marga! Das war ja genau was für dich. Hast du was gefunden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:08",
+        "text": "Jo, ein paar mit Dampfloks drauf. Die passen gut zu meiner Sammlung. Der Oswald wird wieder sagen, schon wieder Eisenbahn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dampfloks auf Briefmarken, da kommen gleich beide Hobbys von dir zusammen. Vielleicht ist ja auch eine für Darios Referat dabei."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Da hab ich auch schon dran gedacht. Sonst hab ich Erdäpfel geholt, Eier vom Bauern und zwei Kohlrabi. Aber dann bin ich eh bald heim, die Füße haben wieder so gekribbelt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt unangenehm. Ist es jetzt im Sitzen wieder besser?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:11",
+        "text": "Geht schon. Des kenn ich, wenn ich länger steh. Die Dr. Vierlinger hat ja gesagt, ich soll die Schuhe mit der weichen Sohle anziehen, und die hab ich heut net angehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann weißt du ja, was dir guttut. Wenn sich das Kribbeln anders anfühlt als sonst, sprich es bei Dr. Vierlinger an."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Freilich. Am Montag hab ich eh einen Termin bei ihr, wegen dem Blutbild."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass der Termin schon ausgemacht ist. Kommt der Oswald heute zum Mittagessen heim?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:14",
+        "text": "Um eins. Der ist heut beim Blasius drüben beim Holzmachen, der hat dann sicher einen Hunger."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Nach dem Holzmachen bestimmt. Dann hast du noch ein bisschen Zeit zum Kochen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:16",
+      "text": "Jetzt hab ich halt die zwei Kohlrabi da und weiß net recht, was ich draus mach der Landtag hat am Vormittag mit knapper Mehrheit die Änderung der Bauordnung beschlossen, die Opposition will das Gesetz nun prüfen lassen"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "der Landtag hat am Vormittag mit knapper Mehrheit die Änderung der Bauordnung beschlossen, die Opposition will das Gesetz nun prüfen lassen",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Marga watches the midday TV news while cooking (memory), and the timestamp is just after noon. Her coherent question about the kohlrabi runs straight into a news sentence about a state parliament vote. The formal news register and the topic have nothing to do with her, which is clear on a careful read, but STT merges it without a boundary."
+  }
+}

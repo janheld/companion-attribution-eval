@@ -1,0 +1,171 @@
+{
+  "id": "tv_bleed_029",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:47.266553+00:00"
+  },
+  "content_hash": "f3316d3fb6bc25e70e317d0107ed6ca404a474557bc41ded00d1c054a43c1fcc",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_029",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 408,
+    "time_of_day": "früher Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "other_person",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Laurenz",
+    "last_name": "Seyr",
+    "side_older": [
+      "Kreszenz",
+      "Detlef",
+      "Martha"
+    ],
+    "side_younger": [
+      "Sonja",
+      "Adrian",
+      "Romy"
+    ],
+    "side_surnames": [
+      "Hummer",
+      "Plöchl"
+    ],
+    "former_job": "Verkäufer",
+    "interests": [
+      "Hühner halten",
+      "Kräuter und Hausmittel"
+    ],
+    "occasion": "hat Langeweile, es regnet",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Laurenz Seyr",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 408
+      },
+      "time_of_day": "Mittwoch, 17:50",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sonja (Tochter)",
+          "text": "Papa steht oft zu schnell auf, dann wird ihm schwindlig. Wenn er davon erzählt, bitte ans langsame Aufstehen denken, ohne ihn zu bevormunden."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Laurenz war nie verheiratet. Seine Tochter Sonja lebt weiter weg und ruft regelmäßig an. Ihre Tochter Romy studiert in der Stadt und kommt in den Semesterferien zu ihm aufs Land."
+        },
+        {
+          "topic": "Hühner",
+          "text": "Laurenz hält acht Hühner hinter dem Haus. Die Eier verkauft er an die Nachbarschaft. Die Nachbarin Martha holt jeden Mittwoch am frühen Abend ihre zehn Eier."
+        },
+        {
+          "topic": "Kräuter und Hausmittel",
+          "text": "Er hat einen großen Kräutergarten und trocknet Salbei, Thymian und Kamille selbst. Für Hausmittel ist er im Ort bekannt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Laurenz war über vierzig Jahre Verkäufer in einem Eisenwarengeschäft und plaudert gern."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Beim schnellen Aufstehen wird ihm manchmal schwindlig. Sein Hausarzt Dr. Hummer hat ihm geraten, langsam aufzustehen und genug zu trinken."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Laurenz erzählte, dass zwei Hühner in der Mauser sind und kaum noch legen. Er füttert ihnen jetzt etwas mehr Eiweiß zu.",
+          "notes": [
+            "zwei Hühner in der Mauser",
+            "legen derzeit weniger"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Romy hat angerufen. Sie hat im Winter mehrere Prüfungen und kommt in den Semesterferien für zwei Wochen. Laurenz hat sich sehr gefreut.",
+          "notes": [
+            "Romy kommt in den Semesterferien",
+            "Prüfungen im Winter",
+            "Laurenz freut sich auf den Besuch"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:52",
+        "text": "I sitz grad in der Küche und schau dem Regen zu. Die Hühner hocken alle im Stall, die mögen des Wetter auch net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei so einem Regen bleiben die Hühner lieber im Trockenen, das kann man verstehen. Was hast du heute noch vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:54",
+        "text": "Nix Besonderes. Vorhin hab i den Salbei abgezupft, der hängt jetzt zum Trocknen überm Ofen. I nimm mir die zehn Eier mit, Laurenz, das Geld leg ich dir in die Schüssel, gell"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Salbei über dem Ofen trocknet bestimmt schön, da duftet die ganze Küche. Machst du dir daraus Tee?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:57",
+        "text": "Jo, für den Winter, wenn der Hals kratzt. Und a bissl kriegt die Martha, die schwört auf meinen Salbeitee."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat die Martha Glück mit so einem Nachbarn. Selbst getrockneter Salbei ist halt was anderes als der aus dem Geschäft."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:00",
+      "text": "Des mein i auch. Aber jetzt ist grad erst sechs, und bis zum Schlafengehen ist's noch lang. Was könnt i denn heut noch machen bei dem Sauwetter?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "I nimm mir die zehn Eier mit, Laurenz, das Geld leg ich dir in die Schüssel, gell",
+        "type": "other_person"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Neighbor Martha comes by on Wednesday evening, as she does every week, to collect her eggs and speaks to Laurenz across the kitchen while he is talking to the device. STT attaches her sentence to his turn. It addresses Laurenz by name and describes her taking eggs and leaving money, which is clearly another person's perspective, yet without a speaker label it could be read as Laurenz talking to himself or confused about who takes what. The companion answers only the sage part; the final turn is clean."
+  }
+}

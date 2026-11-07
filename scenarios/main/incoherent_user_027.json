@@ -1,0 +1,187 @@
+{
+  "id": "incoherent_user_027",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:17.151124+00:00"
+  },
+  "content_hash": "1c3403dbacb5769080f7379a1f909be0d2f5bd25e7a371875207f05dcd26ddc7",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_027",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 70,
+    "time_of_day": "früher Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Osteoporose",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Monika",
+    "last_name": "Weinberger",
+    "side_older": [
+      "Anneliese",
+      "Anton",
+      "Annemarie"
+    ],
+    "side_younger": [
+      "Heike",
+      "Bastian",
+      "Zoe"
+    ],
+    "side_surnames": [
+      "Wiesner",
+      "Wiesmayr"
+    ],
+    "former_job": "Schlosserin",
+    "interests": [
+      "Fußball im Fernsehen",
+      "Modelleisenbahn"
+    ],
+    "occasion": "kocht gerade",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Monika Weinberger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 70
+      },
+      "time_of_day": "Freitag, 17:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Monika, 76, hat als eine der ersten Frauen im Bezirk Schlosserin gelernt und bis zur Pension vor vierzehn Jahren in einer Schlosserei gearbeitet. Sie ist handwerklich geschickt und redet nicht lang herum."
+        },
+        {
+          "topic": "Haushalt",
+          "text": "Lebt mit ihrem Mann Anton im eigenen Haus. Anton ist viel unterwegs: Stammtisch am Freitagabend, Kartenrunde, Feuerwehr-Senioren. Im Obergeschoss wohnt ihr Neffe Bastian, er schaut oft herunter."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Osteoporose, vor zwei Jahren ein Wirbelbruch. Soll schweres Heben und tiefes Bücken vermeiden. Hausärztin ist Dr. Wiesner."
+        },
+        {
+          "topic": "Fußball und Eisenbahn",
+          "text": "Schaut jedes Wochenende Fußball im Fernsehen, meistens mit Bastian. Im Keller hat sie eine große Modelleisenbahn-Anlage, an der sie mit Bastian weiterbaut, zurzeit einen Bahnhof mit Lagerhalle."
+        },
+        {
+          "topic": "Freundeskreis",
+          "text": "Beste Freundin ist Anneliese, sie kennen sich aus der Lehrzeit und telefonieren mehrmals pro Woche."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Monika erzählte, dass sie mit Bastian im Keller die Lagerhalle für die Modelleisenbahn fertig verdrahtet hat. Die Beleuchtung funktioniert. Als Nächstes wollen die beiden ein Abstellgleis bauen.",
+          "notes": [
+            "Lagerhalle der Modelleisenbahn verdrahtet",
+            "Nächstes Projekt: Abstellgleis",
+            "Baut mit Bastian zusammen"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Monika hat mit Anneliese telefoniert und sich über das Fußballspiel vom Wochenende geärgert, ihre Mannschaft hat knapp verloren. Sie erwähnte, dass ihr beim Wäscheaufhängen der Rücken weh tat, und wollte das bei Dr. Wiesner ansprechen.",
+          "notes": [
+            "Ärger über das verlorene Fußballspiel",
+            "Rückenschmerzen beim Wäscheaufhängen",
+            "Will Rücken bei Dr. Wiesner ansprechen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:42",
+        "text": "I steh grad beim Herd und mach a Erdäpfelgulasch. Der Anton ist heut eh beim Stammtisch, da mach i gleich mehr, des wärm i morgen auf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Erdäpfelgulasch, das klingt gut, Monika. Machst du es mit Würstel oder ohne?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:44",
+        "text": "Mit Debreziner, die mag der Bastian so gern. Der kriegt morgen eh a Portion, wenn er zum Fußballschauen runterkommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird sich der Bastian freuen. Wann geht das Spiel morgen los?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:46",
+        "text": "Um drei. Die Unseren gegen den Tabellenführer, des wird schwer. Der Anton setzt sich dann auch dazu und schimpft halt die ganze Zeit."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Klingt nach einem gemütlichen Samstagnachmittag zu dritt, mit Gulasch und Fußball."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:49",
+        "text": "Jo. Aber i muss schauen, dass i heut net zu spät ins Bett komm, weil morgen um sechs fangt ja die Schicht in der Schlosserei an, und der Meister, der wartet net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein ruhiger Abend tut dir heute sicher gut. Braucht das Gulasch noch lang?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:52",
+        "text": "A bissl muss es noch dünsten. Vorhin beim Bücken nach dem großen Topf hat's mich wieder so im Kreuz gezogen, des geht dann bis in die Hüfte."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit der Osteoporose ist tiefes Bücken heikel, da ist Vorsicht gut. Wenn das Ziehen bleibt, sag es der Dr. Wiesner, die kann das am besten einschätzen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:55",
+      "text": "Jo, des mach i. Der Bastian hat eh gesagt, er räumt mir die großen Töpfe weiter rauf ins Regal, dann muss i mich net so bücken. Meinst, ist des gescheiter so?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "weil morgen um sechs fangt ja die Schicht in der Schlosserei an, und der Meister, der wartet net",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Monika, retired for fourteen years according to memory, says in passing that she must go to bed early because her shift at the locksmith's workshop starts at six tomorrow, two turns after she planned to watch football with Bastian and Anton on Saturday afternoon. Slipping into her working life is a typical time confusion; it is in her own dialect and voice, fits her biography, and is neither a broadcast nor a recognition error. The rest of the conversation (cooking, football, back pain, pots on a higher shelf) is consistent."
+  }
+}

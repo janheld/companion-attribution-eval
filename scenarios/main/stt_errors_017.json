@@ -1,0 +1,182 @@
+{
+  "id": "stt_errors_017",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:31.371611+00:00"
+  },
+  "content_hash": "d9a3f596f6be6088d073055d6ecb22fcd28803b90e3f0996c55e53ecd59213f4",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_017",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 225,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 8,
+    "health": "Osteoporose",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Wunibald",
+    "last_name": "Zöchbauer",
+    "side_older": [
+      "Irene",
+      "Matthias",
+      "Frieda"
+    ],
+    "side_younger": [
+      "Pia",
+      "Jürgen",
+      "Jacqueline"
+    ],
+    "side_surnames": [
+      "Ahamer",
+      "Jungwirth"
+    ],
+    "former_job": "Hausmeister",
+    "interests": [
+      "Pfarre",
+      "Vögel beobachten"
+    ],
+    "occasion": "wartet auf Besuch, ein Taxi oder einen Termin",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Wunibald Zöchbauer",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 225
+      },
+      "time_of_day": "Sonntag, 12:08",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Pia (Tochter)",
+          "text": "Papa hat Osteoporose. Dr. Ahamer hat gesagt, er soll auf rutschigen Wegen unbedingt die Stöcke nehmen. Die Kontrolle bei Dr. Ahamer ist im Dezember."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lebt allein, war nie verheiratet. Hat eine Tochter, Pia, aus einer frühen Beziehung; sie wohnt in der Stadt und ruft oft an. Pias Tochter Jacqueline studiert Biologie und kommt in den Ferien gern zu ihm, auch zum Vögelbeobachten."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Ist in der Pfarre sehr aktiv: liest als Lektor, hilft dem Mesner beim Herrichten. Geht jeden Sonntag in die Messe um neun. Seine Freundin Frieda kennt er aus dem Pfarrgemeinderat."
+        },
+        {
+          "topic": "Vögel",
+          "text": "Beobachtet Vögel, hat ein Futterhaus vor dem Küchenfenster und ein gutes Fernglas. Fährt mit seinem Freund Matthias im Herbst und Winter gern zu den Fischteichen hinter dem Nachbarort, wo Enten und Reiher überwintern."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 32 Jahre Hausmeister an der Volksschule im Ort."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Osteoporose, nimmt Kalzium und Vitamin D. Hausarzt ist Dr. Ahamer. Geht auf unsicheren Wegen mit Nordic-Walking-Stöcken."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Wunibald hat erzählt, dass Matthias angerufen hat: Die beiden wollen diesen Sonntag um ein Uhr zu den Fischteichen fahren, um die überwinternden Enten zu beobachten. Wunibald freute sich darauf und wollte vorher noch das Fernglas putzen.",
+          "notes": [
+            "Ausflug zu den Fischteichen mit Matthias, Sonntag um ein Uhr",
+            "Matthias holt ihn mit dem Auto ab",
+            "Will das Fernglas vorher putzen"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Wunibald hat von Jacqueline erzählt, die gerade Prüfungen an der Universität hat und zu Weihnachten kommen will. Er hat das Futterhaus vor dem Küchenfenster neu befüllt und beobachtet, welche Vögel kommen.",
+          "notes": [
+            "Jacqueline hat Prüfungen, kommt zu Weihnachten",
+            "Futterhaus neu befüllt",
+            "Freut sich auf Jacquelines Besuch"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Mira, sag, soll ich die Thermoskanne vorher mit heißem Wasser ausspülen, damit der Tee länger warm bleibt?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ja, das hilft. Wenn du sie ein paar Minuten mit heißem Wasser vorwärmst und dann ausleerst, bleibt der Tee deutlich länger warm. Geht's heute zu den Teichen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Jo, der Matthias holt mich um eins ab. Vorhin beim Futterhaus war schon ein Kleider da, der ist kopfüber den Stamm runter, so nah sieht man den net oft."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "So was direkt vorm Küchenfenster zu sehen, ist schön. Hast du das Fernglas für heute schon eingepackt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Eingepackt hab ich's, und die Stöcke auch. Beim Damm ist es oft rutschig, da geh i lieber ein bissl langsamer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit den Stöcken bist du dort gut aufgehoben. Lass dir ruhig Zeit am Damm."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "Der Matthias geht eh auch net schneller. Die Pia hat in der Früh angerufen und gemeint, ich soll eine warme Haube aufsetzen, als wie wenn ich ein Kind wär."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da meint sie es halt gut mit dir. Und eine warme Haube schadet bei den Teichen bestimmt nicht."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:25",
+      "text": "Eh net. Was tät denn besser passen zum Mitnehmen, eine Wurstsemmel oder ein Stück vom Gugelhupf, den mir die Frieda gestern gebracht hat?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "ein Kleider",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user says 'Kleiber' (nuthatch); the STT confuses the voiced plosives b and d and outputs the far more frequent word 'Kleider'. The description (climbing head first down the trunk at the feeder) and the memory about birdwatching make the bird recoverable; the companion responds to the plausible part without naming it."
+  }
+}

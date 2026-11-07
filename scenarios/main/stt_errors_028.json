@@ -1,0 +1,198 @@
+{
+  "id": "stt_errors_028",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:42.906600+00:00"
+  },
+  "content_hash": "59e4397190b21ed0f5880ccc07c7e88914d1b385268099b4c934c299f47a4669",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_028",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 71,
+    "time_of_day": "früher Morgen",
+    "weekday": "Montag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 12,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Burkhard",
+    "last_name": "Kitzberger",
+    "side_older": [
+      "Herwig",
+      "Ida",
+      "Kurt"
+    ],
+    "side_younger": [
+      "Theo",
+      "Daniela",
+      "Jens"
+    ],
+    "side_surnames": [
+      "Jagersberger",
+      "Prandstetter"
+    ],
+    "former_job": "Landwirt",
+    "interests": [
+      "Schwimmen",
+      "Radfahren"
+    ],
+    "occasion": "hat eine Frage zum Haushalt (Fleck, Gerät, Vorrat)",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Burkhard Kitzberger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 71
+      },
+      "time_of_day": "Montag, 06:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Daniela (Tochter)",
+          "text": "Papa hat eine Herzrhythmusstörung und ist beim Kardiologen Dr. Jagersberger in Kontrolle. Er fährt trotzdem viel Rad und geht schwimmen, das ist mit dem Arzt abgesprochen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person und Wohnen",
+          "text": "Burkhard ist 76, verwitwet, und hat den Hof vor Jahren an seinen Sohn Jens übergeben. Er wohnt allein in der eigenen Wohnung im Erdgeschoss des Bauernhauses, Jens wohnt mit seiner Familie im Obergeschoss. Seine Frau Ida ist vor vier Jahren gestorben."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Daniela wohnt im selben Ort, ein paar Häuser weiter. Enkel Theo ist Jens' Sohn und geht in die Volksschule. Seit Idas Tod macht Burkhard seinen Haushalt selbst und fragt dabei öfter nach Tipps."
+        },
+        {
+          "topic": "Sport",
+          "text": "Geht montags und freitags um acht mit seinem Freund Herwig ins Hallenbad in der Bezirksstadt, Herwig holt ihn mit dem Auto ab. Fährt bei trockenem Wetter Rad, meistens größere Runden am Wochenende."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat eine Herzrhythmusstörung und geht regelmäßig zur Kontrolle zu Dr. Jagersberger, dem Kardiologen. Trägt beim Radfahren eine Pulsuhr."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Burkhard war am Vormittag mit dem Rad unterwegs, eine lange Runde bis zum Stausee. Unterwegs ist ihm die Kette abgesprungen, er hat sie selbst wieder aufgelegt. Am Nachmittag war Theo bei ihm unten zum Kartenspielen.",
+          "notes": [
+            "lange Radrunde bis zum Stausee",
+            "Kette unterwegs abgesprungen",
+            "Kartenspielen mit Theo"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Burkhard erzählte, dass Daniela ihm die Kontrolle beim Kardiologen ausgemacht hat, am Donnerstag nächster Woche um zehn. Er findet die Kontrollen lästig, geht aber hin.",
+          "notes": [
+            "Kardiologen-Kontrolle am Donnerstag nächster Woche um zehn",
+            "Daniela hat den Termin ausgemacht",
+            "Kontrollen sind ihm lästig"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "I steh grad bei der Waschmaschine mit der Radlhose in der Hand, und am Hosenbein ist lauter schwarzes Kettenöl."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Burkhard. Kettenöl geht oft gut weg, wenn du vor dem Waschen ein bisschen Spülmittel einreibst. Ist die Hose aus so einem dünnen Kunststoff?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:13",
+        "text": "Jo, so ein glattes Zeug. Die hat mir die Daniela zum Geburtstag geschenkt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann wasch sie lieber nicht zu heiß, dreißig oder vierzig Grad reichen. Das Spülmittel kurz einwirken lassen, dann geht das meiste raus."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:15",
+        "text": "Im Kastl liegt noch eine Gallseife, die hat noch die Ida gekauft. Geht die auch?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ja, Gallseife ist für Fettflecken sogar besonders gut. Leicht anfeuchten, einreiben und ein paar Minuten liegen lassen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:18",
+        "text": "So, ist schon eingerieben. Am Samstag ist mir die Kette halt heruntergesprungen, da hab ich mich ordentlich angeschmiert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kennt jeder, der Rad fährt. Hauptsache, du hast sie unterwegs wieder draufgebracht."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:20",
+        "text": "Freilich, des hab ich am Hof oft genug gemacht. Nur die Finger waren schwarz bis zum Abend."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hilft die Gallseife übrigens auch. War es denn sonst eine schöne Runde?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:23",
+        "text": "Schon. Nur beim langen Anstieg hat die Pulsuhr wieder so komische Sprünge angezeigt. Am Donnerstag bin ich eh beim Jagersberger."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass die Kontrolle schon so bald ist. Erzähl Dr. Jagersberger genau von den Sprüngen, er kann am besten einschätzen, was sie bedeuten."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:25",
+      "text": "Mach ich. Jetzt schalt ich die Maschine ein, um acht holt mich eh der Hedwig ab zum Schwimmen, bis dahin soll die Wäsche fertig sein."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "der Hedwig",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Burkhard says 'der Herwig' (his swimming friend from memory, who picks him up Mondays at eight). STT replaces the rarer name with the more frequent, near-identical 'Hedwig' (one consonant differs) but keeps the masculine article, so the turn seems to mention an unknown woman."
+  }
+}

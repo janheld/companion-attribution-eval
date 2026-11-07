@@ -1,0 +1,196 @@
+{
+  "id": "clean_026",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:14:54.795971+00:00"
+  },
+  "content_hash": "47512f92c3bc01f54874a83110d3da509642eb443f37c79801d11cb34a951e6f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_026",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 267,
+    "time_of_day": "Mittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 12,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Erinnerung stellen (z. B. an Tabletten, einen Termin, den Herd)",
+    "gender": "female",
+    "first_name": "Klara",
+    "last_name": "Huemer",
+    "side_older": [
+      "Udo",
+      "Irene",
+      "Hubert"
+    ],
+    "side_younger": [
+      "Jonathan",
+      "Sophia",
+      "Sandro"
+    ],
+    "side_surnames": [
+      "Strasser",
+      "Blaimschein"
+    ],
+    "former_job": "Kassiererin im Lebensmittelgeschäft",
+    "interests": [
+      "Volkstanz",
+      "Feuerwehr (Ehrenmitglied)"
+    ],
+    "occasion": "will etwas wissen (Rezept, Wort, wie etwas geht)",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Klara Huemer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 267
+      },
+      "time_of_day": "Dienstag, 12:02",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Jonathan (Sohn)",
+          "text": "Mama besucht ihren Bruder Udo jeden Mittwochnachmittag im Pflegeheim. Wenn sie davon erzählt, freut sie sich über Nachfragen, wie es ihm geht."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Klara ist seit acht Jahren Witwe, ihr Mann hieß Hubert. Sohn Jonathan lebt mit seiner Familie in der Stadt, Enkelin Sophia kommt öfter am Wochenende. Ihr Bruder Udo lebt seit einem Jahr im Pflegeheim in der Bezirksstadt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Klara war bis zur Pension Kassiererin im Lebensmittelgeschäft im Ort. Mit Zahlen und Geld ist sie flink, bei Festen sitzt sie gern an der Kassa."
+        },
+        {
+          "topic": "Volkstanz",
+          "text": "Sie tanzt seit Jahrzehnten in der Volkstanzgruppe im Ort. Ihre Freundin Irene organisiert die Veranstaltungen der Gruppe."
+        },
+        {
+          "topic": "Feuerwehr",
+          "text": "Klara ist Ehrenmitglied der Feuerwehr, weil sie viele Jahre bei den Festen die Kassa und die Küche gemacht hat."
+        },
+        {
+          "topic": "Kochen",
+          "text": "Kocht gern einfache Hausmannskost und backt für Besuche im Pflegeheim. Udo mag Süßes."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Klara erzählte, dass Sophia zum Mittagessen da war und dass sie gemeinsam Äpfel aus dem Keller sortiert haben. Ein Teil der Äpfel war schon weich und sollte bald verbraucht werden. Irene hatte angerufen, weil die Volkstanzgruppe am kommenden Samstag einen Herbsttanz im Pfarrsaal veranstaltet.",
+          "notes": [
+            "Sophia war zum Mittagessen da",
+            "Viele Äpfel müssen bald verbraucht werden",
+            "Herbsttanz der Volkstanzgruppe am kommenden Samstag"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Klara war am Vormittag bei einer Jause für die Ehrenmitglieder der Feuerwehr im Zeughaus. Sie erzählte, dass ihr die alten Fotos von den Festen gezeigt wurden und dass sie sich auf mehreren selbst an der Kassa erkannt hat.",
+          "notes": [
+            "Jause der Feuerwehr-Ehrenmitglieder",
+            "Alte Fotos von Festen angeschaut",
+            "Hat sich gefreut, dass man sich an sie erinnert"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:04",
+        "text": "I hab grad sechs Äpfel ausgestochen und jetzt weiß i nimmer genau, was alles in die Mitte hinein kommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bratäpfel, fein, Klara! Klassisch kommen gehackte Nüsse, Rosinen, ein bisschen Zucker oder Honig und Zimt hinein, manche geben noch ein Stückchen Butter obendrauf."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:06",
+        "text": "Rosinen hab i keine da. Geht des auch mit Preiselbeermarmelade?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ja, das passt gut zum Apfel und macht ihn schön saftig. Nimm nur nicht zu viel, sonst rinnt sie beim Backen aus."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:08",
+        "text": "Mein Hubert hat die immer mit Marzipan wollen. I hab des nie mögen, aber gemacht hab i's ihm halt trotzdem."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schön, dass du sie ihm trotzdem so gemacht hast. Heute darfst du sie ganz nach deinem Geschmack füllen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Jo, eh. Zwei davon nimm i morgen mit zum Udo ins Heim, der isst des gern. Wie heiß muss denn das Rohr sein?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Meistens nimmt man um die 180 Grad Ober- und Unterhitze, dann brauchen sie ungefähr 25 bis 30 Minuten, je nach Größe. Wenn sie weich sind und die Schale ein bisschen aufplatzt, passen sie."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Gut, dann schieb i's jetzt hinein. Vanillesoße mach i aus dem Packerl, des geht schneller."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit Vanillesoße schmecken sie gleich doppelt so gut. Und der Udo wird sich morgen sicher freuen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Die Irene ruft gleich an wegen dem Herbsttanz am Samstag. Die brauchen noch wen für die Bewirtung."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du heute ja einiges vor. Hilfst du bei der Bewirtung mit?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:17",
+      "text": "Wahrscheinlich schon, i sitz eh immer bei der Kassa. Kannst du mich in einer halben Stunde erinnern, dass i die Äpfel aus dem Rohr nimm? Wenn i mit der Irene red, vergess i sonst die Zeit."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": true,
+    "rationale": "Clean conversation: a widow asks for help with a baked-apple recipe, thinks of her late husband and her brother in the care home, and before a friend's expected call asks Mira to remind her to take the apples out of the oven. Typical kitchen help with a natural, unavailable reminder request at the end."
+  }
+}

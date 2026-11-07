@@ -1,0 +1,196 @@
+{
+  "id": "clean_027",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:15:03.567750+00:00"
+  },
+  "content_hash": "d17a12f6f9d458b1236a85d004f5f82567740b5b4e7e1b849655a8a75e5de87a",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_027",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 3,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Osteoporose",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Rainer",
+    "last_name": "Brandmayr",
+    "side_older": [
+      "Kunigunde",
+      "Harald",
+      "Rosemarie"
+    ],
+    "side_younger": [
+      "Renate",
+      "Christopher",
+      "Iris"
+    ],
+    "side_surnames": [
+      "Jetzinger",
+      "Schaumberger"
+    ],
+    "former_job": "Molkereiarbeiter",
+    "interests": [
+      "Nähen",
+      "Zeitung und Politik"
+    ],
+    "occasion": "kommt von der Messe, vom Verein oder von einer Probe",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Rainer Brandmayr",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 3
+      },
+      "time_of_day": "Montag, 12:15",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Renate (Nichte)",
+          "text": "Onkel Rainer hat Osteoporose und soll nichts Schweres tragen. Er ist sehr selbstständig und mag es nicht, wenn man ihn bevormundet."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Rainer war nie verheiratet und hat keine Kinder. Er hat engen Kontakt zu seiner Schwester Kunigunde, die mit ihrem Mann Harald im Nachbarort wohnt. Kunigundes Tochter Renate hat das Gerät eingerichtet."
+        },
+        {
+          "topic": "Nähstube",
+          "text": "Jeden Montagvormittag hilft Rainer in der Nähstube im Pfarrheim. Dort werden gespendete Kleider für den Sozialmarkt ausgebessert. Seine Bekannte Rosemarie ist ebenfalls dabei."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Rainer hat achtunddreißig Jahre in der Molkerei gearbeitet, zuletzt an der Abfüllung."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Osteoporose. Hausarzt ist Dr. Jetzinger. Er soll nicht mehr als einige Kilo tragen."
+        },
+        {
+          "topic": "Zeitung",
+          "text": "Liest jeden Tag die Regionalzeitung und interessiert sich für Gemeinde- und Landespolitik."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Erstes Gespräch. Renate hat das Gerät eingerichtet und Rainer vorgestellt. Rainer erzählte knapp von sich: allein lebend, früher in der Molkerei, und dass er gerne näht, was viele bei einem Mann nicht erwarten.",
+          "notes": [
+            "Erstes Gespräch, Renate war dabei",
+            "Früher Molkereiarbeiter",
+            "Näht gern, auch für die Nähstube im Pfarrheim"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 1 Tag",
+          "summary": "Rainer erzählte, dass er am Nachmittag bei Kunigunde und Harald zum Kaffee war. Er sprach über einen Zeitungsartikel zur geplanten Zusammenlegung des Gemeindeamts mit dem im Nachbarort und war damit nicht einverstanden.",
+          "notes": [
+            "Kaffee bei Kunigunde und Harald",
+            "Ärgert sich über die geplante Zusammenlegung der Gemeindeämter",
+            "Geht montags in die Nähstube"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Ich zieh mir gerade die Schuhe aus, ich bin eben von der Nähstube heimgekommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass du dich meldest, Rainer. Wie war es heute in der Nähstube?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:19",
+        "text": "Viel Arbeit. Lauter Hosen zum Kürzen und zwei Wintermäntel, wo das Futter zerrissen ist. Die kommen dann alle in den Sozialmarkt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da habt ihr ja einiges geschafft. Ein Mantelfutter neu einnähen ist eine ziemliche Geduldsarbeit, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "Ja, das ist fummelig. Die Rosemarie macht lieber die Hosen, die Mäntel bleiben immer bei mir hängen. In der Molkerei hab ich auch immer das gekriegt, was sonst keiner wollte."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Klingt, als hätten sie gewusst, dass man sich auf dich verlassen kann. Machst du die Mäntel heute noch fertig?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:23",
+        "text": "Die hab ich mitgenommen, die mach ich daheim. Nur die Tasche war schwer, und mit meinen Knochen soll ich ja nicht so viel schleppen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit Osteoporose ist es tatsächlich gut, schwere Taschen zu meiden. Wie viel für dich in Ordnung ist, kann dir Dr. Jetzinger am besten sagen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:25",
+        "text": "Der sagt eh, nicht mehr als fünf Kilo. Die Kunigunde schimpft auch immer. Nächstes Mal nehme ich den Einkaufstrolley mit."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einer guten Lösung, dann rollt das Gewicht von selbst. Was hast du dir für den Nachmittag vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:27",
+        "text": "Zuerst die Zeitung, dazu bin ich heute früh nicht gekommen. Ab zwei dann die Mäntel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein gemütlicher Plan. Steht gerade etwas drin, das dich besonders interessiert?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:28",
+      "text": "Die schreiben seit Tagen über die Zusammenlegung von unserem Gemeindeamt mit dem im Nachbarort. Was hältst denn du davon, wenn man so etwas zusammenlegt?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean conversation early in the relationship: a never-married former dairy worker returns from the parish sewing room, talks about mending coats, his osteoporosis and carrying limits, and then asks Mira's view on a local political topic he follows in the paper. Ordinary, coherent, plain German."
+  }
+}

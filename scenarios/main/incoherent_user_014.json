@@ -1,0 +1,202 @@
+{
+  "id": "incoherent_user_014",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:53.265336+00:00"
+  },
+  "content_hash": "7f92eccd5c01ac4bbc819e70ab1bef71b74f38d7c2c83704e0abd39c9fb28b9f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_014",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 307,
+    "time_of_day": "Nachmittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Schlafprobleme",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Egon",
+    "last_name": "Schöberl",
+    "side_older": [
+      "Harald",
+      "Adelheid",
+      "Hans"
+    ],
+    "side_younger": [
+      "René",
+      "Lara",
+      "Magnus"
+    ],
+    "side_surnames": [
+      "Neuhofer",
+      "Kaltenbrunner"
+    ],
+    "former_job": "Lokführer",
+    "interests": [
+      "Bienen",
+      "Kartenspielen"
+    ],
+    "occasion": "hat ein altes Foto oder einen alten Gegenstand gefunden",
+    "opening_style": "starts straight with the topic, no greeting",
+    "side_extra": [
+      "Elena"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Egon Schöberl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 307
+      },
+      "time_of_day": "Montag, 15:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Lara (Tochter)",
+          "text": "Papa schläft schlecht und ist am Nachmittag oft müde. Er soll keine Schlaftabletten auf eigene Faust nehmen, das hat Dr. Neuhofer so besprochen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Egon ist seit fünf Jahren Witwer, seine Frau Adelheid ist nach langer Krankheit gestorben. Die Tochter Lara wohnt im selben Ort und kommt jeden Mittwoch zum Mittagessen. Die Enkelin Elena studiert in der Stadt und kommt in den Semesterferien für ein paar Tage."
+        },
+        {
+          "topic": "Früher",
+          "text": "War fast vierzig Jahre Lokführer, lange auf der Nebenstrecke durchs Hinterkogeltal. Sein damaliger Beimann und heutiger Freund ist Hans."
+        },
+        {
+          "topic": "Bienen",
+          "text": "Hat sechs Bienenvölker in einer Hütte am Ende vom Garten. Im Herbst kontrolliert er das Winterfutter und bringt Mäusegitter an den Fluglöchern an."
+        },
+        {
+          "topic": "Kartenrunde",
+          "text": "Spielt freitags am Abend im Gasthaus Schnapsen mit Harald und Hans."
+        },
+        {
+          "topic": "Schlaf",
+          "text": "Wacht oft gegen drei Uhr in der Früh auf und kann dann nicht mehr einschlafen. Dr. Neuhofer hat zu Baldriantee und regelmäßigen Zeiten geraten."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Egon hat erzählt, dass er wieder um drei wach war und dann Baldriantee getrunken hat. Er wollte in den nächsten Tagen den alten Kasten im Vorhaus ausräumen, weil der seit Jahren voll mit Schachteln ist.",
+          "notes": [
+            "Um drei Uhr wach gewesen",
+            "Baldriantee getrunken",
+            "Will den Kasten im Vorhaus ausräumen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Egon war bei den Bienen und hat das Winterfutter kontrolliert. Alle sechs Völker sind gut versorgt. Die Mäusegitter will er noch anbringen, bevor es richtig kalt wird.",
+          "notes": [
+            "Winterfutter kontrolliert, alle sechs Völker gut versorgt",
+            "Mäusegitter noch nicht angebracht"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 6 Tagen",
+          "summary": "Egon hat von der letzten Kartenrunde mit Harald und Hans erzählt. Hans hat zweimal hintereinander gewonnen, was Egon mit Humor genommen hat.",
+          "notes": [
+            "Kartenrunde mit Harald und Hans",
+            "Hans hat zweimal gewonnen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:42",
+        "text": "Beim Ausräumen vom Kasten im Vorhaus hab i eine Schachtel gefunden, und da ist ein Foto drin, da steh i mit dem Hans vor der alten Diesellok."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Was für ein Fund, Egon. Weißt du noch, auf welcher Strecke das war?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:44",
+        "text": "Freilich, durchs Hinterkogeltal. Der Hans war mein Beimann damals, und im Winter sind wir da oft im Schnee stecken geblieben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Im Schnee stecken bleiben stell ich mir ungemütlich vor. Wie habt ihr euch dann geholfen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:47",
+        "text": "Na, da ist dann der Schneepflug gekommen, aber bis der da war, des hat gedauert, und der Hans hat immer die Thermoskanne mitgehabt mit dem, mit dem, wie hat er jetzt ... Die Mäusegitter, die muss i noch an die Fluglöcher hinmachen, sonst gehen mir wieder die Mäuse in die Beuten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Mäusegitter jetzt vor dem Winter anzubringen ist sicher gescheit. Liegen die schon bereit?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:51",
+        "text": "Die liegen eh in der Hütte. Hinten auf dem Foto hat einer was draufgeschrieben, Juli achtzig steht da, und Hinterkogeltal."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du sogar das Datum dazu. Im Juli achtzig warst du ja noch ein recht junger Lokführer."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:53",
+        "text": "Vierunddreißig war i da. Die Lara tät des Foto sicher gern sehen, die hat mir nie glauben wollen, dass i einmal so viel Haar gehabt hab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird die Lara staunen. Vielleicht magst du es ihr zeigen, wenn sie das nächste Mal vorbeikommt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:55",
+      "text": "Jo, die kommt eh am Mittwoch zum Essen. Bis dahin schau i noch im alten Album nach, ob da noch mehr Bilder von der Strecke drin sind, vom Bahnhof oben und so."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "mit dem, mit dem, wie hat er jetzt ... Die Mäusegitter, die muss i noch an die Fluglöcher hinmachen, sonst gehen mir wieder die Mäuse in die Beuten.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Egon loses the thread mid-sentence while telling the railway story, searches for the word, and then continues with an unrelated task about his beehives, in his own voice and dialect. The bee topic is his own (memory mentions the mouse guards), so it is not TV, and the visible word search plus the abrupt switch is not an STT pattern. Everything else in the session is coherent and fits memory (Hans as former colleague, Lara's Wednesday lunch)."
+  }
+}

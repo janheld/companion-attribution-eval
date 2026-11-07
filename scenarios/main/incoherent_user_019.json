@@ -1,0 +1,186 @@
+{
+  "id": "incoherent_user_019",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:00.041299+00:00"
+  },
+  "content_hash": "ef305dd292568f21b24b58caf5760eb0773a1ecb0f3497852d970b685bda6796",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_019",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 25,
+    "time_of_day": "später Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 8,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Dieter",
+    "last_name": "Erlinger",
+    "side_older": [
+      "Ingeborg",
+      "Meinrad",
+      "Veronika"
+    ],
+    "side_younger": [
+      "Marion",
+      "Tristan",
+      "Theresa"
+    ],
+    "side_surnames": [
+      "Kloibhofer",
+      "Hofstadler"
+    ],
+    "former_job": "Bankangestellter",
+    "interests": [
+      "Gemeindepolitik",
+      "Fotografieren"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Dieter Erlinger",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 25
+      },
+      "time_of_day": "Freitag, 21:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Marion (Tochter)",
+          "text": "Papa übernimmt sich beim Laubrechen gern. Wenn er über den Rücken klagt, darf man ihn ruhig darauf ansprechen, dass der Tristan ihm helfen kann."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, seine Frau Ingeborg ist 2019 gestorben. Tochter Marion wohnt im selben Ort, zehn Minuten zu Fuß entfernt. Enkel Tristan ist 16 und kommt oft nach der Schule vorbei. Schwester Veronika lebt mit ihrem Mann im Nachbarort."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Patenkind Theresa wohnt in der Stadt und schreibt ihm zu jedem Geburtstag und zu Weihnachten eine Karte. Dieter hebt alle Karten in einer Schachtel auf."
+        },
+        {
+          "topic": "Geburtstag",
+          "text": "Wird bald 75. Feiert an einem Samstag in zwei Wochen im Gasthaus Kloibhofer im Ort, in der Stube, die für dreißig Personen reserviert ist."
+        },
+        {
+          "topic": "Interessen",
+          "text": "War 18 Jahre im Gemeinderat, geht heute noch als Zuhörer zu den Sitzungen. Fotografiert viel, vor allem Ortsansichten für die Gemeindechronik. Sein Freund Meinrad war mit ihm im Gemeinderat."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War bis zur Pension Bankangestellter in der Filiale im Ort, zuletzt Filialleiter."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Rückenschmerzen nach Gartenarbeit, vor allem im unteren Rücken. Hausarzt ist Dr. Hofstadler."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Dieter hatte am Vortag das Laub im Garten zusammengerecht und spürte danach den unteren Rücken. Er wollte in der Apotheke nach einer wärmenden Salbe fragen und den Rest des Laubs liegen lassen, bis Tristan Zeit hat.",
+          "notes": [
+            "Rücken nach Laubrechen verspannt",
+            "will in der Apotheke nach Salbe fragen",
+            "Tristan soll beim restlichen Laub helfen"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Dieter hat entschieden, seinen 75. Geburtstag im Gasthaus Kloibhofer zu feiern, und die Stube für dreißig Personen reserviert. Marion hilft ihm mit den Einladungen. Fotografieren will er beim Fest selbst.",
+          "notes": [
+            "Feier im Gasthaus Kloibhofer, Stube für 30 Personen",
+            "Marion hilft bei den Einladungen",
+            "will selbst fotografieren"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:41",
+        "text": "Servus, Mira. Du, i sitz grad über der Gästeliste für meinen Fünfundsiebziger und komm auf keinen grünen Zweig."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus, Dieter. Dann gehen wir sie gemeinsam durch. Wie viele Leute stehen denn schon drauf?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Achtundzwanzig. Die Familie, die Veronika mit ihrem Mann, der Meinrad und die alten Kollegen vom Gemeinderat. Aber beim Kloibhofer in der Stube haben halt nur dreißig Platz."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann bleiben dir noch zwei Plätze. Gibt es noch jemanden, bei dem du unsicher bist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:46",
+        "text": "Die Theresa, mein Patenkind. Die schreibt mir jedes Jahr eine Karte, aber ob die extra aus der Stadt herkommt, des weiß i net. Die Marion meint, i soll sie einfach fragen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein guter Rat von der Marion. Mit der Theresa wärt ihr neunundzwanzig, das geht sich in der Stube gut aus."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:49",
+        "text": "Jo, passt. Und fotografieren tu i selber, des lass i mir net nehmen. Der Tristan soll mir nur die Kamera halten, wenn i selber mit aufs Bild muss."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das passt zu dir. Dann werden die Bilder auch so, wie du sie haben willst."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:52",
+      "text": "Mira, wie viele Leute hab i jetzt eigentlich auf der Liste? Und geht sich des beim Kloibhofer überhaupt aus mit dem Platz?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Mira, wie viele Leute hab i jetzt eigentlich auf der Liste? Und geht sich des beim Kloibhofer überhaupt aus mit dem Platz?",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Dieter repeats the exact question the companion answered three minutes earlier (29 guests, it fits the room for 30), as if the exchange had not happened. It is in his own voice and topic, late in the evening, so it reads as a genuine memory slip rather than TV audio or a recognition error; the rest of the session is consistent."
+  }
+}

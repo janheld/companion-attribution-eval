@@ -4,10 +4,10 @@
   "kind": "attribution",
   "condition": "recovery",
   "version": 3,
-  "status": "draft",
+  "status": "approved",
   "review": {
     "comment": "",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-06T13:25:56.539020+00:00"
   },
   "content_hash": "a57b6df8d8f4c40be2c76b28fe6160fd7de3657965dba86946ad65fa83ab6a8d",
   "generator": {

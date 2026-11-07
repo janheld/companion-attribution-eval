@@ -1,0 +1,172 @@
+{
+  "id": "recovery_008",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:37.091079+00:00"
+  },
+  "content_hash": "7955cc70aca5df0d152e8123666e9a9539f5c110da0af2cb401efbb2f90ffb5d",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_008",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 144,
+    "time_of_day": "Nachmittag",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 6,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": "Das passt jetzt gar nicht zusammen, was du sagst. Fühlst du dich nicht wohl?",
+    "recovery_difficulty": "easy",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Margarete",
+    "last_name": "Rumetshofer",
+    "side_older": [
+      "Stefan",
+      "Jutta",
+      "Joachim"
+    ],
+    "side_younger": [
+      "Konstantin",
+      "Luisa",
+      "Lino"
+    ],
+    "side_surnames": [
+      "Zachhuber",
+      "Kaltenböck"
+    ],
+    "former_job": "Polizistin",
+    "interests": [
+      "Modelleisenbahn",
+      "Katze oder Hund"
+    ],
+    "occasion": "hat Post oder ein Paket bekommen",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Margarete Rumetshofer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 144
+      },
+      "time_of_day": "Freitag, 15:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Luisa (Tochter)",
+          "text": "Mama hat seit zwei Jahren eine Hüftprothese links. Sie soll nicht auf die Leiter steigen und sich beim Bauen an der Eisenbahn nicht zu lange bücken. Mit meinem Bruder Konstantin rede ich derzeit nicht, bitte das Thema nicht von selbst ansprechen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Margarete lebt allein, ihr Mann Stefan ist vor acht Jahren gestorben. Tochter Luisa wohnt im selben Ort und schaut oft vorbei. Sohn Konstantin lebt weiter weg, die beiden Geschwister sind seit einem Streit ums Elternhaus zerstritten. Luisas Sohn Lino geht in die Volksschule."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast vierzig Jahre Polizistin, zuletzt Postenkommandantin im Bezirk. Verfolgt Kriminalfälle in den Nachrichten immer noch mit Interesse."
+        },
+        {
+          "topic": "Modelleisenbahn",
+          "text": "Hat im ehemaligen Kinderzimmer eine große Modelleisenbahn-Anlage. Heuer im Frühjahr hat sie eine Nebenstrecke dazugebaut. Bestellt Teile telefonisch bei einem Fachhändler."
+        },
+        {
+          "topic": "Kater",
+          "text": "Hat einen grauen Kater, der gern in Kartons und auf der Anlage herumklettert."
+        },
+        {
+          "topic": "Gesundheit und Alltag",
+          "text": "Hüftprothese seit zwei Jahren, kommt gut zurecht, Bücken fällt ihr aber schwer. Hausarzt ist Dr. Zachhuber. Am Nachmittag läuft bei ihr oft ein Nachrichtensender nebenbei. Die Nachbarin Frau Kaltenböck nimmt Pakete für sie an."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Margarete hat erzählt, dass der Fachhändler angerufen hat: Die im Oktober bestellte Lok ist verschickt worden. Luisa war mit Lino zu Besuch, Lino durfte an der Anlage die Weichen stellen.",
+          "notes": [
+            "bestellte Lok ist unterwegs",
+            "Luisa und Lino waren zu Besuch",
+            "Lino hat die Weichen gestellt"
+          ]
+        },
+        {
+          "date": "Samstag, vor 6 Tagen",
+          "summary": "Margarete war bei der Kontrolle beim Orthopäden im Krankenhaus in der Bezirksstadt, mit der Hüfte ist alles in Ordnung. Sie hat erwähnt, dass Konstantin angerufen hat, ihr aber das Gespräch über Luisa schwerfällt.",
+          "notes": [
+            "Kontrolle der Hüfte ohne Befund",
+            "Konstantin hat angerufen",
+            "Streit der Kinder belastet sie"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:07",
+        "text": "Jetzt ist die Lok endlich da, auf die i seit Oktober wart. Der Postler hat das Packerl bei der Frau Kaltenböck abgegeben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass sie endlich angekommen ist! Ist sie heil geblieben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:09",
+        "text": "Jo, gut verpackt war sie eh. Nur der Kater ist sofort in den Karton hinein, den krieg i da jetzt nimmer raus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hat er sein Geschenk auch bekommen. Auf welcher Strecke soll die Lok denn fahren?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:11",
+        "text": "Auf der Nebenstrecke, die i heuer im Frühjahr gebaut hab. Vorher muss i halt die Schienen putzen, ohne viel Bücken die Polizei bittet um Hinweise, der Täter flüchtete in einem dunklen Kleinwagen in Richtung Autobahn"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das passt jetzt gar nicht zusammen, was du sagst. Fühlst du dich nicht wohl?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:12",
+      "text": "Geh, des waren die Nachrichten im Fernseher. Mir geht's gut, i putz nur meine Schienen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "die Polizei bittet um Hinweise, der Täter flüchtete in einem dunklen Kleinwagen in Richtung Autobahn",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A news channel running in the background (noted in memory) reads a police appeal in news register (Präteritum 'flüchtete', 'bittet um Hinweise'), merged by STT right after Margarete's sentence about cleaning the tracks. It is obviously a broadcast (easy). She corrects the companion's misreading briefly in her Upper Austrian voice."
+  }
+}

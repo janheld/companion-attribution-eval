@@ -1,0 +1,203 @@
+{
+  "id": "tv_bleed_028",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Das Wetterfragment ist fast gleich wie in tv_bleed_005 und _007 („zäher (Hoch)Nebel“, „acht bis zwölf Grad“). Bitte anders formulieren, z. B. „in der zweiten Tageshälfte frischt der Westwind auf, vereinzelt Regenschauer, die Schneefallgrenze sinkt gegen Abend auf achthundert Meter“, und den Span anpassen.",
+    "reviewed_at": "2026-11-06T15:33:47.303649+00:00"
+  },
+  "content_hash": "5265f9aeebeb2a5e3a29ef27659248e78e4bd77d4cd6e5470943498182bfa26d",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_028",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 278,
+    "time_of_day": "Vormittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 10,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Inge",
+    "last_name": "Wiesinger",
+    "side_older": [
+      "Siegfried",
+      "Zenta",
+      "Theobald"
+    ],
+    "side_younger": [
+      "Daniel",
+      "Jana",
+      "Moritz"
+    ],
+    "side_surnames": [
+      "Rameder",
+      "Koller"
+    ],
+    "former_job": "Busfahrerin",
+    "interests": [
+      "Fischen",
+      "Stockschießen"
+    ],
+    "occasion": "kommt von einem Spaziergang zurück",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Inge Wiesinger",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 278
+      },
+      "time_of_day": "Dienstag, 10:30",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Jana (Tochter)",
+          "text": "Mama nimmt ihre Blutdrucktablette jeden Morgen nach dem Frühstück. Sie mag es nicht, wenn man sie ständig daran erinnert, sie ist da sehr zuverlässig."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Inge war nie verheiratet und hat eine Tochter, Jana. Jana wohnt im Nachbarort und kommt jeden Freitagnachmittag vorbei, meistens mit dem Einkauf. Janas Sohn heißt Moritz."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Inge ist dreißig Jahre lang Linienbus gefahren und kennt die Gegend und viele Leute von damals."
+        },
+        {
+          "topic": "Fischen",
+          "text": "Inge ist im Fischerverein und fischt am Vereinsweiher, oft zusammen mit Theobald. Karpfen und Schleien isst sie gern selbst."
+        },
+        {
+          "topic": "Stockschießen",
+          "text": "Donnerstags am Nachmittag geht sie zum Stockschießen auf die Vereinsbahn. Siegfried ist dort Moar ihrer Mannschaft."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Inge hat Bluthochdruck und nimmt jeden Morgen eine Tablette. Sie misst ab und zu selbst. Ihr Hausarzt ist Dr. Rameder, Kontrolle alle drei Monate."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Ihre Nachbarin Zenta ist eine gute Freundin, die beiden gehen manchmal zusammen spazieren."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Inge hat zu Hause den Blutdruck gemessen, der Wert war etwas höher als sonst. Sie will ihn ein paar Tage aufschreiben und bei der nächsten Kontrolle Dr. Rameder zeigen.",
+          "notes": [
+            "Blutdruck etwas höher gemessen",
+            "schreibt Werte für Dr. Rameder auf"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Jana war zu Besuch und hat Inge zum Schuhgeschäft in der Stadt gefahren, wo sie neue Winterstiefel gekauft hat. Moritz hat am Telefon kurz Hallo gesagt.",
+          "notes": [
+            "neue Winterstiefel gekauft",
+            "Jana kommt jeden Freitag",
+            "Moritz hat kurz angerufen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Inge erzählte vom Stockschießen. Ihre Mannschaft hat knapp verloren, Siegfried war darüber mehr verärgert als sie.",
+          "notes": [
+            "Stockschießen knapp verloren",
+            "Siegfried ist Moar der Mannschaft"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:32",
+        "text": "Stell dir vor, die haben den Weiher vom Fischerverein abgelassen. Da bin i grad vorbeigekommen, da ist bloß noch Schlamm drin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oh, das ist ja ein ungewohnter Anblick. Weißt du, warum sie ihn abgelassen haben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:34",
+        "text": "Der Theobald war draußen mit ein paar anderen, die haben die Karpfen rausgeholt. Der sagt, der Weiher wird ausgebaggert, weil er so verschlammt ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hat das ja einen guten Grund. Und wo kommen die Karpfen hin, bis der Weiher wieder voll ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:36",
+        "text": "Die kommen ins Becken beim Vereinsheim. Mir hat er fei gleich zwei mitgeben wollen, aber was tu i allein mit zwei Karpfen am Vormittag noch zäher Hochnebel, der sich gegen Mittag von Westen her auflöst, Höchstwerte acht bis zwölf Grad"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zwei ganze Karpfen sind für eine Person wirklich viel. Hast du dann gar keinen genommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:39",
+        "text": "Doch, einen hab i genommen, der liegt schon ausgenommen im Kühlschrank. Den mach i morgen, gebacken, mit Erdäpfelsalat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gebackener Karpfen mit Erdäpfelsalat, das klingt gut. Machst du ihn so wie immer?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:42",
+        "text": "Freilich, mit Bröseln und viel Zitrone. Aber jetzt muss i mich erst a bissl hinsetzen, der Weg war doch weiter wie gedacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Setz dich ruhig hin und verschnauf ein bisschen. Wie lang warst du denn unterwegs?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:45",
+      "text": "Gut eine Stunde, bis zum Weiher und außen herum wieder heim. Die neuen Stiefel hab i angehabt, die drücken fei noch a bissl an der Ferse."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "am Vormittag noch zäher Hochnebel, der sich gegen Mittag von Westen her auflöst, Höchstwerte acht bis zwölf Grad",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The kitchen radio is on when Inge comes back from her walk; the mid-morning weather segment is transcribed directly after her own sentence. The fragment is in forecast register and standard German, unlike her Bavarian phrasing, and grammatically detached from 'zwei Karpfen'. The companion responds only to the carp; the final turn about her walk and new boots is clean."
+  }
+}

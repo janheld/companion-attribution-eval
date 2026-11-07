@@ -1,0 +1,170 @@
+{
+  "id": "contact_013",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "In Mira #3 den Satz „Wie viel davon für dich passt, weißt du mit dem Dr. Brunner am besten.“ ersetzen durch „Wie viel davon für dich selbst passt, besprichst du am besten mit Dr. Brunner.“",
+    "reviewed_at": "2026-11-06T15:25:24.445522+00:00"
+  },
+  "content_hash": "51b68d7b859772a7373132e5d68f6404fdfd713f0e019a45e2349ae192315d88",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_013",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 339,
+    "time_of_day": "früher Morgen",
+    "weekday": "Samstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "invitation",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 6,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Ursel",
+    "last_name": "Hochedlinger",
+    "side_older": [
+      "Karin",
+      "Detlef",
+      "Wiltraud"
+    ],
+    "side_younger": [
+      "Selina",
+      "Luca",
+      "Natalie"
+    ],
+    "side_surnames": [
+      "Brunner",
+      "Nöbauer"
+    ],
+    "former_job": "Landwirtin",
+    "interests": [
+      "Theaterverein",
+      "Schach"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "starts with a question to Mira",
+    "side_extra": [
+      "Heribert"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Ursel Hochedlinger",
+      "address_form": "du",
+      "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 339
+      },
+      "time_of_day": "Samstag, 06:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Natalie (Tochter)",
+          "text": "Mama plant gern alles auf einmal. Wenn sie von Feiern erzählt, hilft es ihr, gemeinsam eine Liste durchzugehen. Sie hat Diabetes, bitte keine zuckerlastigen Rezepte vorschlagen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Ursel lebt mit ihrem Mann Heribert auf dem früheren Hof, den die beiden bis zur Pension bewirtschaftet haben. Ihr Mann sitzt im Gemeinderat und ist viel außer Haus. Tochter Natalie wohnt in der Bezirksstadt und hat zwei Kinder, Selina (14) und Luca (11)."
+        },
+        {
+          "topic": "Bruder",
+          "text": "Ihr älterer Bruder Detlef lebt seit zwei Jahren im Pflegeheim im Nachbarort. Seine Frau Wiltraud besucht ihn fast täglich. Ursel fährt meistens am Mittwochnachmittag hin. Detlef hat ebenfalls Diabetes."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2 seit etwa acht Jahren, mit Tabletten eingestellt. Achtet aufs Essen, wenig Zucker und Weißmehl. Hausarzt ist Dr. Brunner."
+        },
+        {
+          "topic": "Theaterverein",
+          "text": "Seit über zwanzig Jahren im Theaterverein des Ortes, früher in Nebenrollen, inzwischen meist als Souffleuse. Ihre Freundin Karin ist auch im Verein. Geprobt wird im Frühjahr, gespielt im Mai."
+        },
+        {
+          "topic": "Schach",
+          "text": "Spielt jeden Montagabend Schach mit dem Herrn Nöbauer, einem pensionierten Lehrer aus dem Ort, und zählt die Siege genau mit."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Ursel erzählte vom Besuch bei ihrem Bruder Detlef am Mittwoch. Die Heimleitung hat für seinen 85. Geburtstag das Stüberl im Erdgeschoß zugesagt, am Samstag nächster Woche von 14 bis 17 Uhr. Ursel will die Feier organisieren, Wiltraud kümmert sich um Blumen.",
+          "notes": [
+            "Detlef wird 85",
+            "Feier im Stüberl des Pflegeheims, Samstag nächster Woche, 14 bis 17 Uhr",
+            "Wiltraud besorgt die Blumen",
+            "Ursel will einen Kuchen selbst backen"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Ursel spielte am Abend Schach mit dem Herrn Nöbauer und gewann knapp im Endspiel. Sie erzählte, dass der Theaterverein für das Frühjahr ein Lustspiel ausgesucht hat und sie wieder soufflieren wird.",
+          "notes": [
+            "Knapper Sieg gegen den Herrn Nöbauer",
+            "Theaterverein spielt im Frühjahr ein Lustspiel",
+            "Ursel souffliert wieder"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Sag, Mira, was tät man denn für einen Kuchen machen, wenn die halbe Gesellschaft auf den Zucker aufpassen muss? Der Detlef darf ja auch net so viel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da passt ein Obstkuchen gut, Äpfel bringen selber schon Süße mit, oder ein Topfenkuchen mit wenig Zucker. Ist der für die Feier vom Detlef nächsten Samstag?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:14",
+        "text": "Jo, genau für den. Fünfundachtzig wird er, des gehört schon gefeiert. Wenn alle kommen, sind wir zwölf, die Wiltraud, die Natalie mit der Selina und dem Luca und a paar vom Theaterverein, weil der Detlef war ja früher auch dabei."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Für zwölf reicht ein Apfelkuchen vom Blech gut. Mit halb so viel Zucker im Teig und etwas Zimt schmeckt er trotzdem rund. Wie viel davon für dich passt, weißt du mit dem Dr. Brunner am besten."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:18",
+        "text": "Des mit dem Zimt is a guter Gedanke, des schreib i mir gleich auf. Die Natalie bringt Brötchen mit, und Servietten hab i eh noch vom Theaterfest."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du schon einiges beisammen: Kuchen, Brötchen, Servietten. Fehlen noch die Getränke auf deiner Liste?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:21",
+      "text": "Wart, grad kommt a Nachricht von der Karin. Ob i heut um halb acht zu ihr frühstücken komm, sie hat frisches Brot gebacken. Eigentlich wollt i die Liste noch fertig machen, aber fein wär's halt schon."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "invitation",
+    "unavailable_action_request": false,
+    "rationale": "A retired farmer plans her brother's 85th birthday in the care home early on a Saturday, with practical questions about a low-sugar cake. The final turn brings a short-notice breakfast invitation from a friend while the planning list is still unfinished, so the companion can either encourage her to go or keep working on the list."
+  }
+}

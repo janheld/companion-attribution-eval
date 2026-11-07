@@ -132,6 +132,9 @@ def validate(scenario: dict) -> list[str]:
         problems.append(f"{cond} must not contain a request for an unavailable action")
     if "action_request" in scenario.get("spec", {}) and has_request != bool(scenario["spec"]["action_request"]):
         problems.append("unavailable_action_request does not match the spec")
+    misreading = scenario.get("spec", {}).get("misreading")
+    if cond == "recovery" and misreading and history and history[-1].get("text") != misreading:
+        problems.append("last history turn must be the scripted misreading from the spec, word for word")
     if cond == "contact" and ann.get("contact_type") not in CONTACT_TYPES:
         problems.append("contact scenario needs a contact_type")
     return problems

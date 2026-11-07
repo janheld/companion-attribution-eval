@@ -1,0 +1,187 @@
+{
+  "id": "tv_bleed_004",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:58.755071+00:00"
+  },
+  "content_hash": "2909aab14fc614b95d9503229d048d63c7609205e2536b8c2ed00d842a7bef6b",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_004",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 361,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "other_person",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 8,
+    "health": "Schlafprobleme",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Lambert",
+    "last_name": "Wakolbinger",
+    "side_older": [
+      "Ewald",
+      "Henriette",
+      "Hansjörg"
+    ],
+    "side_younger": [
+      "René",
+      "Ines",
+      "Thorsten"
+    ],
+    "side_surnames": [
+      "Eidenberger",
+      "Ferihumer"
+    ],
+    "former_job": "Buchhalter",
+    "interests": [
+      "Kreuzworträtsel",
+      "Wandern"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Lambert Wakolbinger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 361
+      },
+      "time_of_day": "Samstag, 22:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lambert ist seit 1998 von Henriette geschieden. Die Söhne René und Thorsten wohnen weiter weg; Thorsten kommt alle paar Wochen übers Wochenende."
+        },
+        {
+          "topic": "Bruder Ewald",
+          "text": "Sein älterer Bruder Ewald lebt seit zwei Jahren im Pflegeheim in der Bezirksstadt. Lambert besucht ihn jeden Samstagnachmittag."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Früher sind Lambert und Ewald viele Bergtouren zusammen gegangen. Heute geht Lambert lange Spaziergänge in der Umgebung."
+        },
+        {
+          "topic": "Kreuzworträtsel",
+          "text": "Er löst jeden Tag Kreuzworträtsel, am liebsten das große Rätsel in der Wochenendzeitung."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Lambert war Buchhalter in einem Holzverarbeitungsbetrieb."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schlafprobleme, er liegt oft bis Mitternacht wach oder wacht gegen drei auf. Hausarzt Dr. Ferihumer hat zu festen Schlafenszeiten geraten; Schlaftabletten will Lambert nicht."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Thorsten hat angerufen und kommt am Samstagabend für eine Nacht, er fährt am Sonntag in der Früh wieder. Lambert hat das Gästebett überzogen.",
+          "notes": [
+            "Thorsten übernachtet von Samstag auf Sonntag",
+            "Gästebett ist vorbereitet"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Lambert hat über seine Nächte gesprochen: er wacht oft gegen drei auf und kann dann nicht mehr einschlafen. Er hat nebenbei an einem Kreuzworträtsel gerätselt, ein Begriff für einen Gebirgspass fehlte ihm.",
+          "notes": [
+            "Wacht oft gegen drei auf",
+            "Rätselt jeden Tag"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 6 Tagen",
+          "summary": "Lambert erwähnte, dass sich bald zum fünfzigsten Mal die erste große Bergtour mit Ewald jährt. Er wollte ein altes Foto davon zum Besuch im Pflegeheim mitnehmen.",
+          "notes": [
+            "Fünfzig Jahre seit der ersten großen Tour mit Ewald",
+            "Will das alte Foto mitnehmen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:12",
+        "text": "Abend, Mira. Heute vor genau fünfzig Jahren sind der Ewald und ich zum ersten Mal die große Runde über den Kamm gegangen. Daran denke ich schon den ganzen Tag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fünfzig Jahre, das ist ein besonderer Tag. Wie alt wart ihr zwei damals?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:14",
+        "text": "Ich war dreiundzwanzig, er siebenundzwanzig. Um vier Uhr früh sind wir los, mit Brot und Speck und viel zu wenig Wasser."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Um vier Uhr früh, das klingt nach einem langen Tag. Hat das Wasser dann gereicht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:17",
+        "text": "Nein. Bei der Quelle unter dem Sattel haben wir getrunken wie die Kühe. Der Ewald hat das später jedes Jahr erzählt, jedes Mal ein bisschen dramatischer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Solche Geschichten werden mit jedem Erzählen besser. Hast du ihm heute das alte Foto mitgebracht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:20",
+        "text": "Hab ich. Ich war am Nachmittag bei ihm im Heim, und er hat gleich gewusst, welcher Tag ist, noch bevor ich das Foto ausgepackt hab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass ihr den Tag zusammen hattet. Das Foto hat ihn sicher gefreut."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:24",
+      "text": "Hat es. Und jetzt liege ich natürlich wieder wach, wie so oft Papa, ich hab im Bad das Licht angelassen, den Schlüssel leg ich dir morgen früh unter die Matte"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Papa, ich hab im Bad das Licht angelassen, den Schlüssel leg ich dir morgen früh unter die Matte",
+        "type": "other_person"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user's son, staying overnight as noted in memory, calls out from the hallway while the device is listening. The fragment addresses the user as 'Papa' and speaks of leaving tomorrow morning, a different speaker's perspective that STT merges into the user's remark about lying awake. The user's own part is coherent."
+  }
+}

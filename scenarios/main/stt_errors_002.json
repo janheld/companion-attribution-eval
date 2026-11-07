@@ -1,0 +1,191 @@
+{
+  "id": "stt_errors_002",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:04.198543+00:00"
+  },
+  "content_hash": "d6ee1118ff16d65ff0cbd920acd8ba58cc4444f36f68c0777c548e194f16e432",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_002",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 26,
+    "time_of_day": "früher Morgen",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 10,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Notburga",
+    "last_name": "Eigner",
+    "side_older": [
+      "Wendelin",
+      "Agnes",
+      "Rupert"
+    ],
+    "side_younger": [
+      "Christoph",
+      "Andrea",
+      "Mathias"
+    ],
+    "side_surnames": [
+      "Gschwendtner",
+      "Neuhofer"
+    ],
+    "former_job": "Volksschullehrerin",
+    "interests": [
+      "Wandern",
+      "Kochen und Backen"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Notburga Eigner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 26
+      },
+      "time_of_day": "Samstag, 06:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Andrea (Nichte)",
+          "text": "Meiner Tante wird seit ein paar Wochen beim Aufstehen schwindlig. Ein Termin bei Dr. Neuhofer ist für nächste Woche ausgemacht."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen",
+          "text": "Notburga lebt allein in einer Wohnung im ersten Stock, seit über zwanzig Jahren geschieden. Sie steht gern sehr früh auf."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fünfunddreißig Jahre Volksschullehrerin. Trifft sich einmal im Monat mit ehemaligen Kolleginnen und Kollegen zum Wandern, die Organisation übernimmt meistens sie."
+        },
+        {
+          "topic": "Wanderrunde",
+          "text": "Zur Runde gehören unter anderem ihre Freundin Agnes und Rupert, der als Einziger noch ein großes Auto hat und gern die anderen mitnimmt."
+        },
+        {
+          "topic": "Kochen und Backen",
+          "text": "Kocht und bäckt viel, bringt zu jeder Wanderung etwas Selbstgebackenes mit. Ihr Nusskuchen ist in der Runde bekannt."
+        },
+        {
+          "topic": "Familie und Gesundheit",
+          "text": "Ihre Nichte Andrea kümmert sich um Behördensachen wie Pension und Anträge. Notburga hat Schwindel beim Aufstehen; Hausarzt ist Dr. Neuhofer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Notburga plante die Herbstwanderung ihrer Lehrerrunde für Samstag nächster Woche. Sie überlegte, ob man in der Ochsenstieglhütte einkehren oder lieber eine Jause mitnehmen soll.",
+          "notes": [
+            "Herbstwanderung am Samstag nächster Woche",
+            "Einkehr in der Ochsenstieglhütte noch offen",
+            "Agnes hilft beim Herumtelefonieren"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 6 Tagen",
+          "summary": "Notburga erzählte, dass ihr beim Aufstehen kurz schwindlig geworden ist und sie sich am Kasten festhalten musste. Danach ging es wieder.",
+          "notes": [
+            "Schwindel beim Aufstehen, kurz",
+            "Nichte Andrea hat einen Arzttermin vereinbart"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:37",
+        "text": "Das mit der Einkehr, von dem wir geredet haben, hab ich mir noch einmal überlegt. Ich glaub, ich reservier doch in der Ochsenstieglhütte, für zwölf Leute."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zwölf Leute, das ist eine schöne Runde, Notburga. Dann habt ihr oben sicher einen warmen Platz zum Essen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:39",
+        "text": "Ja, die Agnes hat gestern noch zwei Kolleginnen dazugeholt. Die gehen aber nicht so weit, die wollen nur bis zur Hütte und wieder runter."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das passt doch gut, wenn die Hütte sowieso das Ziel ist. Dann kann jeder so weit gehen, wie er mag."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:41",
+        "text": "Genau. Und der Rupert hat gesagt, er fährt die, die nicht mehr so gut zu Fuß sind, mit dem Auto bis zum oberen Parkplatz, aber nur wenn der Forstweg bis"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist nett vom Rupert, dann kommen alle gut hinauf. Wie viele würden denn bei ihm mitfahren?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:44",
+        "text": "Drei, glaub ich, mehr passen eh nicht hinein. Ich back für unterwegs einen Nusskuchen, der hält sich gut im Rucksack."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Nusskuchen ist ideal zum Wandern, der wird nicht so schnell trocken. Backst du ihn am Tag vorher?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:46",
+        "text": "Am Freitag, ja. Heute in der Früh ist mir beim Aufstehen übrigens wieder ein bisschen schwindlig geworden, ich hab mich gleich noch einmal aufs Bett setzen müssen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du dich gleich hingesetzt hast. Langsam aufstehen und kurz am Bettrand sitzen bleiben hilft oft. Wie das genau einzuordnen ist, kann Dr. Neuhofer am besten beurteilen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:49",
+      "text": "Bei dem bin ich eh nächste Woche. Was meinst du, soll ich das Essen in der Hütte gleich vorbestellen, oder reicht es, wenn sich jeder oben was aussucht?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "aber nur wenn der Forstweg bis",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The recognizer ends the utterance mid-sentence ('aber nur wenn der Forstweg bis'), as happens when endpoint detection treats a short pause as the end of speech. The condition about the forest road is lost; the companion responds only to the clear part (Rupert driving people up), and the final turn is clean."
+  }
+}

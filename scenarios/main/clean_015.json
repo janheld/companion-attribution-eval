@@ -1,0 +1,179 @@
+{
+  "id": "clean_015",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.584346+00:00"
+  },
+  "content_hash": "7366266372b946f9c7a557ba29180369ec5254f5c86d400e1c8eca54048bc14f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "male",
+    "first_name": "Georg",
+    "last_name": "Lindinger",
+    "side_older": [
+      "Ingeborg",
+      "Ignaz",
+      "Minna"
+    ],
+    "side_younger": [
+      "Lena",
+      "Thomas",
+      "Hannah"
+    ],
+    "side_surnames": [
+      "Riegler",
+      "Furtmüller"
+    ],
+    "side_extra": [
+      "Christoph"
+    ],
+    "id": "clean_015",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 270,
+    "time_of_day": "früher Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 8,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Bäcker",
+    "interests": [
+      "Kreuzworträtsel",
+      "Mundartgedichte"
+    ],
+    "occasion": "hat Langeweile, es regnet",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Georg Lindinger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 270
+      },
+      "time_of_day": "Sonntag, 17:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Thomas Lindinger (Sohn)",
+          "text": "Papa ist im Februar auf dem Eis gestürzt, die linke Schulter ist noch nicht ganz beweglich. Bei Nässe und Glätte geht er besser nicht allein weite Wege."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Georg ist seit sechs Jahren verwitwet, seine Frau Ingeborg ist an einem Herzleiden gestorben. Er hat zwei Söhne, Thomas und Christoph. Thomas lebt seit vielen Jahren im Ausland und ruft meistens am Freitagabend an; seine Tochter Hannah ist sieben."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Georg war Bäckermeister und hatte die Bäckerei im Ort fast vierzig Jahre. Er stand jeden Tag um zwei Uhr in der Backstube. Die Bäckerei hat ein junger Bäcker übernommen, Georg kauft dort noch gern ein."
+        },
+        {
+          "topic": "Mundartgedichte",
+          "text": "Georg schreibt seit der Pension Gedichte in Mundart, meist über das Dorfleben und die Arbeit von früher. Beim Seniorennachmittag der Pfarre trägt er regelmäßig etwas vor."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Jeden Sonntag löst er das große Kreuzworträtsel aus der Wochenendzeitung. Mit seinem Freund Ignaz geht er gern auf ein Achtel ins Wirtshaus. Die Nachbarin Minna schaut ab und zu vorbei."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Linke Schulter nach einem Sturz im Februar noch eingeschränkt, Physiotherapie einmal pro Woche. Hausarzt ist Dr. Riegler."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Georg erzählte, dass Thomas am Abend angerufen hat. Hannah hat in der Schule ein Gedicht vorgetragen und dafür viel Lob bekommen. Georg war stolz und meinte, das habe sie von ihm.",
+          "notes": [
+            "Thomas ruft meist freitags am Abend an",
+            "Hannah hat in der Schule ein Gedicht vorgetragen",
+            "Georg freut sich über die Gemeinsamkeit mit der Enkelin"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Georg kam von der Physiotherapie. Die Schulter lässt sich etwas weiter heben als im Sommer, Überkopfbewegungen sind aber noch mühsam. Er soll die Übungen mit dem Theraband zu Hause weitermachen.",
+          "notes": [
+            "Schulter etwas beweglicher",
+            "Übungen mit Theraband zu Hause",
+            "Physiotherapie einmal pro Woche"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:22",
+        "text": "Seit dem Frühstück regnet es durch, und ich hab den ganzen Tag noch nichts Gescheites angefangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Klingt nach einem richtig grauen Sonntag, Georg. Was hast du denn bis jetzt so gemacht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:24",
+        "text": "Das Rätsel aus der Zeitung, das war um elf fertig. Dann ein bisschen Radio, ein bisschen aus dem Fenster geschaut. Zum Ignaz wollte ich eigentlich, aber bei dem nassen Pflaster und mit der Schulter lass ich das lieber."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist vernünftig, bei nassem Boden lieber kein Risiko. Der Ignaz läuft dir ja nicht davon."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:27",
+        "text": "Nein, der sitzt bei dem Wetter auch daheim. Ich hab mir gedacht, vielleicht schreib ich was Neues für den Seniorennachmittag im Dezember. Die wollen wieder, dass ich was vortrage."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Beschäftigung für so einen Regentag. Hast du schon ein Thema im Kopf?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:31",
+        "text": "Den Regen halt, was sonst. Wie es früher in der Backstube war, wenn draußen alles grau war und drinnen der Ofen gebrummt hat. Die ersten zwei Zeilen hab ich schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Draußen nass und drinnen der warme Ofen, das ist ein schönes Bild. Magst du mir die zwei Zeilen vorlesen?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:33",
+      "text": "Wenn's draußen schüttet wie aus Kübeln, steht der Bäck schon längst beim Trog. Und jetzt häng ich. Was reimt sich denn auf Kübeln, außer grübeln?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean rainy Sunday evening of a widowed former baker who is bored, skips visiting his friend because of the wet pavement and his shoulder, and turns to writing a dialect poem. Typical: a sigh about the day, small practical caution, and a concrete creative request the companion can actually help with."
+  }
+}

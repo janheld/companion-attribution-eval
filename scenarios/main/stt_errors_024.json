@@ -1,0 +1,161 @@
+{
+  "id": "stt_errors_024",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:36.729845+00:00"
+  },
+  "content_hash": "d7a1e2c37dd9e08032f05d7a8edf2507ce6c3280bc2f035f21de67ce05ac3b6e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_024",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 67,
+    "time_of_day": "Vormittag",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Asthma, Spray",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Otto",
+    "last_name": "Pfaffinger",
+    "side_older": [
+      "Gottlieb",
+      "Walburga",
+      "Leo"
+    ],
+    "side_younger": [
+      "Sebastian",
+      "Lena",
+      "Robin"
+    ],
+    "side_surnames": [
+      "Nöbauer",
+      "Eidenberger"
+    ],
+    "former_job": "Buchhalter",
+    "interests": [
+      "Schrebergarten",
+      "Häkeln und Sticken"
+    ],
+    "occasion": "hat Langeweile, es regnet",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Otto Pfaffinger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 67
+      },
+      "time_of_day": "Samstag, 10:00",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Otto ist 76, seit drei Jahren verwitwet. Seine Frau Walburga hat ihm das Häkeln und Sticken beigebracht, und er macht das bis heute gern, vor allem Topflappen und Tischsets. Er war Buchhalter in einer Spedition."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sein Sohn Sebastian lebt in der Stadt und ruft selten an, meist nur zu Feiertagen. Die Enkel Lena und Robin sieht Otto ein paarmal im Jahr."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Otto hat eine Parzelle in einer Kleingartenanlage am Stadtrand mit Gemüsebeeten und einer kleinen Hütte. Sein Gartennachbar Gottlieb hilft ihm bei schweren Arbeiten."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Asthma, er hat ein Spray für den Notfall und eines für jeden Tag. Hausarzt ist Dr. Nöbauer. Bei kaltem Nebel bleibt Otto lieber drinnen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Otto erzählte, dass er mit Gottlieb im Garten das letzte Laub zusammengerecht hat. Die Gartenhütte wollen die beiden am Wochenende winterfest machen.",
+          "notes": [
+            "Laub im Schrebergarten zusammengerecht",
+            "Gartenhütte am Wochenende winterfest machen, mit Gottlieb"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Otto hat ein neues Muster für ein Tischset mit Kreuzstich angefangen, nach einer Vorlage aus Walburgas alter Mappe. Er sprach dabei ein wenig über sie.",
+          "notes": [
+            "Tischset im Kreuzstich nach Walburgas Vorlage",
+            "denkt beim Sticken oft an Walburga"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:02",
+        "text": "I sitz grad beim Küchentisch und häkel an einem Topflappen, weil draußen schüttet's eh schon seit der Früh."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei dem Wetter ist Häkeln eine gute Wahl, Otto. Welche Farben hat denn der Topflappen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:04",
+        "text": "Blau und weiß, so wie die alten von der Walburga. Gottlob hat gestern noch gesagt, wir machen heut die Hütte winterfest, aber des wird nix."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Hütte läuft dir ja nicht davon. Bei so einem Regen ist es drinnen sicher gemütlicher."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:06",
+        "text": "Eh. Aber den ganzen Vormittag nur häkeln, des wird mir auch zu fad."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du könntest dir die Gartenpläne fürs nächste Jahr aufschreiben. Was hättest du denn gern anders im Garten?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:08",
+      "text": "Mehr Paradeiser auf jeden Fall, aber die unter einem Dach, weil heuer hat's die alle mit der Braunfäule erwischt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Gottlob",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The garden neighbor Gottlieb, with whom Otto planned to winterproof the shed this weekend, is transcribed as the interjection 'Gottlob'. The two words share almost all sounds and STT favors the dictionary word. The sentence then reads oddly ('Thank God said yesterday'), but memory makes clear who is meant, and the companion answers the plausible part about the shed."
+  }
+}

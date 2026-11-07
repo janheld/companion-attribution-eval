@@ -1,0 +1,206 @@
+{
+  "id": "incoherent_user_004",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T13:44:41.947278+00:00"
+  },
+  "content_hash": "c1514ee6cb11ad04d7aa0117844b861fc095744dfc6291dbbb0371038b130915",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "57938ba36d8f56c9fa1de1c4b4988e5c0b941d5f5a45bebed4013b9e1d4bf4fc"
+  },
+  "spec": {
+    "id": "incoherent_user_004",
+    "set": "calibration",
+    "condition": "incoherent_user",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 278,
+    "time_of_day": "früher Abend",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Agnes",
+    "last_name": "Plöchl",
+    "side_older": [
+      "Ida",
+      "Gerhard"
+    ],
+    "side_younger": [
+      "Karina",
+      "Matteo"
+    ],
+    "side_surnames": [
+      "Pramhas"
+    ],
+    "former_job": "Installateurin",
+    "interests": [
+      "Schwimmen",
+      "Holzschnitzen"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Agnes Plöchl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 278
+      },
+      "time_of_day": "Donnerstag, 17:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Gerhard Plöchl (Ehemann)",
+          "text": "Agnes soll beim Schnitzen nach einer halben Stunde Pause machen, hat die Physiotherapeutin gesagt. Sie vergisst das gern, wenn sie in der Werkstatt ist."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verheiratet mit Gerhard. Zwei Söhne: der ältere wohnt in der Bezirksstadt und hat eine Tochter, Karina (8). Der jüngere, Matteo, arbeitet seit drei Jahren in Kanada und ruft meistens sonntags an, wegen der Zeitverschiebung am Abend österreichischer Zeit."
+        },
+        {
+          "topic": "Gerhard",
+          "text": "Gerhard ist viel unterwegs: donnerstags Kegeln im Gasthaus im Ort, dort isst er auch zu Abend und kommt meist gegen zehn heim. Außerdem hilft er unter der Woche oft einem Freund beim Holzmachen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Im Februar auf dem vereisten Hof gestürzt, seitdem Probleme mit der linken Schulter. Physiotherapie jeden Freitag um 10 Uhr. Hausarzt ist Dr. Pramhas."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Schwimmt dienstags am Vormittag mit ihrer Freundin Ida im Hallenbad in der Bezirksstadt. Schnitzt seit vielen Jahren Figuren aus Lindenholz in ihrer Werkstatt im Keller, gerade Krippenfiguren für Karina."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Installateurin, hat den Betrieb ihres Vaters weitergeführt und war lange die einzige Frau in ihrer Berufsschulklasse. Erzählt gern von Baustellen von früher."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Agnes war am Vormittag mit Ida schwimmen und ist zum ersten Mal seit dem Sturz zwanzig Längen geschwommen. Sie war stolz darauf und hat erzählt, dass die Schulter danach nur leicht gezogen hat.",
+          "notes": [
+            "Zwanzig Längen geschwommen, neuer Rekord seit dem Sturz",
+            "Ida schafft selbst etwa fünfzehn Längen",
+            "Nächstes Schwimmen wieder Dienstag"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Agnes hat am Abend mit Matteo telefoniert und danach kurz mit Mira gesprochen. Matteo hat viel Arbeit, kommt aber zu Weihnachten vielleicht für eine Woche heim.",
+          "notes": [
+            "Matteo kommt eventuell zu Weihnachten",
+            "Nächster Anruf von Matteo am Sonntag",
+            "Agnes möchte ihm nichts von den Krippenfiguren verraten, die sollen eine Überraschung sein"
+          ]
+        },
+        {
+          "date": "Freitag, vor 6 Tagen",
+          "summary": "Agnes kam von der Physiotherapie und hat erzählt, dass sie den Arm schon fast bis auf Schulterhöhe heben kann. Am Nachmittag hat sie mit dem Kopf eines Hirten für Karinas Krippe angefangen.",
+          "notes": [
+            "Physiotherapeutin rät zu Pausen nach spätestens 30 Minuten",
+            "Hirte für Karinas Krippe begonnen",
+            "Lindenholz hat sie noch vom Vater"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:42",
+        "text": "Servus Mira. So, jetzt hab i endlich a bissl Ruhe, der Gerhard ist grad weg zum Kegeln."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Agnes! Dann hast du den Abend ja ganz für dich. Was hast du vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:43",
+        "text": "I sitz unten in der Werkstatt und schnitz am Hirten weiter. Der für die Krippe von der Karina."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ah, der Hirte für Karinas Krippe! Wie weit bist du denn schon mit ihm?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:45",
+        "text": "Der Kopf ist fertig, jetzt kommt der Mantel mit den Falten. Aber länger wie a halbe Stunde geht des mit der Schulter halt net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Falten sind sicher eine feine Arbeit. Gut, dass du auf die halbe Stunde achtest, so wie es die Physiotherapeutin gesagt hat."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:48",
+        "text": "Jo, morgen um zehn bin i eh wieder bei ihr. Der erzähl i dann von den zwanzig Längen am Dienstag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird sie sich bestimmt freuen. Zwanzig Längen, das war ja eine richtige Steigerung für dich."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:51",
+        "text": "Die Ida hat schon geschaut, gell. Und kochen brauch i heut auch net, der Gerhard isst beim Kegeln und kommt erst um zehn heim."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du wirklich einen ruhigen Abend, nur du und dein Hirte."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:54",
+        "text": "Freilich. Und am Sonntag ruft der Matteo wieder an, aber dem verrat i nix von der Krippe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das bleibt also eine Überraschung. Da wird Matteo an Weihnachten schauen, wenn er die Figuren sieht."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:58",
+      "text": "Jo, hoffentlich kommt er überhaupt. Mira, wo ist denn eigentlich der Gerhard heut, weißt du des? Der sollt doch schon längst daheim sein."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "Mira, wo ist denn eigentlich der Gerhard heut, weißt du des? Der sollt doch schon längst daheim sein.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Agnes herself said twice in this session (17:42 and 17:51) that Gerhard left for bowling and will be home around ten. At 17:58 she asks where he is and expects him to be home long ago. This is a repeated question just answered plus a time mix-up, in her own voice and dialect, with no broadcast register and no phonetic cue that would suggest an STT error. Everything else in the conversation is coherent, so the single spot is clearly attributable to the user."
+  }
+}

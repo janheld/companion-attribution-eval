@@ -1,0 +1,202 @@
+{
+  "id": "incoherent_user_003",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:35.019877+00:00"
+  },
+  "content_hash": "33d5c868ec91bc458cb6509f4274c01b634256910aa8b98c366ee37b139e33df",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_003",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 32,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Schlafprobleme",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Elfriede",
+    "last_name": "Windhager",
+    "side_older": [
+      "Rita",
+      "Edmund",
+      "Philomena"
+    ],
+    "side_younger": [
+      "Sonja",
+      "Julius",
+      "Martina"
+    ],
+    "side_surnames": [
+      "Obermayr",
+      "Strobl"
+    ],
+    "former_job": "Bauzeichnerin",
+    "interests": [
+      "Stockschießen",
+      "Feuerwehr (Ehrenmitglied)"
+    ],
+    "occasion": "hat etwas in Radio oder Zeitung gehört und will darüber reden",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Elfriede Windhager",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 32
+      },
+      "time_of_day": "Samstag, 21:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sonja (Tochter)",
+          "text": "Mama schläft seit Jahren schlecht und liegt abends lange wach. Sie redet dann gern noch, das tut ihr gut."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Elfriede Windhager, 80, nie verheiratet, lebt allein in einer Wohnung im Ortszentrum. Hat bis zur Pension vor gut zwanzig Jahren als Bauzeichnerin in einem Baumeisterbüro im Nachbarort gearbeitet; das Büro gibt es nicht mehr."
+        },
+        {
+          "topic": "Familie",
+          "text": "Zwei Kinder: Sonja und Julius. Julius sitzt im Gemeinderat. Die beiden sind seit einem Streit um ein Baugrundstück, das Elfriede ihnen vermacht hat, zerstritten und reden nur das Nötigste. Sonjas Tochter Martina studiert und schickt ihr oft Fotos."
+        },
+        {
+          "topic": "Feuerwehr",
+          "text": "Ehrenmitglied der Freiwilligen Feuerwehr im Ort. Trat 1973 als erste Frau bei. Hat im Büro an den Plänen für das jetzige Zeughaus mitgezeichnet und ist stolz darauf."
+        },
+        {
+          "topic": "Stockschießen",
+          "text": "Schießt im Winter mit Rita und Edmund in der Stockhalle. Vor einigen Jahren haben sich die zwei Stockschützenvereine im Ort zusammengeschlossen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schlafprobleme, wacht oft gegen drei Uhr auf. Dr. Obermayr hat ihr geraten, abends keinen Kaffee mehr zu trinken."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Elfriede hatte wieder eine unruhige Nacht und war ab drei Uhr wach. Sie hat seit dem Gespräch mit Dr. Obermayr nachmittags auf Kräutertee umgestellt. Der Nachbar Herr Strobl hat ihr am Vormittag die Zeitung von der Post mitgebracht.",
+          "notes": [
+            "Unruhige Nacht, ab drei Uhr wach",
+            "Trinkt nachmittags Kräutertee statt Kaffee",
+            "Herr Strobl bringt ihr manchmal die Zeitung mit"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Elfriede erzählte vom ersten Stocktraining der Saison mit Rita und Edmund in der Halle. Danach haben sie zusammen Gulasch gegessen. Martina hat ihr Fotos von ihrer neuen Wohnung geschickt.",
+          "notes": [
+            "Erstes Stocktraining der Saison",
+            "Mit Rita und Edmund",
+            "Fotos von Martinas neuer Wohnung"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:47",
+        "text": "Hast du schon einmal gehört, dass eine Gemeinde zwei Feuerwehren einfach zusammenlegen kann? Das ist heute in der Zeitung gestanden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kommt schon vor, meistens wenn kleine Wehren zu wenig Leute haben. Was ist denn genau dringestanden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:49",
+        "text": "Dass die Gemeinde überlegt, unsere Wehr mit der vom Nachbarort zusammenzulegen. Ein gemeinsames Zeughaus irgendwo dazwischen an der Landesstraße."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das betrifft dich als Ehrenmitglied ja ganz besonders. Wie lange bist du jetzt schon bei der Wehr?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:52",
+        "text": "Seit dreiundsiebzig. Da war ich die erste Frau, die überhaupt mitmachen durfte. Und das jetzige Zeughaus, das habe ich damals im Büro mitgezeichnet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann steckt in dem Gebäude ja auch ein Stück von deiner Arbeit. Kein Wunder, dass dir die Nachricht nahegeht."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:55",
+        "text": "Ja. Na, ich sollte eh langsam ins Bett, morgen muss ich zeitig im Büro sein, der Chef will die Pläne für den Zubau bis Mittag auf dem Tisch haben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ins Bett zu gehen klingt vernünftig, es ist ja schon spät. Magst du vorher noch ein bisschen über die Sache mit der Feuerwehr reden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:57",
+        "text": "Ein bisschen noch, schlafen kann ich eh nicht gleich. Der Julius sitzt ja im Gemeinderat, der wird da mitstimmen. Und die Sonja schimpft jetzt schon, dass er sich nicht dagegen stellt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da stehen deine zwei ja wieder auf verschiedenen Seiten. Das ist für dich als Mutter sicher nicht leicht."
+      },
+      {
+        "role": "user",
+        "timestamp": "22:00",
+        "text": "Nein. Seit der Sache mit dem Grundstück reden die zwei sowieso nur das Nötigste. Und jetzt kommt noch die Feuerwehr dazu."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine Menge auf einmal. Was ist dir denn selbst bei der Sache am wichtigsten?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:03",
+      "text": "Dass die Jungen weiter dabeibleiben, egal wo das Zeughaus dann steht. Beim Stockschießen war es genauso, zwei Vereine zusammen, am Anfang hat jeder gemault, und heute redet keiner mehr davon."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "morgen muss ich zeitig im Büro sein, der Chef will die Pläne für den Zubau bis Mittag auf dem Tisch haben.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user, retired for over twenty years from an office that no longer exists, says she has to be at the office early tomorrow (a Sunday) because her boss wants the plans for an extension. The slip grows out of her own previous sentence about drawing the fire station plans in the office, is said in her own plain voice, and has no broadcast or recognition traits. Before and after, she talks coherently about the newspaper report, her children and the curling club, all consistent with memory."
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": "contact_009",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:17:04.997550+00:00"
+  },
+  "content_hash": "f4576b732e537860d792084341b3a08df5424fc556b429feb8e4c1b5832ccd37",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_009",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 72,
+    "time_of_day": "Vormittag",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "call",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Gregor",
+    "last_name": "Panholzer",
+    "side_older": [
+      "Dorothea",
+      "Jakob",
+      "Ludmilla"
+    ],
+    "side_younger": [
+      "Petra",
+      "Valentin",
+      "Elisa"
+    ],
+    "side_surnames": [
+      "Niedermayr",
+      "Ganglberger"
+    ],
+    "former_job": "Drogist",
+    "interests": [
+      "Chor",
+      "Vögel beobachten"
+    ],
+    "occasion": "hat ein altes Foto oder einen alten Gegenstand gefunden",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gregor Panholzer",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 72
+      },
+      "time_of_day": "Freitag, 10:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verheiratet mit Dorothea, die viel unterwegs ist: Freitagvormittag hilft sie in der Pfarrbücherei, dazu Turnen und Besuchsdienst. Tochter Petra wohnt im Nachbarort und kommt jeden Samstag mit ihrem Sohn Valentin zum Mittagessen."
+        },
+        {
+          "topic": "Chor",
+          "text": "Singt seit über vierzig Jahren Bass im Männergesangsverein. Probe ist dienstags am Abend. Sein ältester Freund aus dem Chor ist Jakob, der vor zwei Jahren ins betreute Wohnen in die Stadt gezogen ist und früher bei Ausflügen Ziehharmonika gespielt hat."
+        },
+        {
+          "topic": "Vögel",
+          "text": "Beobachtet Vögel am Futterhaus im Garten und notiert sie in einem Heft. Hat ein Fernglas am Küchenfenster liegen. Freut sich über jeden Kleiber und Gimpel."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hatte bis zur Pension eine eigene Drogerie im Ort. Kennt noch viele Leute von früher aus dem Geschäft."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Keine nennenswerten Beschwerden. Geht einmal im Jahr zur Vorsorge zu Dr. Niedermayr."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Gregor erzählte, dass Dorothea den Dachboden ausräumen möchte, bevor im Frühjahr das Dach neu gedeckt wird. Er soll die alten Kisten mit Fotos und Unterlagen aus der Drogerie durchschauen.",
+          "notes": [
+            "Dachboden soll ausgeräumt werden",
+            "Kisten aus der Drogerie zum Durchschauen",
+            "Hat wenig Lust dazu"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 3 Tagen",
+          "summary": "Gregor war nach der Chorprobe gut gelaunt. Der Chor übt Lieder für eine Adventfeier im Pfarrsaal. Er erwähnte, dass Jakob ihm fehlt, weil der früher immer neben ihm stand.",
+          "notes": [
+            "Chor probt für Adventfeier",
+            "Vermisst Jakob in der Probe",
+            "Gute Stimmung nach der Probe"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 5 Tagen",
+          "summary": "Gregor hat am Futterhaus zum ersten Mal in diesem Herbst einen Gimpel gesehen und ihn ins Heft eingetragen. Valentin hat ihm dabei geholfen, das Futterhaus neu zu befestigen.",
+          "notes": [
+            "Erster Gimpel im Herbst",
+            "Futterhaus mit Valentin repariert",
+            "Führt ein Vogelheft"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Jo mei, der halbe Vormittag is schon um, und i sitz immer noch am Dachboden zwischen den Kisten. Die Dorothea will, dass bis Sonntag ausgeräumt is."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem ordentlichen Stück Arbeit, Gregor. Kommst du denn voran, oder bleibst du an jeder Kiste hängen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:14",
+        "text": "Hängen bleiben, freilich. Grad hab i ein Foto gefunden vom Sängerausflug, des muss neunzehnhundertvierundachtzig gewesen sein. Wir stehen alle vorm Bus, und i hab noch Haare."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Was für ein Fund! Wer ist denn noch mit drauf auf dem Foto?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:16",
+        "text": "Der halbe Chor halt. Ganz vorn der Jakob mit der Ziehharmonika, der hat damals die ganze Heimfahrt durchgespielt. Und hinten steht der Herr Ganglberger, des war unser Chorleiter."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der Jakob mit der Ziehharmonika, das passt genau zu dem, wie du ihn beschreibst. Wohin ist der Ausflug denn gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:19",
+        "text": "Zu einem Sängertreffen, drei Tage, drüben über der Grenze. Gewohnt haben wir in einem Gasthof am See, und der Wirt hat am letzten Abend gesagt, so einen Chor hat er noch nie im Haus gehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da habt ihr ja ordentlich Eindruck gemacht. Hast du damals auch schon Bass gesungen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:22",
+        "text": "Jo, immer schon Bass. Der Jakob war Tenor, aber laut war er für zwei. Seit der in der Stadt wohnt, hab i ihn eh kaum mehr gesehen, seit dem Sommer gar nimmer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das Foto würde ihn bestimmt freuen. Vielleicht magst du ihm ja davon erzählen."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:25",
+        "text": "Hab i mir eh gedacht, i ruf ihn am Nachmittag an. Vorher schau i aber noch, ob da mehr is, da steht noch eine Schachtel mit Dias."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dias, schön. Hast du noch einen Projektor dafür, oder hältst du sie einfach gegens Fenster?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:27",
+      "text": "Gegens Licht halt. Ja da schau her, jetzt läutet des Handy, und es steht der Jakob drauf. Wie wenn er's gespürt hätt. Dabei wollt i dir grad noch erzählen, wie wir mit dem Bus im Schnee stecken geblieben sind."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "call",
+    "unavailable_action_request": false,
+    "rationale": "Retired druggist clearing the attic finds an old choir trip photo and reminisces about an old friend he has not seen in months. Just as he wants to tell another story, that very friend calls, so Mira can urge him to pick up or keep listening to the anecdote."
+  }
+}

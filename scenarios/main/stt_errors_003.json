@@ -1,0 +1,172 @@
+{
+  "id": "stt_errors_003",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:04.214703+00:00"
+  },
+  "content_hash": "12a5edaf6da811ceee90b8b28df869a365be87205bccb56a29c13e2af95737e7",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_003",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 354,
+    "time_of_day": "früher Morgen",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Zita",
+    "last_name": "Rabeder",
+    "side_older": [
+      "Elisa",
+      "Peter",
+      "Amalie"
+    ],
+    "side_younger": [
+      "Claudia",
+      "Finn",
+      "Svenja"
+    ],
+    "side_surnames": [
+      "Birngruber",
+      "Sedlmeier"
+    ],
+    "former_job": "Mesnerin",
+    "interests": [
+      "Nähen",
+      "Briefmarken"
+    ],
+    "occasion": "gerade aufgestanden, beim Frühstück, plant den Tag",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Zita Rabeder",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 354
+      },
+      "time_of_day": "Donnerstag, 06:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen",
+          "text": "Zita lebt allein in einem kleinen Haus neben der Pfarrkirche, seit Jahrzehnten geschieden. Sie frühstückt immer sehr früh."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast dreißig Jahre Mesnerin in der Pfarre. Hilft heute noch gelegentlich beim Blumenschmuck in der Kirche."
+        },
+        {
+          "topic": "Nähen",
+          "text": "Näht viel, vor allem Schürzen, Tischläufer und Taschen. Verkauft einen Teil davon jedes Jahr beim Adventmarkt der Pfarre."
+        },
+        {
+          "topic": "Briefmarken",
+          "text": "Sammelt seit ihrer Jugend Briefmarken, besonders aus Skandinavien. Ihre Freundin Amalie sammelt auch, die beiden tauschen regelmäßig."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihr Patenkind Claudia reist viel und schreibt ihr von überall Karten, oft mit besonderen Marken. Brot holt Zita beim Bäcker Sedlmeier im Ort."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Zita hat den Stoff für eine neue Schürze zugeschnitten, blau mit kleinen weißen Blumen. Sie will bis zum Adventmarkt mehrere Schürzen fertig haben.",
+          "notes": [
+            "Neue Schürze zugeschnitten",
+            "Ziel: einige Schürzen für den Adventmarkt"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Zita war bei Amalie zum Kaffee. Die beiden haben Marken getauscht, Zita hat zwei finnische Marken bekommen.",
+          "notes": [
+            "Tausch mit Amalie",
+            "Zwei neue finnische Marken"
+          ]
+        },
+        {
+          "date": "Freitag, vor 6 Tagen",
+          "summary": "Zita hat in der Kirche beim Blumenschmuck für Allerheiligen geholfen und war danach müde, aber zufrieden.",
+          "notes": [
+            "Blumenschmuck in der Kirche gemacht"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:21",
+        "text": "Stell dir vor, die Claudia hat schon wieder geschrieben, diesmal aus Norwegen. Die Karte war gestern im Postkastl, i hab sie aber erst jetzt beim Kaffee gelesen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass die Claudia an dich denkt, Zita. Was schreibt sie denn aus Norwegen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:23",
+        "text": "Dass sie mit dem Schiff die Küste hinauf fährt und dass es schon recht kalt ist. Und auf der Marke ist ein Elch drauf, so eine hab i noch net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat sie dir gleich doppelt eine Freude gemacht. Der Elch passt bestimmt gut zu deinen skandinavischen Marken."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:25",
+        "text": "Freilich, die kommt am Nachmittag ins Album. Zuerst näh i aber noch am neuen für da weiter, des soll bis zum Adventmarkt fertig sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du dir für heute schon einiges vorgenommen. In der Früh die Näharbeit und am Nachmittag die Marken, das ist ein guter Plan."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:28",
+      "text": "Jo, und zwischendurch muss i noch zum Sedlmeier ums Brot. Was meinst du, was könnt i der Claudia zurückschreiben, wo sie doch eh dauernd woanders ist?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "am neuen für da weiter",
+        "type": "stt_dialect"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Zita says the Upper Austrian dialect word 'Fürta' (apron, Fürtuch). The recognizer has no such word and maps it to the standard words 'für da', which leaves the sentence without an object. Memory (apron cut out two days ago, aprons for the Advent market) makes the intended meaning recoverable."
+  }
+}

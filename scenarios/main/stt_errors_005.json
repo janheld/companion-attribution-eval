@@ -1,0 +1,165 @@
+{
+  "id": "stt_errors_005",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:11.310704+00:00"
+  },
+  "content_hash": "562bea1faa4f21009344979cd8440ce8fbe0552c3375433b6a672d32a3ea32ef",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_005",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 295,
+    "time_of_day": "Vormittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Klaus-Dieter",
+    "last_name": "Hörschläger",
+    "side_older": [
+      "Gundula",
+      "Volker",
+      "Senta"
+    ],
+    "side_younger": [
+      "Laura",
+      "Lino",
+      "Gabi"
+    ],
+    "side_surnames": [
+      "Auer",
+      "Wimmer"
+    ],
+    "former_job": "Vertreter für Landmaschinen",
+    "interests": [
+      "Puzzeln",
+      "Schwimmen"
+    ],
+    "occasion": "kocht gerade",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Klaus-Dieter Hörschläger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 295
+      },
+      "time_of_day": "Dienstag, 10:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen",
+          "text": "Klaus-Dieter lebt allein in einer Wohnung, war nie verheiratet und hat keine Kinder. Er kocht gern und meistens zu Mittag."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War dreißig Jahre Vertreter für Landmaschinen und ist damals viel herumgekommen. Erzählt gern von Bauern, die er kannte."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sehr enger Kontakt zu seiner älteren Schwester Gundula, die im Nachbarort wohnt. Er besucht sie fast jeden Mittwoch und bringt oft etwas Gekochtes mit. Gundulas Tochter Laura schaut regelmäßig nach ihrer Mutter."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Geht am Montag und Donnerstag in der Früh mit seinem Bekannten Volker ins Hallenbad schwimmen. Macht abends große Puzzles, gerade eines mit tausendfünfhundert Teilen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat Bluthochdruck und nimmt morgens Tabletten. Hausarzt ist Dr. Auer, der ihm geraten hat, beim Salz sparsam zu sein."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Klaus-Dieter hat den ganzen Nachmittag am Puzzle gearbeitet und den Himmel fast fertig. Er hat überlegt, was er unter der Woche kochen könnte.",
+          "notes": [
+            "Puzzle: Himmel fast fertig",
+            "Will diese Woche Krautfleckerl kochen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Klaus-Dieter war mit Volker schwimmen und hat danach erzählt, dass Gundula leicht verkühlt war und sich über seine Suppe gefreut hat.",
+          "notes": [
+            "Schwimmen mit Volker",
+            "Gundula war verkühlt, ist wieder besser"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:41",
+        "text": "Hallo Mira. Ich steh grad am Herd und mach Krautfleckerl, und jetzt merk ich, dass ich nur mehr ein halbes Packerl Fleckerl dahab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hallo Klaus-Dieter. Für dich allein reicht ein halbes Packerl vielleicht sogar. Für wie viele kochst du denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:43",
+        "text": "Eigentlich nur für mich, aber ich wollt der Gundula morgen eine Portion mitnehmen, wenn ich sie besuch. Die isst das so gern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist lieb von dir. Wenn die Fleckerl knapp sind, nimm einfach mehr Kraut, dann wird es trotzdem eine ordentliche Portion für euch beide."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:45",
+        "text": "Stimmt, Kraut hab ich genug, einen ganzen Kopf. Salz nehm ich eh nur wenig wegen dem Blutdruck, dafür ein bisschen mehr Kümmel und Pfeffer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit Kümmel und einer Prise Zucker beim Anrösten bekommt das Kraut auch so viel Geschmack. Da wird sich die Gundula freuen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:47",
+      "text": "Ja, die freut sich bestimmt. Sag, wie lang muss ich das Kraut eigentlich anrösten, bis es so schön braun ist, und soll ich die Zwiebel vorher"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "und soll ich die Zwiebel vorher",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Klaus-Dieter is standing at the stove and pauses mid-question, so voice activity detection ends the utterance after 'und soll ich die Zwiebel vorher'. The first question is complete; the second is cut off and could mean several things (fry the onion first, cut it beforehand). Kitchen noise and pauses while cooking make such cut-offs common."
+  }
+}

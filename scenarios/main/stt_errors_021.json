@@ -1,0 +1,191 @@
+{
+  "id": "stt_errors_021",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:36.681364+00:00"
+  },
+  "content_hash": "19fe074841d4b510e1c02e2a7bae039d50e5db361c9661a6e37445dd62ec4dc6",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_021",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 32,
+    "time_of_day": "früher Abend",
+    "weekday": "Montag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Leonhard",
+    "last_name": "Hasibeder",
+    "side_older": [
+      "Gunhild",
+      "Roland",
+      "Kunigunde"
+    ],
+    "side_younger": [
+      "Isabella",
+      "Kevin",
+      "Ute"
+    ],
+    "side_surnames": [
+      "Ritzberger",
+      "Buchinger"
+    ],
+    "former_job": "Polizist",
+    "interests": [
+      "Puzzeln",
+      "Kochen und Backen"
+    ],
+    "occasion": "hat eine Frage zum Haushalt (Fleck, Gerät, Vorrat)",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Leonhard Hasibeder",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 32
+      },
+      "time_of_day": "Montag, 18:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Ute (Tochter)",
+          "text": "Papa hat eine Herzrhythmusstörung und nimmt Tabletten dafür. Nächste Kontrolle beim Kardiologen ist Ende des Monats, Kevin fährt ihn hin."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Leonhard ist 79 und war bis zur Pension Polizist im Bezirk. Er lebt allein in der Erdgeschosswohnung seines Hauses, ist geschieden und sehr ordentlich."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sein Sohn Kevin wohnt mit Frau und Tochter Isabella (9) im Obergeschoss desselben Hauses. Seine Tochter Ute wohnt im selben Ort, ein paar Straßen weiter, und kommt meist am Wochenende vorbei."
+        },
+        {
+          "topic": "Kochen und Backen",
+          "text": "Leonhard backt gern Blechkuchen, im Herbst vor allem Zwetschgendatschi, und bringt dann ein Stück nach oben. Isabella mag den Kuchen am liebsten mit Schlagrahm."
+        },
+        {
+          "topic": "Puzzeln",
+          "text": "Er puzzelt Bilder mit 1000 bis 2000 Teilen auf einem eigenen Tisch im Wohnzimmer, gerade eine Berglandschaft. Sein alter Kollege Roland bringt ihm manchmal neue Puzzles."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Herzrhythmusstörung, Kontrolle beim Kardiologen Dr. Ritzberger. Tabletten morgens und abends. Er merkt manchmal Herzstolpern, wenn er sich aufregt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Leonhard erzählte, dass Ute am Vormittag mit ihm auf dem Markt war. Er hat zwei Kilo Zwetschgen gekauft, um einen Datschi zu backen, und überlegte, ob er Hefeteig oder Mürbteig nimmt.",
+          "notes": [
+            "Ute war mit ihm auf dem Markt",
+            "zwei Kilo Zwetschgen gekauft",
+            "plant Zwetschgendatschi mit Hefeteig"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Leonhard arbeitete an seinem Puzzle mit der Berglandschaft. Der Himmel macht ihm Mühe, weil alle Teile fast gleich blau sind. Roland hat ihm ein neues Puzzle mit einem Hafen versprochen.",
+          "notes": [
+            "Puzzle Berglandschaft, Himmel schwierig",
+            "Roland bringt ein neues Puzzle"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "18:06",
+        "text": "Mir ist grad der Saft vom Zwetschgendatschi auf die gute Tischdecke gelaufen. Was macht man da am gescheitesten?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oh je, Leonhard. Am besten gleich mit kaltem Wasser ausspülen, nicht mit heißem, sonst setzt sich die Farbe fest. Ist die Decke aus Baumwolle oder aus Leinen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:07",
+        "text": "Leinen, die weiße mit der Stickerei. Die hat mir die Ute einmal zum Geburtstag geschenkt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann lohnt sich die Mühe doppelt. Halt die Stelle unter kaltes Wasser und tupf den Fleck von außen nach innen, statt zu reiben."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:11",
+        "text": "So, jetzt hab i's ausgewaschen, aber a bissl rosa ist es immer noch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist bei Obstflecken oft so. Viele nehmen dann Gallseife oder ein bisschen Zitronensaft und waschen die Decke danach ganz normal."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:12",
+        "text": "Gallseife hab i, glaub i, noch unterm Waschbecken. Der Datschi selber ist übrigens recht gut geworden, der Kevin kriegt nachher ein Stück rauf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird sich Kevin freuen. Frisch vom Blech schmeckt er eh am besten."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:14",
+        "text": "Ja, und die Isabella will den immer mit Schlagrahm. Aber zuerst muss i des mit der Decke richten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Recht hast du. Die Gallseife auf den feuchten Fleck reiben, ein Weilchen einwirken lassen und dann waschen, das hilft oft schon."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:16",
+      "text": "Gut, des probier i. Und wenn des dann trotzdem net ganz rausgeht, soll i die Decke dann lieber in die"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "soll i die Decke dann lieber in die",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The final question is cut off mid-sentence, as happens when the end-of-speech detection fires during a short pause or the user turns away from the device. The intended ending (for example the washing machine, the dry cleaner, or soaking) is not recoverable, so the companion has to deal with an incomplete question about an otherwise ordinary household problem."
+  }
+}

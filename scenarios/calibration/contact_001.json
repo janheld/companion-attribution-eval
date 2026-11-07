@@ -4,10 +4,10 @@
   "kind": "contact",
   "condition": "contact",
   "version": 3,
-  "status": "draft",
+  "status": "approved",
   "review": {
     "comment": "",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-06T13:12:55.332969+00:00"
   },
   "content_hash": "7c1cdc56d4197a05048498a199575af4b3cd71725e46199029265fa94b144c50",
   "generator": {

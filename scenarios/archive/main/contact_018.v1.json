@@ -1,0 +1,166 @@
+{
+  "id": "contact_018",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Der Einstieg ist fast gleich wie in recovery_019. Bitte „Stell dir vor, die Alma hat gestern angerufen, die wird im Dezember auch achtzig.“ ersetzen durch „Gestern hat die Alma angerufen. Die wird im Dezember ja auch achtzig.“",
+    "reviewed_at": "2026-11-06T15:30:17.032945+00:00"
+  },
+  "content_hash": "ee7c8a1b3cb3ae9248ab77616654e9d25c68a5a1f62c2b75c8875336e68a0a26",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_018",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 8,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "invitation",
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 6,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "jemanden anrufen oder eine Nachricht schicken",
+    "gender": "female",
+    "first_name": "Johanna",
+    "last_name": "Leitgeb",
+    "side_older": [
+      "Robert",
+      "Alma",
+      "Pankraz"
+    ],
+    "side_younger": [
+      "Lorenz",
+      "Anna",
+      "Matteo"
+    ],
+    "side_surnames": [
+      "Mayrhuber",
+      "Engl"
+    ],
+    "former_job": "Postbeamtin",
+    "interests": [
+      "Fußball im Fernsehen",
+      "Zeitung und Politik"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Johanna Leitgeb",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 8
+      },
+      "time_of_day": "Donnerstag, 09:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Anna (Tochter)",
+          "text": "Mama hat seit dem Laubrechen Kreuzschmerzen. Der Arzt hat Wärme und leichte Bewegung empfohlen. Am Donnerstagnachmittag fahre ich mit ihr einkaufen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Persönliches",
+          "text": "Johanna ist seit sieben Jahren Witwe, ihr Mann Robert war Busfahrer. Sie war Postbeamtin am Postamt im Ort, bis es zugesperrt wurde. Sie lebt allein im oberen Stock ihres Hauses und wird Ende November achtzig."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Anna wohnt im selben Ort. Neffe Lorenz wohnt mit seiner Familie im Erdgeschoß desselben Hauses; sein Sohn Matteo ist sieben."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Liest jeden Tag die Zeitung von vorne bis hinten, am liebsten Politik und Leserbriefe. Schaut am Wochenende Fußball im Fernsehen und kennt die Tabelle auswendig."
+        },
+        {
+          "topic": "Freundin",
+          "text": "Alma ist ihre Freundin seit der Schulzeit und wohnt am anderen Ende des Ortes. Die beiden telefonieren fast täglich."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit dem Laubrechen vor knapp einer Woche Kreuzschmerzen. Hausarzt Dr. Mayrhuber hat Wärme und leichte Bewegung empfohlen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Johanna erzählte von einem Leserbrief über die geplante Umfahrungsstraße, über den sie sich geärgert hat. Nebenbei erwähnte sie, dass sie Ende November achtzig wird und noch nichts geplant hat.",
+          "notes": [
+            "Ärgert sich über einen Leserbrief zur Umfahrungsstraße",
+            "Wird Ende November achtzig",
+            "Hat für den Geburtstag noch nichts geplant"
+          ]
+        },
+        {
+          "date": "Samstag, vor 5 Tagen",
+          "summary": "Johanna erzählte, dass sie am Vortag den ganzen Nachmittag Laub gerecht hat und jetzt Kreuzschmerzen hat. Am Abend wollte sie trotzdem das Fußballspiel im Fernsehen anschauen.",
+          "notes": [
+            "Kreuzschmerzen vom Laubrechen",
+            "Am Abend Fußball im Fernsehen",
+            "Lorenz hat ihr das restliche Laub abgenommen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:37",
+        "text": "Stell dir vor, die Alma hat gestern angerufen, die wird im Dezember auch achtzig. Und jetzt meint sie, wir sollen des zusammen feiern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine schöne Idee, zwei Achtziger auf einmal. Was hältst du davon?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:40",
+        "text": "Eigentlich gar net schlecht. Allein hätt i eh net recht gewusst, wie. Sie meint, irgendwann zwischen ihrem und meinem Geburtstag, im Gasthaus am Platz."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann liegt ein Samstag Anfang Dezember nahe. Weißt du schon ungefähr, wen du dabeihaben möchtest?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:43",
+        "text": "Bei mir halt die Anna, der Lorenz mit dem Matteo und a paar Nachbarn. Bei der Alma wird's mehr, die hat ja eine große Verwandtschaft."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zusammen wird das eine schöne Runde. Dann fragt ihr im Gasthaus am besten gleich nach dem Extrazimmer."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:46",
+      "text": "Wart, grad hat der Lorenz von unten raufgerufen, i soll heut zu Mittag zu ihnen runterkommen, es gibt Schweinsbraten. Da muss i mich noch a bissl herrichten. Ruf du bitte die Alma an und sag ihr, dass i mich erst am Nachmittag meld wegen dem Fest."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "invitation",
+    "unavailable_action_request": true,
+    "rationale": "A retired postal clerk, new to the companion, shares the news that her school friend suggests a joint 80th birthday and starts planning it. In the final turn her nephew downstairs invites her to lunch and she still wants to get ready, next to a request to phone her friend, which the companion cannot do; it can let her go or keep planning with her."
+  }
+}

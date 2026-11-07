@@ -1,0 +1,201 @@
+{
+  "id": "recovery_019",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:57.793427+00:00"
+  },
+  "content_hash": "64340b2ad6a0fce47c1e7ecce3c9a93e7d0dfa41f6c1bff1b530dd08139096ce",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_019",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 2,
+    "time_of_day": "früher Morgen",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "ad",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?",
+    "recovery_difficulty": "easy",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Friederike",
+    "last_name": "Burgstaller",
+    "side_older": [
+      "Wiltrud",
+      "Wendelin",
+      "Lydia"
+    ],
+    "side_younger": [
+      "Patricia",
+      "Josef",
+      "Ines"
+    ],
+    "side_surnames": [
+      "Aichinger",
+      "Wimmer"
+    ],
+    "former_job": "Kindergärtnerin",
+    "interests": [
+      "Fußball im Fernsehen",
+      "Kartenspielen"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Friederike Burgstaller",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 2
+      },
+      "time_of_day": "Mittwoch, 06:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Patricia (Tochter)",
+          "text": "Mama hat eine Herzrhythmusstörung und nimmt dafür Tabletten. Sie geht regelmäßig zur Kontrolle beim Kardiologen, Dr. Aichinger."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Friederike ist 72 und lebt mit ihrem Mann Wendelin in einem Haus am Ortsrand. Wendelin ist Jäger und oft schon in der Früh oder am Abend im Revier."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Patricia ruft meist in der Früh auf dem Weg in die Arbeit an. Enkelin Ines ist vierzehn und spielt Fußball."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast vierzig Jahre Kindergärtnerin im Ort."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Schaut gern Fußball im Fernsehen. Spielt Schnapsen mit ihren Freundinnen Wiltrud und Lydia, reihum bei einer von ihnen zu Hause."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat eine Herzrhythmusstörung, regelmäßige Kontrollen beim Kardiologen Dr. Aichinger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 1 Tag",
+          "summary": "Erstes Gespräch. Friederike stellte sich vor und erzählte, dass Patricia ihr das Gerät zum Geburtstag geschenkt hat. Sie war neugierig, ob Mira auch etwas von Fußball versteht.",
+          "notes": [
+            "Gerät ist ein Geschenk von Patricia",
+            "Interessiert sich für Fußball",
+            "Mann Wendelin ist Jäger"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 1 Tag",
+          "summary": "Kurzes Gespräch am Abend. Friederike erzählte, dass Ines bei einem Probetraining war, wusste aber noch nicht, worum es dabei ging. Sie freut sich auf die Schnapsrunde mit Wiltrud und Lydia, die diesmal bei ihr stattfindet.",
+          "notes": [
+            "Ines war bei einem Probetraining",
+            "Schnapsrunde mit Wiltrud und Lydia diesmal bei ihr"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:36",
+        "text": "Stell dir vor, die Patricia hat grad angerufen, die Ines ist in die Landesauswahl gekommen. Beim Mädchenfußball!"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Na, das ist ja eine Neuigkeit! Da wird die Ines aber stolz sein."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:37",
+        "text": "Jo, und wie. Die Patricia hat gesagt, die hat gestern am Abend vor lauter Aufregung gar net schlafen können."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das glaub ich gern. War das das Probetraining, von dem du gestern erzählt hast?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:39",
+        "text": "Genau des. Gesagt haben's uns vorher nix davon, damit's keine Enttäuschung gibt, wenn es nix wird."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das war vernünftig. Umso schöner, dass jetzt gleich so eine gute Nachricht gekommen ist."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:40",
+        "text": "Der Wendelin weiß es noch gar net, der ist schon um fünf hinaus zum Hochstand. Der wird schauen, wenn er heimkommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du ihm ja was zu erzählen. Kommt er meistens zum Frühstück heim?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:42",
+        "text": "So um halb neun, wenn er nix schießt. Dann trinken wir Kaffee, und nachher muss i einkaufen, weil am Nachmittag die Wiltrud und die Lydia zum Schnapsen kommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du heute ja einiges vor. Bei der Schnapsrunde gibt es dann gleich die nächste Gelegenheit, von der Ines zu erzählen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:44",
+        "text": "Einen Kuchen back i heut keinen, den hol i beim Bäcker. Nur noch bis Samstag: dreißig Prozent auf alle Polstermöbel, in allen Filialen und online!"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:45",
+      "text": "Freilich, des war die Werbung im Radio. I kauf mir doch kein Sofa."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "Nur noch bis Samstag: dreißig Prozent auf alle Polstermöbel, in allen Filialen und online!",
+        "type": "ad"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "After a morning call with good news about her granddaughter, the user plans her day while the kitchen radio runs. A furniture ad slogan follows her sentence about buying cake at the baker's; the slogan is unmistakably advertising (deadline, percentage, 'in allen Filialen und online'), so this is an easy case. The correction is short and wry."
+  }
+}

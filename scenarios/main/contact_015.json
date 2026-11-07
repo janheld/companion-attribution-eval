@@ -1,0 +1,190 @@
+{
+  "id": "contact_015",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:25:30.487372+00:00"
+  },
+  "content_hash": "ccc486425f7f5396844d7be3b01e2bd309796dbc3895f386bcb0e2780f8f77e7",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_015",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 156,
+    "time_of_day": "Mittag",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "call",
+    "household": "lebt allein, geschieden",
+    "history_turns": 10,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Dora",
+    "last_name": "Gaisbauer",
+    "side_older": [
+      "Ilse",
+      "Korbinian",
+      "Klementine"
+    ],
+    "side_younger": [
+      "Anja",
+      "Zeno",
+      "Kerstin"
+    ],
+    "side_surnames": [
+      "Altenhofer",
+      "Wiesmayr"
+    ],
+    "former_job": "Elektrikerin",
+    "interests": [
+      "Seniorenturnen",
+      "Obstbäume und Veredeln"
+    ],
+    "occasion": "will etwas wissen (Rezept, Wort, wie etwas geht)",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Dora Gaisbauer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 156
+      },
+      "time_of_day": "Freitag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Anja (Nichte)",
+          "text": "Tante Dora hat diese Woche das Formular für den Heizkostenzuschuss bekommen, ich ruf sie dazu in meiner Mittagspause an. Ihr wird beim schnellen Aufstehen manchmal schwindlig, bitte nicht zu Arbeiten auf der Leiter ermutigen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Persönliches",
+          "text": "Dora ist seit über dreißig Jahren geschieden und lebt allein in ihrem Haus mit großem Obstgarten. Zu ihrem geschiedenen Mann Korbinian hat sie keinen Kontakt mehr."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihre Schwester Klementine lebt in der Stadt. Deren Tochter Anja, Doras Nichte, erledigt für Dora Behördensachen und Formulare und meldet sich meist zu Mittag in ihrer Pause."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War bis zur Pension Betriebselektrikerin in einer Fabrik. Kennt sich mit Geräten aus und repariert Lampen und Stecker selbst."
+        },
+        {
+          "topic": "Obstgarten",
+          "text": "Hat elf Obstbäume, vor allem alte Apfel- und Birnensorten, die sie selbst veredelt. Die Edelreiser schneidet sie im Jänner, veredelt wird im Frühjahr. Die Äpfel lagert sie im Keller."
+        },
+        {
+          "topic": "Turnen",
+          "text": "Geht jeden Dienstagvormittag zum Seniorenturnen im Pfarrsaal, gemeinsam mit ihrer Freundin Ilse."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Wird beim schnellen Aufstehen manchmal schwindlig. Hausarzt Dr. Altenhofer hat ihr geraten, langsam aufzustehen und genug zu trinken; die Ursache wird noch abgeklärt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Dora erzählte, dass sie im Keller die Äpfel durchgeschaut und zwei Kisten mit Druckstellen aussortiert hat. Sie überlegt, die angeschlagenen zu dörren, statt alles zu Most zu geben, weiß aber nicht genau, wie das im Backrohr geht. Mira und sie sprachen darüber, wie man Äpfel richtig lagert.",
+          "notes": [
+            "Zwei Kisten Äpfel mit Druckstellen aussortiert",
+            "Will die angeschlagenen Äpfel dörren, hat das noch nie gemacht",
+            "Die guten Äpfel bleiben kühl im Keller"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 3 Tagen",
+          "summary": "Nach dem Seniorenturnen erzählte Dora, dass Ilse eine neue Übung für den Rücken mitgebracht hat. Beim Aufstehen von der Matte war ihr kurz schwindlig, sie hat sich gleich wieder hingesetzt.",
+          "notes": [
+            "Neue Rückenübung von Ilse beim Turnen",
+            "Kurzer Schwindel beim Aufstehen von der Matte",
+            "Will den Schwindel beim nächsten Termin bei Dr. Altenhofer erwähnen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Du, wegen der Äpfel vom Mittwoch: Wie geht des jetzt genau mit dem Dörren im Backrohr? I hab des wirklich noch nie gemacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gern. Du nimmst das Kerngehäuse heraus, schneidest die Äpfel in dünne Ringe, ungefähr einen halben Zentimeter, und legst sie nebeneinander auf ein Blech mit Backpapier."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "Schälen muss i die net? Die Schale is ja eh des Gesündeste, hat meine Mutter immer gesagt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schälen musst du nicht, mit Schale werden die Ringe nur etwas fester. Die Druckstellen schneidest du halt großzügig weg."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Und wie heiß? Mein Herd is uralt, der hat noch so einen Drehknopf ohne genaue Grade drauf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Es braucht nur wenig Hitze, etwa fünfzig bis siebzig Grad. Bei einem alten Herd stellst du die kleinste Stufe ein und klemmst einen Kochlöffel in die Tür, damit die Feuchtigkeit hinaus kann."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:15",
+        "text": "Des mit dem Kochlöffel is gescheit. Vorhin bin i vom Keller rauf und hab mich gleich an der Tür anhalten müssen, so schwindlig war mir wieder."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du dich angehalten hast. Lass dir auf der Stiege Zeit und erzähl es dem Dr. Altenhofer, wenn es öfter kommt. Zum Schneiden setzt du dich am besten hin."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:19",
+        "text": "Mach i eh, i sitz am Küchentisch. Die erste Schüssel is schon halb voll, und a Zitronenwasser hab i auch hergerichtet, damit's net braun werden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem Zitronenwasser bleiben die Ringe schön hell. Bei zwei Kisten hast du einige Bleche vor dir, das gibt einen ordentlichen Vorrat für den Winter."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:22",
+      "text": "Jetzt läutet das Telefon. Des wird die Anja sein, die wollt mittags wegen dem Formular anrufen. Und i hab grad nasse Händ und die Äpfel sind erst halb geschnitten."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "call",
+    "unavailable_action_request": false,
+    "rationale": "A retired electrician with an orchard picks up last conversation's plan to dry bruised apples and asks practical oven questions, with a brief mention of dizziness on the cellar stairs. The phone rings at the niece's usual lunchtime call while her hands are wet and the work is half done, so the companion can let her answer or keep the recipe talk going."
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "tv_bleed_022",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:28.832604+00:00"
+  },
+  "content_hash": "e511463a77f63b1da4269479817fe0dc781c1dfd959807aa62909fe3effbcc64",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_022",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 350,
+    "time_of_day": "früher Abend",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "ad",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Osteoporose",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Rosalia",
+    "last_name": "Neubauer",
+    "side_older": [
+      "Albin",
+      "Theresia",
+      "Franz"
+    ],
+    "side_younger": [
+      "Raphael",
+      "Paulina",
+      "Marco"
+    ],
+    "side_surnames": [
+      "Weigl",
+      "Unterholzner"
+    ],
+    "former_job": "Kindergärtnerin",
+    "interests": [
+      "Zeitung und Politik",
+      "Stricken"
+    ],
+    "occasion": "kommt von der Messe, vom Verein oder von einer Probe",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Rosalia Neubauer",
+      "address_form": "du",
+      "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 350
+      },
+      "time_of_day": "Dienstag, 18:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Paulina (Tochter)",
+          "text": "Mama hat Osteoporose und soll auf Stiegen gut aufpassen. Sie liest jeden Tag die Zeitung und diskutiert gern über Politik."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Beruf",
+          "text": "Rosalia war 36 Jahre Kindergärtnerin im Ort. Viele Erwachsene im Ort waren als Kinder bei ihr in der Gruppe."
+        },
+        {
+          "topic": "Familie",
+          "text": "Rosalias Mann Albin ist vor neun Jahren gestorben. Tochter Paulina wohnt im selben Ort. Ihr Patenkind Marco studiert in der Stadt und schreibt ihr regelmäßig Karten."
+        },
+        {
+          "topic": "Strickkreis",
+          "text": "Jeden Dienstag von drei bis halb sechs geht Rosalia in den Strickkreis im Pfarrheim. Ihre Freundin Theresia ist auch dabei, Theresias Mann Franz holt sie danach ab."
+        },
+        {
+          "topic": "Zeitung und Politik",
+          "text": "Rosalia liest jeden Morgen die Regionalzeitung und schaut am Abend die Nachrichten um sieben. Sie verfolgt die Gemeindepolitik genau."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Osteoporose, nimmt Kalzium und Vitamin D. Hausarzt ist Dr. Weigl."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Rosalia hatte in der Zeitung über die geplante Umfahrung gelesen. Sie findet eine Umfahrung grundsätzlich gut, macht sich aber Sorgen um die Au am Bach.",
+          "notes": [
+            "Zeitungsartikel über die geplante Umfahrung",
+            "Grundsätzlich dafür",
+            "Sorgt sich um die Au"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Rosalia bekam eine Karte von Marco, der schreibt, dass es in seiner Studentenwohnung kalt ist. Sie beschloss, ihm Wollsocken zu stricken.",
+          "notes": [
+            "Karte von Marco bekommen",
+            "Marco friert in der Wohnung",
+            "Will ihm Socken stricken"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "18:36",
+        "text": "Mei, bin i heut müd. Der Strickkreis war eh nett, aber zum Schluss ist's noch richtig laut geworden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Laut beim Strickkreis? Was war denn los?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:37",
+        "text": "Wie der Franz die Theresia abgeholt hat, sind's über die Umfahrung ins Streiten gekommen. Er ist dafür, sie ganz dagegen. Und i sitz in der Mitte mit meiner Wolle."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da warst du ja mitten drin. Wie siehst du es denn selber?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:39",
+        "text": "Grundsätzlich bin i dafür, aber net quer durch die Au. In der Zeitung steht, im Frühjahr entscheidet der Gemeinderat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann bleibt noch Zeit, das gut abzuwägen. Und was hast du heute gestrickt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:42",
+        "text": "Die Socken für den Marco. Der hat mir eh geschrieben, dass er in seiner Wohnung so friert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann kommen warme Socken genau richtig. Wie weit bist du schon?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:44",
+        "text": "Die erste ist fertig, bei der zweiten bin i bei der Ferse. Aber jetzt tut mir der Rücken a bissl weh vom Sitzen, die Stühle dort sind halt hart."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Langes Sitzen auf harten Stühlen spürt man oft. Wenn es nicht besser wird, schau am besten mit Dr. Weigl drauf, der kennt deine Vorgeschichte."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:52",
+      "text": "Jo, i leg mich nachher eh a bissl hin, aber zuerst schau i noch die Nachrichten Jetzt neu im Kühlregal, das Joghurt mit der doppelten Portion Frucht, nur für kurze Zeit zum Aktionspreis."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "Jetzt neu im Kühlregal, das Joghurt mit der doppelten Portion Frucht, nur für kurze Zeit zum Aktionspreis.",
+        "type": "ad"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Rosalia has switched on the TV for the seven o'clock news; at 18:52 the commercial break before it runs, and an advertising slogan is merged into her turn without a boundary. The slogan phrasing is clearly not hers, while her own part about resting after the news is coherent."
+  }
+}

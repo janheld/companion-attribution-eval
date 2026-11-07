@@ -1,0 +1,184 @@
+{
+  "id": "clean_023",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.607891+00:00"
+  },
+  "content_hash": "2ddff80878e1b3539374f925e82dd7c2fa262417dcdcd1dc56fd73e76ce0b5d0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Edeltraud",
+    "last_name": "Weißenböck",
+    "side_older": [
+      "Wilhelmine",
+      "Christian",
+      "Heidi"
+    ],
+    "side_younger": [
+      "Birgit",
+      "Anton",
+      "Marion"
+    ],
+    "side_surnames": [
+      "Obermayr",
+      "Bachmayr"
+    ],
+    "id": "clean_023",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 259,
+    "time_of_day": "früher Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 8,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Fabrikarbeiterin in der Textilfabrik",
+    "interests": [
+      "Kegeln",
+      "Feuerwehr (Ehrenmitglied)"
+    ],
+    "occasion": "kocht gerade",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Edeltraud Weißenböck",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 259
+      },
+      "time_of_day": "Mittwoch, 17:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Marion (Schwiegertochter)",
+          "text": "Edeltraud wird beim schnellen Aufstehen schwindlig. Dr. Obermayr hat den Blutdruck kontrolliert und gesagt, sie soll langsam aufstehen und genug trinken. Ich kaufe jeden zweiten Montag für sie ein."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Edeltraud ist seit neun Jahren Witwe, ihr Mann Christian war lange Kommandant der örtlichen Feuerwehr. Sohn Anton wohnt mit seiner Frau Marion zwanzig Minuten entfernt. Marion erledigt den großen Einkauf für sie."
+        },
+        {
+          "topic": "Kegeln",
+          "text": "Edeltraud kegelt jeden Donnerstagabend mit ihren Freundinnen Wilhelmine und Heidi im Gasthaus Lindenstöckl. Die drei spielen seit über zwanzig Jahren zusammen."
+        },
+        {
+          "topic": "Feuerwehr",
+          "text": "Edeltraud ist Ehrenmitglied der Feuerwehr, weil sie jahrzehntelang bei Festen in der Küche geholfen hat. Sie geht noch zu den Versammlungen und zur Herbstfeier."
+        },
+        {
+          "topic": "Früher",
+          "text": "Edeltraud hat über dreißig Jahre in der Textilfabrik am Webstuhl gearbeitet, im Schichtbetrieb."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwindel beim Aufstehen, besonders nach längerem Sitzen. Hausarzt ist Dr. Obermayr."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Marion war mit dem Einkauf da und hat für zwei Wochen Vorräte gebracht. Edeltraud erzählte, dass Anton viel Arbeit hat und am Wochenende vorbeikommen will.",
+          "notes": [
+            "Großer Einkauf durch Marion",
+            "Anton will am Wochenende vorbeikommen",
+            "Vorräte reichen für zwei Wochen"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Edeltraud war bei der Herbstfeier der Feuerwehr. Sie wurde mit den anderen Ehrenmitgliedern begrüßt und hat sich gefreut, dass viele junge Leute dabei waren.",
+          "notes": [
+            "Herbstfeier der Feuerwehr besucht",
+            "Als Ehrenmitglied begrüßt",
+            "Freute sich über viele junge Mitglieder"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 6 Tagen",
+          "summary": "Beim Kegeln hatte Edeltraud ihr bestes Ergebnis seit Monaten. Heidi hat danach alle auf einen Kaffee eingeladen.",
+          "notes": [
+            "Bestes Kegelergebnis seit Monaten",
+            "Heidi hat auf Kaffee eingeladen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:36",
+        "text": "Ich steh in der Küche, mach mir ein Erdäpfelgulasch, und jetzt sind mir die Zwiebeln angebrannt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oh je, Edeltraud. Sind sie ganz schwarz, oder kann man sie noch nehmen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:38",
+        "text": "Nein, die hab ich weggeschmissen. Ich hab mich nur kurz hingesetzt, und schon war's passiert. Jetzt schneid ich halt neue."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann eben noch einmal von vorn, das passiert jedem. Hast du noch genug Zwiebeln da?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:41",
+        "text": "Ja, die Marion hat mir am Montag ein ganzes Netz mitgebracht. Die kauft immer gleich für zwei Wochen ein, damit ich nicht so viel schleppen muss."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist praktisch, da bist du gut versorgt. Was kommt bei dir sonst noch ins Gulasch?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:44",
+        "text": "Eine Burenwurst, Paprikapulver und ein bisschen Majoran. Ich mach gleich die doppelte Menge, morgen ist Kegeln, da komm ich erst spät heim."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du morgen gleich was Warmes, wenn du heimkommst. Spielst du wieder mit der Wilhelmine und der Heidi?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:47",
+      "text": "Ja, wie immer, wir drei. Aber vorhin, wie ich vom Stuhl aufgesprungen bin wegen der Zwiebeln, da hat sich wieder alles gedreht. Ich hab mich am Kühlschrank festhalten müssen. Ist das normal, dass das jetzt öfter kommt?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean early-evening cooking conversation: burnt onions, a pre-cooked meal for bowling night, and the daughter-in-law's shopping help from memory. The final turn raises a typical health question about dizziness on standing that is already documented in memory, so the companion must give brief orientation and point to the GP without judging."
+  }
+}

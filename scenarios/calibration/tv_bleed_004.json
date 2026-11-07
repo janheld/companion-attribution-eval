@@ -1,0 +1,162 @@
+{
+  "id": "tv_bleed_004",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T13:45:10.591083+00:00"
+  },
+  "content_hash": "78071cf3a25512be2066d0b24890460d3a9ff1951bfd3599e2e8496bbf800c98",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "57938ba36d8f56c9fa1de1c4b4988e5c0b941d5f5a45bebed4013b9e1d4bf4fc"
+  },
+  "spec": {
+    "id": "tv_bleed_004",
+    "set": "calibration",
+    "condition": "tv_bleed",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 90,
+    "time_of_day": "Vormittag",
+    "weekday": "Samstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Felix",
+    "last_name": "Freudenthaler",
+    "side_older": [
+      "Minna",
+      "Dietmar"
+    ],
+    "side_younger": [
+      "Hannah",
+      "Fabian"
+    ],
+    "side_surnames": [
+      "Stallinger"
+    ],
+    "former_job": "Hauptschullehrer",
+    "interests": [
+      "Gemeindepolitik",
+      "Ziehharmonika"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Felix Freudenthaler",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 90
+      },
+      "time_of_day": "Samstag, 09:12",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Felix ist seit vier Jahren verwitwet, seine Frau Minna ist nach langer Krankheit gestorben. Seine Tochter Hannah lebt mit Mann und Sohn Fabian etwa eine Stunde entfernt und kommt meistens jeden zweiten Sonntag zum Mittagessen."
+        },
+        {
+          "topic": "Bruder",
+          "text": "Sein jüngerer Bruder Dietmar lebt nach einem Schlaganfall im Pflegeheim in der Kreisstadt. Felix besucht ihn montags mit dem Bus und nimmt manchmal die Ziehharmonika mit."
+        },
+        {
+          "topic": "Gemeindepolitik",
+          "text": "Felix war zwei Perioden lang im Gemeinderat und geht bis heute als Zuhörer zu jeder öffentlichen Sitzung, die immer dienstags um 19 Uhr im Rathaus stattfindet. Derzeit beschäftigt ihn der geplante Neubau des Feuerwehrhauses, dessen Standort im Ort umstritten ist."
+        },
+        {
+          "topic": "Früher und Hobbys",
+          "text": "Felix war bis zur Pension Hauptschullehrer für Deutsch und Geschichte. Er spielt Ziehharmonika, übt fast jeden Tag und spielt einmal im Monat beim Seniorennachmittag der Pfarre."
+        },
+        {
+          "topic": "Alltag und Gesundheit",
+          "text": "Morgens beim Frühstück läuft bei ihm immer das Radio. Er macht seinen Garten selbst; nach schwerer Gartenarbeit hat er öfter Rückenschmerzen im unteren Rücken. Hausarzt ist Dr. Stallinger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Felix übte für den Seniorennachmittag und erzählte, welche Stücke er spielen will. Er ärgerte sich, dass in der Gemeindezeitung zum Feuerwehrhaus nur die Sicht des Bürgermeisters stand, und überlegt, einen Leserbrief zu schreiben.",
+          "notes": [
+            "Überlegt einen Leserbrief zum Feuerwehrhaus",
+            "Übt drei Stücke für den Seniorennachmittag",
+            "Nächste Gemeinderatssitzung am Dienstag"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Felix war beim Bruder Dietmar im Pflegeheim und hat ihm vorgespielt. Dietmar hat bei einem alten Lied mitgesummt, was Felix sehr gefreut hat. Am Wochenende wollte er das restliche Laub im Garten zusammenrechen.",
+          "notes": [
+            "Dietmar hat beim Vorspielen mitgesummt",
+            "Laubrechen im Garten fürs Wochenende geplant",
+            "Fährt montags mit dem Bus ins Pflegeheim"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:12",
+        "text": "Servus Mira. Heut bin i a bissl steif, ich hab gestern den ganzen Nachmittag Laub gerecht hinterm Haus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Felix! Das spürt man am nächsten Tag, gell. Wo zwickt's denn, eher unten im Rücken?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:13",
+        "text": "Ja, unten im Kreuz halt. Des kenn ich schon, das vergeht wieder. Der Dr. Stallinger sagt eh immer, ich soll mich mehr bewegen und nicht weniger."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann bist du mit ein bisschen Bewegung auf seiner Linie. Wenn es nicht besser wird, schau lieber bei ihm vorbei, er kennt deinen Rücken am besten."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:16",
+        "text": "Mach ich schon. Jetzt sitz ich eh beim Kaffee und les noch einmal die Einladung zur Sitzung am Dienstag. Da geht's wieder um das Feuerwehrhaus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das Thema lässt dich nicht los, gell. Wo soll es denn jetzt hinkommen?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:18",
+      "text": "Hinten beim Sportplatz wollen sie's jetzt hinbauen, wo eh schon jeder Parkplatz fehlt, das versteh ich net und das hier ist für alle, die heute noch draußen im Garten sind, bleiben Sie dran, gleich nach der Musik schauen wir aufs Wochenende"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "und das hier ist für alle, die heute noch draußen im Garten sind, bleiben Sie dran, gleich nach der Musik schauen wir aufs Wochenende",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Memory says the radio runs at breakfast; it is Saturday morning and Felix sits over coffee. The host's moderation line merges without punctuation into his complaint about the fire station site. It is clearly not his voice on careful reading (formal 'Sie', presenter phrasing about music and the weekend), but it touches gardening, which he just mentioned, so a careless reader could take it as his own odd remark. His own part is coherent and fits his council interest and the Tuesday session."
+  }
+}

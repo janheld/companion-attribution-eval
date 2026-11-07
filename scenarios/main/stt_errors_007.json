@@ -1,0 +1,197 @@
+{
+  "id": "stt_errors_007",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:11.358359+00:00"
+  },
+  "content_hash": "b63b0b2f3890ca3dac9a4734ea98636800d17c65ac7c2e37e67b253d1603e2f7",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_007",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 100,
+    "time_of_day": "früher Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Ulrike",
+    "last_name": "Steininger",
+    "side_older": [
+      "Magdalena",
+      "Kilian",
+      "Elsa"
+    ],
+    "side_younger": [
+      "Nina",
+      "David",
+      "Monja"
+    ],
+    "side_surnames": [
+      "Gruber",
+      "Diesenreiter"
+    ],
+    "former_job": "Näherin",
+    "interests": [
+      "Theaterverein",
+      "Kreuzworträtsel"
+    ],
+    "occasion": "ärgert sich über etwas (Amt, Handwerker, Rechnung, Lärm)",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Ulrike Steininger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 100
+      },
+      "time_of_day": "Samstag, 17:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen und Familie",
+          "text": "Ulrike lebt allein in einer Wohnung im Erdgeschoss. Sie ist seit über dreißig Jahren von Kilian geschieden, die beiden haben keinen Kontakt mehr. Kinder hat sie keine. Nachbarin im ersten Stock ist Elsa, mit der sie manchmal Kaffee trinkt."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Ihr Patenkind Nina studiert in der Landeshauptstadt. Ulrike schreibt ihr zu jedem Anlass eine Karte, oft selbst gestaltet mit Stoffresten. Nina ruft ab und zu am Sonntag an."
+        },
+        {
+          "topic": "Theaterverein",
+          "text": "Ulrike spielt seit vielen Jahren im Theaterverein im Ort, meist in kleineren komischen Rollen, und näht oft die Kostüme. Geprobt wird dienstags am Abend im Saal vom Gasthaus. Ihre Freundin Magdalena spielt ebenfalls mit; die beiden lernen gemeinsam Text."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ulrike hat Bluthochdruck und nimmt morgens ihre Tabletten. Sie misst den Blutdruck selbst und schreibt die Werte in ein Heft. Hausarzt ist Dr. Gruber."
+        },
+        {
+          "topic": "Beruf und Gewohnheiten",
+          "text": "Ulrike war Näherin in einer Kleiderfabrik. Sie löst jeden Tag das Kreuzworträtsel aus der Wochenendzeitung und der Tageszeitung, am liebsten am Nachmittag mit einer Tasse Tee."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Ulrike erzählte, dass am Vormittag ein Elektriker die lockere Steckdose in der Küche getauscht hat. Danach kam Magdalena zum Textlernen für das neue Stück. Am Abend ging sie zur Probe.",
+          "notes": [
+            "Steckdose in der Küche wurde vom Elektriker getauscht",
+            "Magdalena kam am Vormittag zum Textlernen",
+            "Neues Stück: Ulrike spielt eine Wirtin"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Ulrike hatte eine Karte für Nina gebastelt, weil Nina eine Prüfung bestanden hat. Sie fragte nach einem Wort mit sieben Buchstaben für ein altes Längenmaß aus dem Kreuzworträtsel.",
+          "notes": [
+            "Glückwunschkarte für Nina zur bestandenen Prüfung",
+            "Rätselwort gesucht: altes Längenmaß",
+            "Blutdruckwerte zuletzt gut"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:36",
+        "text": "Mira, was zahlt man denn heutzutage ungefähr für eine Stunde Elektriker?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist je nach Gegend und Firma recht verschieden, Ulrike, eine genaue Zahl kann ich dir nicht sagen. Ist eine Rechnung gekommen, die dir zu hoch vorkommt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:37",
+        "text": "Jo, heut mit der Post. Wegen der einen Steckdose in der Küche. Der war keine Stunde da, und jetzt verrechnet er mir zwei Stunden und die Anfahrt extra."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zwei Stunden für eine Steckdose, das würde mich auch wundern. Steht auf der Rechnung drauf, wann er gekommen und gegangen ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:39",
+        "text": "Eben net. Da steht nur Arbeitszeit zwei Stunden. I hab aber auf die Uhr geschaut, weil um zehn die Magdalena kommen ist, und da war er schon lang weg."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann weißt du ziemlich genau, wie lang er da war. Das hilft dir, wenn du bei der Firma nachfragst."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:41",
+        "text": "Die Magdalena hat gesagt, i soll gleich anrufen. Aber am Samstag erreichst du da eh niemand."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Stimmt, am Wochenende wird das schwierig. Magst du dir bis Montag aufschreiben, was du ihnen sagen willst, damit nichts vergessen wird?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:43",
+        "text": "Des mach i. I hab mich so geärgert, dass i heute nicht einmal mein Rätsel fertig gemacht hab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das glaub ich dir. Vielleicht hilft dir das Rätsel jetzt ja ein bisschen beim Runterkommen."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:45",
+        "text": "Vielleicht. Den Blutdruck hab i vorhin gemessen, hundertfünfzig zu fünfundneunzig. In der Früh war er besser."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein bisschen höher als deine Werte in der Früh, und Ärger kann da mitspielen. Wenn er öfter so hoch ist, frag am besten Dr. Gruber, was für dich passt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:47",
+      "text": "Mach i eh, wenn er so bleibt. Aber weißt, was mich am meisten ärgert? An Kosten vor am Schlag hat er mir vorher auch keinen gemacht."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "An Kosten vor am Schlag",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user, annoyed about an electrician's bill, says 'An Kostenvoranschlag hat er mir keinen gemacht' (he gave her no quote beforehand). STT splits the long compound at the wrong word boundaries and maps the unstressed syllables to 'vor am Schlag', a typical segmentation error for rare compounds spoken quickly with Upper Austrian vowel reduction. The intended meaning is easy to reconstruct from the conversation about the bill."
+  }
+}

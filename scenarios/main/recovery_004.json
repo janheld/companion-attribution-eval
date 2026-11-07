@@ -1,0 +1,172 @@
+{
+  "id": "recovery_004",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:32.608438+00:00"
+  },
+  "content_hash": "f7aebb299a9f3476331f3ff66b385df31a9d538388f20e65410d4e9502fb1fa2",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_004",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 316,
+    "time_of_day": "früher Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 6,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": "Hm, das klingt jetzt ein bisschen verwirrt. Geht's dir gut?",
+    "recovery_difficulty": "easy",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Emilie",
+    "last_name": "Pointner",
+    "side_older": [
+      "Meinrad",
+      "Edelgard",
+      "Erwin"
+    ],
+    "side_younger": [
+      "Moritz",
+      "Iris",
+      "Sandro"
+    ],
+    "side_surnames": [
+      "Hutterer",
+      "Lackner"
+    ],
+    "former_job": "Verkäuferin",
+    "interests": [
+      "Schrebergarten",
+      "Wandern"
+    ],
+    "occasion": "hat Langeweile, es regnet",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Emilie Pointner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 316
+      },
+      "time_of_day": "Sonntag, 17:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Iris (Schwiegertochter)",
+          "text": "Emilie soll mit der Hüftprothese lieber ebene Wege gehen und bei Nässe vorsichtig sein. Ich gehe jeden Montag mit ihr einkaufen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Emilie ist verwitwet, ihr Mann Erwin ist vor neun Jahren gestorben. Ihr Sohn Moritz wohnt mit seiner Frau Iris im selben Ort. Iris begleitet Emilie jeden Montag zum Einkaufen."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Emilie war Verkäuferin in einem Schuhgeschäft und hat dort bis zur Pension gearbeitet."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Emilie hat eine Parzelle in der Kleingartenanlage am Ortsrand. Ihr Gartennachbar, Herr Hutterer, tauscht mit ihr Saatgut und Setzlinge."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Früher ist Emilie viel in den Bergen gewandert, oft mit ihrer Freundin Edelgard. Seit der Hüftoperation geht sie nur noch ebene Wege, die aber gern lang."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Emilie hat seit zwei Jahren eine Hüftprothese links. Die Kontrollen macht Dr. Lackner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 3 Tagen",
+          "summary": "Emilie hat ihr Saatgut für das nächste Jahr sortiert und beschriftet. Sie erzählte, dass die Bohnen von Herrn Hutterer in diesem Jahr viel besser getragen haben als ihre eigenen.",
+          "notes": [
+            "Saatgut sortiert, Kiste steht im Flur",
+            "Will Bohnensamen von Herrn Hutterer bekommen",
+            "Garten ist für den Winter fertig"
+          ]
+        },
+        {
+          "date": "Montag, vor 6 Tagen",
+          "summary": "Emilie war mit Iris einkaufen und erzählte danach von einem Spaziergang mit Edelgard am Fluss entlang. Die Hüfte hat gut mitgemacht.",
+          "notes": [
+            "Einkauf mit Iris",
+            "Spaziergang mit Edelgard, ebene Strecke",
+            "Hüfte hat keine Probleme gemacht"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:47",
+        "text": "Was kann man denn an so einem Sonntag noch anfangen, wenn es seit Mittag nur schüttet? Mir fällt die Decke auf den Kopf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "So ein Regensonntag kann lang werden, Emilie. Magst du vielleicht schon ein bisschen den Garten fürs nächste Jahr planen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:49",
+        "text": "Die Samen hab ich eh schon sortiert. Und raus geht gar nicht, die ebenen Wege sind jetzt alle voller Gatsch, da rutsch ich mir nur was."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist heute wirklich ein Tag zum Drinnenbleiben. Was willst du denn nächstes Jahr im Garten anders machen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:52",
+        "text": "Mehr Bohnen, die vom Herrn Hutterer waren heuer viel besser als meine. Frau Kommissarin, die Spurensicherung hat im Kofferraum Blut gefunden, wir sollten den Bruder sofort zur Fahndung ausschreiben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hm, das klingt jetzt ein bisschen verwirrt. Geht's dir gut?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:53",
+      "text": "Das war nicht ich, das war der Krimi im Fernsehen. Mir geht's gut, mir ist nur fad."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Frau Kommissarin, die Spurensicherung hat im Kofferraum Blut gefunden, wir sollten den Bruder sofort zur Fahndung ausschreiben.",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A line of dialogue from a crime series running on the TV (police jargon, 'Frau Kommissarin', 'Spurensicherung', 'zur Fahndung ausschreiben') is merged into Emilie's remark about beans. Easy: the register and content are unmistakably a TV crime drama, a typical rainy Sunday afternoon rerun. Her correction is short and dry and stays with her boredom."
+  }
+}

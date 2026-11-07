@@ -1,0 +1,202 @@
+{
+  "id": "incoherent_user_025",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:17.116971+00:00"
+  },
+  "content_hash": "f97d42b2dd208d3e6f28ba109d0431dbd07cb68827facb39b5779884aa90f626",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_025",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 135,
+    "time_of_day": "früher Morgen",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Irmela",
+    "last_name": "Riepl",
+    "side_older": [
+      "Sieglinde",
+      "Bernhard",
+      "Hermine"
+    ],
+    "side_younger": [
+      "Alexandra",
+      "Niklas",
+      "Patricia"
+    ],
+    "side_surnames": [
+      "Mairhofer",
+      "Peham"
+    ],
+    "former_job": "Fabrikarbeiterin in der Textilfabrik",
+    "interests": [
+      "Marmelade und Most",
+      "Schwimmen"
+    ],
+    "occasion": "hat etwas in Radio oder Zeitung gehört und will darüber reden",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Irmela Riepl",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 135
+      },
+      "time_of_day": "Samstag, 06:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Alexandra (Tochter)",
+          "text": "Die Operation am linken Auge ist fix, ich fahre Mama hin und hole sie wieder ab. Über den Streit zwischen Niklas und mir bitte nur reden, wenn sie selbst damit anfängt."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Irmela, 78, war nie verheiratet und hat ihre zwei Kinder allein großgezogen. Sie hat 34 Jahre in der Textilfabrik am Ortsrand gearbeitet, zuletzt an den Webstühlen. Sie steht jeden Tag sehr früh auf und hört beim Frühstück Radio."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Alexandra wohnt im Nachbarort, Sohn Niklas in der Stadt. Die beiden sind seit gut einem Jahr zerstritten, es ging um Geld. Irmela hält sich heraus, leidet aber darunter. Enkelin Patricia (Tochter von Alexandra) studiert."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen, links stärker. Die Operation am linken Auge ist am Mittwoch in knapp drei Wochen im Krankenhaus in der Bezirksstadt geplant. Augenarzt ist Dr. Mairhofer. Lesen fällt ihr zurzeit schwer."
+        },
+        {
+          "topic": "Schwimmen",
+          "text": "Geht jeden Dienstagvormittag mit ihrer Freundin Sieglinde ins Hallenbad in der Stadt, sie fahren mit dem Bus hin. Schwimmt seit über vierzig Jahren, für sie ist das der Fixpunkt der Woche."
+        },
+        {
+          "topic": "Marmelade und Most",
+          "text": "Hat drei alte Apfelbäume und einen Quittenbaum. Macht jedes Jahr Most im Keller und kocht Marmelade für die ganze Familie. Der Nachbar, Herr Peham, hilft ihr beim Pressen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Irmela erzählte vom Schwimmen am Dienstag mit Sieglinde. Das Wasser im Hallenbad war kälter als sonst, und die Duschen waren teilweise gesperrt. Sie überlegte, ob sie im Winter trotzdem weiter hingeht. Außerdem sprach sie über die bevorstehende Augenoperation und dass Alexandra sie hinfährt.",
+          "notes": [
+            "Hallenbad: Wasser zuletzt kalt, Duschen teilweise gesperrt",
+            "Schwimmt dienstags mit Sieglinde",
+            "Alexandra fährt sie zur Augenoperation"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Irmela hat mit den Quitten von ihrem Baum Quittenmarmelade gekocht, zwölf Gläser. Herr Peham hat beim Schälen geholfen. Der Most vom Herbst gärt im Keller, sie will ihn vor Weihnachten abfüllen.",
+          "notes": [
+            "Zwölf Gläser Quittenmarmelade gekocht",
+            "Most soll vor Weihnachten abgefüllt werden",
+            "Herr Peham hilft ihr regelmäßig"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Das Hallenbad, wo ich dir vorgestern erzählt hab, dass das Wasser so kalt war. Jetzt haben sie grad im Radio gesagt, das wird ab Dezember zugesperrt. Ein ganzes Jahr lang."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oh, ein ganzes Jahr ohne Hallenbad, das ist bitter für dich, Irmela. Haben sie gesagt, warum?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:14",
+        "text": "Renoviert wird halt, das Dach und die Becken. Alt ist es ja wirklich, das gab's schon, wie ich noch in der Fabrik war. Aber wo soll ich denn dann im Winter schwimmen gehen?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine echte Frage. Vielleicht kannst du mit der Sieglinde gemeinsam überlegen, ob es im Umkreis noch ein anderes Bad gibt, das mit dem Bus gut erreichbar ist."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:17",
+        "text": "Die Sieglinde wird sich genauso ärgern. Und nach der Operation darf ich eh eine Zeit lang nicht ins Wasser, hat der Doktor Mairhofer gesagt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Stimmt, nach einer Star-Operation soll man eine Weile nicht schwimmen. Wie lange genau, sagt dir der Dr. Mairhofer sicher noch beim Vorgespräch."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:19",
+        "text": "Wann ist denn die Operation jetzt eigentlich? Ich hab's mir aufgeschrieben, aber ich find den Zettel nicht, ich seh ja so schlecht im Moment."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei mir steht: am Mittwoch in knapp drei Wochen, in der Früh im Krankenhaus in der Bezirksstadt. Die Alexandra fährt dich hin."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:21",
+        "text": "Ah, gut. Du, sag einmal, wann ist eigentlich meine Augenoperation? Das hat mir ja noch niemand gesagt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die ist am Mittwoch in knapp drei Wochen, Irmela, in der Früh im Krankenhaus in der Bezirksstadt. Die Alexandra bringt dich hin und holt dich auch wieder ab."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:24",
+        "text": "Ja, die Alexandra. Die nimmt sich extra frei. Der Niklas hätt's ja auch machen können, aber die zwei reden ja grad wieder nicht miteinander. Da misch ich mich nicht ein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass die Alexandra sich die Zeit nimmt. Dass die zwei gerade nicht miteinander können, ist für dich als Mutter sicher nicht leicht."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:27",
+      "text": "Was soll man machen. Im Radio haben sie übrigens auch gesagt, ein paar Leute sammeln Unterschriften, damit sie das Bad nicht so lang zusperren. Glaubst du, bringt das was, wenn ich da unterschreib?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Du, sag einmal, wann ist eigentlich meine Augenoperation? Das hat mir ja noch niemand gesagt.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Irmela asks for her surgery date, gets the answer, says 'Ah, gut' and two minutes later asks the same question again, adding that nobody has told her yet. Repeating a just-answered question in her own calm voice is a genuine memory lapse, not TV or STT: the wording is hers, it fits the topic, and the rest of the session (radio news about the pool, the feud between her children, the petition) is coherent and consistent with memory."
+  }
+}

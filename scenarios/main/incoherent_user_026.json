@@ -1,0 +1,196 @@
+{
+  "id": "incoherent_user_026",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:17.134188+00:00"
+  },
+  "content_hash": "9cd4c5a49d3d5d305d1f395f6e590b410c83548390787e6af071a4b744ca507f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_026",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 57,
+    "time_of_day": "Mittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Kajetan",
+    "last_name": "Stöger",
+    "side_older": [
+      "Dietrich",
+      "Ludmilla",
+      "Raimund"
+    ],
+    "side_younger": [
+      "Dario",
+      "Elena",
+      "Finn"
+    ],
+    "side_surnames": [
+      "Krenn",
+      "Mittermayr"
+    ],
+    "former_job": "Vertreter für Landmaschinen",
+    "interests": [
+      "Holzschnitzen",
+      "Stockschießen"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Kajetan Stöger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 57
+      },
+      "time_of_day": "Donnerstag, 12:00",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Elena (Nichte)",
+          "text": "Ich erledige für Onkel Kajetan die Anträge bei Krankenkasse und Pension. Wenn er bei Formularen nicht weiterkommt, bitte auf mich verweisen, er soll nichts allein abschicken."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Kajetan, 81, war fast vierzig Jahre Vertreter für Landmaschinen und ist im ganzen Bezirk herumgekommen. Erzählt gern von Bauern, denen er Traktoren verkauft hat. Verheiratet mit Ludmilla."
+        },
+        {
+          "topic": "Haushalt",
+          "text": "Ludmilla ist viel unterwegs: donnerstags hat sie den ganzen Tag Dienst in der Pfarrbücherei und geht danach in der Stadt einkaufen, dazu Turnen und Ausflüge. Kajetan ist dann allein daheim und arbeitet in seiner Werkstatt im Keller."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ist im Jänner auf der vereisten Einfahrt gestürzt, seitdem Probleme mit der linken Schulter. Physiotherapie zweimal pro Woche, Montag und Mittwoch. Hausarzt ist Dr. Krenn. Werfen und schweres Heben sind noch nicht erlaubt."
+        },
+        {
+          "topic": "Familie",
+          "text": "Keine eigenen Kinder. Nichte Elena, Tochter seines Bruders Raimund, wohnt im Nachbarort und kümmert sich um Behördensachen. Ihr Sohn Finn ist acht. Raimund lebt weit weg, sie telefonieren selten."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Schnitzt Tierfiguren aus Lindenholz, zurzeit einen Hirsch für Finn. Ist seit Jahrzehnten beim Stockschützenverein, sein Freund Dietrich ist dort Moarschaft-Kollege. Geschossen wird sonntags am Nachmittag."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Der Nachbar Herr Mittermayr räumt im Winter den Schnee in der Einfahrt, seit dem Sturz."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Kajetan berichtete von der Physiotherapie am Vortag: Er kann den linken Arm inzwischen bis auf Schulterhöhe heben. Er hat wieder vorsichtig am Hirsch für Finn geschnitzt, nur kurze Zeit am Stück. Die Rechnung der Physiotherapie war höher als erwartet, er wusste nicht, wie viel die Kasse zurückzahlt.",
+          "notes": [
+            "Arm hebt sich bis Schulterhöhe",
+            "Schnitzt am Hirsch für Finn",
+            "Unsicher, wie viel die Krankenkasse von der Therapie zahlt"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Kajetan war beim Stockschießen zuschauen, Dietrich hat ihn abgeholt. Es war kalt, aber er war froh, wieder bei der Runde zu sein. Er hofft, im Frühjahr wieder selbst mitschießen zu dürfen.",
+          "notes": [
+            "War beim Stockschießen als Zuschauer",
+            "Dietrich hat ihn mit dem Auto mitgenommen",
+            "Ziel: im Frühjahr wieder selbst schießen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:03",
+        "text": "Ich sitz grad in der Werkstatt und schnitz am Geweih vom Hirsch weiter, den linken Arm halt ganz vorsichtig. Gerade hat die Elena angerufen, wegen der Krankenkasse."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass du am Hirsch weitermachen kannst, Kajetan. Was hat die Elena denn wegen der Krankenkasse gesagt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:05",
+        "text": "Die zahlen die Therapie für die Schulter nur zum Teil zurück, für den Rest muss man extra einen Antrag stellen. Die Elena füllt das aus, und am Samstag kommt sie her, dann muss ich nur noch unterschreiben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist fein, dass die Elena dir das abnimmt. Dann hast du am Samstag auch gleich Besuch."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:08",
+        "text": "Ja, die ist eine Gute. Ich hab früher jeden Tag Kaufverträge geschrieben, für Mähdrescher und alles, aber so ein Antrag heute, den versteht ja kein Mensch mehr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das glaub ich dir, diese Formulare sind oft wirklich umständlich geschrieben. Musst du für Samstag noch etwas herrichten?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Die Rechnungen vom Therapeuten soll ich zusammensuchen. Die hat die Ludmilla irgendwo in eine Lade getan, und die ist heute bis am Abend weg, Bücherei und dann noch einkaufen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann könnt ihr am Abend gemeinsam schauen, wo die Rechnungen liegen. Bis Samstag ist ja noch Zeit."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Stimmt. Der Dietrich hat mich am Sonntag auch schon gefragt, ob ich diese Woche wieder zuschauen komm. Werfen darf ich ja noch nicht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zuschauen ist doch auch schön, da bist du bei der Runde dabei. Wann du wieder selbst werfen darfst, sagt dir der Dr. Krenn am besten."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:16",
+      "text": "Ja, eh. Du, sag, hat die Elena eigentlich schon angerufen wegen dem Antrag? Die wollte sich doch heute melden, und ich hab noch gar nichts von ihr gehört."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "hat die Elena eigentlich schon angerufen wegen dem Antrag? Die wollte sich doch heute melden, und ich hab noch gar nichts von ihr gehört.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Kajetan opened the session by telling Mira that Elena had just called about the insurance form and described the call in detail. Thirteen minutes later he asks whether Elena has called yet and says he has not heard from her. Forgetting a phone call he himself just reported is a genuine short-term memory lapse in his own voice; it cannot be a broadcast or a recognition error, and everything else (shoulder, physiotherapy, Ludmilla's Thursday at the library, Sunday curling) is consistent."
+  }
+}

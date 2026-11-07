@@ -1,0 +1,171 @@
+{
+  "id": "incoherent_user_028",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Im Wissensblock steht „Der nächste Ausflug ist am Samstag, dem Tag nach heute“; ein Gedächtniseintrag bezieht sich nicht auf „heute“, das wirkt generiert. Bitte ändern auf „Der nächste Ausflug ist am Samstag dieser Woche“. Sonst unverändert.",
+    "reviewed_at": "2026-11-06T15:31:17.170064+00:00"
+  },
+  "content_hash": "35ee44a8c06f36f34bbd7e2659706236926024ea404ba060dd6b86819d2e237c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_028",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 14,
+    "time_of_day": "Nachmittag",
+    "weekday": "Freitag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 6,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Albert",
+    "last_name": "Stangl",
+    "side_older": [
+      "Wenzel",
+      "Alma",
+      "Manfred"
+    ],
+    "side_younger": [
+      "Aaron",
+      "Lea",
+      "Leonard"
+    ],
+    "side_surnames": [
+      "Hiebl",
+      "Schwarzlmüller"
+    ],
+    "former_job": "Lagerarbeiter",
+    "interests": [
+      "Ausflüge mit dem Seniorenbund",
+      "Stricken"
+    ],
+    "occasion": "schaut in den Garten oder aufs Wetter hinaus",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Albert Stangl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 14
+      },
+      "time_of_day": "Freitag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Lea (Tochter)",
+          "text": "Papa wird beim Aufstehen manchmal schwindlig, Dr. Hiebl hat deswegen die Blutdrucktabletten umgestellt. Er soll langsam aufstehen und sich gleich hinsetzen, wenn es dreht."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Albert, 84, war über vierzig Jahre Lagerarbeiter bei einem Baustoffhändler. Seit dem Tod seiner Frau Alma vor sechs Jahren lebt er allein im Erdgeschoss seines Hauses."
+        },
+        {
+          "topic": "Familie",
+          "text": "Im Obergeschoss wohnt sein Sohn Leonard mit Familie, darunter Enkel Aaron (15). Tochter Lea wohnt im selben Ort und schaut zwei-, dreimal pro Woche vorbei."
+        },
+        {
+          "topic": "Stricken",
+          "text": "Hat nach Almas Tod mit ihren Nadeln und ihrer Wolle stricken gelernt. Strickt Hauben, Schals und Socken für Familie und Freunde."
+        },
+        {
+          "topic": "Seniorenbund",
+          "text": "Fährt bei fast jedem Ausflug des Seniorenbunds mit. Sein Freund Wenzel hält ihm im Bus immer einen Platz frei. Der nächste Ausflug ist am Samstag, dem Tag nach heute: Bus um neun Uhr vom Kirchenplatz, Ganslessen in Hollerstetten."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwindel beim Aufstehen, Hausarzt Dr. Hiebl. Sonst rüstig, geht täglich in den Garten."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Albert erzählte, dass er für Wenzel eine dunkelgrüne Haube strickt, als Überraschung für den Ausflug des Seniorenbunds. Er hat sich gefreut, dass der Ausflug diesmal zum Ganslessen geht. Am Vormittag hatte ihn beim Aufstehen der Schwindel erwischt, er hat sich gleich wieder hingesetzt.",
+          "notes": [
+            "Strickt dunkelgrüne Haube für Wenzel",
+            "Ausflug des Seniorenbunds zum Ganslessen, Samstag dieser Woche",
+            "Schwindel beim Aufstehen, hat sich hingesetzt"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 5 Tagen",
+          "summary": "Albert war zum Mittagessen bei Lea, Aaron war auch dabei. Er erzählte, dass Aaron ihm am Handy Fotos vom Fußballtraining gezeigt hat. Er wirkte zufrieden und erwähnte, dass er die Rosen im Garten für den Winter einpacken muss.",
+          "notes": [
+            "Mittagessen bei Lea mit Aaron",
+            "Rosen im Garten müssen winterfest gemacht werden"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Was meinst, soll i morgen zum Ausflug den dicken Janker anziehen oder langt die Weste? Draußen im Garten hängt der Nebel heut schon den ganzen Tag so drin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei so einem Novembernebel würde ich eher den dicken Janker nehmen, Albert. Im Bus und in der Gaststube kannst du ihn ja jederzeit ausziehen."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:25",
+        "text": "Jo, eh. Um neun fahrt der Bus beim Kirchenplatz weg, und der Wenzel hält mir an Platz frei. Die Haube für ihn ist gestern fertig worden, die geb i ihm morgen im Bus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird der Wenzel Augen machen. Eine selbstgestrickte Haube für den Winter ist ein schönes Geschenk."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:27",
+        "text": "Dunkelgrün mit am Bommel, so wie er's mag. Aber jetzt muss i mich a bissl hinsetzen, beim Aufstehen vom Sessel vorhin hat's mich wieder so gedreht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du dich gleich hinsetzt. Wenn es dich öfter so dreht, erzähl das ruhig dem Dr. Hiebl, der kann das am besten einschätzen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:31",
+      "text": "Jessas, jetzt fallt mir ein, der Bus ist ja heut in der Früh schon weggefahren, und keiner hat mich geholt. Die sind alle ohne mich gefahren, gell?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "der Bus ist ja heut in der Früh schon weggefahren, und keiner hat mich geholt. Die sind alle ohne mich gefahren, gell?",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Albert has just said twice that the Seniorenbund bus leaves tomorrow at nine and that he will give Wenzel the hat on the bus. Minutes later, after a dizzy spell, he is suddenly convinced the bus left this morning without him. Losing track of which day the trip is, in a way that upsets him, is a genuine disorientation in his own voice and dialect; there is no broadcast phrasing and no plausible recognition error. Everything else (fog in the garden, the jacket, the hat, dizziness when standing up) is consistent with memory."
+  }
+}

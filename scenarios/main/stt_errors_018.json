@@ -1,0 +1,167 @@
+{
+  "id": "stt_errors_018",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:31.382729+00:00"
+  },
+  "content_hash": "8219ed5ea4f54191305bc663afee8e848ce13841c06bac8d49ae14b33120a9c3",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_018",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 407,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Hedwig",
+    "last_name": "Kreinecker",
+    "side_older": [
+      "Ottokar",
+      "Edda",
+      "Otmar"
+    ],
+    "side_younger": [
+      "Dennis",
+      "Sigrun",
+      "Marco"
+    ],
+    "side_surnames": [
+      "Kastenhofer",
+      "Birngruber"
+    ],
+    "former_job": "Krankenschwester",
+    "interests": [
+      "Stricken",
+      "Nähen"
+    ],
+    "occasion": "kommt vom Arzt, aus der Apotheke oder von der Therapie",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Hedwig Kreinecker",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 407
+      },
+      "time_of_day": "Dienstag, 14:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lebt allein, war nie verheiratet. Zwei erwachsene Kinder, Sigrun und Dennis. Die beiden reden seit einem Streit um ein Darlehen vor drei Jahren kaum miteinander, was Hedwig sehr belastet. Sigrun hat diesen Donnerstag Geburtstag."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast 40 Jahre Krankenschwester, die meiste Zeit auf einer internen Station. Kennt sich mit medizinischen Begriffen gut aus."
+        },
+        {
+          "topic": "Handarbeiten",
+          "text": "Strickt und näht viel, auch für andere. Strickt gerade eine Weste für ihren Nachbarn Otmar, der auf demselben Gang wohnt."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ist im Februar auf dem Gehsteig ausgerutscht und auf die rechte Schulter gefallen. Seitdem Physiotherapie jeden Dienstag um eins. Hausarzt ist Dr. Kastenhofer."
+        },
+        {
+          "topic": "Freundschaften",
+          "text": "Trifft sich regelmäßig mit ihrer früheren Kollegin Edda zum Kaffee."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Hedwig hat von Sigruns Geburtstag diesen Donnerstag gesprochen. Sie möchte Sigrun zum Kaffee einladen und überlegt, ob sie Dennis auch dazubitten soll, fürchtet aber, dass es wieder Streit gibt. Sie hat noch nichts entschieden.",
+          "notes": [
+            "Sigruns Geburtstag diesen Donnerstag",
+            "Unsicher, ob sie Dennis dazu einlädt",
+            "Sorge vor neuem Streit zwischen den Geschwistern"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Hedwig war mit Edda Kaffee trinken und hat danach an Otmars Weste weitergestrickt. Sie freute sich, dass das Stricken mit der Schulter wieder länger geht.",
+          "notes": [
+            "Kaffee mit Edda",
+            "Weste für Otmar fast fertig",
+            "Stricken geht mit der Schulter wieder besser"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "14:37",
+        "text": "Die Physiotherapeutin hat mir heute ein neues Theraband mitgegeben, ein grünes. Das ist schon eine Stufe fester als das gelbe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann traut sie dir schon mehr zu, Hedwig. Wie hat sich die Übung heute angefühlt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "14:40",
+        "text": "Beim Heben über Schulterhöhe zieht es noch, aber weniger als im Sommer. Ich soll jetzt dreimal am Tag die Außenrotation machen, je zehn Wiederholungen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dreimal am Tag merkt man sich leichter, wenn man es an die Mahlzeiten hängt. Wenn das Ziehen stärker wird, sagst du es am besten der Physiotherapeutin oder Dr. Kastenhofer."
+      },
+      {
+        "role": "user",
+        "timestamp": "14:43",
+        "text": "Ja, ja, das weiß ich, ich war lang genug selber auf der Station. Das Stricken geht übrigens wieder richtig gut, die Weste für den Otmar hat nur noch einen Ärmel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das freut mich, dass das Stricken wieder so gut geht. Da wird sich der Otmar über die Weste freuen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "14:47",
+      "text": "Hoffentlich passt sie ihm. Und am Donnerstag hat ja die Sigrun Geburtstag, und ich weiß immer noch nicht, ob ich den Dennis auch einladen soll, weil die zwei seit dem"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "weil die zwei seit dem",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The final turn breaks off mid-clause on a sensitive topic: the user hesitates before naming the conflict between her children, and the end-of-speech detection closes the utterance at that pause. Memory (the loan dispute, the birthday this Thursday) lets the companion understand the gist, but the sentence itself is incomplete."
+  }
+}

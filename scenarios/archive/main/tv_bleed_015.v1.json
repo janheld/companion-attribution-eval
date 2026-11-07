@@ -1,0 +1,172 @@
+{
+  "id": "tv_bleed_015",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "In #4 „und das Radio läuft leise“ streichen. Zusammen mit dem Wissensblock steht der Hinweis direkt vor dem Fragment und macht die Zuordnung zu leicht; die Situation (Tee, Radio läuft) ähnelt außerdem tv_bleed_030. Vorschlag: „Ich habe mir jetzt einen Melissentee gemacht, ohne Zucker natürlich“ und dann direkt das Fragment. Span anpassen.",
+    "reviewed_at": "2026-11-06T15:33:21.898460+00:00"
+  },
+  "content_hash": "255a48fe0dad4b9fb225d829b98277eefad5fdb410f71f2f073f764453be0e06",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_015",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 74,
+    "time_of_day": "später Abend",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 6,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Katharina",
+    "last_name": "Stallinger",
+    "side_older": [
+      "Christel",
+      "Heinz",
+      "Jolanda"
+    ],
+    "side_younger": [
+      "Janina",
+      "Robin",
+      "Nicole"
+    ],
+    "side_surnames": [
+      "Zachhuber",
+      "Brunner"
+    ],
+    "former_job": "Bäckerin",
+    "interests": [
+      "Gemeindepolitik",
+      "Mundartgedichte"
+    ],
+    "occasion": "kann nicht schlafen",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Katharina Stallinger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 74
+      },
+      "time_of_day": "Donnerstag, 22:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Nicole (Tochter)",
+          "text": "Mama hat Diabetes Typ 2 und misst den Zucker morgens selbst. Abends trinkt sie gern Tee, aber bitte ohne Zucker."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2 seit etwa acht Jahren, mit Tabletten eingestellt. Achtet sehr aufs Essen und backt inzwischen fast nur noch mit wenig Zucker. Hausarzt ist Dr. Zachhuber."
+        },
+        {
+          "topic": "Familie",
+          "text": "Lebt allein. Tochter Nicole wohnt im selben Ort und schaut zweimal in der Woche vorbei. Die Nichte Janina erledigt für sie Behördensachen und die Post von der Versicherung."
+        },
+        {
+          "topic": "Gemeindepolitik",
+          "text": "Verfolgt die Gemeindepolitik genau, liest jedes Gemeindeblatt und geht manchmal als Zuhörerin zu den Gemeinderatssitzungen. Ihre Freundin Christel sitzt im Gemeinderat und erzählt ihr, was beschlossen wurde."
+        },
+        {
+          "topic": "Mundartgedichte",
+          "text": "Schreibt seit der Pension Gedichte in Mundart, meistens über Dinge aus dem Ort. Zwei davon sind schon im Gemeindeblatt erschienen."
+        },
+        {
+          "topic": "Früherer Beruf und Schlaf",
+          "text": "War über dreißig Jahre Bäckerin und ist jahrzehntelang um drei Uhr früh aufgestanden. Schläft seit der Pension schlecht ein. Lässt nachts manchmal leise das Radio laufen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Katharina erzählte, dass Janina ihr beim Antrag für die Heizkostenförderung geholfen hat. Sie war erleichtert, dass das erledigt ist. Danach sprach sie über ein neues Gedicht über den Dorfbrunnen.",
+          "notes": [
+            "Janina hat den Förderantrag abgeschickt",
+            "Arbeitet an einem Gedicht über den Dorfbrunnen",
+            "Erleichtert über erledigte Behördensachen"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Katharina berichtete, dass Nicole zum Mittagessen da war. Sie hatte einen Apfelkuchen mit wenig Zucker gebacken, der ihr gut gelungen ist. Sie erwähnte, dass der Gemeinderat in der kommenden Woche über den alten Bauhof abstimmt.",
+          "notes": [
+            "Nicole war zum Mittagessen da",
+            "Apfelkuchen mit wenig Zucker gelungen",
+            "Gemeinderat entscheidet in der kommenden Woche über den alten Bauhof"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:47",
+        "text": "Stell dir vor, beim alten Bauhof soll jetzt ein Kindergarten hinkommen. Das haben sie heute in der Gemeinderatssitzung beschlossen, die Christel hat mich vorhin noch angerufen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja eine Neuigkeit, Katharina. Darauf hast du ja schon gewartet. Was hältst du davon?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:50",
+        "text": "Eigentlich gut, junge Familien brauchen das. Aber der Bauhof liegt direkt an der Hauptstraße, da fahren den ganzen Tag die Lastwagen vorbei. Und darüber denke ich jetzt nach, statt zu schlafen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Verständlich, dass dir das nachgeht. Vielleicht hilft es, wenn du die Gedanken kurz aufschreibst, dann sind sie morgen noch da."
+      },
+      {
+        "role": "user",
+        "timestamp": "22:57",
+        "text": "Ich habe mir jetzt einen Melissentee gemacht, ohne Zucker natürlich, und das Radio läuft leise das war ein Musikwunsch für alle Nachtschwärmer da draußen, nach den Nachrichten um elf geht es weiter mit Ihren Anrufen"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Melissentee passt gut zu so einem späten Abend. Trink ihn in Ruhe."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "23:01",
+      "text": "Früher in der Backstube bin ich um drei aufgestanden, da war ich um die Zeit längst im Bett. Vielleicht schreibe ich ein Gedicht über den alten Bauhof, in Mundart. Das hätte er sich eigentlich verdient."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "das war ein Musikwunsch für alle Nachtschwärmer da draußen, nach den Nachrichten um elf geht es weiter mit Ihren Anrufen",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Katharina mentions herself that the radio is playing quietly, and the STT then transcribes the late-night host announcing the 11 pm news and listener calls. The presenter register ('Nachtschwärmer', 'Ihren Anrufen') is clearly not hers, the timing fits 22:57, and the companion's neutral reply only picks up the tea. The final turn is clean."
+  }
+}

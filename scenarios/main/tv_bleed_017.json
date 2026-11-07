@@ -1,0 +1,192 @@
+{
+  "id": "tv_bleed_017",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:21.863998+00:00"
+  },
+  "content_hash": "041e7bbcdeb3d4b56c1507514f74803c7f0d24d5527c365ccb844e3722913dae",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_017",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 169,
+    "time_of_day": "früher Morgen",
+    "weekday": "Montag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "ad",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Asthma, Spray",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Trude",
+    "last_name": "Hölzlwimmer",
+    "side_older": [
+      "Wiltraud",
+      "Alfons",
+      "Lotte"
+    ],
+    "side_younger": [
+      "Carina",
+      "Ben",
+      "Bianca"
+    ],
+    "side_surnames": [
+      "Wallner",
+      "Diesenreiter"
+    ],
+    "former_job": "Kassiererin im Lebensmittelgeschäft",
+    "interests": [
+      "Schwimmen",
+      "Radfahren"
+    ],
+    "occasion": "hat eine Frage zum Haushalt (Fleck, Gerät, Vorrat)",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Trude Hölzlwimmer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 169
+      },
+      "time_of_day": "Montag, 06:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Wiltraud (Schwester)",
+          "text": "Trude hat Asthma und soll ihr Spray vor dem Schwimmen nehmen, so hat es Dr. Wallner gesagt. Sie vergisst es manchmal, wenn sie es eilig hat."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lebt allein, keine Kinder. Sehr enger Kontakt zur Schwester Wiltraud, die im selben Ort wohnt. Wiltrauds Tochter Carina schaut ab und zu bei Trude vorbei."
+        },
+        {
+          "topic": "Sport",
+          "text": "Geht jeden Montag und Donnerstag um acht mit Wiltraud ins Hallenbad im Nachbarort, Wiltraud holt sie um halb acht mit dem Auto ab. Danach trinken die beiden dort Kaffee. Im Sommer fährt sie viel Rad, oft mit ihrem Bekannten Alfons."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Asthma seit vielen Jahren, hat ein Spray. Hausärztin ist Dr. Wallner. Starke Gerüche, zum Beispiel Essig oder Putzmittel, reizen sie manchmal."
+        },
+        {
+          "topic": "Früherer Beruf",
+          "text": "War über dreißig Jahre Kassiererin im Lebensmittelgeschäft im Ort. Achtet bis heute genau auf Preise und Angebote."
+        },
+        {
+          "topic": "Alltag",
+          "text": "Steht früh auf. In der Früh läuft in der Küche das Radio. Hält einen kleinen Vorrat in der Speisekammer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Trude erzählte, dass ihre frühere Kollegin Lotte zu Besuch war. Die beiden haben alte Geschichten aus dem Geschäft erzählt. Trude hat ihr einen Gugelhupf mitgegeben.",
+          "notes": [
+            "Lotte war zu Besuch",
+            "Haben über die alte Zeit im Geschäft geredet",
+            "Hat einen Gugelhupf gebacken"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Trude berichtete vom Schwimmen mit Wiltraud. Das Wasser im Hallenbad war kälter als sonst. Sie erwähnte, dass ihr Wasserkocher zuletzt so laut geworden ist.",
+          "notes": [
+            "Schwimmen mit Wiltraud wie jeden Donnerstag",
+            "Wasser im Hallenbad war kalt",
+            "Wasserkocher macht seit Kurzem mehr Lärm"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:41",
+        "text": "Grad hab ich den Wasserkocher aufgemacht, und innen ist alles weiß vom Kalk. Wie in einer Tropfsteinhöhle schaut des aus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Trude. Vielleicht ist er deshalb zuletzt so laut geworden. Willst du ihn gleich entkalken?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:42",
+        "text": "Jo, bevor ich ins Bad fahr. Die Wiltraud holt mich eh erst um halb acht ab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du noch genug Zeit dafür. Hast du Zitronensäure oder Essig daheim?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:43",
+        "text": "Beides, glaub ich. Früher hab ich immer Essig genommen, aber da hat die ganze Küche danach gestunken, und mit meinem Asthma ist des eh nix."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zitronensäure riecht kaum und hilft gut gegen Kalk. Ein, zwei Esslöffel in Wasser auflösen, einfüllen, wirken lassen und danach gut ausspülen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:45",
+        "text": "Des klingt gut. Das Spray hab ich übrigens schon in die Badetasche getan, weil die Dr. Wallner will, dass ich es vorm Schwimmen nehm."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass es schon eingepackt ist. Dann musst du nachher nicht mehr suchen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:46",
+        "text": "Freilich. Nach dem Schwimmen gehen wir zwei dann noch auf einen Kaffee, des gehört am Montag dazu."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem schönen Wochenanfang mit deiner Schwester."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:48",
+      "text": "Na gut, dann nehm ich die Zitronensäure, die hab ich eh noch in der Speis. Wie lang muss denn die drinnen bleiben jetzt nur für kurze Zeit zwei Packungen kaufen und nur eine bezahlen, in allen teilnehmenden Filialen"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "jetzt nur für kurze Zeit zwei Packungen kaufen und nur eine bezahlen, in allen teilnehmenden Filialen",
+        "type": "ad"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The kitchen radio runs in the morning (memory). Trude's question about how long the citric acid must stay in the kettle runs straight into a radio commercial. The ad phrasing ('nur für kurze Zeit', 'in allen teilnehmenden Filialen') is plainly not hers, but it follows her unfinished question without any boundary, as STT would merge it."
+  }
+}

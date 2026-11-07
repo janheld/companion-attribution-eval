@@ -1,0 +1,197 @@
+{
+  "id": "tv_bleed_009",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:05.193652+00:00"
+  },
+  "content_hash": "3329abeb9d2adc989c32bcd718798afbee4ee40204b0407ab719362b4ebce9af",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_009",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 7,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "traffic",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Franz-Josef",
+    "last_name": "Hochreiter",
+    "side_older": [
+      "Angela",
+      "Valentin",
+      "Eva"
+    ],
+    "side_younger": [
+      "Emilia",
+      "Tobias",
+      "Carmen"
+    ],
+    "side_surnames": [
+      "Ziegler",
+      "Wolfsegger"
+    ],
+    "former_job": "Kellner",
+    "interests": [
+      "Nordic Walking",
+      "Hühner halten"
+    ],
+    "occasion": "kommt von einem Spaziergang zurück",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Franz-Josef Hochreiter",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 7
+      },
+      "time_of_day": "Dienstag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Franz-Josef war über vierzig Jahre Kellner, zuletzt Oberkellner in einem Hotel in der Bezirksstadt. Er ist mit Angela verheiratet; sie ist viel außer Haus, dienstags und donnerstags bei der Tafel im Nachbarort und oft bei ihrer Schwester Eva."
+        },
+        {
+          "topic": "Hühner",
+          "text": "Hält acht Hühner im Garten hinterm Haus, mit Stall und eingezäuntem Auslauf. Verkauft Eier an die Nachbarn."
+        },
+        {
+          "topic": "Nordic Walking",
+          "text": "Geht fast täglich am frühen Nachmittag Nordic Walking, unter der Woche allein über die Feldwege, am Wochenende oft mit seinem Freund Valentin."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Emilia wohnt im Nachbarort und kommt jeden Freitag mit ihrem Sohn Tobias zum Mittagessen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörig, trägt seit drei Jahren Hörgeräte auf beiden Seiten. Im Freien und bei Wind versteht er schlechter. Dreht Radio und Fernseher gern laut auf."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Franz-Josef hat erzählt, dass er mit Valentin eine längere Runde gewalkt ist. Eines der Hühner legt seit einer Woche nicht mehr, er vermutet die Mauser. Angela war über das Wochenende bei Eva.",
+          "notes": [
+            "Lange Walkingrunde mit Valentin",
+            "Ein Huhn legt nicht, vermutlich Mauser",
+            "Angela übers Wochenende bei ihrer Schwester Eva"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Franz-Josef war beim Hörakustiker zum Nachjustieren der Hörgeräte. Es pfeift jetzt weniger, aber Gespräche in größeren Runden bleiben für ihn anstrengend. Er hat erwähnt, dass er deshalb lieber zu zweit unterwegs ist als in der Gruppe.",
+          "notes": [
+            "Hörgeräte nachjustiert, weniger Pfeifen",
+            "Gruppengespräche anstrengend",
+            "Lieber zu zweit unterwegs"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Stell dir vor, beim Walken hab i heut einen Fuchs gesehen, keine hundert Meter vom Hühnerstall weg, am helllichten Tag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Am helllichten Tag, das ist wirklich ungewöhnlich, Franz-Josef. Wo genau war er denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:24",
+        "text": "Unten beim Bach, wo der Feldweg rauf zu uns geht. Der hat mich angeschaut und ist dann ganz gemütlich ins Gebüsch, wie wenn ihm das alles gehört."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der hat sich von dir anscheinend nicht stören lassen. Sind deine Hühner jetzt im Stall?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:27",
+        "text": "Jo, die hab i gleich eingesperrt, wie i heimgekommen bin. Die waren eh schon ganz aufgeregt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass sie jetzt sicher drinnen sind. Wie ist denn der Zaun beim Auslauf, ist der gut im Boden eingegraben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:30",
+        "text": "Eingegraben schon, aber hinten beim Kompost ist er a bissl locker. Das wollt i eh schon lang richten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist jetzt ein guter Anlass dafür. Hast du das Material daheim, oder musst du erst etwas besorgen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:33",
+        "text": "Draht hab i noch in der Garage. Vielleicht frag i auch den Herrn Wolfsegger, der ist Jäger, der weiß, worauf man da schauen muss."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Idee, ein Jäger kennt sich mit Füchsen aus. Er kann dir sicher sagen, wo so ein Zaun am ehesten nachgibt."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:36",
+        "text": "Die Angela ist heut eh bis am Abend bei der Tafel, da hab i Zeit genug für den Zaun."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du den Nachmittag für dich und die Hühner. Fang aber nicht zu spät an, im November wird es früh finster."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:40",
+      "text": "Jetzt schau i halt, dass i den Zaun hinten noch abgeh, bevor's dunkel wird. Auf der Landesstraße zwischen Lerchenmoosöd und Finkhaselbrunn nach einem Auffahrunfall stockender Verkehr, bitte fahren Sie vorsichtig."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "Auf der Landesstraße zwischen Lerchenmoosöd und Finkhaselbrunn nach einem Auffahrunfall stockender Verkehr, bitte fahren Sie vorsichtig.",
+        "type": "traffic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Franz-Josef, who is hard of hearing and keeps the kitchen radio loud, has the regional traffic report running. It lands right after his own sentence about checking the fence, with a plausible sentence boundary. Formal 'Sie', invented road and place names and the report formula mark it as broadcast, but nothing labels it."
+  }
+}

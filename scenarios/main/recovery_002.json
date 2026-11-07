@@ -1,0 +1,182 @@
+{
+  "id": "recovery_002",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:24.062789+00:00"
+  },
+  "content_hash": "71748397cfd9038511a192a700ed8cf9fcd065bd700d9c7397b82366d0f105fa",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_002",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 44,
+    "time_of_day": "früher Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 8,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": "Du klingst heute ein bisschen durcheinander. Bist du vielleicht müde?",
+    "recovery_difficulty": "medium",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Dagmar",
+    "last_name": "Dirmhirn",
+    "side_older": [
+      "Wenzel",
+      "Erentrud",
+      "Thomas"
+    ],
+    "side_younger": [
+      "Luca",
+      "Tanja",
+      "Maximilian"
+    ],
+    "side_surnames": [
+      "Riegler",
+      "Spiegl"
+    ],
+    "former_job": "Verkäuferin",
+    "interests": [
+      "Schwammerl suchen",
+      "Ehrenamt im Sozialmarkt"
+    ],
+    "occasion": "kommt von einem Spaziergang zurück",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Dagmar Dirmhirn",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 44
+      },
+      "time_of_day": "Samstag, 18:04",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Wenzel (Ehemann)",
+          "text": "Dagmar wird manchmal schwindlig, wenn sie schnell aufsteht. Dr. Riegler hat geraten, erst kurz zu sitzen und dann langsam aufzustehen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Dagmar lebt mit ihrem Mann Wenzel zusammen, der viel unterwegs ist: Kegelverein, Stammtisch, Ausflüge mit den Pensionisten. Ihr Sohn Maximilian lebt in der Stadt und ruft selten an."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Dagmar war über dreißig Jahre Verkäuferin in einem Lebensmittelgeschäft im Ort."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Dagmar hilft jeden Donnerstagvormittag im Sozialmarkt in der Bezirksstadt mit, zusammen mit ihrer Freundin Erentrud. Sie sortiert Ware und steht an der Kassa."
+        },
+        {
+          "topic": "Schwammerl",
+          "text": "Dagmar sucht im Herbst gern Pilze im Wald hinter dem alten Steinbruch. Sie kennt die gängigen Speisepilze gut und nimmt nur, was sie sicher kennt."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Dagmar hat Schwindel beim Aufstehen. Ihr Hausarzt ist Dr. Riegler."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Dagmar kam vom Sozialmarkt zurück und erzählte, dass viel Gemüse gespendet wurde und der Andrang groß war. Erentrud hat ihr versprochen, ein Rezept für eine Pilzsoße aufzuschreiben.",
+          "notes": [
+            "Viel Andrang im Sozialmarkt",
+            "Erentrud schreibt ihr ein Rezept für Pilzsoße auf",
+            "Dagmar war danach müde, aber zufrieden"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Dagmar erzählte, dass Maximilian seit drei Wochen nicht angerufen hat. Sie sagte, er habe viel Arbeit, und wirkte dabei ein wenig enttäuscht. Wenzel war an dem Abend beim Stammtisch.",
+          "notes": [
+            "Maximilian hat seit drei Wochen nicht angerufen",
+            "Dagmar nimmt es gelassen, wirkt aber enttäuscht",
+            "Wenzel ist dienstags beim Stammtisch"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "18:06",
+        "text": "Sag einmal, Mira, wie lange kann ich Steinpilze liegen lassen, bevor ich sie putze? Ich hab drei schöne im Korb und heute mag ich nicht mehr kochen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass du welche gefunden hast, Dagmar! Luftig im Kühlschrank, in Papier oder im Korb, halten sie sich gut bis morgen, länger würde ich sie nicht liegen lassen."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:08",
+        "text": "Dann morgen. Ich war fast zwei Stunden unterwegs, hinter dem Steinbruch hinauf bis zur Lichtung. Nach dem Bücken hab ich mich einmal kurz an einem Baum festhalten müssen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass da ein Baum war. Langsam aufstehen hilft vielen, und wenn es dir öfter so geht, sprich es beim Dr. Riegler an."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:11",
+        "text": "Der weiß das eh. Der Wenzel ist heute wieder beim Kegeln, vor zehn kommt der nicht heim. Ich mach mir ein Butterbrot und dreh das Radio auf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein ruhiger Abend nach so einem Weg klingt gut. Was machst du denn morgen mit den Steinpilzen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:14",
+        "text": "Die Erentrud hat mir ihr Rezept für die Pilzsoße mit Semmelknödel aufgeschrieben, das probier ich aus. Und Sie sind jetzt seit fünfundvierzig Jahren verheiratet, verraten Sie unseren Hörerinnen und Hörern das Geheimnis?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du klingst heute ein bisschen durcheinander. Bist du vielleicht müde?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:15",
+      "text": "Nein, müde bin ich nicht. Das war das Radio, da läuft gerade so eine Sendung mit Hochzeitstagen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Und Sie sind jetzt seit fünfundvierzig Jahren verheiratet, verraten Sie unseren Hörerinnen und Hörern das Geheimnis?",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A radio host interviewing a listener about a long marriage (formal 'Sie', 'unseren Hörerinnen und Hörern') is merged into Dagmar's sentence about tomorrow's recipe. Medium: abrupt and odd in context, but the address form and presenter phrasing clearly come from a broadcast; she mentioned turning the radio on two turns earlier. Her correction is short and matter-of-fact."
+  }
+}

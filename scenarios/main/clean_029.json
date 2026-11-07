@@ -1,0 +1,157 @@
+{
+  "id": "clean_029",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:15:03.589236+00:00"
+  },
+  "content_hash": "b387d9d3229eab8d2803fafdaeb57abab721a0fac971bd3d60f40b9dd6fa2b53",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_029",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 28,
+    "time_of_day": "früher Morgen",
+    "weekday": "Samstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Schlafprobleme",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Willibald",
+    "last_name": "Hackl",
+    "side_older": [
+      "Hermine",
+      "Meinrad",
+      "Edda"
+    ],
+    "side_younger": [
+      "Silke",
+      "Emanuel",
+      "Jacqueline"
+    ],
+    "side_surnames": [
+      "Gahleitner",
+      "Buchinger"
+    ],
+    "former_job": "Steuerberater",
+    "interests": [
+      "Kartenspielen",
+      "Ausflüge mit dem Seniorenbund"
+    ],
+    "occasion": "schaut in den Garten oder aufs Wetter hinaus",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Willibald Hackl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 28
+      },
+      "time_of_day": "Samstag, 06:50",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenssituation",
+          "text": "Willibald lebt allein in einem kleinen Haus mit Garten am Ortsrand, war nie verheiratet. Er hat ein Patenkind, Silke, die ihm regelmäßig Karten schreibt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War bis zur Pension Steuerberater mit eigener Kanzlei. Ordnet bis heute gern Unterlagen und rechnet alles genau nach."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Spielt gern Schnapsen, besonders mit Meinrad und Edda. Fährt regelmäßig bei den Ausflügen des Seniorenbunds mit, die Ausflüge beginnen meist um halb neun beim Gemeindeamt."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schlafprobleme, wacht oft zwischen vier und fünf Uhr auf. Hausarzt ist Dr. Gahleitner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Willibald erzählte, dass er sich für den Ausflug des Seniorenbunds auf den Moosbrandlkogel angemeldet hat, der in zwei Tagen stattfindet. Er freut sich auf das Mittagessen in der Hütte und auf das Kartenspielen im Bus.",
+          "notes": [
+            "Ausflug des Seniorenbunds in zwei Tagen",
+            "Ziel: Moosbrandlkogel mit Mittagessen in der Hütte",
+            "Kartenspielen im Bus mit Meinrad und Edda"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 3 Tagen",
+          "summary": "Willibald erzählte, dass er wieder schon um halb fünf wach war. Er will das frühe Aufwachen beim Termin bei Dr. Gahleitner nächste Woche ansprechen. Außerdem ist eine Karte von seinem Patenkind Silke gekommen, die gerade umgezogen ist.",
+          "notes": [
+            "Wacht oft um halb fünf auf",
+            "Will das beim Hausarzttermin nächste Woche ansprechen",
+            "Karte von Patenkind Silke, sie ist umgezogen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:52",
+        "text": "Jetzt wird's grad hell, und draußen ist alles weiß vom Reif. Sogar das Vogelhäusl hat a weiße Haube."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der erste richtige Reif, das schaut sicher schön aus. Bist du schon länger auf, Willibald?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:54",
+        "text": "Seit halb fünf, wie halt meistens. Hab einen Tee getrunken und die Zeitung von gestern noch einmal durchgeblättert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das frühe Aufwachen ist auf Dauer mühsam. Gut, dass du das nächste Woche beim Dr. Gahleitner ansprechen willst, der kann das am besten einschätzen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:57",
+        "text": "Jo, des mach i. Heut ist eh der Ausflug, um halb neun fahrt der Bus beim Gemeindeamt weg, rauf auf den Moosbrandlkogel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du ja einen schönen Tag vor dir. Spielt ihr im Bus wieder Karten?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:59",
+      "text": "Freilich, mit dem Meinrad und der Edda. Aber sag, was zieht man da am gescheitesten an, wenn man zuerst im warmen Bus sitzt und oben dann im Wind steht?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean conversation: an early riser with sleep problems looks out at the first frost at dawn and, before a seniors' club bus trip, asks for practical clothing advice. Short, coherent and consistent with memory (sleep issue, trip date, card partners)."
+  }
+}

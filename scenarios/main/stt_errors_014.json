@@ -1,0 +1,172 @@
+{
+  "id": "stt_errors_014",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:24.841894+00:00"
+  },
+  "content_hash": "ed945dc1db93086947d111bc8b602467c3dcdc4a0b3ba6a62c7cf7879523caf5",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_014",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 3,
+    "time_of_day": "Nachmittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Hanna",
+    "last_name": "Zehetner",
+    "side_older": [
+      "Ingomar",
+      "Hermelinde",
+      "Valentin"
+    ],
+    "side_younger": [
+      "Robert",
+      "Nina",
+      "Julian"
+    ],
+    "side_surnames": [
+      "Hinterreiter",
+      "Schaumberger"
+    ],
+    "former_job": "Musiklehrerin",
+    "interests": [
+      "Obstbäume und Veredeln",
+      "Häkeln und Sticken"
+    ],
+    "occasion": "sitzt gerade an einem Hobby",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Hanna Zehetner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 3
+      },
+      "time_of_day": "Sonntag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Julian (Sohn)",
+          "text": "Mama soll beim Obstbaumschnitt nicht mehr auf die Leiter steigen, die Schulter ist seit dem Sturz im Jänner noch nicht ganz belastbar. Die hohen Äste mache ich, wenn ich komme."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, ihr Mann Ingomar ist vor sechs Jahren gestorben. Zwei Söhne: Robert arbeitet seit Jahren als Ingenieur in Schweden und ruft alle zwei Wochen an; Julian wohnt in der Bezirksstadt. Julians Tochter Nina ist 27."
+        },
+        {
+          "topic": "Obstbäume",
+          "text": "Hat neun alte Obstbäume hinter dem Haus und veredelt seit Jahrzehnten alte Apfel- und Birnensorten. Tauscht Edelreiser mit der Nachbarin Hermelinde."
+        },
+        {
+          "topic": "Handarbeiten",
+          "text": "Häkelt und stickt viel, vor allem Decken, Deckchen und Geschenke für die Familie."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 35 Jahre Musiklehrerin an der Hauptschule, spielt noch Klavier."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ist im Jänner auf Glatteis gestürzt, seitdem Probleme mit der linken Schulter. Physiotherapie am Mittwoch. Hausarzt ist Dr. Hinterreiter."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 1 Tag",
+          "summary": "Hanna hat erzählt, dass sie mit der Nachbarin Hermelinde die Bäume angeschaut hat und im Februar zwei alte Birnensorten veredeln möchte. Sie ärgert sich, dass sie wegen der Schulter nicht mehr selber auf die Leiter darf, sieht es aber ein.",
+          "notes": [
+            "Plant im Februar zwei Birnensorten zu veredeln",
+            "Hermelinde hilft beim Schauen der Bäume",
+            "Steigt wegen der Schulter nicht mehr auf die Leiter"
+          ]
+        },
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Erstes Gespräch. Hanna hat sich vorgestellt: frühere Musiklehrerin, verwitwet seit Ingomars Tod vor sechs Jahren. Sie erzählte von ihren Söhnen Robert in Schweden und Julian in der Bezirksstadt und von der Enkelin Nina. Sie häkelt gerne und hat gerade Wolle gekauft.",
+          "notes": [
+            "Sohn Robert lebt in Schweden, Sohn Julian in der Bezirksstadt",
+            "Enkelin Nina, 27",
+            "Häkelt und stickt gern"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Stell dir vor, die Nina bekommt ein Baby. Sie hat es mir vorhin am Telefon erzählt, im April soll es so weit sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja eine schöne Nachricht, Hanna! Dann wirst du Urgroßmutter. Wie geht es der Nina?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:25",
+        "text": "Gut, sie freut sich riesig. Und ich hab gleich die Wolle herausgesucht und sitz schon da, ich häkle eine Decke für den Kinderwagen. Und eine zu Zell Kette mach ich auch noch, mit Holzperlen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du dir ja gleich was vorgenommen. Welche Farben hast du für die Decke genommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:30",
+        "text": "Ein helles Gelb und Weiß, man weiß ja noch nicht, was es wird. Nur die Schulter, nach einer Stunde muss ich eine Pause machen, sonst zieht es bis in den Nacken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann sind die Pausen sicher gut. Wenn das Ziehen öfter kommt, frag am Mittwoch bei der Physiotherapie, was dir beim Häkeln die Schulter entlastet."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:33",
+      "text": "Das mach ich. Ich hab mir übrigens überlegt, ob ich auf die Decke noch den Namen draufsticke, aber den wissen sie ja selber noch nicht."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "eine zu Zell Kette",
+        "type": "stt_dialect"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user says 'Zuzelkette', the Austrian regional word for a pacifier chain, which crocheters often make with wooden beads. A standard German STT model does not know 'Zuzel' and splits it into the known words 'zu Zell', a typical wrong word boundary. The context (baby, crochet, wooden beads) makes the intended word recoverable; the companion just responds to the blanket."
+  }
+}

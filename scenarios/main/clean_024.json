@@ -1,0 +1,181 @@
+{
+  "id": "clean_024",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:14:54.775437+00:00"
+  },
+  "content_hash": "a215031fecaf78cc9cf6510a53bc818fba0375c9cde946969f6c798f25a5dbe9",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_024",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 254,
+    "time_of_day": "Vormittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 10,
+    "health": "Asthma, Spray",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Angelika",
+    "last_name": "Vogl",
+    "side_older": [
+      "Ägidius",
+      "Philomena",
+      "Emil"
+    ],
+    "side_younger": [
+      "Gabriel",
+      "Christiane",
+      "Fabio"
+    ],
+    "side_surnames": [
+      "Freudenthaler",
+      "Pramhas"
+    ],
+    "former_job": "Hilfsarbeiterin am Bau",
+    "interests": [
+      "Bienen",
+      "Schach"
+    ],
+    "occasion": "gerade vom Einkaufen oder vom Markt zurück",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Angelika Vogl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 254
+      },
+      "time_of_day": "Mittwoch, 10:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Angelika war nie verheiratet und hat keine Kinder. Sie steht ihrer Schwester Philomena sehr nahe, die im Nachbarort wohnt. Die beiden telefonieren fast jeden Tag."
+        },
+        {
+          "topic": "Bienen",
+          "text": "Angelika hat vier Bienenvölker hinter dem Haus und imkert seit über zwanzig Jahren. Den Honig verschenkt sie meistens oder backt damit."
+        },
+        {
+          "topic": "Schach",
+          "text": "Angelika spielt regelmäßig Schach mit ihrem Bekannten Emil, abwechselnd bei ihr und bei ihm. Sie verliert öfter, als ihr lieb ist, und nimmt es mit Humor."
+        },
+        {
+          "topic": "Früher",
+          "text": "Angelika hat jahrzehntelang als Hilfsarbeiterin am Bau gearbeitet, vor allem beim Mauern und Betonieren. Sie ist körperlich noch recht kräftig."
+        },
+        {
+          "topic": "Gesundheit und Alltag",
+          "text": "Asthma, nimmt ein Spray. Bei kalter Luft muss sie öfter husten. Mittwochvormittag geht sie zu Fuß auf den Wochenmarkt in der Stadt. Hausärztin ist Dr. Pramhas."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Angelika erzählte, dass sie die Bienenstöcke zum letzten Mal vor dem Winter kontrolliert hat. Die Völker haben genug Futter und sitzen schon eng zusammen.",
+          "notes": [
+            "Letzte Kontrolle der Bienenstöcke vor dem Winter",
+            "Genug Futter in allen vier Völkern",
+            "Mäusegitter angebracht"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Angelika sprach mit Philomena über deren siebzigsten Geburtstag. Sie will ihr einen Honigkuchen backen, nach dem Rezept ihrer Mutter.",
+          "notes": [
+            "Philomena wird siebzig",
+            "Angelika will Honigkuchen nach Mutters Rezept backen",
+            "Feier im kleinen Kreis bei Philomena"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:07",
+        "text": "So, des Zeug ist ausgepackt. Am Markt war heut wenig los, die Hälfte von den Standln war gar net da."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei der Kälte bleiben wohl manche daheim, Angelika. Hast du trotzdem alles bekommen, was du gebraucht hast?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:09",
+        "text": "Fast. Lauch, Äpfel und ein Stück Bergkäse hab i. Nur der Bauer mit den Eiern war net da, jetzt hab i keine Eier für den Kuchen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ärgerlich, wenn man gerade deswegen hingeht. Ist das der Honigkuchen für die Philomena?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Genau der. Am Samstag feiert sie, siebzig wird's. Und i hab ihr versprochen, dass i den von der Mutter mach."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein schöner runder Geburtstag. Mit deinem eigenen Honig wird der Kuchen sicher etwas Besonderes."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:15",
+        "text": "Jo, vom Sommerhonig hab i noch drei Gläser. Die Bienen brauchen jetzt eh nix mehr, die sitzen schon in der Traube."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann haben sie sich ihre Ruhe verdient. Schaust du im Winter trotzdem ab und zu nach ihnen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:18",
+        "text": "Nur von außen. I heb hinten die Kisten a bissl an, dann merk i, ob noch genug Futter drin ist. Aufmachen tu i jetzt nix mehr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Methode, da musst du sie nicht stören. Und mit deinen Händen spürst du das Gewicht sicher genau."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:21",
+      "text": "Freilich, i hab ja lang genug Zementsäcke geschleppt. Aber jetzt zum Kuchen: meinst, i kann den auch ohne Eier backen? Ein Joghurt hätt i noch im Kühlschrank."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean mid-morning conversation right after the weekly market: a missing egg stand threatens the honey cake for the sister's 70th birthday. Beekeeping in winter and her former building-site work come up naturally, and the final turn asks a practical baking question, a typical request to a voice companion."
+  }
+}

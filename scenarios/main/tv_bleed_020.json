@@ -1,0 +1,168 @@
+{
+  "id": "tv_bleed_020",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:48:26.583573+00:00"
+  },
+  "content_hash": "3198f339bd32e4ea9aa3ebb1e47e6d9042a54ea75ee6d9e0693bac54fc059b27",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Bernadette",
+    "last_name": "Kranzl",
+    "side_older": [
+      "Siegmund",
+      "Aurelia",
+      "Eduard"
+    ],
+    "side_younger": [
+      "Robert",
+      "Elena",
+      "Magnus"
+    ],
+    "side_surnames": [
+      "Gradinger",
+      "Scharinger"
+    ],
+    "id": "tv_bleed_020",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 222,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 6,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Apothekenhelferin",
+    "interests": [
+      "Chor",
+      "Kräuter und Hausmittel"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Bernadette Kranzl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 222
+      },
+      "time_of_day": "Donnerstag, 10:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Elena (Tochter)",
+          "text": "Mama hat wieder öfter Gicht in der großen Zehe. Sie kennt sich mit Hausmitteln gut aus, die Tabletten verschreibt Dr. Gradinger."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Bernadettes Mann Siegmund ist vor vier Jahren gestorben, sie waren 51 Jahre verheiratet. Tochter Elena wohnt im selben Ort, ein paar Straßen weiter. Sohn Robert lebt seit Jahren in Kanada, Sohn Magnus in der Stadt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Bernadette war fast vierzig Jahre Apothekenhelferin in der Apotheke im Ort. Sie kennt viele Kräuter und Hausmittel und trocknet selbst Kräuter aus dem Garten."
+        },
+        {
+          "topic": "Chor",
+          "text": "Sie singt im Gesangsverein des Ortes. Probe ist jeden Montagabend."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gicht in der großen Zehe des linken Fußes, an schlechten Tagen kommt sie schwer in die Schuhe. Hausarzt ist Dr. Gradinger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Bernadette erzählte, dass die Zehe seit dem Wochenende wieder geschwollen ist. Sie trinkt viel Wasser und hat die Tabletten von Dr. Gradinger genommen. Sie hat deshalb die Chorprobe am Montag ausgelassen.",
+          "notes": [
+            "Gicht seit dem Wochenende wieder schlimmer",
+            "Nimmt die verschriebenen Tabletten",
+            "Hat die Chorprobe am Montag ausgelassen"
+          ]
+        },
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Robert hat aus Kanada angerufen und erzählt, dass er im Frühjahr für zwei Wochen heimkommen will. Bernadette freut sich und überlegt, wo er schlafen soll.",
+          "notes": [
+            "Robert kommt im Frühjahr für zwei Wochen",
+            "Bernadette freut sich sehr",
+            "Überlegt, das Zimmer oben herzurichten"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Mira, wie heißt des eigentlich, wenn man fünfundfünfzig Jahr verheiratet ist? Bei fünfzig weiß i's eh, des ist die goldene."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Nach fünfundfünfzig Jahren spricht man von der Juwelenhochzeit. Denkst du gerade an deinen Siegmund?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:14",
+        "text": "Jo, heut wär's so weit gewesen. Geheiratet haben wir droben in der Wallfahrtskirche, und geregnet hat's wie aus Kübeln, mein Kleid war unten ganz dreckig Die Ermittlungen nach dem Brand in einer Lagerhalle im Industriegebiet dauern weiter an, verletzt wurde niemand."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein verregneter Hochzeitstag mit einem dreckigen Kleid, daran erinnert man sich ein Leben lang. Wie habt ihr dann gefeiert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:16",
+        "text": "Beim Kirchenwirt, mit Schweinsbraten. Und i weiß noch, der Siegmund hat beim Tanzen seine Krawatte in die Suppe gehängt. Des Foto hat die Elena heut noch im Gang hängen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das muss ein schönes Foto sein. Schön, dass die Elena es aufgehängt hat."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:19",
+      "text": "Wenn mich die Zehe lasst, geh i am Nachmittag mit ihr auf den Friedhof. Sie hat heut frei und holt mich um zwei ab, dann bringen wir ihm a Gesteck."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Die Ermittlungen nach dem Brand in einer Lagerhalle im Industriegebiet dauern weiter an, verletzt wurde niemand.",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A news anchor's sentence from the mid-morning TV news is merged into Bernadette's memory of her wedding day. The formal news register and the topic are clearly not hers; her own part about the rainy wedding stays coherent, and the companion responds only to that."
+  }
+}

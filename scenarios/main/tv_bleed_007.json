@@ -1,0 +1,172 @@
+{
+  "id": "tv_bleed_007",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:05.173208+00:00"
+  },
+  "content_hash": "e36e4b9e2bca6be4eb9e18b1307168ef8f5eec92cde8c9d5678f1d79c713d208",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_007",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 311,
+    "time_of_day": "früher Morgen",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Mathilde",
+    "last_name": "Kiermaier",
+    "side_older": [
+      "Annemarie",
+      "Wolfram",
+      "Auguste"
+    ],
+    "side_younger": [
+      "Kathrin",
+      "Vincent",
+      "Alexandra"
+    ],
+    "side_surnames": [
+      "Holzinger",
+      "Hartwagner"
+    ],
+    "former_job": "Gastwirtin",
+    "interests": [
+      "Theaterverein",
+      "Stockschießen"
+    ],
+    "occasion": "gerade aufgestanden, beim Frühstück, plant den Tag",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Mathilde Kiermaier",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 311
+      },
+      "time_of_day": "Mittwoch, 06:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Vincent Kiermaier (Neffe)",
+          "text": "Meine Tante ist fit und viel unterwegs. Wenn sie vom Theaterverein erzählt, gern nachfragen, das freut sie."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Mathilde hat über dreißig Jahre das Gasthaus ihrer Eltern im Ort geführt, bis sie es mit 66 verpachtet hat. Sie war nie verheiratet und sagt, das Wirtshaus war ihre Familie. Sie kocht noch immer gern und für mehrere Leute."
+        },
+        {
+          "topic": "Wohnen",
+          "text": "Sie wohnt im Erdgeschoß des früheren Gasthauses. Im ersten Stock wohnt ihr Neffe Vincent, 38, der im Lager einer Spedition im Schichtdienst arbeitet. Wenn er Spätdienst hat (bis 22 Uhr), kocht sie ihm oft zu Mittag."
+        },
+        {
+          "topic": "Theaterverein",
+          "text": "Seit über zwanzig Jahren im Theaterverein des Ortes. Im Herbststück spielt sie eine resolute Wirtin. Regie führt ihre Freundin Annemarie. Premiere ist Ende November im Saal des früheren Gasthauses."
+        },
+        {
+          "topic": "Stockschießen",
+          "text": "Mittwochs um 14 Uhr Stockschießen mit der Seniorenrunde auf der Asphaltbahn beim Sportplatz. Wolfram ist Obmann der Runde und sagt bei Regen am Vormittag telefonisch ab. Auguste spielt in ihrer Moarschaft."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Keine nennenswerten Beschwerden. Hausarzt ist Dr. Holzinger, sie geht nur zur jährlichen Kontrolle."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Mathilde hat am Abend erzählt, dass sie mit dem Text für das Herbststück hinterher ist. Vor allem die zweite Szene, ein langer Monolog der Wirtin an der Schank, sitzt noch nicht. Sie wollte ihn abends laut durchsprechen.",
+          "notes": [
+            "Monolog an der Schank (zweite Szene) sitzt noch nicht",
+            "Will abends laut üben",
+            "Annemarie will bei der nächsten Probe ohne Textbuch proben lassen"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Mathilde hat Vincent beim Ausräumen des Kellers geholfen und sich über die vielen alten Wirtshausstühle amüsiert. Vincents Waschmaschine ist kaputt, er wartet auf ein Ersatzteil und wäscht vorerst bei ihr; die Wäsche hängt in ihrem Kellerabteil.",
+          "notes": [
+            "Vincents Waschmaschine kaputt, Ersatzteil bestellt",
+            "Er wäscht vorerst bei Mathilde",
+            "Alte Wirtshausstühle im Keller, will sie dem Theaterverein anbieten"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:42",
+        "text": "Wegen dem Monolog vom Montag, i hab ihn gestern am Abend dreimal laut durchgesagt, und jetzt sitzt er eigentlich schon recht gut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dreimal laut, das ist fleißig, Mathilde. Dann kannst du bei der nächsten Probe ganz entspannt ohne Textbuch spielen. Was hast du dir für heute vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:45",
+        "text": "Jetzt frühstück i einmal in Ruhe, und am Nachmittag ist eh Stockschießen, wenn's trocken bleibt Im Osten und in den Becken hält sich zäher Hochnebel, am Nachmittag stellenweise Nieselregen, Höchstwerte zwischen drei und sieben Grad."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem guten Tag. Weißt du schon, wann der Wolfram Bescheid gibt, ob gespielt wird?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:49",
+        "text": "Der ruft so um neun herum an, wenn er absagt. Vorher trag i dem Vincent noch seine Wäsche rauf, die hängt seit Samstag bei mir im Keller unten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird er sich freuen, wenn er sie trocken zurückbekommt. Kochst du ihm heute auch was?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:53",
+      "text": "Freilich, der hat heut Spätdienst. I hab mir gedacht, a Krautsuppe mit Würstel, oder ist das zu wenig für einen, der bis zehn am Abend im Lager steht?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Im Osten und in den Becken hält sich zäher Hochnebel, am Nachmittag stellenweise Nieselregen, Höchstwerte zwischen drei und sieben Grad.",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A radio weather forecast runs during breakfast and is merged without a boundary into Mathilde's remark about Stockschießen 'if it stays dry'. The forecast register (Becken, Höchstwerte, stellenweise) is clearly broadcast, yet it fits the topic, which makes it tempting to treat as her own statement. The companion's next turn answers only her plan."
+  }
+}

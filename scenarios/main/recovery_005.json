@@ -1,0 +1,167 @@
+{
+  "id": "recovery_005",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:32.618406+00:00"
+  },
+  "content_hash": "097e377a791313487a05d455e9e8c4bc98d78f90117f5ee1e8cc0f01eada5cb8",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_005",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 70,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "Osteoporose",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": "Mir kommt vor, du bist gerade nicht ganz bei der Sache. Ist irgendwas?",
+    "recovery_difficulty": "hard",
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Lothar",
+    "last_name": "Fischerlehner",
+    "side_older": [
+      "Ursula",
+      "Berthold",
+      "Felizitas"
+    ],
+    "side_younger": [
+      "Monja",
+      "Joel",
+      "Jessica"
+    ],
+    "side_surnames": [
+      "Mayrhuber",
+      "Eckmayr"
+    ],
+    "former_job": "Hausmeister",
+    "interests": [
+      "Nordic Walking",
+      "Häkeln und Sticken"
+    ],
+    "occasion": "kann nicht schlafen",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Lothar Fischerlehner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 70
+      },
+      "time_of_day": "Samstag, 23:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lothar ist seit über zwanzig Jahren von Ursula geschieden und lebt allein. Kinder hat er keine. Sein Patenkind Monja schreibt ihm regelmäßig Karten, vor allem aus dem Urlaub."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Lothar war Hausmeister in einer großen Wohnanlage und hat dort fast alles selbst repariert."
+        },
+        {
+          "topic": "Handarbeit",
+          "text": "Lothar häkelt und stickt seit seiner Pension, vor allem Decken und Tischläufer. Er hat es sich selbst aus Büchern beigebracht und ist stolz auf saubere Maschen."
+        },
+        {
+          "topic": "Bewegung",
+          "text": "Lothar geht zweimal pro Woche Nordic Walking mit seinem Freund Berthold, dienstags und donnerstags am Vormittag."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Lothar hat Osteoporose und nimmt dafür Tabletten. Dr. Mayrhuber hat ihm regelmäßige Bewegung empfohlen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Lothar war am Vormittag mit Berthold Nordic Walking und erzählte, dass sie die Runde um den Fischteich ausgedehnt haben. Danach haben sie im Café im Ort Kaffee getrunken.",
+          "notes": [
+            "Nordic Walking mit Berthold, längere Runde",
+            "Kaffee im Café im Ort",
+            "Lothar fühlte sich danach gut"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Lothar war zur Kontrolle bei Dr. Mayrhuber. Er erzählte, dass die Tabletten gleich bleiben und er weiter mit den Stöcken gehen soll. Am Nachmittag hat er an einem Tischläufer weitergestickt.",
+          "notes": [
+            "Kontrolle bei Dr. Mayrhuber, Tabletten bleiben gleich",
+            "Soll weiter regelmäßig gehen",
+            "Stickt an einem Tischläufer"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "23:12",
+        "text": "Stell dir vor, heute ist eine Karte von der Monja gekommen, aus dem Urlaub am Meer. Und ganz klein unten hat sie dazugeschrieben, dass sie nächstes Jahr heiratet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja eine schöne Nachricht, Lothar. Kein Wunder, dass dir das noch durch den Kopf geht."
+      },
+      {
+        "role": "user",
+        "timestamp": "23:14",
+        "text": "Deswegen bin ich auch wieder aufgestanden. Ich hab mir gedacht, ich häkle ihr eine Decke zur Hochzeit, aber ich weiß noch nicht, in welcher Farbe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine selbst gehäkelte Decke ist ein sehr persönliches Geschenk. Weißt du, welche Farben die Monja gern mag?"
+      },
+      {
+        "role": "user",
+        "timestamp": "23:17",
+        "text": "Als Kind hat sie alles in Grün haben wollen, die Gummistiefel, die Schultasche, alles. Wo bin ich denn hier? Ich kenne dieses Zimmer nicht, wo ist mein Mann?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mir kommt vor, du bist gerade nicht ganz bei der Sache. Ist irgendwas?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "23:18",
+      "text": "Doch, ich bin schon bei der Sache. Im Fernsehen läuft so ein Spitalsfilm, das war die Patientin."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Wo bin ich denn hier? Ich kenne dieses Zimmer nicht, wo ist mein Mann?",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A line from a late-night hospital film (a patient waking up disoriented and asking for her husband) is merged into Lothar's memory of his godchild. Hard: the words themselves sound like disorientation, so the misreading is understandable; on careful reading 'wo ist mein Mann' does not fit Lothar, a divorced man, and his own part stays coherent. A sleepless man with the TV on late on a Saturday is typical. His correction is short and dry."
+  }
+}

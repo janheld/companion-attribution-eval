@@ -1,0 +1,182 @@
+{
+  "id": "contact_002",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:16:47.558992+00:00"
+  },
+  "content_hash": "f60caf7693e1c4972fdbb64a880e90aa24b9dd12a1056eefa37bb5a7879761bc",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_002",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 4,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "invitation",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Asthma, Spray",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Rosamunde",
+    "last_name": "Enzinger",
+    "side_older": [
+      "Bonifaz",
+      "Ortrun",
+      "Eberhard"
+    ],
+    "side_younger": [
+      "Tim",
+      "Hannah",
+      "Nils"
+    ],
+    "side_surnames": [
+      "Gattermayr",
+      "Zauner"
+    ],
+    "former_job": "Näherin",
+    "interests": [
+      "Stricken",
+      "Kreuzworträtsel"
+    ],
+    "occasion": "macht Pause nach Arbeit im Haus oder Garten",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Rosamunde Enzinger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 4
+      },
+      "time_of_day": "Dienstag, 15:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Eberhard (Ehemann)",
+          "text": "Rosamunde hat Asthma, das Spray liegt in der Küchenlade. Bei Staub und kalter Luft wird es schlechter. Ich bin unter der Woche oft am Nachmittag außer Haus."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verheiratet mit Eberhard, der als Pensionist viel unterwegs ist, unter anderem beim Stockschießen am Dienstagnachmittag. Der Sohn Tim lebt mit seiner Tochter Hannah in der Stadt und ruft selten an."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Asthma, verwendet ein Spray. Hausärztin ist Dr. Gattermayr."
+        },
+        {
+          "topic": "Handarbeit und Rätsel",
+          "text": "War über dreißig Jahre Näherin in einer Kleiderfabrik. Strickt fast jeden Tag, derzeit einen Pullover für Eberhard. Löst täglich das Kreuzworträtsel aus der Zeitung."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Die Nachbarin Ortrun wohnt im Haus gegenüber, die beiden kennen sich seit Jahrzehnten und trinken öfter miteinander Kaffee."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Rosamunde erzählte, dass sie in dieser Woche die Wohnzimmervorhänge waschen will, weil sie seit dem Frühjahr nicht mehr gewaschen wurden. Sie hat dabei gestrickt und überlegt, wie eng der Halsausschnitt am Pullover für Eberhard werden soll.",
+          "notes": [
+            "Will diese Woche die Wohnzimmervorhänge waschen",
+            "Strickt einen Pullover für Eberhard, Halsausschnitt noch offen",
+            "Mag es nicht, wenn Arbeit liegen bleibt"
+          ]
+        },
+        {
+          "date": "Samstag, vor 3 Tagen",
+          "summary": "Erstes Gespräch. Eberhard hatte das Gerät eingerichtet. Rosamunde hat sich vorgestellt, von ihrer Zeit als Näherin erzählt und ein Wort aus dem Kreuzworträtsel gesucht.",
+          "notes": [
+            "Erstes Gespräch, zurückhaltend, aber freundlich",
+            "War Näherin in einer Kleiderfabrik",
+            "Sucht gern gemeinsam nach Rätselwörtern"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:12",
+        "text": "Die Vorhänge, von denen ich dir erzählt hab, die sind jetzt gewaschen. Jetzt hock ich mich aber zuerst einmal hin, mir reicht's für heut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Pause hast du dir verdient. Hängen sie schon wieder, oder trocknen sie noch?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:14",
+        "text": "Die hängen draußen auf der Leine, bei dem Wind sind die eh bald trocken. Nur beim Abnehmen von der Stange, da hat's so gestaubt, da hab i gleich mein Spray gebraucht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du das Spray gleich zur Hand hattest. Wenn du merkst, dass du es bei solchen Arbeiten öfter brauchst als sonst, sprich das ruhig bei Dr. Gattermayr an."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:17",
+        "text": "Jo, das sagt der Eberhard auch immer. Der ist heut wieder beim Stockschießen, der kommt erst auf die Nacht heim."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du den Nachmittag für dich. Was machst du, wenn du dich ein bissl ausgerastet hast?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:20",
+        "text": "Stricken, freilich. Beim Pullover für ihn hab i mich beim Halsausschnitt verzählt, den muss i noch einmal aufziehen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ärgerlich, aber besser jetzt als wenn er schon fertig ist. Hast du dich inzwischen entschieden, wie eng er werden soll?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:23",
+        "text": "Ein bissl enger als beim letzten. Bei dem hat er immer gesagt, es zieht ihm am Hals."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hält der neue im Winter schön warm. Da wird er sich freuen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:26",
+      "text": "Jetzt hat grad die Ortrun angerufen, sie hat einen Apfelstrudel aus dem Rohr genommen und ob i nicht auf einen Kaffee rüberkomm. Eigentlich hab i mir gedacht, i bleib jetzt sitzen und mach den Ausschnitt fertig."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "invitation",
+    "unavailable_action_request": false,
+    "rationale": "A former seamstress in the first days with the companion picks up her plan from the last conversation: she has washed the curtains, needed her asthma spray because of the dust, and now rests and talks about a sweater for her often absent husband. The final turn brings a spontaneous coffee invitation from the neighbor across the road while she had planned to keep sitting and knitting, so the companion can encourage her to go or keep the conversation going."
+  }
+}

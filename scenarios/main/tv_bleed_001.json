@@ -1,0 +1,214 @@
+{
+  "id": "tv_bleed_001",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:51.420593+00:00"
+  },
+  "content_hash": "93d6aa7a55d5de19e48cd9749472613e24090ff4a39786ee48897dab01e9029c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_001",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 104,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Thekla",
+    "last_name": "Angerer",
+    "side_older": [
+      "Klementine",
+      "Joachim",
+      "Lisbeth"
+    ],
+    "side_younger": [
+      "Larissa",
+      "Clemens",
+      "Rebecca"
+    ],
+    "side_surnames": [
+      "Jagersberger",
+      "Zauner"
+    ],
+    "former_job": "Musiklehrerin",
+    "interests": [
+      "Fotografieren",
+      "Bienen"
+    ],
+    "occasion": "wartet auf Besuch, ein Taxi oder einen Termin",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Thekla Angerer",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 104
+      },
+      "time_of_day": "Montag, 12:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Larissa (Tochter)",
+          "text": "Mama nimmt ihre Blutdrucktabletten jeden Morgen zum Frühstück. Bitte nicht ständig danach fragen, das mag sie nicht. Zwischen meinem Bruder Clemens und mir ist es schwierig, sie leidet darunter."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Thekla ist seit 1991 von Joachim geschieden, es gibt keinen Kontakt mehr. Tochter Larissa wohnt in der Bezirksstadt, Sohn Clemens etwa zwei Autostunden entfernt. Die beiden reden seit rund drei Jahren nicht miteinander, wegen eines Darlehens, das Clemens laut Larissa nie zurückgezahlt hat."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Thekla war über dreißig Jahre Musiklehrerin am Gymnasium, Klavier und Chorleitung. Sie spielt heute noch fast täglich Klavier."
+        },
+        {
+          "topic": "Bienen",
+          "text": "Sie hält drei Bienenvölker im Garten hinter dem Haus. Die Völker sind für den Winter eingefüttert und behandelt."
+        },
+        {
+          "topic": "Fotografieren",
+          "text": "Sie fotografiert seit ihrer Pension, am liebsten Bienen und Blüten aus der Nähe. Sie ist im örtlichen Fotoclub; dort ist ihre Freundin Lisbeth die treibende Kraft."
+        },
+        {
+          "topic": "Freundin Klementine",
+          "text": "Klementine ist eine alte Freundin aus der Schulzeit. Sie fährt noch Auto und nimmt Thekla oft mit."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bluthochdruck, sie nimmt morgens eine Tablette. Hausarzt ist Dr. Zauner, der den Blutdruck regelmäßig kontrolliert."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Thekla hat zwei gerahmte Bienenfotos für die Ausstellung des Fotoclubs im Gemeindesaal ausgesucht. Aufgebaut wird am kommenden Montag nach Mittag, Klementine holt sie um ein Uhr mit dem Auto ab. Die Eröffnung ist am Freitag in der kommenden Woche um 19 Uhr.",
+          "notes": [
+            "Zwei Bilder: Biene auf Sonnenblume, Flugloch mit Morgentau",
+            "Klementine holt sie Montag um 13 Uhr ab",
+            "Eröffnung Freitag kommender Woche, 19 Uhr"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Thekla war zur Blutdruckkontrolle bei Dr. Zauner. Der Wert war etwas höher als beim letzten Mal; er hat die Tablette gelassen und will in drei Wochen wieder messen. Am Abend hat Clemens angerufen und gefragt, ob er zur Ausstellung kommen kann.",
+          "notes": [
+            "Nächste Blutdruckkontrolle in drei Wochen",
+            "Clemens möchte zur Eröffnung kommen",
+            "Thekla sorgt sich, ob Larissa und Clemens dort aufeinandertreffen"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Thekla erzählte, dass die Bienen eingewintert sind. Sie hat die Fluglöcher verengt und Mäusegitter angebracht.",
+          "notes": [
+            "Drei Völker eingewintert",
+            "Mäusegitter angebracht"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "Mira, was meinst du, soll i die zwei Bilder in a Decke einwickeln oder lieber in Zeitungspapier? Die Klementine kommt um eins."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine Decke ist gut, die polstert die Ecken. Leg die Bilder Glas an Glas und ein Tuch dazwischen, dann reibt nichts."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:23",
+        "text": "Glas an Glas, freilich. Die Rahmen sind halt ganz neu, die will i fei net gleich verkratzen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Verständlich, gerade bei neuen Rahmen. Sind es jetzt doch die Biene auf der Sonnenblume und das Flugloch geworden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:26",
+        "text": "Genau die zwei. Die Lisbeth hat gesagt, die passen gut nebeneinander, des eine so gelb und des andere so kühl."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem schönen Paar. Das Flugloch mit dem Tau hast du doch extra ganz früh fotografiert, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:30",
+        "text": "Um halb sechs bin i draußen gehockt, auf dem Schemel vor dem Bienenstand zwölf Uhr dreißig, Sie hören Mittagsmusik, nach der nächsten Nummer kommen die Nachrichten"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Um halb sechs, das ist ein Einsatz. Da hat sich das frühe Aufstehen aber gelohnt."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:33",
+        "text": "Hat sich schon gelohnt. Der Clemens hat gestern noch einmal angerufen, er kommt am Freitag ganz sicher. Aber die Larissa kommt halt auch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass beide deine Bilder sehen wollen. Dass sie sich dort begegnen, ist für dich aber nicht leicht, das verstehe ich."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:37",
+        "text": "Mei, die zwei reden seit drei Jahren kein Wort miteinander. Wegen dem Geld, des der Clemens angeblich nie zurückgezahlt hat. I mag da nimmer dazwischen stehen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine alte, festgefahrene Geschichte. Die musst du am Freitag nicht lösen, an dem Abend darfst du einfach deine Bilder genießen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:41",
+      "text": "Recht hast. Am Freitag schau i mir meine Bienen an der Wand an und sonst gar nix. So, jetzt hol i die Decke, die Klementine ist eh immer zu früh dran."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "zwölf Uhr dreißig, Sie hören Mittagsmusik, nach der nächsten Nummer kommen die Nachrichten",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A kitchen radio's midday presenter line (time announcement, formal 'Sie', programme note) merges without a boundary into the user's account of photographing her beehive at dawn. The time announcement matches the turn timestamp. The companion's next turn responds only to the plausible part; the final user turn is clean."
+  }
+}

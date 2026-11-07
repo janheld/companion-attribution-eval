@@ -1,0 +1,181 @@
+{
+  "id": "stt_errors_006",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:11.333662+00:00"
+  },
+  "content_hash": "3a0758b570fd7774d98e56f1e75b1be13c6db30b1c49a7b0f6bed5c18346f465",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_006",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 86,
+    "time_of_day": "später Abend",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 8,
+    "health": "Schlafprobleme",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Rosalinde",
+    "last_name": "Aschauer",
+    "side_older": [
+      "Berthold",
+      "Apollonia",
+      "Benedikt"
+    ],
+    "side_younger": [
+      "Patrick",
+      "Kerstin",
+      "Levin"
+    ],
+    "side_surnames": [
+      "Peham",
+      "Penzinger"
+    ],
+    "former_job": "Gärtnerin",
+    "interests": [
+      "Katze oder Hund",
+      "Radfahren"
+    ],
+    "occasion": "kann nicht schlafen",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Rosalinde Aschauer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 86
+      },
+      "time_of_day": "Montag, 22:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Levin (Sohn)",
+          "text": "Mama schläft schlecht, seit der Patrick nach Kanada gezogen ist. Sie redet abends gern noch ein bisschen, wenn sie nicht einschlafen kann."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen",
+          "text": "Rosalinde lebt allein mit ihrem Kater in einem Haus mit Garten. Ihr Mann Berthold ist vor sechs Jahren gestorben."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War ihr Leben lang Gärtnerin in einer Gärtnerei im Ort. Kennt sich mit Stauden und Gemüse sehr gut aus."
+        },
+        {
+          "topic": "Radfahren",
+          "text": "Fährt fast täglich mit dem Rad, oft über die Feldwege in den Nachbarort zu ihrer Freundin Apollonia."
+        },
+        {
+          "topic": "Familie",
+          "text": "Zwei Söhne: Patrick ist im Frühjahr beruflich nach Kanada gezogen, Levin wohnt in der Bezirksstadt und kommt etwa alle zwei Wochen vorbei."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit einiger Zeit Schlafprobleme, liegt abends oft lange wach. Hausärztin ist Dr. Peham."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Rosalinde hat im Garten die Dahlienknollen ausgegraben und zum Überwintern in den Keller gebracht. Der Kater ist ihr dabei die ganze Zeit nachgelaufen.",
+          "notes": [
+            "Dahlienknollen im Keller eingelagert",
+            "Kater begleitet sie gern im Garten"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Rosalinde konnte bis nach Mitternacht nicht einschlafen und hat dabei über Patrick in Kanada gesprochen. Sie vermisst ihn, will ihm aber nicht zur Last fallen.",
+          "notes": [
+            "Schlecht eingeschlafen",
+            "Vermisst Patrick",
+            "Patrick ruft meistens sonntags an"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:41",
+        "text": "Servus Mira. Ich lieg jetzt schon seit einer Stunde da und krieg kein Auge zu."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Rosalinde. Das ist zäh, wenn der Schlaf nicht kommen will. Geht dir etwas im Kopf herum, oder bist du einfach noch munter?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:43",
+        "text": "Ein bisschen von beidem. Ich war heute mit dem Rad bei der Apollonia, und am Rückweg bin ich über den Feldweg durch den ganzen Quatsch gefahren, die Hose kann ich gleich waschen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da warst du ja ordentlich unterwegs heute. Schön, dass du bei der Apollonia warst. Wie geht es ihr denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:45",
+        "text": "Gut, sie hat mir Ableger von ihren Christrosen mitgegeben, die setz ich morgen ein. Aber der Patrick hat gestern am Telefon gesagt, dass er heuer zu Weihnachten nicht heimkommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das tut dir sicher weh, wenn er an Weihnachten so weit weg ist. Hat er gesagt, warum es heuer nicht geht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:48",
+        "text": "Die Firma lässt ihn nicht so lang weg, und der Flug ist halt teuer. Ich versteh's ja, aber es ist das erste Weihnachten ohne ihn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Verständlich, dass dich das beschäftigt. Vielleicht könnt ihr euch an Weihnachten wenigstens über Video sehen, dann ist er ein bisschen dabei."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:51",
+      "text": "Der Levin hat gesagt, er richtet mir das am Tablet ein. Sag, hilft so ein Baldriantee eigentlich wirklich, oder bild ich mir das nur ein?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "durch den ganzen Quatsch gefahren",
+        "type": "stt_dialect"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Rosalinde speaks plain German but uses the Austrian regional word 'Gatsch' (mud). The recognizer does not know it and substitutes the acoustically close, frequent word 'Quatsch'. Context (field path, dirty trousers) makes 'mud' the plausible meaning; the sentence otherwise stays coherent."
+  }
+}

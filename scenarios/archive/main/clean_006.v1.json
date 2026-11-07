@@ -1,0 +1,176 @@
+{
+  "id": "clean_006",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Tochter Julia und Sohn Julian sind fast gleiche Namen. Bitte den Sohn im Wissensblock umbenennen, z. B. in Konrad. Sonst unverändert.",
+    "reviewed_at": "2026-11-07T22:48:26.661279+00:00"
+  },
+  "content_hash": "b5b1a3d279fb3cf755fd2ea7c56d41cd39baa2421470357b4a30985342cebf6c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_006",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 90,
+    "time_of_day": "früher Morgen",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 8,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Gustav",
+    "last_name": "Tröbinger",
+    "side_older": [
+      "Gottlieb",
+      "Kordula",
+      "Volker"
+    ],
+    "side_younger": [
+      "Julian",
+      "Julia",
+      "Pascal"
+    ],
+    "side_surnames": [
+      "Schmid",
+      "Eichinger"
+    ],
+    "former_job": "Mesner",
+    "interests": [
+      "Fischen",
+      "Ortschronik und Ahnenforschung"
+    ],
+    "occasion": "hat eine Frage zum Haushalt (Fleck, Gerät, Vorrat)",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gustav Tröbinger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 90
+      },
+      "time_of_day": "Montag, 05:50",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Julia (Tochter)",
+          "text": "Papa hat seit dem Umstechen im Oktober Kreuzschmerzen. Er soll nichts Schweres heben. Ich schaue fast jeden Tag kurz vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, seine Frau Kordula ist vor vier Jahren gestorben. Tochter Julia wohnt im selben Ort und schaut oft vorbei. Sohn Julian lebt in der Stadt und ruft selten an."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über dreißig Jahre Mesner der Pfarre. Steht aus Gewohnheit noch immer sehr früh auf."
+        },
+        {
+          "topic": "Fischen",
+          "text": "Hat eine Fischerkarte für den Fluss unterhalb vom Ort und fischt im Sommer vor allem Hechte. Den Fang friert er in der Gefriertruhe im Keller ein."
+        },
+        {
+          "topic": "Ortschronik",
+          "text": "Arbeitet an einer Ortschronik und an der Familiengeschichte der Tröbingers. Sucht Einträge in den alten Taufbüchern im Pfarrarchiv. Sein Freund Volker vom Heimatverein hilft beim Entziffern alter Schrift."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Rückenschmerzen seit dem Umstechen im Garten. Hausarzt Dr. Eichinger hat Wärme und viel Bewegung empfohlen, schweres Heben soll er meiden."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Gustav erzählte, dass Volker im Taufbuch den Eintrag seines Urgroßvaters Gottlieb Tröbinger gefunden hat. Julia lässt im Pfarrbüro Kopien der Seiten machen und bringt sie ihm vorbei.",
+          "notes": [
+            "Taufeintrag des Urgroßvaters Gottlieb gefunden",
+            "Julia besorgt Kopien aus dem Pfarrarchiv",
+            "Möchte den Stammbaum um eine Generation erweitern"
+          ]
+        },
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Gustav berichtete, dass die Gefriertruhe im Keller lauter brummt als sonst und dass sich am Rand viel Eis angesetzt hat. Er wollte sie sich am Wochenende genauer anschauen.",
+          "notes": [
+            "Gefriertruhe brummt lauter",
+            "Viel Eis am Rand",
+            "In der Truhe liegen Hechte vom Sommer"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "05:52",
+        "text": "Die Gefriertruhe, von der ich dir erzählt habe, die habe ich mir gestern noch einmal angeschaut. Das Eis ist inzwischen fingerdick am Rand."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Gustav. Fingerdick ist schon einiges, dann kühlt sie nicht mehr richtig und braucht mehr Strom. Willst du sie abtauen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "05:54",
+        "text": "Ja, das muss heute sein. Nur wie mache ich das am gescheitesten? Das hat früher immer die Kordula erledigt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Am einfachsten: alles ausräumen, Stecker ziehen, Deckel offen lassen und Schüsseln mit heißem Wasser hineinstellen. Unten legst du Handtücher hin, und das Eis bitte nicht mit einem Messer abkratzen."
+      },
+      {
+        "role": "user",
+        "timestamp": "05:57",
+        "text": "Und wohin mit dem ganzen Zeug inzwischen? Da sind noch die Hechte vom Sommer drin und ein paar Laib Brot."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wenn du eine Kühlbox hast, pack alles dicht zusammen hinein und stell sie an einen kühlen Platz. Mit ein paar Zeitungen oder Decken darüber hält das einige Stunden."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:00",
+        "text": "Eine große Kühlbox habe ich vom Fischen. Nur das Bücken in die Truhe hinein, das spüre ich im Kreuz noch vom Umstechen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann mach die schweren Sachen ganz unten lieber nicht allein. Das Bücken mit Gewicht ist für dein Kreuz gerade nicht das Richtige."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:02",
+      "text": "Die Julia kommt zu Mittag sowieso, die bringt mir die Kopien vom Pfarrarchiv. Dann räume ich jetzt oben aus, was ich leicht erwische, und den Rest heben wir zusammen heraus. Oder soll ich mit dem Abtauen lieber ganz warten, bis sie da ist?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A retired sexton, up very early out of habit, picks up the freezer problem from the last conversation and asks how to defrost it, where to keep the frozen fish meanwhile, and whether to wait for his daughter because of his back. A concrete household question with plausible continuity from memory."
+  }
+}

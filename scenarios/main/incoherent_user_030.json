@@ -1,0 +1,195 @@
+{
+  "id": "incoherent_user_030",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.782184+00:00"
+  },
+  "content_hash": "4ab27eabfa0048dc72eb5b1287d38cf1d9503899d871883e7658b0793840aa60",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "male",
+    "first_name": "Xaver",
+    "last_name": "Lugmayr",
+    "side_older": [
+      "Valerian",
+      "Adelinde",
+      "Thaddäus"
+    ],
+    "side_younger": [
+      "Jonathan",
+      "Sarah",
+      "Gerald"
+    ],
+    "side_surnames": [
+      "Mühlböck",
+      "Altenhofer"
+    ],
+    "id": "incoherent_user_030",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 188,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Uhrmacher",
+    "interests": [
+      "Musikverein",
+      "Volkstanz"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Xaver Lugmayr",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 188
+      },
+      "time_of_day": "Dienstag, 15:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Adelinde (Ehefrau)",
+          "text": "Xaver sieht wegen dem Grauen Star schlecht, die Operation ist Anfang Dezember bei Dr. Mühlböck. Bitte nichts vorlesen lassen, was er selbst unterschreiben muss, das machen wir gemeinsam."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Xaver, 79, war Uhrmacher und hatte bis vor fünfzehn Jahren ein eigenes Geschäft im Ort. Das Geschäft ist längst geschlossen. Wird im Dezember achtzig."
+        },
+        {
+          "topic": "Haushalt",
+          "text": "Verheiratet mit Adelinde, seit über fünfzig Jahren. Adelinde ist viel unterwegs: dienstags Seniorenturnen am Nachmittag und danach Kartenrunde, dazu Pfarrgemeinderat."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sohn Jonathan lebt mit Frau Sarah und Sohn Gerald in der Stadt. Jonathan ruft selten an, was Xaver kränkt, auch wenn er es kaum zeigt."
+        },
+        {
+          "topic": "Musik und Tanz",
+          "text": "Spielt seit Jahrzehnten Klarinette im Musikverein, sein Freund Valerian ist dort Kapellmeister. Tanzt mit Adelinde in der Volkstanzgruppe, Treffen einmal im Monat am Freitagabend."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen, Operation am rechten Auge Anfang Dezember bei Augenarzt Dr. Mühlböck. Danach soll er sich etwa zwei Wochen schonen."
+        },
+        {
+          "topic": "Gasthaus",
+          "text": "Stammgasthaus ist das Gasthaus von Herrn Altenhofer im Ort, mit einem großen Saal. Dort haben Xaver und Adelinde ihre Goldene Hochzeit gefeiert."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 3 Tagen",
+          "summary": "Xaver erzählte, dass Adelinde ihn wegen der Feier zum Achtziger drängt, er solle sich endlich entscheiden, ob groß oder klein gefeiert wird. Er war unschlüssig, auch weil er nicht wusste, ob Jonathan überhaupt kommt.",
+          "notes": [
+            "Feier zum 80. Geburtstag noch nicht geplant",
+            "Unsicher, ob Jonathan kommt",
+            "Adelinde drängt auf eine Entscheidung"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Xaver war bei der Probe des Musikvereins für das Cäcilienkonzert. Valerian hat ihm ein neues Solo gegeben. Er klagte, dass er die Noten wegen der Augen nur mit der Lupe lesen kann.",
+          "notes": [
+            "Neues Klarinettensolo für das Cäcilienkonzert",
+            "Liest Noten wegen Grauem Star nur mit Lupe"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:37",
+        "text": "Stell dir vor, der Jonathan hat heute in der Früh angerufen. Einfach so, ohne dass was war. Er kommt zu meinem Achtziger, mit der Sarah und dem Gerald."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja eine schöne Nachricht, Xaver! Da hast du dich sicher sehr gefreut."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:39",
+        "text": "Und wie. Jetzt muss ich das Fest aber wirklich planen, die Adelinde sagt mir das eh schon seit Wochen. Die ist heute beim Turnen und danach noch beim Kartenspielen, also hab ich Ruhe zum Überlegen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann überlegen wir doch gemeinsam. Möchtest du lieber daheim feiern oder im Gasthaus?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:42",
+        "text": "Beim Altenhofer im Saal, wie bei der Goldenen Hochzeit. Da ist Platz genug, auch wenn der Musikverein kommt. Der Valerian hat schon gesagt, sie spielen mir ein Ständchen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Ständchen vom eigenen Musikverein, das ist eine Ehre. Wie viele Leute möchtest du ungefähr einladen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:45",
+        "text": "Mit dem Jonathan, der Sarah und dem Gerald sind wir fünf. Dann die Musikanten, die Volkstanzgruppe und ein paar Leute aus dem Ort. Sechzig werden's schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Sechzig Leute, das wird ein richtiges Fest. Hast du schon einen Tag im Kopf?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:48",
+        "text": "Mitte Dezember, an einem Samstag, der Geburtstag ist ja in der Woche davor. Nur die Augenoperation ist Anfang Dezember, und der Dr. Mühlböck hat gesagt, zwei Wochen soll ich mich schonen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du daran denkst. Ob das zeitlich gut zusammenpasst, kann dir der Dr. Mühlböck am besten sagen, frag ihn ruhig beim nächsten Termin."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:51",
+      "text": "Ja, den frag ich. Und beim Altenhofer müsst ich halt wegen dem Saal nachfragen, ob der frei ist, und dann, die Unruh ist ganz verbogen, der Kunde sagt, die ist ihm runtergefallen, aber das glaub ich ihm nicht."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "und dann, die Unruh ist ganz verbogen, der Kunde sagt, die ist ihm runtergefallen, aber das glaub ich ihm nicht",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Xaver starts a coherent sentence about booking the hall for his birthday, loses the thread mid-sentence and continues, in the present tense, about a bent balance wheel and a customer he does not believe, as if he were still standing in his watch shop, which closed fifteen years ago. The jump is in his own voice and vocabulary (Unruh is watchmaker jargon), so it cannot be TV or an STT error. All other turns, the son's call, the hall, the guest list and the surgery timing, are consistent with memory."
+  }
+}

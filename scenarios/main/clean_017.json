@@ -1,0 +1,192 @@
+{
+  "id": "clean_017",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:58:51.734099+00:00"
+  },
+  "content_hash": "3f735bbb0ed1c8a7e6ba6cf38ef0e1942b7517a71700309b1e9d662c51b529d8",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_017",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 4,
+    "time_of_day": "Mittag",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 12,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "jemanden anrufen oder eine Nachricht schicken",
+    "gender": "male",
+    "first_name": "Vinzenz",
+    "last_name": "Hofbauer",
+    "side_older": [
+      "Jutta",
+      "Martin",
+      "Gundula"
+    ],
+    "side_younger": [
+      "Constanze",
+      "Rudolf",
+      "Miriam"
+    ],
+    "side_surnames": [
+      "Samhaber",
+      "Sallmayr"
+    ],
+    "former_job": "Busfahrer",
+    "interests": [
+      "Kochen und Backen",
+      "Enkelkinder"
+    ],
+    "occasion": "gerade vom Einkaufen oder vom Markt zurück",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Vinzenz Hofbauer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 4
+      },
+      "time_of_day": "Freitag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Constanze (Tochter)",
+          "text": "Papa hat eine Herzrhythmusstörung und nimmt deshalb Tabletten, regelmäßige Kontrolle beim Kardiologen Dr. Samhaber. Er soll mit Salz sparsam sein. Er kocht leidenschaftlich gern."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Vinzenz lebt allein, seine Tochter Constanze wohnt mit ihrem Mann Rudolf im selben Ort. Enkelin Miriam studiert in der Stadt und kommt in den Ferien und an freien Tagen heim."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Vinzenz war über dreißig Jahre Busfahrer im Regionalverkehr und kennt jede Haltestelle im Bezirk."
+        },
+        {
+          "topic": "Kochen",
+          "text": "Vinzenz kocht und bäckt gern, vor allem Hausmannskost und Gugelhupf. Freitagvormittag geht er auf den Wochenmarkt im Ort."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Herzrhythmusstörung, Tabletten, Kontrolle beim Kardiologen Dr. Samhaber alle drei Monate. Soll wenig Salz essen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 1 Tag",
+          "summary": "Vinzenz plante einen Schweinsbraten für Sonntag, weil Constanze, Rudolf und Miriam zum Mittagessen kommen. Im Supermarkt gab es keinen ganzen Kümmel, nur gemahlenen. Er wollte am Wochenmarkt beim Gewürzstand fragen.",
+          "notes": [
+            "Sonntag Mittagessen mit Constanze, Rudolf und Miriam",
+            "Sucht ganzen Kümmel für den Braten",
+            "Will am Freitag auf den Wochenmarkt"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Erstes längeres Gespräch. Vinzenz erzählte von seiner Zeit als Busfahrer und von den Stammgästen, die jeden Morgen mitgefahren sind. Er sagte, dass er seit der Pension viel mehr kocht als früher.",
+          "notes": [
+            "Früher Busfahrer im Regionalverkehr",
+            "Kocht seit der Pension viel",
+            "Erzählt gern Geschichten von der Arbeit"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Den Kümmel hab ich gekriegt, ganzen, wie ich ihn wollte. Die Frau beim Gewürzstand hat ihn gehabt, das hab ich mir gestern eh schon gedacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass es geklappt hat, Vinzenz! Dann steht dem Schweinsbraten am Sonntag ja nichts mehr im Weg."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "Genau. Das Fleisch hab ich auch gleich mitgenommen, ein schönes Stück Schopf, gut eineinhalb Kilo."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eineinhalb Kilo, da werden alle satt und vielleicht bleibt sogar noch was übrig. Kommen alle drei?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Ja, die Constanze mit dem Rudolf und die Miriam. Die hat ein paar freie Tage von der Uni und ist gestern heimgekommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass die Miriam da ist! Über den Braten von ihrem Opa freut sie sich sicher."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:15",
+        "text": "Die hat schon als kleines Mädchen immer die Kruste abgezupft, bevor das Fleisch überhaupt am Tisch war. Darum mach ich den so gern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine schöne Erinnerung. Wie machst du die Kruste denn, mit Kümmel eingerieben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:18",
+        "text": "Schwarte einschneiden, Kümmel, Knoblauch, ein bisschen Salz. Weniger als früher, das hat mir der Dr. Samhaber eingeschärft."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du dich an seinen Rat hältst. Mit Kümmel und Knoblauch hat der Braten trotzdem ordentlich Geschmack."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "Und Semmelknödel dazu, freilich. Die Semmeln hab ich schon geschnitten, die müssen ja ein paar Tage trocknen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da bist du ja schon gut vorbereitet. Gibt es dazu Krautsalat oder lieber Sauerkraut?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:24",
+      "text": "Krautsalat. Jetzt fällt mir ein, die Constanze hat gesagt, sie bringt einen Kuchen mit. Braucht sie aber nicht, ich back eh einen Gugelhupf. Kannst du ihr schnell schreiben, dass sie keinen mitbringen soll?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": true,
+    "rationale": "Clean midday session of a new user back from the Friday market, picking up the spice he was looking for in the last conversation. Typical: detailed Sunday-lunch planning for his daughter's family and visiting granddaughter, a doctor's salt advice in passing, and a natural request to message his daughter."
+  }
+}

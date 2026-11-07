@@ -1,0 +1,189 @@
+{
+  "id": "contact_012",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Laut Zusammenfassung vom Montag ist das Walken um zwei ausgemacht, im finalen Turn steht ohne Begründung „um eins“. Das kann als Erinnerungsfehler der Nutzerin gelesen werden, was im Kontaktszenario nichts zu suchen hat. Bitte im finalen Turn nach „net erst um zwei“ ergänzen: „die hat gestern noch angerufen und es vorverlegt“.",
+    "reviewed_at": "2026-11-06T15:25:24.428586+00:00"
+  },
+  "content_hash": "b9728ecc52f21b7733c854f2e4b126aafa291c8e9b05eedd8f40a1c850cdc1e1",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_012",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 54,
+    "time_of_day": "Mittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "visit",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 8,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "jemanden anrufen oder eine Nachricht schicken",
+    "gender": "female",
+    "first_name": "Wilfriede",
+    "last_name": "Fattinger",
+    "side_older": [
+      "Ignaz",
+      "Magdalena",
+      "Gottlieb"
+    ],
+    "side_younger": [
+      "Uwe",
+      "Lara",
+      "Mathias"
+    ],
+    "side_surnames": [
+      "Peham",
+      "Penzinger"
+    ],
+    "former_job": "Telefonistin",
+    "interests": [
+      "Lesen",
+      "Nordic Walking"
+    ],
+    "occasion": "gerade vom Einkaufen oder vom Markt zurück",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Wilfriede Fattinger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 54
+      },
+      "time_of_day": "Mittwoch, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Magdalena (Schwester)",
+          "text": "Wilfriede hat Diabetes Typ 2 und achtet gut aufs Essen. Wenn sie übers Kochen redet, gern Rezepte mit wenig Zucker vorschlagen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie und Haushalt",
+          "text": "Verheiratet mit Ignaz, der viel unterwegs ist und oft seinem Bruder Gottlieb auf dessen Hof hilft. Keine Kinder. Sehr enger Kontakt zur Schwester Magdalena, die im selben Ort wohnt."
+        },
+        {
+          "topic": "Nordic Walking",
+          "text": "Geht mehrmals pro Woche mit Magdalena Nordic Walking, meistens die Runde um den Wiesenteich. Die Stöcke liegen oft in Ignaz' Auto, weil er sie zum Fahren zum Ausgangspunkt mitnimmt."
+        },
+        {
+          "topic": "Lesen",
+          "text": "Liest viel, am liebsten Krimis. Tauscht Bücher mit Magdalena und holt sich Nachschub in der Gemeindebücherei."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Telefonistin in der Vermittlung einer großen Firma. Hat bis heute eine klare, freundliche Telefonstimme."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2, achtet aufs Essen und misst regelmäßig. Hausärztin ist Dr. Peham, Kontrolle alle drei Monate."
+        },
+        {
+          "topic": "Wochenmarkt",
+          "text": "Geht am Mittwochvormittag auf den Wochenmarkt und kauft vor allem Gemüse bei einer Bäuerin aus der Gegend."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Wilfriede hat mit Magdalena ausgemacht, am Mittwoch nach dem Mittagessen zusammen walken zu gehen, um zwei Uhr. Sie las am Abend einen Krimi fertig, den sie Magdalena weitergeben will.",
+          "notes": [
+            "Walken mit Magdalena am Mittwoch um zwei",
+            "Krimi fertig gelesen",
+            "Buch geht an Magdalena"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Wilfriede hat eine Kürbissuppe mit Ingwer und Kokosmilch gekocht, die Ignaz zu scharf war. Sie überlegte, beim nächsten Mal weniger Ingwer zu nehmen.",
+          "notes": [
+            "Kürbissuppe mit Ingwer gekocht",
+            "Ignaz war sie zu scharf",
+            "Nächstes Mal weniger Ingwer"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 6 Tagen",
+          "summary": "Wilfriede war bei Dr. Peham zur Kontrolle. Die Werte waren laut ihr in Ordnung, sie soll weiter so essen wie bisher.",
+          "notes": [
+            "Kontrolle bei Dr. Peham",
+            "Soll beim Essen so weitermachen",
+            "Nächste Kontrolle in drei Monaten"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "I räum grad die Einkaufstasche aus, und jetzt hab i doch wieder zu viel Kürbis mitgenommen. Bei der Bäuerin war heut so ein schöner dabei."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du dich am Markt ja gut eingedeckt, Wilfriede. Was hast du denn mit dem vielen Kürbis vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Suppe halt, und vielleicht was im Rohr mit Erdäpfeln. Die Bäuerin hat gesagt, Kürbis is eh gut, wenn man Zucker hat. Stimmt des eigentlich?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Kürbis hat eher wenig Kohlenhydrate, viele mit Diabetes essen ihn gern. Wie viel davon und mit welcher Beilage für dich passt, weiß Dr. Peham am besten."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Den frag i bei der nächsten Kontrolle. Der Ignaz isst eh heut net mit, der is den ganzen Tag beim Gottlieb, die richten den Stall her."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du die Küche heute für dich. Für die Suppe hattest du am Samstag ja Ingwer und Kokosmilch, willst du es wieder so machen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Jo, aber weniger Ingwer, der war dem Ignaz zu scharf. Was tät denn sonst noch dazupassen?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein bisschen Curry oder ein paar geröstete Kürbiskerne obendrauf passen gut. Die Kerne hast du vielleicht sogar vom eigenen Kürbis."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:19",
+      "text": "Des is eine Idee. Du, jetzt fallt mir grad ein, die Magdalena kommt ja heut schon um eins zum Walken, net erst um zwei, und i steh noch mit dem Messer da. Kannst du ihr schnell schreiben, dass sie ihre Stöcke mitnehmen soll? Meine hat der Ignaz im Auto."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "visit",
+    "unavailable_action_request": true,
+    "rationale": "Retired switchboard operator unpacking market vegetables and planning a diabetes-friendly pumpkin soup with Mira. She realizes her sister is coming for their walk in forty minutes and asks Mira to text her, which Mira cannot do; Mira can wind down and let her get ready or keep discussing the recipe."
+  }
+}

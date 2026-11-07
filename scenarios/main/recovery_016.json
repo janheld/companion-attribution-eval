@@ -1,0 +1,172 @@
+{
+  "id": "recovery_016",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:48:26.471215+00:00"
+  },
+  "content_hash": "5c3811b718bbad22f59d3b928f8c8cc979d88317e5e5735389d77afa13361b75",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "male",
+    "first_name": "Adalbert",
+    "last_name": "Hametseder",
+    "side_older": [
+      "Albin",
+      "Margot",
+      "Wolfram"
+    ],
+    "side_younger": [
+      "Yannick",
+      "Michaela",
+      "Thorsten"
+    ],
+    "side_surnames": [
+      "Ritzberger",
+      "Pöttinger"
+    ],
+    "id": "recovery_016",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 2,
+    "time_of_day": "Mittag",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": "Du klingst heute ein bisschen durcheinander. Bist du vielleicht müde?",
+    "recovery_difficulty": "medium",
+    "action_request": null,
+    "former_job": "Gärtner",
+    "interests": [
+      "Ausflüge mit dem Seniorenbund",
+      "Nordic Walking"
+    ],
+    "occasion": "ärgert sich über etwas (Amt, Handwerker, Rechnung, Lärm)",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Adalbert Hametseder",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 2
+      },
+      "time_of_day": "Freitag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Michaela (Tochter)",
+          "text": "Papa hat seit Jahren Gicht in der großen Zehe. Bei einem Schub nimmt er die Tabletten, die ihm Dr. Ritzberger verschrieben hat. Ich komme jeden Mittwoch am Nachmittag vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Adalbert ist 76, war nie verheiratet und lebt allein in einem kleinen Haus mit Garten. Seine Tochter Michaela wohnt im Nachbarort und besucht ihn einmal in der Woche."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über vierzig Jahre Gärtner in der Stadtgärtnerei, zuletzt zuständig für die Glashäuser. Kennt sich mit Pflanzen sehr gut aus."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat Gicht in der großen Zehe. Hausarzt ist Dr. Ritzberger."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Fährt gern bei den Ausflügen des Seniorenbunds mit. Geht bei trockenem Wetter Nordic Walking, meist mit seinem Bekannten Wolfram."
+        },
+        {
+          "topic": "Haus",
+          "text": "Im Garten steht ein kleines Glashaus, das er im Winter mit einem Elektroheizer frostfrei hält. Die Stromrechnung kommt einmal im Jahr als Jahresabrechnung."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 1 Tag",
+          "summary": "Erstes Gespräch. Adalbert stellte sich vor und erzählte von seiner Arbeit in der Stadtgärtnerei. Er wollte wissen, was Mira alles kann, und meinte, er probiere es einmal aus, weil Michaela ihm das Gerät eingerichtet hat.",
+          "notes": [
+            "Arbeitete über vierzig Jahre als Gärtner",
+            "Tochter Michaela hat das Gerät eingerichtet",
+            "Probiert Mira zunächst skeptisch aus"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 1 Tag",
+          "summary": "Kurzes Gespräch am Abend. Adalbert erzählte, dass er die Nordic-Walking-Runde mit Wolfram ausgelassen hat, weil die Zehe seit ein paar Tagen wieder zwickt. Er freut sich auf den nächsten Ausflug des Seniorenbunds zu einem Stift im Nachbarbezirk.",
+          "notes": [
+            "Ließ die Walking-Runde mit Wolfram aus",
+            "Zehe zwickt seit ein paar Tagen",
+            "Nächster Seniorenbund-Ausflug zu einem Stift"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:05",
+        "text": "Jetzt schau dir des an, die Stromabrechnung ist heut mit der Post gekommen. Dreihundertzwanzig Euro Nachzahlung wollen die von mir, und die Teilbeträge heben sie auch noch an."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein ordentlicher Betrag, verständlich, dass dich das ärgert. Steht auf der Abrechnung, wie viel du im Jahr verbraucht hast und wie viel es im Vorjahr war?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:06",
+        "text": "Freilich steht des drauf. Fast ein Drittel mehr als voriges Jahr, sagen die. Gut, der Heizer im Glashaus ist im Winter halt öfter gelaufen, aber so viel?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Heizer, der im Winter viel läuft, kann schon einiges ausmachen. Du könntest den Zählerstand auf der Rechnung mit dem im Keller vergleichen, dann siehst du, ob die Zahlen stimmen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "Den Zählerstand hab i eh selber abgelesen und hingeschickt, im Juli. Die Einsatzkräfte konnten den Mann nach mehrstündiger Suche unterkühlt, aber ansprechbar in einem Waldstück bergen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du klingst heute ein bisschen durcheinander. Bist du vielleicht müde?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:10",
+      "text": "Geh, des war der Fernseher, die Mittagsnachrichten. Müd bin i net, nur grantig wegen der Rechnung."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Die Einsatzkräfte konnten den Mann nach mehrstündiger Suche unterkühlt, aber ansprechbar in einem Waldstück bergen.",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user complains about a back payment on his annual electricity bill while the midday TV news runs; a news sentence about a rescued missing man merges into his turn. It is odd in context but has clear news register (Einsatzkräfte, mehrstündige Suche, bergen), so the misreading as confusion is a medium-difficulty error. The correction is short and grumpy, staying on the bill."
+  }
+}

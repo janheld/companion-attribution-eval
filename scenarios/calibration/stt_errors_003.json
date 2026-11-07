@@ -3,19 +3,38 @@
   "set": "calibration",
   "kind": "attribution",
   "condition": "stt_errors",
-  "version": 4,
-  "status": "draft",
+  "version": 5,
+  "status": "approved",
   "review": {
     "comment": "",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-06T13:44:50.227040+00:00"
   },
-  "content_hash": "9fd8c6489d688216d1f669b3d2c6250a4869d04a0cc9cb628ae4d23a3dba1768",
+  "content_hash": "7f0205503ce5132e070bc4c210a7319cd8685e3c7f93490c5045ea6f25b1f4cb",
   "generator": {
     "model": "claude-opus-5-5",
     "via": "claude-code",
-    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+    "prompt_sha256": "57938ba36d8f56c9fa1de1c4b4988e5c0b941d5f5a45bebed4013b9e1d4bf4fc"
   },
   "spec": {
+    "gender": "female",
+    "first_name": "Roswitha",
+    "last_name": "Schöberl",
+    "side_older": [
+      "Alma",
+      "Erhard",
+      "Renate",
+      "Bernhard"
+    ],
+    "side_younger": [
+      "Sabine",
+      "Tobias",
+      "Edith",
+      "Jakob"
+    ],
+    "side_surnames": [
+      "Reindl",
+      "Pammer"
+    ],
     "id": "stt_errors_003",
     "set": "calibration",
     "condition": "stt_errors",
@@ -36,26 +55,7 @@
     "history_turns": 12,
     "health": "Schulter nach Sturz im Winter",
     "relatives": "Bruder im Pflegeheim",
-    "action_request": null,
-    "gender": "female",
-    "first_name": "Roswitha",
-    "last_name": "Schöberl",
-    "side_older": [
-      "Alma",
-      "Erhard",
-      "Renate",
-      "Bernhard"
-    ],
-    "side_younger": [
-      "Sabine",
-      "Tobias",
-      "Edith",
-      "Jakob"
-    ],
-    "side_surnames": [
-      "Reindl",
-      "Pammer"
-    ]
+    "action_request": null
   },
   "content": {
     "user_context": {
@@ -141,7 +141,7 @@
       {
         "role": "user",
         "timestamp": "21:42",
-        "text": "Recht guat eigentlich. I hab Alma die Kipferl mitbracht, de mag er so gern, und er hat glei zwoa gessen."
+        "text": "Recht guat eigentlich. I hab Emma die Kipferl mitbracht, de mag er so gern, und er hat glei zwoa gessen."
       },
       {
         "role": "assistant",
@@ -189,7 +189,7 @@
     "disturbances": [
       {
         "turn_index": 4,
-        "span": "Alma",
+        "span": "Emma",
         "type": "stt_phonetic"
       },
       {
@@ -200,6 +200,6 @@
     ],
     "contact_type": null,
     "unavailable_action_request": false,
-    "rationale": "Two phonetic recognition errors in the history: dialect 'eahm' (ihm, him) is heard as the name 'Alma', which invents a person who does not exist in memory; and the participle 'eingwintert' is split at the wrong word boundary into 'ein Winter'. Both match how German STT handles soft, dialect speech. The companion's history turns just follow the plausible meaning (cookies for Erhard, roses winterized). The final turn is clean and emotionally meaningful, so the reply should respond to the brother giving away his album, without mentioning an 'Alma'."
+    "rationale": "Two phonetic recognition errors in the history: dialect 'eahm' (ihm, him) is heard as the name 'Emma', which invents a person who does not exist in memory; and the participle 'eingwintert' is split at the wrong word boundary into 'ein Winter'. Both match how German STT handles soft, dialect speech. The companion's history turns just follow the plausible meaning (cookies for Erhard, roses winterized). The final turn is clean and emotionally meaningful, so the reply should respond to the brother giving away his album, without mentioning an 'Emma'."
   }
 }

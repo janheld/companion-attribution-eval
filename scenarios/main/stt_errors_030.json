@@ -1,0 +1,188 @@
+{
+  "id": "stt_errors_030",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:51.414123+00:00"
+  },
+  "content_hash": "f9e22efbff45775e8a1124f36313c87dda4fce5f8c55073df961b7da2b71ceef",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_030",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 7,
+    "time_of_day": "Vormittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Klothilde",
+    "last_name": "Seidl",
+    "side_older": [
+      "Hartmut",
+      "Genoveva",
+      "Eduard"
+    ],
+    "side_younger": [
+      "Philipp",
+      "Paulina",
+      "Fabio"
+    ],
+    "side_surnames": [
+      "Gahleitner",
+      "Rameder"
+    ],
+    "former_job": "Gemeindebedienstete",
+    "interests": [
+      "Fotografieren",
+      "Zeitung und Politik"
+    ],
+    "occasion": "hat Langeweile, es regnet",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Klothilde Seidl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 7
+      },
+      "time_of_day": "Mittwoch, 10:00",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Philipp (Sohn)",
+          "text": "Mama hat sich beim Umstechen im Garten den Rücken verrissen. Sie soll nichts Schweres heben, sagt der Hausarzt. Sie liest jeden Tag die Zeitung und redet gern über Gemeindepolitik."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Klothilde ist 73 und seit fünf Jahren verwitwet, ihr Mann Eduard war Tischler. Sie hat fast dreißig Jahre am Gemeindeamt gearbeitet, zuletzt im Meldeamt, und verfolgt die Gemeindepolitik genau."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Fotografiert gern Pflanzen und Wetterstimmungen rund ums Haus. Liest jeden Morgen die Zeitung von vorn bis hinten."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sohn Philipp wohnt in der Bezirksstadt. Enkelin Paulina studiert und kommt in den Ferien für ein, zwei Wochen zur Oma."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit dem Umstechen der Beete vor zwei Wochen Rückenschmerzen. Hausarzt ist Dr. Gahleitner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Klothilde erzählte vom Besuch bei Dr. Gahleitner wegen ihres Rückens. Sie soll sich viel bewegen, aber nicht bücken und nichts Schweres heben. Sie ärgerte sich, dass sie deshalb im Garten nichts tun kann.",
+          "notes": [
+            "war wegen des Rückens bei Dr. Gahleitner",
+            "soll sich bewegen, aber nicht bücken",
+            "ärgert sich über die Pause im Garten"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Klothilde sprach über einen Zeitungsartikel zum geplanten Kindergartenneubau im Ort. Sie erklärte, wie so ein Bauvorhaben im Gemeinderat beschlossen wird, und erzählte von ihrer Zeit am Gemeindeamt.",
+          "notes": [
+            "interessiert sich für den Kindergartenneubau",
+            "kennt die Abläufe im Gemeinderat gut",
+            "erzählt gern von der Arbeit am Gemeindeamt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:02",
+        "text": "Ach, heut ist wieder so ein Tag, wo man nicht weiß, was man mit sich anfangen soll. Es regnet seit gestern Abend in einem durch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Klothilde. So ein Dauerregen schlägt schon aufs Gemüt. Hast du die Zeitung schon gelesen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:03",
+        "text": "Freilich, die war um sieben schon durch. Über den Kindergarten steht wieder nur, dass gebaut wird, aber net, wie die das zahlen wollen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Genau das wäre ja das Spannende. Du weißt aus deiner Zeit am Gemeindeamt sicher, wo man da nachfragen müsste."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:06",
+        "text": "Jo, beim Gemeinderat halt, die Sitzungen sind eh öffentlich. Vielleicht geh ich nächstes Mal wieder hin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einer guten Idee. Da bekommst du die Antworten aus erster Hand."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:09",
+        "text": "Jetzt sitz ich halt draußen auf der Grete und schau dem Regen zu. Die Kamera hab ich eh dabei, vielleicht erwisch ich die Tropfen auf den Ringelblumen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Tropfen auf Blüten geben oft wunderschöne Bilder. Hast du ein Objektiv, mit dem du nah hingehen kannst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Ein Makro, des hat mir der Philipp zum Siebziger geschenkt. Aber bücken darf ich mich halt net, wegen dem Kreuz."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann such dir lieber Blumen, an die du im Sitzen oder Stehen gut hinkommst. Was dem Rücken sonst guttut, weiß Dr. Gahleitner am besten."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:14",
+      "text": "Die Ringelblumen im Trog gehen eh. Die Paulina kommt über Weihnachten zwei Wochen, da möcht ich ihr ein paar Fotos vom Garten im Sommer herrichten."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "auf der Grete",
+        "type": "stt_dialect"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Klothilde uses the Mühlviertel word 'Gred' (the paved, often roofed strip along the front of the house where people sit). STT has no such word in its vocabulary and maps 'auf der Gred' to the closest frequent token, the first name 'Grete', so it looks as if she is sitting on a person. The companion responds to the plausible part (sitting outside, photographing the rain)."
+  }
+}

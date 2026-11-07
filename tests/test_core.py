@@ -152,16 +152,51 @@ def test_action_requests_allocated_only_where_configured():
     assert sum(1 for s in specs if s["condition"] == "clean" and s["action_request"]) in range(6, 10)
 
 
+def _new_set_cfg(cfg):
+    """A future set of main-set size under the current name rules (not v1)."""
+    cfg["sets"]["future"] = {**cfg["sets"]["main"], "name_rules": None, "extra_side_names": {}}
+    return cfg
+
+
 def test_names_unique_and_side_names_capped():
     from collections import Counter
-    from cae.people import SIDE_CAP
-    specs = generate.make_specs("main", generate.load_config())
+    from cae.people import look_alike
+    cfg = _new_set_cfg(generate.load_config())
+    specs = generate.make_specs("future", cfg)
     assert len({s["first_name"] for s in specs}) == len(specs)
     assert len({s["last_name"] for s in specs}) == len(specs)
     users = {s["first_name"] for s in specs} | {s["last_name"] for s in specs}
     side = Counter(n for s in specs for n in s["side_older"] + s["side_younger"] + s["side_surnames"])
     assert not set(side) & users
-    assert max(side.values()) <= SIDE_CAP
+    assert max(side.values()) <= cfg["people"]["side_name_cap"]
+    for s in specs:
+        given = [s["first_name"]] + s["side_older"] + s["side_younger"]
+        assert not any(look_alike(a, b) for i, a in enumerate(given) for b in given[i + 1:]), given
+
+
+def test_v1_sets_keep_their_name_rules():
+    from collections import Counter
+    specs = generate.make_specs("main", generate.load_config())
+    side = Counter(n for s in specs for n in s["side_older"] + s["side_younger"] + s["side_surnames"])
+    assert max(side.values()) <= 3
+
+
+def test_household_fits_relatives():
+    cfg = _new_set_cfg(generate.load_config())
+    for s in generate.make_specs("future", cfg):
+        if s["household"] == "lebt allein, nie verheiratet":
+            assert not any(w in s["relatives"] for w in ("Sohn", "Tochter", "Enkelin", "Söhne"))
+
+
+def test_recovery_correction_styles_and_incoherence_forms():
+    from collections import Counter
+    specs = generate.make_specs("main", generate.load_config())
+    rec = [s for s in specs if s["condition"] == "recovery"]
+    assert all(s["correction_style"] for s in rec)
+    assert {s["correction_style"] for s in rec if s["recovery_difficulty"] == "hard"} >= {"brief", "implicit"}
+    assert not any(s["correction_style"] == "implicit" for s in rec if s["recovery_difficulty"] != "hard")
+    forms = Counter(s["incoherence_form"] for s in specs if s["condition"] == "incoherent_user")
+    assert max(forms.values()) <= 3
 
 
 def test_interest_share_capped():
@@ -178,3 +213,69 @@ def test_calibration_keeps_fixed_and_kept_genders():
     assert specs["clean_001"]["first_name"] == "Hermine"
     for sid, gender in cfg["sets"]["calibration"]["keep_gender"].items():
         assert specs[sid]["gender"] == gender
+
+
+def test_context_format_is_unified():
+    assert render.phase_label(14) == "Kennenlernen"
+    assert render.phase_label(15) == "Vertraut werden"
+    assert render.phase_label(162) == "Vertraut"
+    assert render.session_date("Dienstag, vor 2 Tagen", "Donnerstag, 09:40") == "Dienstag, vor 2 Tagen"
+    assert render.session_date("vor 2 Tagen", "Donnerstag, 09:40") == "Dienstag, vor 2 Tagen"
+    assert render.session_date("Montag", "Donnerstag, 09:40") == "Montag, vor 3 Tagen"
+    assert render.session_date("gestern", "Donnerstag, 09:40") == "Mittwoch, vor 1 Tag"
+
+
+def test_recovery_misreading_must_match_spec():
+    s = make_scenario()
+    s["condition"] = "recovery"
+    s["annotation"]["disturbance_position"] = "history"
+    s["annotation"]["disturbances"] = [{"turn_index": 4, "span": "Satz 4", "type": "tv_film"}]
+    s["spec"] = {"misreading": "Du klingst heute ein bisschen durcheinander. Bist du vielleicht müde?"}
+    assert any("scripted misreading" in p for p in schema.validate(s))
+
+
+def test_stt_error_words_are_not_people():
+    from cae import people
+    s = make_scenario("stt_errors_001")
+    s["condition"] = "stt_errors"
+    s["content"]["history"][2]["text"] = "Ich hab Emma gesagt"
+    s["annotation"]["disturbances"] = [{"turn_index": 2, "span": "Emma", "type": "stt_phonetic"}]
+    assert not any("Emma" in p for p in people.set_problems([s], {}, generate.load_config()))
+
+
+def test_occasions_fit_time_of_day_and_are_capped():
+    from collections import Counter
+    cfg = generate.load_config()
+    specs = generate.make_specs("main", cfg)
+    assert all(s["time_of_day"] in cfg["occasions"][s["occasion"]] for s in specs)
+    assert max(Counter(s["occasion"] for s in specs).values()) <= len(specs) * cfg["occasion_max_share"]
+
+
+def test_near_identical_openings_are_flagged():
+    from cae import checks
+    a, b, c = make_scenario("a"), make_scenario("b"), make_scenario("c")
+    a["content"]["history"][0]["text"] = "Na, Mira, bist no munter? I kann net schlafen."
+    b["content"]["history"][0]["text"] = "Na, Mira, bist noch munter? I kann eh net schlafen."
+    c["content"]["history"][0]["text"] = "Stell dir vor, die Post hat heute schon wieder nichts gebracht."
+    assert checks.opening_problems([a, b, c]) == ["near-identical openings: a / b"]
+
+
+def test_time_check_finds_past_weekday_in_old_summary():
+    from cae import checks
+    s = make_scenario()
+    ctx = s["content"]["user_context"]
+    ctx["time_of_day"] = "Montag, 12:00"
+    s["content"]["history"][0]["timestamp"] = "12:00"
+    ctx["recent_sessions"] = [{"date": "Mittwoch, vor 5 Tagen", "summary": "Ausflug am Donnerstag geplant.", "notes": []}]
+    s["content"]["history"][2]["text"] = "Am Donnerstag ist der Ausflug."
+    assert any("am Donnerstag" in p for p in checks.time_problems(s))
+    ctx["recent_sessions"][0]["summary"] = "Ausflug am Donnerstag nächster Woche geplant."
+    assert not any("am Donnerstag" in p for p in checks.time_problems(s))
+
+
+def test_time_check_finds_wrong_summary_weekday():
+    from cae import checks
+    s = make_scenario()
+    s["content"]["user_context"]["time_of_day"] = "Montag, 09:40"
+    s["content"]["user_context"]["recent_sessions"] = [{"date": "Freitag, vor 2 Tagen", "summary": "x", "notes": []}]
+    assert any("does not fit today" in p for p in checks.time_problems(s))

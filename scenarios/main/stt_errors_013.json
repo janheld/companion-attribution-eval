@@ -1,0 +1,202 @@
+{
+  "id": "stt_errors_013",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:24.821220+00:00"
+  },
+  "content_hash": "8412a4e82a36b0fcd24cc17feaf3235c52b8ddc8f30cf876bdb12d5ed7b3bca9",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_013",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 3,
+    "time_of_day": "später Abend",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Sabina",
+    "last_name": "Reiter",
+    "side_older": [
+      "Jolanda",
+      "Hans-Peter",
+      "Regina"
+    ],
+    "side_younger": [
+      "Teresa",
+      "Noel",
+      "Jasmin"
+    ],
+    "side_surnames": [
+      "Schöftner",
+      "Deisenhofer"
+    ],
+    "former_job": "Fabrikarbeiterin in der Textilfabrik",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Ortschronik und Ahnenforschung"
+    ],
+    "occasion": "will etwas wissen (Rezept, Wort, wie etwas geht)",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Sabina Reiter",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 3
+      },
+      "time_of_day": "Donnerstag, 21:38",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Teresa (Tochter)",
+          "text": "Mama wird beim schnellen Aufstehen manchmal schwindlig. Dr. Schöftner hat den Blutdruck kontrolliert und ihr geraten, langsam aufzustehen und genug zu trinken."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verheiratet mit Hans-Peter, der viel unterwegs ist: Feuerwehrkameradschaft, Tarockrunde am Donnerstagabend im Gasthaus. Tochter Teresa wohnt in der Bezirksstadt. Enkelin Jasmin studiert Geschichte an der Universität und kommt in den Ferien zu den Großeltern."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Hilft seit acht Jahren im Sozialmarkt mit, Dienstag und Freitag am Vormittag, meistens gemeinsam mit ihrer Freundin Regina."
+        },
+        {
+          "topic": "Ahnenforschung und Ortschronik",
+          "text": "Erforscht die Familie ihrer Mutter, arbeitet mit Auszügen aus Kirchenbüchern. Kann die alte Kurrentschrift teilweise lesen. Schreibt für die Ortschronik einen Beitrag über die frühere Textilfabrik."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 31 Jahre Arbeiterin in der Textilfabrik im Ort, zuerst an der Spinnmaschine, später in der Weberei."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwindel beim schnellen Aufstehen, vor allem in der Früh. Hausarzt ist Dr. Schöftner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 1 Tag",
+          "summary": "Sabina hat von ihrem Beitrag für die Ortschronik über die Textilfabrik erzählt, in der sie 31 Jahre gearbeitet hat. Sie sammelt dafür Fotos von früheren Kolleginnen. Nebenbei erwähnte sie, dass ihr in der Früh beim Aufstehen kurz schwindlig war und sie jetzt langsamer aufsteht, wie Dr. Schöftner es ihr geraten hat.",
+          "notes": [
+            "Schreibt einen Chronikbeitrag über die Textilfabrik",
+            "Sammelt alte Fotos von Kolleginnen",
+            "Steht wegen Schwindel bewusst langsam auf"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Erstes Gespräch. Sabina hat sich vorgestellt: Sie kam gerade vom Vormittag im Sozialmarkt, wo sie mit Regina Ware eingeräumt hat. Sie erzählte von ihrem Mann Hans-Peter, der viel unterwegs ist, und von der Enkelin Jasmin, die Geschichte studiert und zu Weihnachten kommt. Sie interessiert sich für Ahnenforschung.",
+          "notes": [
+            "Sozialmarkt Dienstag und Freitag am Vormittag, mit Regina",
+            "Enkelin Jasmin studiert Geschichte, kommt zu Weihnachten",
+            "Interessiert sich für die Familie ihrer Mutter"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:40",
+        "text": "Hallo Mira. Du, ich sitz grad über den Kirchenbuchauszügen von der Familie meiner Mutter, und da steht bei einer Ururgroßmutter Inwohnerin. Was heißt denn das genau?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Inwohner hat man früher Leute genannt, die kein eigenes Haus hatten und bei jemand anderem zur Miete gewohnt haben. Oft waren das Taglöhner oder Mägde."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:42",
+        "text": "Ja, das könnte hinkommen. Die war ledig und hat zwei Kinder gehabt, und bei beiden ist kein Vater eingetragen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das war damals gar nicht selten, gerade bei Mägden, die oft nicht heiraten durften. Für deine Forschung ist das natürlich eine Lücke."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:45",
+        "text": "Mhm. Und dann die Schrift. Vieles kann ich ja lesen, aber bei manchen Buchstaben rate ich nur. Wie lernt man das am besten, die Kurrent?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Viele nehmen sich eine Tabelle mit dem Alphabet und schreiben die Buchstaben ein paarmal selber nach. Und es hilft, zuerst Namen zu lesen, die du schon kennst, dann kannst du die Buchstaben vergleichen."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:48",
+        "text": "Das mit dem Nachschreiben probier ich. Die Jasmin hat gesagt, sie schaut sich die schwierigen Stellen in den Weihnachtsferien mit mir an, die hat das an der Uni gelernt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schön, dann habt ihr zwei ein gemeinsames Projekt, wenn sie da ist. Bis dahin kannst du dir die Stellen sammeln, wo du hängst."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:50",
+        "text": "Ja, so mach ich das. Der Hans-Peter kommt eh erst um zehn vom Tarock heim, so lang hab ich noch Ruhe zum Lesen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du noch ein bisschen Zeit für deine Ururgroßmutter. Wie weit zurück bist du auf der Seite deiner Mutter schon gekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:52",
+        "text": "Bis ungefähr 1830. Weiter zurück wird es schwierig, die älteren Bücher liegen im Pfarrarchiv in der Bezirksstadt, da muss man sich vorher anmelden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bis 1830 ist schon ein schönes Stück. Wenn du ins Pfarrarchiv gehst, schreib dir vorher die Namen und Jahre auf, die du suchst, dann geht es dort schneller."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:55",
+      "text": "Mach ich. Eine Frage hab ich aber noch. Bei der Taufe von ihrer Tochter steht bei der Patin hinten so eine Abkürzung, zwei Buchstaben mit einem Punkt, und die"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "zwei Buchstaben mit einem Punkt, und die",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The final turn is cut off mid-sentence right before the user names the abbreviation she is asking about. Late in the evening, speaking while reading from paper, she pauses to look at the letters; the voice activity detection ends the utterance at that pause, so the question arrives without its key content. The rest of the session is a coherent genealogy conversation."
+  }
+}

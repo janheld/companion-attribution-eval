@@ -1,0 +1,192 @@
+{
+  "id": "incoherent_user_020",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:00.060709+00:00"
+  },
+  "content_hash": "2d3b020bd0fa3f33125296c116c07a1403972407a4cbd970e77987d169ea2d47",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_020",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 209,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Hildegard",
+    "last_name": "Zöpfl",
+    "side_older": [
+      "Ignaz",
+      "Minna",
+      "Eugen"
+    ],
+    "side_younger": [
+      "Matteo",
+      "Nadine",
+      "Samuel"
+    ],
+    "side_surnames": [
+      "Niedermayr",
+      "Kirchberger"
+    ],
+    "former_job": "Hilfsarbeiterin am Bau",
+    "interests": [
+      "Lesen",
+      "Mundartgedichte"
+    ],
+    "occasion": "kann nicht schlafen",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Hildegard Zöpfl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 209
+      },
+      "time_of_day": "Samstag, 22:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Matteo (Sohn)",
+          "text": "Mama hat seit Donnerstag wieder einen Gichtanfall in der großen Zehe. Am Montag hat sie einen Termin bei Dr. Niedermayr."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, ihr Mann Ignaz war Maurer und ist 2021 gestorben. Zwei Söhne: Samuel lebt seit fünfzehn Jahren mit seiner Familie in Kanada und ruft jeden Sonntag am späten Nachmittag an. Matteo wohnt mit seiner Frau Nadine in der Stadt und kommt jedes zweite Wochenende."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hat bis zur Pension als Hilfsarbeiterin am Bau gearbeitet, oft auf denselben Baustellen wie Ignaz."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Liest viel, am liebsten Mundartgedichte. Geht einmal im Monat in einen Lesekreis in der Pfarrbücherei, dort ist auch ihre Freundin Minna. Kennt dort den Herrn Kirchberger, der selbst Mundartgedichte schreibt und ein kleines Büchl herausgebracht hat."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gicht in der großen Zehe links, kommt in Schüben. Kühlt dann mit Topfenumschlägen. Hausarzt ist Dr. Niedermayr."
+        },
+        {
+          "topic": "Schlaf",
+          "text": "Schläft schlecht, wenn die Zehe schmerzt. Liest dann im Bett, bis sie müde wird."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Hildegard hatte seit dem Morgen Schmerzen in der großen Zehe und vermutete einen neuen Gichtschub. Sie kühlte mit Topfen und rief Matteo an, der ihr einen Termin bei Dr. Niedermayr für Montag ausgemacht hat.",
+          "notes": [
+            "neuer Gichtschub in der linken großen Zehe",
+            "kühlt mit Topfen",
+            "Termin bei Dr. Niedermayr am Montag nächster Woche"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Hildegard war im Lesekreis. Minna hat ihr das Gedichtbüchl vom Herrn Kirchberger geschenkt, das sie schon länger lesen wollte. Sie freute sich besonders über die Gedichte über das Landleben.",
+          "notes": [
+            "Lesekreis mit Minna",
+            "Gedichtbüchl vom Herrn Kirchberger geschenkt bekommen",
+            "mag Gedichte über das Landleben"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:47",
+        "text": "Jetzt lieg i schon seit einer Stund da, und es wird einfach net. Die Zehe klopft wieder wie verrückt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist unangenehm, Hildegard, gerade wenn man schlafen will. Ist es noch die gleiche Zehe wie am Donnerstag?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:49",
+        "text": "Jo, die große links. Gekühlt hab i schon, mit dem Topfen. Hilft halt immer nur eine Weile."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du kühlst. Am Montag bist du ja bei Dr. Niedermayr, der kann dir sagen, was dir bei dem Schub am besten hilft."
+      },
+      {
+        "role": "user",
+        "timestamp": "22:52",
+        "text": "Eh. Jetzt hab i mir das Büchl vom Kirchberger hergenommen, das mir die Minna geschenkt hat. Vielleicht werd i davon müd."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Idee. Gibt es ein Gedicht, das dir heute besonders gefällt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:55",
+        "text": "Eins über den Herbst, wie die Leut die Erdäpfel klauben. Da hab i an früher denken müssen, wie wir als Kinder auf dem Acker waren, mit den kalten Fingern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein schönes Bild. Magst du mir eine Zeile daraus vorlesen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:58",
+        "text": "Na, so schön wie er kann i des net lesen. Aber morgen ruft eh der Samuel an, dem les i's vor, der hat so was gern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da freut er sich sicher. Dann hast du für morgen schon was, worauf du dich freuen kannst."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "23:01",
+      "text": "Jo. Aber jetzt muss i leiser reden, gell, der Ignaz schlaft drüben schon, der muss morgen um sechs auf die Baustelle. Der schimpft eh, wenn i so lang das Licht brennen lass."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "der Ignaz schlaft drüben schon, der muss morgen um sechs auf die Baustelle. Der schimpft eh, wenn i so lang das Licht brennen lass.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Late at night, tired and in pain after reminiscing about her childhood, Hildegard speaks of her husband Ignaz, who died in 2021, as if he were asleep in the next room and had to go to the building site the next morning (a Sunday). Memory states clearly that he died and was a bricklayer; the remark is in her own voice and dialect and continues her own thought, so it reads as a genuine time confusion, not TV or STT."
+  }
+}

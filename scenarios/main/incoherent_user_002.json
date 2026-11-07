@@ -1,0 +1,182 @@
+{
+  "id": "incoherent_user_002",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:35.005984+00:00"
+  },
+  "content_hash": "38ba7f3fcb7dc716cf3397f5f257c113a8b912102fab2c35973457f3b930d7df",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_002",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 144,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 8,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Josefa",
+    "last_name": "Pötscher",
+    "side_older": [
+      "Hubert",
+      "Heidemarie",
+      "Waldemar"
+    ],
+    "side_younger": [
+      "Christopher",
+      "Tina",
+      "Manuel"
+    ],
+    "side_surnames": [
+      "Ametsbichler",
+      "Ganglberger"
+    ],
+    "former_job": "Schneiderin",
+    "interests": [
+      "Garten",
+      "Kreuzworträtsel"
+    ],
+    "occasion": "gerade vom Einkaufen oder vom Markt zurück",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Josefa Pötscher",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 144
+      },
+      "time_of_day": "Dienstag, 15:15",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Tina (Tochter)",
+          "text": "Mama übernimmt sich im Garten gern und hat danach tagelang Kreuzweh. Wenn sie schwer tragen oder umgraben will, gern daran erinnern, dass sie es aufteilen kann."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Josefa Pötscher, 76, lebt allein in ihrem Haus mit großem Gemüsegarten. War Schneiderin mit eigener kleiner Werkstatt, näht heute noch Vorhänge und Änderungen für Bekannte."
+        },
+        {
+          "topic": "Familie",
+          "text": "Seit über dreißig Jahren von Hubert geschieden, kaum Kontakt. Tochter Tina wohnt im Ort und kommt meistens samstags vorbei. Sohn Manuel lebt in der Stadt und ruft unregelmäßig an. Die beiden Geschwister reden seit drei Jahren nicht miteinander, es ging darum, wer später Josefas Haus übernehmen soll. Tinas Sohn Christopher ist 19."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Rückenschmerzen, vor allem nach Gartenarbeit. Dr. Ametsbichler hat ihr Wärme und kurze Arbeitseinheiten empfohlen."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Garten (Gemüse, Kraut, Tulpen am Zaun) und Kreuzworträtsel aus der Wochenzeitung. Bei schweren Rätselfragen ruft sie manchmal Christopher an."
+        },
+        {
+          "topic": "Umfeld",
+          "text": "Nachbarin Frau Ganglberger, deren Enkel hilft ihr gelegentlich im Garten. Freundin Heidemarie trifft sie oft beim Einkaufen im Ort."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Josefa hatte starkes Kreuzweh, weil sie am Vortag das ganze Gemüsebeet umgegraben hatte. Sie hat sich ein Kirschkernkissen gewärmt und den Nachmittag auf dem Sofa verbracht. Sie erzählte, dass Tina beim Besuch geschimpft hat, weil sie nicht gewartet hat.",
+          "notes": [
+            "Gemüsebeet umgegraben, danach Kreuzweh",
+            "Wärme mit Kirschkernkissen",
+            "Tina war zu Besuch und hat geschimpft"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Josefa nähte Vorhänge für Frau Ganglberger und löste nebenbei das Kreuzworträtsel. Bei einer Frage nach einem Nebenfluss kam sie nicht weiter und rief Christopher an, der es ihr am Handy nachgeschaut hat.",
+          "notes": [
+            "Näht Vorhänge für Frau Ganglberger",
+            "Kreuzworträtsel, Hilfe von Christopher per Telefon",
+            "Christopher meldet sich gern bei ihr"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:17",
+        "text": "I stell grad die Taschen auf den Tisch, und der Rücken meldet sich schon wieder. Das Schleppen vom Einkaufen war heut a bissl viel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du ja einiges heimgetragen. Was hast du denn alles mitgebracht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:19",
+        "text": "A Kraut, Äpfel, a Stück Geselchtes, und beim Gärtner hab i Tulpenzwiebeln gekriegt, die waren heruntergesetzt. Die gehören noch in die Erde, bevor's friert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Tulpenzwiebeln kann man im November noch gut setzen, solange der Boden nicht gefroren ist. Vielleicht teilst du dir das auf ein paar Tage auf, wegen dem Rücken."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Jo, die Frau Ganglberger hat eh gesagt, ihr Enkel tät mir helfen. Beim Einkaufen hab i die Heidemarie getroffen, und die fragt mich glatt, ob die Tina und der Manuel wieder miteinander reden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass du die Heidemarie getroffen hast. Die Frage hat dich aber sicher beschäftigt."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:24",
+        "text": "Freilich. Was soll i da sagen, seit der Geschichte mit dem Haus reden die zwei kein Wort. Die Tina kommt halt am Samstag, und der Manuel ruft an, wenn er Zeit hat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schwer, wenn sich die eigenen Kinder nicht vertragen. Gut, dass du zu beiden Kontakt hast."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:27",
+      "text": "Du, Mira, die Tulpenzwiebeln, die i heut beim Gärtner gekauft hab, kann man die im November überhaupt noch eingraben? Oder ist's da schon zu spät? Wegschmeißen tät i's nämlich ungern."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Du, Mira, die Tulpenzwiebeln, die i heut beim Gärtner gekauft hab, kann man die im November überhaupt noch eingraben? Oder ist's da schon zu spät?",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user asks, as if for the first time, the same question about planting tulip bulbs in November that Mira answered three turns earlier, right after the user herself mentioned the bulbs. The repetition is in her own voice and dialect, fully formed and clearly transcribed, so it cannot be TV or an STT error; it follows an emotionally loaded stretch about her estranged children, which makes losing track plausible. The rest of the session is coherent."
+  }
+}

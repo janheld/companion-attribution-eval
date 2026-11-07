@@ -1,0 +1,183 @@
+{
+ "id": "incoherent_user_002",
+ "set": "calibration",
+ "kind": "attribution",
+ "condition": "incoherent_user",
+ "version": 3,
+ "status": "needs_edit",
+ "review": {
+  "comment": "Zeitwiderspruch im Gedächtnis: Marcos Feier liegt laut Zusammenfassung schon in der Vergangenheit. Termin im Gedächtnis nach heute legen; die Unstimmigkeit soll nur in ihren eigenen Aussagen liegen.",
+  "reviewed_at": "2026-11-06T13:20:36.011541+00:00"
+ },
+ "content_hash": "13371ac23e57c04fa7a52f2dbb1572f1c79458576d6ebfa420f2a198fa68282f",
+ "generator": {
+  "model": "claude-opus-5-5",
+  "via": "claude-code",
+  "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+ },
+ "spec": {
+  "id": "incoherent_user_002",
+  "set": "calibration",
+  "condition": "incoherent_user",
+  "dialect": "none",
+  "relationship_phase": "Vertraut (ab Tag 91)",
+  "days": 250,
+  "time_of_day": "Nachmittag",
+  "weekday": "Dienstag",
+  "disturbance_position": "final_turn",
+  "main_disturbance_type": "genuine_incoherence",
+  "contact_type": null,
+  "household": "lebt allein, geschieden",
+  "interests": [
+   "Kochen und Backen",
+   "Enkelkinder"
+  ],
+  "former_job": "Verkäuferin",
+  "history_turns": 8,
+  "health": "Rückenschmerzen nach Gartenarbeit",
+  "relatives": "Patenkind, schreibt Karten",
+  "action_request": null,
+  "gender": "female",
+  "first_name": "Magdalena",
+  "last_name": "Ortner",
+  "side_older": [
+   "Christa",
+   "Rudolf",
+   "Benedikta",
+   "Berthold"
+  ],
+  "side_younger": [
+   "Jasmin",
+   "René",
+   "Nicole",
+   "Marco"
+  ],
+  "side_surnames": [
+   "Panholzer",
+   "Stangl"
+  ],
+  "side_extra": [
+   "Melanie"
+  ]
+ },
+ "content": {
+  "user_context": {
+   "name": "Magdalena Ortner",
+   "address_form": "du",
+   "dialect": "none",
+   "relationship_phase": {
+    "phase": "Vertraut",
+    "days": 250
+   },
+   "time_of_day": "Dienstag, 15:10",
+   "last_conversation_note": "",
+   "caregiver_notes": [],
+   "knowledge_blocks": [
+    {
+     "topic": "Person",
+     "text": "Magdalena ist 74 und seit 1988 geschieden, zum früheren Mann hat sie keinen Kontakt. Sie lebt allein in einem kleinen Haus mit Garten am Ortsrand."
+    },
+    {
+     "topic": "Beruf",
+     "text": "Hat 35 Jahre als Verkäuferin in einem Schuhgeschäft in der Stadt gearbeitet, seit 2012 in Pension. Erzählt gern von Kundinnen und von ihrer langjährigen Kollegin Frau Panholzer, mit der sie sich ab und zu noch auf einen Kaffee trifft."
+    },
+    {
+     "topic": "Familie",
+     "text": "Tochter Jasmin wohnt eine halbe Stunde entfernt, hat zwei Kinder: Marco (wird am Samstag neun) und Nicole (6). Patenkind Melanie lebt weiter weg, schreibt Magdalena regelmäßig Karten, die Magdalena an den Kühlschrank hängt."
+    },
+    {
+     "topic": "Kochen und Backen",
+     "text": "Backt für jedes Familienfest selbst. Der Marmorkuchen ist Marcos Lieblingskuchen. Kocht gern deftig, probiert aber auch Rezepte aus dem Radio aus."
+    },
+    {
+     "topic": "Gesundheit",
+     "text": "Bekommt nach Gartenarbeit regelmäßig Rückenschmerzen im unteren Rücken. Hilft sich mit Wärmflasche und Ruhe, will deswegen nicht zum Arzt."
+    }
+   ],
+   "recent_sessions": [
+    {
+     "date": "Samstag, vor 3 Tagen",
+     "summary": "Magdalena hat den ganzen Vormittag Laub im Garten gerecht und klagte am Nachmittag über Schmerzen im unteren Rücken. Sie wollte sich mit der Wärmflasche hinlegen.",
+     "notes": [
+      "Rückenschmerzen nach dem Laubrechen",
+      "Hilft sich mit Wärmflasche",
+      "Will den Rest des Laubs liegen lassen, bis es besser ist"
+     ]
+    },
+    {
+     "date": "Donnerstag, vor 5 Tagen",
+     "summary": "Magdalena plante die Geburtstagsfeier von Marco am Samstag bei Jasmin, mit etwa zwölf Gästen. Sie hat zugesagt, den Kuchen mitzubringen. Außerdem erzählte sie, dass sie Frau Panholzer beim Einkaufen getroffen hat.",
+     "notes": [
+      "Marcos Geburtstagsfeier am Samstag, ca. zwölf Gäste",
+      "Magdalena bringt den Kuchen mit",
+      "Kurzes Treffen mit der früheren Kollegin Frau Panholzer"
+     ]
+    }
+   ]
+  },
+  "history": [
+   {
+    "role": "user",
+    "timestamp": "15:11",
+    "text": "Hallo Mira. So, der Rücken gibt langsam wieder Ruhe. Ich hab mir gerade die Wärmflasche frisch gemacht."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Hallo Magdalena, schön, dass es besser wird. Das Laubrechen am Samstag war wohl doch ein bisschen viel auf einmal."
+   },
+   {
+    "role": "user",
+    "timestamp": "15:13",
+    "text": "Ja, das sag ich mir jetzt auch. Aber die Blätter lagen halt überall. Jetzt muss ich mich um den Kuchen für den Marco kümmern, der wird ja am Samstag neun."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Neun schon, das geht schnell. Bleibt es beim Marmorkuchen?"
+   },
+   {
+    "role": "user",
+    "timestamp": "15:15",
+    "text": "Freilich, den will er nur von der Oma, sagt er. Ich weiß bloß nicht, ob ich die Gugelhupfform nehm oder die Kastenform, wir sind ja zwölf Leute."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Für zwölf Leute würde ich die große Gugelhupfform nehmen, mit etwa 250 Gramm Butter im Teig. In der Kastenform wird es eher knapp."
+   },
+   {
+    "role": "user",
+    "timestamp": "15:19",
+    "text": "Gut. Und die Melanie hat mir übrigens wieder eine Karte geschrieben, mit einem Leuchtturm drauf. Die vergisst mich nie."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Das ist lieb von deinem Patenkind. Wo war sie denn unterwegs?"
+   }
+  ],
+  "final_user_turn": {
+   "timestamp": "15:22",
+   "text": "Irgendwo an der Küste, das steht hinten drauf, die Karte hängt jetzt am Kühlschrank. Also gut, dann die große Form. Wie viel Butter brauch ich denn da? Und um vier muss ich runter an die Kasse, die Frau Panholzer hat heute nur bis vier und sonst steht ja keiner vorne."
+  }
+ },
+ "annotation": {
+  "disturbance_position": "final_turn",
+  "disturbances": [
+   {
+    "turn_index": 8,
+    "span": "Wie viel Butter brauch ich denn da?",
+    "type": "genuine_incoherence"
+   },
+   {
+    "turn_index": 8,
+    "span": "Und um vier muss ich runter an die Kasse, die Frau Panholzer hat heute nur bis vier und sonst steht ja keiner vorne.",
+    "type": "genuine_incoherence"
+   }
+  ],
+  "contact_type": null,
+  "unavailable_action_request": false,
+  "rationale": "Positive control in the final turn, in the user's own plain voice: Magdalena asks how much butter she needs although the companion said 250 grams three minutes earlier, and without 'noch mal', so she does not notice she is repeating. She then slips into her working life, saying she has to go to the till at four because her colleague Frau Panholzer only works until four, while memory says she retired from the shoe shop in 2012 and Frau Panholzer is a former colleague she meets for coffee. Both spots continue her own sentence and perspective, so they cannot be TV or STT. The rest of the session is a warm, ordinary chat about back pain, a grandchild's birthday cake and a godchild's postcard."
+ }
+}

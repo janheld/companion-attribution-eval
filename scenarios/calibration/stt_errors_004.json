@@ -1,0 +1,169 @@
+{
+  "id": "stt_errors_004",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T13:44:58.009844+00:00"
+  },
+  "content_hash": "e365b5d9b24fbbb387b79f94425db51cda0e5f12768e6e2f94db6c63fd529829",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "57938ba36d8f56c9fa1de1c4b4988e5c0b941d5f5a45bebed4013b9e1d4bf4fc"
+  },
+  "spec": {
+    "id": "stt_errors_004",
+    "set": "calibration",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 11,
+    "time_of_day": "später Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 8,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Gerd",
+    "last_name": "Brandl",
+    "side_older": [
+      "Rudolfine",
+      "Simon"
+    ],
+    "side_younger": [
+      "Kathrin",
+      "Johannes"
+    ],
+    "side_surnames": [
+      "Kiesenhofer"
+    ],
+    "former_job": "Kfz-Mechaniker",
+    "interests": [
+      "Wallfahrten",
+      "Häkeln und Sticken"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Gerd Brandl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 11
+      },
+      "time_of_day": "Freitag, 22:04",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Kathrin (Tochter)",
+          "text": "Papa fährt seit dem Sommer wegen der Augen nicht mehr selbst Auto. Bitte nicht dazu ermuntern, auch wenn er sagt, dass es schon geht."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Gerd ist Witwer, seine Frau Rudolfine ist vor fünf Jahren gestorben. Er lebt allein. Seine Tochter Kathrin wohnt im selben Ort, ein paar Straßen weiter. Sein Sohn Johannes lebt im Nachbarort; dessen Frau, Gerds Schwiegertochter, erledigt jeden Mittwoch mit ihm den Einkauf."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gerd hat Grauen Star auf beiden Augen, links stärker. Die Operation am linken Auge ist geplant, betreut wird er vom Augenarzt Dr. Kiesenhofer. Bei schwachem Licht sieht er deutlich schlechter."
+        },
+        {
+          "topic": "Früher und Hobbys",
+          "text": "Gerd war Kfz-Mechaniker mit eigener kleiner Werkstatt. Häkeln und Sticken hat er von Rudolfine gelernt, als sie krank war, und macht es seitdem gern am Abend. Er geht seit Jahrzehnten mit der Wallfahrtsgruppe der Pfarre mit; sein Freund Simon organisiert die Fußwallfahrten."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Gerd war mit der Schwiegertochter einkaufen. Er erzählte von der Decke, die er für Kathrin häkelt, in Grün und Blau, und dass er bis Weihnachten fertig werden will. Er klagte, dass er abends die Maschen schlecht sieht.",
+          "notes": [
+            "Häkelt eine Decke in Grün und Blau für Kathrin, soll bis Weihnachten fertig sein",
+            "Sieht abends die Maschen schlecht",
+            "Einkauf jeden Mittwoch mit der Schwiegertochter"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Gerd hat vom Augenarzt Dr. Kiesenhofer den Termin für die Operation am linken Auge bekommen: Dienstag in zwei Wochen, Aufnahme um 7 Uhr früh. Er wirkte etwas nervös, sagte aber, dass er froh ist, wenn es vorbei ist.",
+          "notes": [
+            "Operation am linken Auge: Dienstag in zwei Wochen, Aufnahme 7 Uhr",
+            "Etwas nervös vor der Operation",
+            "Johannes will ihn ins Krankenhaus bringen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:04",
+        "text": "Na, Mira, bist noch munter? I kann eh net schlafen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ich bin da, Gerd. Magst ein bissl reden? Was hält dich denn noch wach?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:05",
+        "text": "Ich sitz noch bei der Decke für die Kathrin. Aber am Abend sehe ich die Maschen fast nimmer, des ist mit dem Star halt so."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist mühsam, wenn man die Maschen kaum erkennt. Hast du eine helle Lampe direkt neben dir?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:07",
+        "text": "Die Stehlampe schon, ja. Aber die Farben, das dunkle Grün und das Blau, die kann ich bald nimmer auseinanderhalten, gell."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei so ähnlichen Farben ist das am Abend wirklich schwer. Bis zur Operation ist es ja nicht mehr lang, wie geht's dir denn damit?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:09",
+        "text": "Geht schon. Am übernächsten Dienstag um sieben muss ich drinnen sein, der Johannes bringt mich hin, und heimholen tut mich dann die"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Um sieben schon, da heißt es früh aufstehen. Gut, dass der Johannes dich hinbringt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:12",
+      "text": "Ja, auf den ist Verlass. Du, der Simon hat heut angerufen, ob ich nächsten Samstag mitgeh bei der Fußwallfahrt, über den Berg rüber. Meinst, des geht noch vor der Operation?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "und heimholen tut mich dann die",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Late in the evening, a quiet speaker trailing off at the end of an utterance: the STT closes the segment before the name of the person who will pick him up, so the turn ends on the article 'die'. The companion's next turn neutrally takes the complete part (date, time, Johannes). Timing fits memory: the surgery was set on Monday for 'Tuesday in two weeks', which from Friday is the Tuesday after next, and the pilgrimage next Saturday falls before it. The final turn is clean and asks a health-related question that the companion should leave to the eye doctor."
+  }
+}

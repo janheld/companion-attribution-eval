@@ -1,0 +1,182 @@
+{
+  "id": "recovery_014",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:43.133436+00:00"
+  },
+  "content_hash": "37467964353c96b2701b3f3194964b97212f99eef57b459e1f6bb9c79137a907",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_014",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 149,
+    "time_of_day": "Mittag",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 8,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": "Da komm ich grad nicht ganz mit, du springst ein bisschen hin und her. Ist alles in Ordnung bei dir?",
+    "recovery_difficulty": "easy",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Adelgunde",
+    "last_name": "Moser",
+    "side_older": [
+      "Hartmut",
+      "Henriette",
+      "Ingomar"
+    ],
+    "side_younger": [
+      "Hubert",
+      "Yvonne",
+      "Victor"
+    ],
+    "side_surnames": [
+      "Ferihumer",
+      "Hummer"
+    ],
+    "former_job": "Gemeindebedienstete",
+    "interests": [
+      "Garten",
+      "Holzschnitzen"
+    ],
+    "occasion": "kommt vom Arzt, aus der Apotheke oder von der Therapie",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Adelgunde Moser",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 149
+      },
+      "time_of_day": "Samstag, 12:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Henriette (Schwester)",
+          "text": "Adelgunde hat Diabetes Typ 2 und misst jeden Morgen den Zucker. Wenn Hartmut unterwegs ist, isst sie mittags manchmal zu wenig."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lebt mit ihrem Mann Hartmut, der viel unterwegs ist: Holzmärkte, Kameradschaftsbund, Ausflüge. Keine Kinder. Sehr enger Kontakt zur jüngeren Schwester Henriette, die im Nachbarort wohnt; die beiden telefonieren fast täglich."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2, misst den Zucker jeden Morgen, Hausarzt ist Dr. Ferihumer. Holt Medikamente und Teststreifen meistens samstags am Vormittag in der Apotheke."
+        },
+        {
+          "topic": "Holzschnitzen",
+          "text": "Schnitzt kleine Tiere und Krippenfiguren aus Lindenholz. Hat eine kleine Werkbank im Keller."
+        },
+        {
+          "topic": "Garten",
+          "text": "Großer Gemüsegarten hinterm Haus, tauscht Pflanzen mit der Nachbarin Frau Hummer."
+        },
+        {
+          "topic": "Alltag",
+          "text": "War bis zur Pension Gemeindebedienstete am Gemeindeamt. Hat in der Küche fast immer das Radio laufen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Adelgunde hat einen großen Topf Gemüsesuppe gekocht, damit sie am Wochenende etwas Fertiges hat, weil Hartmut am Wochenende zum Holzmarkt fährt. Sie erzählte, dass Frau Hummer ihr Lauch aus dem Garten gebracht hat.",
+          "notes": [
+            "Gemüsesuppe auf Vorrat gekocht",
+            "Hartmut ist am Wochenende unterwegs",
+            "Frau Hummer hat Lauch gebracht"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Adelgunde arbeitet an einem geschnitzten Vogel als Geburtstagsgeschenk für Henriette. Sie sprach über die Schwierigkeit, die Federn fein herauszuarbeiten, und dass sie dafür ein neues Schnitzmesser braucht.",
+          "notes": [
+            "Schnitzt einen Vogel für Henriettes Geburtstag",
+            "Braucht ein feineres Schnitzmesser",
+            "Henriette weiß noch nichts davon"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Ich räum grad die Sachen aus der Apotheke in den Kasten, die Teststreifen und die Tabletten für die nächsten Wochen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du wieder alles daheim. War viel los in der Apotheke?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Jo, am Samstag ist dort immer a Gedränge. Die Apothekerin hat gemeint, ich soll einmal ein neues Messgerät probieren, des alte hab ich eh schon zehn Jahre."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein neues Gerät ist am Anfang ungewohnt. Ob es für dich passt und wie du die Werte vergleichst, besprichst du am besten mit dem Dr. Ferihumer."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Des mach ich eh. Der Hartmut ist heut beim Holzmarkt im Nachbarort, da koch ich mir nix Großes."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du die Küche heute für dich. Was gibt's bei dir zu Mittag?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:18",
+        "text": "Die Gemüsesuppe vom Donnerstag wärm ich mir auf. Nachher schnitz ich halt weiter an dem Vogel für die Henriette Es ist zwölf Uhr achtzehn, Sie hören die Mittagsmusik, und gleich nach der Werbung geht's weiter mit Ihren Wünschen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da komm ich grad nicht ganz mit, du springst ein bisschen hin und her. Ist alles in Ordnung bei dir?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:19",
+      "text": "Jo mei, des war das Radio in der Küche. Ich bin schon beinand, keine Sorge."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Es ist zwölf Uhr achtzehn, Sie hören die Mittagsmusik, und gleich nach der Werbung geht's weiter mit Ihren Wünschen.",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The kitchen radio is always on; a presenter's time announcement and programme trailer merge into the user's sentence about her carving project. Formal 'Sie', the time check matching the timestamp and the programme phrasing make it obviously a broadcast (easy). The user's correction is short and unbothered."
+  }
+}

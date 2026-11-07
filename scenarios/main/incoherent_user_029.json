@@ -1,0 +1,166 @@
+{
+  "id": "incoherent_user_029",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:24.022221+00:00"
+  },
+  "content_hash": "e97475e8ed39da94ea971bcc250adaface5b8b833cd29903345d5271bb051448",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_029",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 8,
+    "time_of_day": "Mittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Brigitte",
+    "last_name": "Weidinger",
+    "side_older": [
+      "Cäcilia",
+      "Franz",
+      "Hannelore"
+    ],
+    "side_younger": [
+      "Constanze",
+      "Mathias",
+      "Astrid"
+    ],
+    "side_surnames": [
+      "Stelzer",
+      "Ratzenböck"
+    ],
+    "former_job": "Polizistin",
+    "interests": [
+      "Fischen",
+      "Ziehharmonika"
+    ],
+    "occasion": "kommt von der Messe, vom Verein oder von einer Probe",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Brigitte Weidinger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 8
+      },
+      "time_of_day": "Dienstag, 12:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Brigitte, 72, war über dreißig Jahre Polizistin, zuletzt auf dem Posten im Bezirkshauptort. Nie verheiratet, keine Kinder. Lebt allein im Haus, in dem sie aufgewachsen ist. Ihre Eltern sind seit vielen Jahren tot, die Mutter starb vor über zwanzig Jahren."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihr älterer Bruder Franz lebt seit dem Frühjahr im Pflegeheim in der Stadt. Brigitte besucht ihn jeden Sonntag."
+        },
+        {
+          "topic": "Ziehharmonika",
+          "text": "Spielt Steirische Harmonika in einer kleinen Gruppe. Probe ist dienstags am Vormittag im Nebenzimmer des Gasthauses. Hannelore leitet die Gruppe, Cäcilia spielt erst seit zwei Jahren mit."
+        },
+        {
+          "topic": "Fischen",
+          "text": "Ist im Fischereiverein und fischt von Frühjahr bis Herbst am Vereinsteich, vor allem Forellen. Friert einen Teil des Fangs für den Winter ein."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2, mit Tabletten und Ernährung gut eingestellt. Achtet auf Zucker und Kohlenhydrate. Hausarzt ist Dr. Stelzer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Brigitte war bei Franz im Pflegeheim. Er war müde, hat sich aber über ihren Besuch gefreut. Sie hat ihm auf der Harmonika zwei alte Stücke vorgespielt, die er von früher kennt.",
+          "notes": [
+            "Besuch bei Franz im Pflegeheim",
+            "Hat ihm auf der Harmonika vorgespielt",
+            "Franz war müde, aber froh"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Brigitte erzählte, dass beim letzten Termin bei Dr. Stelzer der Langzeitzucker gut war. Sie hat den Fischereiteich für den Winter mit aufgeräumt und die Boote mit den anderen Vereinsmitgliedern eingelagert.",
+          "notes": [
+            "Langzeitzucker zuletzt gut",
+            "Boote am Vereinsteich eingewintert"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Die Hannelore hat heute bei der Probe gesagt, wir sollen beim Adventmarkt drei Stücke mehr spielen als letztes Jahr. Drei! Und ich hab die neuen Noten noch nicht einmal richtig angeschaut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Drei Stücke mehr, das ist ordentlich, Brigitte. Wie viel Zeit habt ihr denn noch bis zum Adventmarkt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:15",
+        "text": "Gut drei Wochen. Das geht sich aus, wenn ich jeden Tag eine halbe Stunde übe. Die Cäcilia jammert eh mehr als ich, die spielt ja erst seit zwei Jahren."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine halbe Stunde am Tag klingt nach einem guten Plan. Und vielleicht hilft es der Cäcilia, wenn ihr die schwierigen Stellen einmal zu zweit durchgeht."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Kann man machen. Jetzt hab ich aber Hunger. Bei der Probe hat's nur Kekse gegeben, die hab ich wegen dem Zucker stehen lassen. Ich mach mir gleich Gemüse und eine Forelle, ich hab noch welche eingefroren vom Sommer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gemüse mit Forelle klingt gut, und die hast du sogar selbst gefangen. Da weißt du wenigstens, was auf dem Teller ist."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:20",
+      "text": "Ja, vom Vereinsteich. Aber jetzt muss ich mich beeilen, die Mama wartet ja schon mit dem Essen, und die mag das gar nicht, wenn man zu spät heimkommt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "die Mama wartet ja schon mit dem Essen, und die mag das gar nicht, wenn man zu spät heimkommt",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Brigitte is already at home planning to cook her own lunch, then says she must hurry because her mother is waiting with the meal and dislikes lateness. Memory says she lives alone and her mother died over twenty years ago. Speaking of a long-dead parent as if she were waiting at home is a genuine time confusion, phrased in Brigitte's own matter-of-fact voice; it has no broadcast traits and no sound-alike that STT could have produced. The rest of the session (rehearsal, Advent market, diabetes-aware lunch) is coherent."
+  }
+}

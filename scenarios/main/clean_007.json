@@ -1,0 +1,206 @@
+{
+  "id": "clean_007",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:32.558247+00:00"
+  },
+  "content_hash": "debaa2a5b0cda6c654292782a52dbc8dfbaad95df5fc27857734f26693d1f608",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_007",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 112,
+    "time_of_day": "später Abend",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Eugenie",
+    "last_name": "Reichl",
+    "side_older": [
+      "Lydia",
+      "Arnold",
+      "Juliana"
+    ],
+    "side_younger": [
+      "Vanessa",
+      "Victor",
+      "Martina"
+    ],
+    "side_surnames": [
+      "Stelzer",
+      "Pichlmayr"
+    ],
+    "former_job": "Altenpflegerin",
+    "interests": [
+      "Ziehharmonika",
+      "Fußball im Fernsehen"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Eugenie Reichl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 112
+      },
+      "time_of_day": "Dienstag, 21:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Vanessa (Patenkind)",
+          "text": "Eugenie hat beidseitig ein Hörgerät und dreht das Gerät gern laut. Wenn sie nachfragt, lieber kurz und in einfachen Sätzen antworten."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Eugenie Reichl, 79, lebt allein in einer kleinen Wohnung im Ort. Seit über dreißig Jahren geschieden, keine eigenen Kinder."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast dreißig Jahre Altenpflegerin im Pflegeheim, lange im Nachtdienst gemeinsam mit ihrer Freundin Juliana."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörig, trägt seit drei Jahren beidseitig ein Hörgerät. Telefoniert ungern, weil sie am Telefon schlecht versteht. Lässt das Hörgerät regelmäßig beim Hörgeräteakustiker nachstellen."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Patenkind Vanessa, Mitte dreißig, schreibt ihr regelmäßig Karten, auch aus jedem Urlaub. Eugenie hängt die Karten an den Kühlschrank."
+        },
+        {
+          "topic": "Ziehharmonika",
+          "text": "Spielt seit ihrer Jugend steirische Ziehharmonika. Spielt manchmal am Sonntagnachmittag mit dem Nachbarn Arnold, der Gitarre spielt."
+        },
+        {
+          "topic": "Fußball",
+          "text": "Schaut jedes Länderspiel im Fernsehen und ärgert sich laut über Schiedsrichterentscheidungen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Eugenie erzählte, dass sie am Nachmittag mit dem Nachbarn Arnold musiziert hat. Sie haben alte Walzer gespielt, Arnold auf der Gitarre, sie auf der Ziehharmonika.",
+          "notes": [
+            "Musiziert gelegentlich sonntags mit Nachbar Arnold",
+            "Spielt am liebsten alte Walzer"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Eugenie berichtete, dass eine Karte von ihrem Patenkind Vanessa aus dem Urlaub am Meer angekommen ist. Sie hat sie an den Kühlschrank gehängt.",
+          "notes": [
+            "Vanessa war im Urlaub am Meer",
+            "Karten kommen an den Kühlschrank"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Eugenie sprach über das Länderspiel vom Vorabend und ärgerte sich über einen nicht gegebenen Elfmeter. Sie erwähnte, dass sie das Hörgerät beim Fernsehen lauter stellen muss.",
+          "notes": [
+            "Schaut Länderspiele im Fernsehen",
+            "Stellt das Hörgerät beim Fernsehen lauter"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:37",
+        "text": "Mei, war des heute ein langer Tag. Und grad hab i noch eine Dreiviertelstunde mit der Juliana telefoniert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine Dreiviertelstunde, da hattet ihr euch ja einiges zu erzählen. Wie geht es der Juliana?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:38",
+        "text": "Der geht's eh gut. Aber sie zieht weg, in fünf Wochen schon, zu ihrer Tochter in die Stadt. Zur Martina."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oh, das ist eine große Veränderung. Ihr kennt euch ja schon so lange, seit eurer Zeit im Pflegeheim."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:40",
+        "text": "Achtundzwanzig Jahre Nachtdienst miteinander. Die hat mich mehr als einmal rausgerissen, wenn i allein auf der Station gewesen bin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "So viele Nächte miteinander, das verbindet. Verständlich, dass dich das jetzt beschäftigt."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:41",
+        "text": "Und telefonieren ist halt auch so eine Sache mit meinem Hörgerät. Die Hälfte hab i net verstanden, alles hat sie zweimal sagen müssen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist mühsam am Telefon. Manche Hörgeräte kann man fürs Telefonieren eigens einstellen lassen, da weiß der Hörgeräteakustiker am besten Bescheid."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Da muss i eh bald wieder hin zum Nachstellen, dann frag i ihn. Die Juliana hat gesagt, wir schreiben uns halt Karten, so wie die Vanessa mit mir."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine schöne Idee. Bei der Vanessa klappt das mit den Karten ja wunderbar."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:44",
+        "text": "Jo, die vom Meer hängt immer noch am Kühlschrank. Da schau i jeden Tag drauf beim Kaffeekochen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vielleicht hängt dann bald auch eine Karte von der Juliana daneben."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:46",
+      "text": "Kann schon sein. Du, i hab mir gedacht, i sollt ihr zum Abschied was vorspielen auf der Ziehharmonika, bevor sie geht. Oder ist des kitschig?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean late-evening conversation right after a phone call: a former night-shift colleague is moving away. Typical understated sadness, practical hearing-aid trouble on the phone, and a small personal plan at the end that invites an honest opinion."
+  }
+}

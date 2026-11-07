@@ -1,0 +1,186 @@
+{
+  "id": "stt_errors_023",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:36.717376+00:00"
+  },
+  "content_hash": "e3e3aa6a554200ecba45729ace48be326e5824ba490d2795eb1d5b8351898caa",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_023",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 88,
+    "time_of_day": "früher Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Gisela",
+    "last_name": "Kreuzer",
+    "side_older": [
+      "Angela",
+      "Johann",
+      "Rosalie"
+    ],
+    "side_younger": [
+      "Emilia",
+      "Ruben",
+      "Janina"
+    ],
+    "side_surnames": [
+      "Vierlinger",
+      "Sedlmeier"
+    ],
+    "former_job": "Gärtnerin",
+    "interests": [
+      "Volksmusik im Radio",
+      "Kegeln"
+    ],
+    "occasion": "ärgert sich über etwas (Amt, Handwerker, Rechnung, Lärm)",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gisela Kreuzer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 88
+      },
+      "time_of_day": "Sonntag, 17:30",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Gisela ist 81, seit sechs Jahren verwitwet. Ihr Mann Johann war Zimmermann. Sie hat keine Kinder und war bis zur Pension Gärtnerin in einer Baumschule."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihre jüngere Schwester Rosalie wohnt im Nachbarort. Die beiden telefonieren fast jeden Tag, meistens am Nachmittag."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Gisela hört jeden Sonntag um drei die Volksmusiksendung im Radio. Dienstags geht sie mit ihrer Freundin Angela zum Kegeln ins Gasthaus. Angela wohnt zwei Häuser weiter."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Der Nachbar Herr Sedlmeier hat einen großen Holzplatz hinter dem Haus und macht dort oft Brennholz. Gisela kommt mit ihm aus, findet ihn aber manchmal rücksichtslos."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörigkeit auf beiden Seiten, sie trägt seit drei Jahren Hörgeräte. Bei lauten Geräuschen nimmt sie sie heraus, weil es ihr dann zu viel wird. HNO-Ärztin ist Dr. Vierlinger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Gisela erzählte von einem langen Telefonat mit Rosalie über die Hochzeit einer Nichte im Frühjahr. Sie überlegte, was sie anziehen soll.",
+          "notes": [
+            "Hochzeit einer Nichte im Frühjahr",
+            "telefoniert fast täglich mit Rosalie"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 5 Tagen",
+          "summary": "Gisela kam vom Kegeln mit Angela zurück und war zufrieden, weil sie zweimal alle Neune geworfen hat. Die Kegelbahn im Gasthaus soll im Winter renoviert werden.",
+          "notes": [
+            "Kegeln mit Angela jeden Dienstag",
+            "zweimal alle Neune",
+            "Kegelbahn wird im Winter renoviert"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:32",
+        "text": "Stell dir vor, der Sedlmeier hat heut den ganzen Nachmittag mit der Motorsäge Holz geschnitten. Am Sonntag!"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ärgerlich, Gisela, gerade am Sonntag will man seine Ruhe haben. Hat es lange gedauert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:33",
+        "text": "Von zwei bis halb fünf. I hab sogar die Hörgeräte herausgenommen, so laut war des."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da war das Herausnehmen wohl das Einzige, was geholfen hat. Hast du dich dabei überhaupt ein bisschen erholen können?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:35",
+        "text": "Wo denn. Um drei wär ja meine Volksmusik im Radio gewesen, die hab i fast gar net gehört."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schade um die Sendung, auf die freust du dich doch jeden Sonntag."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:37",
+        "text": "Ja eben. Der Johann, der hätt dem längst einmal was gesagt. I trau mich des net so recht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kann ich gut verstehen, mit Nachbarn ist so etwas oft heikel. Vielleicht ergibt sich einmal eine ruhige Gelegenheit, ganz freundlich."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:39",
+        "text": "Die Rosalie hat am Telefon gemeint, i soll einfach hinübergehen und fragen, ob er des net am Samstag machen kann."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem guten Rat von deiner Schwester. Freundlich gefragt kommt so etwas meistens besser an."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:41",
+      "text": "Vielleicht. Beim Kegeln am Dienstag frag i noch die Angel, die wohnt ja gleich neben dem Sedlmeier und kennt den besser."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "die Angel",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The friend Angela, known from memory as her Tuesday bowling partner who lives near the neighbor, is transcribed as 'die Angel' (fishing rod). In Upper Austrian speech the final -a is weak and STT picks the common noun with matching article. Context (Kegeln am Dienstag, lives next to Sedlmeier) points clearly to Angela."
+  }
+}

@@ -28,7 +28,8 @@ older_female: [Adelheid, Agathe, Agnes, Alma, Aloisia, Amalie, Angela, Angelika,
   Ludmilla, Petronella, Romana, Scholastika, Susanna, Adele, Alwine, Benedikta, Zenta, Hilde, Inge,
   Grete, Ilona, Eveline, Wilma, Margot, Ortrun, Adelinde, Gerhild, Helma, Hermelinde, Irmela, Jolanda,
   Klementine, Lucia, Minna, Rosalinde, Sabina, Sidonie, Wendelgard, Wilfriede, Kordula, Luitgard,
-  Edelgard, Gunhild, Afra]
+  Edelgard, Gunhild, Afra,
+  Aurelia, Beate, Bernadette, Carola, Christel, Eugenie, Gerta, Hildburg, Karla, Lisbeth, Magda, Odilia, Rosalie, Rosamunde, Trude, Ursel, Wiltraud, Adelgunde, Elisa, Hermengard]
 
 older_male: [Adalbert, Albert, Albin, Alfons, Alfred, Alois, Ambros, Andreas, Anselm, Anton, Arnold,
   Augustin, Balthasar, Bartholomäus, Benedikt, Bernhard, Berthold, Bruno, Burkhard, Christian, Dieter,
@@ -43,7 +44,8 @@ older_male: [Adalbert, Albert, Albin, Alfons, Alfred, Alois, Ambros, Andreas, An
   Bonifaz, Dietmar, Eugen, Fridolin, Gerold, Harald, Ingomar, Leo, Lothar, Martin, Ottokar, Pankraz,
   Quirin, Siegbert, Stefan, Thaddäus, Thomas, Udo, Waldemar, Wunibald, Zacharias, Dietrich, Gotthard,
   Rainer, Roland, Rüdiger, Volker, Wolfram, Bernd, Gerd, Karl-Heinz, Klaus-Dieter, Hans-Peter,
-  Franz-Josef]
+  Franz-Josef,
+  Arthur, Ägidius, Blasius, Emmerich, Laurenz, Marian, Nepomuk, Theobald, Valerian, Wenzel, Detlef, Heinz, Rolf, Hansjörg, Kuno, Gunther, Armin]
 
 # Children and grandchildren (born about 1960 to 2015), only for side characters.
 younger_female: [Alexandra, Andrea, Anja, Bettina, Birgit, Carina, Christina, Claudia, Cornelia,
@@ -53,14 +55,17 @@ younger_female: [Alexandra, Andrea, Anja, Bettina, Birgit, Carina, Christina, Cl
   Simone, Sonja, Sophia, Susanne, Tamara, Tanja, Teresa, Valentina, Vanessa, Verena, Yvonne, Annika,
   Bianca, Carmen, Christiane, Constanze, Emilia, Ines, Jacqueline, Janina, Jennifer, Karina, Lara,
   Larissa, Lina, Luisa, Mara, Mia, Nora, Paulina, Pia, Ramona, Romy, Rebecca, Selina, Svenja, Tina,
-  Ute, Vera, Zoe, Anita, Astrid, Gabi, Judith, Karoline, Kathrin, Monja, Rosemarie, Sigrun, Edith]
+  Ute, Vera, Zoe, Anita, Astrid, Gabi, Judith, Karoline, Kathrin, Monja, Rosemarie, Sigrun, Edith,
+  Theresa, Antonia, Katharina, Magdalena, Johanna, Elisabeth, Christine, Monika, Renate, Gabriele, Ulrike, Brigitte, Barbara, Anna, Helena, Clara, Sofia, Emma, Amelie, Charlotte]
 
 younger_male: [Alexander, Benjamin, Christoph, Clemens, Daniel, David, Dennis, Elias, Fabian, Gernot,
   Hannes, Jonas, Jürgen, Julian, Kevin, Leon, Lukas, Manuel, Mario, Markus, Marcel, Maximilian,
   Moritz, Niklas, Oliver, Patrick, Philipp, Raphael, René, Sascha, Sven, Thorsten, Tim, Tobias, Uwe,
   Armin, Bastian, Erik, Gerald, Ingo, Jens, Johannes, Konstantin, Lars, Matteo, Nico, Sandro, Ben,
   Finn, Gabriel, Luis, Marvin, Marco, Mathias, Dominic, Florian, Stefan, Thomas, Michael, Andreas,
-  Christian, Martin, Peter, Roland, Wolfgang, Gregor, Jakob, Simon, Paul, Felix, Sebastian]
+  Christian, Martin, Peter, Roland, Wolfgang, Gregor, Jakob, Simon, Paul, Felix, Sebastian,
+  Adrian, André, Christopher, Dario, Emanuel, Fabio, Jonathan, Leonard, Lino, Matthäus, Nikolai, Noel, Pascal, Robin, Samuel, Vincent, Yannick, Zeno, Gerhard, Harald, Hubert, Karl, Norbert, Reinhard, Robert, Werner, Josef, Georg, Anton, Kilian, Lorenz, Valentin, Severin, Benedikt, Oskar, Herbert, Klaus, Rudolf,
+  Aaron, Frederik, Henri, Ivo, Joel, Julius, Kai, Levin, Linus, Luca, Magnus, Marius, Nils, Ruben, Silvan, Theo, Tristan, Victor]
 
 surnames: [Aichinger, Aigner, Altenhofer, Angerer, Asanger, Auer, Aschauer, Bachmayr, Baumgartner,
   Baumschlager, Berger, Biberauer, Birngruber, Brandstätter, Brandl, Brunner, Buchinger, Buchner,
@@ -89,4 +94,13 @@ surnames: [Aichinger, Aigner, Altenhofer, Angerer, Asanger, Auer, Aschauer, Bach
   Tröbinger, Vierlinger, Weidinger, Weißenböck, Wiesmayr, Wöckinger, Zachhuber, Zeilinger,
   Ziegelböck, Brandmayr, Daxberger, Dobler, Eckmayr, Forstner, Gaisbauer, Hafner, Hartwagner,
   Hinterholzer, Hofbauer, Huber, Kaltenbrunner, Kinzl, Leeb, Loidl, Mauhart, Niedermayr, Ofner,
-  Pernkopf, Pichlmayr, Pöll, Ritzberger, Schöberl, Sonnleitner, Strobl, Wiesbauer, Zwettler]
+  Pernkopf, Pichlmayr, Pöll, Ritzberger, Schöberl, Sonnleitner, Strobl, Wiesbauer, Zwettler,
+  Aichberger, Altmann, Atteneder, Bachler, Baumann, Dallinger, Dirmhirn, Edtmayr, Eidenberger, Enzinger, Feyrer, Gattermayr, Gessl, Grubmüller, Hamberger, Haudum, Hinterreiter, Hochreiter, Hölzlwimmer, Hörschläger, Kaineder, Kapsammer, Keinberger, Kitzberger, Klinger, Kneidinger, Kreinecker, Lettner, Lugmayr, Mittendorfer, Neumüller, Obereder, Pötscher, Pumberger, Reichl, Riedl, Rohrhofer, Schacherl, Schobesberger, Stadler, Stelzer, Weigl, Wiesner, Wolfsegger, Zeiml, Zöchbauer, Hametseder, Dobetsberger, Gruberbauer, Mairinger]
+
+# Added after the main set (review of the main set): more names, so that a
+# side name can be capped at 2 scenarios per set (people.side_name_cap).
+older_female_added: [Alberta, Annemie, Bertholda, Dietgard, Emerentia, Erdmute, Ermelinda, Filippa, Gebharda, Gerburg, Gesine, Gotthilde, Hadwig, Helmgard, Jakobine, Leokadia, Liboria, Oda, Radegund, Rosamaria, Sieghilde, Theodolinde, Wendelina, Adeltraud, Benigna, Hiltgard, Ingrun, Adolfine, Albertine, Anastasia, Annelore, Annerose, Bernharda, Dietlinde, Dorit, Edelburga, Elma, Ernestine, Euphemia, Gotlinde, Hedda, Heidrun, Helmtrud, Herma, Ilsabe, Irmhild, Konstanze, Leonore, Linda, Lioba, Ludovika, Nanette, Reinhilde, Ricarda, Swanhild, Thea, Uta, Valeska, Elsbeth, Engelberta, Burgunde, Gislinde, Hildrun, Marieluise, Imelda]
+older_male_added: [Alwin, Ansbert, Baptist, Cölestin, Diethelm, Edgar, Ehrenfried, Eligius, Falko, Fidelis, Gundolf, Helmar, Hilarius, Ingbert, Isfried, Kasimir, Kunibert, Landolin, Odilo, Ortwin, Rigobert, Ubald, Viktor, Wigand, Wido, Arnulf, Bernold, Egbert, Lambrecht, Amand, Arno, Benno, Bertram, Dagobert, Edwin, Ekkehard, Elmar, Emmeram, Erasmus, Friedhelm, Gallus, Gerwin, Gisbert, Godehard, Guido, Hartwig, Hieronymus, Hilmar, Holger, Jodok, Ludger, Luitpold, Medard, Meinhard, Otfried, Remigius, Sixtus, Tassilo, Traugott, Ulf, Veit, Wigbert, Winfried, Ansgar, Kolomann, Otwin]
+younger_female_added: [Alessia, Aylin, Celine, Chiara, Ilka, Juna, Kira, Lotta, Maja, Nele, Smilla, Wiebke, Franka, Merle, Jolina, Alina, Anke, Beatrix, Diana, Fiona, Greta, Lilly, Melissa, Nadja, Olivia, Rahel, Ronja, Sabrina, Saskia, Stella, Tabea, Svea, Ella, Corinna, Ariane]
+younger_male_added: [Aurel, Dorian, Florentin, Hagen, Ilja, Jannis, Jasper, Joris, Laurin, Leander, Mats, Maurice, Mika, Raoul, Silas, Timon, Kian, Anian, Lasse, Carlo, Enrico, Merlin, Arne, Björn, Dustin, Hendrik, Lennart, Malte, Nathan, Ole, Torben, Vitus, Gideon, Mirko, Ralf, Joscha, Till, Cedric]
+surnames_added: [Aichhorn, Altreiter, Andorfer, Aspöck, Bachinger, Baminger, Bauernfeind, Brandner, Breitenfellner, Brückl, Buchegger, Dietachmayr, Doblhammer, Durstberger, Ebetshuber, Eckerstorfer, Eichberger, Engelhart, Fehrer, Felbermayr, Fragner, Friedl, Fuchshuber, Gangl, Garstenauer, Gehmayr, Grünbacher, Haberl, Hartlieb, Hinterdorfer, Hödl, Hofinger, Humer, Kastler, Kerschbaumer, Kittinger, Kollmann, Langthaler, Leibetseder, Lettenmayr, Mühllechner, Naderer, Nopp, Oberleitner, Ollinger, Pesendorfer, Pirklbauer, Rammerstorfer, Rathmayr, Reischl, Schiefermair, Schwarzbauer, Stockinger, Traunmüller, Vorhauer, Watzinger, Weixelbaumer, Wolfmayr, Zwicklhuber]

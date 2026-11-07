@@ -1,0 +1,172 @@
+{
+  "id": "tv_bleed_024",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:35.686965+00:00"
+  },
+  "content_hash": "f16fbcf14bfba1eac65c197bc8ba77ef8ea5e44e59d29e1a20b0e911bcb38341",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_024",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 21,
+    "time_of_day": "früher Morgen",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "traffic",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Helmut",
+    "last_name": "Schachinger",
+    "side_older": [
+      "Edmund",
+      "Eleonore",
+      "Bernd"
+    ],
+    "side_younger": [
+      "Matthäus",
+      "Ramona",
+      "Nikolai"
+    ],
+    "side_surnames": [
+      "Wiesner",
+      "Kloibhofer"
+    ],
+    "former_job": "Landwirt",
+    "interests": [
+      "Mundartgedichte",
+      "Chor"
+    ],
+    "occasion": "sitzt gerade an einem Hobby",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Helmut Schachinger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 21
+      },
+      "time_of_day": "Mittwoch, 06:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Nikolai (Neffe)",
+          "text": "Onkel Helmut hört schlecht und trägt ein Hörgerät. Ich wohne unten im selben Haus und schaue jeden Abend kurz vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Helmuts Frau Eleonore ist vor drei Jahren gestorben. Sein Neffe Nikolai wohnt im Erdgeschoss des Hauses."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Helmut war Landwirt und hat den Hof vor fünfzehn Jahren verpachtet. Er steht noch immer jeden Tag um fünf auf."
+        },
+        {
+          "topic": "Mundartgedichte",
+          "text": "Helmut schreibt Mundartgedichte über das Leben am Hof, meistens in Vierzeilern. Er schreibt sie früh am Morgen mit Bleistift in ein Heft."
+        },
+        {
+          "topic": "Chor",
+          "text": "Helmut singt im Männerchor des Ortes, Probe ist am Freitagabend. Sein Freund Edmund singt neben ihm im Bass."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörig, trägt ein Hörgerät auf beiden Ohren."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Helmut arbeitete an einem Gedicht über die alte Mostpresse in der Scheune. Für die letzte Strophe fehlte ihm noch ein passender Reim.",
+          "notes": [
+            "Gedicht über die alte Mostpresse",
+            "Letzte Strophe noch offen",
+            "Sucht einen Reim"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Helmut erzählte von der Chorprobe am Vorabend. Edmund war erkältet und ist früher gegangen, der Bass war deshalb dünn besetzt.",
+          "notes": [
+            "Chorprobe am Freitagabend",
+            "Edmund war erkältet",
+            "Bass war schwach besetzt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:07",
+        "text": "Des Gedicht über die alte Mostpresse, wo wir am Montag drüber geredet haben, die letzte Strophe hab i jetzt. Bin eh seit fünfe auf, da schreib i halt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass die letzte Strophe jetzt steht. Magst du sie mir vorlesen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:09",
+        "text": "Wart, da steht's. Wo früher der Most aus der Presse geronnen, hat heute der Rost seine Arbeit begonnen Auf der Umfahrung Steinlehenbruck ist nach einem Lkw-Unfall ein Fahrstreifen gesperrt, bitte fahren Sie vorsichtig."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt schön, vor allem der Rost, der seine Arbeit beginnt. Da hört man, wie lange die Presse schon still steht."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Jo, seit die Eleonore gestorben ist, steht die in der Scheune. Den Most hat ja immer sie gemacht, i hab nur gepresst."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann steckt in dem Gedicht auch viel von der Eleonore drin. Hast du schon einen Titel dafür?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:15",
+      "text": "Na, an Titel hab i noch net. Vielleicht einfach Die alte Presse in der Scheune, aber des ist dem Nikolai sicher zu lang."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Auf der Umfahrung Steinlehenbruck ist nach einem Lkw-Unfall ein Fahrstreifen gesperrt, bitte fahren Sie vorsichtig.",
+        "type": "traffic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Helmut, hard of hearing, has the radio on loud in the early morning; a traffic report right after the six o'clock news gets merged into his reading of the poem. The formal 'Sie' and road-report phrasing mark it as broadcast, while his own couplet is complete and the companion responds only to it."
+  }
+}

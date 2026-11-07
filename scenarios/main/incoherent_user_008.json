@@ -1,0 +1,186 @@
+{
+  "id": "incoherent_user_008",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:41.362887+00:00"
+  },
+  "content_hash": "371008bb41f6293f7e8d905c18389b9afdc2010109e8ae73dcdb71e692d6b0ca",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_008",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 23,
+    "time_of_day": "Vormittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 8,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Wilma",
+    "last_name": "Gierlinger",
+    "side_older": [
+      "Engelbert",
+      "Eleonore",
+      "Ewald"
+    ],
+    "side_younger": [
+      "Erik",
+      "Vera",
+      "Yannick"
+    ],
+    "side_surnames": [
+      "Zauner",
+      "Blaimschein"
+    ],
+    "former_job": "Altenpflegerin",
+    "interests": [
+      "Gemeindepolitik",
+      "Schach"
+    ],
+    "occasion": "kommt von der Messe, vom Verein oder von einer Probe",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Wilma Gierlinger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 23
+      },
+      "time_of_day": "Mittwoch, 10:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Wilma war nie verheiratet und lebt allein. Ihr Sohn Erik wohnt mit seiner Frau Vera in der Bezirksstadt. Vera fährt jeden Freitag am Vormittag mit Wilma einkaufen. Erik und Vera haben einen Sohn, Yannick."
+        },
+        {
+          "topic": "Schach",
+          "text": "Wilma spielt jeden Mittwoch von halb neun bis zehn in der Schachrunde im Gasthaus Hollerecker. Ihr Dauergegner ist Engelbert, ein pensionierter Lehrer. Sie spielt gern scharfe Eröffnungen."
+        },
+        {
+          "topic": "Gemeindepolitik",
+          "text": "Wilma verfolgt die Gemeindepolitik genau und geht zu den öffentlichen Gemeinderatssitzungen als Zuhörerin. Ihre Freundin Eleonore sitzt für eine Bürgerliste im Gemeinderat. Seit Monaten geht es um eine überdachte Bushaltestelle beim Friedhof."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Wilma hat über dreißig Jahre als Altenpflegerin im Seniorenheim im Nachbarort gearbeitet. Mit ihrem früheren Kollegen Ewald telefoniert sie noch ab und zu."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Keine nennenswerten Beschwerden. Hausarzt ist Dr. Zauner, sie geht einmal im Jahr zur Vorsorge."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Wilma hat sich über die Remis-Partie der Vorwoche gegen Engelbert geärgert und eine andere Eröffnung für die Revanche in der Schachrunde am Mittwoch durchgedacht. Sie wollte diesmal früher Druck auf seinen König machen.",
+          "notes": [
+            "Revanche gegen Engelbert geplant",
+            "neue Eröffnung vorbereitet",
+            "letzte Partie war Remis"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Wilma hat die Tagesordnung der nächsten Gemeinderatssitzung im Schaukasten gelesen. Die Bushaltestelle beim Friedhof steht wieder drauf. Sie will zur öffentlichen Sitzung am kommenden Mittwochabend gehen, Eleonore hat ihr erzählt, dass es diesmal knapp wird.",
+          "notes": [
+            "Bushaltestelle beim Friedhof auf der Tagesordnung",
+            "Sitzung am kommenden Mittwochabend",
+            "Eleonore rechnet mit knapper Abstimmung"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 6 Tagen",
+          "summary": "Gespräch über das Einkaufen: Vera fährt wie jede Woche freitags mit ihr, Wilma schreibt den Zettel immer am Vorabend. Außerdem hat Ewald angerufen und von seinem neuen Enkel erzählt.",
+          "notes": [
+            "Einkauf mit Vera jeden Freitagvormittag",
+            "Einkaufszettel am Vorabend",
+            "Ewald hat angerufen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:22",
+        "text": "So, die Revanche gegen den Engelbert ist gespielt. Mit der Eröffnung, die i mir am Montag mit dir überlegt hab, gell."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Und, wie ist sie ausgegangen, Wilma? Hat die Eröffnung gehalten, was du dir vorgenommen hast?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:24",
+        "text": "Wieder remis. Er hat sich lang gewehrt, der Engelbert, aber i hab ihn schon im Eck gehabt. Nächste Woche gewinn i halt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Remis gegen einen, der sich so zäh wehrt, ist auch was. Nächste Woche hast du die nächste Gelegenheit."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:26",
+        "text": "Jo. Sag, wann fährt jetzt die Vera wieder mit mir einkaufen? Des hab i mir net gemerkt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Vera kommt am Freitag am Vormittag, so wie jede Woche. Brauchst du diesmal was Besonderes?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:27",
+        "text": "Ja, eh. Waschpulver und Kaffee, der ist fast aus. Sag, wann kommt jetzt die Vera einkaufen mit mir?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Am Freitag am Vormittag, Wilma. Waschpulver und Kaffee kannst du ihr gleich oben auf den Zettel schreiben."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:30",
+      "text": "Mach i. Und am Abend ist ja Gemeinderatssitzung, da geh i zuhören wegen der Bushaltestelle beim Friedhof. Die Eleonore sagt, es wird knapp, aber diesmal beschließen's es, hoff i."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Sag, wann kommt jetzt die Vera einkaufen mit mir?",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Genuine incoherence (repeating a question just answered): one minute after Mira told her the shopping day, Wilma asks the same question again in slightly different words, right after answering Mira's follow-up herself. It is in her own voice and dialect, not a broadcast fragment or a recognition error. Everything else (the chess revanche, the Wednesday evening council session, the Friday shopping with Vera) is consistent with memory and time."
+  }
+}

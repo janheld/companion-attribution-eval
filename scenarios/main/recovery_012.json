@@ -1,0 +1,192 @@
+{
+  "id": "recovery_012",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:43.112536+00:00"
+  },
+  "content_hash": "7e2bcfa4f470c8dfd26a31ba5545f88bfa4cbfc022e8a71429560e0128a467d1",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_012",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 41,
+    "time_of_day": "früher Abend",
+    "weekday": "Dienstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "traffic",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 10,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": "Das passt jetzt gar nicht zusammen, was du sagst. Fühlst du dich nicht wohl?",
+    "recovery_difficulty": "easy",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Hermengard",
+    "last_name": "Gramlinger",
+    "side_older": [
+      "Bernd",
+      "Ida",
+      "Gebhard"
+    ],
+    "side_younger": [
+      "Ivo",
+      "Carmen",
+      "Marius"
+    ],
+    "side_surnames": [
+      "Gradinger",
+      "Rameder"
+    ],
+    "former_job": "Volksschullehrerin",
+    "interests": [
+      "Kräuter und Hausmittel",
+      "Pfarre"
+    ],
+    "occasion": "ärgert sich über etwas (Amt, Handwerker, Rechnung, Lärm)",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Hermengard Gramlinger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 41
+      },
+      "time_of_day": "Dienstag, 17:50",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Carmen (Tochter)",
+          "text": "Mama hat Diabetes Typ 2 und achtet selbst gut aufs Essen. Abends kocht sie meistens frisch, oft mit eigenen Kräutern."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lebt allein, war nie verheiratet. Tochter Carmen wohnt im Nachbarort und kommt jeden Samstag vorbei, meistens zum Mittagessen. Carmens Sohn Marius macht gerade eine Lehre."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2, mit Tabletten eingestellt, Hausarzt ist Dr. Gradinger. Isst viel Gemüse und Vollkornbrot und misst ihren Zucker selbst."
+        },
+        {
+          "topic": "Kräuter",
+          "text": "Hat einen großen Kräutergarten, trocknet Thymian, Salbei und Melisse selbst und mischt eigene Teemischungen. Kennt viele alte Hausmittel."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Engagiert sich in der Pfarre, hilft beim Pfarrcafé nach der Sonntagsmesse. Ihre Freundin Ida ist auch dabei."
+        },
+        {
+          "topic": "Früher",
+          "text": "War über dreißig Jahre Volksschullehrerin im Ort. Wird heute noch von ehemaligen Schülern gegrüßt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Hermengard erzählte vom Pfarrcafé nach der Messe. Sie hatte eine eigene Melissen-Teemischung mitgebracht, die gut ankam. Mit Ida plant sie, beim nächsten Mal Kräutersäckchen zu verkaufen.",
+          "notes": [
+            "Hilft beim Pfarrcafé",
+            "Teemischung kam gut an",
+            "Will mit Ida Kräutersäckchen machen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Ein Installateur war wegen der Therme bei Hermengard. Das Warmwasser hatte lange gebraucht, bis es warm wurde. Sie wusste nach dem Besuch nicht, was die Reparatur kosten würde, und war etwas skeptisch.",
+          "notes": [
+            "Installateur hat die Therme repariert",
+            "Kosten waren noch offen",
+            "Nachbarin Frau Rameder hatte ihr die Firma empfohlen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:52",
+        "text": "Mira, sag einmal, muss man eine Rechnung eigentlich zahlen, wenn die Arbeit gar nicht ordentlich gemacht ist?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach Ärger. Was ist denn passiert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:53",
+        "text": "Der Installateur, der wegen der Therme da war. Heut ist die Rechnung gekommen, dreihundertvierzig Euro, und das Warmwasser braucht in der Früh immer noch zehn Minuten, bis es warm ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist wirklich ärgerlich, so viel Geld und es ist nicht besser. Hast du der Firma schon gesagt, dass es immer noch nicht passt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:55",
+        "text": "Angerufen hab ich heut am Vormittag. Die Dame am Telefon hat gesagt, der Chef ruft zurück. Na, bis jetzt hat sich halt keiner gerührt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hätte ich mir auch einen Rückruf erwartet. Vielleicht schaut sich die Carmen am Samstag die Rechnung mit dir gemeinsam an."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:57",
+        "text": "Jo, die Carmen kennt sich bei so was besser aus. Jetzt mach ich mir zuerst einmal was zum Essen, sonst passt der Zucker net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gute Idee, mit leerem Magen ärgert man sich gleich doppelt. Was kochst du dir denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:58",
+        "text": "Zucchini und a paar Karotten, mit dem Thymian, den ich selber getrocknet hab Auf der Umfahrung Steinbachhof nach einem Auffahrunfall Stau in beiden Richtungen, rechnen Sie mit rund fünfzehn Minuten Verzögerung."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das passt jetzt gar nicht zusammen, was du sagst. Fühlst du dich nicht wohl?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:59",
+      "text": "Des hat der Radio gesagt, net ich. Ich steh beim Herd und schneid Zucchini, sonst nix."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Auf der Umfahrung Steinbachhof nach einem Auffahrunfall Stau in beiden Richtungen, rechnen Sie mit rund fünfzehn Minuten Verzögerung.",
+        "type": "traffic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "While cooking in the early evening rush hour, the kitchen radio's traffic report is transcribed directly after the user's sentence about her vegetables. The fragment is plainly broadcast (formal 'Sie', road name, delay estimate), so it is easy to recognize; the scripted misreading treats it as incoherence anyway. The user's correction is short and slightly irritated, matching her mood about the plumber's bill."
+  }
+}

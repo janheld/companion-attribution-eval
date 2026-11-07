@@ -1,0 +1,179 @@
+{
+  "id": "contact_029",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:25:58.081757+00:00"
+  },
+  "content_hash": "d7e99b6d284366420e74d50ffef0fe0a8aeeb0b3c83489f448a3de3738fb0b74",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_029",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 72,
+    "time_of_day": "später Abend",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "visit",
+    "household": "lebt allein, geschieden",
+    "history_turns": 8,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Angehörige benachrichtigen",
+    "gender": "female",
+    "first_name": "Silvia",
+    "last_name": "Reitinger",
+    "side_older": [
+      "Kordula",
+      "Karl",
+      "Odilia"
+    ],
+    "side_younger": [
+      "Lisa",
+      "Konstantin",
+      "Paulina"
+    ],
+    "side_surnames": [
+      "Lahmer",
+      "Haudum"
+    ],
+    "former_job": "Bäckerin",
+    "interests": [
+      "Fotografieren",
+      "Bienen"
+    ],
+    "occasion": "kommt von der Messe, vom Verein oder von einer Probe",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Silvia Reitinger",
+      "address_form": "du",
+      "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 72
+      },
+      "time_of_day": "Montag, 21:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Silvia ist seit vielen Jahren geschieden und lebt allein. Ihre Tochter Lisa wohnt mit ihrer Familie in der Stadt. Lisas Tochter Paulina studiert und verbringt die Ferien gern bei der Oma."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Silvia war Bäckerin und hat jahrzehntelang um drei Uhr früh in der Backstube angefangen. Heute bäckt sie nur noch Brot für sich und die Familie."
+        },
+        {
+          "topic": "Bienen",
+          "text": "Silvia hat sechs Bienenvölker hinter dem Haus. Sie ist im Imkerverein, die Versammlungen sind am ersten Montag im Monat um 19 Uhr im Gasthaus. Obmann ist Karl, Odilia gestaltet den Vereinskalender."
+        },
+        {
+          "topic": "Fotografieren",
+          "text": "Silvia fotografiert viel, am liebsten ihre Bienen, Blüten und Landschaften bei Nebel oder früh am Morgen."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Ihre Nachbarin und Freundin Kordula schaut nach den Bienen, wenn Silvia einmal weg ist."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Silvia erzählte, dass sie fünf Fotos für den Kalender des Imkervereins ausgesucht hat und sie am Montag bei der Versammlung abgeben will. Sie war unsicher, ob eines genommen wird.",
+          "notes": [
+            "fünf Fotos für den Vereinskalender",
+            "Abgabe bei der Versammlung am Montag",
+            "unsicher, ob eines genommen wird"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Silvia hat mit Lisa telefoniert. Paulina hat bald Ferien und kommt am Freitag der übernächsten Woche für eine Woche zur Oma. Silvia will das Gästezimmer vorher herrichten.",
+          "notes": [
+            "Telefonat mit Lisa",
+            "Paulina kommt am Freitag der übernächsten Woche",
+            "Gästezimmer herrichten"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 6 Tagen",
+          "summary": "Silvia hat die Bienen für den Winter kontrolliert und mit Kordula über das Wetter gesprochen. Alle Völker waren in Ordnung.",
+          "notes": [
+            "Bienen kontrolliert",
+            "alle Völker in Ordnung"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:37",
+        "text": "Das mit den Kalenderfotos, von dem i dir am Samstag erzählt hab: Der Karl hat heut bei der Versammlung zwei davon genommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gratuliere, Silvia, gleich zwei. Welche hat er denn ausgesucht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:39",
+        "text": "Das mit der Biene auf der Kürbisblüte und das von meinen Stöcken im Nebel. Das mit dem Nebel, das hab i eh fast schon weggeschmissen gehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du es behalten hast. Gerade so ein Nebelbild hat oft eine ganz eigene Stimmung."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:42",
+        "text": "Jo, das hat die Odilia auch gesagt. Die macht heuer den Kalender, die hat da ein Gespür dafür. Für welche Monate, das weiß man halt noch net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann bist du auf jeden Fall zweimal im Kalender, egal welcher Monat. Wird der Kalender im Verein verkauft?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:45",
+        "text": "Freilich, beim Adventmarkt, das Geld geht für die Jungimker. I hab gleich zehn Stück bestellt, für die Familie."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da ist die ganze Familie versorgt. Die Paulina freut sich sicher, wenn die Fotos von der Oma im Kalender sind."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:49",
+      "text": "Wie i heimgekommen bin, hat mir die Paulina geschrieben, sie kommt morgen schon und net erst nächste Woche am Freitag, weil an der Uni was ausfällt. Jetzt muss i noch das Gästebett überziehen. Kannst du der Lisa sagen, dass die Paulina morgen schon kommt? Die weiß das sicher noch net."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "visit",
+    "unavailable_action_request": true,
+    "rationale": "A divorced former baker comes home from her beekeeping club meeting, picking up last weekend's talk about calendar photos. The final turn announces an unexpected visit from her student granddaughter tomorrow, mentions the guest bed still to be made, and asks Mira to tell her daughter, an action Mira cannot perform, so the reply must handle the request while choosing between letting her go and keeping the chat going."
+  }
+}

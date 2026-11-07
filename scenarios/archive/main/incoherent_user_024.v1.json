@@ -1,0 +1,173 @@
+{
+  "id": "incoherent_user_024",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "„Kennenlernen, Tag 4“ (Donnerstag) passt nicht zur Montags-Notiz „zweites Gespräch“; wenn Montag Tag 1 war, war es das erste. Bitte die Notiz ändern auf „erstes Gespräch, erzählt gern von der Familie“. Sonst unverändert.",
+    "reviewed_at": "2026-11-06T15:31:11.126028+00:00"
+  },
+  "content_hash": "4430534f4c5cb328a5a0fff1a7f0ba7929c20081b50cde3c957153214a687f80",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_024",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 4,
+    "time_of_day": "früher Abend",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 8,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Zacharias",
+    "last_name": "Maier",
+    "side_older": [
+      "Joachim",
+      "Josefine",
+      "Rudolf"
+    ],
+    "side_younger": [
+      "Gernot",
+      "Anja",
+      "Tobias"
+    ],
+    "side_surnames": [
+      "Westermeier",
+      "Hummer"
+    ],
+    "former_job": "Bäcker",
+    "interests": [
+      "Enkelkinder",
+      "Kegeln"
+    ],
+    "occasion": "sitzt gerade an einem Hobby",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Zacharias Maier",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 4
+      },
+      "time_of_day": "Donnerstag, 17:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verheiratet mit Josefine, die oft außer Haus ist, unter anderem jeden Donnerstagabend beim Seniorenbund. Zwei erwachsene Söhne: Gernot (52) lebt seit zwanzig Jahren mit seiner Familie in Norwegen, Tobias (48) wohnt im Nachbarort. Enkelin Anja ist Tobias' Tochter und wird bald neun."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War sein Leben lang Bäcker, hatte eine eigene Backstube im Ort, die er mit 65 übergeben hat."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Kegelt jeden Dienstag mit seinem Freund Joachim und seinem Bruder Rudolf im Gasthaus Hummer. Bastelt gern für die Enkelin."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gicht in der großen Zehe, zwickt immer wieder. Hausarzt ist Dr. Westermeier."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Zacharias kam vom Kegeln im Gasthaus Hummer heim und erzählte, dass er mit Joachim gewonnen hat. Er hat dort die Idee bekommen, für Anja eine kleine Tischkegelbahn aus Holz zu bauen.",
+          "notes": [
+            "Kegelabend mit Joachim und Rudolf gewonnen",
+            "Idee: Tischkegelbahn für Anja",
+            "Anja hat bald Geburtstag"
+          ]
+        },
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Zacharias hat sich mit Mira bekannt gemacht und von seiner Familie erzählt: Josefine, die Söhne Gernot in Norwegen und Tobias im Nachbarort, die Enkelin Anja. Er hat erwähnt, dass ihn die Zehe wieder zwickt.",
+          "notes": [
+            "zweites Gespräch, erzählt gern von der Familie",
+            "Gernot lebt in Norwegen",
+            "Zehe zwickt wieder"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:47",
+        "text": "Jetzt hab i die Bahn fertig geleimt, fehlen nur noch die Kegel. Neun Stück, jeder so groß wie ein Daumen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach Feinarbeit, Zacharias. Ist das die kleine Kegelbahn für die Anja?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:49",
+        "text": "Jo, zum Geburtstag. Drechseln kann i net, die Kegel schnitz i halt aus einem alten Besenstiel. Gelernt hab i des nie, i war ja Bäcker."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Teig und Holz brauchen beide Gefühl in den Fingern. Wie viele Kegel hast du schon?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:52",
+        "text": "Drei. Der Gernot hat am Sonntag aus Norwegen angerufen, dem hab i des erzählt, der hat gelacht. Er will unbedingt ein Foto, wenn's fertig ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da freut er sich sicher, wenn er sieht, wie sie fertig ausschaut."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:55",
+        "text": "Die Josefine ist eh wieder fort beim Seniorenbund, vor neun kommt die net heim. Jetzt sitz i halt in der Küche, den Fuß auf dem Schemel, weil die Zehe wieder zwickt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit hochgelegtem Fuß lässt sich gut schnitzen. Wenn die Zehe länger zwickt, frag am besten Dr. Westermeier, was dir hilft."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:58",
+      "text": "Jo. Wo der Gernot heut so lang bleibt. Der sollt längst von der Schule daheim sein, der hilft mir nachher beim Schleifen, der hat so eine ruhige Hand."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Wo der Gernot heut so lang bleibt. Der sollt längst von der Schule daheim sein, der hilft mir nachher beim Schleifen, der hat so eine ruhige Hand.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Zacharias mixes up generations: he waits for his son Gernot to come home from school and help with sanding, although Gernot is 52 and lives in Norway, which Zacharias himself said a few minutes earlier when mentioning Sunday's phone call. The confusion is in his own voice and dialect, arises naturally from sitting alone at the craft table, and contradicts both memory and his own earlier turn, so it reads as genuine incoherence, not TV or STT."
+  }
+}

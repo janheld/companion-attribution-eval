@@ -1,0 +1,203 @@
+{
+  "id": "incoherent_user_009",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:47.671681+00:00"
+  },
+  "content_hash": "6a781f11a9f5020a73eab78392e33f9b8a9d137a5f427662f31a76a974a88ea5",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_009",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 361,
+    "time_of_day": "Mittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 10,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Irmtraud",
+    "last_name": "Breitwieser",
+    "side_older": [
+      "Aurelia",
+      "Gunther",
+      "Dorothea"
+    ],
+    "side_younger": [
+      "Mara",
+      "Thomas",
+      "Michaela"
+    ],
+    "side_surnames": [
+      "Pumberger",
+      "Gattermayr"
+    ],
+    "former_job": "Köchin in der Werksküche",
+    "interests": [
+      "Kräuter und Hausmittel",
+      "Mundartgedichte"
+    ],
+    "occasion": "macht Pause nach Arbeit im Haus oder Garten",
+    "opening_style": "starts with what the person is doing right now",
+    "side_extra": [
+      "David"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Irmtraud Breitwieser",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 361
+      },
+      "time_of_day": "Mittwoch, 12:12",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Michaela (Schwiegertochter)",
+          "text": "Irmtraud trägt ihr Hörgerät im Garten oft nicht, weil sie Angst hat, es zu verlieren. Wenn sie draußen ist, bitte langsam und deutlich sprechen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Irmtraud ist seit über dreißig Jahren geschieden und lebt allein. Sie hat zwei Söhne. Thomas lebt seit vielen Jahren in Schweden und ruft jeden Sonntag um eins an. Der jüngere Sohn David wohnt mit seiner Frau Michaela und der Tochter Mara in der Bezirksstadt."
+        },
+        {
+          "topic": "Kräuter und Hausmittel",
+          "text": "Irmtraud hat hinter dem Haus einen großen Kräutergarten. Sie macht jedes Jahr Ringelblumensalbe, Spitzwegerichsirup und Holunderblütensirup. Die Nachbarin, Frau Gattermayr, bekommt immer ein Döschen Salbe."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Irmtraud war fünfundzwanzig Jahre Köchin in der Werksküche einer Papierfabrik. Zu Mittag wurden dort an die dreihundert Portionen ausgegeben. Selbst isst sie mittags heute nur wenig."
+        },
+        {
+          "topic": "Mundartgedichte",
+          "text": "Schreibt seit ihrer Pension Gedichte in Mundart, meist über die Arbeit in der Küche und über das Dorfleben. Liest sie manchmal beim Seniorennachmittag im Pfarrsaal vor."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörig, trägt ein Hörgerät hinter dem rechten Ohr. Hausarzt ist Dr. Pumberger. Sonst rüstig, arbeitet täglich im Garten."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 1 Tag",
+          "summary": "Irmtraud hat erzählt, dass die Ringelblumen trotz der kalten Nächte noch blühen. Sie will die letzten Blüten bald abnehmen und daraus wie jedes Jahr Salbe machen. Mira und sie haben über das Ansetzen in Öl gesprochen.",
+          "notes": [
+            "letzte Ringelblumen sollen geerntet werden",
+            "Salbe wie jedes Jahr",
+            "Blüten werden in Öl angesetzt"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 3 Tagen",
+          "summary": "Thomas hat wie jeden Sonntag mittags aus Schweden angerufen. Bei ihm hat es schon geschneit. Irmtraud war froh über das Gespräch und hat danach noch lange von seiner Kindheit erzählt.",
+          "notes": [
+            "Sonntagsanruf von Thomas",
+            "in Schweden liegt schon Schnee",
+            "erzählt gern von früher"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Irmtraud hat ein neues Mundartgedicht über die Werksküche angefangen. Sie möchte es beim Seniorennachmittag im Pfarrsaal in zwei Wochen vorlesen und hat Mira die ersten Zeilen vorgetragen.",
+          "notes": [
+            "neues Gedicht über die Werksküche",
+            "Vortrag beim Seniorennachmittag geplant"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:14",
+        "text": "Ich hab gerade die letzten Ringelblumen abgezupft und sitz jetzt mit einem Tee auf der Bank vorm Schuppen. Die Finger sind ganz klebrig davon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einer verdienten Pause, Irmtraud. Wie viele Blüten sind es noch geworden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Ein ganzes Sieb voll. Die trocknen jetzt ein paar Tage auf dem Dachboden, und dann setz ich sie in Olivenöl an, wie immer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein ganzes Sieb, da kommt einiges an Salbe zusammen. Wie lange lässt du das Öl dann ziehen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:19",
+        "text": "Vier Wochen ungefähr, am Fensterbrett in der Küche. Die Frau Gattermayr kriegt wieder ein Döschen, die hat immer so rissige Hände vom Stall."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird sich die Frau Gattermayr freuen. Gegen rissige Hände im Winter ist so eine Salbe genau das Richtige."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:22",
+        "text": "Ja. Aber lang bleib ich nicht mehr sitzen, der Thomas ruft ja gleich an, am Sonntag um eins ruft er immer an, und vorher will ich noch die Kartoffeln aufsetzen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wenn du noch kochen willst, ist so eine kurze Pause vorher genau richtig. Was gibt es denn zu den Kartoffeln?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:25",
+        "text": "Ein Spiegelei und Blattsalat, mehr mag ich mittags nicht. In der Werksküche haben wir um die Zeit dreihundert Portionen rausgegeben, da vergeht einem das große Mittagessen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dreihundert Portionen zu Mittag, das war eine andere Hausnummer. Da ist ein Spiegelei mit Salat eine angenehme Abwechslung."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:27",
+      "text": "Das kannst du laut sagen. Sag einmal, Mira, wenn ich die Salbe dann mache, soll ich da Bienenwachs dazugeben, oder wird sie mit Öl allein auch fest genug?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "der Thomas ruft ja gleich an, am Sonntag um eins ruft er immer an,",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Genuine incoherence (not knowing what day it is in a way that matters): it is Wednesday noon, but Irmtraud hurries because she believes it is Sunday and her son's regular Sunday call from abroad is due. It is in her own plain voice and woven into her plan to cook, so it reads like the person, not like TV or a recognition error. The rest of the session (herb salve, neighbor, Werksküche memories) is consistent with memory and time."
+  }
+}

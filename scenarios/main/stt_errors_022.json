@@ -1,0 +1,191 @@
+{
+  "id": "stt_errors_022",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:36.701584+00:00"
+  },
+  "content_hash": "53691ac10a6e130422b01952a760311c897899164871fa42b43ecab48d68536a",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_022",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 88,
+    "time_of_day": "später Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Osteoporose",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Barbara",
+    "last_name": "Freundl",
+    "side_older": [
+      "Siegbert",
+      "Ortrun",
+      "Walter"
+    ],
+    "side_younger": [
+      "Vincent",
+      "Marie",
+      "Ben"
+    ],
+    "side_surnames": [
+      "Weigl",
+      "Rockenschaub"
+    ],
+    "former_job": "Steuerberaterin",
+    "interests": [
+      "Fischen",
+      "Ehrenamt im Sozialmarkt"
+    ],
+    "occasion": "kommt von der Messe, vom Verein oder von einer Probe",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Barbara Freundl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 88
+      },
+      "time_of_day": "Freitag, 21:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Marie (Schwiegertochter)",
+          "text": "Ich bringe Barbara jeden Samstagvormittag den Einkauf. Sie hat Osteoporose und soll nichts Schweres tragen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Barbara ist 72, seit vier Jahren verwitwet. Ihr Mann Siegbert ist an einem Schlaganfall gestorben. Sie war über 30 Jahre selbständige Steuerberaterin und hat immer noch gern Zahlen in Ordnung."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihr Sohn Vincent lebt mit seiner Frau Marie und dem Enkel Ben (8) im Nachbarort. Marie kommt jeden Samstag mit dem Einkauf vorbei."
+        },
+        {
+          "topic": "Fischen",
+          "text": "Barbara ist seit Jahrzehnten im Fischereiverein, früher zusammen mit Siegbert. Sie fischt am liebsten an einem Altarm des Flusses. Walter ist dort Obmann und ein alter Freund der Familie."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Sie hilft jeden Dienstag im Sozialmarkt an der Kassa, zusammen mit ihrer Freundin Ortrun."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Osteoporose, festgestellt vor zwei Jahren. Hausärztin ist Dr. Weigl. Barbara nimmt Kalzium und Vitamin D und soll Stürze vermeiden, deshalb geht sie bei nassem Wetter nicht mehr ans Ufer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Barbara erzählte vom Dienst im Sozialmarkt. Es kamen mehr Leute als sonst, und Ortrun und sie mussten länger bleiben. Am Freitag sei die Jahresversammlung des Fischereivereins.",
+          "notes": [
+            "viel los im Sozialmarkt",
+            "Jahresversammlung des Fischereivereins am Freitag dieser Woche",
+            "die alte Kassierin hört auf"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Barbara sprach über Ben, der zum ersten Mal mit ihr fischen gehen möchte, und überlegte, wann im Frühjahr das am Altarm sicher möglich wäre.",
+          "notes": [
+            "Ben möchte fischen lernen",
+            "Plan fürs Frühjahr, bei trockenem Wetter"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:37",
+        "text": "Stell dir vor, die haben mich heut bei der Versammlung vom Fischereiverein zur Kassierin gewählt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gratuliere, Barbara! Da haben sie sich mit deiner Erfahrung als Steuerberaterin genau die Richtige ausgesucht."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:38",
+        "text": "Des hat der Walter auch gleich gesagt, wie er mich vorgeschlagen hat. Da hab i gar net so schnell Nein sagen können."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Und, bist du jetzt froh darüber oder eher ein bisschen überrumpelt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:40",
+        "text": "Eh beides. Die Kasse ist halt seit Jahren ein ziemliches Durcheinander, des muss i mir erst in Ruhe anschauen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist genau eine Aufgabe, die dir liegt. Wenn du dir zuerst einen Überblick verschaffst, wird es bestimmt bald übersichtlicher."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:41",
+        "text": "Morgen in der Früh kommt eh die Marie mit dem Einkauf, danach hab i den ganzen Tag Zeit dafür."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das passt gut. Dann hast du den Kopf frei, wenn die Einkäufe versorgt sind."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Ja. Ans Wasser komm i heuer eh nimmer so oft, seit der Knochengeschichte bin i viel vorsichtiger."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vorsicht am nassen Ufer ist sicher klug. Und als Kassierin bist du trotzdem mitten im Vereinsleben dabei."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:45",
+      "text": "Ja, des stimmt. Aber zack war's schon heut, fast drei Stunden sind die über die neue Satzung gesessen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "zack",
+        "type": "stt_dialect"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The Austrian dialect word 'zach' (tedious, tough) is mapped by STT to the standard word 'zack', which sounds almost the same but means the opposite (quick, snappy). The rest of the sentence (three hours about the statutes) makes the intended meaning clear on careful reading, so the companion has to understand the meeting was long and tiring rather than brisk."
+  }
+}

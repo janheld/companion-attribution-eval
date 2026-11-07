@@ -1,0 +1,185 @@
+{
+  "id": "contact_030",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.704476+00:00"
+  },
+  "content_hash": "0864339d1853628fc374a4e6bd22f7930b58b7916b75967fc2d881fe49d1f906",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Gertrud",
+    "last_name": "Engleitner",
+    "side_older": [
+      "Felix",
+      "Jolanda",
+      "Ewald"
+    ],
+    "side_younger": [
+      "Raphael",
+      "Manuela",
+      "Alexander"
+    ],
+    "side_surnames": [
+      "Obermayr",
+      "Zwettler"
+    ],
+    "id": "contact_030",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 38,
+    "time_of_day": "später Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "new_acquaintance",
+    "household": "lebt allein, verwitwet",
+    "history_turns": 8,
+    "health": "Schlafprobleme",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Gemeindebedienstete",
+    "interests": [
+      "Schwimmen",
+      "Garten"
+    ],
+    "occasion": "lässt den Tag ausklingen",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gertrud Engleitner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 38
+      },
+      "time_of_day": "Mittwoch, 21:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Manuela (Tochter)",
+          "text": "Mama schläft seit einiger Zeit schlecht. Sie redet abends gern noch ein bisschen, das tut ihr gut."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Gertrud ist Witwe, ihr Mann Felix ist vor sieben Jahren gestorben. Ihre Tochter Manuela wohnt eine halbe Stunde entfernt, der Enkel Raphael macht gerade eine Lehre. Ihr Bruder Ewald lebt in einem Pflegeheim in der Bezirksstadt, Gertrud besucht ihn jeden Sonntagnachmittag."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Gertrud hat bis zur Pension im Gemeindeamt gearbeitet, zuletzt im Meldeamt. Sie kennt deshalb noch viele Leute im Ort."
+        },
+        {
+          "topic": "Schwimmen",
+          "text": "Gertrud schwimmt jeden Mittwoch- und Freitagvormittag im Hallenbad in der Bezirksstadt. Sie fährt mit dem Bus hin."
+        },
+        {
+          "topic": "Garten",
+          "text": "Gertrud hat einen Garten mit Gemüsebeeten und einer Kletterrose beim Gartentor, die Felix gesetzt hat."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gertrud schläft schlecht ein. Ihre Hausärztin Dr. Obermayr hat ihr geraten, abends zur Ruhe zu kommen und kein Fernsehen im Bett."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Gertrud erzählte, dass sie im Garten die letzten Beete abgeräumt hat. Sie überlegt, die Kletterrose beim Gartentor auszulichten, weiß aber nicht genau, wann.",
+          "notes": [
+            "Beete abgeräumt",
+            "Kletterrose auslichten geplant",
+            "unsicher wegen dem richtigen Zeitpunkt"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 3 Tagen",
+          "summary": "Gertrud hat Ewald im Pflegeheim besucht. Er war müde, hat sich aber über den Kuchen gefreut. Gertrud war danach nachdenklich.",
+          "notes": [
+            "Besuch bei Ewald im Pflegeheim",
+            "Ewald war müde",
+            "Gertrud nachdenklich"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Gertrud war schwimmen und hat erzählt, dass sie in Nächten nach dem Schwimmen meistens besser schläft. Manuela hat am Abend angerufen.",
+          "notes": [
+            "Schwimmen am Freitag",
+            "schläft nach dem Schwimmen besser",
+            "Anruf von Manuela"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:42",
+        "text": "Ich sitz mit einem Tee im Bett und hab die Gartenzeitung auf den Knien. Schlafen kann ich eh noch nicht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt gemütlich, Gertrud. Steht etwas Interessantes drin?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:44",
+        "text": "Etwas übers Rosenschneiden. Meine Kletterrose beim Gartentor ist so verwildert, die hat noch der Felix gesetzt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die hat dann ja schon einige Jahre auf dem Buckel. Willst du sie stark zurückschneiden oder nur auslichten?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:47",
+        "text": "Auslichten, glaub ich. Ganz runter trau ich mich nicht. Da steht, im Frühjahr, wenn die Forsythien blühen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Faustregel. Bis dahin kannst du dir in Ruhe anschauen, welche alten Triebe weg sollen."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:51",
+        "text": "Ja. Heute in der Früh war ich wieder schwimmen, danach schlaf ich meistens ein bisschen besser. Heute dauert es halt noch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Manchmal braucht es nach einem vollen Tag eine Weile, bis man zur Ruhe kommt. Der Tee und die Zeitung sind da schon ein guter Anfang."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:54",
+      "text": "Im Bad war heute übrigens eine Frau, die hab ich noch nie gesehen. Jolanda heißt sie, wohnt seit kurzem in der Siedlung beim Bad. Wir sind nachher noch zusammen zum Bus gegangen. Sie hat gefragt, ob ich am Freitag wieder komme und danach mit ihr einen Kaffee trinke. Eigentlich bin ich nach dem Schwimmen immer so müde, ob ich da noch Lust auf Gesellschaft hab."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "new_acquaintance",
+    "unavailable_action_request": false,
+    "rationale": "A widow with sleep problems winds down in bed with tea and a garden magazine, talking about her late husband's climbing rose and her morning swim. The final turn introduces a woman she met at the pool who invited her for coffee after Friday's swim; her hesitation leaves Mira a real choice between encouraging the new contact and keeping the late-evening conversation going."
+  }
+}

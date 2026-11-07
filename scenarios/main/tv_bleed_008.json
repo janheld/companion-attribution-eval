@@ -1,0 +1,197 @@
+{
+  "id": "tv_bleed_008",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:05.183100+00:00"
+  },
+  "content_hash": "0f53dc61c3f2c67544ece1b066345f8c0ec8ba90e1a0ae57b6a057fbf68f88fd",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_008",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 14,
+    "time_of_day": "früher Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Simon",
+    "last_name": "Obereder",
+    "side_older": [
+      "Thaddäus",
+      "Magdalena",
+      "Matthias"
+    ],
+    "side_younger": [
+      "Luca",
+      "Doris",
+      "Gernot"
+    ],
+    "side_surnames": [
+      "Lehenbauer",
+      "Lackner"
+    ],
+    "former_job": "Pfarrsekretär",
+    "interests": [
+      "Garten",
+      "Stricken"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Simon Obereder",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 14
+      },
+      "time_of_day": "Freitag, 18:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Simon war 34 Jahre Pfarrsekretär in der Pfarre seines Heimatorts. Er war nie verheiratet. Er hat einen Sohn, Gernot, 52, aus einer frühen Beziehung, der in der Stadt lebt."
+        },
+        {
+          "topic": "Enkelin",
+          "text": "Gernots Tochter Doris, 22, studiert Agrarwissenschaften und kommt in den Semesterferien gern für ein paar Wochen zu Simon. Die beiden verstehen sich sehr gut."
+        },
+        {
+          "topic": "Garten und Stricken",
+          "text": "Großer Gemüse- und Obstgarten hinterm Haus mit zwei Zwetschkenbäumen. Strickt seit der Pensionierung, vor allem Socken und Hauben zum Verschenken; das Stricken hat ihm seine Nachbarin Magdalena gezeigt."
+        },
+        {
+          "topic": "Geburtstag",
+          "text": "Wird am Samstag nächster Woche 75. Will zum ersten Mal seit Jahren feiern, im kleinen Rahmen bei sich zu Hause."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schmerzen im unteren Rücken, seit er Ende Oktober die Beete umgestochen hat. War noch nicht beim Arzt. Hausarzt ist Dr. Lehenbauer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Simon hat erzählt, dass er seinen 75. Geburtstag doch feiern will. Einladen möchte er Gernot, Doris, Magdalena und seinen alten Freund Thaddäus, der früher Mesner in seiner Pfarre war. Offen war noch, ob Kaffee und Kuchen oder ein Abendessen.",
+          "notes": [
+            "Feier zum 75. bei sich zu Hause",
+            "Gäste: Gernot, Doris, Magdalena, Thaddäus",
+            "Noch unentschieden: Kaffee und Kuchen oder Abendessen"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Simon hat erzählt, dass ihn der Rücken seit dem Umstechen der Beete plagt, besonders nach längerem Stehen. Er hat sich vorgenommen, ein paar Tage keine schwere Gartenarbeit zu machen. Am Abend hat er an einer Haube für Doris gestrickt.",
+          "notes": [
+            "Rückenschmerzen seit dem Umstechen",
+            "Pause bei schwerer Gartenarbeit",
+            "Strickt eine Haube für Doris"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "18:06",
+        "text": "Hallo Mira. Ich hab mich jetzt entschieden, es wird Kaffee und Kuchen, kein Abendessen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hallo Simon, das klingt nach einer guten Entscheidung. Für wie viele Leute planst du denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:08",
+        "text": "Mit mir sind es sechs. Gernot, Doris, Magdalena, Thaddäus und der Matthias, der war früher Organist bei uns. Den hab ich gestern beim Bäcker getroffen, und er kommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass Matthias gleich zugesagt hat. Sechs Leute ist eine gemütliche Runde. Weißt du schon, welche Kuchen es geben soll?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:11",
+        "text": "Einen Zwetschkenfleck sicher, die Zwetschken hab ich noch eingefroren aus dem Garten. Und Doris wünscht sich eine Topfentorte, die hab ich aber noch nie gemacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Zwetschkenfleck mit eigenen Zwetschken passt gut zu einem Geburtstag. Bei der Topfentorte könntest du vorher einmal eine Probe backen, dann bist du am Tag selbst ruhiger."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:13",
+        "text": "Das ist eine gute Idee. Nur das lange Stehen in der Küche, das merke ich gerade im Kreuz."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann teil dir das Backen auf mehrere Tage auf und setz dich zwischendurch hin. Wenn der Rücken nicht besser wird, wäre ein Termin bei Dr. Lehenbauer gut, er kann sich das anschauen."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:16",
+        "text": "Ja, wenn es nächste Woche nicht besser ist, gehe ich hin. Doris kommt übrigens schon am Freitag vorher, sie hat da keine Vorlesung und hilft mir beim Herrichten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass sie extra früher kommt. Zu zweit geht das Vorbereiten bestimmt leichter."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:19",
+        "text": "Was mir noch fehlt, ist Geschirr. Ich hab nur vier gute Kaffeetassen, die anderen sind alle angeschlagen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vielleicht kann dir jemand ein paar Tassen leihen, Magdalena zum Beispiel. Oder du deckst bewusst bunt gemischt, das hat auch seinen Charme."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:22",
+      "text": "Magdalena frage ich morgen, die hat sicher welche. Die Topfentorte probiere ich dann am Sonntag einmal aus Die Landesregierung hat am Nachmittag ein neues Pflegepaket präsentiert, Kritik kommt vor allem von den Gemeinden, die die Kosten"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "Die Landesregierung hat am Nachmittag ein neues Pflegepaket präsentiert, Kritik kommt vor allem von den Gemeinden, die die Kosten",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Early evening regional TV news runs in the living room while Simon plans his birthday. The news sentence follows his own sentence without a boundary and is cut off mid-clause, as STT does when the listening window closes. The news register (Landesregierung, präsentiert, Kritik kommt von) and the unrelated topic mark it as broadcast, but nothing labels it."
+  }
+}

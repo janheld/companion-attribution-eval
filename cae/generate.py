@@ -7,6 +7,7 @@ import hashlib
 import json
 import random
 import shutil
+from collections import Counter
 
 import yaml
 
@@ -91,6 +92,60 @@ def _allocate(options: list, n: int, rng: random.Random, weights: list | None = 
 
 def make_specs(set_name: str, cfg: dict) -> list[dict]:
     set_cfg = cfg["sets"][set_name]
+    specs = _condition_specs(set_name, set_cfg, cfg)
+    # Names, interests and jobs are assigned across the whole set, not per
+    # condition, because their limits (unique, capped) are set-wide.
+    people.assign(specs, cfg, set_cfg, set_cfg["seed"])
+    _assign_situations(specs, cfg, random.Random(set_cfg["seed"] * 100 + 98))
+    # A set can be extended later (calibration round 2) without moving any
+    # existing spec: additions have their own seed and id offset, and the
+    # specs stored in already written scenarios are reserved for the name and
+    # cap rules (they are the record of what those scenarios use).
+    add = set_cfg.get("additions")
+    if add:
+        extra = _condition_specs(set_name, {**set_cfg, **add}, cfg, id_offset=add["id_offset"])
+        _spread_over_set(extra, cfg, random.Random(add["seed"]))
+        written = _written_specs(set_name, {s["id"] for s in extra})
+        people.assign(extra, cfg, {}, add["seed"], reserved=written)
+        _assign_situations(extra, cfg, random.Random(add["seed"] * 100 + 98), reserved=written)
+        specs += extra
+    return specs
+
+
+def _spread_over_set(specs: list[dict], cfg: dict, rng: random.Random) -> None:
+    """With one scenario per condition, per-condition allocation would give every
+    scenario the most frequent dialect and phase; allocate them across the batch."""
+    phases = cfg["relationship_phases"]
+    dialects = _allocate(list(cfg["dialects"]), len(specs), rng, list(cfg["dialects"].values()))
+    phase_names = _allocate(list(phases), len(specs), rng, [p["weight"] for p in phases.values()])
+    two_way = [s for s in specs if len(cfg["positions"][s["condition"]]) > 1]
+    for spec, position in zip(two_way, _allocate(["final_turn", "history"], len(two_way), rng)):
+        spec["disturbance_position"] = position
+    for spec, dialect, phase in zip(specs, dialects, phase_names):
+        spec["dialect"] = dialect
+        spec["relationship_phase"] = phase
+        spec["days"] = rng.randint(*phases[phase]["days"])
+
+
+def _assign_situations(specs: list[dict], cfg: dict, rng: random.Random, reserved: list[dict] = ()) -> None:
+    """Occasion (fitting the time of day, capped) and opening style (spread evenly)."""
+    occasions = cfg["occasions"]
+    counts = Counter(r.get("occasion") for r in reserved if r.get("occasion"))
+    cap = max(1, int((len(specs) + len(reserved)) * cfg["occasion_max_share"]))
+    for spec in specs:
+        fitting = [o for o, times in occasions.items() if spec["time_of_day"] in times]
+        spec["occasion"] = people._pick(fitting, counts, cap, set(), rng)
+    for spec, style in zip(specs, _allocate(cfg["opening_styles"], len(specs), rng)):
+        spec["opening_style"] = style
+
+
+def _written_specs(set_name: str, exclude: set[str]) -> list[dict]:
+    folder = SCENARIO_DIR / set_name
+    stored = [json.loads(p.read_text(encoding="utf-8")).get("spec", {}) for p in sorted(folder.glob("*.json"))]
+    return [s for s in stored if s.get("first_name") and s.get("id") not in exclude]
+
+
+def _condition_specs(set_name: str, set_cfg: dict, cfg: dict, id_offset: int = 0) -> list[dict]:
     specs = []
     for cond_index, (cond, n) in enumerate(set_cfg["counts"].items()):
         rng = random.Random(set_cfg["seed"] * 100 + cond_index)
@@ -110,11 +165,24 @@ def make_specs(set_name: str, cfg: dict) -> list[dict]:
         else:
             has_request = [False] * n
         forced = set_cfg.get("force_action_request", [])
+        if cond == "recovery":
+            # Varied wording of the scripted misreading, and a spread from hard
+            # cases (the broadcast itself sounds confused) to easy ones.
+            misreadings = _allocate(cfg["recovery"]["misreadings"], n, rng)
+            difficulties = _allocate(list(cfg["recovery"]["difficulty"]), n, rng)
+        else:
+            misreadings = difficulties = [None] * n
+        # Added after the main set was written: own random stream, so the
+        # draws above (and the specs of written scenarios) do not move.
+        extra_rng = random.Random(set_cfg["seed"] * 100 + 50 + cond_index)
+        corrections, forgetful = _recovery_extras(difficulties, cfg, extra_rng) if cond == "recovery" \
+            else ([None] * n, [False] * n)
+        forms = _allocate(cfg["incoherence_forms"], n, extra_rng) if cond == "incoherent_user" else [None] * n
         for i in range(n):
             phase = phase_names[i]
             hints = cfg["persona_hints"]
             specs.append({
-                "id": f"{cond}_{i + 1:03d}",
+                "id": f"{cond}_{id_offset + i + 1:03d}",
                 "set": set_name,
                 "condition": cond,
                 "dialect": dialects[i],
@@ -125,17 +193,41 @@ def make_specs(set_name: str, cfg: dict) -> list[dict]:
                 "disturbance_position": positions[i],
                 "main_disturbance_type": types[i],
                 "contact_type": contacts[i],
-                "household": rng.choice(hints["household"]),
+                "household": _fitting_household(rng.choice(hints["household"]), relatives[i], hints, extra_rng),
                 "history_turns": rng.choice([6, 8, 10, 12]),
                 "health": health[i],
                 "relatives": relatives[i],
+                "misreading": misreadings[i],
+                "recovery_difficulty": difficulties[i],
+                "correction_style": corrections[i],
+                "forgetfulness_note": forgetful[i],
+                "incoherence_form": forms[i],
                 "action_request": (rng.choice(req["kinds"])
-                                   if has_request[i] or f"{cond}_{i + 1:03d}" in forced else None),
+                                   if has_request[i] or f"{cond}_{id_offset + i + 1:03d}" in forced else None),
             })
-    # Names, interests and jobs are assigned across the whole set, not per
-    # condition, because their limits (unique, capped) are set-wide.
-    people.assign(specs, cfg, set_cfg, set_cfg["seed"])
     return specs
+
+
+def _recovery_extras(difficulties: list, cfg: dict, rng: random.Random) -> tuple[list, list]:
+    """Correction style per difficulty, and a forgetfulness note for some hard cases."""
+    rec = cfg["recovery"]
+    corrections, forgetful = [None] * len(difficulties), [False] * len(difficulties)
+    for level, styles in rec["correction_styles"].items():
+        idx = [i for i, d in enumerate(difficulties) if d == level]
+        for i, style in zip(idx, _allocate(styles, len(idx), rng)):
+            corrections[i] = style
+        if level == "hard":
+            share = rec["forgetfulness_note_share_hard"]
+            for i, note in zip(idx, _allocate([True, False], len(idx), rng, [share, 1 - share])):
+                forgetful[i] = note
+    return corrections, forgetful
+
+
+def _fitting_household(household: str, relatives: str, hints: dict, rng: random.Random) -> str:
+    """Redraw a household that contradicts the relatives hint (never married, but a granddaughter)."""
+    def fits(h):
+        return not any(word in relatives for word in hints["household_excludes"].get(h, []))
+    return household if fits(household) else rng.choice([h for h in hints["household"] if fits(h)])
 
 
 def spec_message(spec: dict, cfg: dict, revision: dict | None = None) -> str:
@@ -148,6 +240,7 @@ def spec_message(spec: dict, cfg: dict, revision: dict | None = None) -> str:
         f"- user: {spec['first_name']} {spec['last_name']} ({spec['gender']})" if spec.get("first_name") else "- user: any name",
         f"- household: {spec['household']}; interests: {', '.join(spec['interests'])}; former job: {spec['former_job']}",
         f"- history length: exactly {spec['history_turns']} turns",
+        *([f"- occasion: {spec['occasion']}", f"- first user turn: {spec['opening_style']}"] if spec.get("occasion") else []),
         f"- disturbance position: {spec['disturbance_position']}",
     ]
     if spec["main_disturbance_type"]:
@@ -157,16 +250,26 @@ def spec_message(spec: dict, cfg: dict, revision: dict | None = None) -> str:
     else:
         lines.append("- contact_type in the annotation: none")
     if spec.get("side_older"):
+        extra = f"; also allowed: {', '.join(spec['side_extra'])}" if spec.get("side_extra") else ""
         lines.append(f"- names for side characters, use only these: own generation {', '.join(spec['side_older'])}; "
                      f"children or grandchildren {', '.join(spec['side_younger'])}; "
-                     f"surname for a doctor, neighbor or acquaintance {', '.join(spec['side_surnames'])}")
+                     f"surname for a doctor, neighbor or acquaintance {', '.join(spec['side_surnames'])}{extra}")
     if spec.get("health"):
         lines.append(f"- health: {spec['health']}; relatives: {spec['relatives']}")
     if spec.get("action_request"):
         lines.append(f"- action request in the final user turn: {spec['action_request']}")
     if spec["condition"] == "recovery":
-        m = cfg["recovery_misreading"]
-        lines.append(f"- scripted misreading (last history turn, word for word): \"{m['du']}\"")
+        misreading = spec.get("misreading") or cfg["recovery"]["misreadings"][0]
+        lines.append(f"- scripted misreading (last history turn, word for word): \"{misreading}\"")
+        if spec.get("recovery_difficulty"):
+            lines.append(f"- recovery difficulty: {spec['recovery_difficulty']} "
+                         f"({cfg['recovery']['difficulty'][spec['recovery_difficulty']]})")
+        if spec.get("correction_style"):
+            lines.append(f"- correction style: {spec['correction_style']}")
+        if spec.get("forgetfulness_note"):
+            lines.append("- forgetfulness note: yes (one caregiver note on mild, ordinary forgetfulness)")
+    if spec.get("incoherence_form"):
+        lines.append(f"- incoherence form: {spec['incoherence_form']}")
     if revision:
         lines += ["", "This is a revision. The reviewer gave this feedback on the previous version:",
                   revision["comment"] or "(no comment, status: " + revision["status"] + ")",

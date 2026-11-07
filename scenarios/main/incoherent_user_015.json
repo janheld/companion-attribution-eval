@@ -1,0 +1,175 @@
+{
+  "id": "incoherent_user_015",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:53.277272+00:00"
+  },
+  "content_hash": "ba45c04265856136aa7bb2306ac7d4d79d1e06e0d16a4bdc82d8413859f0b190",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_015",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 243,
+    "time_of_day": "früher Morgen",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Gerd",
+    "last_name": "Eibensteiner",
+    "side_older": [
+      "Susanna",
+      "Oswald",
+      "Sidonie"
+    ],
+    "side_younger": [
+      "Ines",
+      "Victor",
+      "Nora"
+    ],
+    "side_surnames": [
+      "Gschwendtner",
+      "Freudenthaler"
+    ],
+    "former_job": "Elektriker",
+    "interests": [
+      "Puzzeln",
+      "Nähen"
+    ],
+    "occasion": "gerade aufgestanden, beim Frühstück, plant den Tag",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gerd Eibensteiner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 243
+      },
+      "time_of_day": "Freitag, 06:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Ines (Schwiegertochter)",
+          "text": "Ich hole Gerd jeden Freitag um neun zum Einkaufen ab. Er schreibt sich vorher meistens einen Zettel."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Gerd ist seit sieben Jahren Witwer, seine Frau hieß Susanna. Sein Sohn Victor wohnt mit seiner Frau Ines und der Tochter Nora im Nachbarort. Ines hilft ihm beim Einkaufen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bluthochdruck, nimmt jeden Morgen nach dem Frühstück zwei Tabletten. Hausarzt ist Dr. Gschwendtner. Misst den Blutdruck ein paarmal in der Woche selbst."
+        },
+        {
+          "topic": "Früher",
+          "text": "War Elektriker, zuerst angestellt, später mit eigener kleiner Firma. Repariert noch gern Lampen und Geräte für die Nachbarin Sidonie."
+        },
+        {
+          "topic": "Puzzeln und Nähen",
+          "text": "Macht große Puzzles mit 1000 Teilen am Küchentisch. Nähen hat er nach Susannas Tod gelernt, flickt Hosen, näht Knöpfe an und kürzt Vorhänge. Puzzles tauscht er mit seinem Freund Oswald."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Gerd hat Blutdruck gemessen, 145 zu 85. Er wollte die Werte zur nächsten Kontrolle bei Dr. Gschwendtner mitnehmen. Danach hat er erzählt, dass er für Sidonie eine Stehlampe repariert hat.",
+          "notes": [
+            "Blutdruck 145 zu 85",
+            "Werte für die Kontrolle bei Dr. Gschwendtner notiert",
+            "Stehlampe für Sidonie repariert"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Gerd hat ein neues Puzzle von Oswald bekommen, ein Segelschiff auf dem Meer mit 1000 Teilen, und gleich mit dem Rand angefangen.",
+          "notes": [
+            "Neues Puzzle von Oswald: Segelschiff, 1000 Teile",
+            "Mit dem Rand angefangen"
+          ]
+        },
+        {
+          "date": "Samstag, vor 6 Tagen",
+          "summary": "Victor und Ines waren mit Nora zum Mittagessen da. Victor hat eine Hose dagelassen, bei der am Bund ein Knopf fehlt, Gerd soll ihn annähen.",
+          "notes": [
+            "Besuch von Victor, Ines und Nora zum Mittagessen",
+            "Victor hat eine Hose zum Knopfannähen dagelassen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:22",
+        "text": "I sitz grad beim Kaffee und hab die zwei Tabletten schon genommen, die weiße und die kleine gelbe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Gerd. Schön, dass die Tabletten schon erledigt sind. Wie hast du geschlafen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:25",
+        "text": "Geht schon, um halb fünf war i munter. Heut ist ja Sonntag, da kommt eh niemand, da mach i mir den ganzen Vormittag mit dem Puzzle schön, des mit dem Segelschiff."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das Segelschiff von Oswald, gell? Wie weit bist du denn schon gekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:28",
+        "text": "Der Rand ist fertig und der Mast auch. Beim Wasser wird's zach, des ist alles das gleiche Blau."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei so viel gleichem Blau hilft es manchen, die Teile nach der Form zu sortieren statt nach der Farbe. Vielleicht geht's so ein bisschen leichter."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:31",
+      "text": "Des probier i. Aber zuerst näh i dem Victor noch den Knopf an die Hose, die liegt schon seit Samstag da. Brauch i da einen festeren Zwirn, oder geht der normale auch?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Heut ist ja Sonntag, da kommt eh niemand, da mach i mir den ganzen Vormittag mit dem Puzzle schön",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Gerd believes it is Sunday and plans a quiet morning because nobody will come, while it is Friday and memory says his daughter-in-law Ines picks him up for shopping every Friday at nine. The day mix-up matters for his plans and is said casually in his own voice and dialect, not as a broadcast or misrecognition. The rest of the session (tablets, puzzle from Oswald, Victor's trousers from Saturday's visit) is coherent and matches memory."
+  }
+}

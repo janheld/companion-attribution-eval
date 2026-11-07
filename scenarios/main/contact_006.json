@@ -1,0 +1,193 @@
+{
+  "id": "contact_006",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:16:57.763149+00:00"
+  },
+  "content_hash": "783423d639bc437f9fc431d549b8918ffb0493533c89ce78dcde6ad61378e3a7",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_006",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 145,
+    "time_of_day": "früher Morgen",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "call",
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 10,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Viktoria",
+    "last_name": "Hauer",
+    "side_older": [
+      "Ottokar",
+      "Erentrud",
+      "Quirin"
+    ],
+    "side_younger": [
+      "Silvan",
+      "Annika",
+      "Christopher"
+    ],
+    "side_surnames": [
+      "Keinberger",
+      "Spindler"
+    ],
+    "former_job": "Bäckerin",
+    "interests": [
+      "Bienen",
+      "Schwimmen"
+    ],
+    "occasion": "will etwas wissen (Rezept, Wort, wie etwas geht)",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Viktoria Hauer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 145
+      },
+      "time_of_day": "Montag, 05:50",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Annika (Schwiegertochter)",
+          "text": "Viktoria sieht wegen des Grauen Stars schlecht, vor allem Kleingedrucktes und bei wenig Licht. Die Operation am rechten Auge ist für Jänner geplant. Ich kaufe montags nach der Arbeit für sie ein und rufe vorher wegen der Liste an."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Viktoria war nie verheiratet und lebt allein. Ihr Sohn Christopher wohnt mit seiner Frau Annika im Nachbarort. Annika hilft beim Einkaufen und ruft montags in der Früh vor der Arbeit an."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen, rechts stärker. Operation rechts im Jänner geplant. Augenarzt ist Dr. Keinberger."
+        },
+        {
+          "topic": "Bienen",
+          "text": "Hält vier Bienenvölker hinter dem Haus. Füllt ihren Honig selbst ab und verschenkt viel davon. Tauscht sich mit dem Nachbarn Quirin aus, der ebenfalls imkert."
+        },
+        {
+          "topic": "Schwimmen",
+          "text": "Geht jeden Donnerstagvormittag mit ihrer Freundin Erentrud ins Hallenbad in der Stadt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über vierzig Jahre Bäckerin. Steht aus Gewohnheit immer noch vor sechs Uhr auf."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Viktoria hat mit Quirin die Bienenstöcke für den Winter kontrolliert. Alle vier Völker hatten genug Futter. Danach hat sie im Keller die Honiggläser vom Frühjahr gezählt.",
+          "notes": [
+            "Winterkontrolle der Bienen mit Quirin, alle vier Völker gut",
+            "Hat noch einige Gläser Rapshonig vom Frühjahr"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Viktoria war mit Erentrud schwimmen und erzählte, dass sie die Uhr im Hallenbad kaum noch lesen kann. Erentrud sagt ihr inzwischen die Zeit an.",
+          "notes": [
+            "Donnerstag Schwimmen mit Erentrud",
+            "Kann die Uhr im Hallenbad schlecht lesen"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 6 Tagen",
+          "summary": "Viktoria war bei Dr. Keinberger. Die Operation am rechten Auge wurde für Jänner festgelegt. Sie war erleichtert, dass es einen Termin gibt, aber etwas nervös.",
+          "notes": [
+            "Operationstermin rechts im Jänner",
+            "Erleichtert, aber nervös",
+            "Christopher will sie zur Operation fahren"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "05:52",
+        "text": "Ach, heute komm ich gar nicht in die Gänge. Der Kaffee ist schon kalt, bevor ich ihn ausgetrunken hab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "So ein Morgen kommt vor. Magst du dir einen frischen machen, oder geht's auch so?"
+      },
+      {
+        "role": "user",
+        "timestamp": "05:55",
+        "text": "Geht schon. Sag mal, der Rapshonig vom Frühjahr ist im Glas ganz fest geworden. Wie krieg ich den wieder flüssig, ohne dass er Schaden nimmt?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Stell das Glas in ein warmes Wasserbad, so um die vierzig Grad, und rühr ab und zu um. Heißer sollte es nicht werden, sonst leidet das Aroma."
+      },
+      {
+        "role": "user",
+        "timestamp": "05:59",
+        "text": "Vierzig Grad, das hab ich mir fast gedacht. In der Backstube haben wir den Honig für die Lebkuchen einfach neben den Ofen gestellt, aber das war ja zum Backen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Für den Lebkuchenteig ist das ja egal, der kommt sowieso in den Ofen. Für den Honig aufs Brot lohnt sich das langsame Wasserbad."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:04",
+        "text": "Nur das Thermometer kann ich grad schlecht ablesen, die Striche verschwimmen mir. Ich bin froh, wenn im Jänner endlich die Operation ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann prüf es mit dem Handgelenk, angenehm warm wie Badewasser reicht völlig. Und bis Jänner ist es nicht mehr so lang."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:09",
+        "text": "Stimmt. Schwimmen darf ich danach aber ein paar Wochen nicht, hat Dr. Keinberger gesagt. Da muss die Erentrud allein ins Hallenbad."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist für euch beide eine Umstellung. Aber danach siehst du hoffentlich die Uhr im Hallenbad wieder selbst."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:13",
+      "text": "Jetzt klingelt das Telefon, das ist die Annika wegen dem Einkauf. Und ich hab den Zettel noch gar nicht fertig, bis jetzt stehen nur Milch und Mehl drauf."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "call",
+    "unavailable_action_request": false,
+    "rationale": "A never-married former baker and beekeeper, awake before six out of habit, asks how to liquefy crystallized honey and mentions her upcoming cataract operation, which the companion leaves to the eye doctor. The final turn is the expected Monday call from her daughter-in-law about the shopping list, which is not finished yet, so the companion can let her answer or keep the conversation going."
+  }
+}

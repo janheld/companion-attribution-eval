@@ -8,7 +8,52 @@ Layout of a `response` request, following the pilot setup:
 The `annotation` of a scenario is never rendered: it is ground truth for analysis.
 """
 
+import re
+
 CACHE = {"type": "ephemeral"}
+WEEKDAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
+
+
+# Scenario writers formatted some context fields differently ("Vertraut (ab Tag
+# 91)" vs "Vertraut"). The format is unified here, when the context block is
+# built, not in the scenario files: approved scenarios keep their content hash,
+# and every model sees the same format.
+
+def phase_label(days: int) -> str:
+    """Phase name from the day count, matching the phases in the companion prompt."""
+    if days <= 14:
+        return "Kennenlernen"
+    if days <= 90:
+        return "Vertraut werden"
+    return "Vertraut"
+
+
+def session_date(raw: str, today: str) -> str:
+    """Normalize to 'Dienstag, vor 2 Tagen', filling a missing part from today's weekday."""
+    weekday = next((w for w in WEEKDAYS if w in raw), None)
+    match = re.search(r"vor (\d+) Tag", raw)
+    days = int(match.group(1)) if match else (1 if "gestern" in raw.lower() else None)
+    today_wd = next((w for w in WEEKDAYS if w in today), None)
+    if today_wd and days and not weekday:
+        weekday = WEEKDAYS[(WEEKDAYS.index(today_wd) - days) % 7]
+    if today_wd and weekday and not days:
+        days = (WEEKDAYS.index(today_wd) - WEEKDAYS.index(weekday)) % 7 or 7
+    if weekday and days:
+        return f"{weekday}, vor {days} {'Tag' if days == 1 else 'Tagen'}"
+    return raw
+
+
+def _days_ago(raw: str, today: str) -> int:
+    """Age of a summary in days, for sorting; unknown ages go last."""
+    match = re.search(r"vor (\d+) Tag", session_date(raw, today))
+    return int(match.group(1)) if match else 10_000
+
+
+def sorted_sessions(ctx: dict) -> list[dict]:
+    """Summaries newest first, as a memory store would list them. Writers put
+    them in either order; sorting here keeps the scenario files (and the hashes
+    of approved scenarios) unchanged."""
+    return sorted(ctx["recent_sessions"], key=lambda s: _days_ago(s["date"], ctx["time_of_day"]))
 
 
 def context_block(ctx: dict) -> str:
@@ -16,8 +61,8 @@ def context_block(ctx: dict) -> str:
              f"Name: {ctx['name']}",
              "Bevorzugte Sprache: Deutsch",
              f"Anrede: {ctx['address_form']}",
-             f"Beziehungsphase: {ctx['relationship_phase']['phase']}, "
-             f"Tag {ctx['relationship_phase']['days']} der gemeinsamen Gespräche",
+             f"Beziehungsphase: {phase_label(ctx['relationship_phase']['days'])}, "
+             f"Tag {ctx['relationship_phase']['days']}",
              f"Aktuelle Zeit: {ctx['time_of_day']}"]
     if ctx.get("last_conversation_note"):
         lines.append(f"Hinweis: {ctx['last_conversation_note']}")
@@ -27,8 +72,8 @@ def context_block(ctx: dict) -> str:
     lines += ["", "## Wissen über die Person"]
     lines += [f"- {k['topic']}: {k['text']}" for k in ctx["knowledge_blocks"]]
     lines += ["", "## Letzte Gespräche"]
-    for s in ctx["recent_sessions"]:
-        lines.append(f"### {s['date']}")
+    for s in sorted_sessions(ctx):
+        lines.append(f"### {session_date(s['date'], ctx['time_of_day'])}")
         lines.append(s["summary"])
         lines += [f"- Notiz: {n}" for n in s["notes"]]
     # The dialect field is generator metadata, not something a production

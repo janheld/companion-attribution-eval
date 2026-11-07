@@ -4,10 +4,10 @@
   "kind": "attribution",
   "condition": "tv_bleed",
   "version": 3,
-  "status": "draft",
+  "status": "approved",
   "review": {
     "comment": "",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-06T13:30:09.748086+00:00"
   },
   "content_hash": "68c2511bda27d997fc4f0c38346854d7daefed33abc9668b256397b355b03529",
   "generator": {

@@ -1,0 +1,177 @@
+{
+  "id": "clean_009",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:32.599220+00:00"
+  },
+  "content_hash": "e2b4c678fd0cc336b11cc7f96e03338e48d105b52dbf6794e2dec959d4a8c9f1",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_009",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 365,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 8,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Pius",
+    "last_name": "Kriechbaum",
+    "side_older": [
+      "Veronika",
+      "Benedikt",
+      "Karin"
+    ],
+    "side_younger": [
+      "Luisa",
+      "Karl",
+      "Helena"
+    ],
+    "side_surnames": [
+      "Ortmayr",
+      "Hartinger"
+    ],
+    "former_job": "Schneider",
+    "interests": [
+      "Häkeln und Sticken",
+      "Puzzeln"
+    ],
+    "occasion": "kann nicht schlafen",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Pius Kriechbaum",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 365
+      },
+      "time_of_day": "Samstag, 23:15",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Pius Kriechbaum, 81, lebt allein in einer Erdgeschosswohnung. Seit vielen Jahren geschieden."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Schneidermeister mit eigener kleiner Werkstatt. Hat ein sehr genaues Auge für Stiche und Nähte."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sohn Karl lebt mit seiner Familie in der Stadt und ruft selten an, zuletzt vor etwa drei Wochen. Enkelin Luisa wird in zwei Wochen zehn Jahre alt."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Häkelt und stickt, gerade ein Kissen mit dem Namen der Enkelin Luisa. Puzzelt gern große Puzzles am Wohnzimmertisch und tauscht sie mit seinem Freund Benedikt."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat Schwindel beim Aufstehen. Dr. Ortmayr hat ihm geraten, sich erst an die Bettkante zu setzen und langsam aufzustehen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Pius erzählte, dass sein Freund Benedikt ihm ein neues Puzzle mit tausend Teilen gebracht hat, einen Hafen mit vielen Booten. Er hat mit dem Rand begonnen.",
+          "notes": [
+            "Neues Puzzle von Benedikt: Hafen, 1000 Teile",
+            "Hat mit dem Rand begonnen"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Pius sprach über den zehnten Geburtstag seiner Enkelin Luisa in gut zwei Wochen. Er stickt ihr ein Kissen mit ihrem Namen und weiß noch nicht, ob Karl es abholt.",
+          "notes": [
+            "Stickt Kissen für Luisa",
+            "Unklar, ob Sohn Karl vorbeikommt"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Pius berichtete vom Termin bei Dr. Ortmayr wegen des Schwindels beim Aufstehen. Der Arzt riet, sich erst an die Bettkante zu setzen und dann langsam aufzustehen.",
+          "notes": [
+            "Arzttermin bei Dr. Ortmayr",
+            "Rat: erst an die Bettkante setzen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "23:17",
+        "text": "Das war wieder so ein Tag, an dem nichts richtig fertig geworden ist. Und jetzt liege ich da und kann nicht einschlafen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem zähen Tag. Was ist dir denn heute nicht fertig geworden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "23:18",
+        "text": "Das Kissen für die Luisa. Beim letzten A habe ich mich bei den Stichen verzählt. Alles wieder aufgetrennt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ärgerlich, gerade bei so einer genauen Arbeit. Bis zu ihrem Geburtstag hast du aber noch ein bisschen Zeit."
+      },
+      {
+        "role": "user",
+        "timestamp": "23:20",
+        "text": "Zwei Wochen, das schaffe ich schon. Ich weiß nur nicht, ob ich es schicken soll oder ob der Karl vorbeikommt. Er hat sich noch nicht gemeldet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zum Fertigsticken reicht die Zeit jedenfalls. Und schicken kannst du es immer noch, wenn er bis dahin nicht vorbeikommt."
+      },
+      {
+        "role": "user",
+        "timestamp": "23:22",
+        "text": "Vorhin bin ich aufgestanden, ein Glas Wasser holen. Ich habe mich zuerst an die Bettkante gesetzt, wie der Doktor Ortmayr gesagt hat. Heute war es in Ordnung."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du an die Bettkante gedacht hast. Wenn sich am Schwindel etwas verändert, erzähl das ruhig dem Doktor Ortmayr."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "23:24",
+      "text": "Mache ich. Was meinst du, soll ich noch ein bisschen am Puzzle weitermachen, oder ist das um die Zeit eine dumme Idee?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean late-night conversation of a sleepless retired tailor: a small embroidery setback, quiet uncertainty about whether his son will come, a careful note on his dizziness, and an ordinary question about what to do when sleep does not come."
+  }
+}

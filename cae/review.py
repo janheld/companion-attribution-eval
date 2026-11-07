@@ -11,6 +11,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import parse_qs, urlparse
 
 from .schema import STATUSES, load, save, scenario_path, SCENARIO_DIR, sync_status, validate
+from .diff import html_report, previous_version
 from .render import context_block
 
 CSS = """
@@ -24,6 +25,7 @@ pre{white-space:pre-wrap;background:#fff;border:1px solid #ddd;padding:10px;font
 .meta{display:grid;grid-template-columns:max-content 1fr;gap:2px 12px;font-size:14px}
 textarea{width:100%;height:90px}button{margin-right:8px;padding:6px 12px}
 .problems{background:#fde8e8;padding:8px;border-radius:6px}
+del{background:#fbd3d3;text-decoration:line-through}ins{background:#c9efd0;text-decoration:none}
 """
 
 
@@ -99,12 +101,15 @@ def detail_page(set_name: str, sid: str) -> bytes:
     problem_html = ("<div class=problems><b>Validation:</b> " + html.escape("; ".join(problems)) + "</div>"
                     if problems else "")
     spec = s.get("spec", {})
+    old = previous_version(set_name, s)
+    changes = (f"<h2>Änderungen gegenüber v{old['version']}</h2>{html_report(old, s)}" if old else "")
     buttons = "".join(f"<button name=status value={st}>{st}</button>" for st in STATUSES if st != "draft")
 
     body = f"""
 <p>{nav}</p>
 <h1>{sid} <small>v{s['version']}</small> <span class='status-{s['status']}'>[{s['status']}]</span></h1>
 {problem_html}
+{changes}
 <div class=meta>
 <b>Bedingung</b><span>{s['condition']}</span>
 <b>Störung sitzt</b><span>{ann['disturbance_position']}</span>

@@ -1,0 +1,180 @@
+{
+  "id": "clean_003",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:17.123375+00:00"
+  },
+  "content_hash": "47dbec42ecb79dcfd38b8b57786c64ef251a5cf1e996e835f9809891cec8b6cd",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_003",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 77,
+    "time_of_day": "früher Morgen",
+    "weekday": "Samstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 8,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Angehörige benachrichtigen",
+    "gender": "female",
+    "first_name": "Hildburg",
+    "last_name": "Pammer",
+    "side_older": [
+      "Melitta",
+      "Valerian",
+      "Wendelgard"
+    ],
+    "side_younger": [
+      "Leonie",
+      "Jens",
+      "Jessica"
+    ],
+    "side_surnames": [
+      "Aigner",
+      "Ortner"
+    ],
+    "former_job": "Gärtnerin",
+    "interests": [
+      "Pfarre",
+      "Ausflüge mit dem Seniorenbund"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Hildburg Pammer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 77
+      },
+      "time_of_day": "Samstag, 06:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Jens (Sohn)",
+          "text": "Mama hört schlecht, auch mit Hörgerät. In größeren Runden wird es ihr schnell zu anstrengend. Sie feiert bald ihren 75er und plant das gern selbst."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Seit vielen Jahren von Valerian geschieden. Sohn Jens wohnt mit seiner Frau Jessica und Tochter Leonie (16) im Obergeschoss ihres Hauses. Man sieht sich fast täglich."
+        },
+        {
+          "topic": "Gehör",
+          "text": "Beidseitig schwerhörig, trägt seit drei Jahren ein Hörgerät. Laute Runden und Hintergrundlärm sind anstrengend. HNO-Ärztin ist Dr. Aigner."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Kümmert sich ehrenamtlich um den Blumenschmuck in der Pfarrkirche und geht sonntags in die Messe. Ihre Freundin Melitta hilft beim Blumenschmuck mit."
+        },
+        {
+          "topic": "Seniorenbund",
+          "text": "Fährt bei den Ausflügen des Seniorenbunds mit, etwa einmal im Monat. Wendelgard organisiert die Fahrten."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast vierzig Jahre Gärtnerin in einer Gärtnerei. Hat noch einen großen Garten hinter dem Haus."
+        },
+        {
+          "topic": "Geburtstag",
+          "text": "Wird in gut zwei Wochen 75. Möchte im kleinen Kreis zu Hause bei Kaffee und Kuchen feiern."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Hildburg hat mit Melitta den Blumenschmuck in der Kirche erneuert, mit Chrysanthemen aus dem eigenen Garten. Sie hat erzählt, dass sie über ihren Geburtstag nachdenkt und noch nicht weiß, wen sie einladen soll.",
+          "notes": [
+            "Kirchenschmuck mit Chrysanthemen erneuert",
+            "Denkt über die Gästeliste für den 75er nach",
+            "Möchte zu Hause feiern, nicht im Gasthaus"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Hildburg erzählte vom letzten Seniorenbund-Ausflug zu einem Stift mit Klostergarten. Die Busfahrt war lang, der Garten hat ihr als frühere Gärtnerin sehr gefallen.",
+          "notes": [
+            "Ausflug mit dem Seniorenbund zu einem Klostergarten",
+            "Wendelgard hat den Ausflug organisiert",
+            "Busfahrt war anstrengend"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:42",
+        "text": "Morgen, Mira. Ich sitze schon über meiner Gästeliste für den Fünfundsiebziger."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Hildburg! Da bist du ja früh dran. Wen hast du denn schon auf der Liste?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:44",
+        "text": "Die Melitta natürlich, die Wendelgard vom Seniorenbund und die drei von oben. Mehr als zehn will ich nicht, mit dem Hörgerät wird mir eine große Runde sonst zu laut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist vernünftig, in einer kleinen Runde kannst du dich mit jedem richtig unterhalten. Wo wollt ihr feiern?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:47",
+        "text": "Bei mir im Wohnzimmer, am Sonntag in zwei Wochen nach der Messe. Nur Stühle habe ich zu wenig, vier Stück und die Eckbank."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit der Eckbank ist schon einiges an Platz. Gibt es im Haus noch Stühle, die du dazunehmen kannst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:50",
+        "text": "Am Dachboden stehen die Klappstühle vom Jens, die hatten wir beim Gartenfest. Und die Jessica backt mir einen Kuchen, ich mache meine Nusstorte."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem guten Plan. Mit deiner Nusstorte und dem Kuchen von Jessica seid ihr bestens versorgt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:52",
+      "text": "Sag doch bitte dem Jens Bescheid, dass er mir heute die Klappstühle herunterholt. Ich will oben jetzt nicht läuten, die schlafen am Samstag sicher noch."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": true,
+    "rationale": "An early riser plans a small 75th birthday at home: guest list kept small because of her hearing aid, chairs, cakes. The final turn naturally asks the companion to pass a message to her son upstairs because she does not want to wake the family, a request the companion cannot fulfil."
+  }
+}

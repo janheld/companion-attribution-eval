@@ -1,0 +1,189 @@
+{
+  "id": "clean_010",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:43.397942+00:00"
+  },
+  "content_hash": "e55d4b13dd758f7eeacf24251e4e9d6d0a3227c82ff86ce37a78f1ae33e6578f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_010",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 10,
+    "time_of_day": "früher Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Oskar",
+    "last_name": "Dorninger",
+    "side_older": [
+      "Engelbert",
+      "Ulla",
+      "Kilian"
+    ],
+    "side_younger": [
+      "Kevin",
+      "Mia",
+      "Bastian"
+    ],
+    "side_surnames": [
+      "Strobl",
+      "Schwaiger"
+    ],
+    "former_job": "Krankenpfleger",
+    "interests": [
+      "Stricken",
+      "Lesen"
+    ],
+    "occasion": "will etwas wissen (Rezept, Wort, wie etwas geht)",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Oskar Dorninger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 10
+      },
+      "time_of_day": "Samstag, 17:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Oskar Dorninger, 74, lebt allein in seinem Haus am Ortsrand. Nie verheiratet."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 35 Jahre Krankenpfleger im Krankenhaus in der Bezirksstadt, zuletzt auf der Chirurgie."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat Bluthochdruck und nimmt jeden Morgen nach dem Frühstück seine Tabletten. Hausarzt ist Dr. Strobl."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Patenkind Mia schreibt ihm regelmäßig Karten. Sie hat vor knapp drei Wochen ihren ersten Sohn Bastian bekommen."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Strickt seit seiner Kindheit, hat es von der Mutter gelernt. Liest gern Krimis aus der Gemeindebücherei."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Oskar erzählte, dass eine Karte von seinem Patenkind Mia mit einem Foto ihres neugeborenen Sohnes Bastian gekommen ist. Er will dem Kleinen eine Haube stricken.",
+          "notes": [
+            "Karte von Mia mit Babyfoto",
+            "Plant eine gestrickte Haube für Bastian"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Oskar sprach über den Krimi, den er gerade aus der Bücherei ausgeliehen hat, und erwähnte, dass er morgens seinen Blutdruck misst und die Werte für Dr. Strobl aufschreibt.",
+          "notes": [
+            "Liest gerade einen Krimi aus der Bücherei",
+            "Notiert Blutdruckwerte für Dr. Strobl"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:42",
+        "text": "Wie macht man denn einen Bommel, wenn man keine von diesen Plastikringerl daheim hat? I find die nirgends."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das geht auch mit Karton: zwei gleich große Ringe mit einem Loch in der Mitte ausschneiden und die Wolle rundherum wickeln. Was strickst du denn gerade?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:43",
+        "text": "A Haube für den Bastian. Des ist der Bub von meinem Patenkind, von der Mia. Der ist erst knapp drei Wochen alt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön! Über eine selbstgestrickte Haube freut sich die Mia sicher."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:45",
+        "text": "Hoffentlich. Auf dem Foto auf ihrer Karte hat er eine Haube auf, die ist ihm viel zu groß, da sieht man fast nur die Nase."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann kommt deine gerade richtig."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:46",
+        "text": "Wie groß soll denn so ein Kartonring sein? Für einen Babykopf darf der Bommel ja net so wuchtig werden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Für eine kleine Haube reicht ein Ring mit etwa vier bis fünf Zentimetern Durchmesser, das Loch ungefähr ein Drittel davon. Je mehr Wolle du wickelst, desto dichter wird er."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:48",
+        "text": "Einen Bierdeckel hätt i, der tät reichen. Und dann schneid i am Rand auf, gell?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Genau, mit einer spitzen Schere zwischen den beiden Kartonscheiben am Rand entlang. Dann einen festen Faden dazwischen durchziehen und gut verknoten, bevor du den Karton abnimmst."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:50",
+        "text": "Knoten kann i, des hab i im Spital oft genug gemacht. Der Bommel hält dann schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das glaube ich dir gern, da bist du ja geübt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:52",
+      "text": "Und wie wascht man so eine Haube nachher, damit sie net eingeht? Die Mia soll sie ja auch einmal in die Maschine tun können."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean early-evening how-to conversation in the getting-to-know phase: a retired nurse knits a baby hat for his godchild's newborn and asks concrete craft questions (pompom without a template, size, washing). Practical, warm, typical help request."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": "incoherent_user_023",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.746966+00:00"
+  },
+  "content_hash": "b3e0c86b0f93d5cdb1e8817cebcc56094afb38fdea3c3bb878bb36f05a7cd969",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "male",
+    "first_name": "Fridolin",
+    "last_name": "Mairinger",
+    "side_older": [
+      "Margit",
+      "Arnold",
+      "Kordula"
+    ],
+    "side_younger": [
+      "Sophia",
+      "Marvin",
+      "Katrin"
+    ],
+    "side_surnames": [
+      "Daxberger",
+      "Oberndorfer"
+    ],
+    "id": "incoherent_user_023",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 33,
+    "time_of_day": "früher Morgen",
+    "weekday": "Montag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Volksschullehrer",
+    "interests": [
+      "Radfahren",
+      "Hühner halten"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Fridolin Mairinger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 33
+      },
+      "time_of_day": "Montag, 06:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Katrin (Schwiegertochter)",
+          "text": "Fridolin wird beim schnellen Aufstehen schwindlig. Dr. Daxberger hat gesagt, er soll langsam aufstehen und erst kurz sitzen bleiben. Ich kaufe jeden Samstag für ihn ein."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Geschieden, seine frühere Frau Margit lebt in einer anderen Gegend, kaum Kontakt. Sohn Marvin wohnt mit seiner Frau Katrin und Tochter Sophia im Nachbarort. Schwester Kordula ruft ab und zu an."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Volksschullehrer im Ort, seit 2008 in Pension."
+        },
+        {
+          "topic": "Freund Arnold",
+          "text": "Sein bester Freund Arnold ist vor zwei Jahren im Herbst gestorben. Die beiden sind dreißig Jahre lang jeden Sonntag zusammen Rad gefahren."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Fährt Rad, im Sommer fast täglich. Hält sechs Hühner im Garten, füttert sie jeden Morgen früh und lässt sie aus dem Stall. Der Nachbar Oberndorfer nimmt ihm manchmal Eier ab."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwindel beim Aufstehen. Hausarzt ist Dr. Daxberger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Katrin hat für Fridolin eingekauft und ist auf einen Kaffee geblieben. Fridolin hat erzählt, dass bald der zweite Todestag von Arnold ist und er an diesem Tag zum Grab gehen will.",
+          "notes": [
+            "Katrin hat eingekauft",
+            "zweiter Todestag von Arnold steht bevor",
+            "will am Todestag zum Grab gehen"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Fridolin war bei Dr. Daxberger wegen des Schwindels beim Aufstehen. Der Arzt hat den Blutdruck gemessen und ihm geraten, langsam aufzustehen und genug zu trinken.",
+          "notes": [
+            "Arzttermin wegen Schwindel",
+            "soll langsam aufstehen",
+            "soll mehr trinken"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:07",
+        "text": "Morgen, Mira. Heut ist's genau zwei Jahr, dass der Arnold gestorben ist. I bin extra früh auf, hab eh net schlafen können."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Fridolin. Das ist ein schwerer Tag für dich. Magst du mir ein bissl von ihm erzählen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:09",
+        "text": "Mit dem bin i jeden Sonntag geradelt, dreißig Jahr lang. Rauf bis zur Kapelle oben am Berg und nachher beim Wirt ein Bier. Der war immer schneller als i, der Hund."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dreißig Jahre jeden Sonntag, das ist eine lange Freundschaft. Fährst du die Strecke heute noch manchmal?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Im Sommer schon, halt allein. Vorhin bin i zu schnell aufgestanden, da hat's mich wieder gedreht. I hab mich gleich wieder aufs Bett gesetzt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du dich gleich hingesetzt hast. Steh lieber langsam auf, und wenn es öfter vorkommt, erzähl es Dr. Daxberger."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:15",
+      "text": "Jo, eh. Jetzt muss i aber schauen, dass i weiterkomm, um halb acht steh i in der Klasse. Die Zweitklassler sind am Montag immer so unruhig."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "um halb acht steh i in der Klasse. Die Zweitklassler sind am Montag immer so unruhig.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Early in the morning, after a sleepless night on his late friend's anniversary and a dizzy spell, Fridolin speaks as if he still taught at the primary school and had a second-grade class at half past seven, although memory states he retired in 2008 and does not teach at all. It is in his own voice and dialect and fits his life story, so it reads as a genuine time confusion rather than broadcast audio or a recognition error."
+  }
+}

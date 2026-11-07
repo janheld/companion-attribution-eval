@@ -1,0 +1,202 @@
+{
+  "id": "clean_011",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:43.419852+00:00"
+  },
+  "content_hash": "c6fcda8ee260dd25cd214ba517f45eb588b954faab25d9b446a243c389aa0e96",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_011",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 325,
+    "time_of_day": "Nachmittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Rolf",
+    "last_name": "Dallinger",
+    "side_older": [
+      "Dorothea",
+      "Dietrich",
+      "Rudolfine"
+    ],
+    "side_younger": [
+      "Simone",
+      "Theo",
+      "Teresa"
+    ],
+    "side_surnames": [
+      "Aichinger",
+      "Leeb"
+    ],
+    "former_job": "Förster",
+    "interests": [
+      "Holzschnitzen",
+      "Nordic Walking"
+    ],
+    "occasion": "kommt von einem Spaziergang zurück",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Rolf Dallinger",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 325
+      },
+      "time_of_day": "Donnerstag, 15:30",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Simone (Tochter)",
+          "text": "Papa geht fast täglich mit den Stöcken, auch allein. Er soll nach längeren Runden die Hüfte schonen und sich nicht übernehmen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Rolf Dallinger, 80, lebt allein im ehemaligen Forsthaus am Waldrand. Nie verheiratet."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War fast vierzig Jahre Förster im Revier rund um den Ort. Kennt jeden Weg und jeden Baum."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Simone wohnt im Nachbarort und kommt jeden Sonntag zum Mittagessen, oft mit ihrem Sohn Theo, der acht Jahre alt ist."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Schnitzt Tiere aus Holz, am liebsten aus Linde. Geht fast täglich Nordic Walking, am Dienstag oft gemeinsam mit seinem Freund Dietrich."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit zwei Jahren eine Hüftprothese rechts. Hausarzt ist Dr. Aichinger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Rolf war mit seinem Freund Dietrich Nordic Walking. Nach dem Sturm in der Nacht davor lagen viele Äste auf den Wegen.",
+          "notes": [
+            "Nordic Walking mit Dietrich",
+            "Sturmschäden im Wald"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Simone und Theo waren zum Mittagessen da. Theo hat nach dem Fuchs gefragt, den er mit dem Großvater einmal am Waldrand gesehen hat.",
+          "notes": [
+            "Sonntagsbesuch von Simone und Theo",
+            "Theo begeistert sich für Füchse"
+          ]
+        },
+        {
+          "date": "Samstag, vor 5 Tagen",
+          "summary": "Rolf erzählte, dass er eine geschnitzte Eule fertig geschliffen und geölt hat. Sie steht jetzt auf dem Fensterbrett in der Stube.",
+          "notes": [
+            "Eule aus Lindenholz fertig",
+            "Steht auf dem Fensterbrett"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:33",
+        "text": "Sag einmal, Mira, wie viel Kilometer sind denn ungefähr dreizehntausend Schritte?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das hängt von der Schrittlänge ab, aber grob gerechnet sind das um die neun Kilometer. Warst du heute so weit unterwegs?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:34",
+        "text": "Die große Runde am Waldrand entlang und zurück beim Bach. Mit den Stecken geht des fei recht gut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Neun Kilometer, das ist eine ordentliche Strecke. Wie hat sich die Hüfte dabei angefühlt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:36",
+        "text": "Die letzten zwei Kilometer war sie a bissl steif. Jetzt sitz i, jetzt geht's schon wieder."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass es im Sitzen nachlässt. Wenn die Steifigkeit öfter kommt, frag ruhig den Doktor Aichinger, was er dazu meint."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:38",
+        "text": "Mach i eh beim nächsten Termin. Aber was anderes: beim Bach liegt ein Lindenast, den hat's beim Sturm runtergerissen. Ein Stück hab i mir mitgenommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Linde, da hast du ja genau dein Lieblingsholz gefunden. Hast du schon eine Idee dafür?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:40",
+        "text": "Für den Theo, an Fuchs vielleicht. Der Bub ist ganz verrückt nach Füchsen, seit wir einmal einen gesehen haben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein geschnitzter Fuchs, da hätte der Theo sicher eine Riesenfreude. Kommt er am Sonntag wieder mit der Simone?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:42",
+        "text": "Ja, freilich. Aber bis Sonntag wird des nix mit dem Fuchs, des Holz muss erst einmal trocknen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann wird es eben eine Überraschung für später."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:44",
+      "text": "Meinst, i soll's ihm am Sonntag schon verraten, oder lieber ganz still halten, bis der Fuchs fertig ist?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean afternoon conversation after a walk: a retired forester checks his step count, mentions a stiff hip (companion defers to the doctor), and found linden wood after a storm to carve a fox for his grandson. Ends with an everyday question about keeping a surprise."
+  }
+}

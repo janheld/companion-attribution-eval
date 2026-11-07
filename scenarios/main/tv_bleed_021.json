@@ -1,0 +1,188 @@
+{
+  "id": "tv_bleed_021",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:28.813938+00:00"
+  },
+  "content_hash": "ca1e56971f38ba404cea19f0f58b9c2ce29026ca0f46714035a32b7e5ff5c1e0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_021",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 60,
+    "time_of_day": "Nachmittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Eveline",
+    "last_name": "Edtmayr",
+    "side_older": [
+      "Waltraud",
+      "Bruno",
+      "Senta"
+    ],
+    "side_younger": [
+      "Anna",
+      "Silvan",
+      "Tanja"
+    ],
+    "side_surnames": [
+      "Rockenschaub",
+      "Gruber"
+    ],
+    "former_job": "Pfarrsekretärin",
+    "interests": [
+      "Fußball im Fernsehen",
+      "Pfarre"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Eveline Edtmayr",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 60
+      },
+      "time_of_day": "Sonntag, 15:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Anna (Tochter)",
+          "text": "Mama hat am rechten Auge Grauen Star, die Operation ist geplant. Lesen fällt ihr schwer, sie nimmt die Lupe. Ich komme jeden Mittwochnachmittag."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Evelines Mann Bruno ist vor sechs Jahren gestorben. Tochter Anna wohnt im Nachbarort und kommt jeden Mittwochnachmittag. Annas Sohn Silvan ist neun."
+        },
+        {
+          "topic": "Beruf und Pfarre",
+          "text": "Eveline war über dreißig Jahre Pfarrsekretärin. Sie hilft immer noch einmal im Monat beim Verschicken des Pfarrblatts."
+        },
+        {
+          "topic": "Fußball",
+          "text": "Eveline schaut am Sonntag gern Fußball im Fernsehen, vor allem die Bundesliga. Das hat sie früher mit Bruno gemacht."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star am rechten Auge, Operation im Krankenhaus in der Bezirksstadt geplant. Augenarzt ist Dr. Rockenschaub."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Eveline erzählte, dass sie die Zeitung nur noch mit der Lupe lesen kann und dass sie auf den Operationstermin wartet. Sie hofft, dass es vor Weihnachten noch klappt.",
+          "notes": [
+            "Liest die Zeitung mit Lupe",
+            "Wartet auf den OP-Termin",
+            "Hofft auf einen Termin vor Weihnachten"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Anna war am Nachmittag da, sie haben zusammen Kaffee getrunken und Evelines Wintermantel aus dem Kasten geholt. Eveline war froh über die Gesellschaft.",
+          "notes": [
+            "Anna war zu Besuch",
+            "Wintermantel hervorgeholt",
+            "Eveline genoss den Nachmittag"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:47",
+        "text": "Ach, jetzt hab i grad eine halbe Stunde mit der Anna telefoniert, und der Sonntag ist schon wieder fast vorbei."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine halbe Stunde, da gab es wohl einiges zu bereden. Wie geht es der Anna?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:48",
+        "text": "Eh gut, aber der Silvan hat Fieber, drum kommt sie am Mittwoch net. Sie kommt halt dafür am Samstag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schade, dass es sich verschiebt, aber gut, dass sie am Samstag kommen kann. Hoffentlich ist der Silvan bald wieder gesund."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:50",
+        "text": "Und dann hat sie gesagt, der Termin für die Augen ist jetzt fix. Am Mittwoch in zehn Tagen, um sieben in der Früh muss i schon dort sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann weißt du jetzt wenigstens, woran du bist. Bringt dich die Anna hin?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:52",
+        "text": "Jo, die nimmt sich frei. I hab halt schon a bissl Bammel. Darf man danach eigentlich gleich wieder lesen, weißt du des?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ganz unterschiedlich, das Auge braucht meistens ein paar Tage Ruhe. Was genau für dich gilt, kann dir Dr. Rockenschaub oder das Krankenhaus beim Vorgespräch sagen."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:55",
+        "text": "Des schreib i mir auf. Weil im Pfarrbüro haben's mich gefragt, ob i nächsten Monat wieder beim Pfarrblatt helf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kannst du ja offenlassen, bis du weißt, wie es dem Auge geht. Im Pfarrbüro kennen sie dich lange genug."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "16:01",
+      "text": "Jo, eh. Jetzt schau i mir dann das Match an, um halb fünf fangen's an In mehreren Gemeinden im Süden des Landes ist es in der Nacht zu Überschwemmungen gekommen, die Feuerwehren stehen weiterhin im Einsatz."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "In mehreren Gemeinden im Süden des Landes ist es in der Nacht zu Überschwemmungen gekommen, die Feuerwehren stehen weiterhin im Einsatz.",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Eveline has the TV on for the football; at 16:01 the short afternoon news headline runs and is merged into her turn without a boundary. Its impersonal news register clearly marks it as broadcast, while her own plan to watch the match is coherent."
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": "clean_021",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:59:01.439073+00:00"
+  },
+  "content_hash": "52ad57a5b3e68166f98053ef449d6045117223025d76ebc44af9e77731ed40f5",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_021",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 240,
+    "time_of_day": "später Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 12,
+    "health": "Asthma, Spray",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Christine",
+    "last_name": "Luger",
+    "side_older": [
+      "Elke",
+      "Gerold",
+      "Gudrun"
+    ],
+    "side_younger": [
+      "Theresa",
+      "Nils",
+      "Evelyn"
+    ],
+    "side_surnames": [
+      "Lettner",
+      "Ahamer"
+    ],
+    "former_job": "Tischlerin",
+    "interests": [
+      "Marmelade und Most",
+      "Hühner halten"
+    ],
+    "occasion": "lässt den Tag ausklingen",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Christine Luger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 240
+      },
+      "time_of_day": "Sonntag, 21:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Theresa (Tochter)",
+          "text": "Bei Staub im Hühnerstall bekommt Mama manchmal schlecht Luft. Ihr Notfallspray liegt im Vorhaus auf der Kommode, das Dauerspray nimmt sie morgens und abends."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen und Familie",
+          "text": "Christine wohnt allein im Erdgeschoss ihres Hauses. Im Obergeschoss lebt Sohn Nils mit seiner Familie, Enkelin Evelyn ist acht. Tochter Theresa wohnt im selben Ort und schaut meist dienstags vorbei. Christines Mann Gerold ist vor sechs Jahren gestorben."
+        },
+        {
+          "topic": "Hühner",
+          "text": "Christine hält sieben Hühner im Stall hinter dem Haus. Sie lässt sie tagsüber in den Garten und sperrt sie am Abend ein. Evelyn hilft gern beim Eiersammeln."
+        },
+        {
+          "topic": "Marmelade und Most",
+          "text": "Christine kocht jedes Jahr viel Marmelade ein und macht aus den eigenen Äpfeln und Birnen Most, so wie früher Gerold. Der Most gärt im Keller in Glasballons."
+        },
+        {
+          "topic": "Früher",
+          "text": "Christine war Tischlerin, eine der wenigen Frauen im Betrieb damals. Die Küche im Haus hat sie selbst gebaut."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Asthma, nimmt morgens und abends ein Dauerspray, dazu ein Notfallspray. Hausarzt ist Dr. Lettner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Christine erzählte, dass mehrere Hühner kaum noch legen und Federn verlieren. Sie plante das Sonntagsessen für die Familie bei sich unten und wollte dazu den neuen Most anstechen.",
+          "notes": [
+            "Hühner legen wenig, verlieren Federn",
+            "Sonntagsessen für die Familie geplant",
+            "Will den neuen Most zum ersten Mal kosten"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Christine hat Quittengelee eingekocht, die Quitten stammen von ihrer Freundin Gudrun. Beim Reiben der Quitten hat sie sich über die harte Schale geärgert.",
+          "notes": [
+            "Quittengelee eingekocht",
+            "Quitten von Freundin Gudrun",
+            "Gudrun hat noch einen vollen Baum"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:41",
+        "text": "Die Hühner sind jetzt zu, und i sitz endlich. Heut hat die Evelyn die Eier eingesammelt, ganz stolz war sie, obwohl's nur zwei waren."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem schönen Sonntag, Christine. Nur zwei Eier, legen die Hühner gerade so wenig?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Die sind halt in der Mauser, schauen aus wie gerupft. Des ist jeden Herbst des Gleiche."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann brauchen sie ihre Kraft jetzt für die neuen Federn. Gibst du ihnen in der Zeit was Besonderes?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:46",
+        "text": "A bissl mehr Körner und die Kürbiskerne vom Kochen. Die Theresa sagt, i soll ihnen Haferflocken geben, aber des hab i nie gemacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein bisschen Abwechslung schadet sicher nicht, aber du kennst deine Hühner am längsten. Wie war denn das Essen mit der Familie?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:50",
+        "text": "Gut war's. Mittags waren alle bei mir herunten, der Nils, die Evelyn und die Theresa. Da hab i dann den neuen Most aufgemacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ah, der erste vom heurigen Jahr! Und, wie schmeckt er?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:53",
+        "text": "Noch jung, a bissl trüb. Der Nils hat gesagt, der passt schon, aber da bin i heikel. Der braucht noch ein paar Wochen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Auf deinen eigenen Gaumen kannst du dich verlassen. Lässt du ihn jetzt einfach im Keller weiterarbeiten?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:57",
+        "text": "Jo, im Keller lassen und im Dezember noch einmal abziehen. So hat's der Gerold auch immer gemacht, der hat beim Most nix dem Zufall überlassen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann machst du es genau so, wie er es gemacht hat. Schön, dass sein Most bei dir weiterlebt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:01",
+      "text": "Mhm. Jetzt nehm i noch mein Spray und dann geh i schlafen. Aber weißt was, die Gudrun hat noch so viele Quitten am Baum, da hab i mir gedacht, nächstes Jahr probier i einmal einen Quittenmost. Hast du davon schon einmal was gehört?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean late-Sunday wind-down: the user reviews her day (hens in moult, family lunch, first taste of the new cider) and quietly remembers her late husband. The final turn mixes the evening routine with a practical, slightly playful question about quince cider, which is typical small talk before bed."
+  }
+}

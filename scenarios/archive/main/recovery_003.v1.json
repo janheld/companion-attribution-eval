@@ -1,0 +1,197 @@
+{
+  "id": "recovery_003",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Der Satz „Jetzt läutet's eh schon, i mach grad auf.“ in #10 kündigt die zweite Person ausdrücklich an. Damit ist der Fall zu leicht für hard, und Miras Fehldeutung wirkt unplausibel. Bitte den Satz streichen, sodass nur die Anrede „Frau Zeiml“, die Uhrzeit kurz vor sieben und der Widerspruch zu ihrem klaren Plan als Hinweise bleiben. Span anpassen.",
+    "reviewed_at": "2026-11-06T15:31:32.634617+00:00"
+  },
+  "content_hash": "136859e01cf0985a488b4f33d0fae8826dc903bfe4a9cb56de3e959a3e18a744",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_003",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 23,
+    "time_of_day": "früher Morgen",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "other_person",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 12,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?",
+    "recovery_difficulty": "hard",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Edith",
+    "last_name": "Zeiml",
+    "side_older": [
+      "Henriette",
+      "Volker",
+      "Wiltraud"
+    ],
+    "side_younger": [
+      "Jennifer",
+      "Silvan",
+      "Yvonne"
+    ],
+    "side_surnames": [
+      "Lehenbauer",
+      "Feyrer"
+    ],
+    "former_job": "Postbeamtin",
+    "interests": [
+      "Ortschronik und Ahnenforschung",
+      "Kochen und Backen"
+    ],
+    "occasion": "wartet auf Besuch, ein Taxi oder einen Termin",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Edith Zeiml",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 23
+      },
+      "time_of_day": "Montag, 06:32",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Edith ist seit sechs Jahren Witwe, ihr Mann Volker ist nach kurzer Krankheit gestorben. Ihre Tochter Yvonne lebt mit ihrer Familie in der Stadt. Die Enkelin Jennifer studiert und kommt in den Ferien zu Besuch."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Edith war bis zur Pension Postbeamtin am Schalter im Ort. Sie kennt noch viele alte Hausnamen und Familien aus der Gegend."
+        },
+        {
+          "topic": "Ortschronik",
+          "text": "Edith arbeitet an einer Chronik ihres Heimatorts Moosleitenbach und forscht zur Familie ihres Mannes. Zusammen mit ihrer Freundin Wiltraud gehört sie zu einem kleinen Arbeitskreis, der alte Fotos und Urkunden sammelt."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Der Nachbar, Herr Feyrer, fährt Edith manchmal mit dem Auto in die Bezirksstadt. Edith revanchiert sich mit Gebäck."
+        },
+        {
+          "topic": "Küche",
+          "text": "Edith kocht und bäckt gern, vor allem Germgebäck und Kipferl nach dem Rezept ihrer Mutter."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Edith hat Kipferl gebacken, einen Teil für die Fahrt ins Archiv und einen Teil für Herrn Feyrer. Sie erzählte, dass Jennifer am Telefon nach den Vorfahren ihres Großvaters gefragt hat.",
+          "notes": [
+            "Kipferl gebacken, auch für Herrn Feyrer",
+            "Jennifer interessiert sich für die Familie Zeiml",
+            "Edith freut sich über das Interesse der Enkelin"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Edith erzählte, dass Herr Feyrer angeboten hat, sie am kommenden Montag früh ins Diözesanarchiv in die Bezirksstadt zu fahren. Sie will dort die alten Taufbücher durchsehen und macht sich eine Liste mit Namen.",
+          "notes": [
+            "Fahrt ins Diözesanarchiv am kommenden Montag in der Früh",
+            "Herr Feyrer fährt sie hin",
+            "Sie stellt eine Namensliste für die Suche zusammen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:34",
+        "text": "I pack grad die Jause ein, zwei Kipferl und a Thermoskanne Kaffee. Um sieben holt mich der Herr Feyrer ab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da bist du ja gut vorbereitet, Edith. Heute geht es ins Archiv, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:36",
+        "text": "Jo, ins Diözesanarchiv. I will endlich die Taufbücher von Moosleitenbach anschauen, so ab achtzehnhundertfünfzig."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da steckst du schon länger dahinter. Suchst du nach einer bestimmten Familie?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:39",
+        "text": "Nach den Zeimls, also nach der Familie vom Volker. Auf meiner eigenen Seite bin i schon bis siebzehnhundert, aber bei ihm hört's beim Urgroßvater auf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann wünsche ich dir, dass du heute ein gutes Stück weiterkommst."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:41",
+        "text": "Der Volker hätt nur gelacht, den haben so alte Sachen nie interessiert. Aber die Jennifer will's wissen, die fragt jedes Mal nach."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass die Jennifer so neugierig ist. Dann hast du ihr beim nächsten Besuch einiges zu erzählen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:44",
+        "text": "Freilich. Die Liste mit den Namen hab i eingesteckt, und a Lupe nehm i auch mit, weil die alte Kurrentschrift ist schwer zum Lesen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Lupe ist bei der alten Schrift sicher Gold wert. Hast du alles beisammen, oder fehlt noch was?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:51",
+        "text": "Jetzt läutet's eh schon, i mach grad auf. Morgen, Frau Zeiml, i weiß heut net, wo mir der Kopf steht, i hab bis gestern gemeint, wir fahren erst morgen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:52",
+      "text": "Bei mir passt alles. Des war der Herr Feyrer bei der Tür, der is in der Früh halt noch net ganz munter."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "Morgen, Frau Zeiml, i weiß heut net, wo mir der Kopf steht, i hab bis gestern gemeint, wir fahren erst morgen.",
+        "type": "other_person"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The neighbor who drives Edith to the archive arrives early and his greeting at the door is transcribed into her turn. Hard: his words ('i weiß heut net, wo mir der Kopf steht', unsure about the day) sound like disorientation, so the misreading is understandable; on careful reading the vocative 'Frau Zeiml' and the contradiction with her own clear plan show it is another person. Her correction is short and dry."
+  }
+}

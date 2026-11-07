@@ -1,0 +1,197 @@
+{
+  "id": "recovery_015",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:56:33.819267+00:00"
+  },
+  "content_hash": "d8cbdf6baae3f1b44dad1d0b00a05b84d2d9d7baae5f73c5bbc79eeed0a74231",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Magda",
+    "last_name": "Berger",
+    "side_older": [
+      "Rotraud",
+      "Anselm",
+      "Josefine"
+    ],
+    "side_younger": [
+      "Ute",
+      "Nico",
+      "Romy"
+    ],
+    "side_surnames": [
+      "Schwarzlmüller",
+      "Kaltenbrunner"
+    ],
+    "id": "recovery_015",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 82,
+    "time_of_day": "Vormittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "other_person",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": "Hm, das klingt jetzt ein bisschen verwirrt. Geht's dir gut?",
+    "recovery_difficulty": "hard",
+    "action_request": null,
+    "former_job": "Hauptschullehrerin",
+    "interests": [
+      "Wallfahrten",
+      "Zeitung und Politik"
+    ],
+    "occasion": "gerade aufgestanden, beim Frühstück, plant den Tag",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Magda Berger",
+      "address_form": "du",
+      "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 82
+      },
+      "time_of_day": "Montag, 08:02",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lebt allein, seit vielen Jahren geschieden. Sohn Nico wohnt in der Stadt und ruft eher selten an. Nicos Tochter Romy geht ins Gymnasium."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in beiden Füßen, spürt die Zehen schlecht und geht längere Strecken mit Stock. Geht regelmäßig montags zur medizinischen Fußpflege. Hausarzt ist Dr. Schwarzlmüller."
+        },
+        {
+          "topic": "Zeitung und Politik",
+          "text": "Liest jeden Morgen beim Frühstück die Zeitung gründlich und ärgert sich gern über die Politik. Teilt das Abo mit der Nachbarin Josefine, die die Zeitung jeden Morgen gegen Viertel nach acht abholt."
+        },
+        {
+          "topic": "Wallfahrten",
+          "text": "Geht mehrmals im Jahr mit der Pfarre auf Wallfahrt, am liebsten nach Maria Lindenschlag. Ihre Freundin Rotraud geht immer mit."
+        },
+        {
+          "topic": "Früher",
+          "text": "War Hauptschullehrerin für Deutsch und Geschichte. Diskutiert gern und sagt offen ihre Meinung."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Magda erzählte, dass Nico seit drei Wochen nicht angerufen hat. Sie wirkte etwas enttäuscht, meinte aber, er habe halt viel Arbeit. Sie überlegt, Romy zum Geburtstag ein Buch zu schicken.",
+          "notes": [
+            "Nico hat länger nicht angerufen",
+            "Will Romy ein Buch zum Geburtstag schicken",
+            "Nimmt es nach außen gelassen"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Magda hat sich mit Rotraud für die Pfarrwallfahrt nach Maria Lindenschlag am Samstag nächster Woche angemeldet. Frau Kaltenbrunner aus dem Pfarrbüro hat die Anmeldung aufgenommen. Offen ist noch, ob sie das letzte Stück zu Fuß gehen.",
+          "notes": [
+            "Wallfahrt mit Rotraud angemeldet",
+            "Anmeldung über Frau Kaltenbrunner im Pfarrbüro",
+            "Fußweg wegen der Füße noch offen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "08:04",
+        "text": "Die Pensionserhöhung steht heut in der Zeitung, und wieder weniger als die Teuerung. Des muss man sich einmal vorstellen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ärgert dich, das hört man. Was schreiben sie denn genau?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:05",
+        "text": "Ab Jänner ein paar Prozent mehr, und das wird dann groß als Erfolg verkauft. Ich les das jetzt fertig beim Frühstück, die Josefine holt sich die Zeitung eh gleich."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann bekommt die Josefine heute gleich was zum Diskutieren mit. Was hast du dir für den Tag sonst vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:07",
+        "text": "Um halb elf hab ich die Fußpflege. Da muss ich eh regelmäßig hin, weil ich in den Zehen nimmer viel spür."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du da regelmäßig hingehst. Was über die Fußpflege hinausgeht, schaut sich am besten der Dr. Schwarzlmüller an."
+      },
+      {
+        "role": "user",
+        "timestamp": "08:09",
+        "text": "Jo, der hat mir das ja auch verschrieben. Und am Nachmittag red ich mit der Rotraud wegen der Wallfahrt, ob wir mit dem Bus ganz hinauffahren oder ein Stück gehen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ah, nach Maria Lindenschlag am Samstag. Wie weit wollt ihr denn zu Fuß gehen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:11",
+        "text": "Die Rotraud möcht vom Parkplatz rauf gehen, eine halbe Stunde. Mit meinen Füßen weiß ich ned recht, aber probieren tät ich's schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine halbe Stunde ist ein schönes Stück. Mit dem Stock kannst du dich unterwegs ja immer noch entscheiden, wie weit du gehst."
+      },
+      {
+        "role": "user",
+        "timestamp": "08:15",
+        "text": "Den Stock nehm ich eh mit, der steht schon beim Eingang Jetzt weiß ich gar nimmer, was ich bei dir wollte, ich steh da und hab's ganz vergessen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hm, das klingt jetzt ein bisschen verwirrt. Geht's dir gut?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "08:16",
+      "text": "Geh, das war die Josefine, die steht da wegen der Zeitung. Mit mir ist alles in Ordnung."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "Jetzt weiß ich gar nimmer, was ich bei dir wollte, ich steh da und hab's ganz vergessen.",
+        "type": "other_person"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The neighbor who shares the newspaper comes in at her usual time (quarter past eight, set up in memory and earlier in the session) and says she has forgotten why she came. STT merges her words into the user's sentence. Read as the user's own words, the line sounds like forgetfulness, so the scripted misreading is understandable (hard); the only hint is 'bei dir', which fits the neighbor addressing the user. The correction is short and dry."
+  }
+}

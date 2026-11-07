@@ -1,0 +1,171 @@
+{
+  "id": "stt_errors_012",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:18.312557+00:00"
+  },
+  "content_hash": "902f3643dae2e5409703c9fffb2d8c43c1d77c74144999e84a52e251d6ffb1c6",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_012",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 88,
+    "time_of_day": "später Abend",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Gertraud",
+    "last_name": "Schobesberger",
+    "side_older": [
+      "Karl",
+      "Gudrun",
+      "Gotthard"
+    ],
+    "side_younger": [
+      "Daniel",
+      "Judith",
+      "Jakob"
+    ],
+    "side_surnames": [
+      "Auer",
+      "Engl"
+    ],
+    "former_job": "Schneiderin",
+    "interests": [
+      "Nordic Walking",
+      "Bienen"
+    ],
+    "occasion": "hat ein altes Foto oder einen alten Gegenstand gefunden",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gertraud Schobesberger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 88
+      },
+      "time_of_day": "Donnerstag, 22:00",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Judith (Nichte)",
+          "text": "Ich erledige für Tante Gertraud die Behördensachen. Gerade brauche ich ihre alten Lehrzeugnisse für einen Antrag bei der Pensionsversicherung."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Gertraud ist seit vielen Jahren von Karl geschieden und hat keine Kinder. Ihre Nichte Judith kümmert sich um Formulare und Behördenwege."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Gertraud hat mit sechzehn eine Lehre als Schneiderin in einer kleinen Schneiderei gemacht und später lange in einem Trachtengeschäft geschneidert. Sie näht heute noch für sich selbst."
+        },
+        {
+          "topic": "Freunde",
+          "text": "Ihre Freundin Gudrun hat in derselben Schneiderei gelernt. Gudruns Mann Gotthard war damals Vertreter für eine Stofffirma und hat die Schneiderei beliefert; so haben sich die beiden kennengelernt."
+        },
+        {
+          "topic": "Bienen und Bewegung",
+          "text": "Gertraud hat vier Bienenvölker im Garten. Mit Gudrun geht sie zweimal die Woche Nordic Walking, am Montag und am Freitag am Vormittag."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2, sie achtet aufs Essen und isst wenig Süßes, den eigenen Honig nur sparsam. Hausarzt ist Dr. Auer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Gertraud wollte in den nächsten Tagen die alte Nähkommode ausräumen, weil Judith ihre Lehrzeugnisse für einen Antrag braucht. Sie vermutete die Papiere in einer Mappe ganz unten.",
+          "notes": [
+            "Judith braucht die Lehrzeugnisse",
+            "Papiere vermutlich in der alten Nähkommode",
+            "Will die Kommode bei der Gelegenheit ausmisten"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Gertraud erzählte, dass sie die Bienenstöcke für den Winter fertig eingepackt hat. Sie hatte am Vormittag mit Gudrun über die Honigernte geredet.",
+          "notes": [
+            "Bienenstöcke winterfest gemacht",
+            "Gespräch mit Gudrun über die Honigernte"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:01",
+        "text": "Die Zeugnisse für die Judith hab i jetzt gefunden. Die waren wirklich ganz unten in der Nähkommode, unter lauter alten Schnittmustern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da bin ich froh, Gertraud, nach denen hast du ja gesucht. Dann kann die Judith mit dem Antrag weitermachen."
+      },
+      {
+        "role": "user",
+        "timestamp": "22:03",
+        "text": "Jo. Und dabei is mir a Foto in die Hand gefallen, von der Schneiderei, wo i gelernt hab. Da stehen wir alle vor der Werkstatt, die Gudrun und i ganz vorn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Was für ein schöner Fund. Weißt du noch ungefähr, wann das aufgenommen wurde?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:05",
+        "text": "Neunzehnhundertneunundfünfzig muss des gewesen sein, i war sechzehn. Und hinten in der Tür steht der Gott hat, mit einem Stoffballen unterm Arm."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist das Foto über sechzig Jahre alt. Schön, dass da sogar jemand mit einem Stoffballen drauf ist, das passt genau zur Schneiderei."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:07",
+      "text": "Morgen beim Gehen zeig i's der Gudrun. I glaub, die hat von dem Tag selber gar kein Bild mehr."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "der Gott hat",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user names Gotthard, Gudrun's husband, who according to memory supplied the tailor's shop with fabric. STT splits the rare name into the frequent words 'Gott hat', a typical word-boundary error for names that sound like common words. The stoffballen detail and memory make the intended person recoverable; the companion responds neutrally without naming him, and the final turn about showing Gudrun the photo on their Friday walk is clean."
+  }
+}

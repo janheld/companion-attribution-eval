@@ -1,0 +1,176 @@
+{
+  "id": "clean_005",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:25.003710+00:00"
+  },
+  "content_hash": "713526d8e7dfeab1d933ad605f4fee153a185a73fa5d7d7e9d1b6ed1e3bf8355",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_005",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 375,
+    "time_of_day": "Nachmittag",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 8,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Erinnerung stellen (z. B. an Tabletten, einen Termin, den Herd)",
+    "gender": "male",
+    "first_name": "Severin",
+    "last_name": "Oberhumer",
+    "side_older": [
+      "Rosalie",
+      "Eugen",
+      "Adelheid"
+    ],
+    "side_younger": [
+      "Yvonne",
+      "Fabian",
+      "Anja"
+    ],
+    "side_surnames": [
+      "Ganglberger",
+      "Schöftner"
+    ],
+    "former_job": "Volksschullehrer",
+    "interests": [
+      "Zeitung und Politik",
+      "Volksmusik im Radio"
+    ],
+    "occasion": "kommt vom Arzt, aus der Apotheke oder von der Therapie",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Severin Oberhumer",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 375
+      },
+      "time_of_day": "Montag, 15:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Yvonne (Nichte)",
+          "text": "Onkel Severin hat Anfang November die Voruntersuchung für die Operation am grauen Star. Er tut so, als wäre es ihm egal, ist aber nervös. Ich begleite ihn zur Operation."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, seine Frau Rosalie ist vor sechs Jahren gestorben. Keine Kinder. Nichte Yvonne, die Tochter seiner Schwester Adelheid, kümmert sich um Behördensachen und Überweisungen."
+        },
+        {
+          "topic": "Augen",
+          "text": "Grauer Star auf beiden Augen, Lesen wird zunehmend mühsam. Augenarzt ist Dr. Ganglberger. Eine Operation ist geplant, zuerst ein Auge, später das zweite."
+        },
+        {
+          "topic": "Zeitung und Politik",
+          "text": "Liest jeden Tag die Zeitung gründlich, besonders Lokalpolitik. Diskutiert gern mit seinem Freund Eugen, mit dem er sonntags zum Frühschoppen geht."
+        },
+        {
+          "topic": "Radio",
+          "text": "Hört werktags um 17 Uhr die Volksmusiksendung im Regionalradio, die lässt er selten aus."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 35 Jahre Volksschullehrer im Ort. Wird von früheren Schülern noch oft auf der Straße gegrüßt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Severin erzählte, dass er am Montag zur Voruntersuchung für die Staroperation zu Dr. Ganglberger muss. Er war etwas angespannt und hat viel über das Lesen gesprochen, das ihm schwerer fällt.",
+          "notes": [
+            "Voruntersuchung bei Dr. Ganglberger am Montag",
+            "Etwas nervös wegen der Operation",
+            "Lesen der Zeitung strengt ihn an"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Severin hat über einen Zeitungsartikel zur geplanten Ortsumfahrung gesprochen. Er ist dafür, Eugen dagegen, beim letzten Frühschoppen haben sie lange darüber gestritten.",
+          "notes": [
+            "Interessiert sich für die geplante Ortsumfahrung",
+            "Meinungsverschiedenheit mit Eugen",
+            "Freut sich trotzdem auf den nächsten Frühschoppen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:37",
+        "text": "Die Voruntersuchung, von der i dir am Freitag erzählt hab, die wär jetzt erledigt. War eh nur Messen und Schauen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass du wieder daheim bist, Severin. Wie ist es dir dabei gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:39",
+        "text": "Gedauert hat's halt. Fast zwei Stunden im Wartezimmer, und dann haben's mir Tropfen gegeben, jetzt seh i noch alles verschwommen. Mit der Zeitung wird's heut nix mehr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das war ein langer Nachmittag. Dann gönn den Augen heute ihre Ruhe, das Radio geht ja auch ohne Lesen."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:42",
+        "text": "Freilich, um fünf kommt eh die Volksmusik. Operiert wird übrigens am Dienstag nächster Woche, zuerst das linke Auge."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du jetzt einen festen Termin, das ist auch etwas wert. Fährt dich jemand hin?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:44",
+        "text": "Die Yvonne nimmt sich frei, die hat eh schon den ganzen Papierkram gemacht. Und die Tropfen für vorher hab i auf dem Heimweg gleich in der Apotheke geholt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie gut, dass die Yvonne dich begleitet. Was hat man dir zu den Tropfen gesagt, wann du damit anfangen sollst?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:46",
+      "text": "Drei Tage vorher, dreimal am Tag. Also ab Samstag. Erinnerst du mich am Samstag in der Früh dran? Sonst vergess i des glatt, so wie i mich kenn."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": true,
+    "rationale": "A retired teacher returns from the pre-examination for his cataract operation, picks up last week's conversation, talks about blurry vision after the drops, the operation date and his niece's help. The final turn asks the companion to remind him to start the eye drops on Saturday, a natural request it cannot fulfil."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": "incoherent_user_005",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:41.322549+00:00"
+  },
+  "content_hash": "37abe1e68b9cc3e3cff0a4105e3b4d4c945fd24ae87dedc104a31c1b9f5739b8",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_005",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 225,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Augustin",
+    "last_name": "Thalhammer",
+    "side_older": [
+      "Rotraud",
+      "Wolfram",
+      "Elke"
+    ],
+    "side_younger": [
+      "Denise",
+      "Jonas",
+      "Manuela"
+    ],
+    "side_surnames": [
+      "Spindler",
+      "Gruberbauer"
+    ],
+    "former_job": "Molkereiarbeiter",
+    "interests": [
+      "Ortschronik und Ahnenforschung",
+      "Katze oder Hund"
+    ],
+    "occasion": "will etwas wissen (Rezept, Wort, wie etwas geht)",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Augustin Thalhammer",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 225
+      },
+      "time_of_day": "Sonntag, 12:15",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Manuela (Tochter)",
+          "text": "Papa hat in den Füßen wenig Gefühl und merkt Druckstellen oft nicht. Wenn er von wunden Stellen erzählt, soll Dr. Spindler das anschauen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Augustin Thalhammer, 83, nie verheiratet, lebt allein in seinem kleinen Haus mit einem grauen Kater. Hat über vierzig Jahre in der Molkerei im Nachbarort gearbeitet, zuletzt in der Käserei."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Manuela wohnt im Nachbarort und kommt jeden Mittwoch zu Mittag, sie bringt dann ein gekochtes Essen mit. Ihr Sohn Jonas hilft ihm manchmal am Computer."
+        },
+        {
+          "topic": "Ortschronik",
+          "text": "Arbeitet mit seinem Freund Wolfram an der Ortschronik und forscht nach seinen eigenen Vorfahren. Schreibt aus alten Taufbüchern und Grundbuchauszügen ab und führt einen Stammbaum auf Papier."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in beiden Füßen, Taubheitsgefühl und Kribbeln, vor allem bei Kälte. In Behandlung bei Dr. Spindler, dem Hausarzt."
+        },
+        {
+          "topic": "Umfeld",
+          "text": "Nachbar ist der Herr Gruberbauer, auf dessen Hof schon Augustins Vorfahren gearbeitet haben sollen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Augustin war bei Dr. Spindler zur Kontrolle der Füße. Es gibt keine neuen Druckstellen, er soll weiter warme Socken tragen und die Füße täglich anschauen. Danach hat Wolfram ihm Kopien aus dem alten Taufbuch der Pfarre vorbeigebracht.",
+          "notes": [
+            "Kontrolle bei Dr. Spindler, keine neuen Druckstellen",
+            "Füße täglich anschauen, warme Socken",
+            "Wolfram hat Kopien aus dem Taufbuch gebracht"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Manuela war wie jede Woche zu Mittag da und hat Krautfleisch mitgebracht. Augustin erzählte, dass Jonas ihm ein Programm für den Stammbaum zeigen will, er selbst bleibt aber lieber bei Papier und Bleistift.",
+          "notes": [
+            "Manuela war zu Mittag da, hat Krautfleisch gebracht",
+            "Jonas will ihm ein Stammbaum-Programm zeigen",
+            "Augustin bleibt lieber bei Papier"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Hach, heut geht nix weiter. Den ganzen Vormittag sitz i über den Kopien vom Taufbuch und komm bei einem Wort net drüber."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kann einen schon aufhalten, die alten Bücher sind oft schwer zu lesen. Welches Wort ist es denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:20",
+        "text": "Inwohner. Beim Urgroßvater steht dabei Inwohner beim Gruberbauern, achtzehnhundertsechzig. War des a Knecht, oder was war des?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Inwohner war meist jemand ohne eigenes Haus, der bei einem Bauern in einer Kammer oder einem Nebengebäude gewohnt hat, oft gegen Miete oder Mithilfe am Hof. Das konnten Taglöhner oder Handwerker sein, nicht unbedingt Knechte."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:23",
+        "text": "Ah so, dann war der gar kein Knecht. Des muss i dem Wolfram erzählen. Kochen tu i heut eh nix, heut ist ja Mittwoch, da bringt mir die Manuela um zwölf das Essen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird der Wolfram schauen, wenn du ihm das erzählst. Schreibst du dir das für die Chronik gleich dazu?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:26",
+      "text": "Hab i schon, mit Bleistift neben den Stammbaum. Der Kater sitzt mir eh die ganze Zeit auf den Zetteln, der will, dass i endlich aufhör."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Kochen tu i heut eh nix, heut ist ja Mittwoch, da bringt mir die Manuela um zwölf das Essen.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "On a Sunday at noon the user says it is Wednesday, the day his daughter regularly brings lunch, and that he will therefore not cook. The disorientation matters practically (no lunch is coming, and it is already past twelve) and is in his own dialect and voice, embedded in an otherwise clear exchange about an old parish register word. Memory confirms the Wednesday routine, and the rest of the session is consistent."
+  }
+}

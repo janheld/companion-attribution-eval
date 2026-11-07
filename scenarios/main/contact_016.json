@@ -1,0 +1,171 @@
+{
+  "id": "contact_016",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:25:30.505351+00:00"
+  },
+  "content_hash": "59ae5db7507a19ed1d6da210e176fc38a7be4daec7390e9ca777c43112928643",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_016",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 114,
+    "time_of_day": "früher Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "visit",
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 8,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Öffnungszeiten nachschauen (Apotheke, Gemeindeamt, Markt)",
+    "gender": "female",
+    "first_name": "Leopoldine",
+    "last_name": "Buchner",
+    "side_older": [
+      "Max",
+      "Juliana",
+      "Dietmar"
+    ],
+    "side_younger": [
+      "Kilian",
+      "Pia",
+      "René"
+    ],
+    "side_surnames": [
+      "Unterholzner",
+      "Grünberger"
+    ],
+    "former_job": "Buchhalterin",
+    "interests": [
+      "Wandern",
+      "Modelleisenbahn"
+    ],
+    "occasion": "hat Langeweile, es regnet",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Leopoldine Buchner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 114
+      },
+      "time_of_day": "Sonntag, 17:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Persönliches",
+          "text": "Leopoldine war nie verheiratet und hat keine Kinder. Bis zur Pension war sie Buchhalterin in einer Spedition. Sie lebt allein in einer Wohnung im ersten Stock mit einem kleinen Hobbyraum."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihr Bruder Max lebt seit letztem Jahr im Pflegeheim in der Bezirksstadt; Leopoldine besucht ihn jeden Mittwochnachmittag. Max' Enkelkinder Kilian (12) und Pia (9) wohnen zwei Straßen weiter und kommen gern zu ihr, vor allem wegen der Eisenbahn."
+        },
+        {
+          "topic": "Modelleisenbahn",
+          "text": "Baut seit fünfzehn Jahren an einer Anlage mit Bergstrecke und kleinem Bahnhof. Hat sich vor kurzem eine gebrauchte Dampflok gekauft."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Wandert gern mit ihrer Freundin Juliana, meist am Sonntag, wenn das Wetter passt. Ihre Lieblingsrunde führt zum Aussichtsturm über dem Ort."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörig auf beiden Seiten, trägt ein Hörgerät. Die Batterien wechselt sie selbst und kauft sie in der Apotheke im Ort. HNO-Ärztin ist Dr. Unterholzner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Leopoldine erzählte, dass die gebrauchte Dampflok mit der Post angekommen ist. Sie fährt, quietscht aber in einer Kurve der Bergstrecke. Kilian hat versprochen, sie sich bald anzuschauen.",
+          "notes": [
+            "Gebrauchte Dampflok ist angekommen",
+            "Lok quietscht in einer Kurve der Bergstrecke",
+            "Kilian will sich die Lok anschauen"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Leopoldine war am Nachmittag bei ihrem Bruder Max im Pflegeheim. Max war müde, hat sich aber über die Fotos von der Anlage gefreut. Im Aufenthaltsraum war es so laut, dass sie trotz Hörgerät wenig verstanden hat.",
+          "notes": [
+            "Besuch bei Max im Pflegeheim",
+            "Max hat sich über Fotos von der Anlage gefreut",
+            "Im lauten Aufenthaltsraum schlecht verstanden"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:37",
+        "text": "Mei, so ein Sonntag. Seit in der Früh schüttet's, und die Juliana hat das Wandern natürlich abgesagt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schade, da hattet ihr euch sicher drauf gefreut. Wie hast du den Tag bis jetzt herumgebracht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:39",
+        "text": "Zeitung gelesen, zweimal. Dann bin i in den Hobbyraum und hab bei der neuen Lok herumgetan, aber die quietscht halt immer noch in der Kurve."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Dampflok vom Freitag? Vielleicht braucht sie an den Achsen ein bisschen Öl, oder die Kurve ist für sie etwas eng."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:42",
+        "text": "Geölt hab i's eh. I glaub fast, es is die Kurve, die hab i vor Jahren a bissl zu eng gebaut. Bei den alten Loks hat des nie wen gestört."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kann gut sein, längere Loks tun sich in engen Kurven schwerer. Vielleicht findest du mit dem Kilian zusammen eine Lösung, der wollte sie sich ja anschauen."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:45",
+        "text": "Jo, der is a Gescheiter. Was mich mehr ärgert, des Hörgerät piepst seit Mittag, die Batterie geht zu Ende, und daheim hab i keine mehr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist lästig, gerade am Sonntag. Dann musst du morgen neue besorgen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:48",
+      "text": "Wart, grad hat der Kilian geschrieben, er kommt mit der Pia in einer halben Stund vorbei, die wollen die Lok sehen. Da gehört der Hobbyraum noch zusammengeräumt. Und schau mir bitte nach, wann die Apotheke morgen in der Früh aufsperrt, wegen der Batterien."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "visit",
+    "unavailable_action_request": true,
+    "rationale": "A retired bookkeeper with a model railway is bored on a rainy Sunday afternoon after her hike was cancelled. In the final turn her brother's grandchildren announce a visit in half an hour and the hobby room still needs tidying, next to a natural request to look up the pharmacy's opening time for hearing aid batteries, which the companion cannot do."
+  }
+}

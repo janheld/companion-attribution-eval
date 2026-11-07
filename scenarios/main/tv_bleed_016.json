@@ -1,0 +1,177 @@
+{
+  "id": "tv_bleed_016",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:21.840510+00:00"
+  },
+  "content_hash": "a24355733d1290422ac844f345235ddb2aa07027680e44d022e17d269118cadd",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_016",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 128,
+    "time_of_day": "früher Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "other_person",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 8,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Sigrid",
+    "last_name": "Stadlbauer",
+    "side_older": [
+      "Detlef",
+      "Margot",
+      "Hans-Peter"
+    ],
+    "side_younger": [
+      "Dennis",
+      "Katrin",
+      "Zeno"
+    ],
+    "side_surnames": [
+      "Brandl",
+      "Eckmayr"
+    ],
+    "former_job": "Elektrikerin",
+    "interests": [
+      "Ziehharmonika",
+      "Fußball im Fernsehen"
+    ],
+    "occasion": "lässt den Tag ausklingen",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Sigrid Stadlbauer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 128
+      },
+      "time_of_day": "Mittwoch, 18:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet seit sechs Jahren, ihr Mann Detlef hat Gitarre gespielt. Die beiden haben früher zusammen auf Hochzeiten und Geburtstagsfeiern Musik gemacht. Ihr Neffe Dennis wohnt in der Wohnung unter ihr im selben Haus, hat einen Schlüssel und schaut oft kurz herein."
+        },
+        {
+          "topic": "Musik",
+          "text": "Spielt seit ihrer Jugend Ziehharmonika. Trifft sich einmal im Monat mit einer kleinen Musikrunde, die ihr Bekannter Hans-Peter zusammenhält."
+        },
+        {
+          "topic": "Fußball",
+          "text": "Schaut leidenschaftlich gern Fußball im Fernsehen, vor allem die Abendspiele unter der Woche. Manchmal kommt ihre Freundin Margot zum Mitschauen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bekommt nach Gartenarbeit regelmäßig Rückenschmerzen im unteren Rücken. Hilft sich mit Wärmeflasche. Hausärztin ist Dr. Brandl."
+        },
+        {
+          "topic": "Früherer Beruf",
+          "text": "War Elektrikerin, eine der ersten Frauen in ihrem Lehrjahrgang. Repariert vieles im Haus noch selbst, wenn der Rücken mitmacht."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Sigrid erzählte, dass sie am Mittwoch das Laub hinter dem Haus zusammenrechen will, bevor es wieder regnet. Dennis hat angeboten, ihr die vollen Säcke zum Bauhof zu bringen.",
+          "notes": [
+            "Will am Mittwoch Laub rechen",
+            "Dennis bringt die Laubsäcke weg",
+            "Im Keller ist eine Glühbirne kaputt"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 3 Tagen",
+          "summary": "Sigrid berichtete vom Treffen der Musikrunde bei Hans-Peter. Sie hat dort einen alten Walzer wieder ausgegraben, den sie früher oft mit Detlef gespielt hat, und will ihn neu einüben.",
+          "notes": [
+            "Musikrunde bei Hans-Peter",
+            "Übt einen alten Walzer neu ein",
+            "Erinnert sich gern an die Auftritte mit Detlef"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "18:21",
+        "text": "Den ganzen Nachmittag hab ich hinterm Haus Laub zusammengerecht, und jetzt spür ich halt jeden Wirbel einzeln."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du ja richtig was geschafft, Sigrid. Wie geht es deinem Rücken jetzt, wo du sitzt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:22",
+        "text": "Im Sitzen geht's. Beim Bücken zieht's halt unten rein. Des hab ich jedes Jahr nach dem Laub."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei so einem Ziehen tut vielen Wärme gut. Wenn es nicht besser wird oder anders ist als sonst, frag lieber bei Dr. Brandl nach."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:24",
+        "text": "Jo, jo. Die Wärmeflasche hab ich schon hergerichtet. Und heut ist Fußball am Abend, da sitz ich dann eh nur."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann passt das ja gut zusammen. Wann fängt das Spiel an?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:25",
+        "text": "Um dreiviertel neun. Vorher spiel ich noch a bissl Ziehharmonika, wenn's der Rücken zulässt. Der Detlef hat immer gesagt, beim Spielen vergess ich alles andere."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem schönen Abend. Was übst du denn gerade?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:27",
+      "text": "Den Walzer, wo ich früher mit dem Detlef auf jeder Hochzeit gespielt hab. Der ist gar net so leicht Tante Sigrid, ich hab dir die Glühbirne im Keller gewechselt, die alte liegt auf der Waschmaschine"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Tante Sigrid, ich hab dir die Glühbirne im Keller gewechselt, die alte liegt auf der Waschmaschine",
+        "type": "other_person"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Her nephew Dennis lives downstairs, has a key and drops in often (memory), and a broken cellar bulb was mentioned two days ago. While Sigrid talks about the waltz, Dennis comes in and reports the bulb; STT merges his sentence into hers. Addressing her as 'Tante Sigrid' and saying he changed the bulb for her marks a different speaker on careful reading."
+  }
+}

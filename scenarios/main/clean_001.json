@@ -1,0 +1,190 @@
+{
+  "id": "clean_001",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:06.082762+00:00"
+  },
+  "content_hash": "48643761c85368073509da391b9a2bfc17a6bad9b4f071f79c878091735c7875",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_001",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 80,
+    "time_of_day": "früher Morgen",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Armin",
+    "last_name": "Templ",
+    "side_older": [
+      "Genoveva",
+      "Leopold",
+      "Elisabeth"
+    ],
+    "side_younger": [
+      "Sandra",
+      "Tristan",
+      "Jennifer"
+    ],
+    "side_surnames": [
+      "Obermeier",
+      "Kaineder"
+    ],
+    "former_job": "Verkäufer",
+    "interests": [
+      "Theaterverein",
+      "Schrebergarten"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Armin Templ",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 80
+      },
+      "time_of_day": "Freitag, 06:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sandra (Tochter)",
+          "text": "Anfang November ist der Hochzeitstag meiner Eltern, da ist der Papa oft still. Er redet aber gern über früher und über die Mama, man muss ihn nicht ablenken."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet. Seine Frau Genoveva ist vor vier Jahren gestorben, sie waren im November 1976 geheiratet worden. Tochter Sandra wohnt in der Bezirksstadt. Enkelin Jennifer studiert in der Stadt und kommt in den Semesterferien und zu Weihnachten zu ihm."
+        },
+        {
+          "topic": "Theaterverein",
+          "text": "Seit über dreißig Jahren in der Laienbühne im Ort, spielt meist kleinere komische Rollen. Proben sind dienstags am Abend. Leopold ist Obmann und ein guter Freund. Genoveva hat über zwanzig Jahre lang die Kostüme für den Verein genäht."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Hat eine Parzelle in der Kleingartenanlage am Ortsrand, mit Rosen, Beerensträuchern und einem kleinen Gemüsebeet. Der Parzellennachbar Herr Obermeier hilft ihm bei schweren Arbeiten."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War vierzig Jahre Verkäufer in einem Textilgeschäft in der Bezirksstadt. Kennt sich mit Stoffen aus und erzählt gern von Kunden von damals."
+        },
+        {
+          "topic": "Gesundheit und Alltag",
+          "text": "Keine nennenswerten Beschwerden. Steht früh auf, trinkt den ersten Kaffee meist kurz nach sechs. Hausarzt ist Dr. Kaineder."
+        },
+        {
+          "topic": "Weitere Angehörige",
+          "text": "Elisabeth ist die jüngere Schwester von Genoveva, sie wohnt im Nachbarort und telefoniert regelmäßig mit ihm."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Armin erzählte von der Theaterprobe am Vorabend. Der Verein probt eine Komödie für das Frühjahr, er spielt einen schwerhörigen Briefträger und muss noch Text lernen. Leopold hat die Probe geleitet.",
+          "notes": [
+            "Spielt im neuen Stück einen Briefträger",
+            "Muss bis Weihnachten seinen Text können",
+            "Freut sich, dass Jennifer zu Weihnachten kommt"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Armin hat mit Herrn Obermeier den Schrebergarten winterfest gemacht: Rosen angehäufelt, Beete abgedeckt, Wasser abgedreht. Er war zufrieden, aber müde.",
+          "notes": [
+            "Garten ist für den Winter fertig",
+            "Rosen wurden mit Erde und Reisig geschützt",
+            "Herr Obermeier hat beim Wasserabdrehen geholfen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Ah jo. Heut wird's halt a eigener Tag, des hab i schon beim Aufstehen gemerkt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Armin. Du bist schon früh wach. Was ist denn heute für ein Tag für dich?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:13",
+        "text": "Heut wären die Genoveva und i fünfzig Jahr verheiratet. Fünfzig, stell dir des vor."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fünfzig Jahre, das ist ein großer Tag. Magst du mir erzählen, wie eure Hochzeit damals war?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:15",
+        "text": "Kalt war's und geregnet hat's den ganzen Tag. Des Kleid hat sie sich selber genäht gehabt, die hat ja später beim Theater auch die ganzen Kostüme gemacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein selbstgenähtes Hochzeitskleid, das passt zu ihr. Und später hat der ganze Verein von ihrem Können profitiert."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:17",
+        "text": "Über zwanzig Jahr. Der Leopold sagt heut noch, so a Garderobe haben wir nie mehr gehabt. Jetzt wird halt alles gekauft."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat sie wirklich etwas hinterlassen, das man heute noch merkt. Hast du dir für heute schon etwas vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:20",
+        "text": "I fahr nachher auf den Friedhof. Die Sandra kommt mit, die hat sich extra freigenommen, des is lieb von ihr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schön, dass ihr zusammen hingeht. Dann ist der Tag für euch beide ein bisschen leichter."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:22",
+      "text": "Jo. Jetzt überleg i halt, was i ihr hinbring. Rosen hat's immer am liebsten gehabt, aber halten die im November draußen überhaupt was aus? Oder doch lieber a Gesteck mit Tannenzweigen?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A widower talks early in the morning about what would have been his golden wedding anniversary, recalls the wedding and his late wife's sewing for the theatre club, and ends with a practical question about grave flowers in November. Understated grief mixed with everyday planning is typical for this user group."
+  }
+}

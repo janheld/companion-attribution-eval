@@ -1,0 +1,200 @@
+{
+  "id": "stt_errors_027",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:42.885938+00:00"
+  },
+  "content_hash": "1513cd5cb7037a2577bc40336ea2caaed8a00702e9f6f02fa337180156a84f9d",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_027",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 193,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Franziska",
+    "last_name": "Hinterleitner",
+    "side_older": [
+      "Martha",
+      "Siegmund",
+      "Waltraud"
+    ],
+    "side_younger": [
+      "Mia",
+      "Clemens",
+      "Vanessa"
+    ],
+    "side_surnames": [
+      "Sallmayr",
+      "Plöchl"
+    ],
+    "former_job": "Busfahrerin",
+    "interests": [
+      "Aquarellmalen",
+      "Obstbäume und Veredeln"
+    ],
+    "occasion": "macht Pause nach Arbeit im Haus oder Garten",
+    "opening_style": "starts with a question to Mira",
+    "side_extra": [
+      "Daniel"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Franziska Hinterleitner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 193
+      },
+      "time_of_day": "Dienstag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person und Haushalt",
+          "text": "Franziska ist 71 und lebt mit ihrem Mann Siegmund in einem Haus mit großem Obstgarten am Hang. Siegmund ist viel unterwegs, vor allem mit seiner Wandergruppe. Sie ist über dreißig Jahre Linienbus gefahren und erzählt gern von ihren alten Strecken."
+        },
+        {
+          "topic": "Obstbäume",
+          "text": "Hat sieben Apfelbäume und zwei alte Birnbäume, einige davon selbst veredelt. Kennt sich mit Unterlagen und Edelreisern gut aus. Im Herbst legt sie Leimringe gegen den Frostspanner an."
+        },
+        {
+          "topic": "Malen",
+          "text": "Malt Aquarelle, meistens Obst, Blumen und den Blick vom Garten. Ihre Freundin Martha drängt sie seit Jahren, Bilder herzuzeigen."
+        },
+        {
+          "topic": "Familie",
+          "text": "Hat zwei Söhne, Clemens und Daniel. Clemens lebt mit seiner Frau Vanessa und Tochter Mia seit Jahren in Kanada und kommt selten heim. Am Telefon reden sie meistens am Sonntagabend."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit zwei Jahren eine Hüftprothese rechts. Auf steilem, rutschigem Gelände ist sie vorsichtig. Hausarzt ist Dr. Sallmayr."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Franziska erzählte vom Telefonat mit Clemens am Abend. Mia hat in der Schule ein Theaterstück gespielt. Clemens hat angedeutet, dass sie über eine Reise nach Österreich nachdenken, aber noch nichts fix ist.",
+          "notes": [
+            "Telefonat mit Clemens am Sonntagabend",
+            "Mia hat Theater gespielt",
+            "Reise der Familie ist noch offen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Franziska hat Quitten von ihrer Nachbarin bekommen und Quittengelee gekocht. Einige schöne Quitten hat sie aufgehoben, weil sie sie malen möchte. Siegmund ist mit der Wandergruppe für eine Woche weggefahren.",
+          "notes": [
+            "Quittengelee gekocht",
+            "will die schönsten Quitten malen",
+            "Siegmund eine Woche mit der Wandergruppe unterwegs"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:21",
+        "text": "Mira, sag einmal, wie lange lässt man so einen Leimring eigentlich am Baum dran? Ich hab gerade bei den Apfelbäumen neue angelegt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Meistens bleibt der über den Winter hängen und kommt im Frühjahr wieder runter, wenn der Frostspanner durch ist. Hast du alle Bäume geschafft?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Die Apfelbäume ja. Bei den zwei Birnbäumen hinten am Hang hab ich es gelassen, da ist es mir heute zu rutschig."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist vernünftig, bei nassem Gras am Hang. Die zwei laufen dir ja nicht davon."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:24",
+        "text": "Eben. Wenn der Siegmund am Donnerstag heimkommt, kann er mir die Leiter halten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zu zweit geht das auch viel leichter. Machst du jetzt eine Pause?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:26",
+        "text": "Ja, ich sitz mit einem Kaffee am Küchentisch. Die Quitten liegen noch in der Schüssel, die will ich heute noch malen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das schöne Gelb von den Quitten macht sich sicher gut im Aquarell. Malst du sie in der Schüssel?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:28",
+        "text": "Ja, so wie sie daliegen, mit dem Licht vom Fenster. Die Martha meint, ich soll das Bild beim Adventmarkt von der Pfarre hergeben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das wäre doch schön, wenn jemand dein Bild mit nach Hause nimmt. Die Martha glaubt ja schon lange an deine Bilder."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:31",
+        "text": "Mal schauen, ob es was wird. Letztes Mal ist mir das Grün beim Hintergrund total ausgeronnen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das passiert leicht, wenn das Papier noch zu nass ist. Vielleicht lässt du die erste Schicht diesmal etwas länger trocknen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:33",
+      "text": "Ja, das probier ich. Und was mir noch einfällt, der Clemens hat am Sonntag am Telefon gesagt, dass sie heuer zu Weihnachten vielleicht"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "dass sie heuer zu Weihnachten vielleicht",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Franziska hesitates before the important part of the sentence (whether her son's family comes for Christmas); the end-of-speech detection closes the turn and the final user turn ends mid-clause after 'vielleicht'. A silent pause of a second is enough for many STT pipelines to cut, which is common with older speakers."
+  }
+}

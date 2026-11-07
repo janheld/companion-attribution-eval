@@ -1,0 +1,192 @@
+{
+  "id": "stt_errors_016",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:24.878223+00:00"
+  },
+  "content_hash": "389ed7e096a56cacf5c1d9497921f2526aee9158844adaea8afb180fce0be311",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_016",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 127,
+    "time_of_day": "Nachmittag",
+    "weekday": "Montag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Luitgard",
+    "last_name": "Eder",
+    "side_older": [
+      "Hansjörg",
+      "Mechthild",
+      "Martin"
+    ],
+    "side_younger": [
+      "Elias",
+      "Kathrin",
+      "Zeno"
+    ],
+    "side_surnames": [
+      "Aigner",
+      "Ziegelböck"
+    ],
+    "former_job": "Gemeindebedienstete",
+    "interests": [
+      "Schwammerl suchen",
+      "Fußball im Fernsehen"
+    ],
+    "occasion": "gerade vom Einkaufen oder vom Markt zurück",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Luitgard Eder",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 127
+      },
+      "time_of_day": "Montag, 15:02",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Kathrin (Tochter)",
+          "text": "Mama hat Ende des Monats die Operation am grauen Star, linkes Auge. Ab nächster Woche muss sie dreimal täglich die Augentropfen nehmen, die Dr. Aigner verschrieben hat. Das Rezept hat sie, abholen muss sie sie noch in der Apotheke."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, ihr Mann Martin ist vor neun Jahren gestorben. Tochter Kathrin wohnt im Nachbarort und kommt jeden Freitag, fährt sie zu Arztterminen. Kathrins Sohn Elias ist 15."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen, links stärker. Operation am linken Auge Ende des Monats im Krankenhaus in der Bezirksstadt. Augenarzt ist Dr. Aigner. Sieht beim Lesen von kleiner Schrift schlecht."
+        },
+        {
+          "topic": "Schwammerl",
+          "text": "Geht seit ihrer Kindheit Schwammerl suchen, seit den Augenproblemen nur noch mit ihrer Freundin Mechthild. Kennt die guten Plätze im Wald hinter dem Ort."
+        },
+        {
+          "topic": "Fußball",
+          "text": "Schaut leidenschaftlich gern Fußball im Fernsehen, auch unter der Woche am Abend. Hat dafür einen großen Fernseher, den Elias eingestellt hat."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 30 Jahre am Gemeindeamt, zuletzt im Meldeamt. Kennt im Ort fast jeden."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Luitgard hat erzählt, dass sie am Sonntag mit Mechthild noch einmal Schwammerl suchen gehen will, wahrscheinlich das letzte Mal in diesem Jahr. Am Abend wollte sie ein Fußballspiel im Fernsehen anschauen.",
+          "notes": [
+            "Schwammerlsuche mit Mechthild geplant",
+            "Schaut am Abend Fußball",
+            "Geht nur noch in Begleitung in den Wald"
+          ]
+        },
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Kathrin hat Luitgard zur Voruntersuchung bei Dr. Aigner gefahren. Der Operationstermin am linken Auge steht jetzt fest, Ende des Monats. Dr. Aigner hat Augentropfen verschrieben, die sie ab einer Woche vor der Operation dreimal täglich nehmen muss. Luitgard war erleichtert, dass der Termin feststeht.",
+          "notes": [
+            "Operation am linken Auge Ende des Monats",
+            "Augentropfen ab einer Woche vor der Operation, dreimal täglich",
+            "Rezept für die Tropfen noch nicht eingelöst"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:04",
+        "text": "Servus Mira. Die Taschen sind ausgeräumt, aber gescheit eingekauft hab i net, die Preisschilder hab ich kaum lesen können."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus, Luitgard. Das ist mühsam, wenn die Schilder so klein sind. Hast du trotzdem das Wichtigste bekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:07",
+        "text": "Jo, die Verkäuferin hat mir geholfen, die kennt mich eh schon. Milch, Brot, ein Suppenfleisch, und einen Kürbis hab ich mitgenommen für eine Suppe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine Kürbissuppe passt gut in die Jahreszeit. Wie machst du sie denn am liebsten?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:10",
+        "text": "Ganz einfach, mit Zwiebel und einem Schuss Obers. Und gestern war ich mit der Mechthild noch einmal Schwammerl suchen, vielleicht das letzte Mal heuer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie war's denn, habt ihr noch was gefunden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:13",
+        "text": "Ein paar Semmelstoppelpilze, net viel. Die Mechthild hat's gesehen, ich wär glatt drüber gestiegen. Mit die Augen ist halt nix mehr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass die Mechthild dabei war. Und bis zur Operation ist es ja nicht mehr so lang."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:16",
+        "text": "Zweieinhalb Wochen noch. Heut am Abend ist ein Spiel im Fernsehen, das schau i mir an, am großen Fernseher seh ich eh noch alles."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du heute Abend noch was Schönes vor. Kochst du vorher noch die Kürbissuppe?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:19",
+      "text": "Jo, die mach ich gleich. Aber jetzt fällt mir ein, die Topfen für die Augen hab i in der Apotheke net abgeholt, die mir der Doktor Aigner aufgeschrieben hat. Die brauch ich ja ab nächster Woche."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "die Topfen für die Augen",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user says 'die Tropfen' (eye drops); the STT drops the weakly articulated r after the plosive and outputs 'Topfen' (curd cheese), a frequent word in Austrian German that also fits the shopping context. Memory (Dr. Aigner's prescription for eye drops before the cataract operation) and 'für die Augen', 'Apotheke', 'aufgeschrieben' make the intended word clear."
+  }
+}

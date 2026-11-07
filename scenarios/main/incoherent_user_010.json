@@ -1,0 +1,201 @@
+{
+  "id": "incoherent_user_010",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:47.690386+00:00"
+  },
+  "content_hash": "1d42394afa74fe0c6904308394b94cb7c8939d962f3501e089616d36c88f55c0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_010",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 234,
+    "time_of_day": "früher Morgen",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Günter",
+    "last_name": "Preining",
+    "side_older": [
+      "Heinz",
+      "Ulla",
+      "Erwin"
+    ],
+    "side_younger": [
+      "André",
+      "Hannah",
+      "Sascha"
+    ],
+    "side_surnames": [
+      "Furtmüller",
+      "Lehner"
+    ],
+    "former_job": "Kellner",
+    "interests": [
+      "Bienen",
+      "Kartenspielen"
+    ],
+    "occasion": "wartet auf Besuch, ein Taxi oder einen Termin",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Günter Preining",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 234
+      },
+      "time_of_day": "Donnerstag, 06:32",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Hannah (Tochter)",
+          "text": "Ich komme jeden Donnerstag zu Papa. Diesen Donnerstag fahre ich ihn zur Hüftkontrolle in die Ambulanz, Abfahrt um Viertel nach sieben."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Günter ist seit drei Jahren Witwer, seine Frau Ulla ist nach langer Krankheit gestorben. Tochter Hannah wohnt im selben Ort, unten in der Siedlung, und arbeitet im Nachbarort. Sie kommt jeden Donnerstag vorbei. Ihr Sohn Sascha ist sechzehn und hilft dem Opa manchmal bei den Bienen."
+        },
+        {
+          "topic": "Bienen",
+          "text": "Günter hat sechs Bienenvölker hinter dem Haus. Den Honig verschenkt er an Familie und Nachbarn, Herr Lehner von nebenan bekommt jedes Jahr ein paar Gläser."
+        },
+        {
+          "topic": "Kartenspielen",
+          "text": "Jeden Montagabend Schnapsen mit Heinz und Erwin im Gasthaus Zur Wildwiesen. Die drei spielen seit über dreißig Jahren zusammen."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Günter war über vierzig Jahre Kellner, zuletzt Oberkellner in einem großen Gasthof in der Bezirksstadt. Steht immer noch früh auf, gewohnt vom Frühdienst."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hüftprothese links seit zwei Jahren. Regelmäßige Kontrollen in der orthopädischen Ambulanz im Krankenhaus der Bezirksstadt. Hausarzt ist Dr. Furtmüller."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 1 Tag",
+          "summary": "Günter hat sich auf die Hüftkontrolle vorbereitet, die zwei Jahre nach der Operation ansteht. Hannah holt ihn um Viertel nach sieben ab, der Termin ist um acht. Er wollte die Mappe mit dem alten Röntgenbefund am Abend schon bei der Tür bereitlegen.",
+          "notes": [
+            "Hüftkontrolle Donnerstag um acht",
+            "Hannah fährt ihn, Abfahrt Viertel nach sieben",
+            "Röntgenmappe bei der Tür bereitlegen"
+          ]
+        },
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Günter war beim Schnapsen mit Heinz und Erwin im Gasthaus Zur Wildwiesen. Er hat knapp verloren und den Abend trotzdem genossen. Heinz hat erzählt, dass er im Frühjahr ebenfalls eine neue Hüfte bekommen soll.",
+          "notes": [
+            "Schnapsabend mit Heinz und Erwin",
+            "knapp verloren",
+            "Heinz bekommt im Frühjahr eine neue Hüfte"
+          ]
+        },
+        {
+          "date": "Samstag, vor 5 Tagen",
+          "summary": "Günter hat mit Sascha bei den Bienenstöcken die Mäusegitter vor die Fluglöcher gesetzt. Die Völker sind stark in den Winter gegangen. Er hat Sascha erklärt, warum man jetzt nicht mehr öffnet.",
+          "notes": [
+            "Mäusegitter angebracht",
+            "Völker stark eingewintert",
+            "Sascha hilft bei den Bienen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:34",
+        "text": "Die Mappe mit dem Röntgen liegt jetzt bei der Tür, so wie i's gestern gesagt hab. Damit's in der Früh keine Sucherei gibt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut vorbereitet, Günter. Dann kannst du in Ruhe deinen Kaffee trinken, bis die Hannah kommt."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:36",
+        "text": "Um Viertel acht holt's mich ab. Um acht ist der Termin, aber die Hannah fährt halt lieber a bissl früher weg wegen der Baustelle bei der Brücke."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da ist sie vorsichtig, das ist gescheit. Hast du schon was gefrühstückt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:39",
+        "text": "A Semmel mit Honig, vom eigenen, eh klar. Den Kaffee trink i grad noch aus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem eigenen Honig fängt der Tag gut an. Wie geht es deinen Bienen jetzt, wo es kalt wird?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:42",
+        "text": "Die sitzen schon in der Traube, da tu i jetzt nix mehr. Im Dezember, wenn's brutfrei sind, kommt noch die Behandlung, dann ist Ruh bis zum Frühjahr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann haben sie jetzt ihre Winterruhe. Und für dich ist heute die Hüfte dran. Weißt du, was bei der Kontrolle gemacht wird?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:45",
+        "text": "Röntgen und a bissl biegen und drücken, schätz i. Weh tut eh nix, nur beim Stiegensteigen spür i's manchmal."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das mit den Stiegen sag dem Arzt heute ruhig, der kann das am besten einordnen. Dann hast du für den Termin alles beisammen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:48",
+      "text": "Mach i. Jetzt ist's eh bald sieben. Die Ulla lass i noch schlafen, die ist gestern so spät ins Bett gegangen. Soll i ihr einen Kaffee hinstellen, bevor wir fahren, was meinst?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "Die Ulla lass i noch schlafen, die ist gestern so spät ins Bett gegangen. Soll i ihr einen Kaffee hinstellen, bevor wir fahren, was meinst?",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Genuine incoherence (time confusion about the late spouse): Günter, widowed for three years according to memory, talks about his wife Ulla as if she were asleep upstairs and asks whether to leave her a coffee. It comes in his own voice and dialect after a clear, practical morning conversation about the hip check and his bees, so it reads like the person, not like TV or a recognition error. Everything else is consistent with memory and time."
+  }
+}

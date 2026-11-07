@@ -1,0 +1,103 @@
+{
+  "set": "calibration",
+  "purpose": "dry run and gold set only; never part of the main analysis",
+  "frozen_at": "2026-11-07T23:31:37.199308+00:00",
+  "scenarios": {
+    "clean_001": {
+      "version": 2,
+      "content_hash": "4c4a00a663e5795cdbb013cd282ce3f626fd15dde8e63e2bd0def9ef644cf8ec"
+    },
+    "clean_002": {
+      "version": 3,
+      "content_hash": "9df15ad8ac73272fb9ece8b89bef05b713cf1f8dc540be8e823e30e23a65b3e1"
+    },
+    "clean_003": {
+      "version": 3,
+      "content_hash": "5166b1b1dbb537f2388a10f7492433274805b6519182704e6d77636616e6722c"
+    },
+    "clean_004": {
+      "version": 1,
+      "content_hash": "fd25211bf72e8f3e890c2093635c5908717ec76eae5880680420f61b2b110240"
+    },
+    "contact_001": {
+      "version": 3,
+      "content_hash": "7c1cdc56d4197a05048498a199575af4b3cd71725e46199029265fa94b144c50"
+    },
+    "contact_002": {
+      "version": 4,
+      "content_hash": "cd0c0042129ee1e3886db14e25227581136b2bf58d2956b8941a531ab1478b2a"
+    },
+    "contact_003": {
+      "version": 3,
+      "content_hash": "de5271d3dbcd5ea35469eec29bd2868150483e0b583bcb57d48f100eb17655a0"
+    },
+    "contact_004": {
+      "version": 1,
+      "content_hash": "63101106b4b73326a7efea026ec875df48540bea2c63ac987a74cd9d2a9e9ee2"
+    },
+    "incoherent_user_001": {
+      "version": 4,
+      "content_hash": "f409b88ec02954880649ba63dbfa99dc251f86b00f61114e5b2419c78c881f9b"
+    },
+    "incoherent_user_002": {
+      "version": 4,
+      "content_hash": "750d2a2f33b34e8c46a5a144c161082d5a3bf4d0c73feb9ec0df5c6bc7a716ef"
+    },
+    "incoherent_user_003": {
+      "version": 4,
+      "content_hash": "bdb461ada9b81931c621aefb8ff27ae1c31a9189a11385ccad57b4540a1138f3"
+    },
+    "incoherent_user_004": {
+      "version": 1,
+      "content_hash": "c1514ee6cb11ad04d7aa0117844b861fc095744dfc6291dbbb0371038b130915"
+    },
+    "recovery_001": {
+      "version": 3,
+      "content_hash": "51c06b922967354103263bef76d042b5851494cc2211a4d40168308c1d9c2726"
+    },
+    "recovery_002": {
+      "version": 5,
+      "content_hash": "17d45e512ad8e607181009b4c61ef94c4ff73f5a580c4d46e5eb4fa25c3b11d6"
+    },
+    "recovery_003": {
+      "version": 3,
+      "content_hash": "a57b6df8d8f4c40be2c76b28fe6160fd7de3657965dba86946ad65fa83ab6a8d"
+    },
+    "recovery_004": {
+      "version": 2,
+      "content_hash": "470ac61aeb921629ae65db6c11042aaa340f8763bb834306e8c4cef8d4dc117c"
+    },
+    "stt_errors_001": {
+      "version": 3,
+      "content_hash": "e4d3b96dc5407f300a0cf6f9829d23ba8be869addb9265bdea4f91ebf89f5f89"
+    },
+    "stt_errors_002": {
+      "version": 3,
+      "content_hash": "be86f9598e29715751ab5bfd18c8dcae62f6a07b609cf218589ea87f9815a6fe"
+    },
+    "stt_errors_003": {
+      "version": 5,
+      "content_hash": "7f0205503ce5132e070bc4c210a7319cd8685e3c7f93490c5045ea6f25b1f4cb"
+    },
+    "stt_errors_004": {
+      "version": 1,
+      "content_hash": "e365b5d9b24fbbb387b79f94425db51cda0e5f12768e6e2f94db6c63fd529829"
+    },
+    "tv_bleed_001": {
+      "version": 3,
+      "content_hash": "bc022edbe2f04dc96e85a99fc12dbf4ed711909152f45ce6c28b6da6fe05ffc6"
+    },
+    "tv_bleed_002": {
+      "version": 4,
+      "content_hash": "8419ae0037e9daa816a12713eabee80b8c5ecb0d83bd6fd355823d54de6bca13"
+    },
+    "tv_bleed_003": {
+      "version": 3,
+      "content_hash": "68c2511bda27d997fc4f0c38346854d7daefed33abc9668b256397b355b03529"
+    },
+    "tv_bleed_004": {
+      "version": 1,
+      "content_hash": "78071cf3a25512be2066d0b24890460d3a9ff1951bfd3599e2e8496bbf800c98"
+    }
+  }
+}

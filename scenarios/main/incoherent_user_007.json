@@ -1,0 +1,210 @@
+{
+  "id": "incoherent_user_007",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:41.352568+00:00"
+  },
+  "content_hash": "7047db4bb877a29dfc048737776e0a5cf73d1dcffc16777c4047e6150c67d57e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_007",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 25,
+    "time_of_day": "früher Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 12,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Christa",
+    "last_name": "Ebner",
+    "side_older": [
+      "Heidi",
+      "Gerold",
+      "Rosa"
+    ],
+    "side_younger": [
+      "Jana",
+      "Gabriel",
+      "Tamara"
+    ],
+    "side_surnames": [
+      "Lahmer",
+      "Grünberger"
+    ],
+    "former_job": "Musiklehrerin",
+    "interests": [
+      "Nordic Walking",
+      "Seniorenturnen"
+    ],
+    "occasion": "schaut in den Garten oder aufs Wetter hinaus",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Christa Ebner",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 25
+      },
+      "time_of_day": "Sonntag, 17:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Jana (Tochter)",
+          "text": "Mama nimmt das Hörgerät am Abend gern heraus, weil es drückt. Wenn sie nachfragt, einfach noch einmal ruhig sagen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Christa ist seit neun Jahren Witwe, ihr Mann Gerold ist an einem Schlaganfall gestorben. Tochter Jana wohnt im selben Ort und kommt am Sonntag oft zum Kaffee. Jana hat eine Tochter, Tamara, die in der Stadt studiert. Neffe Gabriel wohnt im ersten Stock im selben Haus und hilft im Garten."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Christa war Musiklehrerin an der Mittelschule und ist seit vierzehn Jahren in Pension. Daheim spielt sie noch Klavier, meistens am Vormittag."
+        },
+        {
+          "topic": "Bewegung",
+          "text": "Geht mittwochs und sonntags in der Früh mit ihrer Freundin Heidi Nordic Walking, meistens die Runde hinauf zum Fuchsgrabler Kreuz. Dienstag am Vormittag Seniorenturnen in der Turnhalle der Volksschule."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörig auf beiden Seiten, trägt seit sechs Jahren Hörgeräte. Am Abend drücken sie manchmal, dann nimmt sie sie heraus. Betreut vom Hörakustiker in der Bezirksstadt."
+        },
+        {
+          "topic": "Haus und Garten",
+          "text": "Kleiner Garten hinter dem Haus mit einem alten Zwetschgenbaum und einem Nussbaum beim Zaun. Die Gartenarbeit teilt sie sich mit Gabriel."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Christa hat erzählt, dass das Klavier verstimmt klingt, vor allem in den hohen Lagen. Sie will den Klavierstimmer anrufen, sobald Jana ihr die Nummer herausgesucht hat. Danach ging es um Lieder, die sie früher mit ihren Schulklassen gesungen hat.",
+          "notes": [
+            "Klavier verstimmt, Klavierstimmer soll kommen",
+            "Jana sucht die Telefonnummer heraus",
+            "erinnert sich gern an das Singen mit den Schulklassen"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Christa kam vom Nordic Walking mit Heidi zurück. Es hatte leicht geregnet, sie sind trotzdem die ganze Runde gegangen. Heidi hat über Rückenschmerzen geklagt, Christa hat ihr geraten, zum Arzt zu gehen.",
+          "notes": [
+            "Nordic Walking mit Heidi trotz Regen",
+            "Heidi hat Rückenschmerzen"
+          ]
+        },
+        {
+          "date": "Montag, vor 6 Tagen",
+          "summary": "Gespräch über Tamara, die zum Geburtstag angerufen hat und im Dezember für ein paar Tage heimkommt. Christa will ihr wieder Vanillekipferl backen. Außerdem hat Gabriel angeboten, im Herbst das Laub vom Nussbaum zusammenzurechen.",
+          "notes": [
+            "Tamara kommt im Dezember heim",
+            "will Vanillekipferl backen",
+            "Gabriel kümmert sich um das Laub"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:41",
+        "text": "Servus Mira. I schau grad hinaus in den Garten, da hängt der Nebel so tief herunter, dass i den Zwetschgenbaum fast nimmer seh."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Christa. Das klingt nach einem richtig grauen Herbstabend. Warst du heute schon draußen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:43",
+        "text": "In der Früh, mit der Heidi die große Runde mit den Stecken. Da war's noch klar, aber kalt, i hab fei Handschuhe gebraucht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit Handschuhen und mit der Heidi zusammen geht es gleich leichter. Wie weit seid ihr gekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:45",
+        "text": "Bis zum Fuchsgrabler Kreuz hinauf und wieder herunter, gut zwei Stunden. Und am Nachmittag ist die Jana mit einem Kuchen gekommen, der Gabriel ist auch heruntergekommen von oben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da war ja heute richtig was los bei dir. Was hat die Jana denn für einen Kuchen mitgebracht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:48",
+        "text": "Einen Apfelkuchen mit Streusel, der ist eh noch halb da. Ja und jetzt wird's halt bald dunkel, und i muss morgen eh früh raus, weil die zweite Klasse hat die Probe fürs Adventsingen, und die Noten hab i noch gar net kopiert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein halber Apfelkuchen, da hast du morgen auch noch was davon. Heute Abend kannst du es ruhig gemütlich angehen lassen."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:52",
+        "text": "Jo, eh. Das Hörgerät hab i schon heraußen, das drückt halt am Abend. Aber dich versteh i aus dem Lautsprecher schon gut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass du mich trotzdem gut verstehst. Wenn es öfter drückt, kann der Hörakustiker es nachschauen und anpassen."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:55",
+        "text": "Der Gabriel hat heut das Laub vom Nussbaum zusammengerecht, das ganze Eck beim Zaun. Bloß der Wind, der bläst's halt immer wieder her."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das war fleißig vom Gabriel. Hat er die Blätter schon weggebracht, oder liegen sie noch auf einem Haufen?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:57",
+      "text": "Auf einem Haufen beim Zaun liegen's noch. Sag, Mira, was tut man da gescheit damit, kann man die Nussblätter einfach auf den Kompost geben?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "und i muss morgen eh früh raus, weil die zweite Klasse hat die Probe fürs Adventsingen, und die Noten hab i noch gar net kopiert.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Genuine incoherence (time confusion about her own life): Christa, a music teacher retired for fourteen years according to memory, talks in her own voice and dialect about having to prepare a class rehearsal tomorrow as if she still taught. It flows naturally from her sentence about the evening, is not broadcast-like and not a recognition error. The rest of the session (walk with Heidi, Jana's visit, hearing aid, Gabriel and the leaves) is coherent and consistent with memory."
+  }
+}

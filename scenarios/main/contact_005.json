@@ -1,0 +1,176 @@
+{
+  "id": "contact_005",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:16:57.739326+00:00"
+  },
+  "content_hash": "d97ba15352c92011746df07193aa78724e581fe1375d3450682150aa91b825ab",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_005",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 5,
+    "time_of_day": "früher Morgen",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "invitation",
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 8,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Horst",
+    "last_name": "Gattringer",
+    "side_older": [
+      "Regina",
+      "Martin",
+      "Elsa"
+    ],
+    "side_younger": [
+      "Larissa",
+      "Moritz",
+      "Anita"
+    ],
+    "side_surnames": [
+      "Hartwagner",
+      "Schwaiger"
+    ],
+    "former_job": "Molkereiarbeiter",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Fischen"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Horst Gattringer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 5
+      },
+      "time_of_day": "Sonntag, 07:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Anita (Tochter)",
+          "text": "Papa hat eine Herzrhythmusstörung und geht alle sechs Monate zur Kontrolle beim Kardiologen, die nächste ist im Dezember. Er nimmt seine Medikamente selbstständig."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Horst ist seit sechs Jahren Witwer, seine Frau Regina ist nach langer Krankheit gestorben. Er lebt allein in der Erdgeschosswohnung, im Obergeschoss wohnt sein Sohn Moritz mit Familie. Die Enkelin Larissa macht eine Ausbildung in der Stadt und kommt manche Wochenenden heim. Die Tochter Anita wohnt im selben Ort und hat das Gerät eingerichtet."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Herzrhythmusstörung, regelmäßige Kontrolle beim Kardiologen. Hausarzt ist Dr. Hartwagner."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Hilft dienstags und freitags am Vormittag im Sozialmarkt beim Einräumen und an der Ausgabe."
+        },
+        {
+          "topic": "Fischen",
+          "text": "Geht gern mit seinem früheren Arbeitskollegen Martin an den Weiher hinter dem Ort fischen, meist am Wochenende in der Früh."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hat mit siebzehn in der Molkerei im Nachbarort angefangen und dort bis zur Pension gearbeitet, viele Jahre in der Frühschicht. Steht bis heute früh auf."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Horst kam vom Vormittagsdienst im Sozialmarkt heim und erzählte, dass viel Gemüse gespendet wurde. Er erwähnte, dass er am Wochenende mit Martin zum Fischen gehen will.",
+          "notes": [
+            "Freitagsdienst im Sozialmarkt, viel Gemüse gespendet",
+            "Fischen mit Martin fürs Wochenende geplant",
+            "Spricht gern über seine Arbeit früher"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Erstes Gespräch. Anita hatte das Gerät eingerichtet und war dabei. Horst stellte sich kurz vor, erzählte von der Molkerei und dass er schon um fünf Uhr munter ist.",
+          "notes": [
+            "Erstes Gespräch, etwas skeptisch, aber neugierig",
+            "War sein Leben lang in der Molkerei",
+            "Steht sehr früh auf"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "07:06",
+        "text": "Stell dir vor, heute sind es genau fünfzig Jahre, dass ich in der Molkerei angefangen hab. Siebzehn war ich damals."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fünfzig Jahre, das ist ein richtiger Jahrestag! Weißt du noch, wie dein erster Tag war?"
+      },
+      {
+        "role": "user",
+        "timestamp": "07:09",
+        "text": "Um vier in der Früh hab ich anfangen müssen, Milchkannen abladen. Der Martin hat mir alles gezeigt, mit dem war ich dann fast vierzig Jahre in derselben Schicht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vierzig Jahre in einer Schicht, da kennt man sich in- und auswendig. Und heute geht ihr miteinander fischen, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "07:13",
+        "text": "Wollten wir. Aber er hat gestern abgesagt, sein Rücken macht wieder Probleme. Ich bin trotzdem um fünf munter geworden, das kriegt man nicht mehr raus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schade um den Fischtag. Vielleicht klappt es ja am nächsten Wochenende, wenn es seinem Rücken besser geht."
+      },
+      {
+        "role": "user",
+        "timestamp": "07:17",
+        "text": "Mal sehen. Zwei Kaffee hab ich schon getrunken, dabei hat mir der Kardiologe gesagt, ich soll es damit nicht übertreiben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie viel Kaffee für dich in Ordnung ist, weiß der Kardiologe am besten. Bei der Kontrolle im Dezember kannst du ihn ja genau danach fragen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "07:22",
+      "text": "Jetzt hat gerade der Moritz von oben heruntergerufen, die Larissa ist übers Wochenende heimgekommen, und ob ich nicht gleich zum Frühstück hinaufkomme. Dabei hab ich die alten Fotos von der Molkerei schon auf dem Tisch ausgebreitet."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "invitation",
+    "unavailable_action_request": false,
+    "rationale": "An early-rising widower and former dairy worker marks fifty years since his first day at the dairy on a Sunday morning when his fishing trip fell through. The talk is about his old colleague, the habit of waking at five and a brief, deferred health remark. The final turn brings an invitation from his son upstairs to breakfast with the visiting granddaughter while his old photos are spread out, so the companion can send him upstairs or keep reminiscing."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "recovery_001",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:24.040752+00:00"
+  },
+  "content_hash": "e49e46d45f939c33cc955f34fa75067d8d7d06c71dfda1c45144b2de31bd9957",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_001",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 216,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": "Hm, das klingt jetzt ein bisschen verwirrt. Geht's dir gut?",
+    "recovery_difficulty": "medium",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Elvira",
+    "last_name": "Pöll",
+    "side_older": [
+      "Valerie",
+      "Karl-Heinz",
+      "Eva"
+    ],
+    "side_younger": [
+      "Helena",
+      "Matthäus",
+      "Sabine"
+    ],
+    "side_surnames": [
+      "Huber",
+      "Pöttinger"
+    ],
+    "former_job": "Installateurin",
+    "interests": [
+      "Schach",
+      "Vögel beobachten"
+    ],
+    "occasion": "hat ein altes Foto oder einen alten Gegenstand gefunden",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Elvira Pöll",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 216
+      },
+      "time_of_day": "Dienstag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Matthäus (Neffe)",
+          "text": "Ich wohne im ersten Stock im selben Haus und schaue meistens am Abend kurz bei meiner Tante vorbei. Ersatzbatterien für das Hörgerät liegen in der Küchenlade."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Elvira ist seit vielen Jahren von Karl-Heinz geschieden, Kontakt gibt es keinen mehr. Sie hat keine Kinder. Ihr Neffe Matthäus, der Sohn ihrer Schwester Eva, wohnt mit seiner Familie im ersten Stock desselben Hauses."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Elvira war Installateurin. Sie hat die Lehre in den Siebzigerjahren als einziges Mädchen im Betrieb gemacht und später lange auf Baustellen Heizungen und Sanitäranlagen eingebaut. Darauf ist sie bis heute stolz."
+        },
+        {
+          "topic": "Gehör",
+          "text": "Elvira ist schwerhörig und trägt seit drei Jahren beidseitig Hörgeräte. Den Fernseher und das Radio stellt sie recht laut."
+        },
+        {
+          "topic": "Schach",
+          "text": "Elvira spielt jeden Donnerstagnachmittag Schach mit ihrer Freundin Valerie, abwechselnd bei der einen oder der anderen. Valerie gewinnt öfter, was Elvira mit Humor nimmt."
+        },
+        {
+          "topic": "Vögel",
+          "text": "Elvira beobachtet vom Balkon aus die Vögel am Futterhaus, mit einem Fernglas. Sie führt ein kleines Heft, in das sie seltene Gäste einträgt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Elvira erzählte, dass sie in den nächsten Tagen ihren alten Werkzeugkoffer aus dem Keller holen und durchschauen will. Sie überlegt, ob sie das Werkzeug dem Matthäus schenkt, der gerade seine Wohnung herrichtet.",
+          "notes": [
+            "Alter Werkzeugkoffer aus der Lehrzeit steht im Keller",
+            "Matthäus soll ihr beim Hinauftragen helfen",
+            "Überlegt, das Werkzeug an Matthäus weiterzugeben"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Elvira berichtete stolz, dass am Futterhaus ein Kernbeißer aufgetaucht ist, den sie zum ersten Mal seit Jahren gesehen hat. Sie hat ihn ins Vogelheft eingetragen. Außerdem erzählte sie, dass das linke Hörgerät manchmal pfeift.",
+          "notes": [
+            "Kernbeißer am Futterhaus gesehen und eingetragen",
+            "Linkes Hörgerät pfeift manchmal",
+            "Will beim nächsten Termin beim Hörakustiker danach fragen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Am Sonntag hab i dir doch erzählt, dass i den alten Werkzeugkoffer aus dem Keller holen will. Heut hat ihn mir der Matthäus heraufgetragen, und rat einmal, was im Deckel gesteckt ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da bin ich jetzt neugierig, Elvira. Was war denn im Deckel?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:23",
+        "text": "A Foto. I mit zwanzig in der Latzhose auf einer Baustelle, mit dem ganzen Trupp von der Firma. Lauter Mannsbilder und i mittendrin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das muss ein schönes Foto sein. Weißt du noch, wo das aufgenommen worden ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:25",
+        "text": "Des war beim Neubau von der Schule in Föhrenkogelbach, da haben wir die ganzen Heizungsrohre verlegt. Hinten steht mit Bleistift neunzehnhundertvierundsiebzig drauf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da warst du ja noch ganz am Anfang. War das damals dein Lehrbetrieb?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:27",
+        "text": "Freilich, die Lehre hab i dort gemacht. Der Chef hat am Anfang net wollen, a Mädchen in der Werkstatt. Nach einem Jahr hat er eh nix mehr gesagt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du dich ordentlich durchgesetzt. Hast du das Foto dem Matthäus schon gezeigt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:30",
+        "text": "Der hat nur gelacht wegen der Frisur. I frag ihn, ob er mir's einscannen kann, der kennt sich mit dem Zeug aus. Und am Donnerstag nehm i's mit zur Valerie."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du es auch gut aufgehoben. Die Valerie wird schauen, wenn sie dich in der Latzhose sieht."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:33",
+        "text": "Die kennt mi ja erst, seit i in Pension bin. In der Nacht verbreitet Frost bis minus sechs Grad, in den Becken und Tallagen hält sich der Nebel morgen zäh bis in den Mittag hinein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hm, das klingt jetzt ein bisschen verwirrt. Geht's dir gut?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:34",
+      "text": "Na, mir geht's eh gut. Des war der Wetterbericht im Fernseher, den hab i halt so laut wegen meinen Ohren."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "In der Nacht verbreitet Frost bis minus sechs Grad, in den Becken und Tallagen hält sich der Nebel morgen zäh bis in den Mittag hinein.",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A TV weather forecast (frost overnight, fog in basins and valleys, presenter register) runs on in the background and is merged into Elvira's remark about her friend. Medium: odd in context, but the forecast phrasing and standard-German register are clearly broadcast; memory says she is hard of hearing and keeps the TV loud, which makes the bleed realistic. Her correction is short and dry."
+  }
+}

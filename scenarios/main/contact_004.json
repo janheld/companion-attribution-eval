@@ -1,0 +1,174 @@
+{
+  "id": "contact_004",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:16:47.576681+00:00"
+  },
+  "content_hash": "5f7d4efffcfff3b36449bda3e0fbdf547f7d26e70fd527d34c00d458221424f6",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_004",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 337,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "call",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 6,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Wetter nachschauen",
+    "gender": "female",
+    "first_name": "Ruth",
+    "last_name": "Ertl",
+    "side_older": [
+      "Gunther",
+      "Rosemarie",
+      "Peter"
+    ],
+    "side_younger": [
+      "Pascal",
+      "Daniela",
+      "Patrick"
+    ],
+    "side_surnames": [
+      "Eidenberger",
+      "Neuhofer"
+    ],
+    "former_job": "Hilfsarbeiterin am Bau",
+    "interests": [
+      "Nähen",
+      "Wandern"
+    ],
+    "occasion": "sitzt gerade an einem Hobby",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Ruth Ertl",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 337
+      },
+      "time_of_day": "Dienstag, 14:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Patrick (Sohn)",
+          "text": "Mama hört ohne Hörgerät sehr schlecht. Wenn sie nicht antwortet, hat sie es vielleicht gerade nicht drin. Wir wohnen im Obergeschoss und schauen regelmäßig vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verheiratet mit Gunther, der als Rentner viel unterwegs ist und beim Bauhof der Gemeinde aushilft. Im Obergeschoss wohnt der Sohn Patrick mit seiner Frau Daniela und dem Enkel Pascal, der in die Schule geht."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwerhörig, trägt beidseitig ein Hörgerät. Das Telefon ist auf laut gestellt. Der HNO-Arzt ist Dr. Eidenberger."
+        },
+        {
+          "topic": "Nähen",
+          "text": "Näht an der alten Nähmaschine im Wohnzimmer, vor allem Änderungen für die Familie: Hosen kürzen, Reißverschlüsse tauschen, Rucksäcke flicken."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Geht meist mittwochs mit ihrer Freundin Rosemarie wandern, gern zur Hütte am Dachsgrat. Die beiden machen das schon seit über zwanzig Jahren."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hat dreißig Jahre als Hilfsarbeiterin am Bau gearbeitet. Sagt selbst, dass sie deshalb vor keiner Arbeit Angst hat."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Ruth erzählte, dass sie mit Rosemarie für Mittwoch wieder die Tour zur Hütte am Dachsgrat ausgemacht hat, wenn das Wetter passt. Rosemarie wollte sich vorher noch einmal telefonisch melden.",
+          "notes": [
+            "Wanderung mit Rosemarie zur Hütte am Dachsgrat geplant, Mittwoch dieser Woche",
+            "Rosemarie meldet sich vorher telefonisch",
+            "Hängt vom Wetter ab"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Ruth hatte neue Batterien für das Hörgerät geholt und war froh, wieder gut zu hören. Gunther hatte an ihrer Nähmaschine eine Schnalle an seinen Rucksack genäht.",
+          "notes": [
+            "Neue Hörgerät-Batterien besorgt",
+            "Gunther hat die Nähmaschine benutzt",
+            "Ruth war gut gelaunt"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 6 Tagen",
+          "summary": "Ruth war mit Rosemarie am Weiher unterhalb vom Wald spazieren, weil es für die Hütte zu nebelig war. Sie erzählte vom Kaffee bei Rosemarie danach.",
+          "notes": [
+            "Kürzere Runde wegen Nebel",
+            "Kaffee bei Rosemarie danach"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "14:41",
+        "text": "Mei, heut ist aber auch ein Tag. Jetzt reißt mir der Faden schon zum dritten Mal."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem zähen Nachmittag. Woran nähst du denn gerade?"
+      },
+      {
+        "role": "user",
+        "timestamp": "14:44",
+        "text": "An einer neuen Hose vom Pascal, die ist ihm noch viel zu lang. Die Daniela kommt grad zu nix, drum mach halt ich das, bevor er von der Schule heimkommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Lieb von dir, dass du das übernimmst. Wenn der Faden so oft reißt, liegt's oft an der Nadel oder an einer zu straffen Oberfadenspannung."
+      },
+      {
+        "role": "user",
+        "timestamp": "14:48",
+        "text": "Die Nadel hab ich schon gewechselt. Dann wird's die Spannung sein, die hat der Gunther verstellt, wie er seine Rucksackschnalle angenäht hat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann dreh die Spannung ein kleines Stück zurück und probier's zuerst an einem Reststück, bevor du wieder an die Hose gehst."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "14:52",
+      "text": "Wart, jetzt läutet's Telefon, das ist bestimmt die Rosemarie wegen morgen, wir wollten ja rauf zur Hütte. Schau doch geschwind nach, wie das Wetter morgen wird, dann kann ich's ihr gleich sagen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "call",
+    "unavailable_action_request": true,
+    "rationale": "A hard-of-hearing former construction worker sits at her sewing machine shortening her grandson's trousers and gets practical advice on a breaking thread. The phone rings with the expected call from her hiking friend about tomorrow's tour, and in the same breath she asks the companion to look up the weather, which it cannot do. The companion can let her take the call or hold her in the conversation."
+  }
+}

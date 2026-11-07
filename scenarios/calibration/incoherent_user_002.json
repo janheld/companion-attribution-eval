@@ -3,40 +3,19 @@
   "set": "calibration",
   "kind": "attribution",
   "condition": "incoherent_user",
-  "version": 3,
-  "status": "draft",
+  "version": 4,
+  "status": "approved",
   "review": {
     "comment": "",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-07T22:57:53.794353+00:00"
   },
-  "content_hash": "13371ac23e57c04fa7a52f2dbb1572f1c79458576d6ebfa420f2a198fa68282f",
+  "content_hash": "750d2a2f33b34e8c46a5a144c161082d5a3bf4d0c73feb9ec0df5c6bc7a716ef",
   "generator": {
     "model": "claude-opus-5-5",
     "via": "claude-code",
-    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
   },
   "spec": {
-    "id": "incoherent_user_002",
-    "set": "calibration",
-    "condition": "incoherent_user",
-    "dialect": "none",
-    "relationship_phase": "Vertraut (ab Tag 91)",
-    "days": 250,
-    "time_of_day": "Nachmittag",
-    "weekday": "Dienstag",
-    "disturbance_position": "final_turn",
-    "main_disturbance_type": "genuine_incoherence",
-    "contact_type": null,
-    "household": "lebt allein, geschieden",
-    "interests": [
-      "Kochen und Backen",
-      "Enkelkinder"
-    ],
-    "former_job": "Verkäuferin",
-    "history_turns": 8,
-    "health": "Rückenschmerzen nach Gartenarbeit",
-    "relatives": "Patenkind, schreibt Karten",
-    "action_request": null,
     "gender": "female",
     "first_name": "Magdalena",
     "last_name": "Ortner",
@@ -58,7 +37,28 @@
     ],
     "side_extra": [
       "Melanie"
-    ]
+    ],
+    "id": "incoherent_user_002",
+    "set": "calibration",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 250,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "interests": [
+      "Kochen und Backen",
+      "Enkelkinder"
+    ],
+    "former_job": "Verkäuferin",
+    "history_turns": 8,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Patenkind, schreibt Karten",
+    "action_request": null
   },
   "content": {
     "user_context": {
@@ -106,9 +106,9 @@
         },
         {
           "date": "Donnerstag, vor 5 Tagen",
-          "summary": "Magdalena plante die Geburtstagsfeier von Marco am Samstag bei Jasmin, mit etwa zwölf Gästen. Sie hat zugesagt, den Kuchen mitzubringen. Außerdem erzählte sie, dass sie Frau Panholzer beim Einkaufen getroffen hat.",
+          "summary": "Magdalena plante die Geburtstagsfeier von Marco am Samstag in einer Woche bei Jasmin, mit etwa zwölf Gästen. Sie hat zugesagt, den Kuchen mitzubringen. Außerdem erzählte sie, dass sie Frau Panholzer beim Einkaufen getroffen hat.",
           "notes": [
-            "Marcos Geburtstagsfeier am Samstag, ca. zwölf Gäste",
+            "Marcos Geburtstagsfeier am Samstag in einer Woche, ca. zwölf Gäste",
             "Magdalena bringt den Kuchen mit",
             "Kurzes Treffen mit der früheren Kollegin Frau Panholzer"
           ]

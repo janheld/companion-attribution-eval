@@ -1,0 +1,167 @@
+{
+  "id": "tv_bleed_012",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:12.699762+00:00"
+  },
+  "content_hash": "8675262967ba2a86044d546e91cb3884de9d1c54900b8aa5c9838d30026e7641",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_012",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 8,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Bartholomäus",
+    "last_name": "Zellner",
+    "side_older": [
+      "Kurt",
+      "Ursula",
+      "Peter"
+    ],
+    "side_younger": [
+      "Aaron",
+      "Lara",
+      "Linus"
+    ],
+    "side_surnames": [
+      "Hinterreiter",
+      "Thallinger"
+    ],
+    "former_job": "Fleischhauer",
+    "interests": [
+      "Lesen",
+      "Schwammerl suchen"
+    ],
+    "occasion": "hat Post oder ein Paket bekommen",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Bartholomäus Zellner",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 8
+      },
+      "time_of_day": "Montag, 12:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Bartholomäus hatte über dreißig Jahre eine eigene Fleischhauerei im Ort, die er vor zehn Jahren zugesperrt hat. Er war nie verheiratet und lebt allein in seinem Haus am Ortsrand."
+        },
+        {
+          "topic": "Sohn",
+          "text": "Sohn Aaron, 44, aus einer früheren Beziehung, lebt in der Stadt und arbeitet viel. Er ruft selten an, meistens zu Feiertagen, und war im Sommer zuletzt zu Besuch. Bartholomäus tut so, als wäre ihm das recht, freut sich aber über jedes Lebenszeichen."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Liest viel, am liebsten Heimatromane und Bücher über Pilze. Geht von Sommer bis Spätherbst Schwammerl suchen und hat feste Plätze im Wald, die er niemandem verrät. Sein alter Freund Kurt geht manchmal mit."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in beiden Füßen mit Kribbeln und Taubheit, unsicher auf unebenem Boden. Geht im Wald nur mehr mit Stock und kürzere Strecken. Hausarzt ist Dr. Hinterreiter."
+        },
+        {
+          "topic": "Alltag",
+          "text": "Die Post kommt meistens gegen Mittag. In der Küche läuft fast immer ein regionaler Radiosender."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Bartholomäus war mit Kurt heuer ein letztes Mal Schwammerl suchen, sie haben aber nur ein paar Semmelstoppelpilze gefunden. Die Füße waren danach taub, er musste früher umkehren. Er hat sich geärgert, dass sein altes Pilzbuch inzwischen auseinanderfällt.",
+          "notes": [
+            "Letzte Schwammerlrunde mit Kurt, wenig gefunden",
+            "Füße danach taub, früher umgekehrt",
+            "Altes Pilzbuch fällt auseinander"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Eines der ersten längeren Gespräche. Bartholomäus hat von seiner früheren Fleischhauerei erzählt und davon, dass er Aaron seit dem Sommer nicht gesehen hat. Er sagt, Aaron arbeite eben viel.",
+          "notes": [
+            "Früher eigene Fleischhauerei im Ort",
+            "Aaron seit dem Sommer nicht gesehen",
+            "Spricht über den Sohn eher knapp"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Mei, der Vormittag war zäh, die Füße haben wieder gekribbelt, und grad eben bringt mir der Postler ein Paket, mit dem hab i gar nicht gerechnet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Paket, mit dem du nicht gerechnet hast, das ist eine schöne Wendung für den Tag, Bartholomäus. Weißt du schon, von wem es ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:15",
+        "text": "Vom Aaron ist es, aus der Stadt. Da ist a dickes Pilzbuch drin, ganz neu, mit lauter Farbfotos."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja eine schöne Überraschung. Hat er gewusst, dass dein altes Buch schon auseinanderfällt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:18",
+        "text": "Das hat er im Sommer gesehen, wie er da war. Dass er sich des gemerkt hat, hätt i ihm gar net zugetraut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat er offenbar gut aufgepasst. Das freut dich sicher, gerade weil ihr euch nicht so oft hört."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:22",
+      "text": "Freilich freut's mich. Am Abend ruf i ihn einmal an und bedank mich, der ist eh selten vor sieben daheim. Und jetzt für alle, die gerade Mittagspause machen, ein Klassiker zum Mitsingen, bleiben Sie dran, gleich nach den Nachrichten geht's weiter."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Und jetzt für alle, die gerade Mittagspause machen, ein Klassiker zum Mitsingen, bleiben Sie dran, gleich nach den Nachrichten geht's weiter.",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The regional radio in Bartholomäus's kitchen has a presenter's link to the next song, which STT appends after his own sentence about calling his son. Presenter phrasing ('für alle, die gerade Mittagspause machen', 'bleiben Sie dran') and formal address mark it as radio; his own part stays coherent."
+  }
+}

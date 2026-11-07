@@ -1,0 +1,186 @@
+{
+  "id": "clean_028",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:15:03.579384+00:00"
+  },
+  "content_hash": "3d93fa653f758f812a2b73c2425068b65d4e8ff0d796945f8b29dd309768b500",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_028",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 26,
+    "time_of_day": "Mittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Angehörige benachrichtigen",
+    "gender": "male",
+    "first_name": "Ulrich",
+    "last_name": "Bichler",
+    "side_older": [
+      "Gotthard",
+      "Gabriele",
+      "Erich"
+    ],
+    "side_younger": [
+      "Josef",
+      "Selina",
+      "Roland"
+    ],
+    "side_surnames": [
+      "Wiesbauer",
+      "Penzinger"
+    ],
+    "former_job": "Kfz-Mechaniker",
+    "interests": [
+      "Ortschronik und Ahnenforschung",
+      "Zither"
+    ],
+    "occasion": "kommt vom Arzt, aus der Apotheke oder von der Therapie",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Ulrich Bichler",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 26
+      },
+      "time_of_day": "Dienstag, 12:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Roland (Sohn)",
+          "text": "Papa hat Herzrhythmusstörungen und ist beim Kardiologen Dr. Wiesbauer in Kontrolle. Er spielt Beschwerden gern herunter."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Ulrich lebt mit seiner Frau Gabriele. Sie ist dienstags meist bis zum Abend beim Besuchsdienst der Pfarre und auch sonst viel unterwegs. Sohn Roland wohnt in der Bezirksstadt, Sohn Josef arbeitet seit Jahren in Kanada. Enkelin Selina ist Rolands Tochter."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Ulrich war Kfz-Mechaniker und hatte bis zur Pension eine kleine Werkstatt im Ort."
+        },
+        {
+          "topic": "Ortschronik",
+          "text": "Er arbeitet ehrenamtlich an der Ortschronik und schreibt alte Pfarrbücher ab, besonders Hochzeiten und Hofübergaben. Dabei sucht er auch nach eigenen Vorfahren."
+        },
+        {
+          "topic": "Zither",
+          "text": "Spielt Zither, gelegentlich mit seinem Freund Erich."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Herzrhythmusstörung, regelmäßige Kontrolle beim Kardiologen Dr. Wiesbauer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Ulrich erzählte, dass er in den letzten Wochen öfter Herzstolpern gespürt hat, und dass er in zwei Tagen den Kontrolltermin bei Dr. Wiesbauer hat. Gabriele hat ihn gebeten, das dort genau zu erzählen.",
+          "notes": [
+            "Öfter Herzstolpern in den letzten Wochen",
+            "Kontrolltermin beim Kardiologen in zwei Tagen",
+            "Gabriele möchte, dass er es dort anspricht"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Ulrich war mit Erich am Nachmittag zum Zitherspielen verabredet. Danach sprach er über die Ortschronik: Er ist bei den Hochzeiten in den Höfen im Graben angekommen und findet dort viele Einträge mit dem Namen Bichler.",
+          "notes": [
+            "Zitherspielen mit Erich",
+            "Ortschronik: Höfe im Graben",
+            "Viele Einträge mit dem Namen Bichler"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:42",
+        "text": "Du, Mira, weißt du, ob man mit so einem Langzeit-EKG duschen darf? I hab das Ding jetzt bis morgen Mittag oben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei den meisten Geräten soll man nicht duschen, solange sie dran sind, weil sie nicht nass werden dürfen. Was genau für deins gilt, steht meistens auf dem Zettel von der Praxis."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:44",
+        "text": "Die Assistentin hat eh was gesagt, aber i hab nur mit einem Ohr hingehört. Den Zettel les i nachher."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du ihn hast, da steht es dann genau drauf. Wie ist es denn sonst beim Dr. Wiesbauer gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:46",
+        "text": "Joa, er hat gemeint, weil das Herzstolpern jetzt öfter war, will er's über einen ganzen Tag anschauen. Die Tabletten bleiben einmal gleich."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann schaut er sich das jetzt in Ruhe genauer an. Was das Ergebnis heißt, bespricht er dann sicher mit dir."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:49",
+        "text": "Genau. I soll normal weitermachen und aufschreiben, wenn i was spür. Am Nachmittag tu i eh nur bei der Ortschronik weiter, des ist keine Anstrengung."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem ruhigen Nachmittag. Bist du noch bei den Höfen im Graben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:52",
+        "text": "Jo, bei den Hochzeiten so um achtzehnhundertsechzig. Da kommen lauter Bichler vor, vielleicht sind welche von uns dabei."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das wäre ja spannend, wenn du da auf deine eigene Familie stößt. Da hast du ja eine schöne Aufgabe für heute."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:54",
+      "text": "Schauen wir einmal. Du, die Gabriele ist bis am Abend beim Besuchsdienst und der Roland weiß auch noch nix. Kannst du den zwei Bescheid geben, dass i das EKG jetzt oben hab und dass eh alles ruhig ist?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": true,
+    "rationale": "Clean conversation: a retired mechanic returns from the cardiologist wearing a Holter monitor, asks a practical question about it, drifts to his village-chronicle research, and finally asks Mira to let his wife and son know, which the companion cannot do. Typical post-appointment talk with a natural notification request."
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "incoherent_user_006",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:41.339489+00:00"
+  },
+  "content_hash": "1baad892c54a9c3b97e150b56bf3941d271d26e602775f1a03587361f97edb24",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_006",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 189,
+    "time_of_day": "Vormittag",
+    "weekday": "Montag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Erhard",
+    "last_name": "Lindner",
+    "side_older": [
+      "Stefan",
+      "Kreszenz",
+      "Heribert"
+    ],
+    "side_younger": [
+      "Leon",
+      "Christina",
+      "Pascal"
+    ],
+    "side_surnames": [
+      "Ziegler",
+      "Lettner"
+    ],
+    "former_job": "Hausmeister",
+    "interests": [
+      "Holzschnitzen",
+      "Lesen"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Erhard Lindner",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 189
+      },
+      "time_of_day": "Montag, 10:00",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Erhard Lindner, 78, lebt allein in einer Erdgeschosswohnung mit kleiner Werkstatt im Keller. War über dreißig Jahre Hausmeister in einer Wohnanlage."
+        },
+        {
+          "topic": "Familie",
+          "text": "Seit langem von Kreszenz geschieden, kein Kontakt. Sohn Leon, 49, lebt in der Stadt und ruft selten an, meist nur zu Feiertagen. Leons Kinder sind Christina, 16, und Pascal, 12."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Herzrhythmusstörung, nimmt Tabletten nach Verordnung. Regelmäßige Kontrolle beim Kardiologen in der Bezirksstadt, die nächste in zwei Wochen. Hausarzt ist Dr. Ziegler."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Schnitzt Tiere aus Lindenholz, trifft sich dazu mit seinem Freund Heribert in einer Schnitzrunde im Pfarrheim. Liest viel, am liebsten Bergromane und Reiseberichte, die er sich aus der Pfarrbücherei holt."
+        },
+        {
+          "topic": "Umfeld",
+          "text": "Die Nachbarin Frau Lettner leiht sich oft Bücher bei ihm aus. Sein alter Kollege Stefan ruft ab und zu an."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Erhard war mit Heribert in der Schnitzrunde im Pfarrheim. Er hat an einer Eule gearbeitet, das Gefieder war mühsam. Er erzählte, dass ihm das Schnitzmesser stumpf geworden ist und er es nachschleifen will.",
+          "notes": [
+            "Schnitzrunde mit Heribert",
+            "Arbeitet an einer Eule",
+            "Schnitzmesser muss nachgeschliffen werden"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Erhard hatte einen Reisebericht über Norwegen fertig gelesen und ihn Frau Lettner geliehen. Er erzählte, dass Stefan angerufen hat und sie über die alte Wohnanlage geredet haben, in der beide gearbeitet haben.",
+          "notes": [
+            "Reisebericht fertig, an Frau Lettner verliehen",
+            "Telefonat mit Stefan",
+            "Erinnerungen an die alte Arbeit"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:02",
+        "text": "Servus, Mira. Grad hat der Leon angerufen, stell dir vor, mitten unter der Woche."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus, Erhard. Das ist ja eine schöne Überraschung. Was hat er denn erzählt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:04",
+        "text": "Der Pascal hat im Dezember Geburtstag, und der Bub hätt gern a Figur von mir, an Fuchs. Der Leon hat gefragt, ob ich des bis dahin schaff."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein schöner Wunsch vom Pascal. Ein Fuchs aus Holz, da hast du ja Erfahrung. Schaffst du das bis Dezember?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:07",
+        "text": "Freilich schaff ich des, Lindenholz hab ich noch im Keller. Und dann hat er noch gefragt wegen dem Herz, ob ich beim Kardiologen war. Der Termin ist erst in zwei Wochen, hab ich ihm gesagt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass er sich danach erkundigt. Dann hast du bis zur Kontrolle mit dem Fuchs ja eine feine Beschäftigung."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:10",
+      "text": "Ja, des hat mich gefreut, dass er angerufen hat. Jetzt muss ich aber schauen, dass ich das Werkzeug herricht, weil der Leon kommt ja nach der Schule rüber, der schaut mir so gern beim Schnitzen zu."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "weil der Leon kommt ja nach der Schule rüber, der schaut mir so gern beim Schnitzen zu.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Right after correctly reporting a phone call with his adult son Leon, who lives in the city, the user says Leon will come over after school to watch him carve, as if Leon were still a schoolboy. This time confusion (or a mix-up with the grandson) is in his own voice and dialect and grows naturally out of the topic, so it is not TV or an STT error. The first sentence of the final turn and the rest of the session are coherent and consistent with memory."
+  }
+}

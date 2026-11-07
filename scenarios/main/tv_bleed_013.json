@@ -1,0 +1,192 @@
+{
+  "id": "tv_bleed_013",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:12.716602+00:00"
+  },
+  "content_hash": "bd7dce75349ee937b31656e9c8e8f46f9075a602eceea548da859b94f2ab436c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_013",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 87,
+    "time_of_day": "Vormittag",
+    "weekday": "Freitag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 10,
+    "health": "Osteoporose",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Olga",
+    "last_name": "Forstner",
+    "side_older": [
+      "Walburga",
+      "Hans",
+      "Edelgard"
+    ],
+    "side_younger": [
+      "Clara",
+      "Gerald",
+      "Sigrun"
+    ],
+    "side_surnames": [
+      "Pöttinger",
+      "Gruberbauer"
+    ],
+    "former_job": "Briefträgerin",
+    "interests": [
+      "Fischen",
+      "Wallfahrten"
+    ],
+    "occasion": "kommt vom Arzt, aus der Apotheke oder von der Therapie",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Olga Forstner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 87
+      },
+      "time_of_day": "Freitag, 10:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Gerald (Sohn)",
+          "text": "Mama hat ab dieser Woche Physiotherapie wegen der Osteoporose, immer freitags um neun. Sie soll die Übungen auch daheim jeden Tag machen. Sie erzählt gern davon, wenn man nachfragt."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Gesundheit",
+          "text": "Osteoporose, vor zwei Jahren bei der Hausärztin Dr. Pöttinger festgestellt. Nimmt Vitamin D, seit kurzem auch Kalziumtabletten. Hat Angst vor einem Sturz, seit sie sich vor drei Jahren das Handgelenk gebrochen hat."
+        },
+        {
+          "topic": "Familie und Wohnen",
+          "text": "Geschieden seit über dreißig Jahren, lebt allein im Erdgeschoss ihres Hauses. Im Obergeschoss wohnt Sohn Gerald mit seiner Frau Sigrun und der neunjährigen Enkelin Clara. Clara kommt nachmittags nach der Schule oft zu ihr herunter."
+        },
+        {
+          "topic": "Fischen",
+          "text": "Fischt seit Jahrzehnten am Fluss unterhalb vom Ort, meistens mit ihrem alten Bekannten Hans. Hat eine eigene Jahreskarte. Die Saison ist für sie im Oktober vorbei."
+        },
+        {
+          "topic": "Wallfahrten",
+          "text": "Geht jedes Jahr im September mit ihrer Freundin Walburga zu Fuß nach Maria Kranzlbichl, zwei Tage mit Übernachtung. Heuer haben die beiden nur den zweiten Tag gehen können."
+        },
+        {
+          "topic": "Früherer Beruf und Alltag",
+          "text": "War 34 Jahre Briefträgerin im Ort und kennt fast jedes Haus. Am Vormittag läuft in der Küche das Regionalradio."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Olga erzählte, dass sie für Freitag die erste Physiotherapie-Stunde hat, ein Gleichgewichts- und Krafttraining für die Knochen. Sie war ein wenig nervös, weil sie nicht weiß, was auf sie zukommt. Gerald fährt sie hin.",
+          "notes": [
+            "Erste Physiotherapie am Freitag um neun",
+            "Gerald fährt sie hin",
+            "Ist unsicher, ob sie die Übungen schafft"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Olga berichtete, dass sie mit Hans die Angelsachen für den Winter weggeräumt hat. Sie sprach über die Fußwallfahrt mit Walburga im September und dass sie nächstes Jahr wieder beide Tage gehen will.",
+          "notes": [
+            "Angelsaison für heuer beendet",
+            "Will nächstes Jahr die ganze Wallfahrt gehen",
+            "Walburga hat Fotos von der Wallfahrt ausdrucken lassen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:22",
+        "text": "Du, die Gymnastik für die Knochen, wo i dir am Mittwoch davon erzählt hab, da bin ich jetzt grad gewesen. Das erste Mal."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass du hingegangen bist, Olga. Wie ist es dir dabei gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:23",
+        "text": "Jo, anstrengender wie ich gedacht hab. Auf einem Bein stehen und so Sachen. Die Therapeutin war aber recht nett."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Auf einem Bein stehen klingt einfach und ist es gar nicht. Gut, dass beim ersten Mal jemand dabei war, der aufpasst."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:25",
+        "text": "Freilich. Sie sagt, das ist fürs Gleichgewicht, damit ich net hinfall. Weil mit meinen Knochen, da darf halt nix passieren."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das leuchtet ein. Hat sie dir auch Übungen für daheim mitgegeben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:27",
+        "text": "Drei Stück, auf einem Zettel aufgezeichnet. Die soll ich jeden Tag machen, und beim Küchentisch anhalten darf ich mich dabei auch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der Küchentisch ist ein guter Platz dafür. Magst du sie lieber in der Früh machen oder am Nachmittag?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:29",
+        "text": "Am Nachmittag, wenn die Clara von der Schule kommt. Die macht des eh gern mit. Und nach der Therapie bin ich noch schnell in der Apotheke gewesen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit der Clara zusammen macht es sicher mehr Spaß. Was hast du dir in der Apotheke geholt?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:31",
+      "text": "Die Kalziumtabletten, die neuen. Ob ich die in der Früh oder am Abend nehmen soll, des hab ich ganz vergessen zu fragen und um elf begrüßen wir dann bei uns im Studio einen Gast, der Ihnen verrät, wie Sie Ihre Zimmerpflanzen gut durch den Winter bringen"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "und um elf begrüßen wir dann bei uns im Studio einen Gast, der Ihnen verrät, wie Sie Ihre Zimmerpflanzen gut durch den Winter bringen",
+        "type": "radio"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The regional radio runs in Olga's kitchen in the morning (memory). Right after her own question about the calcium tablets, the STT picks up a presenter announcing the 11 o'clock studio guest. The 'Sie' address, the studio phrasing and the houseplant topic are clearly a radio host, not Olga, and the time fits the 10:31 timestamp."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "clean_014",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:56.523656+00:00"
+  },
+  "content_hash": "817514609e1593008a27f29d8146f27d25f379dd0057bca715d7254c70a16729",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_014",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 39,
+    "time_of_day": "früher Abend",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 8,
+    "health": "Schlafprobleme",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Erinnerung stellen (z. B. an Tabletten, einen Termin, den Herd)",
+    "gender": "female",
+    "first_name": "Antonia",
+    "last_name": "Hainzl",
+    "side_older": [
+      "Lorenz",
+      "Adelinde",
+      "Korbinian"
+    ],
+    "side_younger": [
+      "Alexander",
+      "Manuela",
+      "Lukas"
+    ],
+    "side_surnames": [
+      "Zeilinger",
+      "Nöbauer"
+    ],
+    "former_job": "Schlosserin",
+    "interests": [
+      "Modelleisenbahn",
+      "Chor"
+    ],
+    "occasion": "wartet auf Besuch, ein Taxi oder einen Termin",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Antonia Hainzl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 39
+      },
+      "time_of_day": "Montag, 17:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Manuela Hainzl (Schwiegertochter)",
+          "text": "Antonia schläft seit dem Sommer schlecht und wacht oft mitten in der Nacht auf. Dr. Zeilinger hat ihr eine leichte Schlaftablette verschrieben, sie soll an Probentagen am Abend eine halbe nehmen, sonst nur bei Bedarf."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Antonia war nie verheiratet. Ihr Sohn Alexander lebt mit seiner Frau Manuela im Nachbarort; Manuela bringt ihr jeden Samstag am Vormittag den Einkauf. Enkel Lukas ist sechzehn und baut gern mit ihr an der Eisenbahn."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Antonia war Schlosserin in einem Metallbetrieb, damals als einzige Frau in der Werkstatt. Sie ist stolz darauf und hat noch heute eine gut sortierte Werkbank im Keller."
+        },
+        {
+          "topic": "Modelleisenbahn",
+          "text": "Im Kellerraum steht eine große Modelleisenbahnanlage, an der Antonia seit Jahren baut. Gerade erweitert sie mit Lukas einen Bahnhof mit Güterschuppen."
+        },
+        {
+          "topic": "Chor",
+          "text": "Antonia singt im gemischten Chor des Ortes. Probe ist jeden Montag von 18:30 bis 20:30 im Vereinsheim. Korbinian, ein Chorkollege aus der Nachbarschaft, nimmt sie mit dem Auto mit. Ihre Freundin Adelinde singt ebenfalls im Chor."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schlafprobleme: schläft schwer durch, ist oft gegen drei Uhr wach. Hausarzt ist Dr. Zeilinger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Manuela brachte am Vormittag den Einkauf. Am Nachmittag war Lukas da, und die beiden haben am Güterschuppen für den neuen Bahnhof weitergebaut. Antonia freute sich, dass Lukas so geschickt mit dem Lötkolben ist.",
+          "notes": [
+            "Manuela bringt samstags den Einkauf",
+            "Güterschuppen mit Lukas fast fertig",
+            "Als Nächstes sollen die Weichen verkabelt werden"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Antonia erzählte, dass sie wieder schlecht geschlafen hat und beim Arzt war. Dr. Zeilinger hat besprochen, dass sie an Probentagen am Abend eine halbe Schlaftablette nehmen soll, weil sie nach dem Singen oft lange nicht zur Ruhe kommt. Außerdem erwähnte sie, dass Adelinde bald aus der Reha zurückkommt.",
+          "notes": [
+            "An Probentagen am Abend eine halbe Tablette laut Dr. Zeilinger",
+            "Kommt nach dem Singen schwer zur Ruhe",
+            "Adelinde ist auf Reha, kommt bald zurück"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:41",
+        "text": "Stell dir vor, die Adelinde ist aus der Reha zurück, und heut kommt sie das erste Mal wieder mit zur Probe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist aber eine schöne Nachricht, Antonia! Da wird sich der ganze Chor freuen, dass sie wieder dabei ist."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:43",
+        "text": "Jo, der Korbinian holt uns zwei um viertel sieben ab. I sitz schon mit dem Mantel da, viel zu früh halt wieder."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du noch eine gute halbe Stunde zum Durchschnaufen. Lieber zu früh fertig als hetzen, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:46",
+        "text": "Eh. Nur bin i heut so müd, die Nacht hab i wieder kaum geschlafen. Um drei war i munter und dann war's aus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist anstrengend, wenn man ab drei wach liegt. Hoffentlich gibt dir das Singen heute ein bisschen Schwung."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:49",
+        "text": "Das schon, aber dann bin i so aufgedreht. Drum hat der Dr. Zeilinger gesagt, am Probentag soll i am Abend die halbe Tablette nehmen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass ihr das miteinander ausgemacht habt. Nach dem Singen ist man oft noch lange hellwach im Kopf."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:52",
+      "text": "Kannst mich um halb zehn an die halbe Tablette erinnern? Da bin i dann eh schon wieder daheim."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": true,
+    "rationale": "Clean early-evening session while the user waits, coat on, to be picked up for choir practice. Typical: good news about a friend, small talk about tiredness after a bad night, and a doctor's instruction that leads to a natural reminder request for later in the evening."
+  }
+}

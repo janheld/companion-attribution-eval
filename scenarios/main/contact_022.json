@@ -1,0 +1,187 @@
+{
+  "id": "contact_022",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:25:44.884631+00:00"
+  },
+  "content_hash": "f888717a709c4817d9a8ee8680fd2ef9fd726906df829ca6b8b3313966a1590f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_022",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 66,
+    "time_of_day": "Nachmittag",
+    "weekday": "Samstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "invitation",
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Asthma, Spray",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Romana",
+    "last_name": "Heigl",
+    "side_older": [
+      "Raimund",
+      "Wendelgard",
+      "Heinz"
+    ],
+    "side_younger": [
+      "Ruben",
+      "Gabriele",
+      "Bastian"
+    ],
+    "side_surnames": [
+      "Oberndorfer",
+      "Birngruber"
+    ],
+    "former_job": "Schneiderin",
+    "interests": [
+      "Gemeindepolitik",
+      "Chor"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Romana Heigl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 66
+      },
+      "time_of_day": "Samstag, 15:30",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Romana ist 74, geschieden und lebt allein in ihrem Haus im Ortszentrum. Sie war Schneiderin und hat lange Zeit eine eigene Änderungsschneiderei gehabt."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Gabriele und Sohn Ruben haben sich im Frühjahr über das Erbe nach einer Tante zerstritten und reden seither nicht miteinander. Gabrieles Sohn Bastian ist 16 und besucht Romana oft."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Romana hat Asthma und verwendet einen Spray. Hausärztin ist Dr. Oberndorfer."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Verfolgt die Gemeindepolitik genau und geht zu jeder öffentlichen Gemeinderatssitzung zuhören. Singt im Sopran in der Singgemeinschaft des Ortes, Probe ist am Dienstagabend. Ihre Freundin Wendelgard singt auch dort."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 3 Tagen",
+          "summary": "Romana erzählte von der Chorprobe am Dienstag. Die Singgemeinschaft probt für ein Konzert im Advent. Danach war sie mit Wendelgard noch auf einen Tee.",
+          "notes": [
+            "Chorprobe am Dienstag war gut",
+            "Konzert im Advent geplant",
+            "mit Wendelgard noch auf einen Tee"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Bastian war zu Besuch und hat beim Laubrechen geholfen. Er hat gesagt, er würde seine Mutter und seinen Onkel gern wieder an einem Tisch sehen. Romana fand das rührend.",
+          "notes": [
+            "Bastian hat beim Laubrechen geholfen",
+            "Bastian wünscht sich Versöhnung von Gabriele und Ruben",
+            "nächste öffentliche Gemeinderatssitzung am Montag in einer Woche"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:34",
+        "text": "Servus Mira. I hab grad mit der Gabriele telefoniert, und des muss i jetzt erst amal loswerden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Romana. Dann erzähl, was war denn los?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:35",
+        "text": "Es geht wieder um den Ruben. Die zwei reden ja seit dem Frühjahr kein Wort miteinander, und jetzt will die Gabriele zu Weihnachten nur kommen, wenn er net da ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schwer für dich, wenn du so zwischen den beiden stehst. Hast du ihr gesagt, wie du das siehst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:37",
+        "text": "Freilich. I hab gesagt, i bin die Mutter von alle zwei, i such mir da keinen aus. Dann war's still in der Leitung."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das hast du klar gesagt. Manchmal braucht so ein Satz ein bissl, bis er beim anderen ankommt."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:40",
+        "text": "Mag sein. I hab mich so aufgeregt, dass i nachher den Spray gebraucht hab. Jetzt geht's eh wieder."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass der Spray geholfen hat. Wenn du merkst, dass du ihn öfter brauchst als sonst, sprich das ruhig bei Dr. Oberndorfer an."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:43",
+        "text": "Jo, weiß i eh. Der Bastian hat ja neulich gesagt, er tät die zwei gern wieder an einem Tisch sehen. Der Bub ist gescheiter wie die Großen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der Bastian sieht das offenbar ganz klar. Vielleicht ist gerade er einer, der die beiden irgendwann wieder zusammenbringt."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:46",
+        "text": "Kann schon sein. In der Gemeinde ist ja auch grad so a Theater, wegen dem neuen Bauhof. Da ist bei der letzten Sitzung fast gestritten worden wie bei uns daheim."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da geht's ja hoch her. Worum streiten sie denn beim Bauhof?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:49",
+      "text": "Grad hat mir die Wendelgard geschrieben, sie hat a Karte übrig für die Theatergruppe heut Abend, um sieben tät sie mich abholen. I weiß net recht, mir ist eigentlich net nach Leut, und vom Bauhof hätt i dir noch einiges zu erzählen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "invitation",
+    "unavailable_action_request": false,
+    "rationale": "A divorced former seamstress unloads after a tense phone call about her feuding children, then drifts to local politics. A friend invites her to the theatre tonight while she says she is not in the mood and still wants to talk about the depot dispute, a genuine choice between encouraging the outing and continuing."
+  }
+}

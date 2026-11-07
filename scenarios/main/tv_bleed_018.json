@@ -1,0 +1,172 @@
+{
+  "id": "tv_bleed_018",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:21.883378+00:00"
+  },
+  "content_hash": "290e3c2f05d47d3b3d4066b071c9e44ddfd7e966b5c9375fe791c2474788c5e4",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_018",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 82,
+    "time_of_day": "Nachmittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 6,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Florian",
+    "last_name": "Haslinger",
+    "side_older": [
+      "Herwig",
+      "Ludmilla",
+      "Quirin"
+    ],
+    "side_younger": [
+      "Oliver",
+      "Natalie",
+      "Yannick"
+    ],
+    "side_surnames": [
+      "Engl",
+      "Oberndorfer"
+    ],
+    "former_job": "Molkereiarbeiter",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Kochen und Backen"
+    ],
+    "occasion": "schaut in den Garten oder aufs Wetter hinaus",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Florian Haslinger",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 82
+      },
+      "time_of_day": "Donnerstag, 15:30",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Ludmilla (Ehefrau)",
+          "text": "Florian ist im Jänner auf dem Eis gestürzt, die linke Schulter ist noch nicht ganz beweglich. Er soll nichts Schweres heben, auch wenn er es nicht gern hört."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Haushalt",
+          "text": "Lebt mit seiner Frau Ludmilla in einem Haus mit Garten. Ludmilla ist viel unterwegs, donnerstags beim Seniorenturnen und danach beim Einkaufen. Wenn sie weg ist, läuft am Nachmittag oft ein Film im Fernsehen."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Hilft jeden Freitagvormittag im Sozialmarkt in der Bezirksstadt beim Einräumen und an der Ausgabe. Bringt den Kollegen oft etwas Selbstgebackenes mit. Sein Freund Herwig macht dort ebenfalls mit."
+        },
+        {
+          "topic": "Kochen und Backen",
+          "text": "Kocht und bäckt leidenschaftlich gern, besonders Mehlspeisen. Hat den Strudelteig früher immer selbst ausgezogen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Sturz auf Glatteis im Jänner, Prellung und Zerrung an der linken Schulter. Die Physiotherapie ist abgeschlossen, aber Überkopfbewegungen und Ziehen fallen noch schwer. Hausarzt ist Dr. Engl."
+        },
+        {
+          "topic": "Familie und Beruf",
+          "text": "Zwei Söhne: Oliver lebt mit seiner Familie in Schweden, Yannick wohnt in der Bezirksstadt. Yannicks Tochter Natalie ist zwölf. Florian hat bis zur Pension in der Molkerei gearbeitet."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Florian erzählte von einem Videoanruf mit Oliver, der zu Weihnachten nicht heimkommen kann. Er war ein bisschen enttäuscht, sagte aber, das sei halt so, wenn man weit weg wohnt.",
+          "notes": [
+            "Oliver kommt zu Weihnachten nicht",
+            "Florian enttäuscht, sagt es aber kaum",
+            "Will Oliver ein Paket mit Keksen schicken"
+          ]
+        },
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Florian berichtete, dass Natalie am Wochenende zum Backen da war und die beiden Topfengolatschen gemacht haben. Er erwähnte, dass er im Garten die Rosen noch für den Winter abdecken muss.",
+          "notes": [
+            "Hat mit Natalie Topfengolatschen gebacken",
+            "Rosen sind noch nicht winterfest",
+            "Herwig hat ihm Reisig für die Rosen gebracht"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:32",
+        "text": "Mei, heut zieht sich der Tag. Draußen hängt der Nebel so tief, da sieht man net einmal bis zum Gartenzaun."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "So ein grauer Nachmittag kann sich ziehen, Florian. Hast du heute noch was vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:34",
+        "text": "Eigentlich wollt ich die Rosen noch zudecken mit dem Reisig vom Herwig, aber bei dem Wetter mag ich net so recht Sie haben mich nie geliebt, Sie wollten immer nur den Hof von meinem Vater"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei Nebel und Nässe macht das auch keine Freude. Das Reisig liegt ja schon bereit, wenn es wieder trockener ist."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:36",
+        "text": "Jo, eh. Dann back ich halt lieber was, die Ludmilla ist eh erst um sechs wieder da. Für morgen im Sozialmarkt wollt ich den Kollegen einen Apfelstrudel mitnehmen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Apfelstrudel an so einem Nachmittag ist eine schöne Idee. Hast du alles daheim dafür?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:38",
+      "text": "Äpfel hab ich genug, die liegen im Keller. Nur das Teigausziehen, des geht mit der Schulter seit dem Sturz halt nimmer so gut. Vielleicht nehm ich heut einen fertigen Teig."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Sie haben mich nie geliebt, Sie wollten immer nur den Hof von meinem Vater",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "When Ludmilla is out, an afternoon film often runs on TV (memory). After Florian's own sentence about the roses, STT picks up a melodramatic line of film dialogue. The 'Sie' address, the dramatic tone and the inheritance theme belong to a different speaker and genre; the companion responds only to the roses. The final turn is clean."
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "id": "clean_004",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:24.986072+00:00"
+  },
+  "content_hash": "e6151619f0372e5475e10798ca4512e0298d150363dd6536174a0c1ed3e41884",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_004",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 295,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 10,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Heinrich",
+    "last_name": "Mauhart",
+    "side_older": [
+      "Eberhard",
+      "Rotraud",
+      "Ingomar"
+    ],
+    "side_younger": [
+      "Samuel",
+      "Valentina",
+      "Philipp"
+    ],
+    "side_surnames": [
+      "Langeder",
+      "Krenn"
+    ],
+    "former_job": "Schuster",
+    "interests": [
+      "Zither",
+      "Katze oder Hund"
+    ],
+    "occasion": "macht Pause nach Arbeit im Haus oder Garten",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Heinrich Mauhart",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 295
+      },
+      "time_of_day": "Montag, 12:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Valentina (Nichte)",
+          "text": "Onkel Heinrich soll wegen der Schulter nicht mehr auf die Leiter steigen. Ich komme alle zwei Wochen am Mittwoch und erledige die Post und die Behördensachen mit ihm."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Seit vielen Jahren von Rotraud geschieden, keine Kinder. Nichte Valentina kümmert sich um Behördensachen und Arzttermine und kommt alle zwei Wochen am Mittwoch vorbei."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ist im Februar auf Glatteis gestürzt, seitdem Beschwerden in der rechten Schulter. Physiotherapie ist abgeschlossen, Kontrollen beim Orthopäden Dr. Langeder."
+        },
+        {
+          "topic": "Zither",
+          "text": "Spielt Zither seit seiner Jugend. Jeden zweiten Freitag Zitherabend bei seinem Freund Ingomar zu Hause, dort lernen sie neue Stücke."
+        },
+        {
+          "topic": "Kater",
+          "text": "Hat einen grauen Kater aus dem Tierheim, der viel im Garten unterwegs ist und gern auf Laubhaufen liegt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Schuster mit eigener Werkstatt im Ort. Repariert noch gelegentlich Schuhe für Nachbarn."
+        },
+        {
+          "topic": "Nachbar",
+          "text": "Herr Krenn wohnt nebenan, hilft bei schweren Gartenarbeiten und hat angeboten, die Dachrinne zu putzen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Heinrich wollte am Montag das Laub im Garten zusammenrechen und auch die Dachrinne putzen. Mira hat daran erinnert, was Valentina wegen der Leiter geschrieben hat. Er hat dann gesagt, die Dachrinne soll Herr Krenn machen.",
+          "notes": [
+            "Plant Laubrechen für Montag",
+            "Steigt wegen der Schulter nicht auf die Leiter",
+            "Herr Krenn übernimmt die Dachrinne"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Heinrich hat einen Brief von der Gemeinde wegen der Kanalgebühr bekommen und nicht ganz verstanden. Er will ihn Valentina beim nächsten Besuch zeigen. Danach hat er von einem neuen Zitherstück erzählt, das er mit Ingomar übt.",
+          "notes": [
+            "Brief von der Gemeinde zur Kanalgebühr liegt bereit für Valentina",
+            "Übt ein neues Zitherstück",
+            "Ingomar möchte es beim nächsten Zitherabend hören"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Also des Laub ist jetzt weg, und auf die Leiter bin i fei net gestiegen, so wie wir's ausgemacht haben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das freut mich, Heinrich. Da hast du den Vormittag gut genutzt. Ist der ganze Garten schon fertig?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Mei, vorn beim Zaun schon. Hinten unterm Nussbaum liegt noch a Haufen, und der Kater hat sich gleich mittendrin hingelegt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der weiß, wo es gemütlich ist. Wie geht es deiner Schulter nach dem Rechen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:15",
+        "text": "Zieht halt a bissl, wenn i den Arm hoch nehm. Net arg, aber spüren tu i's schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Nach so einer Arbeit kann es schon ziehen. Wenn es nicht besser wird oder stärker, frag lieber Dr. Langeder, der kennt deine Schulter seit dem Sturz."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Am Mittwoch kommt eh die Valentina, die fahrt mich dann zur Kontrolle. Und den Brief von der Gemeinde schaut sie sich gleich mit an."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass die Valentina sich um beides kümmert. Dann kannst du die Frage zur Schulter gleich mitnehmen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:20",
+        "text": "Freilich. Und hinten beim Nussbaum, da hilft mir der Herr Krenn, hat er gesagt, wenn er von der Arbeit heimkommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist nett von ihm. Dann musst du dich hinten nicht allein plagen und hast jetzt deine Mittagspause verdient."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:22",
+      "text": "Jetzt mach i mir erst a Brotzeit, und dann hol i die Zither raus, der Ingomar will am Freitag des neue Stück hören. Bloß meine Finger sind noch ganz steif vom Rechen, des wird holpern."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A retired cobbler takes a lunch break after raking leaves and picks up the agreement from the last conversation not to climb the ladder. The talk moves through the cat, a slightly sore shoulder handed to the doctor, the niece's visit and the neighbour's help, and ends with plans to practise the zither. Ordinary midday chat with memory continuity."
+  }
+}

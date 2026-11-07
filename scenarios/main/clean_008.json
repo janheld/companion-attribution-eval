@@ -1,0 +1,191 @@
+{
+  "id": "clean_008",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:32.583138+00:00"
+  },
+  "content_hash": "65473bd7275457d43792fb27f54b0ea53efe2e472784a3207d37fda664d11890",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_008",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 55,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 10,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Klaus",
+    "last_name": "Hehenberger",
+    "side_older": [
+      "Andreas",
+      "Amalie",
+      "Felix"
+    ],
+    "side_younger": [
+      "Sven",
+      "Annika",
+      "Frederik"
+    ],
+    "side_surnames": [
+      "Resch",
+      "Huber"
+    ],
+    "former_job": "Drogist",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Schwimmen"
+    ],
+    "occasion": "hat Post oder ein Paket bekommen",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Klaus Hehenberger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 55
+      },
+      "time_of_day": "Donnerstag, 10:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Klaus Hehenberger, 77, lebt allein in einer Wohnung im ersten Stock. Nie verheiratet, keine Kinder."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über dreißig Jahre Drogist und hat Kundschaft gern zu Hausmitteln und Pflegeprodukten beraten. Liest bis heute jedes Etikett genau."
+        },
+        {
+          "topic": "Familie",
+          "text": "Enger Kontakt zur älteren Schwester Amalie, die im Nachbarort wohnt. Ihr Sohn Sven ist Klaus' Neffe. Amalie hatte vor einigen Wochen ihren 80. Geburtstag."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Hilft am Mittwoch- und am Samstagvormittag im Sozialmarkt, meistens bei der Warenannahme."
+        },
+        {
+          "topic": "Schwimmen",
+          "text": "Geht am Montag und am Freitag früh ins Hallenbad, seit der Hüftoperation fast ausschließlich Rücken und Kraul."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit zwei Jahren eine Hüftprothese links. Kommt gut zurecht, Stiegen gehen langsam."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Klaus erzählte, dass seine Schwester Amalie am Telefon ein Paket angekündigt hat. Sie hat ein Fotobuch von ihrer Feier zum 80. Geburtstag drucken lassen und will ihm eines schicken.",
+          "notes": [
+            "Paket von Schwester Amalie angekündigt",
+            "Inhalt: Fotobuch vom 80. Geburtstag"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Klaus sprach über den Sozialmarkt: am Samstag sei sehr viel Gemüse gespendet worden, er habe den ganzen Vormittag sortiert.",
+          "notes": [
+            "Sortiert im Sozialmarkt Spenden",
+            "Ist dort samstags im Einsatz"
+          ]
+        },
+        {
+          "date": "Freitag, vor 6 Tagen",
+          "summary": "Klaus erzählte nach dem Schwimmen noch einmal von der Geburtstagsfeier seiner Schwester. Die Rede seines Neffen Sven habe ihn gerührt.",
+          "notes": [
+            "Neffe Sven hielt die Rede bei Amalies Feier",
+            "War am Morgen schwimmen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Du, des Packerl von meiner Schwester, von dem i dir am Dienstag erzählt hab, des ist heut in der Früh gekommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ah, von der Amalie! Dann ist das Fotobuch von ihrem Geburtstag also schon da?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:13",
+        "text": "Jo, das Fotobuch ist drin. Und zwei Flaschen Holundersirup, selber gemacht, mit einem Zettel dran, wo genau draufsteht, wie viel Zucker drin ist. Typisch Amalie."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt ganz nach ihr. Hast du schon im Fotobuch geblättert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:15",
+        "text": "Freilich, gleich beim Kaffee. Auf einem Bild steh i neben dem Sven, wie er die Rede hält. Da schau i aus wie mein Vater, wirklich wahr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein besonderer Moment, wenn man sich auf einmal so wiedererkennt. Die Rede vom Sven hat dich ja sehr gerührt."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:17",
+        "text": "Der hat des schön gemacht. Und jetzt will i der Amalie halt einen ordentlichen Brief schreiben, net nur schnell anrufen. Mit der Hand."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein handgeschriebener Brief freut sie bestimmt. Weißt du schon ungefähr, was hineinsoll?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:19",
+        "text": "Dass mich des Buch freut und dass i den Sirup gleich probiert hab. Aber i bin kein Schreiber. I hab mein Lebtag Beipackzettel erklärt, aber Briefe hab i kaum welche geschrieben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das Wichtigste hast du ja schon beisammen: das Buch, der Sirup und dass es dich freut. Den Rest überlegen wir gern zusammen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:20",
+      "text": "Na gut. Wie tät denn so ein Anfang klingen, der net gleich so steif ist? Liebe Amalie, und dann?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean morning conversation that picks up the parcel announced two days earlier. A retired druggist describes his sister's photo book and homemade syrup and asks for practical help phrasing a handwritten thank-you letter, a typical everyday request."
+  }
+}

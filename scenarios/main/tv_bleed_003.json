@@ -1,0 +1,188 @@
+{
+  "id": "tv_bleed_003",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:58.733664+00:00"
+  },
+  "content_hash": "3b96c5c2ff319add82be7bdb0c5b7bb40de95351cb2d95d2d55475b791e6d4ff",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_003",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 4,
+    "time_of_day": "Nachmittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 10,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Hilde",
+    "last_name": "Doppler",
+    "side_older": [
+      "Rosa",
+      "Bernhard",
+      "Regina"
+    ],
+    "side_younger": [
+      "Susanne",
+      "Sebastian",
+      "Jasmin"
+    ],
+    "side_surnames": [
+      "Westermeier",
+      "Hamberger"
+    ],
+    "former_job": "Hauptschullehrerin",
+    "interests": [
+      "Enkelkinder",
+      "Aquarellmalen"
+    ],
+    "occasion": "hat ein altes Foto oder einen alten Gegenstand gefunden",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Hilde Doppler",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 4
+      },
+      "time_of_day": "Sonntag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Susanne (Tochter)",
+          "text": "Meine Mutter hat eine Herzrhythmusstörung und nimmt dafür Medikamente. Die nächste Kontrolle bei Dr. Westermeier ist im Dezember."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Hilde ist seit 1986 von Bernhard geschieden. Tochter Susanne wohnt in der Stadt und hat zwei Kinder, Sebastian und Jasmin. Jasmin studiert und kommt in den Ferien zu Hilde."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hilde war Hauptschullehrerin für Deutsch und Bildnerische Erziehung."
+        },
+        {
+          "topic": "Malen",
+          "text": "Sie malt Aquarelle, seit der Pension wieder regelmäßig, meistens Blumen vom Balkon. Sie trifft sich alle zwei Wochen mit ihrer Freundin Rosa zum gemeinsamen Malen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Herzrhythmusstörung, Kontrolle bei der Kardiologin Dr. Westermeier, nächster Termin im Dezember."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Hilde erzählte von ihrer Enkelin Jasmin, die in den Weihnachtsferien eine Woche zu ihr kommt. Sie wollen zusammen Kekse backen. Hilde hat angefangen, den Kasten im Arbeitszimmer auszuräumen, damit Jasmin dort schlafen kann.",
+          "notes": [
+            "Jasmin kommt in den Weihnachtsferien",
+            "Gemeinsam Kekse backen geplant",
+            "Hilde räumt das Arbeitszimmer aus"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 3 Tagen",
+          "summary": "Erstes Gespräch. Enkel Sebastian hat das Gerät eingerichtet. Hilde erzählte, dass sie Aquarell malt und früher Lehrerin war, und erwähnte die Kontrolle bei der Kardiologin im Dezember.",
+          "notes": [
+            "Sebastian hat das Gerät eingerichtet",
+            "Hobby Aquarellmalen",
+            "Kardiologin Dr. Westermeier, Kontrolle im Dezember"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Mira, kann man ein altes Aquarell eigentlich wieder auffrischen, wenn die Farben ganz blass geworden sind?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ganz zurückholen lässt sich verblasste Farbe meistens nicht. Wichtig ist vor allem, das Bild jetzt vor Licht zu schützen. Was hast du denn gefunden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:23",
+        "text": "Einen alten Skizzenblock. Der lag ganz hinten im Kasten, unter meinen Schulheften. Da sind Bilder vom Urlaub am Meer drin, das muss Anfang der Achtziger gewesen sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein ganzer Block, das ist ja ein Fund. Hast du die damals alle selbst gemalt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:25",
+        "text": "Ja, jeden Abend eins, auf dem Balkon von der Pension. Tagsüber war keine Zeit, da wollte die Susanne an den Strand."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Jeden Abend ein Bild, das ist eine schöne Gewohnheit. Malst du heute noch so regelmäßig?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:28",
+        "text": "Nicht mehr jeden Tag. Meistens Blumen vom Balkon. Die Jasmin sagt immer, ich soll mal was anderes malen als Geranien."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vielleicht ist der alte Block ja eine Anregung dafür. Das Meer statt der Geranien."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:31",
+        "text": "Das wäre schon was. Auf einem Blatt ist ein kleines Boot drauf, das hat die Susanne mit Bleistift dazugemalt. Ganz schief."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist das ein gemeinsames Bild von euch beiden. So ein schiefes Boot ist mehr wert als jedes gerade."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:33",
+      "text": "Sie war damals sieben, glaube ich. Ich sollte ihr das Bild unbedingt zeigen in der Nacht auf Montag von Westen her Regen, oberhalb von tausend Metern Schneefall, die Tiefstwerte liegen zwischen"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "in der Nacht auf Montag von Westen her Regen, oberhalb von tausend Metern Schneefall, die Tiefstwerte liegen zwischen",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A TV weather forecast running in the background is appended to the user's own sentence without a boundary and is cut off mid-sentence. Its register (regions, altitudes, temperature ranges) is clearly broadcast; the user's part about showing the old drawing to her daughter is coherent on its own."
+  }
+}

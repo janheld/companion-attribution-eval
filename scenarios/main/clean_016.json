@@ -1,0 +1,186 @@
+{
+  "id": "clean_016",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:58:51.714964+00:00"
+  },
+  "content_hash": "5a2f743b2dd2ac69341d12ed94b07f71c08a81c277346ca8e5018ca993afc44e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_016",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 315,
+    "time_of_day": "Vormittag",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Norbert",
+    "last_name": "Riedl",
+    "side_older": [
+      "Michael",
+      "Rita",
+      "Otmar"
+    ],
+    "side_younger": [
+      "Marcel",
+      "Tina",
+      "Erik"
+    ],
+    "side_surnames": [
+      "Mairhofer",
+      "Gstöttner"
+    ],
+    "former_job": "Landwirt",
+    "interests": [
+      "Fotografieren",
+      "Vögel beobachten"
+    ],
+    "occasion": "ärgert sich über etwas (Amt, Handwerker, Rechnung, Lärm)",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Norbert Riedl",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 315
+      },
+      "time_of_day": "Freitag, 10:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Tina Riedl (Tochter)",
+          "text": "Papa sieht wegen dem grauen Star schlecht, besonders Kleingedrucktes. Die Operation am rechten Auge ist für Ende November geplant. Bitte das Thema Marcel nur ansprechen, wenn er selbst damit anfängt."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Norbert ist mit Rita verheiratet. Rita ist viel unterwegs: Seniorenbund, Turnen, Ausflüge, und an vielen Tagen erst am Abend zurück. Die Kinder Tina und Marcel sind seit einem Streit ums Erbe des Elternhauses zerstritten und reden kaum miteinander; Norbert leidet darunter."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Norbert war Landwirt, Milchvieh und Ackerbau. Der Hof ist verpachtet, Norbert und Rita wohnen weiter im Wohnhaus; der alte Stadel gehört noch ihnen."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Norbert fotografiert viel, vor allem Vögel. Mit seinem Freund Otmar geht er an den Fischteichen beim Ort Vögel beobachten. Er fotografiert auch Arbeiten am Haus, vorher und nachher, aus Gewohnheit."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star an beiden Augen, Operation am rechten Auge Ende November geplant. Augenarzt ist Dr. Mairhofer. Zum Lesen nimmt Norbert eine Lupe."
+        },
+        {
+          "topic": "Haus",
+          "text": "Im Oktober hat eine Dachdeckerfirma das Dach vom Stadel ausgebessert. Der Nachbar, Herr Gstöttner, hatte die Firma empfohlen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Norbert war bei Dr. Mairhofer zur Vorbesprechung der Augenoperation. Der Termin für das rechte Auge steht, das linke soll später folgen. Rita fährt ihn zur Operation, Tina will danach ein paar Tage helfen.",
+          "notes": [
+            "Operation rechtes Auge Ende November",
+            "Rita fährt ihn hin",
+            "Tina hilft nach der Operation"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Norbert war mit Otmar an den Fischteichen und hat einen Silberreiher fotografiert. Er ärgerte sich, dass viele Bilder unscharf waren, weil er den Sucher schlecht sieht. Er hofft, dass es nach der Operation besser wird.",
+          "notes": [
+            "Silberreiher an den Fischteichen fotografiert",
+            "Viele Bilder unscharf wegen der Augen",
+            "Freut sich auf besseres Sehen nach der Operation"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Stell dir vor, die Rechnung vom Dachdecker ist gekommen, und da steht fast das Doppelte drauf von dem, was der uns im Sommer gesagt hat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fast das Doppelte? Da würde ich mich auch ärgern, Norbert. Was steht denn da alles drauf?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:14",
+        "text": "Wenn ich das so genau lesen könnte. Die Schrift ist so klein, mit meinen Augen verschwimmt mir das alles. Ich hab es mit der Lupe probiert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem grauen Star ist so ein Kleingedrucktes wirklich mühsam. Kannst du wenigstens die großen Posten erkennen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:17",
+        "text": "Arbeitsstunden, das seh ich. Dreiundvierzig Stunden. Die waren zu zweit eineinhalb Tage da, das sind doch niemals dreiundvierzig Stunden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zwei Leute eineinhalb Tage, das wären grob gerechnet um die vierundzwanzig Stunden. Da ist deine Frage, wie die auf dreiundvierzig kommen, berechtigt."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:20",
+        "text": "Eben. Und die Rita ist heute den ganzen Tag beim Ausflug vom Seniorenbund, mit der hätte ich mir das gern zusammen angeschaut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schade, dass sie gerade heute weg ist. Am Abend könnt ihr es euch dann in Ruhe gemeinsam anschauen."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:24",
+        "text": "Ich hab ja eh alles fotografiert, wie ich das immer mache. Das Dach vorher und nachher, und wann die gekommen und gegangen sind, sieht man auch an den Bildern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist viel wert, dann hast du einen Beleg für die Arbeitszeit. Mit den Fotos kannst du gut mit der Firma reden."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:27",
+      "text": "Ich ruf die am Montag an, heute hab ich keinen Nerv mehr dafür. Aber sag einmal, muss ich die Rechnung jetzt trotzdem gleich zahlen, oder kann ich warten, bis das geklärt ist?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean Friday-morning session of a retired farmer annoyed by a roofer's bill that is far above the estimate. Typical: everyday irritation, his cataract making the small print hard to read, his often absent wife, and his habit of photographing everything, ending with a practical question about whether he has to pay right away."
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "tv_bleed_030",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "In #12 „Ja, ich hab mir einen Tee gemacht und das Radio läuft.“ weist direkt vor dem Fragment auf die Quelle hin und macht die Zuordnung zu leicht. Bitte ersetzen durch „Ja, ich räum noch die Noten zusammen.“ und dann weiter mit „Er kommt meistens erst nach elf heim, beim Wirt wird es immer spät“ plus Fragment. Den Einstieg in #0 „Ach, das war wieder ein Tag.“ bitte ebenfalls variieren, z. B. „Jetzt sitz ich endlich, nach der langen Probe.“. Die Falle (Ehemann unterwegs, Geisterfahrer) bleibt.",
+    "reviewed_at": "2026-11-06T15:33:47.318148+00:00"
+  },
+  "content_hash": "3f1044aa31f3a64156effe9d128ce17846edfabbaf415590ab1cba32b75024ae",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_030",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 83,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "traffic",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Adele",
+    "last_name": "Hametner",
+    "side_older": [
+      "Quirin",
+      "Felizitas",
+      "Udo"
+    ],
+    "side_younger": [
+      "Lars",
+      "Karina",
+      "Luis"
+    ],
+    "side_surnames": [
+      "Schwarzlmüller",
+      "Schauer"
+    ],
+    "former_job": "Buchhalterin",
+    "interests": [
+      "Musikverein",
+      "Wallfahrten"
+    ],
+    "occasion": "hat etwas in Radio oder Zeitung gehört und will darüber reden",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Adele Hametner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 83
+      },
+      "time_of_day": "Samstag, 21:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Adele ist mit Quirin verheiratet, die beiden haben keine Kinder. Quirin ist viel unterwegs: Stammtisch, Kartenrunde am Samstagabend im Gasthaus, Feuerwehrsenioren. Mit ihrer Schwester Felizitas telefoniert Adele fast täglich."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Adele war vierzig Jahre Buchhalterin in einem Sägewerk. Sie ist genau und hat gern alles schwarz auf weiß."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Adele spielt Querflöte im Musikverein und führt seit Jahren die Vereinskassa. Proben sind freitags am Abend, vor Konzerten zusätzlich am Samstagnachmittag."
+        },
+        {
+          "topic": "Wallfahrten",
+          "text": "Sie geht gern mit der Pfarre auf Wallfahrt, früher oft zusammen mit Felizitas zu einer Wallfahrtskirche im Nachbarbezirk."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Adele hat eine Herzrhythmusstörung und geht regelmäßig zur Kontrolle zu ihrem Kardiologen Dr. Schwarzlmüller."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Adele war zur Kontrolle bei Dr. Schwarzlmüller. Er will in den nächsten Wochen ein Langzeit-EKG machen. Adele war erleichtert, dass nichts Dringendes festgestellt wurde, wollte aber nicht lange darüber reden.",
+          "notes": [
+            "Kontrolle beim Kardiologen",
+            "Langzeit-EKG in den nächsten Wochen geplant",
+            "wollte das Thema kurz halten"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Adele erzählte, dass der Musikverein vor dem Herbstkonzert zusätzliche Proben angesetzt hat. Sie hat die Einnahmen vom Frühschoppen gezählt und abgerechnet.",
+          "notes": [
+            "zusätzliche Proben vor dem Herbstkonzert",
+            "Abrechnung Frühschoppen erledigt",
+            "führt die Vereinskassa"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 6 Tagen",
+          "summary": "Adele sprach über frühere Wallfahrten mit Felizitas und meinte, sie möchte im Frühjahr wieder mit der Pfarre mitgehen.",
+          "notes": [
+            "will im Frühjahr wieder auf Wallfahrt",
+            "Erinnerungen an Wallfahrten mit Felizitas"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:06",
+        "text": "Ach, das war wieder ein Tag. Erst die lange Probe am Nachmittag, dann hab ich endlich die Zeitung gelesen, und jetzt ärgere ich mich."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem vollen Tag. Was hat dich denn in der Zeitung geärgert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:07",
+        "text": "Die Bankfiliale bei uns im Ort sperrt im Frühjahr zu. Nur der Bankomat bleibt, für alles andere soll man in die Bezirksstadt fahren."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ärgerlich, gerade wenn man gewohnt ist, vieles persönlich am Schalter zu erledigen. Was heißt das für dich?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:09",
+        "text": "Ich mach doch die Kassa vom Musikverein. Die Einnahmen vom Konzert und vom Frühschoppen hab ich immer bar zur Bank getragen und mir den Beleg geben lassen. Das war bequem."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem Beleg in der Hand hat man einfach einen guten Überblick. Vielleicht gibt es für Vereine eine eigene Lösung, das könnte man bei der Bank einmal nachfragen."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:12",
+        "text": "Die Felizitas sagt, ich soll das endlich alles am Computer machen. Die erledigt ihr ganzes Bankzeug schon so."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Deine Schwester hat da schon Übung. Vielleicht zeigt sie dir einmal in Ruhe, wie sie das macht."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:15",
+        "text": "Vielleicht. Ich hab ja nichts gegen das Neue. Aber beim Geld vom Verein bin ich vorsichtig, da will keiner hören, dass was schiefgegangen ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei fremdem Geld vorsichtig zu sein, macht eine gute Kassierin aus. Und bis zum Frühjahr hast du ja noch etwas Zeit."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:18",
+        "text": "Stimmt schon. Der Quirin hat beim Abendessen nur gelacht und gesagt, mir fällt schon was ein. Jetzt ist er beim Kartenspielen im Gasthaus."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da traut er dir einiges zu, und das zu Recht. Hast du den Abend jetzt für dich?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:21",
+      "text": "Ja, ich hab mir einen Tee gemacht und das Radio läuft. Er kommt meistens erst nach elf heim, beim Wirt wird es immer spät auf der Umfahrung der Bezirksstadt in Fahrtrichtung Süden ist ein Geisterfahrer unterwegs, bitte fahren Sie äußerst rechts und überholen Sie nicht"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "auf der Umfahrung der Bezirksstadt in Fahrtrichtung Süden ist ein Geisterfahrer unterwegs, bitte fahren Sie äußerst rechts und überholen Sie nicht",
+        "type": "traffic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Adele mentions that the radio is on; a traffic warning interrupts the program and STT appends it to her sentence about her husband coming home late. The warning has unmistakable broadcast register (formal Sie, standard phrasing of a wrong-way driver alert), but right after she talks about Quirin being out, a model may read it as her own worry or treat the danger as concerning her husband."
+  }
+}

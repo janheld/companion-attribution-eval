@@ -1,0 +1,196 @@
+{
+  "id": "recovery_004",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:57:53.807139+00:00"
+  },
+  "content_hash": "470ac61aeb921629ae65db6c11042aaa340f8763bb834306e8c4cef8d4dc117c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "57938ba36d8f56c9fa1de1c4b4988e5c0b941d5f5a45bebed4013b9e1d4bf4fc"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Barbara",
+    "last_name": "Pichlmayr",
+    "side_older": [
+      "Scholastika",
+      "Roland"
+    ],
+    "side_younger": [
+      "Claudia",
+      "Nico"
+    ],
+    "side_surnames": [
+      "Mühlbacher"
+    ],
+    "id": "recovery_004",
+    "set": "calibration",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 418,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "traffic",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": "Da komm ich grad nicht ganz mit, du springst ein bisschen hin und her. Ist alles in Ordnung bei dir?",
+    "recovery_difficulty": "medium",
+    "action_request": null,
+    "former_job": "Krankenschwester",
+    "interests": [
+      "Feuerwehr (Ehrenmitglied)",
+      "Ausflüge mit dem Seniorenbund"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Barbara Pichlmayr",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 418
+      },
+      "time_of_day": "Montag, 12:00",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenssituation",
+          "text": "Lebt allein in ihrem Haus, war nie verheiratet. Hat in der Küche fast den ganzen Tag das Radio laufen, zu Mittag recht laut."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über dreißig Jahre Krankenschwester, zuletzt auf der Chirurgie im Krankenhaus in der Bezirksstadt. Spricht nüchtern und sachlich über Krankheiten."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen. Die Operation am linken Auge ist in zwei Wochen am Dienstag geplant, das rechte folgt später. Augenarzt ist Dr. Mühlbacher. Liest Kleingedrucktes nur noch mit der Lupe."
+        },
+        {
+          "topic": "Feuerwehr",
+          "text": "Ehrenmitglied der Freiwilligen Feuerwehr im Ort, früher für die Sanitätsausbildung zuständig. Roland, ein langjähriger Kamerad, hält sie über alles auf dem Laufenden."
+        },
+        {
+          "topic": "Freundinnen und Seniorenbund",
+          "text": "Fährt regelmäßig bei den Ausflügen des Seniorenbunds mit, meistens zusammen mit ihrer Freundin Scholastika, die auch noch Auto fährt."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Ihr Patenkind Claudia wohnt weiter weg und schreibt ihr regelmäßig Karten, oft ohne besonderen Anlass. Barbara hebt alle in einer Blechdose auf."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Barbara kam von der Vorbesprechung bei Dr. Mühlbacher. Der Termin für die Operation am linken Auge steht fest. Sie war gefasst und hat vor allem praktische Fragen zum Ablauf gestellt.",
+          "notes": [
+            "OP linkes Auge in zwei Wochen am Dienstag",
+            "Scholastika bringt sie hin und holt sie ab",
+            "Nach der OP einige Tage nicht bücken und nicht schwer heben"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Barbara hat vom geplanten Ausflug des Seniorenbunds am Donnerstag nächster Woche erzählt, eine Fahrt zu einer Mostkost. Sie freut sich darauf, weil es der letzte Ausflug vor der Operation ist.",
+          "notes": [
+            "Seniorenbund-Ausflug am Donnerstag nächster Woche",
+            "Scholastika fährt auch mit",
+            "Abfahrt mit dem Bus um 9 Uhr beim Gemeindeamt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:04",
+        "text": "Mahlzeit, Mira. I hab grad die Suppe aufgestellt, Frittaten hab i noch vom Samstag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mahlzeit, Barbara! Frittatensuppe, das klingt gut für einen Montag."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:05",
+        "text": "Jo, geht schnell. Am Samstag ist übrigens wieder a Karte von der Claudia gekommen, einfach so."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie schön, dass Claudia wieder an dich gedacht hat. Was schreibt sie denn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Dass sie mich besuchen kommt, wenn i operiert bin. Lesen hab i's halt mit der Lupe müssen, so klein schreibt die."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist lieb von ihr. Dann hast du nach der Operation gleich etwas, worauf du dich freuen kannst."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "Eh. Der Dr. Mühlbacher sagt, nach a paar Tagen seh i wieder ordentlich. Na schauen wir mal."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wie es bei dir genau wird, weiß Dr. Mühlbacher am besten. Gut, dass die Scholastika dich an dem Tag hinbringt."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:11",
+        "text": "Freilich. Und vorher am Donnerstag ist noch der Ausflug, den lass i mir net nehmen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das verstehe ich. Die Mostkost wird sicher ein schöner Tag mit der Scholastika."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Bestimmt. Der Roland hat gestern angerufen, ob i zur Weihnachtsfeier von der Feuerwehr komm auf der Umfahrung in Fahrtrichtung Süden bitte bleiben Sie in Ihren Fahrzeugen, die Bergung dauert noch etwa eine Stunde."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da komm ich grad nicht ganz mit, du springst ein bisschen hin und her. Ist alles in Ordnung bei dir?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:14",
+      "text": "Geh, Mira, des war das Radio, die Verkehrsmeldung. Mir geht's gut, i hab nur net leiser gedreht."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "auf der Umfahrung in Fahrtrichtung Süden bitte bleiben Sie in Ihren Fahrzeugen, die Bergung dauert noch etwa eine Stunde.",
+        "type": "traffic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Memory says Barbara keeps the kitchen radio on loud at noon. A traffic announcement merges into her sentence about the fire brigade's Christmas party without a boundary. Medium difficulty: next to the fire-brigade topic it reads odd, but the formal 'Sie' address, 'Fahrtrichtung Süden' and 'Bergung' are clear broadcast traits. The scripted misreading follows, and Barbara corrects it briefly and dryly in her own dialect."
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "id": "incoherent_user_011",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.722741+00:00"
+  },
+  "content_hash": "0a856ab21bd8b7957babec42d70929d852098f4a62dca946067acaa57d3652ae",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Ottilie",
+    "last_name": "Keplinger",
+    "side_older": [
+      "Renate",
+      "Arthur",
+      "Scholastika"
+    ],
+    "side_younger": [
+      "Simone",
+      "Benjamin",
+      "Melanie"
+    ],
+    "side_surnames": [
+      "Koller",
+      "Pramhas"
+    ],
+    "id": "incoherent_user_011",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 116,
+    "time_of_day": "früher Morgen",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Asthma, Spray",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Näherin",
+    "interests": [
+      "Wallfahrten",
+      "Garten"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Ottilie Keplinger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 116
+      },
+      "time_of_day": "Donnerstag, 06:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Benjamin (Neffe)",
+          "text": "Diesen Donnerstag ist der sechzigste Hochzeitstag meiner Tante. Ich gehe an dem Tag am Vormittag mit ihr auf den Friedhof."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Ottilie ist seit sieben Jahren Witwe. Ihr Mann Arthur war Zimmermann. Die beiden haben im Herbst vor sechzig Jahren geheiratet. Tochter Simone lebt in Deutschland und ruft am Wochenende an. Neffe Benjamin, der Sohn ihrer verstorbenen Schwester Scholastika, wohnt im oberen Stock im selben Haus."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Ottilie war Näherin in einer Kleiderfabrik in der Bezirksstadt. Ihr Hochzeitskleid hat sie selbst genäht. Flickt und ändert bis heute Kleidung für die Nachbarschaft."
+        },
+        {
+          "topic": "Wallfahrten",
+          "text": "Geht jedes Jahr im Frühjahr mit ihrer Freundin Renate auf Wallfahrt, am liebsten zur Wallfahrtskirche auf der Kranawendhöhe. Dorthin sind Arthur und sie auf der Hochzeitsreise zu Fuß gegangen."
+        },
+        {
+          "topic": "Garten",
+          "text": "Kleiner Garten mit Rosen am Zaun, Gemüsebeeten und Johannisbeeren. Die Rosen deckt sie jeden Herbst mit Reisig ab."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Asthma, nimmt morgens und abends ein Spray und hat ein Notfallspray. Kalte Luft verträgt sie schlecht. Hausärztin ist Dr. Koller."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Ottilie hat erzählt, dass in zwei Tagen ihr sechzigster Hochzeitstag wäre. Benjamin hat angeboten, am Donnerstag am Vormittag mit ihr auf den Friedhof zu gehen. Sie hat sich darüber sehr gefreut.",
+          "notes": [
+            "sechzigster Hochzeitstag steht an",
+            "Benjamin begleitet sie auf den Friedhof",
+            "freut sich über die Begleitung"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Simone hat angerufen. Danach hat Ottilie mit Mira über die Wallfahrt im Frühjahr gesprochen, die sie wieder mit Renate machen möchte. Sie war unsicher, ob sie den Anstieg mit ihrem Asthma noch schafft.",
+          "notes": [
+            "Anruf von Simone",
+            "Wallfahrt mit Renate im Frühjahr geplant",
+            "Sorge wegen des Anstiegs"
+          ]
+        },
+        {
+          "date": "Freitag, vor 6 Tagen",
+          "summary": "Ottilie hat bei der Gärtnerei Reisig gekauft, um die Rosen am Zaun abzudecken. Benjamin hat ihr die Bündel nach Hause getragen. Sie will die Rosen vor dem ersten Frost zudecken.",
+          "notes": [
+            "Reisig für die Rosen gekauft",
+            "Rosen sollen vor dem Frost zugedeckt werden"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Mira, weißt du, wie lang sechzig Jahre sind? Auf den Tag genau vor sechzig Jahren hab ich den Arthur geheiratet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Sechzig Jahre, Ottilie, das ist ein ganzes Leben. Schön, dass du heute gleich in der Früh an ihn denkst."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:14",
+        "text": "Ich konnte eh nicht mehr schlafen. Um fünf war ich schon wach und hab das Hochzeitsfoto vom Schrank heruntergeholt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Was sieht man denn auf dem Foto?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:16",
+        "text": "Uns zwei vor der Kirche, der Arthur in seinem dunklen Anzug, und ich im Kleid, das hab ich selber genäht. Den Stoff hab ich mir vom ersten Lohn in der Fabrik gekauft, so ein feiner Satin, und dann hat der Arthur, der … jetzt weiß ich nimmer, was ich sagen wollt. Die Rosen beim Zaun gehören noch zugedeckt, bevor es friert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein selbst genähtes Kleid aus feinem Satin, das muss wunderschön ausgesehen haben. Und die Rosen beim Zaun kannst du zudecken, wenn es draußen heller ist."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:20",
+        "text": "Ja. Später geh ich auf den Friedhof und zünd ihm eine Kerze an. Der Benjamin geht mit, er hat sich extra den Vormittag freigenommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist lieb vom Benjamin, dass er dich begleitet. Da bist du heute nicht allein mit dem Tag."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:23",
+        "text": "Draußen ist es noch so kalt. Ich hab mein Spray schon genommen, sonst zieht es mir bei der kalten Luft gleich zu."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du daran gedacht hast. Wenn es trotz Spray eng wird, ist die Dr. Koller die Richtige, um das anzuschauen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:26",
+      "text": "Mach ich schon. Auf der Hochzeitsreise sind wir zu Fuß auf die Kranawendhöhe gegangen, zur Wallfahrtskirche, und der Arthur hat die ganze Zeit meine Tasche getragen. Ob ich das im Frühjahr noch einmal schaffe, da hinauf?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "und dann hat der Arthur, der … jetzt weiß ich nimmer, was ich sagen wollt. Die Rosen beim Zaun gehören noch zugedeckt, bevor es friert.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Genuine incoherence (losing the thread mid-sentence): while describing her wedding dress, Ottilie breaks off mid-sentence and continues with an unrelated garden chore in the same calm, plain voice. The rose topic is her own (memory mentions it), so it reads like the person drifting, not like TV or an STT cut-off, because she simply carries on with a new thought. Everything else in the anniversary conversation is coherent and consistent with memory and time."
+  }
+}

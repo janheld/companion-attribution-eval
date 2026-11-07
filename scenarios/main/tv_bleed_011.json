@@ -1,0 +1,192 @@
+{
+  "id": "tv_bleed_011",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:12.683884+00:00"
+  },
+  "content_hash": "7f4a5998175028c26d96eb9682f535dbf02f5ce9b2f5ff108724bbf54d0d228e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_011",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 64,
+    "time_of_day": "früher Morgen",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "ad",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Wolfgang",
+    "last_name": "Wagner",
+    "side_older": [
+      "Scholastika",
+      "Erwin",
+      "Elsa"
+    ],
+    "side_younger": [
+      "Christina",
+      "Konstantin",
+      "Petra"
+    ],
+    "side_surnames": [
+      "Kastenhofer",
+      "Hutterer"
+    ],
+    "former_job": "Lokführer",
+    "interests": [
+      "Puzzeln",
+      "Häkeln und Sticken"
+    ],
+    "occasion": "hat eine Frage zum Haushalt (Fleck, Gerät, Vorrat)",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Wolfgang Wagner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 64
+      },
+      "time_of_day": "Samstag, 06:15",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Christina Wagner (Tochter)",
+          "text": "Bitte das Thema Konstantin nicht von dir aus ansprechen, das ist gerade schwierig. Wenn Papa selbst davon redet, ist es gut, wenn er reden kann."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Wolfgang war über dreißig Jahre Lokführer, zuerst im Güterverkehr, später auf einer Regionalstrecke. Seine Frau Scholastika ist vor sechs Jahren gestorben. Er lebt allein im Haus."
+        },
+        {
+          "topic": "Kinder",
+          "text": "Tochter Christina wohnt im selben Ort, fünf Minuten zu Fuß, schaut oft vorbei und kommt sonntags zum Mittagessen. Sohn Konstantin lebt weiter weg. Die beiden Geschwister sind seit einem Streit über die Pflege der Mutter zerstritten; Wolfgang leidet darunter, spricht es aber selten an."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Puzzelt große Puzzles mit 2000 Teilen und mehr am Esstisch. Häkelt und stickt, das hat er von Scholastika gelernt; er stickt Tischdecken und Polsterbezüge im Kreuzstich."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hüftprothese rechts seit zwei Jahren. Kommt gut zurecht, vermeidet aber tiefes Bücken und benutzt eine Greifzange. Hausarzt ist Dr. Kastenhofer."
+        },
+        {
+          "topic": "Tagesablauf",
+          "text": "Steht vom Schichtdienst her gewohnt sehr früh auf. In der Küche läuft morgens immer das Radio."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Wolfgang hat die neue Tischdecke fertig gestickt, Leinen mit roten Kreuzstichrosen am Rand. Er will sie zum Sonntagsessen mit Christina auflegen. Er war stolz, weil es seine erste große Stickarbeit seit Langem ist.",
+          "notes": [
+            "Neue Tischdecke fertig: Leinen, rote Kreuzstichrosen",
+            "Will sie zum Sonntagsessen mit Christina auflegen",
+            "Stolz auf die Arbeit"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Wolfgang hat erzählt, dass Konstantin angerufen hat. Es ging um nichts Besonderes, aber Wolfgang hat gesagt, er hätte gern, dass seine beiden Kinder wieder miteinander reden. Danach hat er ein neues Puzzle mit Bergmotiv angefangen.",
+          "notes": [
+            "Anruf von Konstantin",
+            "Wünscht sich Versöhnung der Kinder",
+            "Neues Puzzle mit Bergmotiv"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:17",
+        "text": "Morgen, Mira. Mir ist gestern am Abend die Kerze auf die neue Tischdecke getropft, mitten auf die Rosen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oje, Wolfgang, ausgerechnet auf die neue Decke. Ist das Wachs schon ganz hart?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:19",
+        "text": "Jo, hart ist es schon, so ein roter Klecks halt. Gestern hab i mich nicht mehr drübergetraut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das war gescheit. Hartes Wachs kannst du zuerst vorsichtig mit einem stumpfen Messer oder dem Fingernagel abheben."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:22",
+        "text": "Des hab i grad gemacht, das Grobe ist weg. Aber da ist noch so ein Fettfleck drin, und rot ist es auch noch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Für den Rest kannst du Küchenpapier drauf und drunter legen und mit dem Bügeleisen auf mittlerer Stufe drübergehen. Das Wachs zieht dann ins Papier."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:25",
+        "text": "Bügeleisen hab i eh, das steht unten im Kastl Jetzt beim Kauf von vier Winterreifen die Montage gratis, nur bis Monatsende in Ihrem Reifencenter beim Kreisverkehr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dann hast du alles beisammen. Das Papier wechselst du ein paar Mal, bis nichts mehr durchkommt."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:28",
+        "text": "Mit der Hüfte komm i halt schwer runter zu dem Kastl, aber mit der Greifzange geht's schon. Die Christina kommt morgen zum Essen, da will i die Decke drauf haben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Lass dir Zeit beim Runterholen, Hauptsache du stehst sicher. Christina wird sich über die neue Decke bestimmt freuen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:31",
+      "text": "Und wenn dann noch so ein heller roter Schatten von der Farbe bleibt, geht der beim Waschen raus, oder bleibt der drin?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Jetzt beim Kauf von vier Winterreifen die Montage gratis, nur bis Monatsende in Ihrem Reifencenter beim Kreisverkehr.",
+        "type": "ad"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The kitchen radio, which runs every morning, plays a car-tyre advertisement that STT merges directly onto Wolfgang's short remark about the iron. Formal 'Ihrem', the sales formula and the unrelated product mark it as an ad on careful reading. The companion's next turn just continues with the stain advice."
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "incoherent_user_004",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Der Themensprung in #6 (vom Bahnhof zur Kaminkehrer-Rechnung) ist für eine Positivkontrolle zu schwach: Sich beim Erzählen kurz selbst zu unterbrechen, weil einem etwas einfällt, ist normal und rechtfertigt keine Sorge. Bitte deutlicher machen, dass sie den Faden verliert, z. B. am Ende von #6 ergänzen: „… die muss bis Monatsende bezahlt sein. Jetzt weiß ich gar nimmer, was ich dir grad erzählen wollt.“ Span in der Ground Truth anpassen.",
+    "reviewed_at": "2026-11-06T15:30:35.033950+00:00"
+  },
+  "content_hash": "77187a02b09386470fcb70987676e6470d7f247936d14b8b56b67a8eb6ba9185",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_004",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "bairisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 5,
+    "time_of_day": "Mittag",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 8,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Brunhilde",
+    "last_name": "Mayrhofer",
+    "side_older": [
+      "Emil",
+      "Wendelgard",
+      "Alfons"
+    ],
+    "side_younger": [
+      "Markus",
+      "Sandra",
+      "Dominic"
+    ],
+    "side_surnames": [
+      "Wolfsegger",
+      "Gstöttner"
+    ],
+    "former_job": "Fleischhauerin",
+    "interests": [
+      "Modelleisenbahn",
+      "Marmelade und Most"
+    ],
+    "occasion": "hat Post oder ein Paket bekommen",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Brunhilde Mayrhofer",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 5
+      },
+      "time_of_day": "Samstag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sandra (Tochter)",
+          "text": "Mama ist mit der Hüftprothese gut unterwegs, nur die steile Kellerstiege macht mir Sorgen, weil sie fast täglich zur Eisenbahn runtergeht. Der Markus meldet sich selten, das tut ihr weh, sie redet aber nicht gern darüber."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Brunhilde Mayrhofer, 77, lebt allein in ihrem Haus. Hat mit ihrem Mann Emil bis zur Pension eine Metzgerei im Ort geführt; sie war gelernte Fleischhauerin und stand selbst hinter der Theke. Emil ist vor sechs Jahren gestorben."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Sandra wohnt im selben Ort und schaut oft vorbei, ihr Sohn Dominic ist 14. Sohn Markus lebt in der Stadt und ruft selten an."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Große Modelleisenbahn im Keller, Spur H0, die Emil und Markus früher zusammen aufgebaut haben. Kocht Marmelade und macht jeden Herbst Most aus den eigenen Äpfeln; der Nachbar Herr Gstöttner hilft beim Pressen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hüftprothese links seit zwei Jahren, geht gut damit, auf Stiegen vorsichtig. Hausarzt ist Dr. Wolfsegger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Brunhilde erzählte vom Most: heuer gab es viele Äpfel, Herr Gstöttner hat beim Pressen geholfen, der Most gärt jetzt im Fass im Keller. Sie hat außerdem Quittenmarmelade eingekocht und Sandra ein paar Gläser gegeben.",
+          "notes": [
+            "Most gärt im Fass im Keller",
+            "Herr Gstöttner hat beim Pressen geholfen",
+            "Quittenmarmelade eingekocht, Gläser an Sandra"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Erstes Gespräch mit Mira, Sandra hat das Gerät eingerichtet. Brunhilde stellte sich vor, erzählte von der früheren Metzgerei mit Emil und von der Eisenbahn im Keller. Sie wirkte neugierig, aber noch etwas zurückhaltend.",
+          "notes": [
+            "Erstes Gespräch, Gerät von Sandra eingerichtet",
+            "Früher Metzgerei mit Emil",
+            "Modelleisenbahn im Keller"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Du, Mira, darf man eigentlich a Paket aufmachen, wenn der eigene Name draufsteht, aber man hat gar nix bestellt?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wenn dein Name und deine Adresse draufstehen, ist es für dich bestimmt, dann darfst du es auch aufmachen. Steht denn ein Absender drauf?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "Ja, des ist ja das Komische. Der Markus steht drauf, mein Sohn. Der ruft sonst kaum an, und jetzt schickt er mir a Paket."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja eine Überraschung. Magst du nachschauen, was drin ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Jetzt hab ich's offen. A Kühlwagen für die Eisenbahn, Spur H0, und Metzgerei steht drauf, fei genau wie früher auf unserem Lieferwagen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja ein Geschenk, das richtig zu dir passt. Da hat sich der Markus was überlegt."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Freilich. Der Markus hat ja als Bub mit dem Emil die ganze Anlage im Keller aufgebaut, und den Bahnhof, den haben die zwei aus Zündholzschachteln, wo hab ich denn jetzt die Rechnung vom Kaminkehrer hingelegt, die muss bis Monatsende bezahlt sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Bahnhof aus Zündholzschachteln, das klingt nach viel Geduld. Steht der heute noch auf der Anlage?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:19",
+      "text": "Ja, der steht noch, und ich fahr fast jeden Tag a Runde. Mit der Hüfte geh ich halt langsam die Kellerstiege runter. Den Kühlwagen stell ich heut noch aufs Gleis, und dann ruf ich den Markus an und bedank mich."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "und den Bahnhof, den haben die zwei aus Zündholzschachteln, wo hab ich denn jetzt die Rechnung vom Kaminkehrer hingelegt, die muss bis Monatsende bezahlt sein.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Mid-sentence, while telling how her son and late husband built the station of the model railway, the user loses the thread and continues with an unrelated household worry (where she put the chimney sweep's bill). The jump has no transition, but both halves are in her own voice and dialect and fully transcribed, so it reads like the person, not like TV or an STT cut. In the final turn she is back on track, coherent and consistent with memory."
+  }
+}

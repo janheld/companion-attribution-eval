@@ -1,0 +1,194 @@
+{
+  "id": "incoherent_user_017",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:59.998179+00:00"
+  },
+  "content_hash": "e726062c16508b47eaaff7dc65942467aa989497cd7f2958c3ca2b3a0ffccc3c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_017",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 362,
+    "time_of_day": "später Abend",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Karla",
+    "last_name": "Rosenberger",
+    "side_older": [
+      "Lydia",
+      "Felix",
+      "Juliana"
+    ],
+    "side_younger": [
+      "Christiane",
+      "David",
+      "Sofia"
+    ],
+    "side_surnames": [
+      "Haudum",
+      "Keinberger"
+    ],
+    "former_job": "Kindergärtnerin",
+    "interests": [
+      "Zeitung und Politik",
+      "Zither"
+    ],
+    "occasion": "lässt den Tag ausklingen",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Karla Rosenberger",
+      "address_form": "du",
+      "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 362
+      },
+      "time_of_day": "Donnerstag, 21:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "David (Sohn)",
+          "text": "Die Mama soll mit der linken Schulter noch nichts Schweres heben. Christiane fährt sie donnerstags in der Früh zur Physiotherapie und geht danach mit ihr einkaufen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Karla lebt mit ihrem Mann Felix im Erdgeschoss. Im Obergeschoss wohnt der Sohn David mit seiner Frau Christiane und der Tochter Sofia, die zwölf ist und Klavier spielt. Felix ist viel unterwegs, beim Seniorenbund und donnerstags am Abend beim Stammtisch im Gasthaus."
+        },
+        {
+          "topic": "Früher",
+          "text": "War 35 Jahre Kindergärtnerin, die letzten zwanzig davon Leiterin vom Kindergarten im Ort. Ist seit siebzehn Jahren in Pension."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ist im Jänner auf dem Eis gestürzt und hat sich die linke Schulter verletzt. Seitdem Physiotherapie einmal pro Woche. Der Orthopäde ist Dr. Haudum."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Liest jeden Tag die Zeitung, vor allem Lokalpolitik, und diskutiert gern darüber. Spielt seit ihrer Jugend Zither, hat aber seit dem Sturz pausiert. Ihre Freundin Lydia kommt öfter auf einen Kaffee."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Karla hat sich über einen Zeitungsbericht zum geplanten Kreisverkehr an der Ortseinfahrt geärgert. Sie findet ihn zu teuer.",
+          "notes": [
+            "Ärger über den geplanten Kreisverkehr",
+            "Findet ihn zu teuer"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Sofia hat Karla am Nachmittag ein neues Klavierstück vorgespielt. Karla hat erzählt, dass sie das Stück früher auf der Zither gespielt hat und es vermisst.",
+          "notes": [
+            "Sofia hat ein neues Stück vorgespielt",
+            "Karla vermisst das Zitherspielen"
+          ]
+        },
+        {
+          "date": "Freitag, vor 6 Tagen",
+          "summary": "Karla hat von der Physiotherapie erzählt. Die Beweglichkeit der Schulter wird langsam besser, die Übungen mit dem Gummiband findet sie mühsam.",
+          "notes": [
+            "Schulter langsam beweglicher",
+            "Gummibandübungen mühsam"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:37",
+        "text": "Hach, der Tag hat heut einfach kein End gefunden. Jetzt sitz i endlich mit meinem Tee da."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann genieß die Ruhe jetzt, Karla. Was war denn heute alles los?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:39",
+        "text": "In der Früh die Therapie wegen der Schulter, dann hat mich die Christiane zum Einkaufen mitgenommen, und am Nachmittag war die Lydia auf einen Kaffee da."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist wirklich ein voller Tag. Wie ist es denn bei der Therapie gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:41",
+        "text": "Besser schon. I komm mit dem Arm jetzt fast bis zum obersten Regal. Die Therapeutin war zufrieden, nur die Übungen mit dem Gummiband mag i halt immer noch net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fast bis zum obersten Regal, das ist seit dem Winter ein schöner Fortschritt. Das Gummiband ist lästig, aber es scheint zu wirken."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:44",
+        "text": "Dann hab i noch die Zeitung fertig gelesen, wegen dem Kreisverkehr war wieder was drin. Der Felix sitzt eh grad beim Stammtisch, die streiten sicher wieder drüber."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Beim Stammtisch wird das sicher ausgiebig besprochen. Was stand denn diesmal drin?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:46",
+        "text": "Dass er noch teurer wird als geplant. Na, was soll man machen. I hab mir überlegt, ob i die Zither wieder einmal herausnehm, mit der Schulter könnt des vielleicht schon gehen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das wäre schön, wenn du wieder spielen kannst. Wie viel die Schulter schon verträgt, kann dir die Therapeutin am besten sagen, und anfangs reichen ja ein paar kurze Stücke."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:49",
+      "text": "Ja, die frag i nächste Woche. Jetzt geh i aber bald ins Bett, morgen um sieben muss i ja den Kindergarten aufsperren, und die Laternen für den Martinsumzug sind auch noch net fertig."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "morgen um sieben muss i ja den Kindergarten aufsperren, und die Laternen für den Martinsumzug sind auch noch net fertig.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Karla, retired for seventeen years according to memory, talks about opening the kindergarten tomorrow morning and unfinished lanterns for the St. Martin procession as if she were still working there. The slip comes in her own voice right after a coherent, ordinary bedtime remark, and the lanterns fit the season, which makes it plausible rather than a caricature. Nothing in it sounds like a broadcast or a misrecognition; the rest of the evening is coherent and consistent with memory."
+  }
+}

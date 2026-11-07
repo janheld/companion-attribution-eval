@@ -1,0 +1,182 @@
+{
+  "id": "incoherent_user_012",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:47.710526+00:00"
+  },
+  "content_hash": "6ffd37e421ea6a97f4639282cca82bf2f26985f6ff24479dac7cc2544b42329b",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_012",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 361,
+    "time_of_day": "Vormittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 8,
+    "health": "Herzrhythmusstörung, Kontrolle beim Kardiologen",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Liselotte",
+    "last_name": "Haider",
+    "side_older": [
+      "Reinhold",
+      "Wiltrud",
+      "Ludwig"
+    ],
+    "side_younger": [
+      "Hannes",
+      "Leonie",
+      "Fabian"
+    ],
+    "side_surnames": [
+      "Aichinger",
+      "Höglinger"
+    ],
+    "former_job": "Tischlerin",
+    "interests": [
+      "Kreuzworträtsel",
+      "Volksmusik im Radio"
+    ],
+    "occasion": "ärgert sich über etwas (Amt, Handwerker, Rechnung, Lärm)",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Liselotte Haider",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 361
+      },
+      "time_of_day": "Mittwoch, 09:46",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Leonie (Nichte)",
+          "text": "Ich erledige für meine Tante Rechnungen und Behördensachen. Wenn ihr etwas zu hoch vorkommt, soll sie es mir hinlegen, ich komme jeden zweiten Samstag."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Liselotte war nie verheiratet und lebt allein in ihrem Haus. Ihre Nichte Leonie, Tochter ihres verstorbenen Bruders Reinhold, kümmert sich um Rechnungen, Anträge und Behördensachen. Mit ihrer Freundin Wiltrud telefoniert sie fast täglich."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Liselotte war vierzig Jahre Tischlerin, eine der ersten Frauen im Bezirk mit Meisterprüfung. Sie hat eine Werkstatt im Keller, in der sie noch kleine Reparaturen macht."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Löst jeden Tag das Kreuzworträtsel aus der Zeitung, am liebsten schwere. Hört gern Volksmusik im Radio, besonders die Sendung am Sonntagnachmittag."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Herzrhythmusstörung, nimmt Tabletten und geht halbjährlich zur Kontrolle bei Dr. Aichinger, dem Kardiologen. Soll sich nicht zu sehr aufregen."
+        },
+        {
+          "topic": "Haus",
+          "text": "Die Gastherme im Keller ist alt und musste schon öfter repariert werden. Nachbar Herr Höglinger hilft beim Schneeräumen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Der Installateur war am Vormittag da und hat an der Gastherme ein Ventil getauscht. Liselotte war froh, dass sie wieder warmes Wasser hat, und hat erzählt, dass sie die ganze Zeit danebengestanden ist und zugeschaut hat.",
+          "notes": [
+            "Installateur hat ein Ventil an der Therme getauscht",
+            "warmes Wasser geht wieder",
+            "Liselotte hat bei der Reparatur zugeschaut"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Liselotte war bei der Kontrolle bei Dr. Aichinger. Leonie hat sie hingefahren. Die Tabletten bleiben gleich, die nächste Kontrolle ist in einem halben Jahr. Danach hat sie mit Mira ein Kreuzworträtsel fertig gemacht.",
+          "notes": [
+            "Kontrolle beim Kardiologen",
+            "Tabletten bleiben gleich",
+            "nächste Kontrolle in einem halben Jahr"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:48",
+        "text": "Vierhundertachtzig Euro für ein Ventil und a Stunde Arbeit. Die Rechnung vom Installateur ist grad mit der Post gekommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein ordentlicher Betrag, Liselotte. Steht auf der Rechnung aufgeschlüsselt, wofür das alles ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:51",
+        "text": "Anfahrt, Arbeitszeit, Material und dann noch so a Pauschale für Kleinteile. Der ist am Montag keine Stunde da gewesen, des weiß i genau, i bin ja danebengestanden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wenn du die ganze Zeit dabei warst, hast du einen guten Überblick. Welcher Posten kommt dir am meisten zu hoch vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:54",
+        "text": "Die Pauschale. Hundertzwanzig Euro für ein paar Dichtungen und zwei Schellen. I war vierzig Jahre Tischlerin, i weiß schon, was Kleinmaterial kostet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit deiner Erfahrung hast du da ein gutes Gespür. Bei so einem Posten kann man beim Betrieb nachfragen, wie er sich zusammensetzt."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:57",
+        "text": "Des macht eh die Leonie für mich, die kann des am Telefon besser. I reg mich da nur auf, und aufregen soll i mich ja net, sagt der Kardiologe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist das bei der Leonie in guten Händen. Bis sie kommt, kannst du die Rechnung einfach zur Seite legen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:00",
+      "text": "Jo, leg i sie zu den anderen Sachen für die Leonie. Aber sag, wann kommt der jetzt eigentlich, der Installateur? I hab ja noch gar keinen Termin ausgemacht, und zahlen soll i schon."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Aber sag, wann kommt der jetzt eigentlich, der Installateur? I hab ja noch gar keinen Termin ausgemacht, und zahlen soll i schon.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Genuine incoherence (losing track of what already happened): minutes after describing in detail how she stood next to the plumber during Monday's repair, and with memory confirming it, Liselotte asks when he will come and says no appointment has been made yet. It is in her own dialect and annoyed tone, continuing the bill topic, so it reads like the person, not like TV or a recognition error. The rest of the conversation is coherent and consistent with memory and time."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": "tv_bleed_010",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:05.206130+00:00"
+  },
+  "content_hash": "ba98c8c02f6d235e8ade10995a8a94c7bc91b980afa395920349c19bc534d38d",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_010",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 264,
+    "time_of_day": "Mittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "other_person",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 6,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Nepomuk",
+    "last_name": "Klaffenböck",
+    "side_older": [
+      "Ludwig",
+      "Ingrid",
+      "Wendelin"
+    ],
+    "side_younger": [
+      "Niklas",
+      "Tamara",
+      "Maximilian"
+    ],
+    "side_surnames": [
+      "Daxberger",
+      "Wiesmayr"
+    ],
+    "former_job": "Postbeamter",
+    "interests": [
+      "Kegeln",
+      "Volksmusik im Radio"
+    ],
+    "occasion": "kocht gerade",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Nepomuk Klaffenböck",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 264
+      },
+      "time_of_day": "Montag, 11:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Ingrid Klaffenböck (Ehefrau)",
+          "text": "Nepomuk tut sich wegen der Augen beim Lesen von Rezepten und Packungen schwer. Er fragt dann gern nach Mengen und Zeiten."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Nepomuk war 38 Jahre bei der Post, zuerst Briefträger, später am Schalter im Postamt des Ortes. Er ist mit Ingrid verheiratet."
+        },
+        {
+          "topic": "Haushalt",
+          "text": "Ingrid ist viel unterwegs: Montagvormittag Seniorenturnen, mittwochs Pfarrcafé, oft bei Freundinnen. Nepomuk kocht unter der Woche meistens das Mittagessen. Montags kommt Ingrid gegen halb eins heim."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Donnerstagabend Kegeln im Gasthaus mit Ludwig und Wendelin. Hört gern Volksmusik im Radio, vor allem die Sendung am Sonntagvormittag."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen, links stärker. Die Operation am linken Auge ist in drei Wochen im Krankenhaus in der Bezirksstadt geplant. Kleine Schrift liest er nur mehr mit Lupe. Hausarzt ist Dr. Daxberger."
+        },
+        {
+          "topic": "Patenkind und Nachbar",
+          "text": "Patenkind Tamara, 29, Ludwigs Tochter, schreibt ihm regelmäßig Karten, die er alle aufhebt. Der Nachbar Herr Wiesmayr hilft gern aus; die beiden borgen sich gegenseitig Werkzeug."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Nepomuk hat erzählt, dass eine Karte von Tamara gekommen ist, sie war eine Woche am Meer. Er konnte sie nur mit der Lupe lesen. Er hat sich gefragt, ob er nach der Operation wieder ohne Lupe lesen kann.",
+          "notes": [
+            "Karte von Tamara vom Urlaub am Meer",
+            "Liest Karten nur mit Lupe",
+            "Hofft, nach der Operation besser lesen zu können"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Kurzes Gespräch vor dem Kegelabend. Nepomuk hat Herrn Wiesmayr am Vormittag seine Leiter geborgt, weil der die Dachrinne putzen wollte. Er hat erwähnt, dass er am Montag Krautfleckerl kochen will, weil Ingrid sie sich wünscht.",
+          "notes": [
+            "Leiter an Herrn Wiesmayr verborgt",
+            "Plant Krautfleckerl für Montag",
+            "Kegelabend mit Ludwig und Wendelin"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "11:47",
+        "text": "Mira, wie viel Kraut nimmt man eigentlich auf ein Packerl Fleckerl? Ich hab einen ganzen Kopf da und weiß nicht, ob das zu viel ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Für ein Packerl mit 250 Gramm rechnet man meistens ungefähr einen halben Krautkopf. Ein ganzer ist eher viel, aber Krautfleckerl verträgt ruhig etwas mehr Kraut."
+      },
+      {
+        "role": "user",
+        "timestamp": "11:51",
+        "text": "Dann nehm ich gut die Hälfte, den Rest kann Ingrid für einen Salat haben. Das Kraut ist jetzt geschnitten, der Zucker ist schon im Topf Die Leiter stell ich dir hinters Haus zur Garage, gell, und danke nochmal, Nepomuk."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dann kann der Zucker langsam karamellisieren. Lass ihn nur goldbraun werden, dann kommt das Kraut dazu."
+      },
+      {
+        "role": "user",
+        "timestamp": "11:55",
+        "text": "Mit dem Lesen von der Packung tu ich mir schwer, aber die Fleckerl mach ich eh nach Gefühl. Ingrid kommt um halb eins, bis dahin soll alles fertig sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das geht sich gut aus. Das Kraut braucht ungefähr zwanzig bis dreißig Minuten, bis es schön weich und braun ist."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "11:58",
+      "text": "Wie viel Kümmel nimmt man da ungefähr? Ingrid mag ihn nicht so stark, aber ganz ohne schmeckt es mir nicht."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Die Leiter stell ich dir hinters Haus zur Garage, gell, und danke nochmal, Nepomuk.",
+        "type": "other_person"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The neighbor returns the borrowed ladder and speaks into the kitchen while Nepomuk is cooking; the device transcribes it as part of Nepomuk's turn. The neighbor addresses Nepomuk by name and speaks from the borrower's perspective, which marks it as another person on careful reading. The companion's next turn answers only the cooking part."
+  }
+}

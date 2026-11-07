@@ -1,0 +1,191 @@
+{
+  "id": "contact_024",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:25:51.222854+00:00"
+  },
+  "content_hash": "8a50aa46b56eabf421f305ff5e9f7597d022e54bf24f0c5bd03411dae0fa05b8",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_024",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 140,
+    "time_of_day": "später Abend",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "new_acquaintance",
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Erna",
+    "last_name": "Loidl",
+    "side_older": [
+      "Dietrich",
+      "Stefanie",
+      "Benedikt"
+    ],
+    "side_younger": [
+      "Sandro",
+      "Nadine",
+      "Mario"
+    ],
+    "side_surnames": [
+      "Langeder",
+      "Ecker"
+    ],
+    "former_job": "Kellnerin",
+    "interests": [
+      "Kartenspielen",
+      "Kegeln"
+    ],
+    "occasion": "hat etwas in Radio oder Zeitung gehört und will darüber reden",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Erna Loidl",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 140
+      },
+      "time_of_day": "Montag, 21:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Schwester Stefanie",
+          "text": "Erna hat seit zwei Jahren eine Hüftprothese links. Sie kegelt wieder, soll aber laut Dr. Langeder nicht übertreiben."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Erna ist 76, geschieden, hat keine Kinder und lebt allein in einer kleinen Wohnung. Sie war fünfundzwanzig Jahre Kellnerin im Gasthaus Hollerwiesner im Ort."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihre Schwester Stefanie wohnt in der Stadt. Die beiden telefonieren jeden Morgen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hüftprothese links seit zwei Jahren, Orthopäde ist Dr. Langeder. Sie geht ohne Stock, nach langem Stehen zieht es manchmal."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Kegelt jeden Montagabend mit ihrer Kegelrunde auf der Bahn beim Hollerwiesner. Spielt gern Karten, vor allem Schnapsen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Erna war beim Preisschnapsen im Pfarrheim und ist Dritte geworden. Sie hat einen Geschenkkorb gewonnen und einen Teil davon Stefanie versprochen.",
+          "notes": [
+            "Dritte beim Preisschnapsen",
+            "Geschenkkorb gewonnen, will Stefanie etwas davon abgeben"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Erna erzählte, dass im Ort gemunkelt wird, das Gasthaus Hollerwiesner könnte zusperren. Sie macht sich Sorgen um die Kegelbahn der Montagsrunde.",
+          "notes": [
+            "Gerücht, dass der Hollerwiesner zusperrt",
+            "sorgt sich um die Kegelbahn",
+            "Stefanie hat angerufen, alles gut bei ihr"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:41",
+        "text": "I lieg schon im Bett, aber die Zeitung hab i noch mitgenommen. Da steht drin, dass der Hollerwiesner mit Jahresende zusperrt. Beim Kegeln haben's heut eh alle schon gemunkelt, aber jetzt steht's schwarz auf weiß."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oh, Erna, dann ist es jetzt also fix. Da hast du doch so viele Jahre gearbeitet."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Fünfundzwanzig Jahr, jo. Die Wirtsleut finden halt keinen Nachfolger, steht da. Die Küche hat eh schon länger nur mehr am Wochenende aufgehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das tut sicher weh, wenn so ein Ort zusperrt. Woran denkst du da als Erstes?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:45",
+        "text": "An die Hochzeiten. Da hab i oft bis vier in der Früh Teller getragen, und am Sonntag um neun war schon wieder Frühschoppen. Des tät meine Hüfte heut nimmer mitmachen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das war ein ordentliches Pensum. Wie geht's der Hüfte denn zurzeit?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:47",
+        "text": "Eh gut. Beim Kegeln hat's heut a bissl gezogen, aber des ist meistens am nächsten Tag wieder weg."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wenn das Ziehen öfter kommt oder länger bleibt, wäre Dr. Langeder der Richtige, um draufzuschauen."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:49",
+        "text": "Jo, mach i eh. Aber was mich mehr beschäftigt: Unsere Kegelbahn ist ja beim Hollerwiesner. Wo sollen denn wir dann hin mit unserer Montagsrunde?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine berechtigte Frage. Gibt es in der Gegend noch andere Gasthäuser mit Kegelbahn?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:51",
+        "text": "Die Stefanie hat einmal gesagt, im Nachbarort gibt's noch eine, aber die weiß des auch nur vom Hörensagen. I ruf sie morgen in der Früh eh an, wie jeden Tag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann könnt ihr das morgen gleich zusammen überlegen. Vielleicht weiß auch jemand aus deiner Runde mehr."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:54",
+      "text": "Des ist eh lustig, heut war beim Kegeln einer zum ersten Mal dabei, der Dietrich, der ist erst im Sommer hergezogen. Der kennt die Bahn drüben und hat gemeint, er tät uns einmal hinführen. Mit dem hab i nachher noch lang geredet. Aber jetzt ist gleich zehn, i sollt eigentlich des Licht ausmachen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "new_acquaintance",
+    "unavailable_action_request": false,
+    "rationale": "A former waitress reads in bed that the inn where she worked and bowls is closing. She then mentions a newcomer to her bowling group who knows another alley, while noting it is nearly ten and she should sleep, so the companion can let her go or ask more about the new acquaintance."
+  }
+}

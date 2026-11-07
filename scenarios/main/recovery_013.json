@@ -1,0 +1,197 @@
+{
+  "id": "recovery_013",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:43.123197+00:00"
+  },
+  "content_hash": "8c39e9c544a2a254fd4a6ae29194e2f2ddc73312688a533a87e5e24f036e09d9",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_013",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 196,
+    "time_of_day": "Nachmittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_news",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": "Mir kommt vor, du bist gerade nicht ganz bei der Sache. Ist irgendwas?",
+    "recovery_difficulty": "medium",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Emma",
+    "last_name": "Sonnleitner",
+    "side_older": [
+      "Walburga",
+      "Bernhard",
+      "Adelheid"
+    ],
+    "side_younger": [
+      "Petra",
+      "Frederik",
+      "Susanne"
+    ],
+    "side_surnames": [
+      "Hofstadler",
+      "Mittermayr"
+    ],
+    "former_job": "Kassiererin im Lebensmittelgeschäft",
+    "interests": [
+      "Theaterverein",
+      "Marmelade und Most"
+    ],
+    "occasion": "kommt vom Arzt, aus der Apotheke oder von der Therapie",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Emma Sonnleitner",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 196
+      },
+      "time_of_day": "Donnerstag, 15:18",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lebt allein, war nie verheiratet. Ihr Sohn Frederik lebt mit seiner Familie in Kanada, seine Tochter Susanne geht dort zur Schule und ruft meistens sonntags an."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star, die Operation am rechten Auge ist geplant. Augenärztin ist Dr. Hofstadler in der Kreisstadt. Liest kleine Schrift nur noch mit Lupe."
+        },
+        {
+          "topic": "Theaterverein",
+          "text": "Spielt seit vielen Jahren im Theaterverein des Dorfes, meistens komische Nebenrollen. Geprobt wird montags abends im Saal vom Gasthaus. Ihre Freundin Adelheid spielt auch mit."
+        },
+        {
+          "topic": "Marmelade und Most",
+          "text": "Kocht viel Marmelade ein und presst mit ihrer Freundin Walburga jedes Jahr Most aus den Äpfeln von Walburgas Wiese."
+        },
+        {
+          "topic": "Alltag",
+          "text": "War bis zur Rente Kassiererin im Lebensmittelgeschäft im Ort. Schaut nachmittags gern die kurzen Nachrichten um halb vier im Fernsehen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Emma hat mit Walburga den Most abgefüllt, zwanzig Flaschen. Sie sprach darüber, dass ihr das Heben der Kisten schwerer fällt als früher, und dass der Nachbar Herr Mittermayr die Kisten in den Keller getragen hat.",
+          "notes": [
+            "Most mit Walburga abgefüllt",
+            "Herr Mittermayr hat beim Tragen geholfen",
+            "Augenarzttermin bei Dr. Hofstadler steht in zwei Tagen an"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Frederik hat aus Kanada angerufen. Emma erzählte, dass Frederiks Tochter Susanne dort ein Schulkonzert hatte, und dass Frederik im Sommer vielleicht zu Besuch kommt.",
+          "notes": [
+            "Telefonat mit Frederik",
+            "Möglicher Besuch im Sommer",
+            "Freut sich über Neuigkeiten aus Kanada"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:20",
+        "text": "Servus, Mira. Ich bin grad heimgekommen vom Augenarzt, mei, war des eine Warterei."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus, Emma. So eine Warterei ist zäh. Wie ist es bei der Dr. Hofstadler gelaufen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Fast zwei Stunden bin ich im Wartezimmer gesessen. Aber jetzt ist es fix, in drei Wochen wird das rechte Auge operiert."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du jetzt endlich einen Termin. Hast du für die Zeit davor noch etwas mitbekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:24",
+        "text": "Tropfen. Die hab ich mir gleich in der Apotheke geholt, die muss ich ab drei Tage vor der Operation nehmen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du die schon daheim hast. Wenn du beim Eintropfen unsicher bist, zeigen sie dir das in der Apotheke auch gern noch einmal."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:26",
+        "text": "Des krieg ich schon hin. Die Walburga hat gesagt, sie fahrt mich hin, die hat des letztes Jahr selber gehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist praktisch, wenn jemand mitfährt, der das schon kennt. Hat sie dir erzählt, wie es bei ihr war?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:28",
+        "text": "Freilich, die sagt, nachher sieht man die Farben wieder wie früher. Bloß bei den Proben kann ich dann ein paar Wochen den Text net lesen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vielleicht kann dir jemand aus dem Theaterverein den Text vorlesen, dann lernst du ihn übers Zuhören."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:31",
+        "text": "Mei, des wär eine Idee, die Adelheid hat eh so eine schöne Stimme. Bislang gibt es keine Hinweise auf die Ursache, die Polizei ermittelt in alle Richtungen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mir kommt vor, du bist gerade nicht ganz bei der Sache. Ist irgendwas?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:32",
+      "text": "Naa, da läuft der Fernseher, die Nachrichten um halb vier. Bei mir ist fei alles recht."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "Bislang gibt es keine Hinweise auf die Ursache, die Polizei ermittelt in alle Richtungen.",
+        "type": "tv_news"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user habitually watches the short TV news at half past three; a news line about a police investigation is transcribed right after her sentence about her friend's voice. In context it is odd (no cause, no police in her story), but the register ('Bislang', 'ermittelt in alle Richtungen') is clearly a newsreader's, so the difficulty is medium. Her correction is brief and matter-of-fact."
+  }
+}

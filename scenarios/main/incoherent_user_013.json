@@ -1,0 +1,180 @@
+{
+  "id": "incoherent_user_013",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:53.253327+00:00"
+  },
+  "content_hash": "3f025f7418cfd56f9e6d64b4575daf09c7418cc2accc551d706517fb4c5dbfc0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_013",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 51,
+    "time_of_day": "Nachmittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Alfred",
+    "last_name": "Hartl",
+    "side_older": [
+      "Lotte",
+      "Bonifaz",
+      "Rudolfine"
+    ],
+    "side_younger": [
+      "Anita",
+      "Christoph",
+      "Andrea"
+    ],
+    "side_surnames": [
+      "Strasser",
+      "Samhaber"
+    ],
+    "former_job": "Gastwirt",
+    "interests": [
+      "Chor",
+      "Kräuter und Hausmittel"
+    ],
+    "occasion": "kommt vom Arzt, aus der Apotheke oder von der Therapie",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Alfred Hartl",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 51
+      },
+      "time_of_day": "Mittwoch, 15:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Anita (Patenkind)",
+          "text": "Alfred misst seinen Zucker selbst, schreibt die Werte aber nicht immer auf. Wenn er vom Arzt kommt, erzählt er gern, was herausgekommen ist."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Alfred ist seit vier Jahren Witwer. Seine Frau Lotte ist an einer Herzschwäche gestorben. Die beiden hatten keine eigenen Kinder. Sein Patenkind Anita lebt in der Stadt und schreibt ihm regelmäßig Karten, auf die er immer mit der Hand zurückschreibt."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2 seit etwa zehn Jahren, nimmt Tabletten, kein Insulin. Hausarzt ist Dr. Strasser, Kontrolle mit Langzeitzucker alle drei Monate. Der letzte Langzeitwert im Sommer lag bei 6,9. Er achtet aufs Essen, tut sich aber mit Mehlspeisen schwer."
+        },
+        {
+          "topic": "Früher",
+          "text": "Hat über dreißig Jahre mit Lotte das Gasthaus im Ort geführt, er in der Küche, sie in der Gaststube. Vor zwölf Jahren haben sie zugesperrt. Er kocht immer noch gern und lädt ab und zu seinen Freund Bonifaz zum Essen ein."
+        },
+        {
+          "topic": "Chor",
+          "text": "Singt Bass im Männergesangsverein. Probe ist montags am Abend im Vereinsheim, Bonifaz holt ihn mit dem Auto ab."
+        },
+        {
+          "topic": "Kräuter",
+          "text": "Hat ein Kräuterbeet hinter dem Haus und setzt Hausmittel an, zum Beispiel Spitzwegerichsirup und Ringelblumensalbe. Die Nachbarin Rudolfine bekommt oft etwas davon ab."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Alfred hat am Nachmittag Spitzwegerichsirup für die Nachbarin Rudolfine abgefüllt, weil sie seit einer Woche hustet. Am Abend ist er mit Bonifaz zur Chorprobe gefahren.",
+          "notes": [
+            "Rudolfine hat seit einer Woche Husten",
+            "Alfred hat ihr eine Flasche Spitzwegerichsirup gebracht",
+            "Chorprobe am Abend, Bonifaz hat ihn abgeholt"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Alfred hat eine Karte von Anita aus ihrem Urlaub am Meer bekommen und sich darüber gefreut. Er wollte ihr am Wochenende zurückschreiben.",
+          "notes": [
+            "Karte von Anita aus dem Urlaub",
+            "Alfred will mit der Hand zurückschreiben"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 6 Tagen",
+          "summary": "Alfred war nüchtern zur Blutabnahme bei Dr. Strasser. Die Besprechung der Werte ist am Mittwoch nächster Woche. Er hat erzählt, dass er in letzter Zeit wieder öfter Strudel gebacken hat.",
+          "notes": [
+            "Blutabnahme bei Dr. Strasser",
+            "Besprechung der Werte am Mittwoch nächster Woche",
+            "Hat in letzter Zeit öfter Strudel gebacken"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:12",
+        "text": "Sag einmal, Mira, wie viel Kohlenhydrate hat eigentlich so ein Stück Apfelstrudel ungefähr? Ich komm grad vom Dr. Strasser, und der hat mir wieder ins Gewissen geredet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Stück Apfelstrudel hat grob 30 bis 40 Gramm Kohlenhydrate, je nach Größe und Zucker. Was hat der Dr. Strasser denn zu deinen Werten gesagt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:14",
+        "text": "Der Langzeitwert ist raufgegangen, auf 7,4. Weniger Mehlspeisen und mehr gehen, sagt er. Na, die Lotte wird schimpfen, wenn ich ihr das erzähl, die hat mir ja erst heut in der Früh gesagt, ich soll die Finger vom Strudel lassen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "7,4 ist etwas höher als im Sommer. Weniger Süßes und mehr Bewegung sind ein guter Weg, und was genau für dich passt, besprichst du am besten weiter mit dem Dr. Strasser. Hat er dir sonst noch etwas mitgegeben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:17",
+        "text": "Einen Zettel mit Rezepten, lauter Vollkornsachen. In der Apotheke war ich dann auch noch, die Tabletten holen. Die haben dort jetzt einen Zimttee, der soll den Zucker senken, den hab ich aber stehen lassen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du die Tabletten gleich mitgenommen hast. Ob so ein Tee bei dir überhaupt etwas bringt, kann dir die Apotheke oder der Dr. Strasser sagen. Bei den Rezepten ist sicher etwas dabei, das du als alter Koch noch besser hinkriegst."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:20",
+      "text": "Wahrscheinlich. Da steht ein Linsensalat drauf, aber ohne Speck, das ist doch kein Linsensalat. Hast du eine Idee, wie ich den mit meinen Kräutern ein bisschen würziger krieg?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Na, die Lotte wird schimpfen, wenn ich ihr das erzähl, die hat mir ja erst heut in der Früh gesagt, ich soll die Finger vom Strudel lassen.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Alfred speaks of his wife Lotte, who memory says died four years ago, as if she were alive and had warned him this morning. It is in his own voice, tied to the topic (the raised blood sugar and his love of Strudel), and nothing about it sounds like a broadcast or a recognition error. The rest of the session is coherent and matches memory (Dr. Strasser, the summer value, the herb bed)."
+  }
+}

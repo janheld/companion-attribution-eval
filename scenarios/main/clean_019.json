@@ -1,0 +1,195 @@
+{
+  "id": "clean_019",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:59:01.398013+00:00"
+  },
+  "content_hash": "b08ac3c6b764a7a90075dc68b246ae0def9f908db0356435b0501272bbf1d16c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_019",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 58,
+    "time_of_day": "früher Morgen",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Marianne",
+    "last_name": "Stadler",
+    "side_older": [
+      "Alma",
+      "Anselm",
+      "Apollonia"
+    ],
+    "side_younger": [
+      "Sofia",
+      "Stefan",
+      "Nora"
+    ],
+    "side_surnames": [
+      "Lehner",
+      "Gattermayr"
+    ],
+    "former_job": "Bankangestellte",
+    "interests": [
+      "Volkstanz",
+      "Obstbäume und Veredeln"
+    ],
+    "occasion": "schaut in den Garten oder aufs Wetter hinaus",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Marianne Stadler",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 58
+      },
+      "time_of_day": "Sonntag, 06:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sofia (Tochter)",
+          "text": "Mama hat Diabetes Typ 2 und misst den Zucker jeden Morgen vor dem Frühstück. Bitte bei Rezepten nicht zu Süßem raten, sie achtet selbst sehr aufs Essen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Marianne ist mit Anselm verheiratet. Anselm ist in Pension, aber viel unterwegs: bei der Jagdgesellschaft, beim Holzmachen und beim Stammtisch. Tochter Sofia wohnt mit Enkelin Nora in der Stadt und kommt etwa alle zwei Wochen am Wochenende."
+        },
+        {
+          "topic": "Bruder",
+          "text": "Mariannes älterer Bruder Stefan lebt seit dem Frühjahr im Pflegeheim in der Bezirksstadt. Sie besucht ihn meistens am Sonntagnachmittag nach der Messe."
+        },
+        {
+          "topic": "Obstgarten",
+          "text": "Marianne hat einen großen Obstgarten mit alten Apfel- und Birnensorten. Sie veredelt selbst und hat im Frühjahr mehrere junge Bäume aufgepfropft. Die Äpfel lagern im Keller. Am Gartenrand steht ein Mispelstrauch."
+        },
+        {
+          "topic": "Volkstanz",
+          "text": "Marianne tanzt seit über dreißig Jahren in der Volkstanzgruppe des Ortes. Geübt wird jeden Dienstagabend im Gasthaus zum Kranzlwirt in Haselbrunnleiten."
+        },
+        {
+          "topic": "Beruf und Gesundheit",
+          "text": "Früher Bankangestellte am Schalter der Bankfiliale im Ort, sehr genau mit Zahlen. Diabetes Typ 2, eingestellt mit Tabletten, Hausarzt ist Dr. Lehner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Marianne erzählte, dass Anselm übers Wochenende viel bei der Jagd ist. Sie überlegte, ob sie im Winter Edelreiser vom alten Mostbirnbaum schneiden soll, bevor der Baum ganz abstirbt.",
+          "notes": [
+            "Anselm ist am Wochenende oft früh bei der Jagd",
+            "Will im Winter Edelreiser vom alten Mostbirnbaum schneiden",
+            "Der Mostbirnbaum ist innen schon hohl"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Marianne berichtete vom Übungsabend der Volkstanzgruppe am Vorabend. Die Gruppe probt neue Figuren für den Kathreintanz Ende November. Ihr Zuckerwert war in der Früh etwas höher als sonst, sie will das beim nächsten Termin mit Dr. Lehner besprechen.",
+          "notes": [
+            "Volkstanzgruppe probt für den Kathreintanz Ende November",
+            "Morgenwert Zucker etwas höher als sonst",
+            "Will das mit Dr. Lehner besprechen"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 5 Tagen",
+          "summary": "Marianne sprach über ihren Bruder Stefan, der im Pflegeheim wenig isst und sich über früher freut. Sie will ihm beim nächsten Besuch etwas aus dem eigenen Garten mitbringen.",
+          "notes": [
+            "Stefan isst im Pflegeheim wenig",
+            "Freut sich über Erinnerungen an die Kindheit am Hof",
+            "Marianne will ihm etwas aus dem Garten mitbringen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:42",
+        "text": "Morgen, Mira. Draußen ist alles weiß vom Reif, und i glaub, heut Nacht war ein Reh bei meinen jungen Bäumen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Marianne! Reif schon so früh im Jahr, da schaut der Garten sicher schön aus. Was siehst du denn bei den jungen Bäumen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:44",
+        "text": "Beim Rosenapfel, den i im Frühjahr veredelt hab, ist unten die Rinde so abgeschabt. Des schaut aus, wie wenn ein Rehbock sein Geweih dran gerieben hätt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ach, ärgerlich, gerade bei dem frisch veredelten. Ist die Rinde rundherum weg oder nur auf einer Seite?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:47",
+        "text": "Nur auf einer Seite, so handbreit halt. Der Anselm hat eh gesagt, i soll im Herbst einen Schutz drum machen, und dann hab i's liegen lassen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Wenn's nur eine Seite ist, hat das Bäumchen gute Chancen. Viele streichen so eine Stelle mit Baumwachs zu und stellen dann ein Gitter oder ein paar Stäbe drum herum. Habt ihr so was noch da?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:51",
+        "text": "Ein Hasengitter müsst noch im Schuppen liegen. Aber der Anselm ist heut schon um sechs weg zum Ansitzen, mit den Jägern, der kann mir jetzt net helfen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Vielleicht sitzt er ja gerade auf genau den Rehbock an. Das Gitter kannst du sicher auch allein drum biegen, wenn's hell ist. Hat der Reif sonst noch was im Garten erwischt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:55",
+        "text": "Na, die Äpfel sind eh alle im Keller. Nur die Mispeln hängen noch, die werden ja erst nach dem Frost richtig gut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Stimmt, nach dem Frost werden sie weich und mild. Was machst du denn heuer mit ihnen?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:58",
+      "text": "Ein paar nehm i heut am Nachmittag zum Stefan ins Heim mit, der hat die als Bub schon so gern gegessen. Aber zuerst des Gitter. Meinst, i krieg die Stäbe überhaupt in den Boden, wenn der oben gefroren ist?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean early-Sunday conversation: the user looks out at hoarfrost and finds deer damage on a tree she grafted, a typical practical garden worry. Memory ties in naturally (husband out hunting, Sunday visits to her brother in the care home, grafting hobby, diabetes noted only in memory). The final turn asks a concrete practical question while mentioning the planned visit."
+  }
+}

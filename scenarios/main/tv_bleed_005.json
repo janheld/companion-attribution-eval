@@ -1,0 +1,182 @@
+{
+  "id": "tv_bleed_005",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:58.774550+00:00"
+  },
+  "content_hash": "75eb949f5006e6c987516b478e1038d8f08def49c4407ec8e4a7ab0387f32bc3",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_005",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 31,
+    "time_of_day": "früher Morgen",
+    "weekday": "Freitag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Luise",
+    "last_name": "Baumgartner",
+    "side_older": [
+      "Margit",
+      "Gunther",
+      "Afra"
+    ],
+    "side_younger": [
+      "Anita",
+      "Benjamin",
+      "Cornelia"
+    ],
+    "side_surnames": [
+      "Hofstadler",
+      "Kreindl"
+    ],
+    "former_job": "Fleischhauerin",
+    "interests": [
+      "Obstbäume und Veredeln",
+      "Holzschnitzen"
+    ],
+    "occasion": "hat etwas in Radio oder Zeitung gehört und will darüber reden",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Luise Baumgartner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 31
+      },
+      "time_of_day": "Freitag, 06:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Anita (Schwiegertochter)",
+          "text": "Luise hat seit Jahren Gicht in der großen Zehe. Bei einem Schub geht sie zu Dr. Hofstadler. Wir wohnen im Obergeschoss und schauen jeden Tag vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Luise ist verwitwet, ihr Mann Gunther ist vor sieben Jahren gestorben. Sohn Benjamin wohnt mit seiner Frau Anita und Tochter Cornelia im Obergeschoss des Hauses."
+        },
+        {
+          "topic": "Obstbäume",
+          "text": "Im Garten stehen zwölf alte Obstbäume, viele davon hat Gunther gepflanzt. Luise veredelt seit Jahrzehnten selbst; Edelreiser schneidet sie im Winter, veredelt wird im März."
+        },
+        {
+          "topic": "Holzschnitzen",
+          "text": "Sie schnitzt kleine Figuren aus Lindenholz, zurzeit Krippenfiguren für ihre Enkelin Cornelia."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Luise war Fleischhauerin und hat mit Gunther die eigene Fleischhauerei im Ort geführt."
+        },
+        {
+          "topic": "Tagesablauf",
+          "text": "Sie steht um halb sechs auf und hört beim Frühstück Radio."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gicht in der großen Zehe rechts. Dr. Hofstadler hat ihr geraten, weniger Fleisch zu essen und viel zu trinken."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Luise hatte einen leichten Gichtschub in der Zehe und war bei Dr. Hofstadler. Sie bekam ein Medikament für ein paar Tage; das Gehen fiel ihr schwer.",
+          "notes": [
+            "Gichtschub, Arztbesuch bei Dr. Hofstadler",
+            "Medikament für einige Tage"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Luise erzählte von der Krippe für Cornelia. Der Ochse ist fertig, als Nächstes schnitzt sie einen Esel. Die letzten Äpfel sind im Keller; Benjamin hat die Kisten getragen, den Rest hat ihre Freundin Margit für ihren Most bekommen.",
+          "notes": [
+            "Krippenfigur Ochse fertig, Esel als Nächstes",
+            "Äpfel eingelagert, Rest an Margit für Most"
+          ]
+        },
+        {
+          "date": "Samstag, vor 6 Tagen",
+          "summary": "Luise hat zwei Apfelunterlagen im Garten eingeschlagen, auf die sie im Frühjahr veredeln will.",
+          "notes": [
+            "Zwei Unterlagen eingeschlagen",
+            "Veredeln im März geplant"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:07",
+        "text": "Stell dir vor, im Radio haben's grad gesagt, heuer sind so viele Äpfel auf den Wiesen liegen geblieben wie schon lang nimmer. Keiner klaubt's mehr zusammen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schade um das Obst. Bei dir bleibt ja kaum etwas liegen, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:09",
+        "text": "Bei mir sicher net. Was i net eingelagert hab, hat die Margit für ihren Most gekriegt. Früher hätten wir des alles verarbeitet, Kompott, Dörrobst, alles."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist bei dir alles gut verwertet. Für das Veredeln im Frühjahr suchst du dir dann wieder Reiser von deinen eigenen Bäumen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Freilich. Vom alten Apfelbaum hinterm Haus, den hat noch der Gunther gesetzt. Die Reiser schneid i, wenn's richtig kalt ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass der Baum vom Gunther so weiterwächst. Da stecken dann viele Jahre in den jungen Bäumen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:15",
+      "text": "Jo, so denk i mir des auch. Wenn die Zehe mitspielt, geh i heut eh a bissl in den Garten in den Niederungen anfangs zäher Nebel, der sich im Lauf des Vormittags auflöst, später sonnig bei Höchstwerten zwischen acht und zwölf Grad"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "in den Niederungen anfangs zäher Nebel, der sich im Lauf des Vormittags auflöst, später sonnig bei Höchstwerten zwischen acht und zwölf Grad",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The early-morning radio weather report, which the user listens to at breakfast according to memory, runs on after her own sentence about going into the garden. Regional forecast phrasing and temperature range mark it as broadcast; the user's part stays coherent and in her dialect."
+  }
+}

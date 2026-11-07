@@ -1,0 +1,182 @@
+{
+  "id": "incoherent_user_022",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:11.061198+00:00"
+  },
+  "content_hash": "2c90b98172df7611c8bcb1a76451530d6d8a0c0c34e2c75a08afd1243fd6e20e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_022",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 80,
+    "time_of_day": "früher Abend",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 8,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Hiltrud",
+    "last_name": "Altmann",
+    "side_older": [
+      "Balthasar",
+      "Stefanie",
+      "Friedrich"
+    ],
+    "side_younger": [
+      "Sven",
+      "Karina",
+      "Johannes"
+    ],
+    "side_surnames": [
+      "Thallinger",
+      "Hamberger"
+    ],
+    "former_job": "Hauptschullehrerin",
+    "interests": [
+      "Theaterverein",
+      "Seniorenturnen"
+    ],
+    "occasion": "macht Pause nach Arbeit im Haus oder Garten",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Hiltrud Altmann",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 80
+      },
+      "time_of_day": "Montag, 17:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Johannes (Sohn)",
+          "text": "Mama spürt ihre Füße bei Kälte und nach langem Stehen schlechter. Wenn sie im Garten war, bitte ruhig nachfragen, ob sie gut sitzt und die Füße warm hat."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, ihr Mann Friedrich ist 2018 gestorben. Sohn Johannes wohnt mit seiner Frau und Sohn Sven (15) im Obergeschoss desselben Hauses. Tochter Karina wohnt im selben Ort."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War bis zur Pension Hauptschullehrerin für Deutsch und Geschichte."
+        },
+        {
+          "topic": "Theaterverein",
+          "text": "Spielt seit zwölf Jahren im örtlichen Theaterverein. Obfrau ist ihre Freundin Stefanie. Im Frühjahr wird ein neues Stück aufgeführt, die Rollen werden gerade vergeben."
+        },
+        {
+          "topic": "Seniorenturnen",
+          "text": "Geht jeden Montag um neun Uhr in der Früh zum Seniorenturnen im Turnsaal der Volksschule. Stefanie ist dort ebenfalls dabei."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in beiden Füßen, Kribbeln und Taubheit, vor allem nach langem Stehen. Hausarzt ist Dr. Thallinger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Hiltrud hat begonnen, den Garten winterfest zu machen, und die Hälfte der Rosen mit Vlies eingepackt. Den Rest wollte sie nach dem Turnen zu Wochenbeginn erledigen.",
+          "notes": [
+            "Rosen zur Hälfte eingepackt",
+            "Rest nach dem Turnen zu Wochenbeginn",
+            "Füße nach dem Stehen taub"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Hiltrud war bei der Sitzung des Theatervereins. Stefanie hat angekündigt, dass die Rollen für das Frühjahrsstück in den nächsten Tagen vergeben werden. Hiltrud hofft auf eine größere Rolle.",
+          "notes": [
+            "Theaterverein: Rollenvergabe steht bevor",
+            "hofft auf eine größere Rolle",
+            "Stefanie ist Obfrau"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:36",
+        "text": "Stell dir vor, die Stefanie hat mir heut in der Früh beim Turnen gesagt, dass i im Frühjahrsstück die Wirtin spielen soll. Die Hauptrolle!"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hiltrud, das ist ja eine schöne Nachricht! Gratuliere dir. Hast du gleich zugesagt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:38",
+        "text": "Freilich. Aber jetzt hab i den ganzen Nachmittag die restlichen Rosen eingepackt, und jetzt spür i meine Füße kaum mehr. Des Kribbeln halt, wie immer, wenn i lang steh."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist die Pause jetzt genau richtig. Wenn das Kribbeln stärker ist als sonst, sprich es bei Dr. Thallinger an, der kennt deine Füße am besten."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:41",
+        "text": "Jo, mach i. Heut is ja Sonntag, da tu i eh nix mehr. Morgen in der Früh is wieder Turnen, da muss i noch die Turnschuh herrichten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein ruhiger Abend tut dir nach dem Garten sicher gut. Leg die Füße ein bissl hoch und mach es dir gemütlich."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:44",
+        "text": "Der Johannes hat mir vorhin einen Tee von oben heruntergebracht. Und der Sven hat gesagt, er fragt mich beim Text ab, wenn i ihn brauch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist lieb von den beiden. Mit dem Sven hast du gleich einen Probenpartner im Haus."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:47",
+      "text": "Das Textbuch krieg i erst nächste Woche. Aber sag, wie merkt man sich so lange Sätze am besten? Den Kindern in der Schule hab i des früher immer erklärt, aber selber auswendig lernen ist halt was anderes."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Heut is ja Sonntag, da tu i eh nix mehr. Morgen in der Früh is wieder Turnen, da muss i noch die Turnschuh herrichten.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Hiltrud gets the day wrong in a way that matters: it is Monday, she herself opened the conversation with news she heard at this morning's Monday gymnastics class, yet a few minutes later she says it is Sunday and that gymnastics is tomorrow. The slip is in her own voice and dialect, tired after an afternoon of garden work, so it reads as genuine disorientation, not as TV or STT. The companion responds only to the plausible part (resting), and the final turn is clean."
+  }
+}

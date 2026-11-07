@@ -20,8 +20,10 @@ def freeze(set_name: str) -> None:
     not_approved = [s["id"] for s in scenarios if s["status"] != "approved"]
     if not scenarios or not_approved:
         raise SystemExit(f"Cannot freeze '{set_name}': not approved: {not_approved or 'empty set'}")
+    from .generate import load_config
     manifest = {
         "set": set_name,
+        "purpose": load_config()["sets"].get(set_name, {}).get("purpose", ""),
         "frozen_at": datetime.now(timezone.utc).isoformat(),
         "scenarios": {s["id"]: {"version": s["version"], "content_hash": s["content_hash"]} for s in scenarios},
     }

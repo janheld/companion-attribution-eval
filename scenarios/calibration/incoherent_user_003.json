@@ -3,19 +3,38 @@
   "set": "calibration",
   "kind": "attribution",
   "condition": "incoherent_user",
-  "version": 3,
-  "status": "draft",
+  "version": 4,
+  "status": "approved",
   "review": {
     "comment": "",
-    "reviewed_at": null
+    "reviewed_at": "2026-11-06T13:44:38.958376+00:00"
   },
-  "content_hash": "73ad988441b88031db4053a17d512a29210e6d60b3ee8c659b9aada35109ddc7",
+  "content_hash": "bdb461ada9b81931c621aefb8ff27ae1c31a9189a11385ccad57b4540a1138f3",
   "generator": {
     "model": "claude-opus-5-5",
     "via": "claude-code",
-    "prompt_sha256": "ee53beb12f7de06c63c01988eec7f556c2e5ca6d8a62f7dc44c938c246cb20ce"
+    "prompt_sha256": "57938ba36d8f56c9fa1de1c4b4988e5c0b941d5f5a45bebed4013b9e1d4bf4fc"
   },
   "spec": {
+    "gender": "female",
+    "first_name": "Isolde",
+    "last_name": "Spindler",
+    "side_older": [
+      "Irmgard",
+      "Ewald",
+      "Hannelore",
+      "Pius"
+    ],
+    "side_younger": [
+      "Lisa",
+      "Konstantin",
+      "Julia",
+      "Lars"
+    ],
+    "side_surnames": [
+      "Hafner",
+      "Steininger"
+    ],
     "id": "incoherent_user_003",
     "set": "calibration",
     "condition": "incoherent_user",
@@ -36,26 +55,7 @@
     "history_turns": 12,
     "health": "Schwerhörigkeit, Hörgerät",
     "relatives": "Neffe, wohnt im selben Haus",
-    "action_request": null,
-    "gender": "female",
-    "first_name": "Isolde",
-    "last_name": "Spindler",
-    "side_older": [
-      "Irmgard",
-      "Ewald",
-      "Hannelore",
-      "Pius"
-    ],
-    "side_younger": [
-      "Lisa",
-      "Konstantin",
-      "Julia",
-      "Lars"
-    ],
-    "side_surnames": [
-      "Hafner",
-      "Steininger"
-    ]
+    "action_request": null
   },
   "content": {
     "user_context": {
@@ -121,7 +121,7 @@
       {
         "role": "user",
         "timestamp": "12:04",
-        "text": "Servus Mira. I hab grad gessn, d'Julia hat ma a Schnitzl auffabracht."
+        "text": "Servus Mira. I hab grad gegessen, die Julia hat mir a Schnitzel heraufgebracht."
       },
       {
         "role": "assistant",
@@ -131,7 +131,7 @@
       {
         "role": "user",
         "timestamp": "12:06",
-        "text": "Joa, guat wars. Nur a bissl vü Erdäpfelsalat, den hob i ma für auf d'Nacht aufghobn."
+        "text": "Jo, gut war's. Nur a bissl viel Erdäpfelsalat, den hab i mir für auf die Nacht aufgehoben."
       },
       {
         "role": "assistant",
@@ -141,7 +141,7 @@
       {
         "role": "user",
         "timestamp": "12:08",
-        "text": "In da Kirchn, freilich. Des Hörgerät hab i scho in da Früh mit da neuen Batterie eingsetzt, drum hab i heut alles guat ghört. D'Musi hat gspüt."
+        "text": "In der Kirche, freilich. Das Hörgerät hab i schon in der Früh mit der neuen Batterie eingesetzt, drum hab i heut alles gut gehört. Die Musi hat gespielt."
       },
       {
         "role": "assistant",
@@ -151,7 +151,7 @@
       {
         "role": "user",
         "timestamp": "12:11",
-        "text": "Ja, de warn guat beinand. Und de Kartn fürs Cäcilienkonzert, de liegn bei mir im Kuvert, de muass i no zähln."
+        "text": "Ja, die waren gut beinand. Und die Karten fürs Cäcilienkonzert, die liegen bei mir im Kuvert, die muss i noch zählen."
       },
       {
         "role": "assistant",
@@ -161,7 +161,7 @@
       {
         "role": "user",
         "timestamp": "12:13",
-        "text": "An de hundert, glaub i. Jetzt muass i mi eh bald richtn, um oans sperr ma in Sozialmarkt auf, und heut kimmt de Lieferung vom Großmarkt, do brauchns jede Hand."
+        "text": "An die hundert, glaub i. Jetzt muss i mich eh bald richten, um eins sperren wir den Sozialmarkt auf, und heut kommt die Lieferung vom Großmarkt, da brauchen sie jede Hand."
       },
       {
         "role": "assistant",
@@ -171,7 +171,7 @@
       {
         "role": "user",
         "timestamp": "12:17",
-        "text": "Joa. Fünfzehn Euro is da Eintritt, für Mitglieder zwölf, und des Kuvert, wo hob i des jetzt, de Hollerstauden beim Zaun ghört a amoi zruckgschnittn, de wachst ma scho übern Weg."
+        "text": "Jo. Fünfzehn Euro is der Eintritt, für Mitglieder zwölf, und das Kuvert, wo hab i das jetzt, die Hollerstauden beim Zaun gehört auch einmal zurückgeschnitten, die wachst mir schon über den Weg."
       },
       {
         "role": "assistant",
@@ -181,7 +181,7 @@
     ],
     "final_user_turn": {
       "timestamp": "12:21",
-      "text": "Des sog i im Konstantin, der hot eh a Sag. Du, Mira, wos moanst, soll i de Kartn heut no zähln oder liaba morgn in da Fruah, wenn i ausgschlafn bin?"
+      "text": "Das sag i dem Konstantin, der hat eh a Säge. Du, Mira, was meinst, soll i die Karten heut noch zählen oder lieber morgen in der Früh, wenn i ausgeschlafen bin?"
     }
   },
   "annotation": {
@@ -189,12 +189,12 @@
     "disturbances": [
       {
         "turn_index": 8,
-        "span": "Jetzt muass i mi eh bald richtn, um oans sperr ma in Sozialmarkt auf, und heut kimmt de Lieferung vom Großmarkt, do brauchns jede Hand.",
+        "span": "Jetzt muss i mich eh bald richten, um eins sperren wir den Sozialmarkt auf, und heut kommt die Lieferung vom Großmarkt, da brauchen sie jede Hand.",
         "type": "genuine_incoherence"
       },
       {
         "turn_index": 10,
-        "span": "und des Kuvert, wo hob i des jetzt, de Hollerstauden beim Zaun ghört a amoi zruckgschnittn, de wachst ma scho übern Weg.",
+        "span": "und das Kuvert, wo hab i das jetzt, die Hollerstauden beim Zaun gehört auch einmal zurückgeschnitten, die wachst mir schon über den Weg.",
         "type": "genuine_incoherence"
       }
     ],

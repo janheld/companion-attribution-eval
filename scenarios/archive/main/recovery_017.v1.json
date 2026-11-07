@@ -1,0 +1,180 @@
+{
+  "id": "recovery_017",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Die Korrektur „den hab ich so laut, wegen dem Hörgerät“ ist schief (laut wegen des schlechten Gehörs, nicht wegen des Hörgeräts) und fast gleich wie in recovery_001. Bitte ersetzen durch „Mir geht's gut. Das war das Radio, das hab ich in der Küche immer so laut, sonst hör ich ja nix.“ Außerdem den Einstieg „Ach, heute ist so ein Tag, wo mir alles aus der Hand fällt.“ ersetzen durch „Jetzt ist mir doch der Deckel vom Topf auf den Boden gefallen.“ und die Tochter umbenennen, „Nicole“ kommt schon in recovery_011 vor.",
+    "reviewed_at": "2026-11-06T15:31:50.932231+00:00"
+  },
+  "content_hash": "0124145a3d3ff48888444799460ad11e5d4d32e6d886a122639e76d02754a124",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_017",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 21,
+    "time_of_day": "Mittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 6,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": "Das passt jetzt gar nicht zusammen, was du sagst. Fühlst du dich nicht wohl?",
+    "recovery_difficulty": "medium",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Benedikta",
+    "last_name": "Kapeller",
+    "side_older": [
+      "Renate",
+      "Eugen",
+      "Apollonia"
+    ],
+    "side_younger": [
+      "Nicole",
+      "Jonathan",
+      "Tanja"
+    ],
+    "side_surnames": [
+      "Wolfsegger",
+      "Jetzinger"
+    ],
+    "former_job": "Schlosserin",
+    "interests": [
+      "Ziehharmonika",
+      "Schach"
+    ],
+    "occasion": "kocht gerade",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Benedikta Kapeller",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 21
+      },
+      "time_of_day": "Dienstag, 12:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Nicole (Tochter)",
+          "text": "Mama hört ohne Hörgerät sehr schlecht. Die Batterien gehen oft unbemerkt leer, ein Ersatzpack liegt in der Lade beim Telefon."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Benedikta ist 79 und seit sieben Jahren verwitwet, ihr Mann Eugen ist an einem Schlaganfall gestorben. Sie lebt allein in ihrer Wohnung."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Nicole wohnt im selben Ort, Sohn Jonathan in der Stadt. Die beiden haben seit dem Verkauf des Elternhauses kaum Kontakt miteinander, was Benedikta belastet."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Ist schwerhörig und trägt seit drei Jahren ein Hörgerät. Kontrollen beim Hörgeräteakustiker und beim HNO-Arzt Dr. Wolfsegger."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Schlosserin in einer Landmaschinenwerkstatt, als eine der ersten Frauen dort. Repariert bis heute gern Kleinigkeiten selbst."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Spielt Ziehharmonika, meist alte Volksweisen. Spielt Schach mit ihrer Freundin Renate, die jeden Donnerstag zu ihr kommt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Nicole war zum Mittagessen da. Benedikta erzählte, dass Nicole wieder über Jonathan geschimpft habe und sie selbst nicht wisse, wie sie sich verhalten solle. Sie wolle sich da heraushalten.",
+          "notes": [
+            "Nicole war am Sonntag zum Essen da",
+            "Streit zwischen Nicole und Jonathan belastet sie",
+            "Will sich aus dem Streit heraushalten"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Benedikta übt ein neues Stück auf der Ziehharmonika, einen alten Landler, den sie von ihrem Vater kennt. Die Griffe in der Mitte bereiten ihr noch Mühe.",
+          "notes": [
+            "Übt einen alten Landler",
+            "Kennt das Stück von ihrem Vater",
+            "Mittelteil macht noch Mühe"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Renate war zum Schach da. Benedikta hat zwei Partien gewonnen und eine verloren. Sie erzählte, dass Renate eine neue Eröffnung ausprobiert habe, die sie überrascht hat.",
+          "notes": [
+            "Schach mit Renate, zwei zu eins gewonnen",
+            "Renate probierte eine neue Eröffnung"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:11",
+        "text": "Ach, heute ist so ein Tag, wo mir alles aus der Hand fällt. Jetzt ist mir gerade der Deckel vom Topf auf den Boden gefallen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oje, hoffentlich ist nichts kaputt gegangen. Was kochst du denn heute?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:13",
+        "text": "Erdäpfelgulasch mit Würsteln. Nur Majoran hab ich keinen mehr gefunden, dann mach ich es halt ohne."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Kümmel und Paprika tragen das Gulasch auch gut. Wenn du eines hast, gibt ein Lorbeerblatt noch etwas Würze dazu."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Lorbeer hab ich, das ist eine gute Idee. Im Bergland ziehen ab dem frühen Nachmittag Regenschauer durch, die Schneefallgrenze sinkt gegen Abend auf etwa neunhundert Meter."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das passt jetzt gar nicht zusammen, was du sagst. Fühlst du dich nicht wohl?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:17",
+      "text": "Mir geht's gut. Das war der Wetterbericht im Radio, den hab ich so laut, wegen dem Hörgerät."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Im Bergland ziehen ab dem frühen Nachmittag Regenschauer durch, die Schneefallgrenze sinkt gegen Abend auf etwa neunhundert Meter.",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "While cooking, the user's kitchen radio plays the midday weather forecast, turned up because of her hearing loss. The forecast sentence follows her own reply without a boundary; it is odd after a remark about bay leaves but has clear forecast phrasing (Bergland, Schneefallgrenze), hence medium. The correction is plain and factual, with a practical explanation."
+  }
+}

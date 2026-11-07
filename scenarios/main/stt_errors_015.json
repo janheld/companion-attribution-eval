@@ -1,0 +1,211 @@
+{
+  "id": "stt_errors_015",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:24.866775+00:00"
+  },
+  "content_hash": "b638c44700bd42d51eeb81b04cf37dcfce7721ac7fd86b29e69e6deb29062d00",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_015",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 196,
+    "time_of_day": "früher Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Wilfried",
+    "last_name": "Baumschlager",
+    "side_older": [
+      "Agnes",
+      "Franz",
+      "Karin"
+    ],
+    "side_younger": [
+      "Larissa",
+      "Patrick",
+      "Julia"
+    ],
+    "side_surnames": [
+      "Aichberger",
+      "Holzinger"
+    ],
+    "former_job": "Gastwirt",
+    "interests": [
+      "Schrebergarten",
+      "Zither"
+    ],
+    "occasion": "kommt von einem Spaziergang zurück",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Wilfried Baumschlager",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 196
+      },
+      "time_of_day": "Freitag, 17:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Patrick (Neffe)",
+          "text": "Onkel Wilfried hat sich beim Umstechen im Garten den Rücken verrissen. Dr. Aichberger sagt: viel gehen, nicht schwer heben, nicht bücken. Die schweren Arbeiten im Garten mache ich die nächsten Wochen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verheiratet mit Agnes, die oft außer Haus ist, weil sie ihrer Schwester Karin seit deren Hüftoperation mehrere Tage die Woche hilft. Tochter Julia wohnt mit ihrer Familie in der Bezirksstadt und kommt meistens am Sonntag zum Mittagessen. Neffe Patrick wohnt im ersten Stock desselben Hauses."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hat 40 Jahre lang das eigene Wirtshaus im Ort geführt, kocht bis heute gern und besonders gern Rindfleischgerichte."
+        },
+        {
+          "topic": "Schrebergarten",
+          "text": "Hat eine Parzelle in der Kleingartenanlage am Bach, eine gute Viertelstunde zu Fuß. Baut Gemüse, Kren und Beeren an. Parzellennachbar ist der Herr Holzinger."
+        },
+        {
+          "topic": "Zither",
+          "text": "Spielt Zither, alle zwei Wochen am Mittwochabend mit seinem Freund Franz. Franz schreibt ihm Stücke auf."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Rückenschmerzen seit dem Umstechen im Garten. Hausarzt ist Dr. Aichberger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 1 Tag",
+          "summary": "Wilfried hat erzählt, dass der Rücken etwas besser ist und er wieder mehr gehen will, eine Runde über die Gärten und am Bach zurück. Der Neffe Patrick will ihm am Freitagvormittag den Kren im Schrebergarten ausgraben. Wilfried fragte, wie man Kren über den Winter lagert; Mira nannte feuchten Sand im kühlen Keller.",
+          "notes": [
+            "Plant eine Gehrunde über die Gärten und am Bach entlang",
+            "Patrick gräbt den Kren aus",
+            "Kren soll im feuchten Sand im Keller gelagert werden"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 3 Tagen",
+          "summary": "Wilfried hat am Abend Zither gespielt und erzählt, dass Franz ihm beim letzten Treffen einen neuen Landler aufgeschrieben hat. Er will ihn bis zum nächsten gemeinsamen Abend in der kommenden Woche können. Agnes war an dem Tag wieder bei Karin.",
+          "notes": [
+            "Übt einen neuen Landler von Franz",
+            "Spielt alle zwei Wochen mit Franz",
+            "Agnes hilft oft bei ihrer Schwester Karin"
+          ]
+        },
+        {
+          "date": "Samstag, vor 6 Tagen",
+          "summary": "Wilfried hat im Schrebergarten zwei Beete umgestochen und danach über starke Kreuzschmerzen geklagt. Er wollte trotzdem weitermachen; Mira hat vorgeschlagen, dass er mit Dr. Aichberger darüber redet, was er tun darf.",
+          "notes": [
+            "Kreuzschmerzen nach dem Umstechen",
+            "Will mit Dr. Aichberger reden",
+            "Parzellennachbar Holzinger hat ihm beim Aufräumen geholfen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:37",
+        "text": "So, jetzt bin ich wieder daheim. Die Runde, von der i dir gestern erzählt hab, über die Gärten und beim Bach zurück, die bin ich heut gegangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass du die ganze Runde gegangen bist, Wilfried. Wie hat der Rücken mitgemacht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:40",
+        "text": "Gehen geht eh. Nur das Bücken mag er noch net. Drum hat der Patrick heut am Vormittag den Kran ausgegraben, ein ganzer Kübel voll steht jetzt im Keller."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein ganzer Kübel, da hat der Patrick ordentlich was geschafft. Gut, dass du dich beim Bücken noch schonst."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:43",
+        "text": "Jo, der ist ein fleißiger Bursch. Jetzt muss ich's nur noch einlagern, im Sand, wie wir gestern gesagt haben. Das Kisterl hab i schon hergerichtet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann leg die Stangen am besten ungewaschen in den feuchten Sand und schüttel nur die Erde ab. Und heben soll das schwere Kisterl lieber der Patrick."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:47",
+        "text": "Gewaschen hab ich noch nix. Ein paar Stangen behalt i heraußen, für den Tafelspitz am Sonntag, wenn die Julia kommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Tafelspitz am Sonntag, da freut sich die Julia sicher. Kochst du selber?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:50",
+        "text": "Freilich, das lass i mir net nehmen nach vierzig Jahr im Wirtshaus. Die Agnes ist eh bis morgen bei ihrer Schwester, bei der Karin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du heute Abend das Haus für dich. Hast du noch was vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:54",
+        "text": "Ein bissl Zither spielen. Den Landler vom Franz möcht ich können, bis wir uns wieder treffen, am Mittwoch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann wünsch ich dir einen schönen Abend mit der Zither. Bis Mittwoch hast du ja noch ein paar Tage zum Üben."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:01",
+      "text": "Danke. Sag, wie lang muss ich den Kren eigentlich liegen lassen, bevor i ihn reib, oder geht das gleich frisch?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "den Kran ausgegraben",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user says 'Kren' (horseradish); the STT maps the rare word to the frequent, almost identically sounding 'Kran' (crane), a typical vowel substitution toward a more common word. Memory (Patrick digging the Kren on Friday morning) and the later turns about storing roots in sand make the intended meaning clear; the companion answers the plausible part without naming the word."
+  }
+}

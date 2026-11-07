@@ -1,0 +1,19 @@
+# Items the gold set must contain, decided during scenario review.
+# gold.py reads this when it samples the gold set: all outputs for these
+# scenarios (every model and prompt variant of the dry run) are candidates and
+# at least one output per scenario and task goes into the gold set.
+
+scenarios:
+  - set: calibration
+    id: tv_bleed_003
+    reason: >
+      The final user turn says "bei so einem bunten Durcheinander" about a box
+      of stamps. A grader that keys on the word "Durcheinander" would wrongly
+      label replies or summaries that repeat it as blames_user. Tests grader
+      precision.
+
+# Sampling stratum: outputs in which words like "durcheinander", "verwirrt",
+# "wirr", "chaotisch" refer to things (stamps, a drawer, a timetable, the TV
+# programme) rather than to the person. Valuable for grader precision; the
+# keyword heuristic of the gold sampler puts them in their own stratum.
+keyword_on_things_stratum: [durcheinander, verwirrt, wirr, chaotisch, Durcheinander]

@@ -1,0 +1,173 @@
+{
+  "id": "stt_errors_025",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:42.848795+00:00"
+  },
+  "content_hash": "5654859fa27074e7f26bb00414998774100117c2352dd7d4add0014cd8354d72",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_025",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 217,
+    "time_of_day": "früher Abend",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 8,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Rochus",
+    "last_name": "Stummer",
+    "side_older": [
+      "Christel",
+      "Christian",
+      "Helga"
+    ],
+    "side_younger": [
+      "Claudia",
+      "Emanuel",
+      "Verena"
+    ],
+    "side_surnames": [
+      "Zwettler",
+      "Klinger"
+    ],
+    "former_job": "Pfarrsekretär",
+    "interests": [
+      "Ziehharmonika",
+      "Musikverein"
+    ],
+    "occasion": "lässt den Tag ausklingen",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Rochus Stummer",
+      "address_form": "du",
+      "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 217
+      },
+      "time_of_day": "Donnerstag, 18:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person und Wohnen",
+          "text": "Rochus ist 74, seit über zwanzig Jahren von Helga geschieden und lebt allein in einem kleinen Haus mit Werkstattschuppen. Er war fast dreißig Jahre Pfarrsekretär und hilft freitags am Vormittag noch in der Pfarrkanzlei aus."
+        },
+        {
+          "topic": "Musik",
+          "text": "Spielt seit seiner Jugend Ziehharmonika und übt fast jeden Tag am späten Nachmittag. Ist im örtlichen Musikverein Schriftführer. Kapellmeister ist sein langjähriger Freund Christian. Beim Cäcilienkonzert des Musikvereins im November darf Rochus heuer zum ersten Mal ein Stück auf der Ziehharmonika als Solo spielen."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sohn Emanuel lebt mit seiner Tochter Verena in der Stadt und ruft selten an. Rochus spricht darüber nicht viel, erwähnt es aber hin und wieder knapp."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit zwei Jahren eine Hüftprothese links. Langes Stehen merkt er, beim Sitzen und Gehen geht es gut. Hausarzt ist Dr. Zwettler."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Rochus erzählte, dass er für das Cäcilienkonzert zwei Stücke ausgesucht hat und Christian sich für das langsamere entschieden hat. Er übt das Stück jetzt täglich und findet den Mittelteil schwierig.",
+          "notes": [
+            "Solostück für das Cäcilienkonzert steht fest",
+            "Mittelteil des Stücks fällt ihm noch schwer",
+            "übt täglich am späten Nachmittag"
+          ]
+        },
+        {
+          "date": "Samstag, vor 5 Tagen",
+          "summary": "Rochus hat in der Werkstatt den Balg seiner alten Ziehharmonika geflickt. Er erwähnte nebenbei, dass Emanuel sich seit dem Sommer kaum gemeldet hat und er ihm einen Brief wegen des Konzerts schreiben will.",
+          "notes": [
+            "Balg der alten Ziehharmonika geflickt",
+            "will Emanuel wegen des Konzerts schreiben",
+            "Verena hat er seit dem Sommer nicht gesehen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "18:12",
+        "text": "Servus Mira. Jetzt hab ich grad die Ziehharmonika weggeräumt, eine gute Stunde hab ich heut gespielt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus Rochus. Eine gute Stunde, da warst du aber fleißig. Wie ist es heute gegangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "18:14",
+        "text": "Besser als am Montag. Das Stück für das Sizilien Konzert sitzt jetzt bald, nur in der Mitte verhau ich mich halt noch manchmal."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach echtem Fortschritt. Bis zum Konzert hast du ja noch ein paar Tage zum Feilen am Mittelteil."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:17",
+        "text": "Jo, zwei Wochen noch. Der Christian sagt eh, ich soll mich net verrückt machen. Beim Spielen sitz ich ja, des geht mit der Hüfte ganz gut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat der Christian recht. Und schön, dass das Sitzen beim Spielen mit der Hüfte gut geht."
+      },
+      {
+        "role": "user",
+        "timestamp": "18:21",
+        "text": "Den Brief an den Emanuel hab ich am Dienstag weggeschickt. Gemeldet hat er sich noch net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der Brief ist ja erst ein paar Tage unterwegs. Du hast ihm geschrieben, dass du dich freuen würdest, wenn er zum Konzert kommt?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "18:23",
+      "text": "Freilich, und die Verena soll er auch mitbringen. Na ja. I mach mir jetzt noch einen Tee und geh bald schlafen, morgen in der Früh muss ich eh wieder in die Pfarrkanzlei."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Sizilien Konzert",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user says 'Cäcilienkonzert' (the Musikverein's St. Cecilia concert stored in memory); STT maps the rare word to the common, near-homophone place name 'Sizilien' and splits the compound. German STT regularly replaces infrequent words with frequent similar-sounding ones. The companion answers the plausible meaning (the concert) without commenting."
+  }
+}

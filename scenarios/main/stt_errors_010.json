@@ -1,0 +1,197 @@
+{
+  "id": "stt_errors_010",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:18.300628+00:00"
+  },
+  "content_hash": "34ff0674f72f05668ffbac4022d7a4a572d5e9f44369ce05f7afb308170f49ec",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_010",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 394,
+    "time_of_day": "früher Morgen",
+    "weekday": "Freitag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Dominik",
+    "last_name": "Kapsammer",
+    "side_older": [
+      "Pankraz",
+      "Ingrid",
+      "Korbinian"
+    ],
+    "side_younger": [
+      "Alexander",
+      "Svenja",
+      "Henri"
+    ],
+    "side_surnames": [
+      "Gusenbauer",
+      "Wallner"
+    ],
+    "former_job": "Drogist",
+    "interests": [
+      "Volksmusik im Radio",
+      "Seniorenturnen"
+    ],
+    "occasion": "hat etwas in Radio oder Zeitung gehört und will darüber reden",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Dominik Kapsammer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 394
+      },
+      "time_of_day": "Freitag, 06:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen und Familie",
+          "text": "Dominik war nie verheiratet und lebt allein in einer kleinen Wohnung in der Stadt. Sein älterer Bruder Pankraz lebt seit einem Jahr im Pflegeheim und ist zeitweise verwirrt. Dominik besucht ihn jeden Sonntag mit dem Bus."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Dominik war einundvierzig Jahre lang Drogist in der Drogerie am Stadtplatz, zuletzt als Filialleiter. Er kennt sich mit Kräutertees, Salben und Hausmitteln gut aus."
+        },
+        {
+          "topic": "Radio",
+          "text": "Dominik steht früh auf und hört ab sechs Uhr das Regionalradio. Am liebsten mag er die Volksmusiksendungen, er kennt viele Musikgruppen beim Namen."
+        },
+        {
+          "topic": "Seniorenturnen",
+          "text": "Jeden Freitag um neun geht Dominik zum Seniorenturnen im Pfarrsaal. Wegen seiner Füße macht er viele Übungen im Sitzen. Sein Freund Korbinian turnt auch mit."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in den Füßen, vor allem Kribbeln und Taubheit in der Nacht. Er trägt feste Schuhe und achtet auf Stolperfallen. Hausarzt ist Dr. Wallner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 5 Tagen",
+          "summary": "Dominik hatte Pankraz im Pflegeheim besucht. Pankraz war müde und erkannte Dominik erst nach einer Weile, freute sich dann aber über den mitgebrachten Tee. Dominik erzählte, dass sein Bruder früher Musikant war.",
+          "notes": [
+            "Besuch bei Pankraz im Pflegeheim",
+            "Pankraz war müde, freute sich über Tee",
+            "Pankraz war früher Musikant"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Dominik klagte über eine unruhige Nacht wegen des Kribbelns in den Füßen. Am Vormittag war er beim Einkaufen und traf Korbinian, sie redeten über eine Volksmusiksendung vom Wochenende.",
+          "notes": [
+            "Unruhige Nacht wegen der Füße",
+            "Treffen mit Korbinian beim Einkaufen",
+            "Gesprächsthema: Volksmusiksendung im Radio"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:21",
+        "text": "Grüß dich, Mira. Grad in den Nachrichten haben sie gesagt, dass die Drogerie am Stadtplatz mit Jahresende zusperrt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Grüß dich, Dominik. Das ist doch die Drogerie, in der du so lange gearbeitet hast, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:22",
+        "text": "Genau die. Einundvierzig Jahre war i dort, vom Lehrbuben bis zum Filialleiter. Des tut mir schon weh, wenn i des hör."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kann ich gut verstehen, nach so vielen Jahren hängt man an so einem Geschäft. Haben sie auch gesagt, warum?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:24",
+        "text": "Sie finden keinen Nachfolger, und die Leute kaufen eh alles draußen im Einkaufszentrum. Früher haben wir die Tees noch selber gemischt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Selbst gemischte Tees gibt es heute kaum noch. Welchen haben die Leute damals am liebsten gekauft?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:26",
+        "text": "Den Hustentee mit Thymian und Spitzwegerich, den hat der alte Chef zusammengestellt. Im Winter haben wir den kiloweise abgefüllt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Kiloweise, da war im Winter bei euch sicher einiges los. Trinkst du den heute noch?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:28",
+        "text": "Freilich, nur misch i ihn jetzt selber. Der Pankraz mag den auch, dem bring i am Sonntag wieder a Packerl ins Heim."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da freut er sich sicher, so wie beim letzten Mal. Wie geht's ihm denn zurzeit?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:30",
+        "text": "Er hat gute und schlechte Tage. Am Sonntag hat er mich zuerst gar net erkannt, dann aber schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist bestimmt nicht leicht für dich. Schön, dass er dich dann doch erkannt hat, und dass du so treu zu ihm fährst."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:33",
+      "text": "Jo, was soll man machen. Um neun is eh Turnen im Farbsaal, da erzähl i's dem Korbinian und den anderen, die kennen die Drogerie ja alle."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "im Farbsaal",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user means the Friday senior gymnastics in the 'Pfarrsaal' (parish hall), as stored in memory. In spoken Upper Austrian the initial 'Pf' is often reduced to 'F', and the long 'a' plus 'rr' is close to 'ar', so STT outputs 'Farbsaal', a non-existent but well-formed compound. The time and the activity match memory, so the intended place is recoverable."
+  }
+}

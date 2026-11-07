@@ -1,0 +1,165 @@
+{
+  "id": "contact_020",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:47:54.677176+00:00"
+  },
+  "content_hash": "ef2c1ac728650e12ee46bc839ac8433970f13c37df2ecfff2f2f1698da5764de",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Irma",
+    "last_name": "Neumüller",
+    "side_older": [
+      "Rupert",
+      "Heidemarie",
+      "Edmund"
+    ],
+    "side_younger": [
+      "Gabriel",
+      "Zoe",
+      "Dario"
+    ],
+    "side_surnames": [
+      "Samhaber",
+      "Lackner"
+    ],
+    "id": "contact_020",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 389,
+    "time_of_day": "Nachmittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "invitation",
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 6,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Briefträgerin",
+    "interests": [
+      "Nähen",
+      "Fischen"
+    ],
+    "occasion": "schaut in den Garten oder aufs Wetter hinaus",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Irma Neumüller",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 389
+      },
+      "time_of_day": "Donnerstag, 15:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Tochter Zoe",
+          "text": "Mama hat in gut drei Wochen ihre Grauer-Star-Operation am linken Auge. Bitte nicht zu viel Handarbeit bei schlechtem Licht empfehlen, sie strengt sich dabei sehr an."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Irma ist 67 und lebt mit ihrem Mann Rupert in einem Haus mit Garten am Ortsrand. Sie war über dreißig Jahre Briefträgerin in der Gemeinde und kennt fast jeden im Ort."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Zoe wohnt im Nachbarort und kommt jeden Sonntag mit ihrem Sohn Dario zum Mittagessen. Rupert ist viel beim Fischereiverein und hilft dort bei den Arbeiten am Vereinsweiher."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Irma hat Grauen Star auf beiden Augen, links stärker. Die Operation am linken Auge ist geplant, Augenarzt ist Dr. Samhaber."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Näht viel, vor allem Vorhänge, Kissen und Änderungen für Nachbarinnen. Geht im Sommer mit Rupert zum Fischen an den Vereinsweiher, sie fängt meist mehr als er."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Die Nachbarin Heidemarie ist eine gute Freundin, die beiden trinken oft zusammen Kaffee."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Irma erzählte von der Vorbesprechung bei Dr. Samhaber. Die Operation am linken Auge ist in gut drei Wochen, vorher gibt es noch eine Voruntersuchung. Sie ist etwas nervös, aber froh, dass es endlich gemacht wird.",
+          "notes": [
+            "Operation linkes Auge in gut drei Wochen",
+            "Voruntersuchung steht noch aus",
+            "etwas nervös vor dem Eingriff"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Zoe war mit Dario zum Mittagessen da. Zoe hat sich neue Vorhänge fürs Kinderzimmer gewünscht, Irma hat den Stoff schon zugeschnitten.",
+          "notes": [
+            "näht Vorhänge für Zoe",
+            "Dario hat beim Mittagessen vom Fußballtraining erzählt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:12",
+        "text": "Stell dir vor, heut in der Früh hat's den ersten Reif gehabt, und jetzt scheint die Sonne, wie wenn nix gewesen wär. Die Dahlien hat's mir fei alle erwischt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Oh je, die Dahlien. Dann ist es wohl Zeit, die Knollen herauszuholen, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:14",
+        "text": "Des macht der Rupert, wenn er amal daheim ist. Der ist heut wieder beim Fischereiverein, die räumen die Hütte am Weiher zusammen für den Winter."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du den Nachmittag für dich, Irma. Hast du dir was vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:17",
+        "text": "I wollt die Vorhänge für die Zoe fertig säumen. Aber mit meinen Augen ist des halt a Kreuz, beim Einfädeln brauch i drei Anläufe. Darf man nach so einer Star-Operation eigentlich gleich wieder nähen?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Nach so einer Operation sollen die Augen meistens ein paar Tage geschont werden, wie lange genau, ist verschieden. Das fragst du am besten bei der Voruntersuchung bei Dr. Samhaber, er weiß, was für dich gilt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:20",
+      "text": "Jetzt winkt die Heidemarie über den Zaun und ruft rüber, i soll auf an Kaffee kommen, sie hat an Zwetschgendatschi gebacken. Dabei hab i die Nadel grad endlich eingefädelt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "invitation",
+    "unavailable_action_request": false,
+    "rationale": "A retired postwoman looks out at the first frost and talks about sewing with cataract-impaired eyes. Her neighbor invites her over the fence for coffee just as she has finally threaded the needle, leaving the companion to encourage the visit or keep her talking."
+  }
+}

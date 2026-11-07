@@ -1,0 +1,192 @@
+{
+  "id": "recovery_011",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:43.100753+00:00"
+  },
+  "content_hash": "10fc4f7e694cfbdc259bfc7c286c27581d942acc814629711b1fd6ac3728528c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_011",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 363,
+    "time_of_day": "später Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "traffic",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": "Da komm ich grad nicht ganz mit, du springst ein bisschen hin und her. Ist alles in Ordnung bei dir?",
+    "recovery_difficulty": "hard",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Petronella",
+    "last_name": "Mühlbacher",
+    "side_older": [
+      "Sidonie",
+      "Matthias",
+      "Hermelinde"
+    ],
+    "side_younger": [
+      "Nicole",
+      "Adrian",
+      "Lina"
+    ],
+    "side_surnames": [
+      "Wimmer",
+      "Resch"
+    ],
+    "former_job": "Bankangestellte",
+    "interests": [
+      "Feuerwehr (Ehrenmitglied)",
+      "Obstbäume und Veredeln"
+    ],
+    "occasion": "lässt den Tag ausklingen",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Petronella Mühlbacher",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 363
+      },
+      "time_of_day": "Mittwoch, 21:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Nicole (Tochter)",
+          "text": "Mama sieht mit dem Grauen Star abends schon recht schlecht. Sie soll im Dunkeln nicht mehr mit dem Fahrrad fahren, zur Feuerwehr geht sie zu Fuß oder mit der Hermelinde."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, ihr Mann Matthias ist vor neun Jahren gestorben; er war lange Kommandant der Freiwilligen Feuerwehr im Ort. Tochter Nicole wohnt in der Bezirksstadt. Enkelin Lina studiert in der Landeshauptstadt und kommt in den Ferien zur Oma."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star auf beiden Augen, die Operation am linken Auge ist geplant, Augenarzt ist Dr. Resch im Krankenhaus in der Bezirksstadt. Liest abends kaum mehr, hört stattdessen Radio."
+        },
+        {
+          "topic": "Feuerwehr",
+          "text": "Ehrenmitglied der Freiwilligen Feuerwehr. Die Feuerwehr übt am ersten Mittwoch im Monat abends. Geht oft mit ihrer Freundin Hermelinde zum Zuschauen und hilft bei Festen in der Küche."
+        },
+        {
+          "topic": "Obstbäume",
+          "text": "Hat hinterm Haus einen alten Apfelbaum und mehrere junge Bäume, die sie selbst veredelt hat. Hat das Veredeln von ihrem Vater gelernt und ist stolz darauf."
+        },
+        {
+          "topic": "Früher",
+          "text": "Hat bis zur Pension als Bankangestellte in der Bankfiliale im Ort gearbeitet und kennt dadurch fast alle Leute im Dorf."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Petronella erzählte von der Voruntersuchung bei Dr. Resch. Der Operationstermin für das linke Auge ist fixiert, Nicole will sie hinbringen. Sie war erleichtert, dass es jetzt endlich weitergeht.",
+          "notes": [
+            "Voruntersuchung für die Star-Operation erledigt",
+            "Nicole fährt sie zur Operation",
+            "Erst das linke Auge, das rechte später"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Der Nachbar Herr Wimmer hat ihr geholfen, die Dachrinne zu putzen. Petronella hat ihm dafür einen Apfelkuchen gebacken. Sie sprach darüber, dass sie für Leiterarbeiten inzwischen Hilfe braucht.",
+          "notes": [
+            "Herr Wimmer hilft bei Arbeiten am Haus",
+            "Hat Apfelkuchen gebacken",
+            "Steigt nicht mehr selbst auf die Leiter"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:42",
+        "text": "Die Feuerwehr hat heut die Übung beim alten Sägewerk gehabt, da bin ich mit der Hermelinde halt wieder zum Zuschauen hingegangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass ihr zwei dabei wart. Wie ist die Übung gelaufen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Jo, eigentlich gut. Die Jungen sind schon flott, nur mit der Drehleiter haben sie a bissl gebraucht. Gesehen hab ich eh nimmer viel, mit meinen Augen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Im Halbdunkel ist das mit dem Grauen Star sicher mühsam. Bis zur Operation dauert es ja nicht mehr lang, oder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:45",
+        "text": "Am Zwanzigsten, beim Dr. Resch. Zuerst das linke. Die Nicole fahrt mich hin, die hat sich extra frei genommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist lieb von der Nicole. Dann hast du das linke Auge bald hinter dir."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:47",
+        "text": "Hoffentlich, gell. Die Lina hat heut auch angerufen, die schreibt grad an einer Arbeit für die Uni, aber in den Semesterferien kommt sie wieder her."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da freust du dich sicher schon drauf. Habt ihr zwei schon was vor, wenn sie da ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:49",
+        "text": "Die will bei mir das Veredeln lernen, beim alten Apfelbaum hinterm Haus Wer jetzt noch Richtung Moosbrandtal unterwegs ist, da geht gar nichts mehr, am besten umdrehen und zurück, wo man hergekommen ist, wie lang das noch dauert, weiß im Moment niemand."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da komm ich grad nicht ganz mit, du springst ein bisschen hin und her. Ist alles in Ordnung bei dir?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:50",
+      "text": "Geh, des war der Verkehrsfunk im Radio. Mir fehlt nix, ich sitz eh gemütlich auf der Couch."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Wer jetzt noch Richtung Moosbrandtal unterwegs ist, da geht gar nichts mehr, am besten umdrehen und zurück, wo man hergekommen ist, wie lang das noch dauert, weiß im Moment niemand.",
+        "type": "traffic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A late-evening radio traffic message merges without a sentence boundary into the user's talk about grafting with her granddaughter. Phrases like 'umdrehen und zurück, wo man hergekommen ist' and 'weiß im Moment niemand' sound like disorientation when read as the user's words, so the scripted misreading is understandable (hard). The user listens to radio in the evening because she can barely read; her correction is short and dry."
+  }
+}

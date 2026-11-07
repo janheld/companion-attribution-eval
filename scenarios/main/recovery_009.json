@@ -1,0 +1,181 @@
+{
+  "id": "recovery_009",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:37.102137+00:00"
+  },
+  "content_hash": "718d690eba250121d216f94b15dd6053451f355c414cdd8e5acc14bb8943865d",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_009",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 278,
+    "time_of_day": "später Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "other_person",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 8,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": "Du klingst heute ein bisschen durcheinander. Bist du vielleicht müde?",
+    "recovery_difficulty": "medium",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Rosina",
+    "last_name": "Edlinger",
+    "side_older": [
+      "Martha",
+      "Roland",
+      "Afra"
+    ],
+    "side_younger": [
+      "Birgit",
+      "Nils",
+      "Laura"
+    ],
+    "side_surnames": [
+      "Schmid",
+      "Pichler"
+    ],
+    "former_job": "Schaffnerin",
+    "interests": [
+      "Schwammerl suchen",
+      "Briefmarken"
+    ],
+    "occasion": "lässt den Tag ausklingen",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Rosina Edlinger",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 278
+      },
+      "time_of_day": "Sonntag, 21:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Nils (Sohn)",
+          "text": "Mama nimmt ihre Blutdrucktabletten jeden Morgen nach dem Frühstück. Wir wohnen oben im selben Haus, Laura kommt abends oft noch auf einen Sprung runter."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Rosina lebt mit ihrem Mann Roland im Erdgeschoss. Roland ist oft außer Haus, bei der Feuerwehr und am Sonntagabend beim Kartenspielen im Wirtshaus. Im Obergeschoss wohnt Sohn Nils mit seiner Frau Birgit und der fünfzehnjährigen Enkelin Laura."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Schaffnerin bei der Bahn, viele Jahre auf den Nebenstrecken durchs Tal. Erzählt gern von Fahrgästen und Winterfahrten."
+        },
+        {
+          "topic": "Briefmarken",
+          "text": "Sammelt Briefmarken, am liebsten Eisenbahnmotive. Sortiert sie gern am Sonntagabend, wenn es ruhig ist."
+        },
+        {
+          "topic": "Schwammerl",
+          "text": "Geht von Juli bis Oktober Schwammerl suchen, oft mit ihrer Freundin Martha. Trocknet einen Teil für den Winter."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat Bluthochdruck und nimmt morgens Tabletten. Lässt den Blutdruck regelmäßig in der Apotheke messen. Hausärztin ist Dr. Pichler."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Rosina hat in der Apotheke den Blutdruck messen lassen und erzählt, der Wert sei etwas höher gewesen als sonst. Sie will das beim nächsten Termin bei Dr. Pichler ansprechen.",
+          "notes": [
+            "Blutdruck in der Apotheke etwas höher als sonst",
+            "will es bei Dr. Pichler ansprechen"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Rosina hat von ihrem Geburtstag erzählt. Nils hat ihr ein neues Briefmarkenalbum geschenkt, Martha hat getrocknete Schwammerl vom gemeinsamen Herbst mitgebracht.",
+          "notes": [
+            "neues Briefmarkenalbum von Nils zum Geburtstag",
+            "Martha war zu Besuch",
+            "will die Bahnmarken ins neue Album umsortieren"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:42",
+        "text": "So, jetzt ist der Sonntag auch schon wieder vorbei. Der Roland ist noch beim Kartenspielen, und i sitz da mit meinen Marken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem ruhigen Abend. Was nimmst du dir heute bei den Marken vor?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Die Bahnmarken sortier i um, die mit den alten Lokomotiven. Da sind welche dabei von Strecken, wo i selber noch als Schaffnerin gefahren bin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schön, wenn man die Strecken selber kennt. Ist eine dabei, an die du dich besonders erinnerst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:45",
+        "text": "Die grüne mit der Dampflok, die Strecke durchs Tal hinauf. Im Winter ist da oft kaum wer mitgefahren, da hab i mit dem Lokführer eh mehr geredet als mit den Fahrgästen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du sicher einiges erlebt auf der Strecke. Kommt die grüne Marke jetzt ganz vorne ins Album?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:47",
+        "text": "Freilich, auf die erste Seite, das Album hat mir ja der Nils geschenkt hast du mein Ladekabel gesehen, i hab's vorher beim Sofa liegen lassen, Oma"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du klingst heute ein bisschen durcheinander. Bist du vielleicht müde?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:48",
+      "text": "Na, des war die Laura, die ist grad runterkommen wegen ihrem Ladekabel. I bin eh ganz munter."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "hast du mein Ladekabel gesehen, i hab's vorher beim Sofa liegen lassen, Oma",
+        "type": "other_person"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The granddaughter Laura, who lives upstairs and often comes down in the evening (memory), asks for her charging cable while Rosina is talking; STT merges it without a boundary into Rosina's turn. It is odd in context, but on careful reading the question addresses someone else and ends with 'Oma', a different speaker's perspective (medium). Rosina corrects the misreading briefly."
+  }
+}

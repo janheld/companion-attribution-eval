@@ -1,0 +1,173 @@
+{
+  "id": "incoherent_user_016",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:30:53.288096+00:00"
+  },
+  "content_hash": "fecaf361c8b4737c33b30601667091e9304c1bc9aedeb72812f5a7ebe841d27a",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_016",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 69,
+    "time_of_day": "Vormittag",
+    "weekday": "Montag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Reinhard",
+    "last_name": "Gessl",
+    "side_older": [
+      "Max",
+      "Anna",
+      "Isidor"
+    ],
+    "side_younger": [
+      "Thorsten",
+      "Doris",
+      "Luis"
+    ],
+    "side_surnames": [
+      "Scharinger",
+      "Brandl"
+    ],
+    "former_job": "Drogist",
+    "interests": [
+      "Katze oder Hund",
+      "Obstbäume und Veredeln"
+    ],
+    "occasion": "kommt von einem Spaziergang zurück",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Reinhard Gessl",
+      "address_form": "du",
+      "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 69
+      },
+      "time_of_day": "Montag, 10:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Reinhard ist seit drei Jahren Witwer, seine Frau hieß Anna. Sein Sohn Thorsten lebt mit Familie in der Bezirksstadt. Die Enkelin Doris studiert in der Stadt und kommt in den Ferien zu ihm."
+        },
+        {
+          "topic": "Hund und Spaziergang",
+          "text": "Hat einen älteren Mischlingshund und geht jeden Vormittag nach dem Frühstück mit ihm eine Runde über die Felder und an seinen Obstbäumen vorbei."
+        },
+        {
+          "topic": "Obstbäume",
+          "text": "Hat eine kleine Streuobstwiese hinterm Haus mit alten Apfel-, Birn- und Zwetschkenbäumen. Veredelt selbst und ist im Obstbauverein, wo auch sein Freund Max ist. Mit Max ist er beim Baumschnitt selten einer Meinung."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bluthochdruck, nimmt jeden Morgen eine Tablette. Hausarzt ist Dr. Scharinger. Als ehemaliger Drogist kennt er sich mit Hausmitteln und Salben gut aus."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Der Nachbar Isidor schaut manchmal auf den Hund, wenn Reinhard in die Bezirksstadt fährt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 1 Tag",
+          "summary": "Reinhard hat über den alten Zwetschkenbaum beim Zaun geredet, der heuer kaum getragen hat. Er wollte ihn sich beim nächsten Spaziergang genauer anschauen.",
+          "notes": [
+            "Alter Zwetschkenbaum beim Zaun hat heuer kaum getragen",
+            "Will ihn sich genauer anschauen"
+          ]
+        },
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Die Enkelin Doris hat angerufen. Sie kommt in den Weihnachtsferien ab dem 21. Dezember für eine Woche zu ihm. Reinhard hat sich sehr gefreut und überlegt, was er für sie kochen soll.",
+          "notes": [
+            "Doris kommt ab dem 21. Dezember für eine Woche",
+            "Reinhard überlegt, was er kocht"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Reinhard war beim Obstbauverein, wo über den Winterschnitt gesprochen wurde. Max will alte Wunden mit Baumwachs verschließen, Reinhard hält davon wenig.",
+          "notes": [
+            "Treffen im Obstbauverein",
+            "Uneinigkeit mit Max über Baumwachs"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Den Zwetschkenbaum, von dem i dir gestern erzählt hab, den hab i mir jetzt beim Gehen genau angeschaut. Der hat unten am Stamm einen langen Riss in der Rinde."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ah, der alte beim Zaun. Schaut der Riss frisch aus, oder ist der schon länger da?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:15",
+        "text": "Länger schon, glaub i. Frostriss halt, vom letzten Winter. Der Max tät da gleich Baumwachs drauf schmieren, aber i halt nix davon. Sag, wann hast du gesagt, kommt die Doris heuer, zu Weihnachten oder erst im Februar?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Die Doris kommt in den Weihnachtsferien, ab dem 21. Dezember für eine Woche, so hat sie es dir am Telefon gesagt. Und beim Riss, was machst du stattdessen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:18",
+        "text": "Sauber ausschneiden bis aufs gesunde Holz und dann in Ruh lassen. Der Baum hilft sich eh selber, wenn man ihn lässt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da spricht die Erfahrung. Dann hast du für die nächsten Tage schon eine Arbeit im Garten."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:21",
+      "text": "Jo, am Nachmittag mach i des, wenn es trocken bleibt. Du, wann kommt jetzt eigentlich die Doris, zu Weihnachten oder erst im Februar?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Du, wann kommt jetzt eigentlich die Doris, zu Weihnachten oder erst im Februar?",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Reinhard repeats almost word for word the question about his granddaughter's visit that Mira answered two turns earlier, without any sign that he remembers the answer. The repetition is in his own voice and dialect and follows a coherent sentence about his garden plans, so it reads like the person, not like TV or an STT error. Everything else is consistent with memory (the plum tree from yesterday, Max and the tree wax, Doris from 21 December)."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "clean_004",
+  "set": "calibration",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T13:44:12.821785+00:00"
+  },
+  "content_hash": "fd25211bf72e8f3e890c2093635c5908717ec76eae5880680420f61b2b110240",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "57938ba36d8f56c9fa1de1c4b4988e5c0b941d5f5a45bebed4013b9e1d4bf4fc"
+  },
+  "spec": {
+    "id": "clean_004",
+    "set": "calibration",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 70,
+    "time_of_day": "Vormittag",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Sabina",
+    "last_name": "Mühlböck",
+    "side_older": [
+      "Elfriede",
+      "Alfons"
+    ],
+    "side_younger": [
+      "Nina",
+      "Philipp"
+    ],
+    "side_surnames": [
+      "Lamplmayr"
+    ],
+    "former_job": "Mesnerin",
+    "interests": [
+      "Marmelade und Most",
+      "Nähen"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Sabina Mühlböck",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 70
+      },
+      "time_of_day": "Montag, 09:38",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Nina (Tochter)",
+          "text": "Mama steht beim Einkochen gern stundenlang am Herd und setzt sich zu wenig hin. Seit der Hüftoperation soll sie zwischendurch Pausen machen. Wenn es passt, gern daran erinnern."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Sabina ist seit sieben Jahren verwitwet und lebt allein in ihrem Haus mit Obstgarten. Ihre Tochter Nina wohnt mit ihrer Familie in der Landeshauptstadt und ruft meistens am Wochenende an. Ninas Sohn Philipp studiert und kommt in den Ferien zu Besuch."
+        },
+        {
+          "topic": "Bruder",
+          "text": "Ihr älterer Bruder Alfons lebt seit dem Frühjahr im Pflegeheim in der Bezirksstadt. Sabina besucht ihn jeden Mittwochnachmittag; ihre Freundin Elfriede fährt sie mit dem Auto hin und holt sie um 14 Uhr ab."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Sabina hat seit zwei Jahren eine Hüftprothese links. Im Alltag kommt sie gut zurecht, langes Stehen spürt sie aber in der Hüfte. Die Übungen aus der Reha macht sie nach eigener Aussage 'wenn ich dran denk'."
+        },
+        {
+          "topic": "Früher",
+          "text": "Sabina war über dreißig Jahre Mesnerin in der Pfarrkirche im Ort. Sie hat in dieser Zeit auch die Altartücher genäht und ausgebessert und erzählt gern von früheren Festtagen."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Sie kocht jedes Jahr Marmelade und Gelee ein und presst mit der Nachbarin, Frau Lamplmayr, im Herbst Most aus den eigenen Äpfeln. Sie näht viel, vor allem Änderungen und Vorhänge, auch für Bekannte."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Sabina erzählte, dass Nina angerufen hat und Philipp zu Weihnachten kommt. Sie hat eine Hose von Philipp zum Kürzen bekommen und will das in der kommenden Woche erledigen. Außerdem hat Frau Lamplmayr ihr einen großen Kübel Quitten vorbeigebracht.",
+          "notes": [
+            "Philipp kommt zu Weihnachten zu Besuch",
+            "Hose von Philipp kürzen steht noch an",
+            "Quitten von Frau Lamplmayr bekommen, will am Wochenende mit dem Gelee anfangen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Sabina berichtete vom Besuch bei Alfons am Mittwoch. Er war müde, hat sich aber über den mitgebrachten Most gefreut. Sie sprach darüber, dass ihm das Essen im Heim zu eintönig ist. Elfriede hat sie wie immer gefahren.",
+          "notes": [
+            "Alfons klagt über eintöniges Essen im Heim",
+            "Besuch bei Alfons jeden Mittwoch mit Elfriede",
+            "Alfons hat sich über den Most gefreut"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:38",
+        "text": "Guten Morgen, Mira. Meine Küche schaut aus wie ein Schlachtfeld, ich hab mit den Quitten von der Frau Lamplmayr angefangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Guten Morgen, Sabina! Da hast du dir ja was vorgenommen. Wird es Gelee oder Marmelade?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:39",
+        "text": "Gelee. Ich hab sie gestern ausgekocht, und über Nacht ist der Saft durchs Tuch getropft. Über einen umgedrehten Hocker, so wie bei meiner Mutter früher."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem bewährten System. Wie viel Saft ist denn zusammengekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:41",
+        "text": "Gut zwei Liter, schätze ich. Die Frau Lamplmayr hat mir ja einen ganzen Kübel gebracht, mehr als ich eigentlich wollte."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Zwei Liter, das gibt schon einige Gläser. Da kannst du der Frau Lamplmayr gleich ein paar zurückgeben."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:44",
+        "text": "Hab ich mir auch gedacht. Und dem Alfons nehm ich am Mittwoch zwei mit, der mag das so gern aufs Weißbrot. Im Heim gibt's ja immer nur diese kleinen Portionspackerl."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird er sich freuen, so ein Glas von daheim. Fährst du wieder mit der Elfriede hin?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:46",
+        "text": "Ja, sie holt mich um zwei ab, wie immer. Aber jetzt muss ich mich ein bisschen hinsetzen, die Hüfte meldet sich, wenn ich so lang am Herd steh."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Setz dich ruhig hin, das Gelee läuft dir nicht davon. Der Saft wartet auf dich."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:51",
+      "text": "So, Kaffee hab ich jetzt. Sag einmal, ich hab nur noch normalen Kristallzucker da, keinen Gelierzucker. Geht das trotzdem, oder wird mir das nichts?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Typical Monday-morning kitchen talk: a widowed former sacristan makes quince jelly from the neighbor's fruit, plans to bring jars to her brother in the care home on her regular Wednesday visit, sits down because her hip prosthesis complains, and ends with a concrete practical question (setting jelly without gelling sugar). Everything fits memory: the neighbor's quinces from Saturday, the Wednesday visit with Elfriede at 14:00, the daughter's note about taking breaks."
+  }
+}

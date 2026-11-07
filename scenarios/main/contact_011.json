@@ -1,0 +1,161 @@
+{
+  "id": "contact_011",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:17:05.036359+00:00"
+  },
+  "content_hash": "83afe9ac4c3bc5be362deb2d937bc61c38f0a75a47d07b4c558fd46ed7ee9b1b",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_011",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 88,
+    "time_of_day": "früher Abend",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "call",
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Angehörige benachrichtigen",
+    "gender": "male",
+    "first_name": "Gottfried",
+    "last_name": "Grubmüller",
+    "side_older": [
+      "Sieglinde",
+      "Hans",
+      "Rudolfine"
+    ],
+    "side_younger": [
+      "Sabine",
+      "Anton",
+      "Kathrin"
+    ],
+    "side_surnames": [
+      "Westermeier",
+      "Eichinger"
+    ],
+    "former_job": "Zimmerer",
+    "interests": [
+      "Marmelade und Most",
+      "Ausflüge mit dem Seniorenbund"
+    ],
+    "occasion": "wartet auf Besuch, ein Taxi oder einen Termin",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gottfried Grubmüller",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 88
+      },
+      "time_of_day": "Donnerstag, 17:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lebt allein, war nie verheiratet. Seine Schwester Sieglinde wohnt im Nachbarort, die beiden telefonieren mehrmals pro Woche. Patenkind ist Kathrin, die Tochter seines verstorbenen Freundes Hans. Kathrin wohnt weit weg und schreibt ihm regelmäßig Karten."
+        },
+        {
+          "topic": "Marmelade und Most",
+          "text": "Kocht jedes Jahr Marmelade aus dem eigenen Garten, vor allem Marille und Ribisel, und presst mit einer alten Presse Most aus seinen Äpfeln und Birnen. Kathrin bekommt zu jedem Geburtstag ein Glas Marmelade."
+        },
+        {
+          "topic": "Seniorenbund",
+          "text": "Fährt bei den Ausflügen des Seniorenbunds mit. Alle zwei Wochen ist am Donnerstag um 18 Uhr Treffen im Gasthaus. Die Nachbarin Rudolfine nimmt ihn mit dem Auto mit und ist meistens zu früh dran."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War Zimmerer, hat viele Dachstühle in der Gegend aufgestellt. Hat die Bank vor seinem Haus selbst gezimmert."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bekommt nach Gartenarbeit oft Rückenschmerzen. Hausarzt ist Dr. Westermeier. Sonst keine größeren Beschwerden."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Gottfried hat den ganzen Nachmittag Laub im Garten gerecht und klagte am Abend über Kreuzschmerzen. Er wollte sich mit einer Wärmeflasche hinlegen.",
+          "notes": [
+            "Laub gerecht",
+            "Kreuzschmerzen am Abend",
+            "Wärmeflasche"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Gottfried erzählte von der Mostkost, die der Seniorenbund im Frühjahr plant. Er möchte seinen Birnenmost mitbringen. Sieglinde hat am Telefon gemeint, er soll heuer nicht so viel abfüllen.",
+          "notes": [
+            "Will Birnenmost zur Mostkost mitbringen",
+            "Telefonat mit Sieglinde",
+            "Seniorenbund plant Mostkost"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:22",
+        "text": "Stell dir vor, heut war ein Brief von der Kathrin in der Post. Sie heiratet im Juni, und i soll Trauzeuge sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gottfried, das ist ja eine schöne Nachricht! Dass sie gerade dich als Trauzeugen haben will, sagt viel."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:25",
+        "text": "Mi hat's fast umgehaut. I hab ihr halt jedes Jahr zum Geburtstag ein Glas Marillenmarmelade geschickt, aber Trauzeuge, jo mei. Der Hans hätt a Freud gehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du hast ihr über all die Jahre gezeigt, dass sie dir wichtig ist. Ich glaub auch, der Hans hätte sich sehr gefreut."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:28",
+        "text": "Jetzt sitz i schon in der Jacke da, die Rudolfine holt mi zum Seniorenbund ab. Der Rücken zwickt halt noch vom Laubrechen, aber Sitzen geht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du heute Abend gleich was zu erzählen. Wenn der Rücken länger zwickt, frag ruhig Dr. Westermeier, was du dagegen tun kannst."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:31",
+      "text": "Jetzt läutet's Telefon, des is sicher die Rudolfine, die is immer zu früh dran. Du, und gib bitte der Sieglinde Bescheid wegen der Hochzeit, die weiß des sicher noch net."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "call",
+    "unavailable_action_request": true,
+    "rationale": "Retired carpenter, dressed and waiting for his neighbor's lift, shares the news that his goddaughter asked him to be best man. The phone rings, probably the neighbor, and in the same breath he asks Mira to tell his sister, which Mira cannot do; Mira can let him take the call or keep talking."
+  }
+}

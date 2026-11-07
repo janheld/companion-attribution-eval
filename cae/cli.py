@@ -31,6 +31,14 @@ def main() -> None:
     ii.add_argument("--set", required=True)
     ii.add_argument("--overwrite-drafts", action="store_true", help="also replace existing drafts (never approved ones)")
 
+    ci = sub.add_parser("check-inbox", help="check written scenarios in the inbox before import")
+    ci.add_argument("--set", required=True)
+    ci.add_argument("--ids", nargs="*")
+
+    d = sub.add_parser("diff", help="word diff of revised drafts against their previous version")
+    d.add_argument("--set", required=True)
+    d.add_argument("--ids", nargs="*")
+
     sub.add_parser("spent", help="show total actual API spend from the ledger")
 
     args = p.parse_args()
@@ -59,14 +67,32 @@ def main() -> None:
                 print(f"  {sc['id']}: {'; '.join(validate(sc))}")
         from .generate import load_config
         from .people import set_problems
-        for problem in set_problems(scenarios, load_config()["sets"].get(args.set, {})):
+        cfg = load_config()
+        for problem in set_problems(scenarios, cfg["sets"].get(args.set, {}), cfg):
             print(f"  set: {problem}")
+        # Heuristic warnings: to be looked at, not necessarily wrong.
+        from .checks import (block_problems, fragment_problems, opening_problems, situation_problems,
+                             time_problems)
+        from .people import _all_pool_names
+        for problem in (opening_problems(scenarios) + fragment_problems(scenarios)
+                        + situation_problems(scenarios, _all_pool_names())
+                        + block_problems(scenarios, cfg["overused_blocks"])):
+            print(f"  check: {problem}")
+        for sc in scenarios:
+            for problem in time_problems(sc):
+                print(f"  check: {sc['id']}: {problem}")
     elif args.cmd == "tasks":
         from . import inbox
         inbox.write_tasks(args.set, args.ids)
     elif args.cmd == "import":
         from . import inbox
         inbox.import_drafts(args.set, args.overwrite_drafts)
+    elif args.cmd == "check-inbox":
+        from . import inbox
+        inbox.check_inbox(args.set, args.ids)
+    elif args.cmd == "diff":
+        from .diff import print_diffs
+        print_diffs(args.set, args.ids)
     elif args.cmd == "spent":
         from .cost import total_spent
         print(f"${total_spent():.2f}")

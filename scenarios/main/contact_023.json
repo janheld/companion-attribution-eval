@@ -1,0 +1,175 @@
+{
+  "id": "contact_023",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:25:44.905628+00:00"
+  },
+  "content_hash": "e9c133f80ff5f3c71d7a9b8187a13b4377df1a1887b16b53738f7c6268b2d604",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_023",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 86,
+    "time_of_day": "Mittag",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "new_acquaintance",
+    "household": "lebt allein, geschieden",
+    "history_turns": 8,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Richard",
+    "last_name": "Dobler",
+    "side_older": [
+      "Amalie",
+      "Kurt",
+      "Lotte"
+    ],
+    "side_younger": [
+      "Verena",
+      "Lukas",
+      "Laura"
+    ],
+    "side_surnames": [
+      "Ahamer",
+      "Kastenhofer"
+    ],
+    "former_job": "Kfz-Mechaniker",
+    "interests": [
+      "Volksmusik im Radio",
+      "Feuerwehr (Ehrenmitglied)"
+    ],
+    "occasion": "wartet auf Besuch, ein Taxi oder einen Termin",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Richard Dobler",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 86
+      },
+      "time_of_day": "Freitag, 12:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Nichte Verena",
+          "text": "Ich kümmere mich um Onkel Richards Behördensachen. Er nimmt seine Blutdrucktabletten jeden Morgen zum Frühstück."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Richard ist 79, geschieden und lebt allein in einer Mietwohnung im ersten Stock eines kleinen Mehrparteienhauses. Er hatte bis zur Pension eine Kfz-Werkstatt und schraubt immer noch gern."
+        },
+        {
+          "topic": "Familie",
+          "text": "Nichte Verena erledigt seine Behördenwege und Formulare und fährt ihn hin, wenn es nötig ist. Sein alter Freund Kurt war früher mit ihm bei der Feuerwehr."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Richard hat Bluthochdruck und nimmt jeden Morgen Tabletten, die sein Hausarzt Dr. Ahamer verschreibt."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Hört täglich Volksmusik im Radio. Ist Ehrenmitglied der Freiwilligen Feuerwehr und geht zu allen Versammlungen und Festen."
+        },
+        {
+          "topic": "Pläne",
+          "text": "Will im Frühjahr beim Ausflug der Feuerwehrkameraden ins Ausland mitfahren und braucht dafür einen neuen Reisepass."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Richard erzählte, dass er seinen alten, abgelaufenen Reisepass nicht findet, den er für den neuen Pass mitbringen soll. Verena hat zugesagt, ihn übermorgen um 13 Uhr abzuholen und zur Bezirkshauptmannschaft zu fahren.",
+          "notes": [
+            "alter Reisepass verlegt",
+            "Verena holt ihn übermorgen um 13 Uhr ab",
+            "Passfoto ist schon gemacht"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Im Erdgeschoss ist ein neuer Mieter eingezogen. Richard hat den Umzugswagen gesehen, den neuen Nachbarn aber noch nicht kennengelernt. Am Freitagabend ist die Jahresversammlung der Feuerwehr, zu der er als Ehrenmitglied eingeladen ist.",
+          "notes": [
+            "neuer Mieter im Erdgeschoss, noch nicht kennengelernt",
+            "Jahresversammlung der Feuerwehr am Freitagabend dieser Woche"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:22",
+        "text": "Den alten Pass hab i jetzt gefunden, von dem wir am Mittwoch geredet haben. Der war in der Mappe mit den Feuerwehrsachen, ausgerechnet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat er sich also versteckt, Richard. Dann hast du jetzt alles beisammen für die Bezirkshauptmannschaft?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:24",
+        "text": "Jo, des Foto hab i auch eingesteckt. Die Verena holt mich um eins ab. Allein tät i mich da eh net auskennen mit die ganzen Formulare."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass die Verena das mit dir macht. Mit ihr geht das sicher flott."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:27",
+        "text": "Die ist da ganz flink. I sitz jetzt schon angezogen beim Fenster. In der Früh hab i extra gleich die Tabletten genommen, damit i des net vergess bei dem ganzen Trubel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist gut vorausgedacht. Habt ihr danach noch was vor, du und die Verena?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:30",
+        "text": "Danach gehen wir zum Wirt essen, des hat sie versprochen. Und am Abend ist eh die Jahresversammlung bei der Feuerwehr, da bin i als Ehrenmitglied eingeladen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du heute ja ein volles Programm. Als Ehrenmitglied bist du dort sicher gern gesehen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:33",
+      "text": "Du, da unten vorm Haus steht einer bei einem alten blauen Kombi und kriegt die Motorhaube net zu. Des muss der Neue sein, der am Montag unten eingezogen ist, mit dem hab i noch kein Wort geredet. Bis die Verena kommt, wär ja noch a knappe halbe Stund."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "new_acquaintance",
+    "unavailable_action_request": false,
+    "rationale": "A retired car mechanic waits by the window for his niece to drive him to the passport office. He sees the new downstairs neighbour struggling with a car bonnet and has half an hour to spare, so the companion can nudge him to go down and meet him or keep chatting."
+  }
+}

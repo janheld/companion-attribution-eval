@@ -1,0 +1,181 @@
+{
+  "id": "tv_bleed_019",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:28.793743+00:00"
+  },
+  "content_hash": "d52067a95bea26d385ff4467cff35f1a2417a4062e7a5f165df16743562da666",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_019",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 370,
+    "time_of_day": "früher Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 8,
+    "health": "keine nennenswerten Beschwerden",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Ambros",
+    "last_name": "Kastner",
+    "side_older": [
+      "Wiltrud",
+      "Karl-Heinz",
+      "Stefanie"
+    ],
+    "side_younger": [
+      "Bettina",
+      "Hannes",
+      "Amelie"
+    ],
+    "side_surnames": [
+      "Spiegl",
+      "Deisenhofer"
+    ],
+    "former_job": "Altenpfleger",
+    "interests": [
+      "Seniorenturnen",
+      "Schach"
+    ],
+    "occasion": "wartet auf Besuch, ein Taxi oder einen Termin",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Ambros Kastner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 370
+      },
+      "time_of_day": "Sonntag, 17:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Bettina (Schwiegertochter)",
+          "text": "Ich gehe jeden Samstagvormittag mit Ambros einkaufen. Er redet gern übers Schach, das Sonntagsspiel mit Karl-Heinz ist ihm heilig."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Beruf",
+          "text": "Ambros hat 34 Jahre als Altenpfleger in einem Seniorenheim in der Bezirksstadt gearbeitet, zuletzt im Nachtdienst. Seit elf Jahren in Pension."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ambros war nie verheiratet. Sein Sohn Hannes lebt mit seiner Frau Bettina in der Bezirksstadt. Bettina holt ihn samstags zum Einkaufen ab."
+        },
+        {
+          "topic": "Schach",
+          "text": "Jeden Sonntag um 18 Uhr kommt sein Freund Karl-Heinz zu ihm zum Schachspielen, das geht seit über zwanzig Jahren so. Karl-Heinz spielt gern Weiß."
+        },
+        {
+          "topic": "Seniorenturnen",
+          "text": "Mittwochvormittag geht Ambros zum Seniorenturnen im Turnsaal der Volksschule. Die Vorturnerin bringt oft neue Übungen mit Bällen und Bändern mit."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Keine nennenswerten Beschwerden. Geht jeden Tag eine Runde spazieren."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Ambros erzählte, dass er am vergangenen Sonntag gegen Karl-Heinz ein Turmendspiel verloren hat. Er war überzeugt, dass ein falscher Turmzug schuld war, und wollte die Stellung noch einmal aufbauen.",
+          "notes": [
+            "Verlor letzten Sonntag ein Turmendspiel gegen Karl-Heinz",
+            "Will die Stellung nachspielen",
+            "Karl-Heinz meinte, der Turm sei falsch gestanden"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Ambros kam vom Seniorenturnen und berichtete von einer neuen Gleichgewichtsübung mit einem weichen Ball. Er fand sie anstrengender als erwartet, aber lustig.",
+          "notes": [
+            "Neue Gleichgewichtsübung beim Seniorenturnen",
+            "Fand sie anstrengend, aber lustig"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:42",
+        "text": "Du, des Endspiel vom letzten Sonntag, des hab i mir heut in der Früh nochmal aufgestellt. Der Turm war wirklich falsch, da hat der Karl-Heinz schon recht gehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du es jetzt schwarz auf weiß. Spielt ihr heute wieder?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:44",
+        "text": "Freilich, Sonntag ist Schach. Um sechs kommt er, wie immer. Der ist so pünktlich, da kannst die Uhr danach stellen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du noch ein paar Minuten. Hast du dir für heute schon etwas vorgenommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:46",
+        "text": "Na, i lass ihn anfangen. Mit Weiß ist er immer so ungeduldig, da hoff i halt, dass er wieder zu früh mit der Dame rausgeht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Klingt nach einem Plan. Gibt es auch etwas zum Knabbern dazu?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:48",
+        "text": "Die Bettina hat mir gestern Salzstangerl mitgebracht, wie wir einkaufen waren. Und a Bier hab i für ihn kalt gestellt, i trink eh lieber Tee."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das passt doch gut. Dann bist du bestens vorbereitet für den Abend."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:51",
+      "text": "Jo, i richt jetzt schon mal das Brett her, dann können wir gleich anfangen Du hättest mir sagen müssen, dass er die ganze Zeit gewusst hat, wo das Geld versteckt ist."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Du hättest mir sagen müssen, dass er die ganze Zeit gewusst hat, wo das Geld versteckt ist.",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "While Ambros waits for his Sunday chess partner, a line of film dialogue from the TV running in the background is merged into his turn without a boundary. The reproachful, dramatic register and the unknown 'he' and hidden money have nothing to do with setting up the chess board, while his own part stays coherent."
+  }
+}

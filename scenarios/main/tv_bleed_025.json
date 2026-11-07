@@ -1,0 +1,210 @@
+{
+  "id": "tv_bleed_025",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:35.706691+00:00"
+  },
+  "content_hash": "11e4c26d5c45d690e4bb2772d34d3b95d5fc43789540ff156ecc3e17ff5ce7b7",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_025",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 172,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 12,
+    "health": "Schulter nach Sturz im Winter",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Lucia",
+    "last_name": "Mitterlehner",
+    "side_older": [
+      "Ida",
+      "Reinhold",
+      "Cäcilia"
+    ],
+    "side_younger": [
+      "Melanie",
+      "Jürgen",
+      "Lina"
+    ],
+    "side_surnames": [
+      "Kirchberger",
+      "Keinberger"
+    ],
+    "former_job": "Hauptschullehrerin",
+    "interests": [
+      "Lesen",
+      "Ausflüge mit dem Seniorenbund"
+    ],
+    "occasion": "will etwas wissen (Rezept, Wort, wie etwas geht)",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Lucia Mitterlehner",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 172
+      },
+      "time_of_day": "Samstag, 21:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Melanie (Tochter)",
+          "text": "Mama ist im Jänner auf dem Glatteis vor dem Haus gestürzt und hat sich die linke Schulter geprellt. Sie hebt seither nichts Schweres mehr mit links, mag aber nicht ständig darauf angesprochen werden."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Lucia lebt allein in ihrem Haus. Ihre Tochter Melanie wohnt im selben Ort, ein paar Straßen weiter, und schaut oft auf einen Sprung vorbei. Melanies Kinder sind Jürgen und Lina."
+        },
+        {
+          "topic": "Bruder",
+          "text": "Ihr älterer Bruder Reinhold lebt seit zwei Jahren im Pflegeheim in der Bezirksstadt. Lucia besucht ihn meistens montags, Melanie fährt sie hin."
+        },
+        {
+          "topic": "Beruf und Lesen",
+          "text": "Lucia war fast vierzig Jahre Hauptschullehrerin für Deutsch und Geschichte. Sie liest viel, am liebsten Romane, und tauscht Bücher mit ihrer Freundin Ida."
+        },
+        {
+          "topic": "Seniorenbund",
+          "text": "Sie fährt regelmäßig bei den Ausflügen des Seniorenbunds mit. Mit Cäcilia sitzt sie im Bus meistens zusammen."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Seit dem Sturz im Winter ist die linke Schulter nicht mehr ganz beweglich. Die Physiotherapie ist abgeschlossen, Hausarzt ist Dr. Kirchberger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Lucia erzählte, dass der Seniorenbund am Dienstag nächster Woche einen Ausflug ins Glasmuseum macht und sie sich mit Cäcilia angemeldet hat. Beim letzten Ausflug hat sie im Bus gefroren, weil die Heizung nicht ging.",
+          "notes": [
+            "Ausflug Glasmuseum: Dienstag nächster Woche",
+            "sitzt im Bus neben Cäcilia",
+            "hat beim letzten Ausflug gefroren"
+          ]
+        },
+        {
+          "date": "Montag, vor 5 Tagen",
+          "summary": "Lucia kam vom Besuch bei ihrem Bruder Reinhold im Pflegeheim zurück. Er war müde und hat wenig gesprochen, hat sich aber über die mitgebrachten Fotos gefreut. Melanie hat sie hingefahren.",
+          "notes": [
+            "Reinhold war müde, freute sich über Fotos",
+            "Melanie fährt sie zu den Besuchen",
+            "Lucia war danach nachdenklich"
+          ]
+        },
+        {
+          "date": "Samstag, vor 7 Tagen",
+          "summary": "Lucia hat ein neues Buch von Ida bekommen, einen Roman über einen jungen Mann um 1900. Sie meinte, die Sprache sei altmodisch, aber spannend.",
+          "notes": [
+            "liest neuen Roman, geliehen von Ida",
+            "mag altmodische Sprache"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:41",
+        "text": "Was ist eigentlich ein Kalfakter? Des steht jetzt schon zum dritten Mal in meinem Buch drin und i komm net drauf."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Kalfakter oder Kalfaktor ist jemand, der für andere allerlei Hilfsdienste erledigt, früher zum Beispiel ein Hausdiener oder im Gefängnis ein Häftling, der das Essen austeilt. Passt das zu deiner Stelle im Buch?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Jo, des passt. Der Bursch im Roman ist grad im Gefängnis. Dass i des als Deutschlehrerin net gewusst hab, des wurmt mich jetzt schon a bissl."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "So ein Wort begegnet einem ja nicht jeden Tag. Wie gefällt dir das Buch bis jetzt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:45",
+        "text": "Gut eigentlich, die Ida hat mir's geliehen. Bloß halten kann i's net lang, wegen der Schulter, da leg i's immer auf einen Polster."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem Polster darunter liest es sich sicher leichter. Wenn die Schulter trotzdem länger zieht, kann dir Dr. Kirchberger am besten sagen, was ihr guttut."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:48",
+        "text": "Jo, eh. Sag, wie heißt des gleich, wenn man schaut, woher ein Wort kommt? Des hab i den Kindern früher selber erklärt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du meinst die Etymologie, also die Lehre von der Herkunft der Wörter."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:50",
+        "text": "Genau, Etymologie. Und woher kommt dann der Kalfakter?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Soweit ich weiß, kommt das Wort aus dem Lateinischen und meinte ursprünglich den Heizer, also jemanden, der einheizt. Später wurde daraus allgemein ein Gehilfe für alles."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:53",
+        "text": "Ah, der Heizer. Des erzähl i am Dienstag im Bus der Cäcilia, die rätselt so was gern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine schöne Geschichte für die Fahrt ins Glasmuseum. Freust du dich schon auf den Ausflug?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:55",
+      "text": "Freilich, wenn's net wieder so kalt ist im Bus wie letztes Mal. Was zieht man denn da am gescheitesten an, dass man net friert und trotzdem net so viel schleppen muss in der Nacht auf Sonntag verbreitet Frost bis minus sechs Grad, in höheren Lagen auch darunter, morgen tagsüber zunächst sonnig"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 12,
+        "span": "in der Nacht auf Sonntag verbreitet Frost bis minus sechs Grad, in höheren Lagen auch darunter, morgen tagsüber zunächst sonnig",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Late on Saturday the TV weather forecast after the evening news runs in the background while Lucia asks what to wear on the bus trip. STT appends the forecast to her question without a boundary. The fragment is in presenter register and standard German, unlike her dialect, but it sits right next to her worry about cold, so a model may treat the frost figures as part of her question."
+  }
+}

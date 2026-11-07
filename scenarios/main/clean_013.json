@@ -1,0 +1,166 @@
+{
+  "id": "clean_013",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:56.501926+00:00"
+  },
+  "content_hash": "05b7f1722746f530f2919db09875f3cc3bc8905cbd81ae09c739ce24f20dc110",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_013",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 133,
+    "time_of_day": "später Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Sohn in der Stadt, ruft selten an",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Gerhard",
+    "last_name": "Lechner",
+    "side_older": [
+      "Sidonie",
+      "Bonifaz",
+      "Helga"
+    ],
+    "side_younger": [
+      "Verena",
+      "Joel",
+      "Zoe"
+    ],
+    "side_surnames": [
+      "Niedermayr",
+      "Kaltenbrunner"
+    ],
+    "former_job": "Uhrmacher",
+    "interests": [
+      "Seniorenturnen",
+      "Kartenspielen"
+    ],
+    "occasion": "hat ein altes Foto oder einen alten Gegenstand gefunden",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gerhard Lechner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 133
+      },
+      "time_of_day": "Mittwoch, 22:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Mobile Hauskrankenpflege",
+          "text": "Herr Lechner hat eine Polyneuropathie in beiden Füßen und spürt Druckstellen und Kälte schlecht. Er soll am Abend die Füße anschauen und warme, nicht zu enge Socken tragen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Beruf",
+          "text": "Gerhard war über vierzig Jahre Uhrmacher. Gelernt hat er bei einem alten Meister in der Bezirksstadt, später hatte er eine kleine eigene Werkstatt im Ort. Er erzählt gern von Reparaturen, bei denen andere schon aufgegeben hatten."
+        },
+        {
+          "topic": "Familie",
+          "text": "Gerhard ist seit über zwanzig Jahren von Helga geschieden, der Kontakt ist freundlich, aber selten. Sein Sohn Joel lebt in der Stadt und ruft nur selten an. Joel kommt meistens zu Weihnachten mit seiner Tochter Zoe, die neun Jahre alt ist."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in den Füßen: Kribbeln, Taubheit, kalte Füße, vor allem am Abend. Hausarzt ist Dr. Niedermayr. Bei Glätte geht Gerhard mit Stock."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Dienstag am Vormittag geht Gerhard zum Seniorenturnen im Turnsaal der Volksschule. Sonntag am Nachmittag spielt er im Gasthaus Schnapsen mit Bonifaz und Sidonie."
+        },
+        {
+          "topic": "Gewohnheiten",
+          "text": "Gerhard ist ein Nachtmensch und geht selten vor Mitternacht ins Bett. Am späten Abend räumt er gern Laden und Kästen auf oder liest."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 1 Tag",
+          "summary": "Gerhard erzählte vom Seniorenturnen. Die Gleichgewichtsübungen fielen ihm schwer, weil er die Füße schlecht spürt; die Turnleiterin stellte ihm einen Sessel zum Festhalten hin. Er war trotzdem zufrieden, dass er hingegangen ist.",
+          "notes": [
+            "Gleichgewichtsübungen mit Sessel als Stütze",
+            "Geht weiter jeden Dienstag zum Turnen",
+            "Möchte die Übungen nicht aufgeben"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 3 Tagen",
+          "summary": "Gerhard berichtete vom Schnapsen im Gasthaus mit Bonifaz und Sidonie. Er hat zwei Runden gewonnen und war gut gelaunt. Nebenbei erwähnte er, dass Joel seit Anfang Oktober nicht angerufen hat.",
+          "notes": [
+            "Hat beim Schnapsen zwei Runden gewonnen",
+            "Joel hat seit Anfang Oktober nicht angerufen",
+            "Erwartet Joel und Zoe wie jedes Jahr zu Weihnachten"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "22:06",
+        "text": "I sitz grad am Küchentisch und hab die unterste Lad vom Kasten ausgeräumt, eigentlich wollt i nur die dicken Wollsocken suchen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dicke Wollsocken sind am Abend sicher was Feines für deine Füße, Gerhard. Hast du sie gefunden, oder ist was anderes aufgetaucht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:08",
+        "text": "Die Socken net, aber die erste Taschenuhr, die i als Lehrbub ganz allein hergerichtet hab. Die war in einem Stofftuch eingewickelt, ganz hinten drin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja ein Fund! Weißt du noch, was an der Uhr damals kaputt war?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:11",
+        "text": "Freilich, die Unruh war hin, und der Meister hat gesagt, wenn i die zum Laufen bring, darf i sie behalten. Drei Wochen bin i jeden Abend dran gesessen. Grad hab i sie aufgezogen, und sie geht noch, ein bissl nach halt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Nach all den Jahrzehnten läuft sie noch, das spricht für deine Arbeit von damals. Dass sie nach so langer Zeit in der Lade ein bisschen nachgeht, ist ja kein Wunder."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:14",
+      "text": "Weißt was, die könnt i dem Joel geben, wenn er zu Weihnachten kommt. Oder gleich der Zoe, die mag so alte Sachen. Was tätst denn du machen?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean late-evening session of a night owl who finds his apprentice pocket watch while looking for socks for his numb feet. Typical: a concrete everyday task turns into a memory tied to his former trade and to his rarely calling son, with understated feeling and a practical question at the end."
+  }
+}

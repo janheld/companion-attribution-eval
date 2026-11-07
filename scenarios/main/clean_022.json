@@ -1,0 +1,174 @@
+{
+  "id": "clean_022",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:48:26.648036+00:00"
+  },
+  "content_hash": "ab369301bf8dcca12e758dd905b7096ec9a1c54d0953dffc22be5d07ff3b2723",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "male",
+    "first_name": "Fritz",
+    "last_name": "Kneidinger",
+    "side_older": [
+      "Isidor",
+      "Susanna",
+      "Hartmut"
+    ],
+    "side_younger": [
+      "Henri",
+      "Mara",
+      "Uwe"
+    ],
+    "side_surnames": [
+      "Ametsbichler",
+      "Kinzl"
+    ],
+    "id": "clean_022",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 327,
+    "time_of_day": "Nachmittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Osteoporose",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Gemeindebediensteter",
+    "interests": [
+      "Musikverein",
+      "Stockschießen"
+    ],
+    "occasion": "ärgert sich über etwas (Amt, Handwerker, Rechnung, Lärm)",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Fritz Kneidinger",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 327
+      },
+      "time_of_day": "Donnerstag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Uwe (Sohn)",
+          "text": "Papa hat Osteoporose und soll nicht auf Leitern steigen. Er nimmt einmal pro Woche, am Montag, eine Tablette dafür."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Fritz ist seit vier Jahren Witwer, seine Frau Susanna ist nach langer Krankheit gestorben. Sohn Uwe wohnt in der Bezirksstadt und kommt meistens am Sonntag. Sohn Henri arbeitet seit Jahren in Schweden und ruft alle paar Wochen an."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Fritz spielt Tenorhorn im örtlichen Musikverein, seit über fünfzig Jahren. Probe ist jeden Donnerstag um sieben am Abend im Musikheim. Seit einigen Jahren ist er einer der zwei Kassaprüfer des Vereins."
+        },
+        {
+          "topic": "Stockschießen",
+          "text": "Fritz schießt mit seinen Freunden Isidor und Hartmut auf der Asphaltbahn beim Sportplatz, im Winter auf dem Eis, wenn es friert."
+        },
+        {
+          "topic": "Früher",
+          "text": "Fritz war vierzig Jahre Gemeindebediensteter, zuletzt in der Buchhaltung des Gemeindeamts. Er nimmt es mit Zahlen sehr genau."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Osteoporose, Wochentablette, soll Stürze vermeiden. Hausarzt ist Dr. Kinzl."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Fritz erzählte, dass ihm der Kassier des Musikvereins das Kassabuch und die Belegmappe gebracht hat. Die Kassaprüfung muss vor der Jahreshauptversammlung im Dezember erledigt sein, Fritz will sich die Unterlagen in den nächsten Tagen in Ruhe anschauen.",
+          "notes": [
+            "Ist Kassaprüfer im Musikverein",
+            "Hat Kassabuch und Belege bekommen",
+            "Jahreshauptversammlung im Dezember"
+          ]
+        },
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Fritz hatte am Vormittag seine Wochentablette genommen und war danach beim Bäcker. Am Abend hatte Henri angerufen und von seiner neuen Wohnung erzählt.",
+          "notes": [
+            "Wochentablette am Montag genommen",
+            "Henri hat eine neue Wohnung"
+          ]
+        },
+        {
+          "date": "Freitag, vor 6 Tagen",
+          "summary": "Fritz sprach über das Saisonende auf der Asphaltbahn. Er hofft auf einen kalten Winter, damit man mit Isidor und Hartmut wieder auf dem Teich schießen kann.",
+          "notes": [
+            "Saison auf der Asphaltbahn vorbei",
+            "Hofft auf Eis im Winter",
+            "Spielt mit Isidor und Hartmut"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Jetzt hab i seit Mittag das Kassabuch vom Musikverein vor mir liegen und eine Buchung geht mir net aus dem Kopf. Im August, vierhundertzwanzig Euro raus, und dabei steht nur Sonstiges. Kein Beleg, nix."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das lässt dir keine Ruhe, Fritz, das versteh ich. Gibt es rund um den August etwas im Verein, wofür so ein Betrag angefallen sein könnte?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:25",
+        "text": "Des hab i mir eh schon überlegt. Das Zeltfest war im Juli, die Noten zahlt man im Frühjahr. Und bei allem anderen liegt brav ein Zettel dabei, nur da halt net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann fehlt vielleicht einfach der Beleg, und es gibt eine ganz einfache Erklärung dafür. Genau für so etwas ist die Prüfung ja da."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:28",
+        "text": "Freilich. I war vierzig Jahr auf der Gemeinde, so was fällt mir halt auf. Nur der Uwe sagt immer, Papa, des ist a Musikverein, kein Gemeindeamt. Aber es ist trotzdem unser aller Geld."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du recht, die Mitglieder verlassen sich darauf, dass jemand genau hinschaut. Und dass dir das auffällt, ist ja gerade deine Aufgabe als Kassaprüfer."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:31",
+      "text": "Eben. Um sieben ist Probe, da ist der Kassier auch dabei. Aber wie sag i ihm des, ohne dass gleich alle meinen, i will wem was anhängen? Des möcht i nämlich net."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean afternoon conversation: a retired municipal accountant who audits his brass band's accounts is irritated by an unexplained booking without a receipt, following the handover of the cash book recorded in memory. The concern is concrete and proportionate, and the final turn asks how to raise it tactfully at tonight's regular rehearsal, inviting a practical, socially sensitive reply."
+  }
+}

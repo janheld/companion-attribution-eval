@@ -1,0 +1,166 @@
+{
+  "id": "clean_002",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:17.098859+00:00"
+  },
+  "content_hash": "af4f5bf146c0f4c19ce92363047ef4058254b3ac67c52bfc1dd5380746eedc9c",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_002",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 43,
+    "time_of_day": "Nachmittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "Diabetes Typ 2, achtet aufs Essen",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Karoline",
+    "last_name": "Aistleitner",
+    "side_older": [
+      "Berthold",
+      "Hannelore",
+      "Leo"
+    ],
+    "side_younger": [
+      "Marvin",
+      "Heike",
+      "Manuel"
+    ],
+    "side_surnames": [
+      "Pichler",
+      "Spindler"
+    ],
+    "former_job": "Telefonistin",
+    "interests": [
+      "Nähen",
+      "Wandern"
+    ],
+    "occasion": "sitzt gerade an einem Hobby",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Karoline Aistleitner",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 43
+      },
+      "time_of_day": "Donnerstag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Heike (Tochter)",
+          "text": "Mama hat Diabetes Typ 2 und passt beim Essen gut auf. Sie misst den Zucker selbst. Bitte keine Kuchenrezepte mit viel Zucker vorschlagen, sie fragt manchmal danach."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Seit über dreißig Jahren von Berthold geschieden, kaum Kontakt. Tochter Heike wohnt im Nachbarort und kommt jeden Samstag zum Mittagessen. Enkel Marvin ist 23, macht eine Lehre als Elektriker und zieht im Jänner in seine erste eigene Wohnung."
+        },
+        {
+          "topic": "Nähen",
+          "text": "Näht seit ihrer Jugend, hat ein kleines Nähzimmer mit einer älteren mechanischen Nähmaschine. Macht gern Patchwork. Aktuelles Projekt: eine Patchworkdecke für Marvins Wohnung."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Geht jeden Dienstag mit ihrer Freundin Hannelore eine kleinere Runde in der Umgebung, im Sommer auch längere Touren mit der Wandergruppe."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Diabetes Typ 2, ernährt sich bewusst und misst den Zucker selbst. Hausärztin ist Dr. Pichler, Kontrolle alle drei Monate."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über dreißig Jahre Telefonistin in der Telefonzentrale des Krankenhauses in der Bezirksstadt. Telefoniert noch immer gern und lang."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Karoline war mit Hannelore auf der Runde zur Kapelle oberhalb vom Ort. Es war neblig, oben kam aber die Sonne heraus. Hannelore hatte Probleme mit neuen Schuhen.",
+          "notes": [
+            "Wanderrunde mit Hannelore zur Kapelle",
+            "Oberhalb vom Nebel war es sonnig",
+            "Hannelore hat Blasen von neuen Schuhen"
+          ]
+        },
+        {
+          "date": "Samstag, vor 5 Tagen",
+          "summary": "Heike war zum Mittagessen da. Die beiden haben die Stoffe für Marvins Decke ausgesucht: Grau- und Blautöne für die Mitte. Für den Rand war noch nichts entschieden.",
+          "notes": [
+            "Stoffe für die Decke ausgesucht",
+            "Mitte in Grau und Blau",
+            "Randfarbe noch offen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Jetzt macht mir die Maschine schon wieder lauter Schlaufen unten hin, des gibt's ja net."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ärgerlich, gerade wenn man im Schwung ist. Sind die Schlaufen auf der Unterseite vom Stoff?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:23",
+        "text": "Ja, unten. Oben schaut's ganz sauber aus. Den Unterfaden hab i schon zweimal neu eingelegt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schlaufen unten kommen oft vom Oberfaden. Fädel ihn einmal ganz neu ein, und zwar mit hochgestelltem Nähfuß, dann rutscht er richtig in die Spannung."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:27",
+        "text": "Mit dem Fuß oben, aha. Des hab i wahrscheinlich immer verkehrt gemacht. So, jetzt näht's schön, schau an."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Sehr gut, Karoline! Dann kann es mit der Decke für den Marvin weitergehen. Wie weit bist du schon?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:29",
+      "text": "Die Mitte is fertig, jetzt fehlt nur mehr der Rand. Was tätst denn du nehmen, des Dunkelblaue oder des Rostrote? Der Marvin mag's eher schlicht."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A woman sitting at her sewing machine asks for a quick fix for loops on the underside of the seam, tries it, and then asks for an opinion on the border colour of a quilt for her grandson. Short practical exchange while busy with a hobby, typical for everyday companion use."
+  }
+}

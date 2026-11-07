@@ -1,0 +1,201 @@
+{
+  "id": "stt_errors_009",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:18.276645+00:00"
+  },
+  "content_hash": "c6be1269be9e3a7fdb0da08ed45841ed099d40c95aa38aee5c4db0c501b15e19",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_009",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 253,
+    "time_of_day": "später Abend",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Agathe",
+    "last_name": "Danninger",
+    "side_older": [
+      "Zenta",
+      "Anselm",
+      "Elisabeth"
+    ],
+    "side_younger": [
+      "Carina",
+      "Andreas",
+      "Cornelia"
+    ],
+    "side_surnames": [
+      "Ortmayr",
+      "Leeb"
+    ],
+    "former_job": "Postbeamtin",
+    "interests": [
+      "Ziehharmonika",
+      "Aquarellmalen"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Agathe Danninger",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 253
+      },
+      "time_of_day": "Samstag, 21:50",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Andreas (Neffe)",
+          "text": "Tante Agathe hat Polyneuropathie in den Füßen, längere Wege schafft sie nicht mehr allein. Ich wohne oben im Haus und fahre sie, wenn sie wohin muss."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen und Familie",
+          "text": "Agathe war nie verheiratet und hat keine Kinder. Sie wohnt im Erdgeschoss ihres Elternhauses, im ersten Stock wohnt ihr Neffe Andreas, der Sohn ihrer verstorbenen Schwester Elisabeth."
+        },
+        {
+          "topic": "Freundin Zenta",
+          "text": "Ihre beste Freundin Zenta ist vor drei Jahren gestorben. Die beiden haben über Jahrzehnte zusammen Musik gemacht, Zenta auf der Gitarre, Agathe auf der Ziehharmonika, vor allem bei Hochzeiten im Ort. Zentas Witwer Anselm wohnt noch im Ort."
+        },
+        {
+          "topic": "Musik und Malen",
+          "text": "Agathe spielt Ziehharmonika, am liebsten alte Landler und Walzer. Seit der Pension malt sie Aquarelle, meist Häuser und Kirchen aus der Gegend, nach Fotos."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Agathe war Postbeamtin und hat bis zur Pension am Schalter im Postamt des Ortes gearbeitet. Sie kennt fast alle Familien im Ort."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in beiden Füßen: Taubheitsgefühl und Brennen, vor allem am Abend. Gehen nur kurze Strecken. Hausarzt ist Dr. Ortmayr."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Agathe malte an einem Aquarell vom alten Postamt nach einem Foto aus den Sechzigerjahren. Sie war mit dem Himmel unzufrieden und wollte es noch einmal versuchen.",
+          "notes": [
+            "Aquarell vom alten Postamt in Arbeit",
+            "Himmel misslungen, will neu anfangen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Agathe erwähnte, dass sich am Samstag Zentas Todestag zum dritten Mal jährt. Sie wollte das Grab herrichten und hatte Andreas gefragt, ob er sie zum Friedhof fährt. Die Füße brannten am Abend stärker als sonst.",
+          "notes": [
+            "Zentas dritter Todestag am Samstag dieser Woche",
+            "Andreas fährt sie zum Friedhof",
+            "Füße am Abend schlechter"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:51",
+        "text": "Servus, Mira. Heut vor drei Jahren is die Zenta gestorben, i hab den ganzen Abend an sie denken müssen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Servus, Agathe. Drei Jahre schon. Da ist es kein Wunder, dass sie dir heute nicht aus dem Kopf geht."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:53",
+        "text": "Am Nachmittag hat mich der Andreas zum Friedhof gefahren, und i hab ihr Grab hergerichtet, mit Tannenzweigen, so wie sie es gern gehabt hat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass der Andreas dich hingefahren hat. Mit Tannenzweigen, das hätte der Zenta sicher gefallen."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:55",
+        "text": "Und am Abend hab i die Ziehharmonika wieder einmal ausgepackt. Den Länder, den die Zenta immer so gern gehabt hat, den hab i gespielt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ihr Lieblingsstück auf der Ziehharmonika, das ist ein schönes Andenken. Spielst du es öfter, oder war das heute etwas Besonderes?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:57",
+        "text": "Sonst nimmer so oft. Früher haben wir zwei bei jeder Hochzeit im Ort aufgespielt, sie mit der Gitarre und i mit der Harmonika. Fünfundzwanzig Jahre lang."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fünfundzwanzig Jahre, da habt ihr bei vielen Hochzeiten Musik gemacht. Da gibt's sicher einige Geschichten."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:59",
+        "text": "Freilich. Einmal hat die Braut so lang gebraucht, dass wir fast zwei Stunden vor der Kirche gespielt haben, bis uns die Finger steif waren."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Fast zwei Stunden vor der Kirche, das war für euch eine echte Geduldsprobe. Haben die Leute wenigstens mitgemacht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "22:01",
+        "text": "Jo, die haben eh mitgesungen. Der Anselm, ihr Mann, hat nachher gesagt, des war die lustigste Hochzeit im ganzen Jahr."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einer Erinnerung, die bleibt. Und es zeigt, wie gern die Leute euch zwei zugehört haben."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "22:03",
+      "text": "I hab mir überlegt, i tät die Kirche mit uns zwei davor einmal malen, mit Wasserfarben. Wenn mir des gelingt, kriegt das Bild der Anselm."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Den Länder",
+        "type": "stt_phonetic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user says 'Den Landler', a traditional Upper Austrian folk dance tune she plays on the accordion (memory lists Landler as her favourite). STT maps the rare word to the frequent, similar-sounding 'Länder' (countries), leaving a grammatically odd 'Den Länder'. The companion's next turn responds neutrally to the plausible meaning, her friend's favourite piece; the final user turn is clean."
+  }
+}

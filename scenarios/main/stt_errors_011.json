@@ -1,0 +1,168 @@
+{
+  "id": "stt_errors_011",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-07T22:48:26.543450+00:00"
+  },
+  "content_hash": "eb4ac7c8b720572d9ca86d2cb66dcbf9c385168cd5226227c4049ece50665ea1",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "gender": "female",
+    "first_name": "Theodora",
+    "last_name": "Rottmair",
+    "side_older": [
+      "Ilse",
+      "Albin",
+      "Melitta"
+    ],
+    "side_younger": [
+      "Evelyn",
+      "Michael",
+      "Lisa"
+    ],
+    "side_surnames": [
+      "Hartinger",
+      "Obermeier"
+    ],
+    "id": "stt_errors_011",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 5,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "former_job": "Schaffnerin",
+    "interests": [
+      "Feuerwehr (Ehrenmitglied)",
+      "Kegeln"
+    ],
+    "occasion": "kocht gerade",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Theodora Rottmair",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 5
+      },
+      "time_of_day": "Donnerstag, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Evelyn (Tochter)",
+          "text": "Mama trägt ein Hörgerät. Ohne Hörgerät versteht sie schlecht und spricht lauter. Ich komme jeden Samstag vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Theodora ist verwitwet, ihr Mann Albin ist vor fünf Jahren gestorben. Ihre Tochter Evelyn wohnt im Nachbarort und kommt jeden Samstag zu Besuch."
+        },
+        {
+          "topic": "Feuerwehr",
+          "text": "Albin war viele Jahre Kommandant der Freiwilligen Feuerwehr im Ort. Theodora hat jahrzehntelang bei den Festen der Feuerwehr in der Küche geholfen und ist heute Ehrenmitglied."
+        },
+        {
+          "topic": "Kegeln",
+          "text": "Theodora kegelt jeden Donnerstagabend mit einer Damenrunde im Gasthaus. Ihre Freundinnen Ilse und Melitta sind auch dabei. Der Herr Obermeier, ein Nachbar, nimmt die Damen oft im Auto mit."
+        },
+        {
+          "topic": "Beruf und Gesundheit",
+          "text": "Theodora war Schaffnerin bei der Bahn. Sie ist schwerhörig und trägt ein Hörgerät."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Erstes längeres Gespräch. Theodora erzählte von ihrer Zeit als Schaffnerin und dass sie mit dem Gerät erst vertraut werden muss. Ihre Tochter Evelyn hatte es eingerichtet.",
+          "notes": [
+            "War Schaffnerin bei der Bahn",
+            "Evelyn hat das Gerät eingerichtet",
+            "Noch etwas unsicher im Umgang mit Mira"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Theodora erzählte von der Feuerwehr und von ihrem verstorbenen Mann Albin, der Kommandant war. Sie freute sich auf das Kegeln am Donnerstagabend.",
+          "notes": [
+            "Ehrenmitglied der Feuerwehr",
+            "Albin war Feuerwehrkommandant",
+            "Kegeln jeden Donnerstagabend mit Ilse und Melitta"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Die Ilse wird heute achtzig, das hat sie uns die ganze Zeit verschwiegen. Die Melitta hat es erst gestern beim Bäcker erfahren."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Achtzig, das ist ja ein schöner Geburtstag, Theodora! Und dann fällt der genau auf euren Kegelabend."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:23",
+        "text": "Eben. Drum back ich jetzt schnell einen Gugelhupf, den nehm ich am Abend mit ins Gasthaus. Der Teig ist schon in der Form."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Gugelhupf passt gut zu so einem Anlass. Machst du ihn marmoriert oder ganz hell?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:25",
+        "text": "Marmoriert, mit ein bisschen Kakao in der Hälfte vom Teig. So hat ihn mein Albin immer am liebsten gehabt, und die Ilse auch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird sich die Ilse freuen, dass du an sie gedacht hast. Wie lange muss er noch ins Rohr?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:27",
+      "text": "So eine Stunde, dann kann er noch auskühlen. Um halb sieben holt uns der Herr Obermeier mit dem Auto ab, mitfahren tun heute die Ilse, die Melitta und"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "die Melitta und",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user is baking a Gugelhupf for a friend's birthday at the bowling evening and lists who rides along with the neighbor, but the transcript stops mid-enumeration right before the next name. In the kitchen she likely turned toward the oven or paused, and voice activity detection ended the utterance early. Everything before the cut is coherent; only the last name of the list is missing."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "clean_012",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:57:43.436702+00:00"
+  },
+  "content_hash": "fe2ca17c678cb41a07fee73dee0252a51e627759e6d6848a3471ee58f0ca5e02",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_012",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 223,
+    "time_of_day": "später Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 8,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Gerhild",
+    "last_name": "Reisinger",
+    "side_older": [
+      "Raimund",
+      "Heidemarie",
+      "Dietmar"
+    ],
+    "side_younger": [
+      "Ruben",
+      "Isabella",
+      "Ivo"
+    ],
+    "side_surnames": [
+      "Prandstetter",
+      "Gusenbauer"
+    ],
+    "former_job": "Briefträgerin",
+    "interests": [
+      "Schwammerl suchen",
+      "Garten"
+    ],
+    "occasion": "hat etwas in Radio oder Zeitung gehört und will darüber reden",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Gerhild Reisinger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 223
+      },
+      "time_of_day": "Freitag, 21:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Gerhild Reisinger, 76, lebt allein in einem kleinen Haus mit großem Garten. Seit über zwanzig Jahren geschieden."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 35 Jahre Briefträgerin, lange auf einer Landroute mit vielen Einzelhöfen am Waldrand."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Isabella und Sohn Ruben sind seit einem Streit vor zwei Jahren zerstritten und reden nicht miteinander. Gerhild leidet darunter und versucht, keinen zu bevorzugen. Isabella besucht sie meist sonntags."
+        },
+        {
+          "topic": "Hobbys",
+          "text": "Geht seit Jahrzehnten Schwammerl suchen, oft mit ihrer Freundin Heidemarie. Pflegt Dahlien und Gemüsebeete im Garten."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bekommt nach längerer Gartenarbeit Rückenschmerzen. Hausarzt ist Dr. Prandstetter."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Gerhild erzählte, dass sie mit Heidemarie zum letzten Mal in diesem Jahr Schwammerl suchen war. Sie haben nur noch wenige gefunden.",
+          "notes": [
+            "Letzte Schwammerlsuche des Jahres mit Heidemarie",
+            "Kaum noch Funde"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Gerhild sprach darüber, dass Ruben angerufen und gefragt hat, ob Isabella öfter zu Besuch kommt als er. Sie war danach bedrückt.",
+          "notes": [
+            "Ruben fühlt sich zurückgesetzt",
+            "Gerhild will keinen bevorzugen"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 5 Tagen",
+          "summary": "Isabella war zu Besuch. Gemeinsam haben sie die letzten Paradeiser geerntet und über den Garten im nächsten Jahr gesprochen.",
+          "notes": [
+            "Sonntagsbesuch von Isabella",
+            "Garten wird für den Winter vorbereitet"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:47",
+        "text": "Hast du eigentlich eine Ahnung, wie viele Leute sich jedes Jahr mit Pilzen vergiften? Das haben sie vorhin im Radio gebracht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine genaue Zahl habe ich nicht im Kopf. Was haben sie denn im Radio erzählt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:48",
+        "text": "Dass immer mehr Leute mit so einer Handy-App in den Wald gehen und alles mitnehmen, was die App für essbar hält. Und dann landen sie im Krankenhaus. Ich verstehe so etwas nicht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du gehst ja seit Jahrzehnten in die Schwammerl und nimmst nur mit, was du ganz sicher kennst."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:50",
+        "text": "Bald fünfzig Jahre. Gezeigt hat mir das alles die alte Frau Gusenbauer, bei der ich jeden Tag die Post hingebracht habe. Und was ich nicht kenne, bleibt stehen. So einfach ist das."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine gute Regel. Da hast du von der Frau Gusenbauer offenbar viel mitbekommen."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:52",
+        "text": "Ja. Heute habe ich übrigens noch die Dahlienknollen ausgegraben, bevor der Frost kommt. Jetzt zwickt mich der Rücken wieder ordentlich."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das Ausgraben geht ganz schön ins Kreuz. Wenn es nicht besser wird, frag ruhig den Doktor Prandstetter, was dir da hilft."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:54",
+      "text": "Das wird schon wieder. Was meinst du, soll ich der Isabella am Sonntag ein paar Knollen mitgeben? Wenn das der Ruben erfährt, ist er wieder beleidigt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean late-evening conversation triggered by a radio report about mushroom poisoning. A retired postwoman talks about how she learned mushroom picking, her back after digging dahlia tubers, and ends with a family dilemma between her estranged children."
+  }
+}

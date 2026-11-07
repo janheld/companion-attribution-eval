@@ -1,0 +1,182 @@
+{
+  "id": "recovery_006",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "recovery",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:31:32.626929+00:00"
+  },
+  "content_hash": "be3eed1ac0bd90c9b602503591e9f74b588cdbd5d442c98ecf51dd7e2592c259",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "recovery_006",
+    "set": "main",
+    "condition": "recovery",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 216,
+    "time_of_day": "Vormittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 8,
+    "health": "Schlafprobleme",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?",
+    "recovery_difficulty": "hard",
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Berta",
+    "last_name": "Pernkopf",
+    "side_older": [
+      "Bruno",
+      "Gundula",
+      "Isidor"
+    ],
+    "side_younger": [
+      "Mario",
+      "Silke",
+      "Ingo"
+    ],
+    "side_surnames": [
+      "Unterholzner",
+      "Ortner"
+    ],
+    "former_job": "Fleischhauerin",
+    "interests": [
+      "Lesen",
+      "Radfahren"
+    ],
+    "occasion": "gerade vom Einkaufen oder vom Markt zurück",
+    "opening_style": "starts with a sigh or a remark about how the day is going"
+  },
+  "content": {
+    "user_context": {
+      "name": "Berta Pernkopf",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 216
+      },
+      "time_of_day": "Montag, 10:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Silke (Schwiegertochter)",
+          "text": "Ich fahre jeden Montagvormittag mit Berta zum Wochenmarkt und trage die schweren Sachen. Sie schläft seit dem Sommer schlecht und ist oft schon um vier wach, Dr. Ortner weiß davon."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Berta ist seit sechs Jahren verwitwet, ihr Mann Isidor ist an einem Herzinfarkt gestorben. Sohn Mario wohnt mit seiner Frau Silke in der Stadt, der Enkel Ingo studiert auswärts."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Berta war Fleischhauerin und hat mit Isidor über dreißig Jahre eine eigene Fleischhauerei im Ort geführt. Beim Fleisch schaut sie bis heute genau hin."
+        },
+        {
+          "topic": "Lesen",
+          "text": "Liest viel, am liebsten dicke Familienromane und Krimis. Holt sich jede Woche neue Bücher aus der Gemeindebücherei."
+        },
+        {
+          "topic": "Radfahren",
+          "text": "Fährt bei trockenem Wetter mit dem Rad zur Bücherei und zum Friedhof, im Winter lässt sie das Rad meistens stehen."
+        },
+        {
+          "topic": "Schlaf",
+          "text": "Hat seit dem Sommer Schlafprobleme, wacht früh auf und liest dann im Bett. Hausarzt ist Dr. Ortner. Am Vormittag läuft in der Küche meistens das Radio."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Berta hat erzählt, dass Mario angerufen hat und am Mittwoch zum Mittagessen kommen will. Sie überlegt, einen Schweinsbraten zu machen, wie ihn Isidor gern gegessen hat.",
+          "notes": [
+            "Mario kommt am Mittwoch zum Mittagessen",
+            "plant einen Schweinsbraten",
+            "will das Fleisch am Montag am Markt kaufen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Berta hat von einem Krimi erzählt, den sie in zwei Nächten ausgelesen hat, weil sie wieder früh wach war. Mit dem Rad war sie wegen des Nebels nicht unterwegs.",
+          "notes": [
+            "hat einen Krimi in zwei Nächten gelesen",
+            "war wieder sehr früh wach",
+            "Rad wegen Nebel stehen gelassen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:22",
+        "text": "Uff, am Markt war heute ein Gedränge, als würden die dort was verschenken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt anstrengend. Hat dich die Silke wieder hingefahren?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:23",
+        "text": "Ja, die Silke war mit, die hat eh alles Schwere getragen. Und beim Fleischstand hab ich mich wieder geärgert, der schneidet das Schnitzel viel zu dick."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da schaut halt eine Fachfrau hin. Hast du dein Fleisch für Mittwoch bekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:25",
+        "text": "Ein schönes Stück Schulter, für den Braten, wenn der Mario kommt. Müde bin ich halt, ich war wieder ab vier wach und hab gelesen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schon wieder so früh, das zehrt auf Dauer. Wenn das so weitergeht, sprich es ruhig beim Dr. Ortner noch einmal an, der kann am besten sagen, was dir hilft."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:27",
+        "text": "Mach ich beim nächsten Termin. Die Butter tu ich gleich in den Kühlschrank ich steh da mitten im Nebel und weiß ehrlich gesagt nicht mehr, wo ich bin, man sieht keine zehn Meter weit"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Du wirkst gerade etwas durcheinander. Ist alles in Ordnung?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:28",
+      "text": "Nein, nein, das war der Wetterbericht im Radio. Mir geht's gut, ich räum nur den Einkauf ein."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "ich steh da mitten im Nebel und weiß ehrlich gesagt nicht mehr, wo ich bin, man sieht keine zehn Meter weit",
+        "type": "weather"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A radio weather reporter standing outside in fog says he no longer knows where he is; STT merges it without a boundary into Berta's remark about putting the butter away. Taken alone the line sounds like disorientation, so the scripted misreading is understandable (hard). Memory says the radio usually runs in the kitchen in the morning and that fog was around last week. Berta corrects it briefly and dryly."
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "incoherent_user_021",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "incoherent_user",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Die Zusammenfassung von Mittwoch sagt, Gerta und Selina kommen „nächsten Sonntag“; von Mittwoch aus ist das heute, im Verlauf geht es aber um Sonntag in einer Woche. Bitte in Zusammenfassung und Notiz „am übernächsten Sonntag“ schreiben. Außerdem im Wissensblock „Arbeitet nicht mehr, auch nicht aushilfsweise.“ streichen, das wirkt wie ein Testhinweis; „seither in Pension“ reicht.",
+    "reviewed_at": "2026-11-06T15:31:11.085198+00:00"
+  },
+  "content_hash": "f93906789e56e063be501e5dcbd6a794d8662dfa94e14fbcf6637722b6d0500b",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "incoherent_user_021",
+    "set": "main",
+    "condition": "incoherent_user",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 398,
+    "time_of_day": "Vormittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "genuine_incoherence",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Asthma, Spray",
+    "relatives": "keine Kinder, enger Kontakt zur Schwester",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Ilona",
+    "last_name": "Pühringer",
+    "side_older": [
+      "Gerta",
+      "Thaddäus",
+      "Theresia"
+    ],
+    "side_younger": [
+      "Romy",
+      "Nikolai",
+      "Selina"
+    ],
+    "side_surnames": [
+      "Ecker",
+      "Bachmayr"
+    ],
+    "former_job": "Steuerberaterin",
+    "interests": [
+      "Aquarellmalen",
+      "Briefmarken"
+    ],
+    "occasion": "hat eine Frage zum Haushalt (Fleck, Gerät, Vorrat)",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Ilona Pühringer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 398
+      },
+      "time_of_day": "Sonntag, 10:15",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Gerta (Schwester)",
+          "text": "Ilona verträgt starke Gerüche schlecht, scharfe Putzmittel lösen bei ihr Husten aus. Ihr Asthmaspray steht immer auf dem Küchenkastl."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Verwitwet, ihr Mann Thaddäus ist 2017 gestorben. Keine Kinder. Sehr enger Kontakt zur älteren Schwester Gerta, die im Nachbarort wohnt und oft mit ihrer Enkelin Selina zum Kaffee kommt."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War selbständige Steuerberaterin mit eigener kleiner Kanzlei, hat sie 2011 aufgegeben und ist seither in Pension. Arbeitet nicht mehr, auch nicht aushilfsweise. Ein langjähriger Klient war der Herr Ecker, ein Tischlermeister."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Malt Aquarelle, meist am Küchentisch, am liebsten Landschaften. Sammelt Briefmarken mit Blumenmotiven und tauscht regelmäßig mit ihrer Freundin Theresia."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Asthma, nimmt ein Spray. Lungenfachärztin ist Dr. Bachmayr."
+        },
+        {
+          "topic": "Haushalt",
+          "text": "Hält ihren Haushalt sehr ordentlich. Hat viel Wäsche von ihrer Mutter geerbt, darunter Leinentischdecken, die ihr viel bedeuten."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Ilona war zur Kontrolle bei Dr. Bachmayr. Das Spray bleibt wie bisher. Sie war erleichtert und hat am Nachmittag mit einem neuen Aquarell angefangen, Herbstbäume am Waldrand.",
+          "notes": [
+            "Kontrolle bei Dr. Bachmayr, Spray bleibt gleich",
+            "neues Aquarell: Herbstbäume",
+            "will mehr mit Ultramarin arbeiten"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Ilona hat sich mit Theresia zum Briefmarkentauschen getroffen und zwei Marken mit Enzian bekommen. Sie hat erzählt, dass Gerta und Selina nächsten Sonntag zum Kaffee kommen wollen.",
+          "notes": [
+            "Briefmarkentausch mit Theresia",
+            "zwei Enzian-Marken bekommen",
+            "Gerta und Selina kommen nächsten Sonntag zum Kaffee"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:17",
+        "text": "Ich stehe gerade am Waschbecken und reibe an meiner Tischdecke herum. Beim Malen ist mir das Wasserglas umgekippt, und jetzt ist da ein blauer Fleck drin."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ach, ärgerlich, Ilona. Ist das Aquarellfarbe, und aus welchem Stoff ist die Decke?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:19",
+        "text": "Aquarell, Ultramarin. Und es ist Leinen, die Decke ist noch von meiner Mutter. Darum will ich da nichts falsch machen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Aquarellfarbe geht meistens gut raus, solange sie nicht lange eingetrocknet ist. Spül den Fleck am besten von hinten mit kaltem Wasser aus und tupf eher, statt zu reiben."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:22",
+        "text": "Kalt also. Ich habe vorhin warmes genommen, war das schlecht?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Nicht schlimm. Kalt ist nur sicherer, damit sich die Farbe nicht tiefer in die Faser zieht. Wie sieht es jetzt aus?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:25",
+        "text": "Schon heller, aber ein Rand ist noch da. Die Gerta hat mir einmal so ein Fleckenspray dagelassen, aber das riecht so scharf, da muss ich immer husten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann lass das Spray lieber stehen. Gallseife hilft bei so einem Rand oft gut und riecht kaum. Hast du welche im Haus?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:27",
+        "text": "Ja, unter der Spüle muss noch ein Stück sein. Die Decke brauche ich nämlich nächsten Sonntag, da kommt die Gerta mit der Selina zum Kaffee."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du eine ganze Woche Zeit. Gallseife einreiben, ein bisschen einwirken lassen und danach bei vierzig Grad waschen, das verträgt Leinen normalerweise gut."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:30",
+      "text": "Gut, dann reibe ich das jetzt ein und lasse es eine Weile liegen, und danach... Die Belege vom Herrn Ecker sind auch noch nicht sortiert. Die müssen bis Freitag beim Finanzamt sein, sonst bekommt er Ärger wegen der Frist."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "und danach... Die Belege vom Herrn Ecker sind auch noch nicht sortiert. Die müssen bis Freitag beim Finanzamt sein, sonst bekommt er Ärger wegen der Frist.",
+        "type": "genuine_incoherence"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Ilona loses the thread mid-sentence while summarizing the stain advice and continues with an unrelated worry from her working life: sorting a former client's receipts for a tax deadline, although memory states she closed her practice in 2011 and no longer works. The jump is in her own precise, standard-German voice and her own professional vocabulary, so it reads as genuine incoherence, not as TV audio or a recognition error."
+  }
+}

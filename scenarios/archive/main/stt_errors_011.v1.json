@@ -1,0 +1,168 @@
+{
+  "id": "stt_errors_011",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Fast ein Duplikat von stt_errors_005: gleiche Uhrzeit (10:40), Krautfleckerl am Herd, Portion für eine Angehörige, Abbruch am Ende einer Kochfrage. Bitte Situation, Uhrzeit und Abbruchstelle ändern, passend zur Persona (Feuerwehr, Kegeln), z. B. am Nachmittag einen Kuchen für den Kegelabend vorbereiten, und den Abbruch mitten in eine Aufzählung oder vor einen Namen legen statt ans Ende einer Frage. Auch den Einstieg „Stell dir vor“ bitte variieren.",
+    "reviewed_at": "2026-11-06T15:32:18.321334+00:00"
+  },
+  "content_hash": "607c80036a625fc8a01a1df59bb5d678d10ed2a787b7078dcfed21e3faad4847",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_011",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 5,
+    "time_of_day": "Vormittag",
+    "weekday": "Donnerstag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 6,
+    "health": "Schwerhörigkeit, Hörgerät",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Theodora",
+    "last_name": "Rottmair",
+    "side_older": [
+      "Ilse",
+      "Albin",
+      "Melitta"
+    ],
+    "side_younger": [
+      "Evelyn",
+      "Michael",
+      "Lisa"
+    ],
+    "side_surnames": [
+      "Hartinger",
+      "Obermeier"
+    ],
+    "former_job": "Schaffnerin",
+    "interests": [
+      "Feuerwehr (Ehrenmitglied)",
+      "Kegeln"
+    ],
+    "occasion": "kocht gerade",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Theodora Rottmair",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 5
+      },
+      "time_of_day": "Donnerstag, 10:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Evelyn (Tochter)",
+          "text": "Mama trägt ein Hörgerät. Ohne Hörgerät versteht sie schlecht und spricht lauter. Ich komme jeden Samstag vorbei."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Theodora ist verwitwet, ihr Mann Albin ist vor fünf Jahren gestorben. Ihre Tochter Evelyn wohnt im Nachbarort und kommt jeden Samstag zu Besuch."
+        },
+        {
+          "topic": "Feuerwehr",
+          "text": "Albin war viele Jahre Kommandant der Freiwilligen Feuerwehr im Ort. Theodora hat jahrzehntelang bei den Festen der Feuerwehr in der Küche geholfen und ist heute Ehrenmitglied."
+        },
+        {
+          "topic": "Kegeln",
+          "text": "Theodora kegelt jeden Mittwochabend mit einer Damenrunde im Gasthaus. Ihre Freundin Ilse ist auch dabei."
+        },
+        {
+          "topic": "Beruf und Gesundheit",
+          "text": "Theodora war Schaffnerin bei der Bahn. Sie ist schwerhörig und trägt ein Hörgerät."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Erstes längeres Gespräch. Theodora erzählte von ihrer Zeit als Schaffnerin und dass sie mit dem Gerät erst vertraut werden muss. Ihre Tochter Evelyn hatte es eingerichtet.",
+          "notes": [
+            "War Schaffnerin bei der Bahn",
+            "Evelyn hat das Gerät eingerichtet",
+            "Noch etwas unsicher im Umgang mit Mira"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Theodora erzählte von der Feuerwehr und von ihrem verstorbenen Mann Albin, der Kommandant war. Sie freute sich auf das Kegeln am Mittwochabend.",
+          "notes": [
+            "Ehrenmitglied der Feuerwehr",
+            "Albin war Feuerwehrkommandant",
+            "Kegeln jeden Mittwochabend mit Ilse"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:41",
+        "text": "Stell dir vor, die Ilse hat gestern beim Kegeln alle neune geschoben. Das hat sie seit Jahren nicht mehr geschafft."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Alle neune, das ist ja großartig, Theodora! Da hat sich die Ilse sicher riesig gefreut."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:42",
+        "text": "Eine Runde hat sie ausgeben müssen, so ist das bei uns. Ich steh gerade am Herd, es gibt Krautfleckerl, das Kraut schmort schon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Krautfleckerl, da braucht das Kraut ja ein bisschen Zeit, bis es schön braun ist. Machst du sie mit Kümmel?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:44",
+        "text": "Mit Kümmel und einem Löffel Zucker, damit es ein bisschen karamellisiert. Die Evelyn kommt am Samstag, die isst das auch so gern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem Zucker wird das Kraut schön mild. Da freut sich die Evelyn sicher, wenn sie am Samstag kommt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:46",
+      "text": "Ich hab extra mehr gemacht, dann kann ich ihr eine Portion mitgeben. Sag einmal, wie lange hält sich das eigentlich im Gefrierfach, wenn man es vorher"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "wenn man es vorher",
+        "type": "stt_cutoff"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The user is cooking and asks how long Krautfleckerl keep in the freezer, but the transcript stops mid-clause after 'wenn man es vorher'. Standing at the stove, she likely turned away from the device or paused to stir, and voice activity detection ended the utterance early. The main question is clear, only the condition at the end is missing."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "tv_bleed_023",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:33:35.667327+00:00"
+  },
+  "content_hash": "7dea1d25d43ed5abce7a067b725c201fb48aae3ef69218910d5df78f079b880a",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_023",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 65,
+    "time_of_day": "Vormittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "traffic",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Wilhelm",
+    "last_name": "Hafner",
+    "side_older": [
+      "Hermelinde",
+      "Manfred",
+      "Herlinde"
+    ],
+    "side_younger": [
+      "Ute",
+      "Matteo",
+      "Michaela"
+    ],
+    "side_surnames": [
+      "Grünberger",
+      "Mittermayr"
+    ],
+    "former_job": "Schlosser",
+    "interests": [
+      "Modelleisenbahn",
+      "Kartenspielen"
+    ],
+    "occasion": "gerade aufgestanden, beim Frühstück, plant den Tag",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Wilhelm Hafner",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 65
+      },
+      "time_of_day": "Dienstag, 08:30",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Michaela (Schwiegertochter)",
+          "text": "Ich hole Wilhelm jeden Dienstag um zehn zum Einkaufen ab. Mit der Hüfte geht er draußen lieber mit Stock."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Wilhelm ist seit über zwanzig Jahren geschieden. Sein Sohn Matteo lebt mit seiner Frau Michaela im Ort. Michaela kocht viel ein und bringt ihm Marmelade."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Wilhelm war Schlosser in einer Landmaschinenwerkstatt. Er hat noch eine kleine Werkbank im Keller."
+        },
+        {
+          "topic": "Modelleisenbahn",
+          "text": "Im Dachzimmer hat Wilhelm eine große Modelleisenbahn-Anlage mit einem Bahnhof. Die Brücken und Geländer baut er selber aus Messing."
+        },
+        {
+          "topic": "Kartenrunde",
+          "text": "Jeden Dienstagabend spielt Wilhelm Karten bei seinem Freund Manfred, zu dritt mit Herlinde, Manfreds Frau."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat seit zwei Jahren eine Hüftprothese links. Die Reha ist abgeschlossen, draußen nimmt er einen Stock."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Wilhelm hat im Keller die Messingträger für eine neue Brücke über den Bahnhof gebogen. Er erzählte ausführlich, wie er das Material ohne Knick biegt.",
+          "notes": [
+            "Baut eine Messingbrücke über den Bahnhof",
+            "Träger im Keller gebogen",
+            "Geländer fehlt noch"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Wilhelm erzählte, dass Matteo beruflich eine Woche unterwegs ist und Michaela ihm trotzdem beim Einkaufen hilft. Er schätzt das sehr.",
+          "notes": [
+            "Matteo eine Woche beruflich weg",
+            "Michaela hilft weiter beim Einkaufen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "08:31",
+        "text": "I sitz grad beim Frühstück und streich mir a Marmeladebrot. Die Marille von der Michaela ist heuer recht gut geworden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem guten Start in den Tag. Was steht heute bei dir an?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:33",
+        "text": "Um zehn holt mich die Michaela zum Einkaufen ab, wie jeden Dienstag Auf der Bundesstraße zwischen Ödmühlhausen und Grabenreitfeld kommt es nach einem Auffahrunfall zu rund zwanzig Minuten Verzögerung."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du ja noch gut Zeit bis zehn. Brauchst du heute viel?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:35",
+        "text": "Net viel. Brot, a Leberkäs und an Sekundenkleber für die Anlage, weil beim Geländer für die Brücke brauch i den."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Geländer aus Messing, da kommt dir dein Handwerk sicher zugute. Wie weit bist du mit der Brücke?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "08:38",
+      "text": "Die Träger sind fertig, jetzt fehlt halt noch des Geländer. Am Nachmittag setz i mich dazu, und am Abend geh i eh zum Manfred Karten spielen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Auf der Bundesstraße zwischen Ödmühlhausen und Grabenreitfeld kommt es nach einem Auffahrunfall zu rund zwanzig Minuten Verzögerung.",
+        "type": "traffic"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Wilhelm has the radio on at breakfast; the morning traffic report is merged into his turn about the shopping trip. The broadcast phrasing and unrelated road details are clearly not his, while his own sentence stays coherent and the companion answers only that part."
+  }
+}

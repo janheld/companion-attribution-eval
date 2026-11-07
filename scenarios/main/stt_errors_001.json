@@ -1,0 +1,202 @@
+{
+  "id": "stt_errors_001",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:04.180982+00:00"
+  },
+  "content_hash": "f5713f1cd79c220af0b4063348a1672877484adc2bafe9880a61197832eea526",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_001",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 48,
+    "time_of_day": "Vormittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Schlafprobleme",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Charlotte",
+    "last_name": "Wöckinger",
+    "side_older": [
+      "Anneliese",
+      "Josef",
+      "Mechthild"
+    ],
+    "side_younger": [
+      "Nadine",
+      "Leon",
+      "Patricia"
+    ],
+    "side_surnames": [
+      "Mayrhuber",
+      "Rachinger"
+    ],
+    "former_job": "Tischlerin",
+    "interests": [
+      "Garten",
+      "Marmelade und Most"
+    ],
+    "occasion": "hat ein altes Foto oder einen alten Gegenstand gefunden",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")",
+    "side_extra": [
+      "Alfons"
+    ]
+  },
+  "content": {
+    "user_context": {
+      "name": "Charlotte Wöckinger",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 48
+      },
+      "time_of_day": "Mittwoch, 10:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Patricia (Tochter)",
+          "text": "Mama schläft seit Monaten schlecht und grübelt nachts viel, vor allem seit der Josef im Pflegeheim ist. Bitte eher zuhören als ihr dauernd Schlaftipps geben."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen",
+          "text": "Charlotte lebt allein in ihrem Haus mit großem Obstgarten am Ortsrand. Sie ist seit vielen Jahren verwitwet, ihr Mann Alfons ist früh gestorben."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über vierzig Jahre Tischlerin und hat den Beruf als eines der ersten Mädchen in der Gegend gelernt. Im Keller steht noch ihre alte Hobelbank."
+        },
+        {
+          "topic": "Garten und Vorrat",
+          "text": "Macht jedes Jahr Marmelade und Gelee aus dem eigenen Obst. Presst im Herbst mit dem Nachbarn, Herrn Rachinger, Most aus ihren Äpfeln und Birnen."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihr Bruder Josef lebt seit zwei Jahren im Pflegeheim in der Bezirksstadt. Ihre Freundin Mechthild fährt sie meistens am Samstag zu ihm. Tochter Patricia, die Enkelkinder Nadine und Leon."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schläft seit einiger Zeit schlecht und wacht oft gegen drei Uhr auf. Hausarzt ist Dr. Mayrhuber."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Charlotte erzählte, dass sie mit Herrn Rachinger den letzten Most des Jahres abgefüllt hat. In der Nacht davor war sie um drei Uhr munter und ist nicht mehr eingeschlafen.",
+          "notes": [
+            "Most ist abgefüllt und steht im Keller",
+            "Nacht auf Montag schlecht geschlafen"
+          ]
+        },
+        {
+          "date": "Samstag, vor 4 Tagen",
+          "summary": "Charlotte war mit Mechthild bei ihrem Bruder Josef im Pflegeheim. Josef war müde und hat wenig geredet, hat sich aber über das mitgebrachte Quittengelee gefreut.",
+          "notes": [
+            "Mechthild fährt sie samstags ins Pflegeheim",
+            "Josef mag Quittengelee",
+            "Josef war beim Besuch müde und wortkarg"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 6 Tagen",
+          "summary": "Charlotte hat Quittengelee eingekocht und überlegt, den Keller auszuräumen, wo noch Werkzeug aus ihrer Zeit als Tischlerin liegt.",
+          "notes": [
+            "Zwölf Gläser Quittengelee eingekocht",
+            "Will den Keller ausräumen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Stell dir vor, ich hab heute im Keller die alte Werkzeugkiste aus meiner Lehrzeit gefunden, und ganz unten drin liegt ein Foto."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja ein schöner Fund, Charlotte. Was ist denn auf dem Foto drauf?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:13",
+        "text": "Da steh ich mit dem Josef vor einer Hobelbank, ich war vielleicht sechzehn. Er hat mich damals überhaupt erst draufgebracht, dass ich Tischlerin werden könnte."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hat dir dein Bruder den Weg gezeigt. Weißt du noch, in welcher Werkstatt das aufgenommen wurde?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:15",
+        "text": "Beim alten Meister in der Stadt. Der wollte zuerst gar kein Mädchen nehmen, und der Josef hat so lang auf ihn eingeredet, bis er ja gesagt hat."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat er sich richtig für dich eingesetzt. Und du hast dem Meister dann gezeigt, dass er sich nicht geirrt hat."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:17",
+        "text": "Kann man so sagen. Das Foto ist halt schon ziemlich verblasst und an einer Ecke eingerissen. Kann man so was noch irgendwie retten?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Leg es am besten flach und trocken zwischen zwei Bögen Papier und kleb den Riss nicht mit Klebeband. Ein Fotogeschäft kann oft eine Kopie machen, dann wird das Original geschont."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:19",
+        "text": "Die Nadine kann das sicher einscannen, die macht so was in der Arbeit eh dauernd."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Idee. Dann hast du eine schöne Kopie, und das Original kann sicher in einer Mappe liegen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:21",
+      "text": "Ich will ihm das Foto am Samstag mitbringen, wenn mich die möchte Hilde wieder ins Heim fährt. Meinst du, er freut sich drüber, oder macht ihn das eher traurig?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "die möchte Hilde",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The friend's name Mechthild, who drives Charlotte to the care home on Saturdays according to memory, is split at a wrong word boundary into 'möchte Hilde'. German STT often breaks rare names into frequent words plus a common first name; the context (Saturday, driving to the home) makes the intended person recoverable."
+  }
+}

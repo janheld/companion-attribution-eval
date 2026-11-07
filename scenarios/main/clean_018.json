@@ -1,0 +1,161 @@
+{
+  "id": "clean_018",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T14:58:51.754306+00:00"
+  },
+  "content_hash": "f60bcf47dd1dc5cdb8effa94c270c2c09adde15e41cf8381bc5fc0840c15d9d4",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_018",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 28,
+    "time_of_day": "Vormittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 6,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": "Erinnerung stellen (z. B. an Tabletten, einen Termin, den Herd)",
+    "gender": "female",
+    "first_name": "Marlies",
+    "last_name": "Baumann",
+    "side_older": [
+      "Pankraz",
+      "Gerta",
+      "Siegbert"
+    ],
+    "side_younger": [
+      "Elias",
+      "Lea",
+      "Noel"
+    ],
+    "side_surnames": [
+      "Aichberger",
+      "Altenhofer"
+    ],
+    "former_job": "Hausbesorgerin",
+    "interests": [
+      "Aquarellmalen",
+      "Radfahren"
+    ],
+    "occasion": "gerade aufgestanden, beim Frühstück, plant den Tag",
+    "opening_style": "picks up something from the last conversation"
+  },
+  "content": {
+    "user_context": {
+      "name": "Marlies Baumann",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 28
+      },
+      "time_of_day": "Sonntag, 08:45",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Marlies ist seit acht Jahren verwitwet, ihr Mann Pankraz war Zimmerer. Ihre Tochter Lea wohnt im selben Ort, sonntags isst Marlies meist um halb eins bei ihr zu Mittag. Ihr Neffe Elias wohnt im selben Haus im ersten Stock und hilft bei kleinen Reparaturen."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Marlies war über dreißig Jahre Hausbesorgerin in einer großen Wohnanlage in der Bezirksstadt. Sie kennt sich mit Werkzeug und Heizungen aus."
+        },
+        {
+          "topic": "Malen",
+          "text": "Marlies malt Aquarelle, am liebsten Landschaften und Bäume im Herbst. Sie malt gern draußen mit einem kleinen Block und einem Reisemalkasten."
+        },
+        {
+          "topic": "Radfahren",
+          "text": "Marlies fährt viel Rad, oft mit ihrer Freundin Gerta. Gehen strengt sie wegen der Füße mehr an als Radfahren. Ein beliebtes Ziel ist der Weiher hinter dem Ort."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Polyneuropathie in den Füßen: Kribbeln, Taubheit, kalte Füße, vor allem morgens. Hausarzt ist Dr. Aichberger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 1 Tag",
+          "summary": "Marlies plante für Sonntagvormittag eine Radtour mit Gerta zum Weiher, um die Herbstbäume am Wasser zu malen. Ihre Reifen waren zu weich; Elias versprach, sie am Abend aufzupumpen.",
+          "notes": [
+            "Sonntagvormittag mit Gerta zum Weiher",
+            "Will die Herbstbäume malen",
+            "Elias pumpt die Reifen auf"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 3 Tagen",
+          "summary": "Marlies war bei Dr. Aichberger wegen der Füße. Es wurde Blut abgenommen, die Ergebnisse bespricht sie beim nächsten Termin. Sie erzählte, dass die Füße morgens oft kalt und taub sind.",
+          "notes": [
+            "Blutabnahme bei Dr. Aichberger",
+            "Ergebnisse beim nächsten Termin",
+            "Füße morgens oft kalt und taub"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "08:47",
+        "text": "Der Elias hat mir gestern am Abend eh noch die Reifen aufgepumpt, wie er gesagt hat. Jetzt steht das Radl bereit."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist fein von ihm, Marlies. Dann wird es heute also was mit dem Ausflug zum Weiher?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:50",
+        "text": "Jo, wenn's so bleibt. I sitz grad beim Kaffee, und die Sonne kommt schon über das Dach drüben. Die Gerta holt mich um zehn ab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem schönen Vormittag. Nimmst du die Malsachen für die Bäume am Wasser mit?"
+      },
+      {
+        "role": "user",
+        "timestamp": "08:53",
+        "text": "Freilich, deswegen fahr i ja. Den kleinen Block und den Kasten. Nur die dicken Socken muss i anziehen, sonst spür i am Pedal wieder nix."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Warme Socken und feste Schuhe sind am kühlen Morgen sicher angenehmer. Wie lang wollt ihr zwei denn draußen bleiben?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "08:56",
+      "text": "Bis Mittag halt, um halb eins essen wir bei der Lea. Kannst mich um zwölf erinnern, dass wir zusammenpacken? Beim Malen schau i nie auf die Uhr."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": true,
+    "rationale": "Clean Sunday breakfast session in which the user picks up yesterday's plan for a bike ride to paint by the pond. Typical: practical day planning over coffee, a passing remark about her numb feet, and a natural reminder request so she gets to her daughter's lunch on time."
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "stt_errors_029",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:51.397124+00:00"
+  },
+  "content_hash": "adda525cd21e196c596003eee81cdae7c520c61a6ad324c9719aa7a743ac4211",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_029",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 72,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "final_turn",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Rüdiger",
+    "last_name": "Kiesenhofer",
+    "side_older": [
+      "Auguste",
+      "Bruno",
+      "Lisbeth"
+    ],
+    "side_younger": [
+      "Bianca",
+      "Lorenz",
+      "Miriam"
+    ],
+    "side_surnames": [
+      "Jetzinger",
+      "Hartwagner"
+    ],
+    "former_job": "Briefträger",
+    "interests": [
+      "Chor",
+      "Volkstanz"
+    ],
+    "occasion": "sitzt gerade an einem Hobby",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Rüdiger Kiesenhofer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 72
+      },
+      "time_of_day": "Sonntag, 12:15",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Bianca (Schwiegertochter)",
+          "text": "Ich kaufe jeden Samstag für Rüdiger ein. Er hat Gicht in der großen Zehe, bei einem Schub geht er schlecht und bleibt lieber daheim."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Rüdiger ist 77 und seit acht Jahren verwitwet, seine Frau Lisbeth ist an Krebs gestorben. Er war über vierzig Jahre Briefträger im Ort und kennt jede Gasse und jedes Haus."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Miriam wohnt im selben Ort und schaut unter der Woche oft kurz vorbei. Sohn Lorenz wohnt mit seiner Frau Bianca im Nachbarort; Bianca erledigt samstags den Einkauf für ihn."
+        },
+        {
+          "topic": "Volkstanz und Chor",
+          "text": "Ist seit Jahrzehnten in der Volkstanzgruppe und hat lange die Tänze angesagt. Sein Stellvertreter dort ist sein Freund Bruno. Singt außerdem im Männerchor des Ortes im zweiten Bass. Ende November ist der Kathreintanz, den die Volkstanzgruppe jedes Jahr ausrichtet."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat Gicht in der großen Zehe rechts, mit Schüben ein paar Mal im Jahr. Hausarzt ist Dr. Jetzinger. Trinkt bei einem Schub viel Wasser."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 3 Tagen",
+          "summary": "Rüdiger klagte über einen neuen Gichtschub, die große Zehe ist seit dem Morgen geschwollen und rot. Er hat beschlossen, beim Kathreintanz heuer nicht selbst anzusagen, und Bruno gefragt, ob er das übernimmt.",
+          "notes": [
+            "neuer Gichtschub seit Donnerstag",
+            "sagt beim Kathreintanz heuer nicht selbst an",
+            "Bruno soll das Ansagen übernehmen"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 5 Tagen",
+          "summary": "Rüdiger erzählte von der Chorprobe am Vorabend und dass der Männerchor beim Adventsingen in der Kirche mitwirkt. Er erinnerte sich an seine Zustellrunden im Winter, als er die Post noch mit dem Moped gebracht hat.",
+          "notes": [
+            "Männerchor singt beim Adventsingen",
+            "Erinnerungen an Zustellung mit dem Moped",
+            "Probe war am Montagabend"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Jetzt hab ich die ganzen Tänze vom Kathreintanz auf Kärtchen aufgeschrieben, damit sich nachher auch ein anderer auskennt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Idee, Rüdiger. Wie viele Tänze sind es denn geworden?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:18",
+        "text": "Neun Stück. Die Polka und den Walzer können eh alle, aber bei den Figurentänzen verhaspeln sich die Jungen gern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist es gut, wenn gerade die Figurentänze genau auf den Kärtchen stehen. Schreibst du die Schritte auf oder zeichnest du sie?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "Beides. Pfeile hab ich gemacht, so wie ich mir früher die Zustellrunde aufgezeichnet hab."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du ja jahrelange Übung. Mit Pfeilen versteht man so eine Abfolge sicher schnell."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:24",
+        "text": "I tät ja selber gern ansagen, aber mit dem Zehen geht des heuer net. Der ist immer noch dick."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist schade. Wenn die Schwellung nicht zurückgeht, frag am besten Dr. Jetzinger, was du noch tun kannst."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:26",
+        "text": "Jo, morgen ruf ich in der Ordination an. Die Bianca hat mir gestern eh einen ganzen Kasten Wasser mitgebracht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist fein von ihr. Dann hast du für die nächsten Tage genug daheim."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:28",
+      "text": "Am Nachmittag kommt eh der Bruder die Kärtchen holen, der sagt heuer beim Kathreintanz an, und dann schau ich, dass ich den Fuß hochleg."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "final_turn",
+    "disturbances": [
+      {
+        "turn_index": 10,
+        "span": "der Bruder",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Rüdiger says 'der Bruno' (his friend and deputy in the folk dance group, who takes over announcing at the Kathreintanz according to memory). In Upper Austrian speech the final vowel is short and unstressed, and STT maps the name to the frequent noun 'Bruder', so the turn seems to mention a brother who does not exist in memory."
+  }
+}

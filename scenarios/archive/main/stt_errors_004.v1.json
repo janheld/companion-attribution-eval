@@ -1,0 +1,171 @@
+{
+  "id": "stt_errors_004",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Tochter Marie und Sohn Marius sind fast gleiche Namen. Bitte den Sohn umbenennen, z. B. in Tobias, im Wissensblock und in der Zusammenfassung. Der STT-Fehler „Malta“ bleibt, sonst unverändert.",
+    "reviewed_at": "2026-11-07T22:48:26.668288+00:00"
+  },
+  "content_hash": "a6ed1b83372ccbf0999e280a892fe5fc6a7f2b9fc8432f78e9b0df8ea7142ee3",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_004",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 225,
+    "time_of_day": "Mittag",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 6,
+    "health": "Asthma, Spray",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Hugo",
+    "last_name": "Wöhrer",
+    "side_older": [
+      "Karl-Heinz",
+      "Klementine",
+      "Gebhard"
+    ],
+    "side_younger": [
+      "Jonas",
+      "Marie",
+      "Marius"
+    ],
+    "side_surnames": [
+      "Fellner",
+      "Höglinger"
+    ],
+    "former_job": "Maurer",
+    "interests": [
+      "Schach",
+      "Enkelkinder"
+    ],
+    "occasion": "macht Pause nach Arbeit im Haus oder Garten",
+    "opening_style": "starts with a question to Mira"
+  },
+  "content": {
+    "user_context": {
+      "name": "Hugo Wöhrer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 225
+      },
+      "time_of_day": "Freitag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Klementine (Ehefrau)",
+          "text": "Hugo arbeitet gern allein im Garten, auch wenn's staubig ist. Den Asthmaspray hat er hoffentlich immer in der Jackentasche."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Haushalt",
+          "text": "Hugo lebt mit seiner Frau Klementine in einem selbst gebauten Haus. Klementine ist viel unterwegs, beim Seniorenturnen, bei Ausflügen und im Pfarrcafé."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War über vierzig Jahre Maurer. Repariert rund ums Haus fast alles selbst, zurzeit das alte Gartenmäuerl."
+        },
+        {
+          "topic": "Schach",
+          "text": "Spielt jeden Montagabend im Schachklub mit seinem Freund Gebhard. Bringt seinem Enkel Jonas das Schachspielen bei."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Marie und Sohn Marius reden seit einem Streit ums Erbe der Großeltern kaum miteinander. Hugo leidet darunter und spricht nicht gern darüber. Jonas ist Maries Sohn, neun Jahre alt."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat Asthma und verwendet einen Spray. Lungenfacharzt ist Dr. Fellner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Hugo erzählte, dass Marie angerufen hat und Jonas am Sonntag zum Mittagessen kommt. Danach wollen die beiden Schach spielen. Über Marius wollte Hugo nicht reden.",
+          "notes": [
+            "Jonas kommt Sonntag zum Mittagessen",
+            "Schachpartie mit Jonas geplant",
+            "Thema Marius vermeiden, wenn er es nicht selbst anspricht"
+          ]
+        },
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Hugo hat am Abend im Schachklub zwei Partien gegen Gebhard gespielt, eine gewonnen, eine verloren. Er hat angekündigt, in den nächsten Tagen das Gartenmäuerl auszubessern.",
+          "notes": [
+            "Schachklub mit Gebhard",
+            "Gartenmäuerl ausbessern geplant"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:06",
+        "text": "Kannst du mir sagen, ab wie viel Grad man eigentlich nimmer mauern soll? Früher hab i des einfach im Gefühl gehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Als Faustregel heißt es, dass es beim Mauern und auch in der Nacht danach nicht unter etwa fünf Grad haben sollte, sonst bindet es schlecht ab. Aber da hast du als Maurer sicher mehr Erfahrung als jede Regel, Hugo."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:08",
+        "text": "Jo, eh. Heut geht's noch, drum hab i am Vormittag beim Gartenmäuerl die losen Steine wieder eingesetzt. Jetzt steht noch ein halber Kübel Malta draußen, den muss i nachher verarbeiten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da warst du ja schon fleißig heute. Dann hast du dir die Pause jetzt verdient, bevor du den Rest fertig machst."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Beim Auskratzen von den alten Fugen hat's halt ordentlich gestaubt. Zweimal hab i zwischendurch den Spray nehmen müssen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du ihn dabei gehabt hast. Gegen den Staub kann eine Maske helfen. Und wenn du den Spray öfter brauchst als sonst, sag es Dr. Fellner, der weiß am besten, was für dich passt."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:13",
+      "text": "Des sagt die Klementine auch immer, die ist heut beim Seniorenausflug. Sag, wenn der Jonas am Sonntag zum Schachspielen kommt, soll i ihn gewinnen lassen oder net?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "ein halber Kübel Malta",
+        "type": "stt_dialect"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Hugo uses the Austrian word 'Malter' (mortar), which in Upper Austrian is spoken with a vocalized final r. The recognizer maps it to the familiar proper noun 'Malta'. In context (a bucket standing outside that must be used up, repairing a wall) the intended meaning is clear on careful reading."
+  }
+}

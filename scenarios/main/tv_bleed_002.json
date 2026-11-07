@@ -1,0 +1,209 @@
+{
+  "id": "tv_bleed_002",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:51.429357+00:00"
+  },
+  "content_hash": "4c8a06e32ff63803dc3639f14e1825ce07deeb197ba4134c5257ddee49bfd4a1",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "tv_bleed_002",
+    "set": "main",
+    "condition": "tv_bleed",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 33,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "tv_film",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Nichte, kümmert sich um Behördensachen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Beate",
+    "last_name": "Asanger",
+    "side_older": [
+      "Balthasar",
+      "Frieda",
+      "Walter"
+    ],
+    "side_younger": [
+      "Ingo",
+      "Vera",
+      "Johannes"
+    ],
+    "side_surnames": [
+      "Gschwandtner",
+      "Feyrer"
+    ],
+    "former_job": "Elektrikerin",
+    "interests": [
+      "Pfarre",
+      "Vögel beobachten"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "a short greeting, then straight into the topic"
+  },
+  "content": {
+    "user_context": {
+      "name": "Beate Asanger",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 33
+      },
+      "time_of_day": "Sonntag, 12:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Vera (Nichte)",
+          "text": "Ich kümmere mich um alles Behördliche für meine Tante, Anträge, Bescheide, Post vom Amt. Seit Oktober ist ihr beim Aufstehen öfter schwindlig, Dr. Gschwandtner weiß Bescheid."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Beate war nie verheiratet und hat keine Kinder. Ihre Nichte Vera ruft regelmäßig an und erledigt die Behördensachen für sie."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Beate war Elektrikerin, eine der ersten Frauen im Betrieb. Sie hat die Leitungen in ihrem Haus selbst verlegt und repariert noch heute Kleinigkeiten für die Pfarre."
+        },
+        {
+          "topic": "Pfarre",
+          "text": "Sie geht jeden Sonntag um neun in die Messe und hilft in der Pfarre mit. Walter ist der Mesner, mit ihm kümmert sie sich um Beleuchtung und Lautsprecher in der Kirche."
+        },
+        {
+          "topic": "Vögel",
+          "text": "Beate beobachtet Vögel am Futterhaus vor dem Küchenfenster und führt ein kleines Heft, welche Arten kommen. Ihre Nachbarin Frieda hat ebenfalls eine Futterstelle."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schwindel beim Aufstehen, vor allem in der Früh. Hausarzt Dr. Gschwandtner hat geraten, langsam aufzustehen und genug zu trinken."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Beate erzählte, dass Vera den Antrag auf Heizkostenzuschuss für sie ausfüllt. Vera hatte dafür den Pensionsbescheid gebraucht und ihn bei ihrem Besuch mitgenommen. Beate hat eine Nudelsuppe gekocht, die für mehrere Tage reicht.",
+          "notes": [
+            "Vera stellt den Antrag auf Heizkostenzuschuss",
+            "Pensionsbescheid ist bei Vera",
+            "Nudelsuppe für mehrere Tage gekocht"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Beate war wegen des Schwindels bei Dr. Gschwandtner. Er hat den Blutdruck gemessen und ihr geraten, morgens erst am Bettrand sitzen zu bleiben und mehr zu trinken.",
+          "notes": [
+            "Arzttermin wegen Schwindel",
+            "Rat: langsam aufstehen, kurz sitzen bleiben, mehr trinken"
+          ]
+        },
+        {
+          "date": "Montag, vor 6 Tagen",
+          "summary": "Walter hat Beate gebeten, die alte Lichterkette für den Adventkranz in der Kirche durchzuschauen. Sie hat einen Wackelkontakt gefunden und die Fassung getauscht.",
+          "notes": [
+            "Lichterkette für die Kirche repariert",
+            "Walter ist der Mesner"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:36",
+        "text": "Servus Mira. Grad hat mich die Vera angerufen, wegen dem Zuschuss fürs Heizen, den hat sie jetzt eingereicht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass sie sich gemeldet hat. Ist damit jetzt alles erledigt, oder fehlt noch etwas?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:38",
+        "text": "Eingereicht ist er schon, aber a Unterschrift von mir braucht's noch auf so an Zettel. Des machen wir, wenn sie nächsten Samstag kommt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist das ja gut eingeteilt. Gut, dass die Vera sich um diese Behördensachen kümmert."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:41",
+        "text": "Jo, i tät mich da eh nimmer auskennen. Jede Leitung im Haus hab i selber verlegt, aber so a Formular am Bildschirm, des ist nix für mich."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Leitungen verlegen ist ja auch eine ganz eigene Kunst. Jeder hat seine Stärken."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:44",
+        "text": "Sie hat dann noch gefragt wegen dem Schwindel, ob des besser ist. I hab gesagt, in der Früh beim Aufstehen dreht's mich halt noch a bissl."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass sie nachfragt. Langsam aufstehen und kurz am Bettrand sitzen bleiben hilft manchen. Ob mehr dahintersteckt, kann dir Dr. Gschwandtner am besten sagen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:47",
+        "text": "Des hat er eh gesagt, mit dem Sitzenbleiben. Ich hab dir doch geschrieben, dass ich nicht mehr zurückkomme, warum hast du den Brief nie aufgemacht"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann bist du da ja schon gut beraten. Hast du dir nach dem Telefonieren schon etwas zu Mittag gerichtet?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:50",
+        "text": "Von der Nudelsuppe ist noch was da. Nachher setz i mich ans Fenster, beim Futterhaus waren heut in der Früh schon zwei Gimpel."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gimpel am Futterhaus, das ist ein schöner Anblick. Die Männchen sieht man mit ihrer roten Brust ja gut."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:53",
+      "text": "Jo, des Männchen ist richtig leuchtend. Und die Frieda sagt, bei ihr kommt seit a paar Tagen a Specht an die Meisenknödel, des muss i mir auch einmal anschauen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "Ich hab dir doch geschrieben, dass ich nicht mehr zurückkomme, warum hast du den Brief nie aufgemacht",
+        "type": "tv_film"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "A line of film dialogue from a Sunday midday TV film follows the user's short remark about the doctor's advice. It is in standard German, emotionally charged and spoken from another person's perspective about a letter and leaving, which fits nothing in the user's life. The companion responds only to the plausible part; the final turn is clean."
+  }
+}

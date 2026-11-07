@@ -1,0 +1,205 @@
+{
+  "id": "contact_027",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Ingos Notiz bittet, bei der Gicht nichts selbst zu raten, Mira #9 rät aber („Bei Gicht raten Ärzte oft, mit Innereien vorsichtig zu sein“). Bitte den Satz streichen, sodass nur bleibt: „Wie viel Leberwurst für dich in Ordnung ist, besprichst du am besten mit Dr. Kreindl.“",
+    "reviewed_at": "2026-11-06T15:30:17.081662+00:00"
+  },
+  "content_hash": "9b1cf48eff3bd42ecece5d1366ec7faf27f2bf4363f2f5ef7a579e94ad462ebc",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_027",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 118,
+    "time_of_day": "Nachmittag",
+    "weekday": "Montag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "new_acquaintance",
+    "household": "lebt allein, verwitwet",
+    "history_turns": 12,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "zwei Söhne, einer im Ausland",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Emmerich",
+    "last_name": "Bachler",
+    "side_older": [
+      "Helga",
+      "Leo",
+      "Kunigunde"
+    ],
+    "side_younger": [
+      "Jacqueline",
+      "Ingo",
+      "Martina"
+    ],
+    "side_surnames": [
+      "Kreindl",
+      "Ortmayr"
+    ],
+    "former_job": "Fleischhauer",
+    "interests": [
+      "Stockschießen",
+      "Ehrenamt im Sozialmarkt"
+    ],
+    "occasion": "hat ein altes Foto oder einen alten Gegenstand gefunden",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Emmerich Bachler",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 118
+      },
+      "time_of_day": "Montag, 15:02",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Ingo (Sohn)",
+          "text": "Papa hat Gicht in der großen Zehe. Wenn er von Schmerzen erzählt, bitte nicht selbst etwas raten, sondern auf Dr. Kreindl verweisen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Emmerich ist Witwer, seine Frau Helga ist vor vier Jahren gestorben. Sein Sohn Ingo lebt seit vielen Jahren in Norwegen und ruft meistens am Dienstagabend an."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Emmerich hat die Fleischhauerei seines Vaters übernommen und bis zur Pension geführt. Würste und Selchfleisch hat er immer selbst gemacht."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Jeden Montag- und Donnerstagvormittag hilft Emmerich im Sozialmarkt, meistens beim Einräumen und an der Kassa. Die Leiterin dort ist Frau Ortmayr."
+        },
+        {
+          "topic": "Stockschießen",
+          "text": "Emmerich ist seit Jahrzehnten im Stockschützenverein. Er spielt jeden Samstag und ist für die Vereinskassa zuständig."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Emmerich hat Gicht, die sich vor allem in der großen Zehe am linken Fuß meldet. Sein Hausarzt ist Dr. Kreindl. Er soll bei Fleisch und Innereien zurückhaltend sein."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Samstag, vor 2 Tagen",
+          "summary": "Emmerich war beim Stockschießen und hat danach die Vereinskassa abgerechnet. Er erzählte, dass er heuer schon besser in Form ist als im Vorjahr.",
+          "notes": [
+            "Stockschießen am Samstag",
+            "Vereinskassa abgerechnet",
+            "fühlt sich gut in Form"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 4 Tagen",
+          "summary": "Emmerich hatte einen Gichtanfall in der großen Zehe und konnte nicht in den Sozialmarkt. Er hat bei Dr. Kreindl angerufen und Tabletten bekommen. Am Abend war es schon etwas besser.",
+          "notes": [
+            "Gichtanfall am Donnerstag",
+            "Tabletten von Dr. Kreindl",
+            "Sozialmarkt ausgelassen"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 6 Tagen",
+          "summary": "Ingo hat aus Norwegen angerufen. Er erzählte, dass er für seine Kollegen österreichisch gekocht hat. Emmerich hat sich vorgenommen, im Keller aufzuräumen.",
+          "notes": [
+            "Anruf von Ingo am Dienstag",
+            "Ingo kocht gern österreichisch",
+            "Keller aufräumen geplant"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:04",
+        "text": "Ich hab heute im Keller das Rezeptbuch von meinem Vater gefunden. Das war in einer Blechdose hinter den alten Einsiedegläsern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja ein Fund, Emmerich. Ist das noch aus der Zeit, als dein Vater die Fleischhauerei geführt hat?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:06",
+        "text": "Ja, alles mit der Hand geschrieben, mit Bleistift. Die Leberwurst, die Blutwurst, das Selchfleisch. Auf manchen Seiten sind noch Fettflecken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da sieht man richtig, dass mit dem Buch gearbeitet wurde. Kannst du seine Schrift noch gut lesen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:09",
+        "text": "Meistens. Er hat alles in Pfund und Lot geschrieben, das muss ich mir erst umrechnen. Ein Lot, das waren so um die siebzehn Gramm, oder?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ja, ungefähr siebzehneinhalb Gramm, bei Gewürzen macht das schon etwas aus. Gibt es ein Rezept, das dir besonders in Erinnerung ist?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:12",
+        "text": "Die Leberwurst. Die haben wir jeden Herbst gemacht, und die Helga hat dann immer die Gläser beschriftet. Die hätte sich gefreut über das Buch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einer Arbeit, die ihr gern zu zweit gemacht habt. Die Helga hätte die Seiten sicher gleich wiedererkannt."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:15",
+        "text": "Bestimmt. Selber essen soll ich die Leberwurst eh nicht mehr viel, wegen der Gicht. Die Zehe war letzte Woche wieder ganz dick."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei Gicht raten Ärzte oft, mit Innereien vorsichtig zu sein. Wie viel für dich in Ordnung ist, besprichst du am besten mit Dr. Kreindl."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:18",
+        "text": "Ich hab mir gedacht, ich schreib das Buch ab, damit es der Ingo auch hat. Der kocht da oben in Norwegen eh schon manchmal österreichisch."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist eine gute Idee, dann geht das Rezeptbuch nicht verloren. Der Ingo freut sich sicher, wenn er die Rezepte vom Opa nachkochen kann."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:21",
+      "text": "Und heute im Sozialmarkt hat ein Neuer angefangen, der Leo. Der war früher Koch in einer Großküche und hat gleich gefragt, ob ich noch selber Wurst mache. Er hat gesagt, am Nachmittag sitzt er oft im Café beim Kirchplatz. Da könnte ich ihm das Buch ja zeigen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "new_acquaintance",
+    "unavailable_action_request": false,
+    "rationale": "A widowed former butcher found his father's handwritten recipe book and talks about old units, his late wife, gout (left to his doctor) and copying it for his son abroad. The final turn introduces a new volunteer he met that morning who sits in a nearby café in the afternoons, so Mira can encourage him to go and show the book or keep the conversation about the recipes going."
+  }
+}

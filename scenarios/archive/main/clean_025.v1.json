@@ -1,0 +1,186 @@
+{
+  "id": "clean_025",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "needs_edit",
+  "review": {
+    "comment": "Laut Wissensblock geht Sofie „als Zuhörerin“ zu den Gemeinderatssitzungen, am Ende plant sie aber eine Wortmeldung; Zuhörer haben dort kein Rederecht. Bitte im Wissensblock ergänzen: „Am Ende der Sitzung gibt es eine Bürgerfragestunde, in der sie sich oft zu Wort meldet.“ Und den finalen Turn ändern in: „Des wär gar net schlecht. Was tät i denn in der Fragestunde als Erstes sagen, dass mich die net gleich abwürgen?“",
+    "reviewed_at": "2026-11-06T15:16:41.058096+00:00"
+  },
+  "content_hash": "a5a307faa171618bc0da1ed235783ff092b16819a4a4bb4be3da7a029ce7d25e",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "clean_025",
+    "set": "main",
+    "condition": "clean",
+    "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 161,
+    "time_of_day": "Nachmittag",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Sofie",
+    "last_name": "Dobetsberger",
+    "side_older": [
+      "Valerie",
+      "Waldemar",
+      "Irmgard"
+    ],
+    "side_younger": [
+      "Lisa",
+      "Tim",
+      "Astrid"
+    ],
+    "side_surnames": [
+      "Haudum",
+      "Ritzberger"
+    ],
+    "former_job": "Installateurin",
+    "interests": [
+      "Gemeindepolitik",
+      "Briefmarken"
+    ],
+    "occasion": "macht Pause nach Arbeit im Haus oder Garten",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Sofie Dobetsberger",
+      "address_form": "du",
+      "dialect": "andere österreichische Färbung (z. B. steirisch, niederösterreichisch)",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 161
+      },
+      "time_of_day": "Dienstag, 15:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Lisa (Tochter)",
+          "text": "Mama nimmt ihre Blutdrucktabletten in der Früh. Mit dem Messen ist sie manchmal schlampig. Bitte nicht drängen, nur nachfragen, wenn sie es selbst anspricht."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Beruf",
+          "text": "Sofie war über dreißig Jahre Installateurin, zuerst im Betrieb ihres Vaters, später selbstständig. Kleine Reparaturen im Haus macht sie bis heute selbst."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihr Mann Waldemar ist vor sechs Jahren gestorben. Tochter Lisa wohnt im selben Ort, ein paar Straßen weiter. Sohn Tim lebt mit seiner Frau Astrid im Nachbarort. Astrid fährt einmal pro Woche mit Sofie einkaufen."
+        },
+        {
+          "topic": "Gemeindepolitik",
+          "text": "Sofie geht regelmäßig als Zuhörerin zu den öffentlichen Gemeinderatssitzungen und hat zu Wasser und Kanal eine feste Meinung. Mit Gemeinderat Ritzberger ist sie oft nicht einer Meinung."
+        },
+        {
+          "topic": "Briefmarken",
+          "text": "Sie sammelt österreichische Briefmarken seit ihrer Jugend. Mit ihrer Freundin Irmgard tauscht sie Doubletten."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bluthochdruck, nimmt morgens Tabletten. Hausarzt ist Dr. Haudum."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Sofie erzählte, dass Irmgard am Nachmittag mit einem Album voller Doubletten vorbeigekommen ist. Die beiden haben getauscht, Sofie hat dabei zwei Marken bekommen, die ihr in einer Serie gefehlt haben. Außerdem erwähnte sie, dass in zwei Tagen am Abend die nächste öffentliche Gemeinderatssitzung ist.",
+          "notes": [
+            "Tauscht Briefmarken mit Irmgard",
+            "Zwei fehlende Marken aus einer Serie ergänzt",
+            "Will zur nächsten Gemeinderatssitzung gehen"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Sofie war am Vormittag mit ihrer Schwiegertochter Astrid einkaufen. Sie erzählte, dass im Bad der Abfluss vom Waschbecken langsam rinnt und dass sie sich das in den nächsten Tagen selbst anschauen will.",
+          "notes": [
+            "Einkauf mit Astrid",
+            "Waschbecken im Bad rinnt schlecht ab",
+            "Will den Abfluss selbst reparieren"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:12",
+        "text": "Jetzt sitz i endlich auf der Bank vorm Haus und schnauf durch. Seit Mittag bin i unterm Waschbecken im Bad gelegen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du dir die Pause aber verdient, Sofie. War es der Abfluss, von dem du letzte Woche erzählt hast?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:13",
+        "text": "Jo, genau der. Der Siphon war voll mit Kalk und Haaren. Des hab i früher hundertmal gemacht, aber heut spür i halt das Kreuz danach."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das glaub ich dir, so verdreht unterm Waschbecken liegen ist für jeden Rücken anstrengend. Schön, dass es jetzt wieder ordentlich abrinnt."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:15",
+        "text": "Die Lisa hat gemeint, i soll an Installateur holen. Hab i gesagt, i bin selber einer, da brauch i keinen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du schon recht, da kennst du dich besser aus als die meisten. Hat die Lisa dann noch was gesagt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:17",
+        "text": "Gelacht hat sie halt. Am Abend ist eh Gemeinderatssitzung, da geh i hin. Da geht's um die alte Wasserleitung beim Sportplatz."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da bist du ja genau die Richtige im Saal, bei Wasserleitungen macht dir keiner was vor. Was ist denn mit der Leitung?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:19",
+        "text": "Die Rohre sind über fünfzig Jahre alt, die gehören getauscht. Aber der Ritzberger sagt, des ist zu teuer. Wenn man's jetzt net macht, wird's später noch viel teurer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem guten Argument, und du weißt aus der Praxis, wovon du redest. Magst du dir vorher ein paar Punkte zurechtlegen, damit du sie am Abend parat hast?"
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:21",
+      "text": "Des wär gar net schlecht. Was tät i denn als Erstes sagen, dass mich die net gleich abwürgen?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean conversation: a retired plumber takes a break after fixing her own sink and moves on to the local council meeting that evening, asking for help preparing what to say. Practical, everyday topics that grow out of her memory profile (former job, local politics) without any disturbance."
+  }
+}

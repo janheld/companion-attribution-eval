@@ -1,0 +1,184 @@
+{
+  "id": "contact_028",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:25:58.062951+00:00"
+  },
+  "content_hash": "638509cd53473a5bbed7727ce3ee83a5a9d09e049f3257f02aa5587f481955db",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_028",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 267,
+    "time_of_day": "früher Abend",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "visit",
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 8,
+    "health": "Schlafprobleme",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Paula",
+    "last_name": "Brandstätter",
+    "side_older": [
+      "Udo",
+      "Ingeborg",
+      "Johann"
+    ],
+    "side_younger": [
+      "Clemens",
+      "Cornelia",
+      "Tobias"
+    ],
+    "side_surnames": [
+      "Bachmayr",
+      "Prandstetter"
+    ],
+    "former_job": "Näherin",
+    "interests": [
+      "Kochen und Backen",
+      "Ziehharmonika"
+    ],
+    "occasion": "hat eine Frage zum Haushalt (Fleck, Gerät, Vorrat)",
+    "opening_style": "starts with what the person is doing right now"
+  },
+  "content": {
+    "user_context": {
+      "name": "Paula Brandstätter",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 267
+      },
+      "time_of_day": "Sonntag, 17:28",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Cornelia (Schwiegertochter)",
+          "text": "Ich bringe Paula jeden Freitag den Einkauf. Wenn ihr etwas ausgeht, kann sie es mir am Telefon sagen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Paula war nie verheiratet. Ihr Sohn Clemens wohnt mit seiner Frau Cornelia und deren Sohn Tobias im Nachbarort. Cornelia erledigt für Paula jeden Freitag den Einkauf."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Paula war über dreißig Jahre Näherin in einer Kleiderfabrik und näht bis heute Vorhänge und Tischwäsche selbst. Mit Stoffen und Flecken kennt sie sich gut aus."
+        },
+        {
+          "topic": "Kochen und Musik",
+          "text": "Paula kocht und bäckt gern für Gäste, ihr Apfelstrudel ist bekannt. Sie spielt Ziehharmonika und musiziert einmal im Monat mit ihrem Bekannten Udo bei der Seniorenrunde."
+        },
+        {
+          "topic": "Freundschaften",
+          "text": "Ihre Freundin Ingeborg kennt Paula aus der Fabrik. Die beiden besuchen sich abwechselnd zum Essen, meistens am Sonntagabend."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Paula schläft schlecht ein und wacht oft gegen drei Uhr auf. Ihr Hausarzt Dr. Bachmayr hat ihr geraten, abends keinen Kaffee mehr zu trinken und das Licht früh zu dämpfen."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Paula erzählte, dass Cornelia den Einkauf gebracht hat. Sie hat Ingeborg für Sonntag um sechs Uhr abends zum Essen eingeladen und will Gulasch und Apfelstrudel machen.",
+          "notes": [
+            "Einkauf von Cornelia am Freitag",
+            "Ingeborg kommt am Sonntag um 18 Uhr zum Essen",
+            "Gulasch und Apfelstrudel geplant"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Paula hat schlecht geschlafen und war um drei Uhr wach. Sie hat erzählt, dass sie seit dem Gespräch mit Dr. Bachmayr nach dem Mittagessen keinen Kaffee mehr trinkt.",
+          "notes": [
+            "schlecht geschlafen, um drei Uhr wach",
+            "kein Kaffee mehr am Nachmittag",
+            "Rat von Dr. Bachmayr"
+          ]
+        },
+        {
+          "date": "Montag, vor 6 Tagen",
+          "summary": "Paula hat mit Udo für die nächste Seniorenrunde geübt. Sie suchen noch ein drittes Lied, das alle mitsingen können.",
+          "notes": [
+            "Probe mit Udo",
+            "drittes Lied für die Seniorenrunde gesucht"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:30",
+        "text": "Ich bügle gerade die gute Tischdecke für heute Abend, und jetzt seh ich, da ist ein Wachsfleck drauf. Rot, von einer Kerze, wer weiß, seit wann."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ärgerlich, gerade bei der guten Decke. Ist das Wachs schon fest, oder ist noch viel drauf?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:33",
+        "text": "Fest ist es. Das meiste hab ich schon mit dem Fingernagel heruntergekratzt. Aber es bleibt so ein fettiger Schatten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Viele legen Küchenrolle oben und unten hin und bügeln kurz darüber, dann zieht das Wachs ins Papier. Das Papier dabei öfter wechseln."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:36",
+        "text": "Stimmt, so hat das meine Mutter auch gemacht, nur mit Zeitungspapier. Aber bei der roten Farbe hab ich Angst, dass ein rosa Rand bleibt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kann bei farbigem Wachs passieren. Wenn danach noch ein Schimmer da ist, hilft oft ein bisschen Spiritus auf einem Tuch, vorher an einer versteckten Stelle ausprobieren."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:40",
+        "text": "Spiritus muss ich schauen, ob ich noch einen hab. Sonst sag ich es der Cornelia für Freitag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann setz ihn auf die Liste für Freitag, falls keiner mehr da ist. Vielleicht reicht das Bügeln ja schon."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:44",
+      "text": "Schaut schon viel besser aus. Jetzt ist es gleich dreiviertel sechs, und um sechs kommt die Ingeborg. Der Strudel ist noch im Rohr und der Tisch ist auch nicht gedeckt. Ach, das geht sich schon aus."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "visit",
+    "unavailable_action_request": false,
+    "rationale": "A retired seamstress asks a practical household question about a red wax stain on her good tablecloth while preparing dinner for a friend. The visit is planned in memory for six o'clock; the final turn says the guest arrives in about fifteen minutes with the strudel still in the oven and the table not set, but adds that it will work out, which leaves Mira a real choice between sending her off to get ready and continuing to chat."
+  }
+}

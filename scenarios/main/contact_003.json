@@ -1,0 +1,174 @@
+{
+  "id": "contact_003",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:16:47.568187+00:00"
+  },
+  "content_hash": "410a554a81b7d5e8aef4c9714abb722332c03cdee7f1965bf9bded42d09ef08d",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_003",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 58,
+    "time_of_day": "früher Abend",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "new_acquaintance",
+    "household": "lebt allein, geschieden",
+    "history_turns": 6,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Marian",
+    "last_name": "Nußbaumer",
+    "side_older": [
+      "Elisabeth",
+      "Arthur",
+      "Elke"
+    ],
+    "side_younger": [
+      "Lina",
+      "Hannes",
+      "Theresa"
+    ],
+    "side_surnames": [
+      "Wiesbauer",
+      "Plöchl"
+    ],
+    "former_job": "Fabrikarbeiter in der Papierfabrik",
+    "interests": [
+      "Puzzeln",
+      "Kochen und Backen"
+    ],
+    "occasion": "hat eine Frage zum Haushalt (Fleck, Gerät, Vorrat)",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Marian Nußbaumer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 58
+      },
+      "time_of_day": "Dienstag, 17:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Hannes (Sohn)",
+          "text": "Papa nimmt jeden Morgen seine Blutdrucktabletten, die stehen neben der Kaffeemaschine. Er kocht gern und viel, salzt aber kräftig. Dr. Wiesbauer hat ihm geraten, beim Salz zu sparen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Marian ist geschieden und lebt allein in einem kleinen Haus am Ortsrand. Sein Sohn Hannes wohnt in der Bezirksstadt. Die Enkelin Theresa studiert und kommt in den Ferien für ein paar Tage zu ihm."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bluthochdruck, nimmt morgens Tabletten. Hausarzt ist Dr. Wiesbauer."
+        },
+        {
+          "topic": "Kochen und Puzzeln",
+          "text": "Kocht und backt gern, macht im Herbst Marmeladen und Gelees ein. Puzzelt im Winter große Puzzles mit 2000 Teilen auf dem Wohnzimmertisch."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hat fünfunddreißig Jahre im Schichtbetrieb in der Papierfabrik gearbeitet, zuletzt an der Wickelmaschine."
+        },
+        {
+          "topic": "Nachbarschaft",
+          "text": "Der Nachbar, Herr Plöchl, hat einen großen Quittenbaum und schenkt Marian jeden Herbst Quitten. Marian bringt ihm dafür Eingekochtes."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Marian hat am Nachmittag an einem neuen Puzzle mit einem Hafenmotiv angefangen und den Rand fertig gelegt. Er erzählte, dass er die Quitten vom Herrn Plöchl in den nächsten Tagen zu Gelee verarbeiten will, bevor sie zu weich werden.",
+          "notes": [
+            "Neues Puzzle mit Hafenmotiv, Rand fertig",
+            "Will die Quitten bald zu Gelee verarbeiten",
+            "Sorgt sich, dass die Quitten zu weich werden"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Theresa hat am Vormittag angerufen und von ihren Prüfungen erzählt. Marian war stolz und hat danach Kipferl nach dem Rezept seiner Mutter gebacken.",
+          "notes": [
+            "Theresa hat Prüfungen, kommt in den Weihnachtsferien",
+            "Hat Kipferl gebacken"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 6 Tagen",
+          "summary": "Marian war zur Blutdruckkontrolle bei Dr. Wiesbauer. Die Werte waren etwas zu hoch, der Arzt hat ihm geraten, weniger zu salzen. Marian fand das lästig, will es aber versuchen.",
+          "notes": [
+            "Blutdruckkontrolle, Werte etwas hoch",
+            "Soll weniger salzen",
+            "Probiert, mehr mit Kräutern zu würzen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:37",
+        "text": "Stell dir vor, heut ist mir das Quittengelee übergekocht, und jetzt ist das halbe Ceranfeld schwarz angebrannt. Was nimmt man denn da her, dass das wieder runtergeht?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ärgerlich! Lass das Feld zuerst ganz abkühlen. Dann hilft meistens ein Glasschaber, flach angesetzt, und danach ein Reiniger für Glaskeramik. Stahlwolle und Scheuermittel lieber weglassen, die zerkratzen die Oberfläche."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:40",
+        "text": "Einen Schaber hab i net, nur so einen grünen Schwamm. Und Natron hätt i da, das nehm i eh immer zum Backen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit der grünen Seite vom Schwamm wär ich vorsichtig, die kann Kratzer machen. Natron mit ein bisschen Wasser als Paste auftragen, einwirken lassen und mit einem weichen Tuch abreiben, das geht bei vielen gut."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:44",
+        "text": "Gut, das probier i. Das Gelee hab i eh noch retten können, sechs Gläser sind's geworden. Eins hab i gleich dem Herrn Plöchl rübergebracht, weil die Quitten ja von ihm sind."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Sechs Gläser, da hat sich die Arbeit trotz allem gelohnt. Der Herr Plöchl hat sich sicher gefreut."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:48",
+      "text": "Freilich. Bei dem war grad eine Frau zu Besuch, die Elisabeth, die ist erst im Sommer hergezogen. Die macht auch selber Gelee und hat mich ausgefragt, wie i das mit den Quitten mach. Jetzt überleg i, ob i ihr nicht gleich noch das Rezept rüberbring, solang sie noch dort ist."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "new_acquaintance",
+    "unavailable_action_request": false,
+    "rationale": "A divorced former paper-mill worker who likes to cook asks how to clean a burnt ceramic hob after his quince jelly boiled over, a typical practical household question. The final turn introduces a new acquaintance he just met at the neighbor's, and he considers going back over with the recipe while she is still there, which gives the companion a real choice between encouraging him to go and keeping him in the conversation."
+  }
+}

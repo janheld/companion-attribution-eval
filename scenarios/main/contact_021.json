@@ -1,0 +1,161 @@
+{
+  "id": "contact_021",
+  "set": "main",
+  "kind": "contact",
+  "condition": "contact",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:25:44.864681+00:00"
+  },
+  "content_hash": "aca8cc969650122f6146ca1bb946b71758bf8098ac6f9b90a5c008c99df8082a",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "contact_021",
+    "set": "main",
+    "condition": "contact",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 225,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": "call",
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 6,
+    "health": "Polyneuropathie in den Füßen",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Werner",
+    "last_name": "Rohrhofer",
+    "side_older": [
+      "Margit",
+      "Hansjörg",
+      "Auguste"
+    ],
+    "side_younger": [
+      "Simone",
+      "Erik",
+      "Svenja"
+    ],
+    "side_surnames": [
+      "Kirchberger",
+      "Schöftner"
+    ],
+    "former_job": "Pfarrsekretär",
+    "interests": [
+      "Kräuter und Hausmittel",
+      "Volkstanz"
+    ],
+    "occasion": "kommt vom Arzt, aus der Apotheke oder von der Therapie",
+    "opening_style": "starts with a piece of news (\"Stell dir vor ...\")"
+  },
+  "content": {
+    "user_context": {
+      "name": "Werner Rohrhofer",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 225
+      },
+      "time_of_day": "Sonntag, 12:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Schwiegertochter Simone",
+          "text": "Ich kaufe jeden Mittwoch für Werner ein. Er soll bei seinen Füßen nichts mit Wärmflasche oder Heizkissen machen, er spürt die Hitze nicht richtig."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Werner ist 78, nie verheiratet und lebt allein in einer kleinen Wohnung nahe der Kirche. Er war fast dreißig Jahre Pfarrsekretär und kennt viele Leute aus der Pfarre."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sein Sohn Erik stammt aus einer Beziehung in jungen Jahren. Eriks Frau Simone hilft Werner beim Einkaufen. Enkelin Svenja studiert und ist seit September für ein Auslandssemester weg. Svenja ruft jeden Sonntag nach dem Mittagessen an."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Werner hat eine Polyneuropathie in beiden Füßen, die Füße sind taub und kribbeln nachts. Er nimmt dafür Kapseln, die Hausarzt Dr. Kirchberger verschreibt."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Sammelt und trocknet Kräuter, setzt Öle und Tinkturen an. Tanzt seit Jahrzehnten im Volkstanzkreis, Treffen ist am Dienstagabend. Wegen der Füße tanzt er nur noch die ruhigeren Tänze mit."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Werner hat Johanniskrautöl abgefüllt, das er im Sommer angesetzt hat. Er überlegt, ob er es für die Füße verwenden kann.",
+          "notes": [
+            "Johanniskrautöl ist fertig",
+            "überlegt, es an den Füßen anzuwenden"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 4 Tagen",
+          "summary": "Simone hat eingekauft und Werner hat ihr von den Plänen für den Kathreintanz des Volkstanzkreises erzählt. Er hilft dort bei der Saalvorbereitung.",
+          "notes": [
+            "Simone kauft mittwochs ein",
+            "hilft bei der Saalvorbereitung für den Kathreintanz",
+            "Svenja hat geschrieben, dass es ihr gut geht"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:07",
+        "text": "Stell dir vor, ich stehe heute früh im Bad und merke, dass die Kapseln für die Füße aus sind. Ausgerechnet am Sonntag. Zum Glück hatte ich noch ein Rezept liegen, ich war gerade bei der Notdienstapotheke."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass du noch ein Rezept hattest, Werner. Hat das dann alles geklappt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:09",
+        "text": "Ja, die Apothekerin war sehr nett. Ich habe sie gleich gefragt, ob ich mir die Füße mit meinem Johanniskrautöl einreiben darf. Sie hat gemeint, das soll ich zuerst mit dem Doktor besprechen, wegen der anderen Tabletten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein guter Rat. Ob das Öl zu deinen Medikamenten passt, kann Dr. Kirchberger am besten beurteilen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:12",
+        "text": "Und eine Wärmflasche soll ich mir auch nicht an die Füße legen, weil ich ja nicht richtig spüre, wenn es zu heiß wird. Die Simone sagt mir das auch dauernd."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann sind sich die Apothekerin und Simone da einig. Beim nächsten Termin bei Dr. Kirchberger kannst du das mit dem Öl ja gleich mitbesprechen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:15",
+      "text": "Mache ich. Um halb eins ruft übrigens die Svenja an, das machen wir jeden Sonntag. Eigentlich sollte ich vorher noch die Suppe aufwärmen, aber so großen Hunger habe ich gar nicht."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "disturbances": [],
+    "contact_type": "call",
+    "unavailable_action_request": false,
+    "rationale": "A retired parish secretary comes back from the Sunday emergency pharmacy with questions about his herbal oil and neuropathic feet. The granddaughter's weekly call is due in fifteen minutes and he should still warm up lunch, so the companion can wind down or keep the chat going."
+  }
+}

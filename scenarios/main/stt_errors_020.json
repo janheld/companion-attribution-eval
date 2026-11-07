@@ -1,0 +1,202 @@
+{
+  "id": "stt_errors_020",
+  "set": "main",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-06T15:32:31.408439+00:00"
+  },
+  "content_hash": "14eee5cd64b9e4eac73b5e914b34e36d5a30f0491af24eb6efacfd737bcdabb0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "28245f8cb431eb51bb7f017584b0a77c925c6c7a8c3a7b460f78e7f8b64b4875"
+  },
+  "spec": {
+    "id": "stt_errors_020",
+    "set": "main",
+    "condition": "stt_errors",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 131,
+    "time_of_day": "Nachmittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Grauer Star, Operation geplant",
+    "relatives": "Tochter und Sohn, zerstritten untereinander",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Herbert",
+    "last_name": "Schacherl",
+    "side_older": [
+      "Erich",
+      "Margot",
+      "Siegfried"
+    ],
+    "side_younger": [
+      "Lars",
+      "Ramona",
+      "Raphael"
+    ],
+    "side_surnames": [
+      "Gschwandtner",
+      "Zeilinger"
+    ],
+    "former_job": "Bauzeichner",
+    "interests": [
+      "Hühner halten",
+      "Wandern"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "starts straight with the topic, no greeting"
+  },
+  "content": {
+    "user_context": {
+      "name": "Herbert Schacherl",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 131
+      },
+      "time_of_day": "Mittwoch, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Ramona (Tochter)",
+          "text": "Papa hat in gut zwei Wochen die Staroperation am rechten Auge. Bitte nicht auf meinen Bruder ansprechen, das Thema ist schwierig."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Herbert ist 74, nie verheiratet und lebt allein in einem Haus mit großem Garten. Er war über 40 Jahre Bauzeichner in einem Planungsbüro und zeichnet heute noch gern von Hand."
+        },
+        {
+          "topic": "Familie",
+          "text": "Er hat eine Tochter, Ramona, und einen Sohn, Raphael. Die beiden sind seit zwei Jahren wegen eines Grundstücks zerstritten und reden nicht miteinander. Herbert leidet darunter und versucht, sich herauszuhalten."
+        },
+        {
+          "topic": "Hühner",
+          "text": "Herbert hält sieben Hühner im Garten. Die Nachbarin Margot füttert sie, wenn er nicht da ist, und bekommt dafür Eier."
+        },
+        {
+          "topic": "Wandern",
+          "text": "Herbert wandert gern mit seinem Freund Erich, meist samstags. Ihr Lieblingsziel ist die Lerchenschartalm, gut zwei Stunden Aufstieg."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Grauer Star an beiden Augen, rechts stärker. Augenarzt ist Dr. Gschwandtner. Die Operation am rechten Auge ist geplant, das linke soll später folgen. Herbert sieht bei grellem Licht schlecht und fährt seit dem Sommer nur noch kurze Strecken selbst."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Herbert erzählte, dass eine seiner Hennen seit einer Woche keine Eier mehr legt. Er vermutete die Mauser und die kürzeren Tage. Er hat ihr zusätzlich etwas Eiweißfutter gegeben.",
+          "notes": [
+            "eine Henne legt nicht, wohl Mauser",
+            "füttert zusätzlich Eiweißfutter",
+            "Margot hat nach Eiern gefragt"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 6 Tagen",
+          "summary": "Herbert war zur Voruntersuchung bei Dr. Gschwandtner. Die Operation am rechten Auge ist in gut drei Wochen. Er macht sich Gedanken, wer ihn hinfährt, weil seine beiden Kinder sich nicht begegnen wollen.",
+          "notes": [
+            "Staroperation rechts in gut drei Wochen",
+            "Fahrt zur Operation noch nicht geklärt",
+            "Sorge wegen des Streits zwischen Ramona und Raphael"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Die Ramona war grad am Telefon. Die will mich zur Augenoperation fahren, aber nur, wenn der Raphael net auch dabei ist."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass Ramona dich fahren will, Herbert. Das klingt aber, als wär es zwischen den beiden noch immer schwierig."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:23",
+        "text": "Jo, seit der Geschichte mit dem Grundstück reden die zwei kein Wort miteinander. Und i steh halt dazwischen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist keine leichte Lage für dich. Hast du schon eine Idee, wie du es machen willst?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:25",
+        "text": "Der Raphael hat eh gesagt, er holt mich am Abend wieder ab. Dann müssen die sich gar net sehen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einer guten Lösung. Dann bist du hin und zurück gut versorgt."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:26",
+        "text": "Bloß die Hennen, die muss an dem Tag wer füttern. Da frag i die Margot, die macht des eh gern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Margot hat ja schon öfter ausgeholfen. Bei ihr sind deine Hühner gut aufgehoben."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:28",
+        "text": "Freilich. Und mit dem ehrlich wollt i vorher noch einmal auf die Lerchenschartalm, solang i noch gut schau."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Noch eine Wanderung vor der Operation, das ist ein schönes Vorhaben. Wann soll es denn losgehen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:30",
+        "text": "Am Samstag, wenn's Wetter passt. Der Doktor Gschwandtner hat gemeint, gehen darf i schon, bloß bei Sonne soll i eine gescheite Sonnenbrille aufsetzen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann pack die Sonnenbrille am besten gleich in den Rucksack. Worauf du nach der Operation achten musst, sagt dir Dr. Gschwandtner noch genau."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:32",
+      "text": "Jo. Was i mich halt frag, wie lang man nach so einer Staroperation net selber Auto fahren darf. Die Ramona kann ja net jedes Mal kommen."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "disturbances": [
+      {
+        "turn_index": 8,
+        "span": "mit dem ehrlich",
+        "type": "stt_name"
+      }
+    ],
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "The hiking friend Erich, who in memory always goes to the Lerchenschartalm with Herbert, is transcribed as the adjective 'ehrlich'. In Bavarian speech 'Erich' and 'ehrlich' differ only by a weak l, and STT prefers the frequent word. The sentence still carries the plausible meaning (one more hike before the operation), and the companion answers that without naming anyone."
+  }
+}
