@@ -1,0 +1,130 @@
+{
+ "content": {
+  "user_context": {
+   "name": "Meinhard Fragner",
+   "address_form": "du",
+   "dialect": "none",
+   "relationship_phase": {
+    "phase": "Vertraut",
+    "days": 356
+   },
+   "time_of_day": "Sonntag, 12:05",
+   "last_conversation_note": "",
+   "caregiver_notes": [],
+   "knowledge_blocks": [
+    {
+     "topic": "Person",
+     "text": "Meinhard Fragner, 77, lebt allein in einem kleinen Haus mit Garten am Ortsrand. Seit über zwanzig Jahren von Kunigunde geschieden, die beiden haben kaum Kontakt."
+    },
+    {
+     "topic": "Beruf",
+     "text": "War 38 Jahre Briefträger im Ort und in den umliegenden Dörfern, zuerst mit dem Fahrrad, später mit dem Postauto."
+    },
+    {
+     "topic": "Hühner",
+     "text": "Hält sieben Hennen in einem Stall hinter dem Haus und verschenkt die Eier an Familie und Nachbarn. Wenn er weg ist, füttert der Nachbar Herr Hiebl die Hühner."
+    },
+    {
+     "topic": "Gesundheit",
+     "text": "Hat Grauen Star an beiden Augen, links stärker. Die Operation am linken Auge ist für den 4. Dezember geplant. Fährt deshalb seit dem Sommer nicht mehr selbst Auto."
+    },
+    {
+     "topic": "Familie",
+     "text": "Sohn Finn lebt mit seiner Frau Carmen in der Bezirksstadt. Enkelin Jennifer studiert in einer anderen Stadt und kommt in den Ferien zu Besuch, dann hilft sie gern im Hühnerstall."
+    },
+    {
+     "topic": "Lesen",
+     "text": "Liest gern Reiseberichte und Bücher über die Geschichte der Post. Wegen der Augen inzwischen mit Lupe oder in Großdruck."
+    }
+   ],
+   "recent_sessions": [
+    {
+     "date": "Donnerstag, vor 3 Tagen",
+     "summary": "Meinhard erzählte, dass sein Sohn Finn ihn zum Mittagessen am Sonntag dieser Woche zu sich eingeladen hat und ihn mit dem Auto abholt. Er will einen Karton Eier für Finn und Carmen mitnehmen.",
+     "notes": [
+      "Mittagessen bei Finn und Carmen am Sonntag dieser Woche",
+      "Finn holt ihn mit dem Auto ab",
+      "will Eier mitbringen"
+     ]
+    },
+    {
+     "date": "Montag, vor 6 Tagen",
+     "summary": "Meinhard sprach über ein Buch über alte Postkutschenrouten, das er mit der Lupe liest, und darüber, dass die Hennen im Herbst weniger legen. Er erwähnte die Voruntersuchung beim Augenarzt für die Staroperation, die gut verlaufen ist.",
+     "notes": [
+      "liest ein Buch über Postkutschenrouten",
+      "Hennen legen im Herbst weniger",
+      "Voruntersuchung für die Staroperation erledigt"
+     ]
+    }
+   ]
+  },
+  "history": [
+   {
+    "role": "user",
+    "timestamp": "12:06",
+    "text": "Jetzt ist mir grad ein Ei auf die Fliesen gefallen. Ausgerechnet eins von denen, die ich dem Finn mitgeben wollte."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Ach, ärgerlich, gerade beim Einpacken. Wie viele hast du denn noch für ihn?"
+   },
+   {
+    "role": "user",
+    "timestamp": "12:07",
+    "text": "Zehn sind noch da. Die Hennen legen jetzt im Herbst eh weniger, drum tut's mir um jedes leid. Um halb eins holt er mich ab."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Zehn sind doch noch ein schöner Karton voll, da freuen sich die zwei sicher. Weißt du schon, was es bei ihnen zu essen gibt?"
+   },
+   {
+    "role": "user",
+    "timestamp": "12:09",
+    "text": "Die Carmen macht einen Schweinsbraten, hat er gesagt. Ich weiß nur noch nicht, wie ich die Eier heil ins Auto bring. Der Karton ist schon ziemlich weich."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Du könntest den Karton in einen Korb stellen und ein Geschirrtuch drumherum stopfen. Dann rutscht nichts, wenn Finn bremst."
+   },
+   {
+    "role": "user",
+    "timestamp": "12:11",
+    "text": "Den Einkaufskorb nehm ich, der steht eh bei der Tür. Ich seh halt die Kanten nicht mehr richtig, seit der Star schlimmer geworden ist, drum ist mir das Ei auch danebengegangen."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Das ist mühsam, wenn man bei jedem Handgriff doppelt hinschauen muss. Bis zur Operation im Dezember ist es ja nicht mehr so lang."
+   },
+   {
+    "role": "user",
+    "timestamp": "12:12",
+    "text": "Am vierten ist sie. Der Finn fährt mich hin, der hat sich extra freigenommen. Und der Herr Hiebl schaut in der Zeit auf die Hennen."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Schön, dass das alles schon geregelt ist. Der Herr Hiebl kennt deine Hennen ja inzwischen gut."
+   }
+  ],
+  "final_user_turn": {
+   "timestamp": "12:14",
+   "text": "Sag, soll ich die Eier noch abwaschen, bevor ich sie einpack, oder lässt man die besser so, wie sie sind? Die Carmen fragt mich das jedes Mal."
+  }
+ },
+ "annotation": {
+  "disturbance_position": "none",
+  "disturbances": [],
+  "contact_type": null,
+  "unavailable_action_request": false,
+  "rationale": "Clean Sunday-midday conversation while waiting to be picked up by his son: a retired postman with cataract drops one of the eggs he wants to bring, talks about transporting them, the planned operation and who looks after the hens, and ends with a practical question about washing eggs. Everyday, warm and fully coherent."
+ },
+ "primed": {
+  "session_index": 1,
+  "summary_sentence": "Meinhard wirkte dabei mehrmals unsicher und verlor zwischendurch den Faden.",
+  "note": "Meinhard verlor mehrmals den Faden"
+ }
+}

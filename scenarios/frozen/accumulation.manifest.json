@@ -1,0 +1,231 @@
+{
+  "set": "accumulation",
+  "purpose": "exploratory 2 x 2 accumulation condition; not pre-registered, not part of H1 to H4",
+  "frozen_at": "2026-11-08T01:19:22.256819+00:00",
+  "scenarios": {
+    "clean_001_neutral": {
+      "version": 1,
+      "content_hash": "38e13767df292c1f06ac167a8d1f0be162fa0a959eda66b7060e37dbc4da56db"
+    },
+    "clean_001_primed": {
+      "version": 2,
+      "content_hash": "b3579dfc6ca04e9233c102e2d658f83b0d02f5fc1c7b1472c5fa665126f24f5f"
+    },
+    "clean_002_neutral": {
+      "version": 1,
+      "content_hash": "770c800a55bf933d51a442dc3fa4240a66b0b7691b0700b636ba91a6056aef6a"
+    },
+    "clean_002_primed": {
+      "version": 2,
+      "content_hash": "9da459838790b3f428eb48344202e8aa9ef5fd3a23867b965129da2477a2be78"
+    },
+    "clean_003_neutral": {
+      "version": 1,
+      "content_hash": "c4f51fbe4b80a691ab7d7377b40db63e8a355e4294c777bb735f7dcecc75eef4"
+    },
+    "clean_003_primed": {
+      "version": 2,
+      "content_hash": "1aed3eacead949835cd30bac5e9be0ea9c1a7935519fa535ee1dfb87ecd31a90"
+    },
+    "clean_004_neutral": {
+      "version": 1,
+      "content_hash": "c778b566ad00834932178724e42b95a8c014084c347093b6b1711ddad558607d"
+    },
+    "clean_004_primed": {
+      "version": 2,
+      "content_hash": "ad50147ddc11ac621a658d7241477b54bf6be3a4af3ad2501183179ba04d7cd4"
+    },
+    "stt_errors_001_d1_neutral": {
+      "version": 1,
+      "content_hash": "0bbbbc12210bb2b4c2a21263c43dd6b6beb33f8a844f2ac2ca7b0ca76162d903"
+    },
+    "stt_errors_001_d1_primed": {
+      "version": 2,
+      "content_hash": "3b3a81e62a883fbe737796cf9ff77cf5b929a3004a97b47b0557e643157c1f85"
+    },
+    "stt_errors_001_d3_neutral": {
+      "version": 1,
+      "content_hash": "4ae286cfeabbe080976cc2e794272b94677046ce2082f978bc2646d6249c5942"
+    },
+    "stt_errors_001_d3_primed": {
+      "version": 2,
+      "content_hash": "b0889b536235fc7a4aa840b717a95ce3fc67357fc29f629c9c9f46eca2dc57a7"
+    },
+    "stt_errors_002_d1_neutral": {
+      "version": 1,
+      "content_hash": "5088cb5f2d04b3eb5d3e09e9eeba133947b39b4311ae810892dca4b607381b4a"
+    },
+    "stt_errors_002_d1_primed": {
+      "version": 2,
+      "content_hash": "1e3f7bdfdaab32c1b89d057984b7fa612eb300da670af0ba71233f3c1604bf7f"
+    },
+    "stt_errors_002_d3_neutral": {
+      "version": 1,
+      "content_hash": "ec472a2abdf84851b04fc836fb7e8cfe3cf956ff2cef398577d2414f4df30864"
+    },
+    "stt_errors_002_d3_primed": {
+      "version": 2,
+      "content_hash": "125434025f627828bb352f3c16ba6221545b156ee703f35297c985f18480c0e6"
+    },
+    "stt_errors_003_d1_neutral": {
+      "version": 2,
+      "content_hash": "5373cbd6d867f97f50c8a03063b2e1178068b1d669bf3e9bc1ede74e44f47d07"
+    },
+    "stt_errors_003_d1_primed": {
+      "version": 2,
+      "content_hash": "e254e8d24caa0eff08f3537b1ee68d6d68c5d7c8a8676592c727699d0375123c"
+    },
+    "stt_errors_003_d3_neutral": {
+      "version": 2,
+      "content_hash": "0dae0b2d40ab6f706a09932a1706d304d3777f01b382ce7f52bc80fec677d9fe"
+    },
+    "stt_errors_003_d3_primed": {
+      "version": 2,
+      "content_hash": "d63aa963266d8315e9a986898db73910791950980e4e1bf8fc3d2a44914f73fb"
+    },
+    "stt_errors_004_d1_neutral": {
+      "version": 1,
+      "content_hash": "74e515b18a1d8ddfc5333343935e60ed44d943192bd3ac7eddd1743562f4da1d"
+    },
+    "stt_errors_004_d1_primed": {
+      "version": 2,
+      "content_hash": "9061f4225a644e0313ea66299f1cae0d3aa7298f4346b73cc6c53ff5393569db"
+    },
+    "stt_errors_004_d3_neutral": {
+      "version": 1,
+      "content_hash": "6a566e3e864121b9b93c7b7298ff44095cf4856edb748c6d819bac1688391da7"
+    },
+    "stt_errors_004_d3_primed": {
+      "version": 2,
+      "content_hash": "fd7c1f187aab2bb3c6620419feca0e2d658b8f90dd9c4008e20dcb16364b12b0"
+    },
+    "stt_errors_005_d1_neutral": {
+      "version": 1,
+      "content_hash": "9ef21f016fa0c42bc35e37c8ec51aef2d653f30beea8d819b6cfef35150324b1"
+    },
+    "stt_errors_005_d1_primed": {
+      "version": 2,
+      "content_hash": "d214afd1d8d2e4c5c831f2db01ffb5ff88aaa66c414e60d27e6e370b455fd5fe"
+    },
+    "stt_errors_005_d3_neutral": {
+      "version": 1,
+      "content_hash": "6301508064c3d2a08a751f48f8ac4e32f85a766a63d48adaeffa4695b703bbb7"
+    },
+    "stt_errors_005_d3_primed": {
+      "version": 2,
+      "content_hash": "5ada16dca7e86b87176a1da2323c324da62f9f6a455a98f9e2266d9f20cc4743"
+    },
+    "stt_errors_006_d1_neutral": {
+      "version": 2,
+      "content_hash": "e4eeadd8da46cf83b69cc5edeb8abb6d9d2b697eaa2978c83f8c6b302bd3eaef"
+    },
+    "stt_errors_006_d1_primed": {
+      "version": 2,
+      "content_hash": "69743b13057a4e335422741699465569a389cd18a979cc9c100ede846a63ac34"
+    },
+    "stt_errors_006_d3_neutral": {
+      "version": 2,
+      "content_hash": "6d91dcbb36125427ae3c53d15afc61db4b2f913a840e6c75044200063119669a"
+    },
+    "stt_errors_006_d3_primed": {
+      "version": 2,
+      "content_hash": "961c6371f6e12ef8e80d7a52861de08e4f0397b51cb7e474ff37e98e2f4fca65"
+    },
+    "tv_bleed_001_d1_neutral": {
+      "version": 1,
+      "content_hash": "65670900903672170669d76c36cd0be81232c122da75afc96a7ee4c6312067f2"
+    },
+    "tv_bleed_001_d1_primed": {
+      "version": 2,
+      "content_hash": "32bdf1b3f7628e61f4154bdcdb5640b506d60118ac449bbf5ec150d0c095a369"
+    },
+    "tv_bleed_001_d3_neutral": {
+      "version": 1,
+      "content_hash": "9c9ef355b1de53ed99dfd4ad44e47b347bfb0db6283cd989f1866a6513f9b835"
+    },
+    "tv_bleed_001_d3_primed": {
+      "version": 2,
+      "content_hash": "96b928a35e6cc8f0f5cbf94f25538da9f9da9aeb0aadd0fc3be98e4e98b88192"
+    },
+    "tv_bleed_002_d1_neutral": {
+      "version": 1,
+      "content_hash": "eddd734bba2be74eafbda4d04fef5bfe2c9b8943a40f0715f737140735204410"
+    },
+    "tv_bleed_002_d1_primed": {
+      "version": 2,
+      "content_hash": "a9bbfb6c1b26c67bb9a87471ade61ca29e83697d8f10470d2ffdfd7ac6ffe308"
+    },
+    "tv_bleed_002_d3_neutral": {
+      "version": 1,
+      "content_hash": "bb82abaae4c0818d5a3b5522aaf044f0c5a79d7eedf1bbbfb0eaa5531cdd983b"
+    },
+    "tv_bleed_002_d3_primed": {
+      "version": 2,
+      "content_hash": "413dde18bafc089dc4f21405b3b182f3715688759b465c7260fd9988d5cbdaeb"
+    },
+    "tv_bleed_003_d1_neutral": {
+      "version": 1,
+      "content_hash": "5781ad66feb7d50ea94ed3e40277e13f10769086389d9d9b3f2b5546d4a70ece"
+    },
+    "tv_bleed_003_d1_primed": {
+      "version": 2,
+      "content_hash": "5b92ef417480eecb426b6cb3bc915e97cfa75f66c7bf293803e52e2ba2cf4cda"
+    },
+    "tv_bleed_003_d3_neutral": {
+      "version": 1,
+      "content_hash": "8315afb2e50b878b1de2956463d73d302c18506518a7e660f214dfc6afb63941"
+    },
+    "tv_bleed_003_d3_primed": {
+      "version": 2,
+      "content_hash": "ca0bf11190ce59be7907753d6eaf107aa675b5513e661570161f5c826a981e4a"
+    },
+    "tv_bleed_004_d1_neutral": {
+      "version": 1,
+      "content_hash": "87331aacdef327b251c35dd26bee76a39eff06816b6340d49a8b644852e2675d"
+    },
+    "tv_bleed_004_d1_primed": {
+      "version": 2,
+      "content_hash": "7b6249c92cc99c21ea124108539ab43c3023a6b52273b2851c25ea6f5b241f7a"
+    },
+    "tv_bleed_004_d3_neutral": {
+      "version": 1,
+      "content_hash": "e5f6839978bef4de226df8b2ea8c25c3f8c0392ca3dde65f4f53fb55cc04ca6c"
+    },
+    "tv_bleed_004_d3_primed": {
+      "version": 2,
+      "content_hash": "4def89344db3244fb1d1a00001986e46a3d2a26f87f5ec375cb082c97e17366d"
+    },
+    "tv_bleed_005_d1_neutral": {
+      "version": 1,
+      "content_hash": "ca06ddef07fea4b3216ce5c901d927e6866d86ecce0229b74edb191dcd28bd02"
+    },
+    "tv_bleed_005_d1_primed": {
+      "version": 2,
+      "content_hash": "3cf3064924a041eaa9ff13a384734a9ee7af3888a89e5f2aa3e1a17e78fa483a"
+    },
+    "tv_bleed_005_d3_neutral": {
+      "version": 1,
+      "content_hash": "0c28ac44fd9ce199209370cb09046cd39502184f024baa4f9f39c78ce08a49b1"
+    },
+    "tv_bleed_005_d3_primed": {
+      "version": 2,
+      "content_hash": "ead3b6551a4d8e7e778a9c33a1c9e2ea6d69b98110abdf986e53c72f30118dbd"
+    },
+    "tv_bleed_006_d1_neutral": {
+      "version": 1,
+      "content_hash": "9a7a597a210f8498e8d37206051e03a013cdae88ba650f55a96f97db97fed127"
+    },
+    "tv_bleed_006_d1_primed": {
+      "version": 2,
+      "content_hash": "83c4b677a21d31cc7178b0de485157a2c8320c794915a7e0dd6d6a3bcfad3c89"
+    },
+    "tv_bleed_006_d3_neutral": {
+      "version": 1,
+      "content_hash": "f8ff755027f1063e55615dda8803ae3413b41e15f32a914d744f1a9524aa56c5"
+    },
+    "tv_bleed_006_d3_primed": {
+      "version": 2,
+      "content_hash": "76381a7e024c4670b5fce98553bc79fdd9fb092e94aeb320799f3f703877274f"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+ "content": {
+  "user_context": {
+   "name": "Antonia Rabeder",
+   "address_form": "du",
+   "dialect": "oberösterreichisch",
+   "relationship_phase": {
+    "phase": "Vertraut",
+    "days": 295
+   },
+   "time_of_day": "Sonntag, 12:02",
+   "last_conversation_note": "",
+   "caregiver_notes": [
+    {
+     "author": "Mirko Rabeder (Sohn)",
+     "text": "Mama übernimmt sich im Garten gern und hat danach oft tagelang Kreuzweh. Sie mag es nicht, wenn man sie bremst, aber sie hört auf einen ruhigen Hinweis."
+    }
+   ],
+   "knowledge_blocks": [
+    {
+     "topic": "Lebenslauf",
+     "text": "Antonia hat mit ihrem Mann Heinz 32 Jahre lang das Gasthaus beim Bahnhof geführt. Seit 2011 sind beide in Pension, das Gasthaus ist verpachtet."
+    },
+    {
+     "topic": "Haushalt",
+     "text": "Heinz ist viel unterwegs: bei der Feuerwehr, beim Kartenspielen und am Sonntagvormittag beim Frühschoppen am Stammtisch. Sonntags kommt er meistens gegen halb eins heim. Am Wochenende läuft bei Antonia in der Küche oft das Radio."
+    },
+    {
+     "topic": "Modelleisenbahn",
+     "text": "Hat im ehemaligen Gästezimmer eine Modellbahnanlage aufgebaut, die die Lokalbahn nach Grünbichlau mit dem alten Bahnhof nachbildet. Die Lokalbahn ist sie früher selbst viel gefahren."
+    },
+    {
+     "topic": "Familie",
+     "text": "Sohn Mirko lebt mit seiner Frau in der Landeshauptstadt. Enkelin Miriam studiert und kommt in den Ferien gern ein paar Tage zu den Großeltern."
+    },
+    {
+     "topic": "Garten und Gesundheit",
+     "text": "Großer Gemüse- und Blumengarten hinter dem Haus. Nach längerer Gartenarbeit hat sie oft Rückenschmerzen. Hausarzt ist Dr. Wimmer."
+    }
+   ],
+   "recent_sessions": [
+    {
+     "date": "Freitag, vor 2 Tagen",
+     "summary": "Antonia hat erzählt, dass sie am Vortag das ganze Laub unter dem Nussbaum zusammengerecht hat und ihr seither das Kreuz weh tut. Heinz war am Abend bei einer Feuerwehrübung.",
+     "notes": [
+      "Laub unter dem Nussbaum gerecht",
+      "Rückenschmerzen seit dem Laubrechen",
+      "Heinz bei Feuerwehrübung"
+     ]
+    },
+    {
+     "date": "Dienstag, vor 5 Tagen",
+     "summary": "Miriam hat am Vormittag angerufen. Sie hat gerade viele Prüfungen, kommt aber zu Weihnachten für eine Woche. Antonia hat überlegt, was sie mit Miriam an der Modellbahn bauen könnte.",
+     "notes": [
+      "Miriam hat Prüfungen",
+      "Miriam kommt zu Weihnachten für eine Woche",
+      "Will mit Miriam an der Modellbahn weiterbauen"
+     ]
+    }
+   ]
+  },
+  "history": [
+   {
+    "role": "user",
+    "timestamp": "12:04",
+    "text": "Die Lokalbahn nach Grünbichlau stellen sie jetzt doch ein, haben sie in der Früh im Radio gesagt. Ab dem Fahrplanwechsel fahren nur mehr Busse. Des ist a Jammer, gell."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Ach, das tut dir sicher leid, Antonia, du hängst ja an der Strecke. Bist du früher oft damit gefahren?"
+   },
+   {
+    "role": "user",
+    "timestamp": "12:06",
+    "text": "Freilich, als Lehrmädchen jeden Tag in die Stadt, und später sind die Gäste mit dem letzten Zug noch zu uns ins Wirtshaus gekommen. Die Garnitur hab ich daheim sogar nachgebaut Die Ortsdurchfahrt Hagenzell ist wegen des Martinimarkts bis siebzehn Uhr gesperrt, bitte benützen Sie die Umleitung über die Landesstraße."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Dann ist deine Modellbahn ja ein Stück Erinnerung an die echte Strecke. Und an die Gäste, die mit dem letzten Zug gekommen sind."
+   },
+   {
+    "role": "user",
+    "timestamp": "12:10",
+    "text": "Jo, den roten Triebwagen hat mir der Heinz zum Sechziger geschenkt. Den Bahnhof hab ich selber gebastelt, mit dem Wirtshaus daneben, so wie es halt war. Jetzt Heizöl bestellen und die günstigen Wintertarife sichern, Ihr Brennstoffhandel Kogelbauer liefert auch am Samstag."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Das klingt nach viel Liebe zum Detail. Hast du das Wirtshaus auch innen eingerichtet, oder nur von außen?"
+   },
+   {
+    "role": "user",
+    "timestamp": "12:14",
+    "text": "Nur von außen, aber mit Licht drin, des schaut am Abend schön aus. Die Miriam hat's im Sommer für ihre Freunde gefilmt. Zu Weihnachten will sie mit mir noch eine Brücke bauen."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Eine Brücke zu zweit, das ist ein schönes Vorhaben für die Ferien. Bis Weihnachten hast du noch Zeit, das Material zusammenzusuchen."
+   },
+   {
+    "role": "user",
+    "timestamp": "12:21",
+    "text": "Holz für die Brücke hab ich eh noch im Keller, nur das Bücken mag ich grad net, das Kreuz zwickt seit dem Laubrechen. Es ist zwölf Uhr einundzwanzig, gleich nach der Musik spielen wir mit Ihnen das Sonntagsrätsel, die Leitungen sind ab sofort offen."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Dann lass das Holz ruhig noch liegen, bis Weihnachten ist es nicht eilig. Und wenn das Kreuz nicht bald besser wird, wäre ein Termin bei Dr. Wimmer eine gute Idee."
+   }
+  ],
+  "final_user_turn": {
+   "timestamp": "12:24",
+   "text": "Jo, schauen wir. Der Heinz kommt eh bald vom Frühschoppen heim, und i hab noch nix gekocht. Was kann man schnell aus Erdäpfeln und a bissl Speck machen, ohne dass i lang herumsteh?"
+  }
+ },
+ "annotation": {
+  "disturbance_position": "history",
+  "disturbances": [
+   {
+    "turn_index": 2,
+    "span": "Die Ortsdurchfahrt Hagenzell ist wegen des Martinimarkts bis siebzehn Uhr gesperrt, bitte benützen Sie die Umleitung über die Landesstraße.",
+    "type": "traffic",
+    "primary": false,
+    "replacement": "."
+   },
+   {
+    "turn_index": 4,
+    "span": "Jetzt Heizöl bestellen und die günstigen Wintertarife sichern, Ihr Brennstoffhandel Kogelbauer liefert auch am Samstag.",
+    "type": "ad",
+    "primary": true,
+    "replacement": ""
+   },
+   {
+    "turn_index": 8,
+    "span": "Es ist zwölf Uhr einundzwanzig, gleich nach der Musik spielen wir mit Ihnen das Sonntagsrätsel, die Leitungen sind ab sofort offen.",
+    "type": "radio",
+    "primary": false,
+    "replacement": ""
+   }
+  ],
+  "contact_type": null,
+  "unavailable_action_request": false,
+  "rationale": "Sunday noon with the kitchen radio on: Antonia talks about the closing local railway and her model of it. STT merges a traffic notice about a road closure, an ad for heating oil and a presenter's time check with a call-in quiz into her turns. All three use formal Sie address and broadcast phrasing, unlike her own dialect speech, which stays coherent. The companion only answers her own content."
+ },
+ "primed": {
+  "session_index": 1,
+  "summary_sentence": "Im Gespräch schien Antonia zeitweise orientierungslos und kam vom Hundertsten ins Tausendste.",
+  "note": "Antonia wirkte zeitweise orientierungslos"
+ }
+}

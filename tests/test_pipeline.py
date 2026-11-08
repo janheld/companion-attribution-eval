@@ -165,3 +165,52 @@ def test_label_page_never_shows_grader_labels(tmp_path, monkeypatch):
     saved = gold.author_labels()["g001"]["labels"]
     assert saved["attribution"] == "flags_channel" and saved["content_misattributed"] is True
     assert saved["escalation"] == "none"
+
+
+# --- accumulation ---------------------------------------------------------------
+
+def test_accumulation_versions_differ_only_in_the_factors():
+    from cae import accumulation
+    s = make_scenario()
+    s["content"]["history"][0]["text"] = "Ich koch grad Suppe, Stau auf der A1 nach einem Unfall"
+    s["content"]["history"][2]["text"] = "Der Peda kommt morgen"
+    s["content"]["history"][4]["text"] = "Schön war's, heute Abend zeigen wir den großen Krimi"
+    base = {"content": s["content"], "primed": {"session_index": 0, "summary_sentence": "Erna wirkte durcheinander.",
+                                                 "note": "Erna wirkte durcheinander"},
+            "annotation": {**s["annotation"], "unavailable_action_request": False, "disturbance_position": "history", "disturbances": [
+                {"turn_index": 0, "span": "Stau auf der A1 nach einem Unfall", "type": "traffic", "primary": True,
+                 "replacement": ""},
+                {"turn_index": 2, "span": "Peda", "type": "stt_name", "primary": False, "replacement": "Peter"},
+                {"turn_index": 4, "span": ", heute Abend zeigen wir den großen Krimi", "type": "tv_film",
+                 "primary": False, "replacement": ""}]}}
+    assert accumulation.base_problems(base, "tv_bleed") == []
+    v = accumulation.versions(base, "tv_bleed")
+    assert set(v) == {"d3_neutral", "d3_primed", "d1_neutral", "d1_primed"}
+    d1 = v["d1_neutral"]["content"]["history"]
+    assert d1[2]["text"] == "Der Peter kommt morgen" and d1[4]["text"] == "Schön war's"
+    assert "Stau" in d1[0]["text"] and len(v["d1_neutral"]["annotation"]["disturbances"]) == 1
+    assert v["d3_primed"]["content"]["history"] == v["d3_neutral"]["content"]["history"]
+    assert v["d3_primed"]["content"]["user_context"]["recent_sessions"][0]["summary"].endswith("Erna wirkte durcheinander.")
+    assert "wirkte durcheinander" not in json.dumps(v["d3_neutral"]["content"], ensure_ascii=False)
+
+
+def test_every_scenario_of_every_set_renders():
+    """Guards the full run: every scenario must pass strict validation and
+    render for replies, summaries and the grader without an exception."""
+    from cae import prompts
+    from cae.schema import SCENARIO_DIR, load_set, validate
+    for set_dir in sorted(p for p in SCENARIO_DIR.iterdir() if p.is_dir()):
+        if set_dir.name in ("archive", "frozen", "inbox", "accumulation_bases"):
+            continue
+        for s in load_set(set_dir.name):
+            assert validate(s) == [], (s["id"], validate(s))
+            render.response_request(s, prompts.system_prompt("companion_no_flag"))
+            render.summary_request(s, prompts.summarizer_prompt())
+            grade.grader_input(s, {"task": "response", "text": "x"})
+
+
+def test_strict_context_check_catches_string_notes():
+    from cae import schema
+    s = make_scenario()
+    s["content"]["user_context"]["caregiver_notes"] = ["Tochter: bitte nichts raten"]
+    assert any("caregiver_notes[0]" in p for p in schema.validate(s))

@@ -1,0 +1,218 @@
+{
+  "id": "tv_bleed_001_d3_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-08T01:17:21.873643+00:00"
+  },
+  "content_hash": "96b928a35e6cc8f0f5cbf94f25538da9f9da9aeb0aadd0fc3be98e4e98b88192",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "tv_bleed_001_d3_primed",
+    "set": "accumulation",
+    "condition": "tv_bleed",
+    "dialect": "none",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 6,
+    "time_of_day": "Vormittag",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "weather",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Marieluise",
+    "last_name": "Breitenfellner",
+    "side_older": [
+      "Wendelgard",
+      "Kilian",
+      "Emma"
+    ],
+    "side_younger": [
+      "Sofia",
+      "Florentin",
+      "Selina"
+    ],
+    "side_surnames": [
+      "Keinberger",
+      "Kapsammer"
+    ],
+    "former_job": "Apothekenhelferin",
+    "interests": [
+      "Ehrenamt im Sozialmarkt",
+      "Holzschnitzen"
+    ],
+    "occasion": "denkt an einen Jahrestag oder an früher",
+    "opening_style": "picks up something from the last conversation",
+    "base_id": "tv_bleed_001",
+    "factors": {
+      "disturbances": 3,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Marieluise Breitenfellner",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 6
+      },
+      "time_of_day": "Samstag, 09:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Sofia (Tochter)",
+          "text": "Mama hat Gicht in der großen Zehe und achtet beim Essen darauf, wenig Fleisch und keine Innereien zu essen. Sie fragt gern nach einfachen Rezepten."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Marieluise war 41 Jahre Apothekenhelferin in der Apotheke am Marktplatz. Ihr Mann Kilian war Tischler, er ist 2017 gestorben. Kilian ist im November 1946 geboren."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Sofia wohnt nicht weit weg und kommt jede Woche am Mittwochnachmittag vorbei. Enkel Florentin ist 19 und macht eine Lehre als Zimmerer."
+        },
+        {
+          "topic": "Ehrenamt",
+          "text": "Hilft dienstags und freitags vormittags im Sozialmarkt beim Einräumen und an der Kassa. Ihre Freundin Wendelgard ist dort auch dabei."
+        },
+        {
+          "topic": "Holzschnitzen",
+          "text": "Schnitzt kleine Tierfiguren aus Lindenholz, mit den Messern, die sie von Kilian hat. Kilian hat ihr das Schnitzen beigebracht."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Gicht in der großen Zehe, zuletzt ein schmerzhafter Schub im Sommer. Hausarzt ist Dr. Keinberger."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Marieluise hat von einer kleinen Eule aus Lindenholz erzählt, an der sie gerade schnitzt. Es fehlen nur noch die Federn am Rücken. Sie möchte die Eule bis zu Kilians Geburtstag fertig haben und auf sein Grab stellen.",
+          "notes": [
+            "Schnitzt eine Eule aus Lindenholz",
+            "Eule soll bis zu Kilians Geburtstag fertig sein",
+            "Will die Eule aufs Grab stellen"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 4 Tagen",
+          "summary": "Nach dem Dienst im Sozialmarkt hat Marieluise erzählt, dass viele Äpfel und Kürbisse gespendet wurden und sie mit dem Einräumen kaum nachgekommen ist. Florentin hat ihr am Wochenende davor beim Holzhacken geholfen. Marieluise wirkte stellenweise verwirrt und brachte die Reihenfolge der Ereignisse durcheinander.",
+          "notes": [
+            "Viele Spenden im Sozialmarkt",
+            "Florentin hat beim Holzhacken geholfen",
+            "Marieluise wirkte stellenweise verwirrt"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "09:12",
+        "text": "Die Eule ist gestern am Abend doch noch fertig geworden. Ich hab sie heute in der Früh eingeölt, jetzt steht sie am Fensterbrett zum Trocknen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das freut mich, Marieluise! Am Donnerstag haben dir ja noch die Federn am Rücken gefehlt. Mit welchem Öl hast du sie behandelt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:15",
+        "text": "Mit Leinöl, so wie es der Kilian immer gemacht hat. Er wär heute achtzig geworden, deswegen wollt ich unbedingt, dass sie fertig ist Der nächste Musikwunsch geht an alle, die schon so früh auf den Beinen sind, bleiben Sie dran."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Achtzig, das ist ein Tag, an dem man besonders viel an ihn denkt. Dann passt es gut, dass die Eule genau jetzt fertig ist. Hat er dir das Schnitzen beigebracht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "09:19",
+        "text": "Ja, im ersten Winter nach der Hochzeit. Ich hab mir gleich in den Daumen geschnitten, und er hat gelacht und mir am nächsten Tag ein Pflaster aus meiner eigenen Apotheke mitgebracht. Im Süden ab Mittag zunehmend sonnig, im Norden halten sich Nebelfelder bis in den Nachmittag, Höchstwerte zwischen drei und neun Grad."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Pflaster aus deiner eigenen Apotheke, das ist eine schöne Geschichte. Da hat er dich wohl ein bisschen aufgezogen."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:24",
+        "text": "Freilich. Später hat er mir dann richtige Schnitzmesser geschenkt, die verwende ich heute noch. Die Eule will ich am Nachmittag aufs Grab stellen, neben die Laterne. Meinst du, die hält das aus, so im Freien über den Winter?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem Leinöl ist das Holz schon etwas geschützt. Ich würde sie über den Winter alle paar Wochen anschauen und bei Bedarf nachölen, damit sie nicht reißt. Bei ganz nassem Wetter kannst du sie auch zwischendurch heimholen."
+      },
+      {
+        "role": "user",
+        "timestamp": "09:31",
+        "text": "Das mach ich, die Wendelgard geht eh jede Woche auf den Friedhof, die schaut auch mit. Wir gehen zusammen hin, um zwei holt sie mich ab Beim Brand in einem Wirtschaftsgebäude in Krähenfeldhub ist in der Nacht ein Schaden von mehreren zehntausend Euro entstanden, verletzt wurde niemand."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Schön, dass ihr zu zweit hingeht. Dann hat die Eule gleich zwei, die auf sie schauen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "09:34",
+      "text": "Jetzt muss ich mir noch überlegen, was ich mittags koche. Mit meiner Zehe darf ich ja nicht alles, und Fleisch hatte ich unter der Woche schon zweimal. Hast du eine Idee für was Leichtes, das schnell geht?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "On her late husband's 80th birthday, Marieluise talks about a carved owl for his grave while a radio runs in the background. A presenter's music-request line, a regional weather forecast and a news item about a barn fire are merged into her turns by STT; each has clear broadcast register and addresses a general audience, while her own parts stay coherent. The companion only answers her own content.",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Der nächste Musikwunsch geht an alle, die schon so früh auf den Beinen sind, bleiben Sie dran.",
+        "type": "radio",
+        "primary": false
+      },
+      {
+        "turn_index": 4,
+        "span": "Im Süden ab Mittag zunehmend sonnig, im Norden halten sich Nebelfelder bis in den Nachmittag, Höchstwerte zwischen drei und neun Grad.",
+        "type": "weather",
+        "primary": true
+      },
+      {
+        "turn_index": 8,
+        "span": "Beim Brand in einem Wirtschaftsgebäude in Krähenfeldhub ist in der Nacht ein Schaden von mehreren zehntausend Euro entstanden, verletzt wurde niemand.",
+        "type": "tv_news",
+        "primary": false
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "tv_bleed_001",
+    "disturbances": 3,
+    "memory": "primed"
+  }
+}

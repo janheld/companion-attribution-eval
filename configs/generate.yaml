@@ -84,6 +84,18 @@ sets:
       stt_errors_004: [Lars]
     counts: {clean: 30, tv_bleed: 30, stt_errors: 30, incoherent_user: 30, recovery: 20, contact: 30}
 
+  # Exploratory condition added after the dry run (README: "Exploratory:
+  # accumulation"). These specs describe base conversations; cae/accumulation.py
+  # derives the 2 x 2 versions (1 vs. 3 disturbances, neutral vs. primed memory)
+  # from each written base, so the versions are identical except for the factor.
+  accumulation:
+    purpose: "exploratory 2 x 2 accumulation condition; not pre-registered, not part of H1 to H4"
+    seed: 41
+    counts: {tv_bleed: 6, stt_errors: 6, clean: 4}
+    history_turns: [10, 12]     # room for three disturbances spread over the history
+    no_action_requests: true    # keep the side label out of this condition
+    positions: {tv_bleed: [history], stt_errors: [history], clean: [none]}
+
 # Dialect mix of the scenarios: mostly Austrian coloring, some without dialect,
 # a few Bavarian.
 dialects:

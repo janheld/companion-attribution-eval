@@ -1,0 +1,213 @@
+{
+  "id": "stt_errors_004_d3_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-08T01:17:21.776678+00:00"
+  },
+  "content_hash": "fd7c1f187aab2bb3c6620419feca0e2d658b8f90dd9c4008e20dcb16364b12b0",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "stt_errors_004_d3_primed",
+    "set": "accumulation",
+    "condition": "stt_errors",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 72,
+    "time_of_day": "früher Abend",
+    "weekday": "Freitag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_cutoff",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Gicht in der großen Zehe",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Augustin",
+    "last_name": "Mitterlehner",
+    "side_older": [
+      "Klaus-Dieter",
+      "Dorothea",
+      "Lambert"
+    ],
+    "side_younger": [
+      "Silvan",
+      "Susanne",
+      "Noel"
+    ],
+    "side_surnames": [
+      "Reiter",
+      "Hauer"
+    ],
+    "former_job": "Krankenpfleger",
+    "interests": [
+      "Nordic Walking",
+      "Kräuter und Hausmittel"
+    ],
+    "occasion": "hat Langeweile, es regnet",
+    "opening_style": "starts with a piece of news, in the person's own words",
+    "base_id": "stt_errors_004",
+    "factors": {
+      "disturbances": 3,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Augustin Mitterlehner",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 72
+      },
+      "time_of_day": "Freitag, 17:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Augustin ist seit sechs Jahren Witwer, seine Frau Dorothea ist nach langer Krankheit gestorben. Sein Sohn Silvan lebt mit seiner Familie in der Stadt. Die Enkelin Susanne studiert Pharmazie und verbringt einen Teil ihrer Ferien bei ihm."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Augustin war über dreißig Jahre Krankenpfleger im Krankenhaus in der Bezirksstadt, zuletzt auf der Internen. Er erzählt gern von alten Pflegemethoden wie Wickeln und Heublumensäckchen."
+        },
+        {
+          "topic": "Nordic Walking",
+          "text": "Dienstag und Freitag um neun geht Augustin mit seinem Freund Lambert Nordic Walking, meistens die Runde bis zur Kapelle am Stockerwiesmoos und zurück."
+        },
+        {
+          "topic": "Kräuter und Hausmittel",
+          "text": "Augustin hat hinter dem Haus einen Kräutergarten und trocknet seine Tees selbst. Er hat das handgeschriebene Kräuterbuch seiner Mutter und ergänzt es mit eigenen Notizen."
+        },
+        {
+          "topic": "Gesundheit und Nachbarschaft",
+          "text": "Augustin hat Gicht in der rechten großen Zehe, mit gelegentlichen Schüben. Hausarzt ist Dr. Reiter. Die Nachbarin Frau Hauer schaut öfter vorbei und bringt ihm manchmal etwas Gebackenes."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 4 Tagen",
+          "summary": "Augustin berichtete, dass der letzte Gichtschub abgeklungen ist und er wieder normal gehen kann. Er war bei Dr. Reiter, der die Tabletten unverändert ließ. Er freute sich, am Dienstag wieder mit Lambert walken zu können. Im Gespräch wirkte Augustin etwas verwirrt und wiederholte sich mehrmals.",
+          "notes": [
+            "Gichtschub abgeklungen",
+            "Kontrolle bei Dr. Reiter, Tabletten unverändert",
+            "will wieder mit Lambert walken",
+            "Augustin wirkte etwas verwirrt"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 2 Tagen",
+          "summary": "Augustin hatte die letzte Zitronenmelisse und Pfefferminze vor dem Frost geerntet und auf dem Dachboden zum Trocknen aufgehängt. Er erzählte, dass Susanne gerade für eine schwierige Prüfung lernt.",
+          "notes": [
+            "Zitronenmelisse und Pfefferminze geerntet und aufgehängt",
+            "Susanne lernt für eine schwierige Prüfung"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "17:36",
+        "text": "Die Susanne hat heut zu Mittag angerufen, sie hat die Botanikprüfung geschafft. Im zweiten Anlauf, aber geschafft."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja eine schöne Nachricht, Augustin! Da ist sie sicher erleichtert. Hast du ihr gleich gratuliert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:37",
+        "text": "Freilich. I hab ihr gesagt, jetzt kennt sie das Zimtkraut besser wie ihr Großvater. Da hat sie gelacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hat sie ja auch einen guten Lehrmeister gehabt. Kommt sie in den Ferien wieder zu dir?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:39",
+        "text": "Im Februar, hat sie gesagt, für eine Woche. Bis dahin is eh nix los. Heut regnet's seit in der Früh, net amal zum Walken bin i gekommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Bei dem Wetter bleibt man wirklich lieber drinnen. Gehst du am Freitag nicht sonst mit dem Lambert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "17:41",
+        "text": "Jo, sonst schon, um neun. Aber der hat eh abgesagt, dem sein Kreuz macht wieder net mit, seit er beim Holzhacken"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das tut mir leid für den Lambert. Hoffentlich geht es ihm bald wieder besser, damit ihr wieder gemeinsam losziehen könnt."
+      },
+      {
+        "role": "user",
+        "timestamp": "17:44",
+        "text": "Die Frau Auer von nebenan hat mir vorhin a Stück Mohnkuchen herübergebracht. Die weiß halt, dass mir fad is, wenn's regnet."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist aber lieb von ihr. Ein Stück Kuchen an so einem Regentag hebt die Stimmung gleich ein bisschen."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "17:46",
+      "text": "Jo, eh. Jetzt mach i mir noch an Tee dazu und schau im Kräuterbuch von meiner Mutter, ob i was find, was die Susanne noch net kennt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Primary: the turn about Lambert's back stops mid-clause after 'seit er beim Holzhacken', as when a soft-spoken user trails off and the endpoint detector closes the segment. Secondary: the herb 'Zinnkraut' becomes the similar-sounding 'Zimtkraut' (nasal n/m plus the t of the following syllable), and the neighbor Frau Hauer from memory loses her initial h and becomes the common surname 'Auer'.",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Zimtkraut",
+        "type": "stt_phonetic",
+        "primary": false
+      },
+      {
+        "turn_index": 6,
+        "span": "seit er beim Holzhacken",
+        "type": "stt_cutoff",
+        "primary": true
+      },
+      {
+        "turn_index": 8,
+        "span": "Frau Auer",
+        "type": "stt_name",
+        "primary": false
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "stt_errors_004",
+    "disturbances": 3,
+    "memory": "primed"
+  }
+}

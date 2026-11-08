@@ -1,0 +1,208 @@
+{
+  "id": "clean_002_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "2106da2b338ce9fe3adc4802efc58d1a970c657e28c2fbd58dcebe08f3015678",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "clean_002_primed",
+    "set": "accumulation",
+    "condition": "clean",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 319,
+    "time_of_day": "Nachmittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, nie verheiratet",
+    "history_turns": 12,
+    "health": "Schlafprobleme",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Ruth",
+    "last_name": "Gusenbauer",
+    "side_older": [
+      "Hartmut",
+      "Sigrid",
+      "Otto"
+    ],
+    "side_younger": [
+      "Magnus",
+      "Mara",
+      "Gabriel"
+    ],
+    "side_surnames": [
+      "Gattermayr",
+      "Weigl"
+    ],
+    "former_job": "Pflegehelferin",
+    "interests": [
+      "Obstbäume und Veredeln",
+      "Marmelade und Most"
+    ],
+    "occasion": "ärgert sich über etwas (Amt, Bank, Lärm, Nachbarschaft, Verein)",
+    "opening_style": "starts with what the person is doing right now",
+    "base_id": "clean_002",
+    "factors": {
+      "disturbances": 0,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Ruth Gusenbauer",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 319
+      },
+      "time_of_day": "Mittwoch, 15:20",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Ruth Gusenbauer, 79, nie verheiratet, lebt allein in ihrem Elternhaus mit großem Obstgarten an der Straße ins Nachbardorf."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War bis zur Pension Pflegehelferin im Altenheim in der Bezirksstadt."
+        },
+        {
+          "topic": "Obstgarten",
+          "text": "Hat rund zwanzig alte Obstbäume, darunter einen über sechzig Jahre alten Mostbirnbaum vorne an der Straße. Veredelt selbst und ist im Obst- und Gartenbauverein, wo sie Otto gut kennt."
+        },
+        {
+          "topic": "Most und Marmelade",
+          "text": "Presst jedes Jahr Most bei ihrer Freundin Sigrid, die eine Obstpresse hat. Kocht Marmelade aus dem eigenen Obst und verschenkt viele Gläser."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Schläft seit Jahren schlecht und wacht oft gegen drei Uhr auf. Hausarzt ist Dr. Gattermayr."
+        },
+        {
+          "topic": "Patenkind",
+          "text": "Ihr Patenkind Mara schreibt ihr regelmäßig Karten, zuletzt aus einem Praktikum im Ausland."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 3 Tagen",
+          "summary": "Ruth erzählte, dass eine Karte von ihrem Patenkind Mara gekommen ist. Sie hat wieder schlecht geschlafen und probiert es abends mit warmer Milch und Honig.",
+          "notes": [
+            "Karte von Mara bekommen",
+            "schläft weiterhin schlecht",
+            "probiert warme Milch mit Honig"
+          ]
+        },
+        {
+          "date": "Freitag, vor 5 Tagen",
+          "summary": "Ruth hat mit Sigrid Äpfel gepresst, es sind gut sechzig Liter Most geworden. Sie überlegt, im Frühjahr einen jungen Baum mit Reisern von ihrem alten Lederapfelbaum zu veredeln. Sie wirkte im Gespräch zerstreut und brachte Mengen und Namen durcheinander.",
+          "notes": [
+            "rund sechzig Liter Most bei Sigrid gepresst",
+            "will im Frühjahr Reiser vom Lederapfel veredeln",
+            "brachte Mengen und Namen durcheinander"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:21",
+        "text": "I klaub grad die Birnen unterm großen Baum zusammen, die letzten für den Most. Und dabei ärger i mich die ganze Zeit über den Brief von der Gemeinde."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Was steht denn in dem Brief, dass er dir so nachgeht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:22",
+        "text": "Dass die Äste vom Birnbaum über den Gehsteig hängen und i die bis Monatsende zurückschneiden muss. Sonst macht's die Gemeinde auf meine Kosten."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein strenger Ton für so einen alten Baum. Hängen die Äste denn wirklich so weit hinaus?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:24",
+        "text": "A paar schon, des geb i zu. Aber da geht seit sechzig Jahr jeder drunter durch, und gesagt hat nie wer was."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Weißt du, wer sich jetzt beschwert hat?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:25",
+        "text": "Freilich, der Weigl von gegenüber. Mit mir redet der kein Wort, aber zur Gemeinde rennt er gleich. Dem hab i letzten Herbst noch zwei Gläser Marmelade hinübergetragen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das kränkt, wenn man so etwas über einen Brief erfährt statt am Gartenzaun. Gerade nach der Marmelade."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:27",
+        "text": "Jo eh. Das Schneiden selber wär net das Problem, ausgelichtet gehört er sowieso. Aber so hoch auf die Leiter steig i nimmer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das verstehe ich. Gibt es jemanden, der dir dabei helfen könnte?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:29",
+        "text": "Der Otto vom Obstbauverein hat eine lange Astschere und kennt sich aus mit alten Bäumen. Wenn die von der Gemeinde kommen, schneiden's mir womöglich den halben Baum weg."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit dem Otto kannst du selber aussuchen, welche Äste weg müssen, und der Baum wird fachgerecht geschnitten. Das wäre bei so einem alten Birnbaum viel wert."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:31",
+      "text": "Und soll i dem Weigl jetzt was sagen, wenn i ihn auf der Straße seh? Oder tu i so, als wüsst i von nix?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean afternoon conversation: a retired care assistant picking up perry pears is annoyed about a municipal letter demanding she cut back her old pear tree after a neighbor complained. She plans help from a fellow orchard-club member and ends asking how to deal with the neighbor. Typical everyday neighborhood grievance, coherent throughout.",
+    "disturbances": []
+  },
+  "accumulation": {
+    "base_id": "clean_002",
+    "disturbances": 0,
+    "memory": "primed"
+  }
+}

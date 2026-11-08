@@ -1,0 +1,219 @@
+{
+  "id": "tv_bleed_003_d3_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "d21bd93d582e180b0a29207637a4c27f0a293889bf8fb7e107b7a0d239246519",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "tv_bleed_003_d3_primed",
+    "set": "accumulation",
+    "condition": "tv_bleed",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 294,
+    "time_of_day": "später Abend",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "other_person",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Bluthochdruck, nimmt morgens Tabletten",
+    "relatives": "Sohn mit Familie, wohnt im Obergeschoss",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Dagmar",
+    "last_name": "Mayrhofer",
+    "side_older": [
+      "Gerlinde",
+      "Ottokar",
+      "Amalie"
+    ],
+    "side_younger": [
+      "Nele",
+      "Sven",
+      "Lea"
+    ],
+    "side_surnames": [
+      "Freudenthaler",
+      "Schmid"
+    ],
+    "former_job": "Friseurin",
+    "interests": [
+      "Puzzeln",
+      "Seniorenturnen"
+    ],
+    "occasion": "hat gerade telefoniert",
+    "opening_style": "a short greeting, then straight into the topic",
+    "base_id": "tv_bleed_003",
+    "factors": {
+      "disturbances": 3,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Dagmar Mayrhofer",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 294
+      },
+      "time_of_day": "Mittwoch, 21:36",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Dagmar war Friseurin und hatte bis 2009 einen kleinen Salon im Ort. Sie ist mit Ottokar verheiratet. Ihre ältere Schwester Gerlinde lebt allein im Elternhaus der beiden."
+        },
+        {
+          "topic": "Haushalt",
+          "text": "Ottokar ist oft unterwegs, mittwochs beim Kartenspielen im Gasthaus, er kommt dann meist gegen elf heim. Sohn Sven wohnt mit seiner Frau Nele und Tochter Lea im Obergeschoss. Man hilft sich gegenseitig mit Essen aus. Am Abend läuft bei Dagmar oft der Fernseher, auch wenn sie nicht hinschaut."
+        },
+        {
+          "topic": "Freizeit",
+          "text": "Puzzelt gern große Puzzles mit 1000 Teilen. Montagnachmittag Seniorenturnen im Pfarrheim, zusammen mit ihrer Freundin Amalie."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Bluthochdruck, nimmt jeden Morgen ihre Tabletten. Hausarzt ist Dr. Freudenthaler."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Dagmar ist vom Seniorenturnen gekommen und hat erzählt, dass Amalie ihr ein neues Puzzle mit einem Leuchtturm geborgt hat. Sie hat am Abend mit dem Rand angefangen.",
+          "notes": [
+            "Neues Puzzle von Amalie, Leuchtturm, 1000 Teile",
+            "Seniorenturnen mit Amalie"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 3 Tagen",
+          "summary": "Dagmar hat zu Mittag für die ganze Familie Gulasch gekocht, auch Sven, Nele und Lea waren unten. Den Rest hat sie Nele in einer Schüssel mit hinauf gegeben. Lea hat erzählt, dass sie im Frühjahr mit dem Führerschein anfangen will. Beim Erzählen vom Familienessen brachte sie mehrmals durcheinander, wer was gesagt hatte.",
+          "notes": [
+            "Gulasch für die ganze Familie",
+            "Reste in einer Schüssel an Nele mitgegeben",
+            "Lea will im Frühjahr den Führerschein machen",
+            "brachte Personen durcheinander"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:38",
+        "text": "Grüß dich, Mira. I hab grad eine Stunde mit der Gerlinde telefoniert, jetzt brauch i a bissl, bis i wieder runterkomm."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Hallo Dagmar. Eine ganze Stunde, da gab es wohl viel zu bereden. Wie geht es der Gerlinde?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:40",
+        "text": "Sie zieht im Frühjahr ins betreute Wohnen in der Bezirksstadt, das hat sie jetzt fix gemacht. Allein im Haus geht's halt nimmer mit den Stiegen Der Fensterhersteller im Gewerbegebiet Lichtenwaidach baut bis Jahresende hundertachtzig Stellen ab, als Grund nennt das Unternehmen die schwache Auftragslage."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ein großer Schritt für sie. Wenn die Stiegen schon so mühsam sind, ist es vielleicht auch eine Erleichterung. Wie hat sie am Telefon geklungen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:43",
+        "text": "Eh gefasst. Sie sagt, sie freut sich auf die Ruh, aber das glaub i ihr net ganz. Wir sind in dem Haus ja aufgewachsen, alle zwei."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das versteh ich, wenn es euer Elternhaus ist, hängt viel daran. Für dich ist es sicher auch ein Abschied."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:47",
+        "text": "Ja, schon. In der Küche hat uns die Mutter immer die Haare geschnitten, da hab i das Frisieren eigentlich zum ersten Mal gesehen Ich stell dir die Schüssel vom Sonntag auf die Kommode, danke fürs Gulasch, wir gehen jetzt schlafen, gute Nacht."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hat in dieser Küche ja eigentlich dein Beruf angefangen. Das ist eine schöne Erinnerung an die Mutter."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:51",
+        "text": "Freilich. Die Gerlinde hat immer stillhalten müssen, weil i an ihr geübt hab. Jetzt hat sie gesagt, i soll mir aus dem Haus mitnehmen, was i will. I weiß aber noch gar net, was."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das musst du ja nicht sofort entscheiden, bis zum Frühjahr ist noch Zeit. Vielleicht fällt dir beim nächsten Besuch etwas ein, wenn du durch die Räume gehst."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:55",
+        "text": "Wahrscheinlich den alten Spiegel von der Mutter, der hängt eh noch im Gang. I red am Wochenende mit dem Ottokar, ob wir den mit dem Auto holen können Gönnen Sie Ihren müden Beinen eine Pause, das kühlende Venengel mit Rosskastanie, jetzt in Ihrer Apotheke."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der Spiegel klingt nach einem guten Andenken, den siehst du dann jeden Tag. Und mit dem Auto geht sich das sicher aus."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:58",
+      "text": "Jetzt bin i aber so aufgekratzt, an Schlafen ist noch net zu denken, und der Ottokar kommt eh erst um elf. Soll i noch a bissl puzzeln, oder ist es gescheiter, wenn i mich gleich hinleg?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "After a long call with her sister, Dagmar talks late in the evening while the TV runs. The daughter-in-law from upstairs brings back the bowl from Sunday's goulash and says good night; STT merges her words into Dagmar's turn. Her perspective (thanking Dagmar for the goulash, 'wir gehen schlafen') marks her as another person. A late news item and a TV ad are merged into two other turns. Dagmar's own parts stay coherent and the companion only answers them.",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Der Fensterhersteller im Gewerbegebiet Lichtenwaidach baut bis Jahresende hundertachtzig Stellen ab, als Grund nennt das Unternehmen die schwache Auftragslage.",
+        "type": "tv_news",
+        "primary": false
+      },
+      {
+        "turn_index": 6,
+        "span": "Ich stell dir die Schüssel vom Sonntag auf die Kommode, danke fürs Gulasch, wir gehen jetzt schlafen, gute Nacht.",
+        "type": "other_person",
+        "primary": true
+      },
+      {
+        "turn_index": 10,
+        "span": "Gönnen Sie Ihren müden Beinen eine Pause, das kühlende Venengel mit Rosskastanie, jetzt in Ihrer Apotheke.",
+        "type": "ad",
+        "primary": false
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "tv_bleed_003",
+    "disturbances": 3,
+    "memory": "primed"
+  }
+}

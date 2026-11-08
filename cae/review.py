@@ -103,6 +103,14 @@ def detail_page(set_name: str, sid: str) -> bytes:
     spec = s.get("spec", {})
     old = previous_version(set_name, s)
     changes = (f"<h2>Änderungen gegenüber v{old['version']}</h2>{html_report(old, s)}" if old else "")
+    from .accumulation import full_version_id
+    full_id = full_version_id(s)
+    if full_id and full_id != sid and scenario_path(set_name, full_id).exists():
+        full = load(scenario_path(set_name, full_id))
+        acc = s["accumulation"]
+        changes += (f"<h2>Unterschied zur Vollfassung {full_id}</h2>"
+                    + html_report(full, s, f"Diese Fassung: {acc['disturbances']} Störung(en), Gedächtnis {acc['memory']}. "
+                                           "Rot: nur in der Vollfassung, grün: nur hier."))
     buttons = "".join(f"<button name=status value={st}>{st}</button>" for st in STATUSES if st != "draft")
 
     body = f"""

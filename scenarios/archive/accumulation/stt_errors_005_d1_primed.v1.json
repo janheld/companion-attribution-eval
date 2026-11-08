@@ -1,0 +1,202 @@
+{
+  "id": "stt_errors_005_d1_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "c0436d8200938372e4464d71125fa328a3ccb036b8957900c06da0dc649c9640",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "stt_errors_005_d1_primed",
+    "set": "accumulation",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 286,
+    "time_of_day": "früher Morgen",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_phonetic",
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 10,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Wilfriede",
+    "last_name": "Aichhorn",
+    "side_older": [
+      "Charlotte",
+      "Balthasar",
+      "Valerie"
+    ],
+    "side_younger": [
+      "Evelyn",
+      "Aaron",
+      "Hannah"
+    ],
+    "side_surnames": [
+      "Zöpfl",
+      "Hochedlinger"
+    ],
+    "former_job": "Volksschullehrerin",
+    "interests": [
+      "Feuerwehr (Ehrenmitglied)",
+      "Ausflüge mit dem Seniorenbund"
+    ],
+    "occasion": "will etwas wissen (Rezept, Wort, wie etwas geht)",
+    "opening_style": "starts with a piece of news, in the person's own words",
+    "base_id": "stt_errors_005",
+    "factors": {
+      "disturbances": 1,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Wilfriede Aichhorn",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 286
+      },
+      "time_of_day": "Donnerstag, 06:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Wilfriede ist seit neun Jahren Witwe. Ihr Mann Balthasar war dreißig Jahre aktiv bei der Freiwilligen Feuerwehr Ebenhofstetten, zuletzt als Zeugwart, und hat bei fast jeder Übung fotografiert. Die Fotoalben stehen im Wohnzimmerschrank."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Wilfriede war fünfunddreißig Jahre Volksschullehrerin in der Volksschule im Ort. Sie steht bis heute jeden Tag um sechs auf, wie früher zum Unterricht."
+        },
+        {
+          "topic": "Feuerwehr",
+          "text": "Wilfriede ist Ehrenmitglied der Feuerwehr. Beim großen Hochwasser vor vielen Jahren hat sie mit anderen Frauen tagelang im Feuerwehrhaus für die Helfer gekocht. Sie geht noch zu den Versammlungen am Mittwochabend."
+        },
+        {
+          "topic": "Seniorenbund",
+          "text": "Mit dem Seniorenbund macht Wilfriede regelmäßig Ausflüge, meist am Donnerstagnachmittag mit dem Bus. Ihre Freundin Charlotte organisiert die Fahrten."
+        },
+        {
+          "topic": "Gesundheit und Patenkind",
+          "text": "Nach längerer Gartenarbeit hat Wilfriede oft Rückenschmerzen im Kreuz. Hausärztin ist Dr. Hochedlinger. Ihr Patenkind Hannah lebt weit weg und schreibt ihr regelmäßig Karten."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 3 Tagen",
+          "summary": "Wilfriede hatte am Wochenende die Rosen zurückgeschnitten und Laub gerecht und klagte danach über Schmerzen im Kreuz. Sie wollte die restliche Gartenarbeit auf mehrere Tage verteilen.",
+          "notes": [
+            "Rosen zurückgeschnitten, Laub gerecht",
+            "danach Schmerzen im Kreuz",
+            "will Gartenarbeit aufteilen"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Wilfriede hatte eine Karte von Hannah bekommen, die von ihrer neuen Arbeitsstelle erzählte. Sie überlegte, was sie ihr zurückschreiben soll, und erwähnte die Feuerwehrversammlung am nächsten Abend. Zwischendurch schien sie den Überblick zu verlieren und brachte Dinge durcheinander.",
+          "notes": [
+            "Karte von Hannah, neue Arbeitsstelle",
+            "will Hannah zurückschreiben",
+            "Feuerwehrversammlung am Mittwochabend",
+            "brachte Dinge durcheinander"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:41",
+        "text": "Gestern bei der Versammlung haben sie mich gefragt, ob ich für die Festschrift zum hundertzwanzigsten Jubiläum etwas über die alten Zeiten schreibe."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja eine Ehre, Wilfriede! Wer könnte das besser als du, du kennst die Feuerwehr ja schon so lange."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:42",
+        "text": "Die Charlotte hat gleich gemeint, ich soll unbedingt vom Hochwasser schreiben, wie wir Frauen tagelang im Feuerwehrhaus gekocht haben."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist bestimmt ein Stück Geschichte, das viele Jüngere gar nicht mehr kennen. Wie lange habt ihr damals gekocht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:44",
+        "text": "Fast eine Woche. Für die Fettschrift brauche ich aber auch noch ein paar Fotos, die müssten irgendwo in den Alben vom Balthasar sein."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "In seinen Alben findest du sicher etwas Passendes. Hat er vom Hochwasser auch Bilder gemacht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:46",
+        "text": "Ich glaube schon, er hat ja bei jedem Einsatz die Kamera mitgehabt. Das waren aber noch Papierbilder, die muss ich erst suchen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann wird das Durchblättern bestimmt eine kleine Reise in die Vergangenheit. Wann willst du damit anfangen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:48",
+        "text": "Am Vormittag, gleich nach dem Frühstück. Am Nachmittag geht es nicht, da fahren wir mit dem Seniorenbund zur Mostkost nach Tröstlbach."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du ja einen vollen Tag vor dir. Dann ist der Vormittag genau richtig für die Alben."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:50",
+      "text": "Ja. Und eine Frage hätte ich noch, für den Anfang vom Text: Weißt du, warum eigentlich der heilige Florian der Schutzpatron der Feuerwehr ist?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Primary: in fast speech the s in 'Festschrift' is swallowed by the following 'schr', and STT outputs the existing word 'Fettschrift'; the first turn and the topic make 'Festschrift' recoverable. Secondary: the friend's name Charlotte (from memory) is recognized as the homophone 'Schalotte', and the turn about the senior club trip stops right before the destination, a typical end-of-segment cut-off.",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Fettschrift",
+        "type": "stt_phonetic",
+        "primary": true
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "stt_errors_005",
+    "disturbances": 1,
+    "memory": "primed"
+  }
+}

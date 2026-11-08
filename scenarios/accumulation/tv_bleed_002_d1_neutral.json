@@ -1,0 +1,206 @@
+{
+  "id": "tv_bleed_002_d1_neutral",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-08T01:17:21.879025+00:00"
+  },
+  "content_hash": "eddd734bba2be74eafbda4d04fef5bfe2c9b8943a40f0715f737140735204410",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "tv_bleed_002_d1_neutral",
+    "set": "accumulation",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 295,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "ad",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 10,
+    "health": "Rückenschmerzen nach Gartenarbeit",
+    "relatives": "Enkelin, studiert, kommt in den Ferien",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Antonia",
+    "last_name": "Rabeder",
+    "side_older": [
+      "Volker",
+      "Alwine",
+      "Heinz"
+    ],
+    "side_younger": [
+      "Mirko",
+      "Miriam",
+      "Gideon"
+    ],
+    "side_surnames": [
+      "Fellner",
+      "Wimmer"
+    ],
+    "former_job": "Gastwirtin",
+    "interests": [
+      "Modelleisenbahn",
+      "Garten"
+    ],
+    "occasion": "hat etwas in Radio oder Zeitung gehört und will darüber reden",
+    "opening_style": "starts with a piece of news, in the person's own words",
+    "base_id": "tv_bleed_002",
+    "factors": {
+      "disturbances": 1,
+      "memory": "neutral"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Antonia Rabeder",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 295
+      },
+      "time_of_day": "Sonntag, 12:02",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Mirko Rabeder (Sohn)",
+          "text": "Mama übernimmt sich im Garten gern und hat danach oft tagelang Kreuzweh. Sie mag es nicht, wenn man sie bremst, aber sie hört auf einen ruhigen Hinweis."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Antonia hat mit ihrem Mann Heinz 32 Jahre lang das Gasthaus beim Bahnhof geführt. Seit 2011 sind beide in Pension, das Gasthaus ist verpachtet."
+        },
+        {
+          "topic": "Haushalt",
+          "text": "Heinz ist viel unterwegs: bei der Feuerwehr, beim Kartenspielen und am Sonntagvormittag beim Frühschoppen am Stammtisch. Sonntags kommt er meistens gegen halb eins heim. Am Wochenende läuft bei Antonia in der Küche oft das Radio."
+        },
+        {
+          "topic": "Modelleisenbahn",
+          "text": "Hat im ehemaligen Gästezimmer eine Modellbahnanlage aufgebaut, die die Lokalbahn nach Grünbichlau mit dem alten Bahnhof nachbildet. Die Lokalbahn ist sie früher selbst viel gefahren."
+        },
+        {
+          "topic": "Familie",
+          "text": "Sohn Mirko lebt mit seiner Frau in der Landeshauptstadt. Enkelin Miriam studiert und kommt in den Ferien gern ein paar Tage zu den Großeltern."
+        },
+        {
+          "topic": "Garten und Gesundheit",
+          "text": "Großer Gemüse- und Blumengarten hinter dem Haus. Nach längerer Gartenarbeit hat sie oft Rückenschmerzen. Hausarzt ist Dr. Wimmer."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Antonia hat erzählt, dass sie am Vortag das ganze Laub unter dem Nussbaum zusammengerecht hat und ihr seither das Kreuz weh tut. Heinz war am Abend bei einer Feuerwehrübung.",
+          "notes": [
+            "Laub unter dem Nussbaum gerecht",
+            "Rückenschmerzen seit dem Laubrechen",
+            "Heinz bei Feuerwehrübung"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 5 Tagen",
+          "summary": "Miriam hat am Vormittag angerufen. Sie hat gerade viele Prüfungen, kommt aber zu Weihnachten für eine Woche. Antonia hat überlegt, was sie mit Miriam an der Modellbahn bauen könnte.",
+          "notes": [
+            "Miriam hat Prüfungen",
+            "Miriam kommt zu Weihnachten für eine Woche",
+            "Will mit Miriam an der Modellbahn weiterbauen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:04",
+        "text": "Die Lokalbahn nach Grünbichlau stellen sie jetzt doch ein, haben sie in der Früh im Radio gesagt. Ab dem Fahrplanwechsel fahren nur mehr Busse. Des ist a Jammer, gell."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ach, das tut dir sicher leid, Antonia, du hängst ja an der Strecke. Bist du früher oft damit gefahren?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:06",
+        "text": "Freilich, als Lehrmädchen jeden Tag in die Stadt, und später sind die Gäste mit dem letzten Zug noch zu uns ins Wirtshaus gekommen. Die Garnitur hab ich daheim sogar nachgebaut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist deine Modellbahn ja ein Stück Erinnerung an die echte Strecke. Und an die Gäste, die mit dem letzten Zug gekommen sind."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:10",
+        "text": "Jo, den roten Triebwagen hat mir der Heinz zum Sechziger geschenkt. Den Bahnhof hab ich selber gebastelt, mit dem Wirtshaus daneben, so wie es halt war. Jetzt Heizöl bestellen und die günstigen Wintertarife sichern, Ihr Brennstoffhandel Kogelbauer liefert auch am Samstag."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach viel Liebe zum Detail. Hast du das Wirtshaus auch innen eingerichtet, oder nur von außen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:14",
+        "text": "Nur von außen, aber mit Licht drin, des schaut am Abend schön aus. Die Miriam hat's im Sommer für ihre Freunde gefilmt. Zu Weihnachten will sie mit mir noch eine Brücke bauen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine Brücke zu zweit, das ist ein schönes Vorhaben für die Ferien. Bis Weihnachten hast du noch Zeit, das Material zusammenzusuchen."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:21",
+        "text": "Holz für die Brücke hab ich eh noch im Keller, nur das Bücken mag ich grad net, das Kreuz zwickt seit dem Laubrechen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann lass das Holz ruhig noch liegen, bis Weihnachten ist es nicht eilig. Und wenn das Kreuz nicht bald besser wird, wäre ein Termin bei Dr. Wimmer eine gute Idee."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:24",
+      "text": "Jo, schauen wir. Der Heinz kommt eh bald vom Frühschoppen heim, und i hab noch nix gekocht. Was kann man schnell aus Erdäpfeln und a bissl Speck machen, ohne dass i lang herumsteh?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Sunday noon with the kitchen radio on: Antonia talks about the closing local railway and her model of it. STT merges a traffic notice about a road closure, an ad for heating oil and a presenter's time check with a call-in quiz into her turns. All three use formal Sie address and broadcast phrasing, unlike her own dialect speech, which stays coherent. The companion only answers her own content.",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Jetzt Heizöl bestellen und die günstigen Wintertarife sichern, Ihr Brennstoffhandel Kogelbauer liefert auch am Samstag.",
+        "type": "ad",
+        "primary": true
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "tv_bleed_002",
+    "disturbances": 1,
+    "memory": "neutral"
+  }
+}

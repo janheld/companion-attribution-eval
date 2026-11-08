@@ -1,0 +1,217 @@
+{
+  "id": "stt_errors_001_d1_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-08T01:17:21.639685+00:00"
+  },
+  "content_hash": "3b3a81e62a883fbe737796cf9ff77cf5b929a3004a97b47b0557e643157c1f85",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "stt_errors_001_d1_primed",
+    "set": "accumulation",
+    "condition": "stt_errors",
+    "dialect": "none",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 212,
+    "time_of_day": "später Abend",
+    "weekday": "Dienstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Schwindel beim Aufstehen",
+    "relatives": "Tochter im Nachbarort, kommt wöchentlich",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Herlinde",
+    "last_name": "Aspöck",
+    "side_older": [
+      "Edelburga",
+      "Pankraz",
+      "Hadwig"
+    ],
+    "side_younger": [
+      "Wiebke",
+      "Ingo",
+      "Ramona"
+    ],
+    "side_surnames": [
+      "Hörschläger",
+      "Prandstetter"
+    ],
+    "former_job": "Bankangestellte",
+    "interests": [
+      "Chor",
+      "Briefmarken"
+    ],
+    "occasion": "kommt von der Messe, vom Verein oder von einer Probe",
+    "opening_style": "starts straight with the topic, no greeting",
+    "base_id": "stt_errors_001",
+    "factors": {
+      "disturbances": 1,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Herlinde Aspöck",
+      "address_form": "du",
+      "dialect": "none",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 212
+      },
+      "time_of_day": "Dienstag, 21:35",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Wiebke (Tochter)",
+          "text": "Mama soll nach dem Sitzen langsam aufstehen, das hat ihr Dr. Hörschläger geraten. Gern ruhig daran erinnern, wenn sie davon erzählt."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Herlinde war 36 Jahre Bankangestellte, zuletzt in der Kreditabteilung der Filiale in der Bezirksstadt. Seit 2011 in Pension, seit langem geschieden."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Wiebke wohnt im Nachbarort und kommt jeden Samstag zu Besuch, oft mit ihrer Tochter Ramona."
+        },
+        {
+          "topic": "Briefmarken",
+          "text": "Sammelt seit ihrer Jugend Briefmarken, vor allem Blumen- und Tiermotive. Ist im Briefmarkenverein, Obmann ist Herr Prandstetter. Tauschabend ist jeden zweiten Dienstag im Extrazimmer eines Gasthauses. Ihr Tauschfreund im Verein ist Pankraz."
+        },
+        {
+          "topic": "Chor",
+          "text": "Singt Sopran im gemischten Chor der Musikschule, Probe montags am Vormittag. Ihre Freundin Hadwig singt auch dort."
+        },
+        {
+          "topic": "Gesundheit und Mobilität",
+          "text": "Beim Aufstehen wird ihr manchmal kurz schwindlig. Hausarzt ist Dr. Hörschläger. Im Dunkeln fährt sie nicht mehr selbst Auto; zum Tauschabend nimmt sie ihre Bekannte Edelburga mit, die auch sammelt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Herlinde hat ihr Album mit der Blumenserie durchgesehen. Es fehlt ihr nur noch die Enzianmarke, und sie hoffte, dass beim nächsten Tauschabend jemand eine dabeihat. Am Nachmittag hat Hadwig angerufen. Zwischendurch schien Herlinde verwirrt und wusste nicht recht, wovon sie gerade sprach.",
+          "notes": [
+            "In der Blumenserie fehlt noch die Enzianmarke",
+            "Hofft auf den Tauschabend",
+            "Telefonat mit Hadwig",
+            "Herlinde schien zwischendurch verwirrt"
+          ]
+        },
+        {
+          "date": "Freitag, vor 4 Tagen",
+          "summary": "Herlinde hat erzählt, dass ihr beim Aufstehen aus dem Lehnstuhl kurz schwindlig war. Sie wollte das beim nächsten Termin bei Dr. Hörschläger ansprechen. Sie hat sich auf den Besuch von Wiebke und Ramona am Wochenende gefreut.",
+          "notes": [
+            "Kurzer Schwindel beim Aufstehen",
+            "Will es bei Dr. Hörschläger ansprechen",
+            "Besuch von Wiebke und Ramona am Wochenende"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "21:37",
+        "text": "Jetzt ist die Enzianmarke endlich in meinem Album, die hat mir in der Blumenserie jahrelang gefehlt. Der Pankraz hat sie heute beim Tauschabend mitgehabt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das freut mich, Herlinde, nach so vielen Jahren! Was hast du ihm dafür gegeben?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:40",
+        "text": "Zwei Sondermarken von der Bahn, die hat er schon lange gesucht. Heimgebracht hat mich die Edelburga, im Dunkeln fahr ich nicht mehr gern selber."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das klingt nach einem Tausch, bei dem beide zufrieden sind. Und gut, dass du nicht selber fahren musstest, wo es jetzt so früh finster wird."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:44",
+        "text": "Es war ein netter Abend, wir waren zu neunt im Extrazimmer. Der Obmann möchte, dass ich nächstes Jahr die Kassaprüfung übernehme, weil ich früher in der Bank war."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da passt du nach den Jahren in der Bank wirklich gut dazu. Hast du schon zugesagt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:47",
+        "text": "Halb und halb, ich hab gesagt, ich überleg es mir bis zur Weihnachtsfeier. Zum Schluss hat der Wirt jedem noch einen Stempel Nussschnaps hingestellt, auf Kosten des Hauses."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist nett vom Wirt, so ein Abschluss gehört dazu. Bis zur Weihnachtsfeier hast du ja noch ein paar Wochen Zeit zum Überlegen."
+      },
+      {
+        "role": "user",
+        "timestamp": "21:51",
+        "text": "Ja, das passt. Die Marke schau ich mir morgen noch einmal mit der Lupe an, heute bin ich zu müde dafür. Beim Aufstehen vom Tisch war mir vorhin wieder kurz schwindlig."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann lass dir beim Aufstehen ruhig Zeit und setz dich erst einmal kurz auf, bevor du gehst. Hast du dir das für den nächsten Termin bei Dr. Hörschläger schon notiert?"
+      },
+      {
+        "role": "user",
+        "timestamp": "21:55",
+        "text": "Steht schon auf dem Zettel am Kühlschrank. Die Wiebke kommt am Samstag, der zeig ich dann das ganze Album, sie hat als Kind schon immer die Tiermarken am liebsten angeschaut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird die Wiebke schauen, wenn sie die Enzianmarke sieht. Vielleicht findet sie auch ihre alten Lieblingsmarken wieder."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "21:58",
+      "text": "Jetzt trink ich noch einen Kräutertee und dann geh ich schlafen. Sag, soll ich die neue Marke gleich einstecken oder lieber ein paar Tage flach unter einem Buch liegen lassen? Sie ist ein bisschen gewellt."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Herlinde comes home from the stamp club's swap evening. The main error maps the Austrian word 'Stamperl' (a small shot glass) onto the similar-sounding standard word 'Stempel', which is especially tempting for STT in a stamp-collecting context; 'einen Stempel Nussschnaps' makes no sense, but the intended meaning is clear. The rare name Edelburga from memory is split into 'Edel Burger', and a later sentence is cut off mid-way. The companion responds to the plausible meaning each time.",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Stempel",
+        "type": "stt_dialect",
+        "primary": true
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "stt_errors_001",
+    "disturbances": 1,
+    "memory": "primed"
+  }
+}

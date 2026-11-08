@@ -1,0 +1,218 @@
+{
+  "id": "stt_errors_002_d1_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-08T01:17:21.686952+00:00"
+  },
+  "content_hash": "1e3f7bdfdaab32c1b89d057984b7fa612eb300da670af0ba71233f3c1604bf7f",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "stt_errors_002_d1_primed",
+    "set": "accumulation",
+    "condition": "stt_errors",
+    "dialect": "bairisch",
+    "relationship_phase": "Kennenlernen (Tag 1 bis 14)",
+    "days": 3,
+    "time_of_day": "Vormittag",
+    "weekday": "Mittwoch",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt mit dem Ehepartner, der oft außer Haus ist",
+    "history_turns": 12,
+    "health": "Asthma, Spray",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Cölestin",
+    "last_name": "Gangl",
+    "side_older": [
+      "Winfried",
+      "Christine",
+      "Heinrich"
+    ],
+    "side_younger": [
+      "Cedric",
+      "Larissa",
+      "Lino"
+    ],
+    "side_surnames": [
+      "Wiesner",
+      "Spindler"
+    ],
+    "former_job": "Gemeindebediensteter",
+    "interests": [
+      "Wallfahrten",
+      "Theaterverein"
+    ],
+    "occasion": "hat Post oder ein Paket bekommen",
+    "opening_style": "starts with a question to Mira",
+    "base_id": "stt_errors_002",
+    "factors": {
+      "disturbances": 1,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Cölestin Gangl",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Kennenlernen",
+        "days": 3
+      },
+      "time_of_day": "Mittwoch, 10:05",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Lino (Neffe)",
+          "text": "Ich hab das Gerät für meinen Onkel eingerichtet. Er redet gern über die Wallfahrten und den Theaterverein, da kann er stundenlang erzählen."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Cölestin war 35 Jahre Gemeindebediensteter am Gemeindeamt, zuletzt im Bauamt. Seit 2012 in Pension. Er ist mit Christine verheiratet."
+        },
+        {
+          "topic": "Haushalt",
+          "text": "Christine ist oft außer Haus, mittwochs hilft sie bis Mittag im Weltladen aus. Neffe Lino wohnt im Erdgeschoss desselben Hauses."
+        },
+        {
+          "topic": "Wallfahrten",
+          "text": "Geht jedes Jahr im September bei einer dreitägigen Fußwallfahrt nach Maria Kranzlbichl mit, die sein Freund Winfried organisiert."
+        },
+        {
+          "topic": "Theaterverein",
+          "text": "Spielt seit Jahrzehnten im Theaterverein, meist kleinere Rollen, und hilft beim Bühnenbau. Spielleiter ist Herr Spindler, der ihn öfter daheim besucht."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Asthma, hat sein Spray immer dabei. Hausarzt ist Dr. Wiesner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Montag, vor 2 Tagen",
+          "summary": "Erstes Gespräch. Cölestin hat sich vorgestellt und erzählt, dass er mit Christine verheiratet ist und lange am Gemeindeamt gearbeitet hat. Er wollte wissen, ob Mira auch Bairisch versteht, und hat gefragt, was sie alles kann. Cölestin schien stellenweise orientierungslos und fragte mehrmals dasselbe.",
+          "notes": [
+            "Erstes Gespräch",
+            "Verheiratet mit Christine",
+            "Früher am Gemeindeamt",
+            "Fragte, ob Mira Bairisch versteht",
+            "Cölestin fragte mehrmals dasselbe"
+          ]
+        },
+        {
+          "date": "Dienstag, vor 1 Tag",
+          "summary": "Cölestin hat von der Fußwallfahrt im September erzählt, die Winfried jedes Jahr organisiert. Er hat erwähnt, dass der Theaterverein im Winter wieder probt und Herr Spindler bald die Rollen verteilt.",
+          "notes": [
+            "Fußwallfahrt im September mit Winfried",
+            "Theaterverein probt im Winter",
+            "Herr Spindler verteilt bald die Rollen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "10:07",
+        "text": "Mira, wie bedankt man sich denn heut am gescheitesten für so ein Geschenk? Grad hat mir der Postler a Packerl gebracht, vom Winfried."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Packerl vom Winfried, das ist eine schöne Überraschung am Vormittag, Cölestin. Was hat er dir denn geschickt?"
+      },
+      {
+        "role": "user",
+        "timestamp": "10:09",
+        "text": "A Fotobuch von der Fußwallfahrt im September, alles selber zusammengestellt. Auf dem Gruppenfoto vor der Kirche steh ich ganz vorn, mit dem Hut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "So ein Fotobuch macht viel Arbeit, da hat er sich richtig Mühe gegeben. Und du ganz vorn mit Hut, das hätte ich gern gesehen."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:12",
+        "text": "Drei Tage sind wir gegangen bis nach Maria Kranzlbichl, und der Winfried hat sogar jeden Rastplatz dazugeschrieben. Mit meinem Asthma hab ich mich zuerst gar net getraut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Drei Tage zu Fuß, das ist eine ordentliche Strecke. Schön, dass du dich dann doch getraut hast."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:15",
+        "text": "Freilich, das Spray hab ich immer in der Jackentaschen gehabt. Heut Nachmittag kommt eh der Spender vom Theaterverein, dem zeig ich das Buch auch, der war ja den ersten Tag mitgegangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da wird er sich freuen, wenn er sich selber im Buch wiederfindet. Dann habt ihr heute Nachmittag einiges zu erzählen."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:19",
+        "text": "Des glaub ich auch. Die Christine ist bis Mittag im Weltladen, die hat's noch gar net gesehen. Die wird schauen, wie viel Bilder da drin sind."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du ihr zu Mittag gleich was zu zeigen. Vielleicht blättert ihr es nach dem Essen zusammen durch."
+      },
+      {
+        "role": "user",
+        "timestamp": "10:23",
+        "text": "Auf einem Bild sitz ich am Wegrand und zieh grad die Schuh aus, da haben mir die Haxen schon ordentlich wehgetan. Des hätt er fei net nehmen müssen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das gehört zu so einer Wallfahrt halt auch dazu. So ein Bild zeigt, dass ihr die Strecke wirklich gegangen seid."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "10:27",
+      "text": "Na gut, lassen wir's drin. Also, was meinst, schreib ich ihm a Karte oder ruf ich ihn am Abend an? Er ist net so einer, der gern lang telefoniert."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Cölestin talks about a photo book of the pilgrimage that his friend sent by post. The main error turns the surname of the theater club's director, Herr Spindler from memory, into the similar-sounding common word 'Spender'; 'der Spender vom Theaterverein' is grammatical but the visit and the club point to Spindler. Bavarian lenition of p to b produces 'Grubenfoto' for 'Gruppenfoto', and the dialect word 'Haxen' (legs) is mapped to 'Hexen'. The companion answers the plausible meaning each time.",
+    "disturbances": [
+      {
+        "turn_index": 6,
+        "span": "Spender",
+        "type": "stt_name",
+        "primary": true
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "stt_errors_002",
+    "disturbances": 1,
+    "memory": "primed"
+  }
+}

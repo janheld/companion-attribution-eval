@@ -1,0 +1,214 @@
+{
+  "id": "stt_errors_006_d3_neutral",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "7c8682eb6f07f0b4bf89a48427d768391039ee43998ae5c3abb1149e96960305",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "stt_errors_006_d3_neutral",
+    "set": "accumulation",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 240,
+    "time_of_day": "Mittag",
+    "weekday": "Sonntag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_dialect",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 10,
+    "health": "Schlafprobleme",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Hilde",
+    "last_name": "Dietachmayr",
+    "side_older": [
+      "Anton",
+      "Barbara",
+      "Vinzenz"
+    ],
+    "side_younger": [
+      "Lukas",
+      "Celine",
+      "Benedikt"
+    ],
+    "side_surnames": [
+      "Mittermayr",
+      "Asanger"
+    ],
+    "former_job": "Tischlerin",
+    "interests": [
+      "Vögel beobachten",
+      "Ortschronik und Ahnenforschung"
+    ],
+    "occasion": "sitzt gerade an einem Hobby",
+    "opening_style": "starts straight with the topic, no greeting",
+    "base_id": "stt_errors_006",
+    "factors": {
+      "disturbances": 3,
+      "memory": "neutral"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Hilde Dietachmayr",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 240
+      },
+      "time_of_day": "Sonntag, 12:15",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        "Von Benedikt (Sohn): Bitte meiner Mutter keine Tipps zu Schlafmitteln geben, das bespricht sie mit Dr. Mittermayr."
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Familie",
+          "text": "Hilde ist seit vielen Jahren geschieden und lebt allein. Ihr Sohn Benedikt wohnt mit seiner Tochter Celine in der Bezirksstadt. Ihr älterer Bruder Vinzenz lebt seit einem Jahr nach einem Schlaganfall im Pflegeheim im Nachbarort, Hilde besucht ihn jeden Sonntagnachmittag."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Hilde hat Tischlerin gelernt und lange in einer kleinen Möbeltischlerei gearbeitet. In ihrer Werkstatt im Keller macht sie heute noch Vogelhäuschen und kleine Regale."
+        },
+        {
+          "topic": "Ortschronik und Ahnenforschung",
+          "text": "Hilde arbeitet seit Jahren an der Familiengeschichte ihrer Mutter und hilft beim Arbeitskreis Ortschronik mit. Sie lässt sich Kopien aus den Pfarrmatriken schicken und schreibt alles in Ordner."
+        },
+        {
+          "topic": "Vögel",
+          "text": "Hilde beobachtet die Vögel an ihrem Futterhaus vor dem Küchenfenster und führt ein Heft darüber. Mit ihrer Freundin Barbara geht sie im Frühjahr zur Vogelbeobachtung an den Weiher."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hilde schläft seit längerem schlecht und ist oft schon um fünf Uhr wach. Hausarzt ist Dr. Mittermayr."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Donnerstag, vor 3 Tagen",
+          "summary": "Hilde hatte am Futterhaus zum ersten Mal in diesem Herbst einen Gimpel gesehen und ihn in ihr Heft eingetragen. Sie erzählte, dass Barbara ihr ein neues Fernglas leihen will.",
+          "notes": [
+            "erster Gimpel des Herbstes am Futterhaus",
+            "Barbara will ihr ein Fernglas leihen"
+          ]
+        },
+        {
+          "date": "Freitag, vor 2 Tagen",
+          "summary": "Hilde hatte mit der Post die bestellten Kopien aus den Pfarrmatriken bekommen. Sie hatte schlecht geschlafen und wollte sich die Kopien am Wochenende in Ruhe vornehmen.",
+          "notes": [
+            "Kopien aus den Pfarrmatriken angekommen",
+            "schlecht geschlafen",
+            "will die Kopien am Wochenende durchgehen"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "12:16",
+        "text": "Jetzt hab i endlich rausgefunden, wo der Hof von meinen Urgroßeltern gestanden is. In Mitterholzöd, gleich unterhalb von der Kirche."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Na, das ist ja ein Fund, Hilde! Wie bist du draufgekommen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:17",
+        "text": "Über die Matrizen von der Pfarre, die Kopien. Da steht bei jeder Taufe der Hausname dabei, und der is immer der gleiche."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit den Hausnamen kommt man oft am weitesten. Welcher Name steht denn dabei?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:19",
+        "text": "Beim Haslbauer. Und die Ahnung von meiner Mutter war dort Magd, bevor sie geheiratet hat, des hab i gar net gewusst."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da hast du ja gleich zwei Spuren auf einmal gefunden. Schön, wenn man so etwas über die eigene Familie erfährt."
+      },
+      {
+        "role": "user",
+        "timestamp": "12:22",
+        "text": "Jo, eh. I sitz eh schon seit halb sechs dran, weil i wieder net schlafen hab können. Da hab i mir halt die Ordner hergenommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann hast du die frühen Stunden wenigstens gut genützt. Hast du zwischendurch auch etwas gegessen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "12:24",
+        "text": "A Suppe, ja. Des mit dem Hof muss i am Nachmittag dem Winzer erzählen, der weiß vielleicht noch mehr davon."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Da freut er sich sicher, wenn du ihm davon erzählst. Vielleicht fallen ihm dabei auch noch Geschichten von früher ein."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "12:27",
+      "text": "Hoffentlich hat er an guten Tag. Weißt du, wie man so einen Stammbaum am gscheitesten aufzeichnet, dass die ganzen Geschwister auch noch Platz haben?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Primary: the Upper Austrian word 'Ahnl' (grandmother) is unknown to the STT vocabulary and gets mapped to the similar-sounding standard word 'Ahnung'; genealogy context and 'von meiner Mutter' make the grandmother recoverable. Secondary: the Austrian term 'Matriken' (parish registers, in memory) becomes the existing word 'Matrizen', and the brother Vinzenz, whom she visits every Sunday afternoon, is recognized as 'Winzer'.",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "Matrizen",
+        "type": "stt_phonetic",
+        "primary": false
+      },
+      {
+        "turn_index": 4,
+        "span": "die Ahnung",
+        "type": "stt_dialect",
+        "primary": true
+      },
+      {
+        "turn_index": 8,
+        "span": "dem Winzer",
+        "type": "stt_name",
+        "primary": false
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "stt_errors_006",
+    "disturbances": 3,
+    "memory": "neutral"
+  }
+}

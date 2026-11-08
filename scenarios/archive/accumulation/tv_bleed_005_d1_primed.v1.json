@@ -1,0 +1,206 @@
+{
+  "id": "tv_bleed_005_d1_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "draft",
+  "review": {
+    "comment": "",
+    "reviewed_at": null
+  },
+  "content_hash": "c839ddc69a6a2e844ce54b069419e992cba43eee6bb18651bc08715e2b14deb6",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "tv_bleed_005_d1_primed",
+    "set": "accumulation",
+    "condition": "tv_bleed",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut (ab Tag 91)",
+    "days": 184,
+    "time_of_day": "früher Morgen",
+    "weekday": "Donnerstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "radio",
+    "contact_type": null,
+    "household": "lebt allein, Tochter wohnt im selben Ort",
+    "history_turns": 10,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Neffe, wohnt im selben Haus",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Robert",
+    "last_name": "Ortmayr",
+    "side_older": [
+      "Liselotte",
+      "Harald",
+      "Elma"
+    ],
+    "side_younger": [
+      "Judith",
+      "Wolfgang",
+      "Anna"
+    ],
+    "side_surnames": [
+      "Mairinger",
+      "Rammerstorfer"
+    ],
+    "former_job": "Bäcker",
+    "interests": [
+      "Enkelkinder",
+      "Häkeln und Sticken"
+    ],
+    "occasion": "schaut in den Garten oder aufs Wetter hinaus",
+    "opening_style": "starts with a question to Mira",
+    "base_id": "tv_bleed_005",
+    "factors": {
+      "disturbances": 1,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Robert Ortmayr",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut",
+        "days": 184
+      },
+      "time_of_day": "Donnerstag, 06:02",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Judith (Tochter)",
+          "text": "Papa steht noch immer jeden Tag um fünf auf, das hat er aus der Backstube. Wenn er von der Hüfte erzählt, gern fragen, ob er seine Übungen von der Physiotherapie macht."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Robert war über vierzig Jahre Bäcker, die letzten zwanzig Jahre mit eigener Backstube im Ort. Seit 2009 in Pension. Seine Frau Liselotte ist vor sechs Jahren gestorben."
+        },
+        {
+          "topic": "Familie",
+          "text": "Tochter Judith wohnt im selben Ort, ein paar Straßen weiter. Ihre Tochter Anna ist neun und kommt donnerstags nach der Schule zu Robert. Neffe Wolfgang wohnt im ersten Stock desselben Hauses und fährt unter der Woche kurz nach sechs in die Arbeit."
+        },
+        {
+          "topic": "Handarbeit",
+          "text": "Hat nach Liselottes Tod mit ihrem Nähkorb angefangen zu häkeln und zu sticken. Häkelt Hauben und Topflappen für die Familie und stickt Monogramme auf Geschirrtücher."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hüftprothese links seit zwei Jahren, kommt gut zurecht. Auf nassem oder rutschigem Boden ist er vorsichtig. Hausarzt ist Dr. Mairinger."
+        },
+        {
+          "topic": "Garten und Nachbarn",
+          "text": "Kleiner Garten hinter dem Haus mit Rosen, die Liselotte gesetzt hat. Der Nachbar Herr Rammerstorfer hilft gern mit Werkzeug und Material aus. In der Früh läuft bei Robert meistens das Radio."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Dienstag, vor 2 Tagen",
+          "summary": "Robert hat erzählt, dass er für Anna eine Haube häkelt, dunkelblau mit weißem Rand. Er war noch unschlüssig, mit welcher Masche er den Rand abschließen soll, damit er nicht ausleiert.",
+          "notes": [
+            "Häkelt Haube für Anna, dunkelblau mit weißem Rand",
+            "Überlegt, wie er den Rand abschließt"
+          ]
+        },
+        {
+          "date": "Sonntag, vor 4 Tagen",
+          "summary": "Robert war mit Judith und Anna im Gasthaus beim Mittagessen. Er hat erzählt, dass Wolfgang ihm die Gartenbank in den Schuppen geräumt hat. Bei den Rosen wollte er mit dem Einpacken warten, bis es den ersten Reif gibt. Er wirkte beim Erzählen unsicher und verlor ein paar Mal den Faden.",
+          "notes": [
+            "Mittagessen mit Judith und Anna im Gasthaus",
+            "Wolfgang hat die Gartenbank weggeräumt",
+            "Rosen erst nach dem ersten Reif einpacken",
+            "verlor zeitweise den Faden"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "06:04",
+        "text": "Mira, wann soll man denn eigentlich die Rosen einpacken? Draußen ist die Wiese heut ganz weiß, des erste Mal heuer."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Der erste Reif, dann ist es jetzt so weit, Robert. Meistens häufelt man die Rosen unten mit Erde an und legt Reisig drüber, sobald der Frost öfter kommt. Hast du Reisig da?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:07",
+        "text": "Reisig hat der Rammerstorfer genug, der hat im Oktober seine Fichten ausgeschnitten. Die Rosen hat ja noch die Liselotte gesetzt, auf die schau i besonders."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann frag den Herrn Rammerstorfer, ob du ein paar Äste haben kannst. Schön, dass die Rosen von der Liselotte noch so gut dastehen."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:12",
+        "text": "Heut Nachmittag kommt die Anna nach der Schule, der hab ich jetzt die Haube fertig gehäkelt, die kriegt sie, wo's eh so kalt wird. Und für alle, die jetzt schon in der Küche stehen, gibt's gleich einen flotten Marsch, bevor um halb sieben die Nachrichten kommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann ist die Haube genau rechtzeitig fertig geworden, da wird sich die Anna freuen. Wie hast du den Rand jetzt gemacht?"
+      },
+      {
+        "role": "user",
+        "timestamp": "06:15",
+        "text": "Mit Krebsmaschen in Weiß, des hält schön. Jetzt mach ich mir zuerst einen Kaffee, in der Backstube wär ich um die Zeit schon drei Stunden gestanden."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Drei Stunden um diese Zeit, das glaub ich dir. Da schmeckt der Kaffee heute sicher gemütlicher."
+      },
+      {
+        "role": "user",
+        "timestamp": "06:20",
+        "text": "Freilich. Das Reisig hol ich mir am Vormittag, wenn's aufgetaut ist, mit der Hüfte geh ich bei Reif net gern übers Gras."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist vernünftig, wenn das Gras abgetrocknet ist, rutscht es nicht so. Dann kannst du die Rosen gleich in einem Aufwasch einpacken."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "06:24",
+      "text": "Und wie hoch soll ich die Erde anhäufeln, so eine Handbreit? Des hat immer die Liselotte gemacht, i hab nur zugeschaut."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Early on a Thursday the radio runs in the kitchen, as memory notes. The main fragment is a morning-show host announcing a march before the half-past-six news, merged into Robert's turn about his granddaughter's hat; its presenter register addressing 'alle' marks it as broadcast. The nephew, who leaves for work shortly after six, calls 'Onkel' through the door, and a radio tire ad follows Robert's remark about his hip. The companion's turns answer only Robert's own content.",
+    "disturbances": [
+      {
+        "turn_index": 4,
+        "span": "Und für alle, die jetzt schon in der Küche stehen, gibt's gleich einen flotten Marsch, bevor um halb sieben die Nachrichten kommen.",
+        "type": "radio",
+        "primary": true
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "tv_bleed_005",
+    "disturbances": 1,
+    "memory": "primed"
+  }
+}

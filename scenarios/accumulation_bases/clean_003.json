@@ -1,0 +1,141 @@
+{
+ "content": {
+  "user_context": {
+   "name": "Landolin Mairhofer",
+   "address_form": "du",
+   "dialect": "oberösterreichisch",
+   "relationship_phase": {
+    "phase": "Kennenlernen",
+    "days": 5
+   },
+   "time_of_day": "Freitag, 06:15",
+   "last_conversation_note": "",
+   "caregiver_notes": [],
+   "knowledge_blocks": [
+    {
+     "topic": "Person",
+     "text": "Landolin Mairhofer, 76, lebt mit seiner Frau Trude im eigenen Haus im Ort. Trude ist viel unterwegs: freitags früh hilft sie im Sozialmarkt beim Einräumen, dazu Seniorenturnen und Pfarrcafé."
+    },
+    {
+     "topic": "Beruf",
+     "text": "War dreißig Jahre Linienbusfahrer im Bezirk, seit 2011 in Pension."
+    },
+    {
+     "topic": "Gemeindepolitik",
+     "text": "Verfolgt die Gemeindepolitik genau, liest jedes Gemeindeblatt und geht zu öffentlichen Sitzungen und Versammlungen."
+    },
+    {
+     "topic": "Stockschießen",
+     "text": "Ist seit vielen Jahren Stockschütze im örtlichen Verein und spielt mit seinem Freund Leo in einer Moarschaft."
+    },
+    {
+     "topic": "Gesundheit",
+     "text": "Ist im Februar auf Glatteis gestürzt und hat sich die rechte Schulter verletzt. Geht seither einmal pro Woche zur Physiotherapie, derzeit freitags um neun."
+    },
+    {
+     "topic": "Familie",
+     "text": "Seine Nichte Ronja erledigt für ihn und Trude Behördensachen und Formulare."
+    }
+   ],
+   "recent_sessions": [
+    {
+     "date": "Mittwoch, vor 2 Tagen",
+     "summary": "Landolin erzählte, dass die Gemeinde die Buslinie über den Ortsteil Moosgrabenöd einstellen will und am Freitagabend eine Bürgerversammlung dazu im Gemeindesaal stattfindet. Seine Nichte Ronja hat ihm geholfen, vorab eine schriftliche Frage einzureichen.",
+     "notes": [
+      "Bürgerversammlung zum Busfahrplan am Freitagabend",
+      "Ronja half bei der schriftlichen Frage",
+      "ist gegen die Einstellung der Linie"
+     ]
+    },
+    {
+     "date": "Montag, vor 4 Tagen",
+     "summary": "Erstes Gespräch. Landolin stellte sich vor, erzählte von seinen Jahren als Busfahrer und von seinem Sturz im Winter. Er vermisst das Stockschießen mit Leo.",
+     "notes": [
+      "erstes Gespräch",
+      "früher Busfahrer",
+      "Schulterverletzung nach Sturz im Februar",
+      "vermisst das Stockschießen"
+     ]
+    }
+   ]
+  },
+  "history": [
+   {
+    "role": "user",
+    "timestamp": "06:16",
+    "text": "I streich mir grad a Butterbrot, mit der linken Hand, weil die rechte Schulter in der Früh noch so steif ist. Des dauert halt."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Lass dir ruhig Zeit damit, Landolin. Ist die Trude schon aus dem Haus?"
+   },
+   {
+    "role": "user",
+    "timestamp": "06:17",
+    "text": "Jo, die ist schon um sechs weg. Beim Sozialmarkt kommt um sieben die Lieferung, und vorher müssen's die Regale herrichten."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Da ist sie ja richtig früh auf den Beinen. Was hast du dir für heute vorgenommen?"
+   },
+   {
+    "role": "user",
+    "timestamp": "06:19",
+    "text": "Um neun hab i Therapie für die Schulter, und am Abend ist im Gemeindesaal die Versammlung wegen dem Busfahrplan. Da geh i auf alle Fälle hin."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Das interessiert dich als ehemaligen Busfahrer sicher besonders. Worum geht es denn genau?"
+   },
+   {
+    "role": "user",
+    "timestamp": "06:21",
+    "text": "Die wollen die Linie über Moosgrabenöd einstellen, weil angeblich zu wenig Leut fahren. Aber da droben wohnen lauter Ältere, die haben kein Auto mehr."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Für die Leute dort wäre das hart, wenn der Bus wegfällt. Willst du dich bei der Versammlung selbst zu Wort melden?"
+   },
+   {
+    "role": "user",
+    "timestamp": "06:23",
+    "text": "Des hab i vor. Die Ronja hat mir geholfen, dass i die Frage schriftlich einreich, weil die Gemeinde will die vorher haben. Die kennt sich mit dem Papierkram aus."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Schön, dass deine Nichte dir da hilft. Dann bist du am Abend gut vorbereitet."
+   },
+   {
+    "role": "user",
+    "timestamp": "06:25",
+    "text": "Zwanzig Jahr bin i die Strecke gefahren, i weiß genau, wer da in der Früh einsteigt. Die Schülerin, die Frau mit dem Dialysetermin, der alte Bauer zum Arzt. Des sag i denen."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Genau diese Erfahrung zählt bei so einer Entscheidung. Wer die Fahrgäste kennt, kann am besten sagen, was der Bus für sie bedeutet."
+   }
+  ],
+  "final_user_turn": {
+   "timestamp": "06:28",
+   "text": "Und zwischen der Therapie und dem Abend, was tät i da am gscheitesten machen? Die Trude kommt erst am Nachmittag heim, und zum Stockschießen geht's mit der Schulter noch net."
+  }
+ },
+ "annotation": {
+  "disturbance_position": "none",
+  "disturbances": [],
+  "contact_type": null,
+  "unavailable_action_request": false,
+  "rationale": "Clean early-morning breakfast conversation in the getting-to-know phase: a retired bus driver with a stiff shoulder plans his Friday around physiotherapy and an evening town meeting about cutting a bus line he used to drive, and asks for ideas for the free hours in between. Typical day planning with local-politics interest, coherent throughout."
+ },
+ "primed": {
+  "session_index": 1,
+  "summary_sentence": "Landolin wirkte im Gespräch etwas orientierungslos und stellte mehrmals dieselben Fragen.",
+  "note": "Landolin stellte mehrmals dieselben Fragen"
+ }
+}

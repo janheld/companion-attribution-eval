@@ -1,0 +1,224 @@
+{
+  "id": "tv_bleed_006_d3_neutral",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "tv_bleed",
+  "version": 1,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-08T01:17:22.051795+00:00"
+  },
+  "content_hash": "f8ff755027f1063e55615dda8803ae3413b41e15f32a914d744f1a9524aa56c5",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "tv_bleed_006_d3_neutral",
+    "set": "accumulation",
+    "condition": "tv_bleed",
+    "dialect": "bairisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 47,
+    "time_of_day": "Nachmittag",
+    "weekday": "Montag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "traffic",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Asthma, Spray",
+    "relatives": "Patenkind, schreibt Karten",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Erna",
+    "last_name": "Rockenschaub",
+    "side_older": [
+      "Ulf",
+      "Lisbeth",
+      "Theodor"
+    ],
+    "side_younger": [
+      "Marcel",
+      "Chiara",
+      "Sebastian"
+    ],
+    "side_surnames": [
+      "Ebetshuber",
+      "Schwaiger"
+    ],
+    "former_job": "Pfarrsekretärin",
+    "interests": [
+      "Stricken",
+      "Musikverein"
+    ],
+    "occasion": "plant ein Fest, einen Geburtstag oder einen Ausflug",
+    "opening_style": "picks up something from the last conversation",
+    "base_id": "tv_bleed_006",
+    "factors": {
+      "disturbances": 3,
+      "memory": "neutral"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Erna Rockenschaub",
+      "address_form": "du",
+      "dialect": "bairisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 47
+      },
+      "time_of_day": "Montag, 15:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Lebenslauf",
+          "text": "Erna war 31 Jahre Pfarrsekretärin im Pfarrbüro des Ortes, seit 2015 in Pension. Sie ist seit vielen Jahren geschieden und hat keine Kinder."
+        },
+        {
+          "topic": "Musikverein",
+          "text": "Schriftführerin im Musikverein. Früher hat sie Klarinette gespielt, wegen des Asthmas spielt sie nicht mehr. Kapellmeister ist ihr langjähriger Bekannter Theodor, Obmann ist Herr Schwaiger. Probe ist mittwochs um halb acht am Abend."
+        },
+        {
+          "topic": "Freundinnen und Patenkind",
+          "text": "Beste Freundin ist Lisbeth, die zwei Straßen weiter wohnt. Ernas Patenkind Chiara lebt in einer Großstadt weit weg und schreibt ihr jeden Monat eine Karte."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Asthma, nimmt täglich ein Spray. Bei kalter Luft wird es manchmal enger. Hausärztin ist Dr. Ebetshuber."
+        },
+        {
+          "topic": "Alltag",
+          "text": "Strickt viel, meistens Socken und Schals für den Weihnachtsbasar. Am Nachmittag läuft oft der Fernseher, während sie strickt."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Freitag, vor 3 Tagen",
+          "summary": "Erna hat erzählt, dass ihre Freundin Lisbeth am Sonntag kommender Woche achtzig wird. Sie möchte sie mit einem Ständchen vom Musikverein überraschen und wollte dazu Theodor fragen. Danach will sie die Gäste zu sich auf Kaffee und Kuchen einladen.",
+          "notes": [
+            "Lisbeth wird achtzig",
+            "Plant Überraschungsständchen mit dem Musikverein",
+            "Will Theodor fragen",
+            "Kaffee und Kuchen danach bei Erna"
+          ]
+        },
+        {
+          "date": "Mittwoch, vor 5 Tagen",
+          "summary": "Erna war am Vormittag bei Dr. Ebetshuber zur Kontrolle, das Spray bleibt wie bisher. Für die Probe am Abend hat sie die neuen Noten kopiert und sortiert. Sie strickt gerade Socken für den Weihnachtsbasar.",
+          "notes": [
+            "Kontrolle bei Dr. Ebetshuber, Spray bleibt gleich",
+            "Noten für die Probe kopiert",
+            "Strickt Socken für den Basar"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:12",
+        "text": "Den Theodor hab ich jetzt erreicht, wegen dem Ständchen für die Lisbeth. Vier Leut bringt er mit, hat er gesagt, zwei Trompeten, a Tuba und er selber mit dem Flügelhorn."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das ist ja schön, Erna, dann wird es ein richtiges Ständchen. Weiß die Lisbeth noch nichts davon?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:15",
+        "text": "Nix weiß sie, und des soll fei auch so bleiben. Nach der Messe am Sonntag stellen wir uns vor ihr Haus, so um halb elf. In der Nacht klart es auf, verbreitet Bodenfrost, am Dienstag dann meist sonnig bei Höchstwerten um sieben Grad."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Halb elf nach der Messe passt gut, da ist sie sicher daheim. Und danach geht ihr alle zu dir auf einen Kaffee?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:19",
+        "text": "Freilich, zu mir, des ist ja nur ums Eck. Da brauch ich halt Kuchen für gut zehn Leut. Reicht da ein Blech Bienenstich, oder mach ich noch einen Marmorkuchen dazu?"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ein Blech gibt meistens zwanzig Stück oder mehr, das reicht für zehn Leute gut. Ein Marmorkuchen dazu wäre trotzdem fein, falls jemand keine Creme mag, und er hält sich ein paar Tage."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:24",
+        "text": "Dann mach ich beides, den Marmorkuchen kann ich schon am Samstag backen. Die Chiara hat mir übrigens geschrieben, sie kommt vielleicht auch. Wegen einer Ölspur ist die Staatsstraße zwischen Hinterfelsried und Zwirnsöd derzeit nur einspurig befahrbar, bitte fahren Sie dort vorsichtig."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das wäre schön, wenn die Chiara auch dabei ist. Kennt sie die Lisbeth eigentlich?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:29",
+        "text": "Jo mei, freilich, die Lisbeth war ja bei der Taufe dabei. Die Chiara schreibt mir jedes Monat a Karterl, des ist heut selten bei den Jungen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das stimmt, jeden Monat eine Karte ist etwas Besonderes. Die hebst du sicher alle auf."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:34",
+        "text": "Alle in einer Schachtel im Stubenkastl. Jetzt muss ich noch schauen, wer vom Verein alles kommt, der Schwaiger ist sich noch net sicher. Ich will, dass Sie auf der Stelle mein Haus verlassen, und kommen Sie mir nie wieder unter die Augen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dann frag den Herrn Schwaiger am besten bei der Probe am Mittwoch, dann weißt du, wie viele Tassen du brauchst."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:38",
+      "text": "Tassen hab ich genug, vom Pfarrbüro hab ich noch a ganze Kiste. Aber was schreib ich der Lisbeth auf die Karte, zum Achtzigsten? Ich mag net immer des Gleiche schreiben."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "On a Monday afternoon the TV runs while Erna plans a surprise serenade for her friend's 80th birthday, as memory says it often does. The main fragment is a traffic notice about an oil spill on a road between two places, merged right after Erna says her goddaughter might come; the formal 'Sie' address and road-report phrasing mark it as broadcast. A weather forecast and a line from a TV drama in formal register enter other turns. The companion answers only the planning content.",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "In der Nacht klart es auf, verbreitet Bodenfrost, am Dienstag dann meist sonnig bei Höchstwerten um sieben Grad.",
+        "type": "weather",
+        "primary": false
+      },
+      {
+        "turn_index": 6,
+        "span": "Wegen einer Ölspur ist die Staatsstraße zwischen Hinterfelsried und Zwirnsöd derzeit nur einspurig befahrbar, bitte fahren Sie dort vorsichtig.",
+        "type": "traffic",
+        "primary": true
+      },
+      {
+        "turn_index": 10,
+        "span": "Ich will, dass Sie auf der Stelle mein Haus verlassen, und kommen Sie mir nie wieder unter die Augen.",
+        "type": "tv_film",
+        "primary": false
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "tv_bleed_006",
+    "disturbances": 3,
+    "memory": "neutral"
+  }
+}

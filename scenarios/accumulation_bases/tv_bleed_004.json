@@ -1,0 +1,162 @@
+{
+ "content": {
+  "user_context": {
+   "name": "Rosa Naderer",
+   "address_form": "du",
+   "dialect": "none",
+   "relationship_phase": {
+    "phase": "Vertraut werden",
+    "days": 31
+   },
+   "time_of_day": "Dienstag, 17:34",
+   "last_conversation_note": "",
+   "caregiver_notes": [
+    {
+     "author": "Beatrix (Nichte)",
+     "text": "Tante Rosa hat eine Herzrhythmusstörung und geht regelmäßig zur Kontrolle bei Dr. Wöhrer. Fragen zu ihren Tabletten bitte immer an die Ärztin verweisen."
+    }
+   ],
+   "knowledge_blocks": [
+    {
+     "topic": "Lebenslauf",
+     "text": "Rosa war 36 Jahre Hauptschullehrerin für Deutsch und Bildnerische Erziehung. Sie ist seit 2005 in Pension, war nie verheiratet und lebt allein in ihrer Wohnung."
+    },
+    {
+     "topic": "Familie",
+     "text": "Nichte Beatrix kümmert sich um Behördensachen und Formulare und schaut etwa alle zwei Wochen vorbei."
+    },
+    {
+     "topic": "Aquarellmalen",
+     "text": "Malt Landschaften und Bäume in Aquarell, meist am Küchentisch. Malt für den Kalender des Seniorenbunds, den ihre Freundin Eugenie organisiert."
+    },
+    {
+     "topic": "Ziehharmonika",
+     "text": "Spielt Ziehharmonika in einer kleinen Musikrunde mit Norbert, die bei Feiern im Seniorenbund aufspielt."
+    },
+    {
+     "topic": "Gesundheit",
+     "text": "Herzrhythmusstörung, Kontrolle bei der Kardiologin Dr. Wöhrer etwa alle drei Monate."
+    }
+   ],
+   "recent_sessions": [
+    {
+     "date": "Sonntag, vor 2 Tagen",
+     "summary": "Rosa hat erzählt, dass Eugenie zwölf Aquarelle für den Kalender des Seniorenbunds braucht. Sie hat mit einem Bild der Kastanienallee beim Friedhof angefangen und überlegt, welche Motive zu den Wintermonaten passen.",
+     "notes": [
+      "Malt zwölf Blätter für den Seniorenbund-Kalender",
+      "Begonnen: Kastanienallee beim Friedhof",
+      "Sucht Motive für die Wintermonate"
+     ]
+    },
+    {
+     "date": "Freitag, vor 4 Tagen",
+     "summary": "Beatrix war zu Besuch und hat Rosa beim Antrag für einen neuen Reisepass geholfen. Danach haben die beiden zusammen Kaffee getrunken, und Rosa hat ihr auf der Ziehharmonika ein neues Stück vorgespielt.",
+     "notes": [
+      "Antrag für neuen Reisepass mit Beatrix",
+      "Neues Stück auf der Ziehharmonika geübt"
+     ]
+    }
+   ]
+  },
+  "history": [
+   {
+    "role": "user",
+    "timestamp": "17:36",
+    "text": "Hallo Mira. Sag, wie bekomme ich Aquarellfarbe aus einem Leinentischtuch heraus? Mir ist das Wasserglas umgekippt, und jetzt ist da ein blauer Rand drauf."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Hallo Rosa, so etwas ärgert einen. Solange der Fleck frisch ist, hilft meistens zuerst kaltes Wasser, von der Rückseite durchgespült und nicht gerieben. Ist er noch nass?"
+   },
+   {
+    "role": "user",
+    "timestamp": "17:38",
+    "text": "Halb. Ich hab das Tuch gleich ins Waschbecken gelegt. Es ist das Tischtuch von meiner Mutter, mit der Hohlsaumkante Für die neue Ausstellung im Schlossmuseum Tannfeldegg haben sich bereits über tausend Besucher angemeldet, geöffnet ist bis Ende Jänner."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Dann ist es gut, dass du so schnell warst. Spül es ruhig noch eine Weile kalt durch, bis kaum mehr Farbe herauskommt. Danach kannst du etwas Gallseife auf den Rand reiben und einwirken lassen."
+   },
+   {
+    "role": "user",
+    "timestamp": "17:43",
+    "text": "Gallseife hab ich, irgendwo unter der Spüle. Es war Ultramarin, das geht hoffentlich leichter raus als manches andere Blau."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Ultramarin lässt sich meistens recht gut auswaschen, ganz sicher weiß man es aber erst nach dem Waschen. Was hast du denn gerade gemalt?"
+   },
+   {
+    "role": "user",
+    "timestamp": "17:47",
+    "text": "Die Kastanienallee beim Friedhof, für den Kalender. Die Eugenie will zwölf Blätter von mir, und ich hab erst drei Du hast mir versprochen, dass du es ihm heute sagst, und jetzt steht er schon unten vor der Tür."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Drei von zwölf ist doch schon ein guter Anfang. Bis wann braucht die Eugenie die Blätter?"
+   },
+   {
+    "role": "user",
+    "timestamp": "17:52",
+    "text": "Bis Mitte Dezember, dann geht der Kalender in die Druckerei. Die Gallseife ist jetzt drauf, ich hab sie mit einer alten Zahnbürste ganz vorsichtig eingearbeitet."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Dann lass sie ruhig eine Viertelstunde einwirken. Danach noch einmal gut ausspülen und schauen, ob der Rand schon blasser ist."
+   },
+   {
+    "role": "user",
+    "timestamp": "18:05",
+    "text": "Ist schon viel besser, man sieht nur mehr einen hellen Schatten, wenn man genau hinschaut. Ich häng es jetzt im Bad auf In der Nacht auf Mittwoch kommt von Westen Regen auf, die Schneefallgrenze sinkt gegen Morgen auf tausend Meter."
+   },
+   {
+    "role": "assistant",
+    "timestamp": "",
+    "text": "Ein heller Schatten ist schon ein schöner Erfolg. Beim nächsten Waschen geht der vielleicht ganz heraus."
+   }
+  ],
+  "final_user_turn": {
+   "timestamp": "18:08",
+   "text": "Hoffentlich. Am Donnerstag hab ich die Kontrolle bei der Dr. Wöhrer, bis dahin will ich noch ein Blatt fertig malen. Kann ich das Tischtuch bügeln, solange es noch feucht ist, oder setzt sich der Rest dann fest?"
+  }
+ },
+ "annotation": {
+  "disturbance_position": "history",
+  "disturbances": [
+   {
+    "turn_index": 2,
+    "span": "Für die neue Ausstellung im Schlossmuseum Tannfeldegg haben sich bereits über tausend Besucher angemeldet, geöffnet ist bis Ende Jänner.",
+    "type": "tv_news",
+    "primary": false,
+    "replacement": "."
+   },
+   {
+    "turn_index": 6,
+    "span": "Du hast mir versprochen, dass du es ihm heute sagst, und jetzt steht er schon unten vor der Tür.",
+    "type": "tv_film",
+    "primary": true,
+    "replacement": "."
+   },
+   {
+    "turn_index": 10,
+    "span": "In der Nacht auf Mittwoch kommt von Westen Regen auf, die Schneefallgrenze sinkt gegen Morgen auf tausend Meter.",
+    "type": "weather",
+    "primary": false,
+    "replacement": "."
+   }
+  ],
+  "contact_type": null,
+  "unavailable_action_request": false,
+  "rationale": "Rosa, who lives alone, asks how to remove a watercolour stain from her mother's linen tablecloth during the early-evening TV programme. A line of dialogue from a series (an accusing 'du' addressed to someone about a third person at the door), a culture news item and a weather forecast are merged into three of her turns. None fits her situation or register, her own parts stay coherent, and the companion only answers the stain and calendar topics."
+ },
+ "primed": {
+  "session_index": 1,
+  "summary_sentence": "Mehrmals wusste Rosa nicht mehr, worüber sie gerade gesprochen hatte.",
+  "note": "Rosa wusste zeitweise nicht mehr, worüber sie sprach"
+ }
+}

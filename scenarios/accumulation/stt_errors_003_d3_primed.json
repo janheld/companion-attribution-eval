@@ -1,0 +1,229 @@
+{
+  "id": "stt_errors_003_d3_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "stt_errors",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-08T01:17:21.747914+00:00"
+  },
+  "content_hash": "d63aa963266d8315e9a986898db73910791950980e4e1bf8fc3d2a44914f73fb",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "stt_errors_003_d3_primed",
+    "set": "accumulation",
+    "condition": "stt_errors",
+    "dialect": "oberösterreichisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 44,
+    "time_of_day": "Nachmittag",
+    "weekday": "Samstag",
+    "disturbance_position": "history",
+    "main_disturbance_type": "stt_name",
+    "contact_type": null,
+    "household": "lebt allein, geschieden",
+    "history_turns": 12,
+    "health": "Hüftprothese seit zwei Jahren",
+    "relatives": "Schwiegertochter, hilft beim Einkaufen",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "male",
+    "first_name": "Siegmund",
+    "last_name": "Hackl",
+    "side_older": [
+      "Agathe",
+      "Tassilo",
+      "Karoline"
+    ],
+    "side_younger": [
+      "Claudia",
+      "Torben",
+      "Gabriele"
+    ],
+    "side_surnames": [
+      "Gruber",
+      "Gschwendtner"
+    ],
+    "former_job": "Maurer",
+    "interests": [
+      "Nähen",
+      "Fotografieren"
+    ],
+    "occasion": "gerade vom Einkaufen oder vom Markt zurück",
+    "opening_style": "starts with a remark about how the person feels or what just went wrong",
+    "base_id": "stt_errors_003",
+    "factors": {
+      "disturbances": 3,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Siegmund Hackl",
+      "address_form": "du",
+      "dialect": "oberösterreichisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 44
+      },
+      "time_of_day": "Samstag, 15:40",
+      "last_conversation_note": "",
+      "caregiver_notes": [
+        {
+          "author": "Claudia (Schwiegertochter)",
+          "text": "Siegmund soll wegen der Hüfte keine schweren Taschen tragen. Bitte nicht zum Schleppen ermutigen, ich trag ihm die Sachen eh immer hinein."
+        }
+      ],
+      "knowledge_blocks": [
+        {
+          "topic": "Wohnen und Familie",
+          "text": "Siegmund ist seit über zwanzig Jahren geschieden und lebt allein in einem kleinen Haus am Ortsrand von Kogelsbrunn. Sein Sohn Torben wohnt mit seiner Frau Claudia und der zwölfjährigen Tochter Gabriele im Nachbarort. Claudia fährt meistens am Wochenende mit ihm einkaufen."
+        },
+        {
+          "topic": "Beruf",
+          "text": "Siegmund war fast vierzig Jahre Maurer bei einer Baufirma in der Bezirksstadt. Er hat viele Häuser in der Gegend mitgebaut und erzählt gern davon."
+        },
+        {
+          "topic": "Nähen",
+          "text": "Nach der Scheidung hat Siegmund nähen gelernt, auf der alten Nähmaschine seiner Mutter. Er flickt Arbeitshosen für Torben, näht Vorhänge und zuletzt Kissenbezüge für Gabriele."
+        },
+        {
+          "topic": "Fotografieren",
+          "text": "Siegmund fotografiert gern alte Bauernhäuser, Bildstöcke und Wegkreuze in der Umgebung. Sein Freund Tassilo, mit dem er früher am Bau gearbeitet hat, fotografiert auch und sie tauschen ihre Bilder aus."
+        },
+        {
+          "topic": "Gesundheit und Alltag",
+          "text": "Siegmund hat seit zwei Jahren eine Hüftprothese links. Gehen geht gut, langes Stehen und steile Wege mag die Hüfte nicht. Er geht fast täglich eine Runde um den Fischteich hinter seinem Haus. Hausarzt ist Dr. Gruber, Nachbar ist Herr Gschwendtner."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Mittwoch, vor 3 Tagen",
+          "summary": "Siegmund erzählte von den Kissenbezügen für Gabriele aus einem Stoff mit Sonnenblumen. Die Nähmaschine hatte beim dicken Stoff gestreikt, nach einem Nadelwechsel ging es wieder. Er war stolz, dass die Bezüge fertig sind. Siegmund wirkte an diesem Tag fahrig und verlor beim Erzählen mehrmals den Faden.",
+          "notes": [
+            "Kissenbezüge für Gabriele fertig genäht",
+            "Nähmaschine brauchte eine neue Nadel",
+            "Stoff mit Sonnenblumenmuster",
+            "Siegmund wirkte fahrig und verlor den Faden"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 2 Tagen",
+          "summary": "Siegmund war zur Kontrolle bei Dr. Gruber. Die Hüfte ist in Ordnung, er soll weiter regelmäßig gehen und seine Übungen machen. Nachmittags hatte er Fotos von einem alten Getreidekasten am Computer sortiert.",
+          "notes": [
+            "Kontrolle bei Dr. Gruber, Hüfte in Ordnung",
+            "soll regelmäßig gehen und Übungen machen",
+            "Fotos von einem alten Getreidekasten sortiert"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "15:42",
+        "text": "Mei, jetzt bin i grad heim und merk, dass i den grauen Zwirn vergessen hab. Genau wegen dem bin i eigentlich mitgefahren."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Ach, das ist ärgerlich, wenn man genau das Wichtigste vergisst. Brauchst du den Zwirn für eine bestimmte Arbeit?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:43",
+        "text": "Für die Arbeitshose vom Torben, die is beim Knie durch. Dafür hab i wenigstens beim Fleischhauer a Gesetz kriegt, des gibt's morgen mit Kraut."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Na, dann hat sich das Einkaufen trotzdem ausgezahlt. Mit Kraut klingt das nach einem guten Sonntagsessen, und die Hose bekommt ihren Flicken halt ein bisschen später."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:45",
+        "text": "Jo, hoffentlich. Die Claudia hat heut a bissl a Eile gehabt, die müssen am Abend noch zu einer Geburtstagsfeier. Drum bin i so schnell durch den Markt gegangen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit der neuen Hüfte so flott durch den Markt, das ist ja auch etwas. Hat sie dir die Taschen noch hereingetragen?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:47",
+        "text": "Freilich, die lässt mich nix schleppen. Und beim Eingang hab i das Silo getroffen, der hat a neue Kamera, so a ganz kleine, und hat mir gleich seine Fotos gezeigt."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Eine neue Kamera, da hattet ihr sicher gleich ein Thema. Was war denn auf den Fotos drauf?"
+      },
+      {
+        "role": "user",
+        "timestamp": "15:49",
+        "text": "Bildstöcke, oben in der Hollmayrleiten. Er will, dass i im Frühjahr mitgeh, aber den steilen Weg mag die Hüfte net so gern."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Dr. Gruber hat ja gemeint, du sollst fleißig gehen. Vielleicht gibt es einen flacheren Weg hinauf, den ihr gemeinsam nehmen könnt."
+      },
+      {
+        "role": "user",
+        "timestamp": "15:52",
+        "text": "Schau ma halt. Bis zum Mai is eh noch lang hin, bis dahin geh i jeden Tag meine Runde um den"
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Mit deinen täglichen Runden bist du bis zum Frühjahr sicher gut in Schwung. Dann schaffst du den Weg zu den Bildstöcken vielleicht schon leichter."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "15:55",
+      "text": "Jo, des hoff i. Jetzt räum i noch die Sachen ein, und dann schau i, ob i für die Hose net doch an passenden Zwirn in der alten Blechschachtel find."
+    }
+  },
+  "annotation": {
+    "disturbance_position": "history",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Primary: the friend's name Tassilo (in memory) is split by STT into the common words 'das Silo'; the dialect accusative 'in Tassilo' blurs the article, and the following 'der hat a neue Kamera' plus the shared photography hobby make the friend recoverable. Secondary: the dialect form 'a Gselchts' (smoked meat from the butcher) is mapped to the similar-sounding standard word 'Gesetz'; the last turn is cut off before 'Teich', the daily walk from memory.",
+    "disturbances": [
+      {
+        "turn_index": 2,
+        "span": "a Gesetz",
+        "type": "stt_dialect",
+        "primary": false
+      },
+      {
+        "turn_index": 6,
+        "span": "das Silo",
+        "type": "stt_name",
+        "primary": true
+      },
+      {
+        "turn_index": 10,
+        "span": "meine Runde um den",
+        "type": "stt_cutoff",
+        "primary": false
+      }
+    ]
+  },
+  "accumulation": {
+    "base_id": "stt_errors_003",
+    "disturbances": 3,
+    "memory": "primed"
+  }
+}

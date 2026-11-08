@@ -60,6 +60,9 @@ def main() -> None:
     hw = sub.add_parser("handwritten", help="turn gold/handwritten.yaml into a gradable pseudo run")
     hw.add_argument("--config", default="configs/handwritten.yaml")
 
+    ac = sub.add_parser("accumulation", help="exploratory accumulation set: tasks | check | import")
+    ac.add_argument("action", choices=["tasks", "check", "import"])
+
     sub.add_parser("spent", help="show total actual API spend from the ledger")
 
     args = p.parse_args()
@@ -89,15 +92,23 @@ def main() -> None:
         from .generate import load_config
         from .people import set_problems
         cfg = load_config()
-        for problem in set_problems(scenarios, cfg["sets"].get(args.set, {}), cfg):
+        # Versions of one accumulation base share all names and text; set-wide
+        # checks look at one version per base.
+        seen, scenarios_once = set(), []
+        for sc in scenarios:
+            base = sc.get("accumulation", {}).get("base_id", sc["id"])
+            if base not in seen:
+                seen.add(base)
+                scenarios_once.append(sc)
+        for problem in set_problems(scenarios_once, cfg["sets"].get(args.set, {}), cfg):
             print(f"  set: {problem}")
         # Heuristic warnings: to be looked at, not necessarily wrong.
         from .checks import (block_problems, fragment_problems, opening_problems, situation_problems,
                              time_problems)
         from .people import _all_pool_names
-        for problem in (opening_problems(scenarios) + fragment_problems(scenarios)
-                        + situation_problems(scenarios, _all_pool_names())
-                        + block_problems(scenarios, cfg["overused_blocks"])):
+        for problem in (opening_problems(scenarios_once) + fragment_problems(scenarios_once)
+                        + situation_problems(scenarios_once, _all_pool_names())
+                        + block_problems(scenarios_once, cfg["overused_blocks"])):
             print(f"  check: {problem}")
         for sc in scenarios:
             for problem in time_problems(sc):
@@ -141,6 +152,9 @@ def main() -> None:
     elif args.cmd == "handwritten":
         from .run import import_handwritten
         import_handwritten(args.config)
+    elif args.cmd == "accumulation":
+        from . import accumulation
+        {"tasks": accumulation.write_tasks, "check": accumulation.check, "import": accumulation.import_bases}[args.action]()
     elif args.cmd == "spent":
         from .cost import total_spent
         print(f"${total_spent():.2f}")

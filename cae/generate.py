@@ -152,7 +152,7 @@ def _condition_specs(set_name: str, set_cfg: dict, cfg: dict, id_offset: int = 0
         dialects = _allocate(list(cfg["dialects"]), n, rng, list(cfg["dialects"].values()))
         phases = cfg["relationship_phases"]
         phase_names = _allocate(list(phases), n, rng, [p["weight"] for p in phases.values()])
-        positions = _allocate(cfg["positions"][cond], n, rng)
+        positions = _allocate(set_cfg.get("positions", cfg["positions"])[cond], n, rng)
         types = _allocate(DISTURBANCE_TYPES[cond], n, rng) if DISTURBANCE_TYPES[cond] else [None] * n
         contacts = _allocate(CONTACT_TYPES, n, rng) if cond == "contact" else [None] * n
         times = _allocate(cfg["times_of_day"], n, rng)
@@ -160,7 +160,7 @@ def _condition_specs(set_name: str, set_cfg: dict, cfg: dict, id_offset: int = 0
         health = _allocate(cfg["persona_hints"]["health"], n, rng)
         relatives = _allocate(cfg["persona_hints"]["relatives"], n, rng)
         req = cfg["action_requests"]
-        if cond in req["conditions"]:
+        if cond in req["conditions"] and not set_cfg.get("no_action_requests"):
             has_request = _allocate([True, False], n, rng, [req["share"], 1 - req["share"]])
         else:
             has_request = [False] * n
@@ -194,7 +194,7 @@ def _condition_specs(set_name: str, set_cfg: dict, cfg: dict, id_offset: int = 0
                 "main_disturbance_type": types[i],
                 "contact_type": contacts[i],
                 "household": _fitting_household(rng.choice(hints["household"]), relatives[i], hints, extra_rng),
-                "history_turns": rng.choice([6, 8, 10, 12]),
+                "history_turns": rng.choice(set_cfg.get("history_turns", [6, 8, 10, 12])),
                 "health": health[i],
                 "relatives": relatives[i],
                 "misreading": misreadings[i],

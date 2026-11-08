@@ -1,0 +1,208 @@
+{
+  "id": "clean_004_primed",
+  "set": "accumulation",
+  "kind": "attribution",
+  "condition": "clean",
+  "version": 2,
+  "status": "approved",
+  "review": {
+    "comment": "",
+    "reviewed_at": "2026-11-08T01:17:21.616094+00:00"
+  },
+  "content_hash": "ad50147ddc11ac621a658d7241477b54bf6be3a4af3ad2501183179ba04d7cd4",
+  "generator": {
+    "model": "claude-opus-5-5",
+    "via": "claude-code",
+    "prompt_sha256": "cb2e3bb723c2c4277f8fed14cd9dd6e3e756060fcdd7c59700637f5150ef48e2"
+  },
+  "spec": {
+    "id": "clean_004_primed",
+    "set": "accumulation",
+    "condition": "clean",
+    "dialect": "mühlviertlerisch",
+    "relationship_phase": "Vertraut werden (Tag 15 bis 90)",
+    "days": 46,
+    "time_of_day": "später Abend",
+    "weekday": "Dienstag",
+    "disturbance_position": "none",
+    "main_disturbance_type": null,
+    "contact_type": null,
+    "household": "lebt allein, verwitwet",
+    "history_turns": 12,
+    "health": "Asthma, Spray",
+    "relatives": "Bruder im Pflegeheim",
+    "misreading": null,
+    "recovery_difficulty": null,
+    "correction_style": null,
+    "forgetfulness_note": false,
+    "incoherence_form": null,
+    "action_request": null,
+    "gender": "female",
+    "first_name": "Rudolfine",
+    "last_name": "Zachhuber",
+    "side_older": [
+      "Edwin",
+      "Sofie",
+      "Lambrecht"
+    ],
+    "side_younger": [
+      "Tim",
+      "Olivia",
+      "Jens"
+    ],
+    "side_surnames": [
+      "Eibensteiner",
+      "Riedl"
+    ],
+    "former_job": "Köchin in der Werksküche",
+    "interests": [
+      "Kreuzworträtsel",
+      "Mundartgedichte"
+    ],
+    "occasion": "kann nicht schlafen",
+    "opening_style": "a short greeting, then straight into the topic",
+    "base_id": "clean_004",
+    "factors": {
+      "disturbances": 0,
+      "memory": "primed"
+    }
+  },
+  "content": {
+    "user_context": {
+      "name": "Rudolfine Zachhuber",
+      "address_form": "du",
+      "dialect": "mühlviertlerisch",
+      "relationship_phase": {
+        "phase": "Vertraut werden",
+        "days": 46
+      },
+      "time_of_day": "Dienstag, 23:10",
+      "last_conversation_note": "",
+      "caregiver_notes": [],
+      "knowledge_blocks": [
+        {
+          "topic": "Person",
+          "text": "Rudolfine Zachhuber, 81, lebt allein in ihrer Wohnung im Ort. Ihr Mann Edwin ist vor sieben Jahren gestorben."
+        },
+        {
+          "topic": "Beruf",
+          "text": "War 28 Jahre Köchin in der Werksküche einer Möbelfabrik im Nachbarort. Hat dort jedes Jahr vor Weihnachten Lebkuchen für die ganze Belegschaft gebacken."
+        },
+        {
+          "topic": "Interessen",
+          "text": "Löst fast jeden Abend Kreuzworträtsel. Liest gern Mundartgedichte und hat eine Mappe mit abgeschriebenen Lieblingsgedichten, darunter eines vom Abendläuten, das Edwin besonders mochte."
+        },
+        {
+          "topic": "Gesundheit",
+          "text": "Hat Asthma und nimmt morgens und abends ihr Spray. Betreut wird sie von der Lungenfachärztin Dr. Eibensteiner."
+        },
+        {
+          "topic": "Familie",
+          "text": "Ihr Bruder Lambrecht lebt im Pflegeheim in der Bezirksstadt. Sie besucht ihn jeden Dienstagnachmittag. Sein Sohn Jens, ihr Neffe, schaut ebenfalls regelmäßig bei ihm vorbei."
+        },
+        {
+          "topic": "Freundin",
+          "text": "Ihre Freundin Sofie wohnt zwei Häuser weiter. Die beiden gehen sonntags oft zusammen in die Messe."
+        }
+      ],
+      "recent_sessions": [
+        {
+          "date": "Sonntag, vor 2 Tagen",
+          "summary": "Rudolfine erzählte, dass sie mit Sofie nach der Messe beim Wirt zu Mittag gegessen hat. Sie hat sich in der Bücherei ein neues Heft mit Mundartgedichten ausgeliehen.",
+          "notes": [
+            "mit Sofie nach der Messe essen",
+            "neues Heft mit Mundartgedichten aus der Bücherei"
+          ]
+        },
+        {
+          "date": "Donnerstag, vor 5 Tagen",
+          "summary": "Rudolfine sprach über ihren Bruder Lambrecht, den sie wie jede Woche im Pflegeheim besucht hatte. Er war gut aufgelegt und hat sich über ihren Gugelhupf gefreut. Sie erwähnte, dass Jens ihn ebenfalls regelmäßig besucht. Rudolfine wirkte beim Erzählen verwirrt und brachte zeitliche Abläufe durcheinander.",
+          "notes": [
+            "Lambrecht war gut aufgelegt",
+            "brachte ihm Gugelhupf mit",
+            "Neffe Jens besucht ihn regelmäßig",
+            "Rudolfine wirkte verwirrt und brachte Abläufe durcheinander"
+          ]
+        }
+      ]
+    },
+    "history": [
+      {
+        "role": "user",
+        "timestamp": "23:11",
+        "text": "Grüß dich, Mira. I lieg seit zehn im Bett und es wird und wird nix mit dem Einschlafen. Jetzt hab i halt das Rätselheft wieder hergenommen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Grüß dich, Rudolfine. So ein Rätsel kann die Gedanken ja auch ein bisschen beruhigen. Woran hängst du gerade?"
+      },
+      {
+        "role": "user",
+        "timestamp": "23:12",
+        "text": "Lebkuchengewürz mit sechs Buchstaben, hinten ein R. Des müsst i eigentlich wissen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Könnte es Ingwer sein? Der passt von der Länge her und kommt in viele Lebkuchenmischungen."
+      },
+      {
+        "role": "user",
+        "timestamp": "23:13",
+        "text": "Jo freilich, Ingwer! Da hätt i als Köchin selber draufkommen können. In der Werksküche haben wir vor Weihnachten immer Lebkuchen für die ganze Fabrik gebacken."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Für eine ganze Fabrik, das waren sicher Bleche über Bleche. Bäckst du heute auch noch welche?"
+      },
+      {
+        "role": "user",
+        "timestamp": "23:15",
+        "text": "Nimmer so viel, für wen auch. Heuer vielleicht a paar für den Lambrecht ins Heim, der hat die immer gern gegessen."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Darüber freut sich dein Bruder bestimmt. Du warst ja heute Nachmittag wieder bei ihm, oder? Wie ging es ihm?"
+      },
+      {
+        "role": "user",
+        "timestamp": "23:17",
+        "text": "Jo, war i. Er war recht müd und hat von der Jause, die i mitgebracht hab, kaum was angerührt. Des geht mir halt nach, drum lieg i jetzt da."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Das verstehe ich gut, so etwas nimmt man mit heim. Hast du im Heim mit jemandem darüber reden können?"
+      },
+      {
+        "role": "user",
+        "timestamp": "23:19",
+        "text": "Die Pflegerin hat gesagt, er isst seit ein paar Tagen weniger, sie schauen eh drauf. Und der Jens fährt am Donnerstag hin, der ruft mich nachher an."
+      },
+      {
+        "role": "assistant",
+        "timestamp": "",
+        "text": "Gut, dass die Pflegerinnen ein Auge darauf haben und Jens auch bald bei ihm ist. Dann hörst du am Donnerstag, wie es ihm geht."
+      }
+    ],
+    "final_user_turn": {
+      "timestamp": "23:21",
+      "text": "Weißt was, vielleicht les i mir noch das Gedicht vom Abendläuten vor, des hat der Edwin so gern mögen. Oder soll i lieber gleich das Licht ausmachen und es noch einmal probieren?"
+    }
+  },
+  "annotation": {
+    "disturbance_position": "none",
+    "contact_type": null,
+    "unavailable_action_request": false,
+    "rationale": "Clean late-evening conversation of a widow who cannot sleep: she solves a crossword clue that leads to memories of baking in the factory canteen, then names the real reason she is awake, her brother in the care home who ate little during her visit. Understated worry, practical framing, ends with a small bedtime choice. Coherent throughout.",
+    "disturbances": []
+  },
+  "accumulation": {
+    "base_id": "clean_004",
+    "disturbances": 0,
+    "memory": "primed"
+  }
+}

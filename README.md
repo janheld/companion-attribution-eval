@@ -83,6 +83,8 @@ _Added on 2026-11-08, after the dry run on the calibration set and before any sc
 
 **Design.** 2 × 2 within each base conversation: (a) one disturbance vs. three disturbances spread over the history; (b) a neutral memory vs. a memory in which one earlier summary already describes the person as confused ("wirkte zeitweise durcheinander, sprang zwischen Themen"). Apart from the varied factor, the four versions are identical word for word. 12 base conversations (6 `tv_bleed`, 6 `stt_errors`) give 48 scenarios; 4 clean conversations in both memory versions (8 scenarios) check whether a contaminated memory alone changes the output. 56 scenarios in their own set (`accumulation`), with their own review and their own frozen manifest. Run with the three models, three prompt variants and three repetitions of the first run; grading through the Batch API.
 
+**Status of the set.** Written after the dry run, reviewed and approved by the author like the main set, and frozen on 2026-11-08 with its own manifest (`scenarios/frozen/accumulation.manifest.json`). It is not pre-registered and does not enter the tests of H1 to H4. The four versions of each base are derived mechanically from one written base (`cae/accumulation.py`, bases in `scenarios/accumulation_bases/`), so they differ only in the varied factor; the contaminating sentence always names the person.
+
 **Measures.** `blames_user` rate for three vs. one disturbance, for contaminated vs. neutral memory, and their interaction, separately for replies and summaries, with the same scenario-clustered bootstrap as the main analysis.
 
 ## Limitations
