@@ -238,6 +238,7 @@ def _synthetic_gold(tmp_path, monkeypatch):
     monkeypatch.setattr(agree.gold, "load_items", lambda: items)
     monkeypatch.setattr(agree.gold, "author_labels", lambda: author)
     monkeypatch.setattr(agree.gold, "LOCK", tmp_path / "heldout.lock")
+    monkeypatch.setattr(agree.gold_annotated, "ANNOTATED", tmp_path / "labels_annotated.jsonl")
     monkeypatch.setattr(agree, "EVAL_DIR", tmp_path / "eval")
     monkeypatch.setattr(agree, "grade_items", lambda split, yes=False, final=False: grades)
     monkeypatch.setattr(agree, "_scenarios", lambda items: {("calibration", "x"): make_scenario()})
@@ -266,6 +267,10 @@ def test_agree_final_runs_once_and_needs_committed_rubric(tmp_path, monkeypatch)
         agree.agree_final()
     assert not (tmp_path / "heldout.lock").exists()
     monkeypatch.setattr(agree, "_rubric_commit", lambda: "abc123")
+    with pytest.raises(SystemExit, match="second pass"):
+        agree.agree_final()                      # annotated pass missing
+    for it in [i for i in agree.gold.load_items() if i["split"] == "heldout"]:
+        agree.gold_annotated.save(it["gold_id"], {"content_misattributed": ["false"]})
     agree.agree_final()
     record = json.loads((tmp_path / "eval" / "heldout_final.json").read_text())
     assert record["rubric_commit"] == "abc123" and len(record["rubric_sha256"]) == 64
@@ -307,3 +312,23 @@ def test_batch_submit_and_collect_with_fake_client(tmp_path, monkeypatch):
     assert all(llm.get_cached(k)["mode"] == "batch" for k, _ in reqs)
     assert llm.batch_submit(reqs, tmp_path / "run") == 0          # cached now
     assert len(created) == 1 and created[0][0]["custom_id"] == reqs[0][0]
+
+
+def test_annotated_pass_is_separate_and_overrides_only_content_misattributed(tmp_path, monkeypatch):
+    agree, items, author, grades = _synthetic_gold(tmp_path, monkeypatch)
+    ga = agree.gold_annotated
+    assert "nicht gespeichert" in ga.save("g0", {}).lower()
+    ga.save("g0", {"content_misattributed": ["true"], "note": "Radio"})
+    ref = ga.reference_labels()
+    assert ref["g0"]["labels"]["content_misattributed"] is True          # second pass wins here
+    assert ref["g0"]["labels"]["attribution"] == author["g0"]["labels"]["attribution"]
+    assert author["g0"]["labels"]["content_misattributed"] is False       # blind label untouched
+    r = ga.blind_vs_annotated(items)
+    assert r["n"] == 1 and r["agreement"] == 0.0
+
+
+def test_annotated_pass_waits_for_blind_pass(tmp_path, monkeypatch):
+    agree, items, author, grades = _synthetic_gold(tmp_path, monkeypatch)
+    monkeypatch.setattr(agree.gold, "author_labels", lambda: {k: v for k, v in list(author.items())[:3]})
+    with pytest.raises(SystemExit, match="blind pass is not complete"):
+        agree.gold_annotated.serve()

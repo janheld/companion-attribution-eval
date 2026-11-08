@@ -16,6 +16,7 @@ Full description in README.md (Method). In short:
 - **Tasks:** the next `response`, and a `summary` of the session by one fixed, careful summarizer (independent of the prompt variant).
 - **Repetitions:** 3 per scenario and setup. {{N_OUTPUTS}} outputs in the first run.
 - **Grading:** Claude Opus 5.5 with a fixed rubric (`prompts/grader_rubric.en.md`, commit {{RUBRIC_COMMIT}}), blind to condition, model, prompt variant and ground truth; Batch API.
+- **Gold labels in two passes:** all fields labeled blind first, seeing only the unmarked recognition text, as the grader does. A second pass then showed the annotated disturbances (turn, type, span, what was actually said) next to the blind label, and only `content_misattributed` could be changed (`gold/labels_annotated.jsonl`; blind labels kept unchanged). For grader validation, `content_misattributed` uses the second-pass value, every other field the blind label. The author's blind and second-pass values agreed in {{CM_BLIND_VS_ANNOTATED_AGREEMENT}} of {{CM_N}} items (kappa {{CM_BLIND_VS_ANNOTATED_KAPPA}}), a measure of how hard the disturbances are to recognize without marking.
 - **Statistics:** proportions with Wilson 95 % intervals per model × prompt × condition × task. Repetitions of a scenario are not independent, so differences are judged with a scenario-clustered bootstrap (2,000 resamples); a difference counts as clear when its 95 % interval excludes zero (pre-registered in README).
 
 ## 3. How to read `blames_user`

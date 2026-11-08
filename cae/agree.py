@@ -20,7 +20,7 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
-from . import cost, gold, llm, stats
+from . import cost, gold, gold_annotated, llm, stats
 from .freeze import load_frozen
 from .grade import FLAGS, LABELS, RUBRIC, grade_params, grading_estimate, parse
 from .run import load_run_config
@@ -149,6 +149,11 @@ def _fmt(x) -> str:
 
 def print_summary(result: dict) -> None:
     for field, r in result.items():
+        if field == "content_misattributed_blind_vs_annotated":
+            if r.get("n"):
+                print(f"\ncontent_misattributed, your blind vs. annotated pass: n={r['n']}, "
+                      f"agreement {r['agreement'] * 100:.0f} %, kappa {_fmt(r['kappa'])}")
+            continue
         if field in ("blames_user_by_task", "per_value"):
             continue
         print(f"\n{field}: n={r['n']}, agreement {r['agreement'] * 100:.0f} %, kappa {_fmt(r['kappa'])}")
@@ -182,12 +187,22 @@ def write_disagreement_page(rows: list[dict], scenarios: dict, path) -> None:
                     f"<h1>Abweichungen ({len(rows)} Items)</h1>{''.join(parts)}", encoding="utf-8")
 
 
-def _labeled(items: list[dict]) -> dict:
-    author = gold.author_labels()
-    missing = [it["gold_id"] for it in items if it["gold_id"] not in author]
+def _labeled(items: list[dict], require_second_pass: bool = False) -> dict:
+    """Gold reference: blind labels, content_misattributed from the annotated
+    second pass where it exists (cae/gold_annotated.py)."""
+    blind = gold.author_labels()
+    missing = [it["gold_id"] for it in items if it["gold_id"] not in blind]
     if missing:
         raise SystemExit(f"{len(missing)} items not labeled yet: {', '.join(missing[:10])} ...")
-    return author
+    second = gold_annotated.annotated_labels()
+    open_second = [it["gold_id"] for it in items if it["gold_id"] not in second]
+    if open_second and require_second_pass:
+        raise SystemExit(f"{len(open_second)} items lack the annotated second pass for content_misattributed "
+                         "(`cae gold review-annotations`).")
+    if open_second:
+        print(f"Note: {len(open_second)} of {len(items)} items without the second pass; "
+              "content_misattributed uses the blind label there.")
+    return gold_annotated.reference_labels()
 
 
 def agree(split: str = "dev", assume_yes: bool = False) -> dict:
@@ -198,6 +213,7 @@ def agree(split: str = "dev", assume_yes: bool = False) -> dict:
     author = _labeled(items)
     grades = grade_items("dev", assume_yes)
     result = compare(items, author, grades)
+    result["content_misattributed_blind_vs_annotated"] = gold_annotated.blind_vs_annotated(items)
     print_summary(result)
     out = EVAL_DIR / f"dev_{rubric_sha()[:12]}"
     out.mkdir(parents=True, exist_ok=True)
@@ -225,9 +241,10 @@ def agree_final(assume_yes: bool = False) -> dict:
         raise SystemExit(f"Held-out part was already evaluated ({gold.LOCK.read_text().strip()}). It is used once only.")
     commit = _rubric_commit()
     items = _items("heldout")
-    author = _labeled(items)
+    author = _labeled(items, require_second_pass=True)
     grades = grade_items("heldout", assume_yes, final=True)
     result = compare(items, author, grades)
+    result["content_misattributed_blind_vs_annotated"] = gold_annotated.blind_vs_annotated(items)
     # Precision / recall / FPR per value, as the report needs them.
     result["per_value"] = gold.compare([(author[it["gold_id"]]["labels"], grades[it["gold_id"]]["labels"])
                                         for it in items])

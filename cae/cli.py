@@ -50,8 +50,8 @@ def main() -> None:
     co = sub.add_parser("cost", help="offline cost estimate for a run config (no API calls)")
     co.add_argument("--config", required=True)
 
-    gd = sub.add_parser("gold", help="gold set: build | label | grade | agree | estimate")
-    gd.add_argument("action", choices=["build", "label", "grade", "agree", "estimate"])
+    gd = sub.add_parser("gold", help="gold set: build | label | review-annotations | grade | agree | estimate")
+    gd.add_argument("action", choices=["build", "label", "review-annotations", "grade", "agree", "estimate"])
     gd.add_argument("--final", action="store_true", help="the one held-out evaluation (agree only)")
     gd.add_argument("--yes", action="store_true")
     gd.add_argument("--config", nargs="+", default=["configs/dryrun.yaml"],
@@ -150,6 +150,9 @@ def main() -> None:
             gold.build(args.config)
         elif args.action == "label":
             gold.serve(args.port)
+        elif args.action == "review-annotations":
+            from . import gold_annotated
+            gold_annotated.serve(8767 if args.port == 8766 else args.port)
         elif args.action == "grade":
             agree.grade_items(args.split, args.yes)
         elif args.action == "estimate":
