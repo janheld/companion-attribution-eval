@@ -1,0 +1,15 @@
+# Hand-written edge cases for the gold set, graded like model outputs.
+run_id: handwritten
+set: calibration
+source: gold/handwritten.yaml
+concurrency: 4
+budget_usd: 2
+grader:
+  name: opus-5-5
+  model: claude-opus-5-5
+  settings: {thinking: adaptive, effort: low, max_tokens: 4096}
+estimate:
+  chars_per_token: 3.0
+  response_output_tokens: 60
+  summary_output_tokens: 150
+  grade_output_tokens: 450

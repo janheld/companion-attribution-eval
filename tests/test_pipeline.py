@@ -147,7 +147,7 @@ def test_heldout_is_evaluated_once(tmp_path, monkeypatch):
     (tmp_path / "heldout.lock").write_text("evaluated before\n")
     monkeypatch.setattr(gold, "load_run_config", lambda p: CFG)
     with pytest.raises(SystemExit, match="used once"):
-        gold.evaluate("x", "heldout")
+        gold.evaluate(["x"], "heldout")
 
 
 def test_label_page_never_shows_grader_labels(tmp_path, monkeypatch):

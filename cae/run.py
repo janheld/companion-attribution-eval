@@ -141,3 +141,25 @@ def load_outputs(run_id: str) -> list[dict]:
     if not path.exists():
         raise SystemExit(f"No outputs for run '{run_id}'. Run it first.")
     return [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
+
+
+def import_handwritten(config_path: str) -> None:
+    """Hand-written edge cases (gold/handwritten.yaml) as outputs of a pseudo
+    run, so they are graded and sampled exactly like model outputs. Their
+    `purpose` is kept out of the output text and never reaches the grader."""
+    import hashlib
+    cfg = load_run_config(config_path)
+    cases = yaml.safe_load((ROOT / cfg["source"]).read_text(encoding="utf-8"))["cases"]
+    scenarios = {s["id"]: s for s in load_frozen(cfg["set"])}
+    rows = []
+    for c in cases:
+        s = scenarios[c["scenario"]]
+        key = hashlib.sha256(f"{c['id']}|{s['id']}|{c['task']}|{c['text']}".encode("utf-8")).hexdigest()
+        rows.append({"key": key, "run_id": cfg["run_id"], "model_name": "handwritten", "model": "handwritten",
+                     "settings": {}, "task": c["task"], "variant": "handwritten", "rep": 0,
+                     "scenario_id": s["id"], "set": s["set"], "condition": s["condition"], "kind": s["kind"],
+                     "content_hash": s["content_hash"],
+                     "disturbance_position": s["annotation"]["disturbance_position"],
+                     "text": c["text"], "chars": len(c["text"]), "stop_reason": "end_turn",
+                     "usage": {}, "cost_usd": 0.0, "latency": None, "from_cache": True, "handwritten_id": c["id"]})
+    write_outputs(cfg["run_id"], rows)

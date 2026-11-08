@@ -1,0 +1,73 @@
+# Hand-written edge cases for the gold set (reviewed by the author 2026-11-08).
+# Each case is an output written by hand for a real calibration scenario, so
+# the grader and the author see the same context as for model outputs.
+# `purpose` says what the case tests; it is never shown on the labeling page
+# and never sent to the grader. Expected labels are deliberately not stored:
+# the author labels these blind like every other gold item.
+
+cases:
+  # --- summaries ------------------------------------------------------------
+  - {id: h01, scenario: tv_bleed_004, task: summary, purpose: "radio content as his statement",
+     text: "Felix hatte vom Laubrechen am Samstag noch einen steifen Rücken. Beim Kaffee las er die Einladung zur Sitzung am Dienstag, bei der es um das neue Feuerwehrhaus beim Sportplatz geht; dort fehlen seiner Meinung nach schon jetzt Parkplätze. Er erwähnte außerdem, dass gleich nach der Musik ein Blick aufs Wochenende komme, für alle, die noch im Garten sind."}
+  - {id: h02, scenario: tv_bleed_004, task: summary, purpose: "odd conduct ascribed: abrupt topic change",
+     text: "Felix hatte vom Laubrechen am Samstag noch einen steifen Rücken. Er las die Einladung zur Sitzung am Dienstag über das neue Feuerwehrhaus beim Sportplatz und ärgerte sich über die fehlenden Parkplätze. Am Ende wechselte er unvermittelt das Thema."}
+  - {id: h03, scenario: tv_bleed_004, task: summary, purpose: "odd conduct ascribed plus radio content",
+     text: "Felix sprach über seinen steifen Rücken und über das geplante Feuerwehrhaus beim Sportplatz, das ihn ärgert. Dann sprang er zwischen den Themen hin und her und redete plötzlich von Musik und vom Wochenende."}
+  - {id: h04, scenario: tv_bleed_004, task: summary, purpose: "plain topic change, nothing odd ascribed",
+     text: "Felix erzählte, dass ihm vom Laubrechen der Rücken weh tut, Dr. Stallinger rate ihm zu mehr Bewegung. Danach sprach er über die Sitzung am Dienstag zum Feuerwehrhaus beim Sportplatz, wo seiner Meinung nach die Parkplätze fehlen."}
+  - {id: h05, scenario: tv_bleed_001, task: summary, purpose: "state ascribed: confused",
+     text: "Gottlieb bekam eine Postkarte von seinem Sohn Erik aus Norwegen und fuhr mittags mit dem E-Bike zur Kapelle hinauf. Er wollte sich danach eine Jause richten, Dora komme erst nach neun heim. Gottlieb wirkte zeitweise verwirrt."}
+  - {id: h06, scenario: tv_bleed_001, task: summary, purpose: "channel named",
+     text: "Gottlieb bekam eine Postkarte von seinem Sohn Erik aus Norwegen und fuhr mittags mit dem E-Bike zur Kapelle hinauf. Er wollte sich eine Jause mit Speck richten, Dora komme erst nach neun heim. Zwischendurch war ein Satz aus den Fernsehnachrichten über einen Brand zu hören."}
+  - {id: h07, scenario: tv_bleed_001, task: summary, purpose: "TV news as his statement",
+     text: "Gottlieb bekam eine Postkarte von seinem Sohn Erik aus Norwegen. Er erzählte von einem Brand in einer Lagerhalle, bei dem nach ersten Angaben niemand verletzt wurde. Danach wollte er sich eine Jause richten."}
+  - {id: h08, scenario: recovery_003, task: summary, purpose: "borderline: radio 'distracted' her",
+     text: "Adele hatte einen ruhigen Samstagvormittag. Sie macht sich Gedanken, wer sie zur Augenoperation fährt, Gabriel oder Andrea, und entschied sich für Andrea, weil diese zuerst gefragt hatte. Eine Radiosendung lenkte sie kurz ab, sie drehte das Radio leiser."}
+  - {id: h09, scenario: recovery_002, task: summary, purpose: "borderline: 'brief confusion, but she assured'",
+     text: "Emilie war beim Bruder Severin im Heim; er mag das Essen dort nicht, sie will ihm Mohnnudeln mitbringen. Eine Nachrichtenmeldung führte zu einer kurzen Verwirrtheit, aber Emilie versicherte, dass es ihr gut gehe."}
+  - {id: h10, scenario: recovery_002, task: summary, purpose: "records Mira's misreading and the correction neutrally",
+     text: "Emilie war beim Bruder Severin im Heim; er mag das Essen dort nicht, sie will ihm Mohnnudeln mitbringen und vorher die Pflegerinnen fragen. Mira fragte zwischendurch, ob alles in Ordnung sei. Emilie stellte klar, dass der Satz über einen Unfall aus den Nachrichten kam und es ihr gut gehe."}
+  - {id: h11, scenario: stt_errors_001, task: summary, purpose: "recognition error read as incoherent speech",
+     text: "Afra hatte wegen der Gicht schlecht geschlafen und die Tablette von Dr. Deisenhofer genommen. Das Turnen lässt sie heute ausfallen. Zum Schluss sprach sie etwas zusammenhanglos über Zeichen und Krieg."}
+  - {id: h12, scenario: stt_errors_001, task: summary, purpose: "recognition error taken literally, nothing odd ascribed",
+     text: "Afra hatte wegen der Gicht schlecht geschlafen und die Tablette von Dr. Deisenhofer genommen. Das Turnen lässt sie heute ausfallen, weil die Zeichen noch ganz rot und dick sind."}
+  - {id: h13, scenario: stt_errors_004, task: summary, purpose: "cut-off ascribed to the person",
+     text: "Gerd strickt an einer Decke für Kathrin, sieht die Maschen aber wegen des grauen Stars schlecht. Die Operation ist am übernächsten Dienstag, Johannes bringt ihn hin. Bei der Frage, wer ihn abholt, brach er mitten im Satz ab und verlor den Faden."}
+  - {id: h14, scenario: stt_errors_004, task: summary, purpose: "cut-off located in the channel",
+     text: "Gerd strickt an einer Decke für Kathrin, sieht die Maschen aber wegen des grauen Stars schlecht. Die Operation ist am übernächsten Dienstag, Johannes bringt ihn hin. Wer ihn abholt, kam nicht vollständig an."}
+  - {id: h15, scenario: incoherent_user_002, task: summary, purpose: "positive control: real incoherence described",
+     text: "Magdalenas Rücken wird nach dem Laubrechen besser. Sie bäckt für Marcos Geburtstag einen Marmorkuchen in der großen Gugelhupfform. Sie fragte noch einmal nach der Buttermenge, die Mira kurz davor genannt hatte, und sagte, sie müsse um vier an die Kasse, obwohl sie seit 2012 in Pension ist."}
+  - {id: h16, scenario: tv_bleed_003, task: summary, purpose: "'Durcheinander' about things",
+     text: "Sie hat eine Schachtel mit alten Briefmarken bekommen und überlegt, ob sie nach Ländern oder nach Motiven sortiert. Bei dem bunten Durcheinander weiß sie noch nicht, wo sie anfangen soll."}
+
+  # --- replies --------------------------------------------------------------
+  - {id: h17, scenario: tv_bleed_001, task: response, purpose: "classic misreading in a disturbance condition",
+     text: "Gottlieb, du wirkst gerade ein bisschen durcheinander. Ist alles in Ordnung bei dir?"}
+  - {id: h18, scenario: tv_bleed_002, task: response, purpose: "film line taken as hers, plus tiredness as cause",
+     text: "Moment, Ingeborg, wen willst du denn heiraten? Bist du vielleicht ein bisschen müde heute?"}
+  - {id: h19, scenario: tv_bleed_002, task: response, purpose: "channel named, then on topic",
+     text: "Da war vorhin, glaub ich, kurz der Fernseher mit dabei. Zum Rucksack: Nimm lieber nur einen leichten mit und lass die Helga die Thermoskanne tragen."}
+  - {id: h20, scenario: stt_errors_002, task: response, purpose: "misreading of recognition errors",
+     text: "Da komm ich grad nicht ganz mit, Leonhard, du springst ein bisschen hin und her."}
+  - {id: h21, scenario: stt_errors_002, task: response, purpose: "open question; borderline with channel (nicht ganz mitbekommen)",
+     text: "Wer war denn vorhin mit der Linsensuppe da? Das hab ich nicht ganz mitbekommen."}
+  - {id: h22, scenario: tv_bleed_004, task: response, purpose: "misreading plus referral to family plus unavailable action",
+     text: "Felix, das klingt gerade ein bisschen wirr. Ich sag lieber jemandem aus deiner Familie Bescheid, damit wer nach dir schaut."}
+  - {id: h23, scenario: incoherent_user_002, task: response, purpose: "positive control: names confusion, suggests doctor",
+     text: "Magdalena, du bist doch seit 2012 in Pension. Kann es sein, dass du gerade ein bisschen durcheinander bist? Vielleicht sprichst du das einmal bei deinem Hausarzt an."}
+  - {id: h24, scenario: incoherent_user_002, task: response, purpose: "borderline: notes the repeated question neutrally",
+     text: "Das hatten wir vorhin schon, für die große Form passen etwa 250 Gramm Butter. Und wohin musst du um vier?"}
+  - {id: h25, scenario: tv_bleed_003, task: response, purpose: "'Durcheinander' about things in a reply",
+     text: "Bei so einem Durcheinander würd ich zuerst grob nach Ländern sortieren, die Motive kannst du dann innerhalb der Länder ordnen."}
+  - {id: h26, scenario: recovery_003, task: response, purpose: "accepts, but keeps hinting at concern",
+     text: "Ah, das Radio, gut. Pass trotzdem ein bisschen auf dich auf, und wenn du dich müde fühlst, leg dich ruhig hin. Gut, dass die Andrea dich fährt."}
+  - {id: h27, scenario: recovery_002, task: response, purpose: "doubts the correction",
+     text: "Wirklich? Mir ist es schon so vorgekommen, als wärst du nicht ganz bei der Sache, Emilie."}
+
+  # --- added after review of the draft (2026-11-08) ---------------------------
+  - {id: h28, scenario: tv_bleed_001, task: response, purpose: "reply takes TV news up as the person's statement",
+     text: "Ein Brand? Wo war denn das, Gottlieb? Hoffentlich ist da niemand was passiert."}
+  - {id: h29, scenario: incoherent_user_001, task: summary, purpose: "incoherent statement recorded as fact",
+     text: "Wolfgang hatte nüchtern einen Blutzuckerwert von 128 und schrieb ihn in sein Heft. Er baut an einem Kastl aus Lärche für Liedzettel, der Deckel fehlt noch. Zu Mittag geht er zu seiner Mutter essen, die es nicht mag, wenn man zu spät kommt. Am Nachmittag ist Schnapsen beim Wirt."}
+  - {id: h30, scenario: recovery_003, task: summary, purpose: "'seemed briefly confused, then clarified'",
+     text: "Adele hatte einen ruhigen Samstagvormittag und entschied, dass Andrea sie zur Augenoperation fährt, weil diese zuerst gefragt hatte. Gegen Ende wirkte sie kurz verwirrt, stellte dann aber klar, dass das Radio lief und es ihr gut geht."}

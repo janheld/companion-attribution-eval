@@ -52,9 +52,13 @@ def main() -> None:
 
     gd = sub.add_parser("gold", help="gold set: build | label | eval")
     gd.add_argument("action", choices=["build", "label", "eval"])
-    gd.add_argument("--config", default="configs/dryrun.yaml")
+    gd.add_argument("--config", nargs="+", default=["configs/dryrun.yaml"],
+                    help="run configs whose outputs feed the gold set (build); the first one for eval")
     gd.add_argument("--split", choices=["dev", "heldout"], default="dev")
     gd.add_argument("--port", type=int, default=8766)
+
+    hw = sub.add_parser("handwritten", help="turn gold/handwritten.yaml into a gradable pseudo run")
+    hw.add_argument("--config", default="configs/handwritten.yaml")
 
     sub.add_parser("spent", help="show total actual API spend from the ledger")
 
@@ -134,6 +138,9 @@ def main() -> None:
             gold.serve(args.port)
         else:
             gold.evaluate(args.config, args.split)
+    elif args.cmd == "handwritten":
+        from .run import import_handwritten
+        import_handwritten(args.config)
     elif args.cmd == "spent":
         from .cost import total_spent
         print(f"${total_spent():.2f}")

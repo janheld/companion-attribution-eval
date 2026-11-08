@@ -72,24 +72,44 @@ def _must_include(outputs: list[dict]) -> list[dict]:
     return picked
 
 
-def sample(outputs: list[dict], grades: dict, target: int = 130, per_stratum: int = 20,
+def sample(outputs: list[dict], grades: dict, target: int = 140, per_stratum: int = 12,
            seed: int = SEED) -> list[dict]:
+    """Hand-written cases and must-include items first, then every stratum
+    from the rarest up: rare strata completely, common ones up to
+    per_stratum, then plain items. Within each step the next item comes from
+    the model with the fewest items so far, so no model dominates."""
     rng = random.Random(seed)
     pool = outputs[:]
     rng.shuffle(pool)
     info = {o["key"]: strata(o, grades.get(o["key"], {}).get("labels", {})) for o in pool}
-    chosen = {o["key"]: o for o in _must_include(pool)}
-    counts = Counter(info[o["key"]][0] for o in pool)
-    # Rare strata first, each up to per_stratum, then fill up across conditions.
-    for stratum, _ in sorted(counts.items(), key=lambda kv: kv[1]):
-        members = [o for o in pool if stratum in info[o["key"]] and o["key"] not in chosen]
-        for o in members[:per_stratum]:
-            if len(chosen) < target:
-                chosen[o["key"]] = o
-    for o in pool:
-        if len(chosen) >= target:
+    chosen = {o["key"]: o for o in pool if o.get("model_name") == "handwritten"}
+    chosen.update({o["key"]: o for o in _must_include(pool) if o["key"] not in chosen})
+    per_model = Counter(o.get("model_name") for o in chosen.values() if o.get("model_name") != "handwritten")
+
+    def add(candidates: list[dict], limit: int) -> None:
+        by_model = defaultdict(list)
+        for o in candidates:
+            if o["key"] not in chosen:
+                by_model[o.get("model_name", "")].append(o)
+        added = 0
+        while added < limit and len(chosen) < target and any(by_model.values()):
+            name = min((m for m in by_model if by_model[m]), key=lambda m: (per_model[m], m))
+            o = by_model[name].pop(0)
+            chosen[o["key"]] = o
+            per_model[name] += 1
+            added += 1
+
+    special = Counter(st for o in pool for st in info[o["key"]] if not st.startswith("plain:"))
+    for stratum, _ in sorted(special.items(), key=lambda kv: (kv[1], kv[0])):
+        add([o for o in pool if stratum in info[o["key"]]], per_stratum)
+    # Plain items last, spread over condition x task.
+    plain = sorted({info[o["key"]][-1] for o in pool})
+    while len(chosen) < target:
+        before = len(chosen)
+        for stratum in plain:
+            add([o for o in pool if info[o["key"]][-1] == stratum], 1)
+        if len(chosen) == before:
             break
-        chosen.setdefault(o["key"], o)
     return [dict(o, stratum=info[o["key"]][0]) for o in chosen.values()]
 
 
@@ -106,21 +126,26 @@ def split(items: list[dict], seed: int = SEED) -> None:
             it["split"] = "heldout" if i < n_held else "dev"
 
 
-def build(config_path: str, target: int = 130) -> None:
+def build(config_paths: list[str], target: int = 140) -> None:
     if ITEMS.exists():
         raise SystemExit(f"{ITEMS.relative_to(ROOT)} exists; the gold set is built once. Delete it on purpose to rebuild.")
-    cfg = load_run_config(config_path)
-    outputs = load_outputs(cfg["run_id"])
-    grades = load_grades(cfg["run_id"], cfg["grader"]["name"])
+    outputs, grades = [], {}
+    for path in config_paths:
+        cfg = load_run_config(path)
+        outputs += load_outputs(cfg["run_id"])
+        grades.update(load_grades(cfg["run_id"], cfg["grader"]["name"]))
     items = sample(outputs, grades, target)
     split(items)
     with ITEMS.open("w", encoding="utf-8") as f:
         for i, o in enumerate(sorted(items, key=lambda x: x["key"])):
-            item = {"gold_id": f"g{i + 1:03d}", "output_key": o["key"], "run_id": o["run_id"], "set": o["set"],
+            item = {"gold_id": f"g{i + 1:03d}", "output_key": o["key"], "run_id": o["run_id"],
+                    "model_name": o.get("model_name", ""), "set": o["set"],
                     "scenario_id": o["scenario_id"], "task": o["task"], "text": o["text"],
                     "stratum": o["stratum"], "split": o["split"]}
             f.write(json.dumps(item, ensure_ascii=False) + "\n")
-    print(f"{len(items)} gold items: {Counter(o['split'] for o in items)}; strata: {Counter(o['stratum'] for o in items)}")
+    print(f"{len(items)} gold items: {dict(Counter(o['split'] for o in items))}")
+    print(f"models: {dict(Counter(o.get('model_name') for o in items))}")
+    print(f"strata: {dict(Counter(o['stratum'] for o in items))}")
 
 
 def load_items() -> list[dict]:
@@ -166,8 +191,8 @@ def _rubric_sha() -> str:
     return hashlib.sha256(RUBRIC.read_bytes()).hexdigest()
 
 
-def evaluate(config_path: str, split_name: str) -> None:
-    cfg = load_run_config(config_path)
+def evaluate(config_paths: list[str], split_name: str) -> None:
+    cfg = load_run_config(config_paths[0])
     if split_name == "heldout" and LOCK.exists():
         raise SystemExit(f"Held-out part was already evaluated ({LOCK.read_text().strip()}). It is used once only.")
     items = [it for it in load_items() if it["split"] == split_name]
@@ -175,7 +200,9 @@ def evaluate(config_path: str, split_name: str) -> None:
     unlabeled = [it["gold_id"] for it in items if it["gold_id"] not in labels]
     if unlabeled:
         raise SystemExit(f"{len(unlabeled)} {split_name} items not labeled yet: {', '.join(unlabeled[:10])} ...")
-    grades = load_grades(cfg["run_id"], cfg["grader"]["name"])
+    grades = {}
+    for run_id in {it["run_id"] for it in items}:
+        grades.update(load_grades(run_id, cfg["grader"]["name"]))
     pairs = [(labels[it["gold_id"]]["labels"], grades[it["output_key"]]["labels"]) for it in items]
     result = compare(pairs)
     out = GOLD_DIR / f"eval_{split_name}.json"
