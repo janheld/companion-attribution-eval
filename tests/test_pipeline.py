@@ -277,3 +277,33 @@ def test_grade_items_refuses_heldout_without_final():
     from cae import agree
     with pytest.raises(SystemExit, match="--final"):
         agree.grade_items("heldout")
+
+
+def test_batch_submit_and_collect_with_fake_client(tmp_path, monkeypatch):
+    from types import SimpleNamespace as NS
+    from cae import llm
+    monkeypatch.setattr(llm, "CACHE_DIR", tmp_path / "cache")
+    monkeypatch.setattr(llm.cost, "log_spend", lambda run_id, record: None)
+    created = []
+    msg = NS(id="m", model="claude-opus-5-5", stop_reason="end_turn", content=[NS(type="text", text='{"a": 1}')],
+             usage=NS(input_tokens=10, output_tokens=5, cache_read_input_tokens=0, cache_creation_input_tokens=0))
+
+    class Batches:
+        def create(self, requests):
+            created.append(requests)
+            return NS(id=f"b{len(created)}")
+
+        def retrieve(self, bid):
+            return NS(processing_status="ended", request_counts=NS(processing=0))
+
+        def results(self, bid):
+            return [NS(custom_id=r["custom_id"], result=NS(type="succeeded", message=msg)) for r in created[0]]
+
+    monkeypatch.setattr(llm, "client", lambda: NS(messages=NS(batches=Batches())))
+    reqs = [(f"{i:064x}", {"model": "claude-opus-5-5", "max_tokens": 10, "messages": []}) for i in range(3)]
+    assert llm.batch_submit(reqs, tmp_path / "run") == 3
+    assert llm.batch_submit(reqs, tmp_path / "run") == 0          # in flight: not sent twice
+    assert llm.batch_collect(tmp_path / "run", "t") is True
+    assert all(llm.get_cached(k)["mode"] == "batch" for k, _ in reqs)
+    assert llm.batch_submit(reqs, tmp_path / "run") == 0          # cached now
+    assert len(created) == 1 and created[0][0]["custom_id"] == reqs[0][0]

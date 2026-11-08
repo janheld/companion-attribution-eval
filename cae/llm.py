@@ -158,3 +158,70 @@ def call(params: dict, rep: int = 0, labels: dict | None = None, run_id: str = "
     put_cached(key, record)
     cost.log_spend(run_id, record)
     return record | {"from_cache": False}
+
+
+# --- Batch API ----------------------------------------------------------------
+# Used for grading the full run (half price, no latency measurement). Batches
+# are submitted once and their ids recorded in runs/<run_id>/batches.json, so a
+# later invocation collects the results instead of submitting again. Results go
+# into the same response cache as direct calls.
+
+BATCH_CHUNK = 2000   # requests per batch; well below the 100,000 / 256 MB limits
+
+
+def batch_request(key: str, params: dict) -> dict:
+    # The cache key (64 hex characters) is a valid custom_id and maps results back.
+    return {"custom_id": key, "params": params}
+
+
+def _batch_log(folder: Path) -> list[dict]:
+    path = folder / "batches.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+
+
+def _save_batch_log(folder: Path, log: list[dict]) -> None:
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "batches.json").write_text(json.dumps(log, indent=2) + "\n", encoding="utf-8")
+
+
+def batch_submit(requests: list[tuple[str, dict]], folder: Path) -> int:
+    """Submit requests that are neither cached nor already in a submitted batch."""
+    log = _batch_log(folder)
+    in_flight = {k for b in log if not b.get("collected") for k in b["keys"]}
+    todo = [(k, p) for k, p in requests if get_cached(k) is None and k not in in_flight]
+    for i in range(0, len(todo), BATCH_CHUNK):
+        chunk = todo[i:i + BATCH_CHUNK]
+        batch = client().messages.batches.create(requests=[batch_request(k, p) for k, p in chunk])
+        log.append({"id": batch.id, "keys": [k for k, _ in chunk],
+                    "submitted_at": datetime.now(timezone.utc).isoformat(), "collected": False})
+        _save_batch_log(folder, log)
+        print(f"  submitted batch {batch.id} with {len(chunk)} requests")
+    return len(todo)
+
+
+def batch_collect(folder: Path, run_id: str) -> bool:
+    """Collect ended batches into the cache. True when nothing is pending."""
+    log = _batch_log(folder)
+    pending = False
+    for entry in log:
+        if entry.get("collected"):
+            continue
+        batch = client().messages.batches.retrieve(entry["id"])
+        if batch.processing_status != "ended":
+            print(f"  batch {entry['id']}: {batch.processing_status}, {batch.request_counts.processing} processing")
+            pending = True
+            continue
+        errors = 0
+        for result in client().messages.batches.results(entry["id"]):
+            if result.result.type != "succeeded":
+                errors += 1      # left uncached: the next submit sends it again
+                continue
+            record = message_record(result.result.message, mode="batch")
+            record.update(key=result.custom_id, rep=0, labels={}, latency=None,
+                          created_at=datetime.now(timezone.utc).isoformat())
+            put_cached(result.custom_id, record)
+            cost.log_spend(run_id, record)
+        entry.update(collected=True, errors=errors)
+        _save_batch_log(folder, log)
+        print(f"  batch {entry['id']}: collected, {errors} not succeeded")
+    return not pending

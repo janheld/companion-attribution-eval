@@ -74,9 +74,20 @@ def grade(config_path: str, assume_yes: bool = False) -> None:
     outputs = load_outputs(cfg["run_id"])
     items = [(o, grade_params(scenarios[o["scenario_id"]], o, grader)) for o in outputs]
     missing = [(o, p) for o, p in items if llm.get_cached(llm.cache_key(p, 0, _labels(o))) is None]
-    est = grading_estimate(missing, grader, cfg)
     print(f"{len(items)} outputs to grade with {grader['model']} ({len(missing)} not yet cached)")
-    cost.check_budget(est, cfg["budget_usd"], assume_yes)
+    if grader.get("mode") == "batch":
+        folder = RUNS_DIR / cfg["run_id"] / "grade_batches"
+        in_flight = any(not b.get("collected") for b in llm._batch_log(folder))
+        if missing and not in_flight:
+            cost.check_budget(grading_estimate(missing, grader, cfg), cfg["budget_usd"], assume_yes)
+            llm.batch_submit([(llm.cache_key(p, 0, _labels(o)), p) for o, p in missing], folder)
+        if not llm.batch_collect(folder, f"{cfg['run_id']}-grade"):
+            raise SystemExit("Batches still running; run the same command again later to collect.")
+        missing = [(o, p) for o, p in items if llm.get_cached(llm.cache_key(p, 0, _labels(o))) is None]
+        if missing:
+            raise SystemExit(f"{len(missing)} requests failed in the batch; run the same command again to resubmit them.")
+    elif missing:
+        cost.check_budget(grading_estimate(missing, grader, cfg), cfg["budget_usd"], assume_yes)
 
     def one(item):
         o, p = item
@@ -95,18 +106,27 @@ def grade(config_path: str, assume_yes: bool = False) -> None:
     print(f"Wrote {len(rows)} grades to {path.relative_to(ROOT)}; {errors} errors; paid ${paid:.2f}")
 
 
-def grading_estimate(missing, grader, cfg) -> float:
+def grading_estimate(missing, grader, cfg, rubric_cached: bool | None = None) -> float:
     """Offline estimate: the rubric is the cached prefix (written once, then
-    read); the per-item part (context, conversation, output) is new input."""
+    read); the per-item part (context, conversation, output) is new input.
+    In a batch, cache hits are best effort, so the batch estimate assumes no
+    rubric cache at all (upper bound) unless rubric_cached is set."""
     if not missing:
         return 0.0
+    batch = grader.get("mode") == "batch"
+    if rubric_cached is None:
+        rubric_cached = not batch
     p = cost.price_for(grader["model"])
     cpt = cfg["estimate"]["chars_per_token"]
     rubric_tokens = len(RUBRIC.read_text(encoding="utf-8")) / cpt
     item_tokens = sum(len(pp["messages"][0]["content"]) / cpt for _, pp in missing)
     out = len(missing) * cfg["estimate"]["grade_output_tokens"]
-    return round((rubric_tokens * p["cache_write"] + rubric_tokens * (len(missing) - 1) * p["cache_read"]
-                  + item_tokens * p["input"] + out * p["output"]) / 1e6, 4)
+    if rubric_cached:
+        rubric_cost = rubric_tokens * p["cache_write"] + rubric_tokens * (len(missing) - 1) * p["cache_read"]
+    else:
+        rubric_cost = rubric_tokens * len(missing) * p["input"]
+    total = (rubric_cost + item_tokens * p["input"] + out * p["output"]) / 1e6
+    return round(total * (cost.prices()["batch_discount"] if batch else 1), 4)
 
 
 def load_grades(run_id: str, grader_name: str) -> dict:

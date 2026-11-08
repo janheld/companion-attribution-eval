@@ -42,7 +42,9 @@ def jobs(cfg: dict, scenarios: list[dict]) -> list[dict]:
                 if "response" in cfg["tasks"]:
                     out += [{"model": model, "task": "response", "variant": v, "scenario": s, "rep": rep}
                             for v in cfg["prompt_variants"]]
-                if "summary" in cfg["tasks"]:
+                # Contact moments are measured in replies only (approved plan),
+                # so their summaries can be skipped by config.
+                if "summary" in cfg["tasks"] and s["condition"] not in cfg.get("summary_skip_conditions", []):
                     out.append({"model": model, "task": "summary", "variant": f"summarizer_{cfg['summarizer']}",
                                 "scenario": s, "rep": rep})
     for job in out:

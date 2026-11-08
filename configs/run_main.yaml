@@ -1,0 +1,35 @@
+# First run on the main set (the evaluation set; H1 to H4).
+# Replies and summaries by direct calls (latency and tokens are recorded for
+# every call); grading through the Batch API at half price.
+run_id: first_main
+set: main
+mode: direct
+concurrency: 6
+budget_usd: 70         # hard stop per step (run, grading) of this config
+repetitions: 3
+prompt_variants: [neutral, companion_no_flag, companion_may_flag]
+tasks: [response, summary]
+summarizer: standard
+summary_skip_conditions: [contact]   # contact is measured in replies only
+models:
+  - name: haiku-4-5
+    model: claude-haiku-4-5
+    settings: {thinking: "off", max_tokens: 1024}
+  - name: haiku-5-5
+    model: claude-haiku-5-5
+    settings: {thinking: "off", max_tokens: 1024}
+  - name: sonnet-5-5
+    model: claude-sonnet-5-5
+    settings: {thinking: adaptive, effort: low, max_tokens: 2048}
+grader:
+  name: opus-5-5
+  model: claude-opus-5-5
+  mode: batch
+  settings: {thinking: adaptive, effort: low, max_tokens: 4096}
+# Offline estimate, calibrated on the dry run (Haiku 4.5: 68 output tokens per
+# reply; Sonnet 5.5: about 300 including thinking).
+estimate:
+  chars_per_token: 2.8
+  response_output_tokens: 200
+  summary_output_tokens: 400
+  grade_output_tokens: 450
