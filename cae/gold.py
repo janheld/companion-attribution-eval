@@ -233,8 +233,25 @@ pre{white-space:pre-wrap;background:#fff;border:1px solid #ddd;padding:10px;font
 fieldset{margin:8px 0;border:1px solid #ccc}label{display:inline-block;margin-right:14px}
 button{padding:6px 14px}a{color:#2457a6}.done{color:#1a7f37}"""
 
-DEFAULTS = {"attribution": "ignores", "escalation": "none", "contact": "not_applicable",
-            "recovery": "not_applicable"}
+# No field is preselected: a default would anchor the author on the most
+# common value, which is also the grader's most common answer, and inflate
+# agreement on the held-out part. Every field, including not_applicable and
+# false, has to be chosen actively; the server refuses incomplete labels.
+FLAG_VALUES = ["true", "false"]
+
+# Order of items for this labeling session: shuffled anew at every server
+# start, so development and held-out items never come in blocks.
+SESSION_ORDER: list[str] = []
+
+
+def _ordered(items: list[dict]) -> list[dict]:
+    rank = {g: i for i, g in enumerate(SESSION_ORDER)}
+    return sorted(items, key=lambda it: rank.get(it["gold_id"], len(rank)))
+
+
+def _next_unlabeled() -> str | None:
+    labels = author_labels()
+    return next((it["gold_id"] for it in _ordered(load_items()) if it["gold_id"] not in labels), None)
 
 
 def _scenarios() -> dict:
@@ -250,31 +267,32 @@ def _page(title: str, body: str) -> bytes:
 
 
 def list_page() -> bytes:
-    items, labels = load_items(), author_labels()
+    items, labels = _ordered(load_items()), author_labels()
     rows = "".join(f"<li><a href='/g/{it['gold_id']}'>{it['gold_id']}</a> "
                    f"{'<span class=done>✓</span>' if it['gold_id'] in labels else ''}</li>" for it in items)
-    todo = next((it["gold_id"] for it in items if it["gold_id"] not in labels), None)
+    todo = _next_unlabeled()
     nxt = f"<p><a href='/g/{todo}'>next unlabeled: {todo}</a></p>" if todo else "<p>All labeled.</p>"
     return _page("Gold labeling", f"<h1>Gold set</h1><p>{len(labels)} of {len(items)} labeled.</p>{nxt}<ul>{rows}</ul>")
 
 
-def item_page(gold_id: str) -> bytes:
+def item_page(gold_id: str, error: str = "") -> bytes:
     items = {it["gold_id"]: it for it in load_items()}
     it = items[gold_id]
     s = _scenarios()[(it["set"], it["scenario_id"])]
     current = author_labels().get(gold_id, {}).get("labels", {})
     kind = "Antwort (reply)" if it["task"] == "response" else "Zusammenfassung (summary)"
     fields = []
-    for field, values in LABELS.items():
-        chosen = current.get(field, DEFAULTS[field])
-        radios = "".join(f"<label><input type=radio name={field} value={v} {'checked' if v == chosen else ''}>{v}</label>"
-                         for v in values)
+    # Only a label saved earlier for this item is shown again; nothing else is checked.
+    options = {**LABELS, **{flag: FLAG_VALUES for flag in FLAGS}}
+    for field, values in options.items():
+        chosen = current.get(field)
+        chosen = str(chosen).lower() if isinstance(chosen, bool) else chosen
+        radios = "".join(f"<label><input type=radio name={field} value={v} required "
+                         f"{'checked' if v == chosen else ''}>{v}</label>" for v in values)
         fields.append(f"<fieldset><legend>{field}</legend>{radios}</fieldset>")
-    for flag in FLAGS:
-        fields.append(f"<fieldset><legend>{flag}</legend><label><input type=checkbox name={flag} value=1 "
-                      f"{'checked' if current.get(flag) else ''}>true</label></fieldset>")
     note = html.escape(author_labels().get(gold_id, {}).get("note", ""))
-    body = f"""<p><a href='/'>list</a></p><h1>{gold_id}: {kind}</h1>
+    err = f"<p style='color:#c0392b'><b>{html.escape(error)}</b></p>" if error else ""
+    body = f"""<p><a href='/'>list</a></p><h1>{gold_id}: {kind}</h1>{err}
 <p>Rubric: prompts/grader_rubric.en.md. Condition, model, prompt variant and grader labels are hidden.</p>
 <h2>Output</h2><div class=out>{html.escape(it['text'])}</div>
 <form method=post action='/g/{gold_id}'>{''.join(fields)}
@@ -285,16 +303,26 @@ def item_page(gold_id: str) -> bytes:
     return _page(gold_id, body)
 
 
-def save_label(gold_id: str, form: dict) -> None:
-    labels = {field: form.get(field, [DEFAULTS[field]])[0] for field in LABELS}
-    labels.update({flag: flag in form for flag in FLAGS})
+def save_label(gold_id: str, form: dict) -> list[str]:
+    """Save a complete label; return the missing fields (nothing saved) otherwise."""
+    missing = [f for f in [*LABELS, *FLAGS] if not form.get(f)]
+    bad = [f for f in LABELS if form.get(f) and form[f][0] not in LABELS[f]] + \
+          [f for f in FLAGS if form.get(f) and form[f][0] not in FLAG_VALUES]
+    if missing or bad:
+        return missing + bad
+    labels = {field: form[field][0] for field in LABELS}
+    labels.update({flag: form[flag][0] == "true" for flag in FLAGS})
     row = {"gold_id": gold_id, "labels": labels, "note": form.get("note", [""])[0],
            "labeled_at": datetime.now(timezone.utc).isoformat()}
     with AUTHOR_LABELS.open("a", encoding="utf-8") as f:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    return []
 
 
 def serve(port: int = 8766) -> None:
+    SESSION_ORDER[:] = [it["gold_id"] for it in load_items()]
+    random.SystemRandom().shuffle(SESSION_ORDER)
+
     class Handler(BaseHTTPRequestHandler):
         def _send(self, body: bytes, status: int = 200):
             self.send_response(status)
@@ -313,9 +341,10 @@ def serve(port: int = 8766) -> None:
         def do_POST(self):
             gold_id = urlparse(self.path).path[3:]
             length = int(self.headers.get("Content-Length", 0))
-            save_label(gold_id, parse_qs(self.rfile.read(length).decode("utf-8")))
-            items, labels = load_items(), author_labels()
-            todo = next((it["gold_id"] for it in items if it["gold_id"] not in labels), None)
+            missing = save_label(gold_id, parse_qs(self.rfile.read(length).decode("utf-8")))
+            if missing:
+                return self._send(item_page(gold_id, f"Nicht gespeichert, bitte noch setzen: {', '.join(missing)}"), 400)
+            todo = _next_unlabeled()
             self.send_response(303)
             self.send_header("Location", f"/g/{todo}" if todo else "/")
             self.end_headers()

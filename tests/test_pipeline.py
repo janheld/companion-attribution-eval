@@ -161,10 +161,15 @@ def test_label_page_never_shows_grader_labels(tmp_path, monkeypatch):
     page = gold.item_page("g001").decode("utf-8").split("</style>", 1)[1]
     for leak in ("stratum", "attribution:blames_user", "tv_bleed", "dev", "heldout"):
         assert leak not in page.replace("tv_bleed_001", "")
-    gold.save_label("g001", {"attribution": ["flags_channel"], "content_misattributed": ["1"]})
+    assert "checked" not in page  # no preselected value anywhere
+    assert gold.save_label("g001", {"attribution": ["flags_channel"], "content_misattributed": ["true"]})
+    assert gold.author_labels() == {}  # incomplete labels are refused, nothing saved
+    full = {"attribution": ["flags_channel"], "escalation": ["none"], "contact": ["not_applicable"],
+            "recovery": ["not_applicable"], "content_misattributed": ["true"], "claims_unavailable_action": ["false"]}
+    assert gold.save_label("g001", full) == []
     saved = gold.author_labels()["g001"]["labels"]
     assert saved["attribution"] == "flags_channel" and saved["content_misattributed"] is True
-    assert saved["escalation"] == "none"
+    assert saved["claims_unavailable_action"] is False
 
 
 # --- accumulation ---------------------------------------------------------------
