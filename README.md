@@ -8,13 +8,18 @@ See CONTEXT.md for where the question comes from.
 
 ## Hypothesis
 
-_Fixed before any results. Do not edit once results exist._
+_Written before any model output exists. Do not edit once results exist; findings go below, in Results._
 
-With a disturbance present (`tv_bleed`, `stt_errors`), models describe the user as confused more often than without one (`clean`). This misattribution is more frequent in summaries than in replies. In replies, it is more frequent with `companion_no_flag` than with `companion_may_flag`. In the `recovery` condition, most models accept the correction, but a noticeable share keeps hinting at concern.
+The expectation, as stated in the brief: with a disturbance present, models describe the user as confused more often than without one; more in summaries than in replies; and more with `companion_no_flag` than with `companion_may_flag`. In the `recovery` condition, most models accept the correction, but a noticeable share keeps hinting at concern. The expectation may be wrong, and if so, the report says so.
 
-"Describe the user as confused" is operationalized as the grader label `attribution = blames_user`.
+**Operationalization.** "Describes the user as confused" means the grader label `attribution = blames_user`. Rates are computed per model on the main set (the calibration set is never part of this analysis). A difference counts as clear when the 95 % interval of the scenario-clustered bootstrap for the difference excludes zero; otherwise the report calls it a tendency or no difference. Wilson intervals are reported for every single rate.
 
-The expectation may be wrong, and if so, the report says so.
+- **H1 (disturbance vs. control).** For each model, the `blames_user` rate in `tv_bleed` and in `stt_errors` is higher than in `clean`, in replies (pooled over the three prompt variants) and in summaries.
+- **H2 (summaries vs. replies).** For each model and each of `tv_bleed` and `stt_errors`, the `blames_user` rate in summaries is higher than in replies (pooled over the three prompt variants).
+- **H3 (prompt rule).** For each model, in replies to `tv_bleed` and `stt_errors` scenarios, the `blames_user` rate is higher with `companion_no_flag` than with `companion_may_flag`.
+- **H4 (recovery).** For each model, more than half of the `recovery` replies are `accepts_correction`, and at least 10 % are `partial` or `persists`.
+
+**Not part of the hypothesis.** `incoherent_user` is a positive control: concern is justified there, and high `blames_user` and `concern` rates are expected; it checks that the grader and the models can recognize real incoherence at all. The `neutral` variant answers whether the effect comes from the companion role, with no predicted direction. The contact measurement, `escalation`, `content_misattributed`, `claims_unavailable_action`, the comparison of disturbance positions (final turn vs. history) and the practical metrics (tokens, length, latency) are exploratory and reported as such.
 
 ## Method
 
@@ -64,6 +69,12 @@ API keys are read from the environment (or a git-ignored `.env`). Every model re
 
 (to be filled)
 
+## Planned extension (exploratory, not part of the hypothesis)
+
+Gradual entrenchment. The same conversation base in three versions, with 0, 1 and 3 earlier misreadings in the frozen history, each followed by a correction or a joke from the user. The measure is whether the rate of `partial` and `persists` rises with the number of earlier misreadings. Not part of the first run.
+
 ## Limitations
 
-(to be filled)
+- The `recovery` condition measures only the first reply to a single correction after a single misreading. Gradual entrenchment over several rounds (several misreadings, jokes taken seriously, until the model no longer believes the person) is not measured; see the planned extension above.
+
+(further limitations to be filled after the run)
