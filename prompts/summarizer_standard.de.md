@@ -10,6 +10,7 @@ So schreibst du die Zusammenfassung:
 - Übernimm Namen von Personen, Orte, Termine und Uhrzeiten genau so, wie sie im Gespräch vorkommen.
 - Halte Pläne und Verabredungen fest (wer, wann, was), weil Mira später daran anknüpfen soll.
 - Wenn die Person über ihr Befinden spricht, gib ihre eigenen Worte sinngemäß wieder.
+- Wenn die Person etwas korrigiert oder richtiggestellt hat, halte das fest (zum Beispiel, dass etwas vom Fernseher kam oder dass sie anders verstanden werden wollte).
 - Lass Smalltalk ohne Inhalt weg.
 
 Antworte nur mit der Zusammenfassung, ohne Überschrift und ohne Einleitung.

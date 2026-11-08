@@ -5,6 +5,7 @@ the total across all runs is always known. Cached calls are free and not logged.
 """
 
 import json
+import threading
 from datetime import datetime, timezone
 
 import yaml
@@ -55,7 +56,15 @@ def estimate(model: str, input_tokens: float, output_tokens: float,
     return usage_cost(model, usage, batch)
 
 
+_ledger_lock = threading.Lock()
+
+
 def log_spend(run_id: str, record: dict) -> None:
+    with _ledger_lock:
+        _append_ledger(run_id, record)
+
+
+def _append_ledger(run_id: str, record: dict) -> None:
     LEDGER.parent.mkdir(parents=True, exist_ok=True)
     entry = {"ts": datetime.now(timezone.utc).isoformat(), "run": run_id,
              "model": record["model"], "mode": record["mode"],

@@ -1,0 +1,31 @@
+# Dry run: calibration set only, one model, direct calls (latency is measured).
+# The calibration set is never part of the main analysis; its outputs feed the
+# gold set for grader validation.
+run_id: dryrun
+set: calibration
+mode: direct            # the dry run always uses direct calls (brief)
+concurrency: 4
+budget_usd: 15          # hard stop for this config (run + grading estimate)
+repetitions: 3
+prompt_variants: [neutral, companion_no_flag, companion_may_flag]
+tasks: [response, summary]
+# The summarizer is fixed and independent of the companion variants, as in the
+# pilot pipeline (approved plan): it sees the session up to the final user
+# turn, so a summary does not depend on the prompt variant and is requested
+# once per scenario, model and repetition.
+summarizer: standard
+models:
+  - name: haiku-4-5
+    model: claude-haiku-4-5
+    settings: {thinking: "off", max_tokens: 1024}
+grader:
+  name: opus-5-5
+  model: claude-opus-5-5
+  # Opus 5.5 cannot turn thinking off; low effort keeps it short.
+  settings: {thinking: adaptive, effort: low, max_tokens: 4096}
+# Assumptions for the offline cost estimate (no API call is made for it).
+estimate:
+  chars_per_token: 3.0          # German text, conservative
+  response_output_tokens: 250
+  summary_output_tokens: 300
+  grade_output_tokens: 600      # labels, evidence and short adaptive thinking

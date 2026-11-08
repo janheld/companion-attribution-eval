@@ -39,6 +39,23 @@ def main() -> None:
     d.add_argument("--set", required=True)
     d.add_argument("--ids", nargs="*")
 
+    rn = sub.add_parser("run", help="run the models of a run config on its frozen set")
+    rn.add_argument("--config", required=True)
+    rn.add_argument("--yes", action="store_true", help="skip the cost confirmation prompt")
+
+    gr = sub.add_parser("grade", help="grade the outputs of a run")
+    gr.add_argument("--config", required=True)
+    gr.add_argument("--yes", action="store_true")
+
+    co = sub.add_parser("cost", help="offline cost estimate for a run config (no API calls)")
+    co.add_argument("--config", required=True)
+
+    gd = sub.add_parser("gold", help="gold set: build | label | eval")
+    gd.add_argument("action", choices=["build", "label", "eval"])
+    gd.add_argument("--config", default="configs/dryrun.yaml")
+    gd.add_argument("--split", choices=["dev", "heldout"], default="dev")
+    gd.add_argument("--port", type=int, default=8766)
+
     sub.add_parser("spent", help="show total actual API spend from the ledger")
 
     args = p.parse_args()
@@ -93,6 +110,30 @@ def main() -> None:
     elif args.cmd == "diff":
         from .diff import print_diffs
         print_diffs(args.set, args.ids)
+    elif args.cmd == "run":
+        from .run import run
+        run(args.config, args.yes)
+    elif args.cmd == "grade":
+        from .grade import grade
+        grade(args.config, args.yes)
+    elif args.cmd == "cost":
+        from .cost import total_spent
+        from .freeze import load_frozen
+        from .grade import estimate_before_run
+        from .run import estimate, jobs, load_run_config
+        cfg = load_run_config(args.config)
+        job_list = jobs(cfg, load_frozen(cfg["set"]))
+        run_est, grade_est = estimate(cfg, job_list), estimate_before_run(cfg, job_list)
+        print(f"{len(job_list)} calls; run ${run_est:.2f}, grading ${grade_est:.2f}, together ${run_est + grade_est:.2f}")
+        print(f"spent so far ${total_spent():.2f}; after this config ${total_spent() + run_est + grade_est:.2f}")
+    elif args.cmd == "gold":
+        from . import gold
+        if args.action == "build":
+            gold.build(args.config)
+        elif args.action == "label":
+            gold.serve(args.port)
+        else:
+            gold.evaluate(args.config, args.split)
     elif args.cmd == "spent":
         from .cost import total_spent
         print(f"${total_spent():.2f}")
