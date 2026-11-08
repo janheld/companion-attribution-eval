@@ -73,6 +73,18 @@ API keys are read from the environment (or a git-ignored `.env`). Every model re
 
 Gradual entrenchment. The same conversation base in three versions, with 0, 1 and 3 earlier misreadings in the frozen history, each followed by a correction or a joke from the user. The measure is whether the rate of `partial` and `persists` rises with the number of earlier misreadings. Not part of the first run.
 
+## Exploratory: accumulation (added after the dry run, not pre-registered)
+
+_Added on 2026-11-08, after the dry run on the calibration set and before any scenario for it was written. Not part of the hypothesis; results are reported in a separate section and do not enter the tests of H1 to H4._
+
+**What the dry run showed.** On the 24 calibration scenarios (Claude Haiku 4.5, three prompt variants, three repetitions, plus a sample of Claude Haiku 5.5 and Claude Sonnet 5.5; 480 outputs, graded by Claude Opus 5.5), not a single reply or summary in `tv_bleed` or `stt_errors` described the user as confused. The few `blames_user` cases (9 of 480) came from `recovery` summaries and `incoherent_user`. The models mostly answered the plausible part and passed over the disturbance. They also passed over real incoherence: in the positive control, Haiku 4.5 asked about it in 7 of 36 replies, all in one scenario, and summaries recorded false statements of incoherent users as facts. A keyword search and a blind look at 20 randomly drawn `ignores` outputs found no grader misses, so the low rate is not a grading artifact.
+
+**Why this condition.** In the pilot, the misattribution probably built up over time: several disturbances in one session, and summaries that already described the person as muddled and then became part of the context of later sessions. Pilot transcripts of that process do not exist. The main conditions contain one disturbance and a clean memory, so they may underestimate the effect. This condition varies exactly these two factors.
+
+**Design.** 2 × 2 within each base conversation: (a) one disturbance vs. three disturbances spread over the history; (b) a neutral memory vs. a memory in which one earlier summary already describes the person as confused ("wirkte zeitweise durcheinander, sprang zwischen Themen"). Apart from the varied factor, the four versions are identical word for word. 12 base conversations (6 `tv_bleed`, 6 `stt_errors`) give 48 scenarios; 4 clean conversations in both memory versions (8 scenarios) check whether a contaminated memory alone changes the output. 56 scenarios in their own set (`accumulation`), with their own review and their own frozen manifest. Run with the three models, three prompt variants and three repetitions of the first run; grading through the Batch API.
+
+**Measures.** `blames_user` rate for three vs. one disturbance, for contaminated vs. neutral memory, and their interaction, separately for replies and summaries, with the same scenario-clustered bootstrap as the main analysis.
+
 ## Limitations
 
 - The `recovery` condition measures only the first reply to a single correction after a single misreading. Gradual entrenchment over several rounds (several misreadings, jokes taken seriously, until the model no longer believes the person) is not measured; see the planned extension above.
