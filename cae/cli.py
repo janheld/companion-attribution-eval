@@ -50,8 +50,10 @@ def main() -> None:
     co = sub.add_parser("cost", help="offline cost estimate for a run config (no API calls)")
     co.add_argument("--config", required=True)
 
-    gd = sub.add_parser("gold", help="gold set: build | label | eval")
-    gd.add_argument("action", choices=["build", "label", "eval"])
+    gd = sub.add_parser("gold", help="gold set: build | label | grade | agree | estimate")
+    gd.add_argument("action", choices=["build", "label", "grade", "agree", "estimate"])
+    gd.add_argument("--final", action="store_true", help="the one held-out evaluation (agree only)")
+    gd.add_argument("--yes", action="store_true")
     gd.add_argument("--config", nargs="+", default=["configs/dryrun.yaml"],
                     help="run configs whose outputs feed the gold set (build); the first one for eval")
     gd.add_argument("--split", choices=["dev", "heldout"], default="dev")
@@ -143,12 +145,22 @@ def main() -> None:
         print(f"spent so far ${total_spent():.2f}; after this config ${total_spent() + run_est + grade_est:.2f}")
     elif args.cmd == "gold":
         from . import gold
+        from . import agree
         if args.action == "build":
             gold.build(args.config)
         elif args.action == "label":
             gold.serve(args.port)
+        elif args.action == "grade":
+            agree.grade_items(args.split, args.yes)
+        elif args.action == "estimate":
+            n, est = agree.estimate(args.split)
+            print(f"{args.split}: {n} items not graded with the current rubric; estimate ${est:.2f}")
+        elif args.split == "heldout":
+            if not args.final:
+                raise SystemExit("Held-out needs --final; it is evaluated exactly once.")
+            agree.agree_final(args.yes)
         else:
-            gold.evaluate(args.config, args.split)
+            agree.agree("dev", args.yes)
     elif args.cmd == "handwritten":
         from .run import import_handwritten
         import_handwritten(args.config)

@@ -219,3 +219,61 @@ def test_strict_context_check_catches_string_notes():
     s = make_scenario()
     s["content"]["user_context"]["caregiver_notes"] = ["Tochter: bitte nichts raten"]
     assert any("caregiver_notes[0]" in p for p in schema.validate(s))
+
+
+# --- agreement (synthetic labels only, temporary directory) ---------------------
+
+def _synthetic_gold(tmp_path, monkeypatch):
+    from cae import agree
+    items = [{"gold_id": f"g{i}", "output_key": f"k{i}", "set": "calibration", "scenario_id": "x",
+              "task": "response" if i % 2 else "summary", "text": "t", "split": "dev" if i < 6 else "heldout"}
+             for i in range(10)]
+    labels = lambda att: {"attribution": att, "escalation": "none", "contact": "not_applicable",
+                          "recovery": "not_applicable", "content_misattributed": False,
+                          "claims_unavailable_action": False}
+    author = {it["gold_id"]: {"labels": labels("blames_user" if i < 3 else "ignores"), "note": "n"}
+              for i, it in enumerate(items)}
+    grades = {it["gold_id"]: {"labels": {**labels("blames_user" if i < 2 else "ignores"), "evidence": "e"}}
+              for i, it in enumerate(items)}
+    monkeypatch.setattr(agree.gold, "load_items", lambda: items)
+    monkeypatch.setattr(agree.gold, "author_labels", lambda: author)
+    monkeypatch.setattr(agree.gold, "LOCK", tmp_path / "heldout.lock")
+    monkeypatch.setattr(agree, "EVAL_DIR", tmp_path / "eval")
+    monkeypatch.setattr(agree, "grade_items", lambda split, yes=False, final=False: grades)
+    monkeypatch.setattr(agree, "_scenarios", lambda items: {("calibration", "x"): make_scenario()})
+    return agree, items, author, grades
+
+
+def test_agree_dev_reports_fields_and_disagreements(tmp_path, monkeypatch):
+    agree, items, author, grades = _synthetic_gold(tmp_path, monkeypatch)
+    r = agree.agree("dev")
+    assert r["attribution"]["n"] == 6 and abs(r["attribution"]["agreement"] - 5 / 6) < 1e-9
+    assert r["blames_user_by_task"]["summary"]["fn"] == 1   # g2 is a summary the grader missed
+    page = next((tmp_path / "eval").glob("dev_*/disagreements.html")).read_text()
+    assert "g2" in page and "Begründung" in page and "g1" not in page.split("<h1>")[1].split("g2")[0]
+
+
+def test_agree_refuses_heldout_without_final(tmp_path, monkeypatch):
+    agree, *_ = _synthetic_gold(tmp_path, monkeypatch)
+    with pytest.raises(SystemExit, match="development part"):
+        agree.agree("heldout")
+
+
+def test_agree_final_runs_once_and_needs_committed_rubric(tmp_path, monkeypatch):
+    agree, *_ = _synthetic_gold(tmp_path, monkeypatch)
+    monkeypatch.setattr(agree, "_rubric_commit", lambda: (_ for _ in ()).throw(SystemExit("Commit the rubric first")))
+    with pytest.raises(SystemExit, match="Commit the rubric"):
+        agree.agree_final()
+    assert not (tmp_path / "heldout.lock").exists()
+    monkeypatch.setattr(agree, "_rubric_commit", lambda: "abc123")
+    agree.agree_final()
+    record = json.loads((tmp_path / "eval" / "heldout_final.json").read_text())
+    assert record["rubric_commit"] == "abc123" and len(record["rubric_sha256"]) == 64
+    with pytest.raises(SystemExit, match="once only"):
+        agree.agree_final()
+
+
+def test_grade_items_refuses_heldout_without_final():
+    from cae import agree
+    with pytest.raises(SystemExit, match="--final"):
+        agree.grade_items("heldout")
