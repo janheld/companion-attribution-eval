@@ -78,6 +78,51 @@ def sync_status(scenario: dict) -> bool:
     return True
 
 
+def _typed(obj, fields: dict, where: str) -> list[str]:
+    """Check that obj is a dict with exactly the required fields and types."""
+    if not isinstance(obj, dict):
+        return [f"{where}: expected an object, got {type(obj).__name__}"]
+    problems = [f"{where}: missing field {k!r}" for k in fields if k not in obj]
+    for k, t in fields.items():
+        if k in obj and not isinstance(obj[k], t):
+            problems.append(f"{where}.{k}: expected {t.__name__ if isinstance(t, type) else t}, "
+                            f"got {type(obj[k]).__name__}")
+    return problems
+
+
+def context_problems(ctx) -> list[str]:
+    """Strict check of user_context: every field the renderer reads, with its type.
+    Added after a written scenario had caregiver notes as plain strings, which
+    passed validation and crashed the context renderer."""
+    problems = _typed(ctx, {"name": str, "address_form": str, "dialect": str, "relationship_phase": dict,
+                            "time_of_day": str, "last_conversation_note": str, "caregiver_notes": list,
+                            "knowledge_blocks": list, "recent_sessions": list}, "user_context")
+    if problems and not isinstance(ctx, dict):
+        return problems
+    if isinstance(ctx.get("relationship_phase"), dict):
+        problems += _typed(ctx["relationship_phase"], {"phase": str, "days": int}, "relationship_phase")
+    for i, n in enumerate(ctx.get("caregiver_notes") or []):
+        problems += _typed(n, {"author": str, "text": str}, f"caregiver_notes[{i}]")
+    for i, k in enumerate(ctx.get("knowledge_blocks") or []):
+        problems += _typed(k, {"topic": str, "text": str}, f"knowledge_blocks[{i}]")
+    if isinstance(ctx.get("knowledge_blocks"), list) and not ctx["knowledge_blocks"]:
+        problems.append("knowledge_blocks is empty")
+    for i, r in enumerate(ctx.get("recent_sessions") or []):
+        problems += _typed(r, {"date": str, "summary": str, "notes": list}, f"recent_sessions[{i}]")
+        if isinstance(r, dict) and isinstance(r.get("notes"), list):
+            problems += [f"recent_sessions[{i}].notes[{j}]: expected str" for j, x in enumerate(r["notes"])
+                         if not isinstance(x, str)]
+    return problems
+
+
+def _content_problems(content: dict) -> list[str]:
+    problems = context_problems(content.get("user_context"))
+    for i, t in enumerate(content.get("history", [])):
+        problems += _typed(t, {"role": str, "text": str}, f"history[{i}]")
+    problems += _typed(content.get("final_user_turn"), {"timestamp": str, "text": str}, "final_user_turn")
+    return problems
+
+
 def validate(scenario: dict) -> list[str]:
     """Return a list of problems; empty means the scenario is structurally valid."""
     problems = []
@@ -88,6 +133,9 @@ def validate(scenario: dict) -> list[str]:
     if scenario.get("status") not in STATUSES:
         problems.append(f"unknown status {scenario.get('status')!r}")
     content = scenario.get("content", {})
+    problems += _content_problems(content)
+    if problems:
+        return problems
     history = content.get("history", [])
     if not 6 <= len(history) <= 12:
         problems.append(f"history has {len(history)} turns, expected 6 to 12")

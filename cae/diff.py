@@ -32,7 +32,8 @@ def fields(scenario: dict) -> dict[str, str]:
            "Phase": f"{ctx['relationship_phase']['phase']}, Tag {ctx['relationship_phase']['days']}",
            "Hinweis": ctx.get("last_conversation_note") or ""}
     for i, n in enumerate(ctx.get("caregiver_notes", [])):
-        out[f"Notiz {i}"] = f"{n['author']}: {n['text']}"
+        # Older drafts may hold a note as a plain string; show it as it was.
+        out[f"Notiz {i}"] = f"{n['author']}: {n['text']}" if isinstance(n, dict) else str(n)
     for k in ctx["knowledge_blocks"]:
         out[f"Wissen {k['topic']}"] = k["text"]
     for i, s in enumerate(ctx["recent_sessions"]):
@@ -97,14 +98,15 @@ def text_report(old: dict, new: dict) -> str:
     return "\n".join(lines)
 
 
-def html_report(old: dict, new: dict) -> str:
+def html_report(old: dict, new: dict, heading: str | None = None) -> str:
     rows = []
     for label, ops in changed_fields(old, new):
         parts = "".join(html.escape(t) if op == " " else
                         f"<del>{html.escape(t)}</del>" if op == "-" else f"<ins>{html.escape(t)}</ins>"
                         for op, t in _context(ops))
         rows.append(f"<tr><td><b>{html.escape(label)}</b></td><td>{parts}</td></tr>")
-    return (f"<p><b>Kommentar zu v{old['version']}:</b> {html.escape(old['review'].get('comment', ''))}</p>"
+    head = heading or f"<b>Kommentar zu v{old['version']}:</b> {html.escape(old['review'].get('comment', ''))}"
+    return (f"<p>{head}</p>"
             f"<table>{''.join(rows) or '<tr><td>keine Textänderung</td></tr>'}</table>")
 
 
