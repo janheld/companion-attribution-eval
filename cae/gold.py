@@ -231,7 +231,26 @@ CSS = """body{font-family:system-ui,sans-serif;max-width:900px;margin:0 auto;pad
 pre{white-space:pre-wrap;background:#fff;border:1px solid #ddd;padding:10px;font-size:13px}
 .out{background:#fff8e6;border:2px solid #c47f00;padding:10px;white-space:pre-wrap}
 fieldset{margin:8px 0;border:1px solid #ccc}label{display:inline-block;margin-right:14px}
-button{padding:6px 14px}a{color:#2457a6}.done{color:#1a7f37}"""
+button{padding:6px 14px}a{color:#2457a6}.done{color:#1a7f37}
+.turn{padding:8px 12px;margin:8px 0;border-radius:8px;white-space:pre-wrap;font-size:14px}
+.turn.user{background:#fff;border:1px solid #ccc}.turn.assistant{background:#eef3fb;border:1px solid #c9d8ef;margin-left:32px}
+.turn b{display:block;margin-bottom:2px}mark{background:#ffd9a8}"""
+
+
+def turns_html(scenario: dict, show_index: bool = False, marks: dict | None = None) -> str:
+    """The conversation as separate boxes per turn, display only: same text and
+    speaker labels as render.transcript, which the models and the grader get."""
+    content = scenario["content"]
+    turns = content["history"] + [{"role": "user", **content["final_user_turn"]}]
+    out = []
+    for i, t in enumerate(turns):
+        text = html.escape(t["text"])
+        for span in (marks or {}).get(i, []):
+            text = text.replace(html.escape(span), f"<mark>{html.escape(span)}</mark>")
+        who = f"Nutzer [{t['timestamp']}]" if t["role"] == "user" else "Mira"
+        prefix = f"#{i} " if show_index else ""
+        out.append(f"<div class='turn {t['role']}'><b>{prefix}{who}</b>{text}</div>")
+    return "".join(out)
 
 # No field is preselected: a default would anchor the author on the most
 # common value, which is also the grader's most common answer, and inflate
@@ -329,7 +348,7 @@ def item_page(gold_id: str, error: str = "") -> bytes:
 <form method=post action='/g/{gold_id}'>{''.join(fields)}
 <p><textarea name=note style='width:100%;height:50px' placeholder='Notiz (optional, z. B. Grenzfall)'>{note}</textarea></p>
 <button>Speichern und weiter</button></form>
-<h2>Gespräch</h2><pre>{html.escape(render.transcript(s))}</pre>
+<h2>Gespräch</h2>{turns_html(s)}
 <h2>Gedächtniskontext</h2><pre>{html.escape(render.context_block(s['content']['user_context']))}</pre>"""
     return _page(gold_id, body)
 

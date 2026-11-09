@@ -89,16 +89,7 @@ def _highlighted_transcript(scenario: dict) -> str:
     spans = {}
     for d in scenario["annotation"].get("disturbances", []):
         spans.setdefault(d["turn_index"], []).append(d["span"])
-    lines = []
-    content = scenario["content"]
-    turns = content["history"] + [{"role": "user", **content["final_user_turn"]}]
-    for i, t in enumerate(turns):
-        text = html.escape(t["text"])
-        for span in spans.get(i, []):
-            text = text.replace(html.escape(span), f"<mark>{html.escape(span)}</mark>")
-        who = f"Nutzer [{t.get('timestamp', '')}]" if t["role"] == "user" else "Mira"
-        lines.append(f"#{i} {who}: {text}")
-    return "<pre>" + "\n".join(lines) + "</pre>"
+    return gold.turns_html(scenario, show_index=True, marks=spans)
 
 
 def item_page(gold_id: str, error: str = "") -> bytes:
@@ -124,7 +115,7 @@ def item_page(gold_id: str, error: str = "") -> bytes:
 <button>Speichern und weiter</button></form>
 <h2>Gespräch (Störstellen markiert)</h2>{_highlighted_transcript(s)}
 <h2>Gedächtniskontext</h2><pre>{html.escape(render.context_block(s['content']['user_context']))}</pre>"""
-    return gold._page(gold_id, body.replace("<style>", "<style>mark{background:#ffd9a8}"))
+    return gold._page(gold_id, body)
 
 
 def save(gold_id: str, form: dict) -> str:
