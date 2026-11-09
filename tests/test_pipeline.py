@@ -332,3 +332,14 @@ def test_annotated_pass_waits_for_blind_pass(tmp_path, monkeypatch):
     monkeypatch.setattr(agree.gold, "author_labels", lambda: {k: v for k, v in list(author.items())[:3]})
     with pytest.raises(SystemExit, match="blind pass is not complete"):
         agree.gold_annotated.serve()
+
+
+def test_grouped_order_keeps_scenarios_together():
+    import random as _r
+    items = [{"gold_id": f"g{i}", "set": "calibration", "scenario_id": f"s{i % 4}"} for i in range(12)]
+    order = gold.grouped_order(items, _r.Random(1))
+    assert sorted(order) == sorted(it["gold_id"] for it in items)
+    scen = {it["gold_id"]: it["scenario_id"] for it in items}
+    runs = [scen[g] for g in order]
+    changes = sum(a != b for a, b in zip(runs, runs[1:]))
+    assert changes == 3          # four groups, each contiguous

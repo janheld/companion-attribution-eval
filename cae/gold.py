@@ -242,6 +242,35 @@ FLAG_VALUES = ["true", "false"]
 # Order of items for this labeling session: shuffled anew at every server
 # start, so development and held-out items never come in blocks.
 SESSION_ORDER: list[str] = []
+SESSIONS_LOG = ROOT / "runs" / "gold_sessions.jsonl"
+
+
+def grouped_order(items: list[dict], rng) -> list[str]:
+    """Items of the same scenario come one after another, so the conversation is
+    read once (author's request, 2026-11-09, during the blind pass). Groups are
+    shuffled, and so are the items within a group; dev and held-out mix freely."""
+    groups = defaultdict(list)
+    for it in items:
+        groups[(it["set"], it["scenario_id"])].append(it["gold_id"])
+    keys = list(groups)
+    rng.shuffle(keys)
+    order = []
+    for k in keys:
+        members = groups[k][:]
+        rng.shuffle(members)
+        order += members
+    return order
+
+
+def _same_as_previous(gold_id: str) -> bool:
+    if gold_id not in SESSION_ORDER:
+        return False
+    i = SESSION_ORDER.index(gold_id)
+    if i == 0:
+        return False
+    items = {it["gold_id"]: it for it in load_items()}
+    a, b = items[SESSION_ORDER[i - 1]], items[gold_id]
+    return (a["set"], a["scenario_id"]) == (b["set"], b["scenario_id"])
 
 
 def _ordered(items: list[dict]) -> list[dict]:
@@ -292,6 +321,8 @@ def item_page(gold_id: str, error: str = "") -> bytes:
         fields.append(f"<fieldset><legend>{field}</legend>{radios}</fieldset>")
     note = html.escape(author_labels().get(gold_id, {}).get("note", ""))
     err = f"<p style='color:#c0392b'><b>{html.escape(error)}</b></p>" if error else ""
+    if _same_as_previous(gold_id):
+        err += "<p style='background:#eef3fb;padding:6px'>Gleiches Gespräch wie beim vorigen Item.</p>"
     body = f"""<p><a href='/'>list</a></p><h1>{gold_id}: {kind}</h1>{err}
 <p>Rubric: prompts/grader_rubric.en.md. Condition, model, prompt variant and grader labels are hidden.</p>
 <h2>Output</h2><div class=out>{html.escape(it['text'])}</div>
@@ -320,8 +351,12 @@ def save_label(gold_id: str, form: dict) -> list[str]:
 
 
 def serve(port: int = 8766) -> None:
-    SESSION_ORDER[:] = [it["gold_id"] for it in load_items()]
-    random.SystemRandom().shuffle(SESSION_ORDER)
+    SESSION_ORDER[:] = grouped_order(load_items(), random.SystemRandom())
+    # Record when each labeling session started and in which order mode, so the
+    # report can say how many labels came before and after grouping.
+    SESSIONS_LOG.parent.mkdir(parents=True, exist_ok=True)
+    with SESSIONS_LOG.open("a", encoding="utf-8") as f:
+        f.write(json.dumps({"started_at": datetime.now(timezone.utc).isoformat(), "order": "grouped_by_scenario"}) + "\n")
 
     class Handler(BaseHTTPRequestHandler):
         def _send(self, body: bytes, status: int = 200):
