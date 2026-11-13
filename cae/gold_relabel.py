@@ -81,15 +81,54 @@ def checks() -> dict:
     return {gid: fields_to_check(*ctx) for gid, ctx in _contexts().items()}
 
 
-def reopened() -> dict:
-    """gold_id -> latest reopening entry."""
+def _reopen_entries() -> list[dict]:
     if not REOPEN.exists():
-        return {}
-    out = {}
-    for line in REOPEN.read_text(encoding="utf-8").splitlines():
-        if line.strip():
-            row = json.loads(line)
-            out[row["gold_id"]] = row
+        return []
+    return [json.loads(l) for l in REOPEN.read_text(encoding="utf-8").splitlines() if l.strip()]
+
+
+def reopened() -> dict:
+    """gold_id -> latest reopening entry (any reason)."""
+    return {e["gold_id"]: e for e in _reopen_entries()}
+
+
+def pending_reopen() -> dict:
+    """gold_id -> {"fields", "reasons"} of reopenings not yet answered by a later save."""
+    v2, out = relabeled(), {}
+    for e in _reopen_entries():
+        gid = e["gold_id"]
+        if gid in v2 and v2[gid]["labeled_at"] > e["reopened_at"]:
+            continue
+        cur = out.setdefault(gid, {"fields": [], "reasons": []})
+        cur["fields"] = [f for f in EDITABLE + NEW if f in cur["fields"] or f in e["fields"]]
+        if e["reason"] not in cur["reasons"]:
+            cur["reasons"].append(e["reason"])
+    return out
+
+
+def reopen(fields_by_item: dict, reason: str) -> None:
+    """Reopen exactly the given fields of the given items, with a reason."""
+    now = datetime.now(timezone.utc).isoformat()
+    with REOPEN.open("a", encoding="utf-8") as fh:
+        for gid, fields in fields_by_item.items():
+            fh.write(json.dumps({"gold_id": gid, "fields": fields, "reason": reason,
+                                 "rubric_sha256": gold._rubric_sha(), "reopened_at": now}, ensure_ascii=False) + "\n")
+
+
+def design_inconsistencies() -> dict:
+    """gold_id -> fields whose current gold value contradicts the scenario design."""
+    v2, out = relabeled(), {}
+    for gid, (it, s, _) in _contexts().items():
+        lab = v2[gid]["labels"]
+        types = {d["type"] for d in s["annotation"].get("disturbances", [])}
+        foreign = bool(types - {"genuine_incoherence"})
+        hits = [f for f, bad in (
+            ("recovery", lab["recovery"] != "not_applicable" and s["condition"] != "recovery"),
+            ("content_misattributed", lab["content_misattributed"] is True and not foreign),
+            ("contact", lab["contact"] != "not_applicable" and it["task"] == "summary"),
+            ("records_as_fact", lab["records_as_fact"] is True and "genuine_incoherence" not in types)) if bad]
+        if hits:
+            out[gid] = hits
     return out
 
 
@@ -110,27 +149,21 @@ def reopen_source_speech() -> list[str]:
         if SOURCE_WORDS.search(it["text"]) and SPEECH_WORDS.search(it["text"]) \
                 and current["content_misattributed"] is False:
             ids.append(gid)
-    now = datetime.now(timezone.utc).isoformat()
-    with REOPEN.open("a", encoding="utf-8") as fh:
-        for gid in ids:
-            fh.write(json.dumps({"gold_id": gid, "fields": ["content_misattributed"],
-                                 "reason": "source named together with a speech verb, value false; rubric: uttered counts",
-                                 "rubric_sha256": gold._rubric_sha(), "reopened_at": now}) + "\n")
+    reopen({gid: ["content_misattributed"] for gid in ids},
+           "source named together with a speech verb, value false; rubric: uttered counts")
     return ids
 
 
 def open_checks() -> dict:
     """gold_id -> fields still to be answered in this pass."""
-    v2, again = relabeled(), reopened()
+    v2, again = relabeled(), pending_reopen()
     out = {}
     for gid, base in checks().items():
         extra = again[gid]["fields"] if gid in again else []
         if gid not in v2:
             out[gid] = [f for f in EDITABLE + NEW if f in base or f in extra]
-        elif gid in again and v2[gid]["labeled_at"] < again[gid]["reopened_at"]:
-            out[gid] = extra
         else:
-            out[gid] = []
+            out[gid] = extra
     return out
 
 
@@ -219,14 +252,35 @@ def save(gold_id: str, form: dict) -> list[str]:
     if bad:
         return bad
     prior = relabeled().get(gold_id)
+    reasons = pending_reopen().get(gold_id, {}).get("reasons", [])
     # Locked fields keep the current value: the third-pass value if there is
     # one, else the previous gold value.
     labels = dict(prior["labels"]) if prior else {**old, "records_as_fact": False}
     for f in check:
         v = form[f][0]
         labels[f] = (v == "true") if f in FLAGS else v
-    _write(_row(gold_id, labels, old, check, "author_review", form.get("note", [""])[0], prior))
+    row = _row(gold_id, labels, old, check, "author_review", form.get("note", [""])[0], prior)
+    if reasons:
+        row["reopen_reasons"] = reasons
+    _write(row)
     return []
+
+
+def reopen_changes() -> dict:
+    """Per reopening reason: items saved again and field changes against the row before."""
+    out, last = {}, {}
+    for line in V2.read_text(encoding="utf-8").splitlines() if V2.exists() else []:
+        if not line.strip():
+            continue
+        row = json.loads(line)
+        before = last.get(row["gold_id"])
+        for reason in row.get("reopen_reasons", []):
+            r = out.setdefault(reason, {"items": 0, "changed_per_field": Counter()})
+            r["items"] += 1
+            if before:
+                r["changed_per_field"].update(f for f in EDITABLE + NEW if before["labels"][f] != row["labels"][f])
+        last[row["gold_id"]] = row
+    return {k: {"items": v["items"], "changed_per_field": dict(v["changed_per_field"])} for k, v in out.items()}
 
 
 def change_counts() -> dict:
@@ -236,7 +290,8 @@ def change_counts() -> dict:
     origins = Counter(row["origin"] for row in rows.values())
     return {"items": len(rows), "origin": dict(origins), "changed_per_field": {f: counts.get(f, 0) for f in EDITABLE},
             "records_as_fact_by_author": sum(row["provenance"]["records_as_fact"] == "author" for row in rows.values()),
-            "records_as_fact_true": sum(row["labels"]["records_as_fact"] is True for row in rows.values())}
+            "records_as_fact_true": sum(row["labels"]["records_as_fact"] is True for row in rows.values()),
+            "reopenings": reopen_changes()}
 
 
 def rubric_sections() -> str:
@@ -276,8 +331,8 @@ def item_page(gold_id: str, error: str = "") -> bytes:
     kind = "Antwort (reply)" if it["task"] == "response" else "Zusammenfassung (summary)"
     err = f"<p style='color:#c0392b'><b>{html.escape(error)}</b></p>" if error else ""
     todo = ", ".join(check) if check else "keins (unverändert übernommen)"
-    if gold_id in reopened():
-        todo += " (wieder geöffnet nach Rubrik-Änderung)"
+    if gold_id in pending_reopen():
+        todo += " (wieder geöffnet: " + "; ".join(pending_reopen()[gold_id]["reasons"]) + ")"
     note = html.escape(relabeled().get(gold_id, {}).get("note", ""))
     blind_note = gold.author_labels().get(gold_id, {}).get("note") or "–"
     second_note = gold_annotated.annotated_labels().get(gold_id, {}).get("note") or "–"

@@ -455,3 +455,22 @@ def test_relabel_reopens_only_content_misattributed(tmp_path, monkeypatch):
     assert row["checked"] == ["content_misattributed", "records_as_fact"]
     assert row["provenance"]["records_as_fact"] == "author"
     assert gold_relabel.open_checks()["g2"] == []
+
+
+def test_relabel_reopen_with_reason_and_design_check(tmp_path, monkeypatch):
+    gold_relabel = _relabel_setup(tmp_path, monkeypatch)
+    gold_relabel.carry_over_unaffected()
+    assert gold_relabel.save("g1", {"attribution": ["ignores"], "content_misattributed": ["true"]}) == []
+    assert gold_relabel.save("g2", {"records_as_fact": ["true"]}) == []
+    # g3 (tv_bleed, summary) gets an inconsistent contact value through a reopened save
+    gold_relabel.reopen({"g3": ["contact"]}, "Korrektur")
+    assert gold_relabel.open_checks()["g3"] == ["contact"]
+    assert gold_relabel.save("g3", {"contact": ["supports_and_releases"]}) == []
+    assert gold_relabel.relabeled()["g3"]["reopen_reasons"] == ["Korrektur"]
+    assert gold_relabel.change_counts()["reopenings"]["Korrektur"] == {"items": 1, "changed_per_field": {"contact": 1}}
+    # g1: content_misattributed true is fine (foreign content annotated); g3 summary with contact is not
+    assert gold_relabel.design_inconsistencies() == {"g3": ["contact"]}
+    gold_relabel.reopen({"g3": ["contact"]}, "Konsistenzcheck Design")
+    gold_relabel.reopen({"g3": ["recovery"]}, "Korrektur")
+    assert gold_relabel.pending_reopen()["g3"] == {"fields": ["recovery", "contact"],
+                                                   "reasons": ["Konsistenzcheck Design", "Korrektur"]}
