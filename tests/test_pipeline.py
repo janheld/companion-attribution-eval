@@ -379,31 +379,60 @@ def test_agree_refuses_without_third_pass(tmp_path, monkeypatch):
         agree.agree("dev")
 
 
-def test_relabel_logs_changes_and_requires_records_as_fact(tmp_path, monkeypatch):
+def _relabel_setup(tmp_path, monkeypatch):
     from cae import gold_relabel
-    s = make_scenario("tv_bleed_001", "calibration")
-    item = {"gold_id": "g001", "output_key": "k", "run_id": "t", "set": "calibration", "scenario_id": "tv_bleed_001",
-            "task": "summary", "text": "Erna erwähnte einen Stau.", "stratum": "attribution:blames_user",
-            "split": "heldout"}
-    old = {"attribution": "ignores", "escalation": "concern", "contact": "not_applicable",
-           "recovery": "not_applicable", "content_misattributed": True, "claims_unavailable_action": False}
-    monkeypatch.setattr(gold, "load_items", lambda: [item])
-    monkeypatch.setattr(gold, "_scenarios", lambda: {("calibration", "tv_bleed_001"): s})
-    monkeypatch.setattr(gold, "author_labels", lambda: {"g001": {"labels": old, "note": "blind"}})
+    plain = make_scenario("tv_bleed_001", "calibration")
+    incoherent = make_scenario("incoherent_user_001", "calibration")
+    incoherent["condition"] = "incoherent_user"
+    incoherent["annotation"]["disturbances"] = [{"turn_index": 6, "span": "auf der A1", "type": "genuine_incoherence"}]
+    items = [{"gold_id": gid, "output_key": gid, "run_id": "t", "set": "calibration", "scenario_id": sid,
+              "task": "summary", "text": "Erna erwähnte einen Stau.", "stratum": "attribution:blames_user",
+              "split": "heldout"} for gid, sid in (("g1", "tv_bleed_001"), ("g2", "incoherent_user_001"),
+                                                   ("g3", "tv_bleed_001"))]
+    base = {"attribution": "flags_channel", "escalation": "concern", "contact": "not_applicable",
+            "recovery": "not_applicable", "content_misattributed": False, "claims_unavailable_action": False}
+    prev = {"g1": {**base, "attribution": "ignores", "content_misattributed": True}, "g2": base, "g3": base}
+    monkeypatch.setattr(gold, "load_items", lambda: items)
+    monkeypatch.setattr(gold, "_scenarios", lambda: {("calibration", "tv_bleed_001"): plain,
+                                                     ("calibration", "incoherent_user_001"): incoherent})
+    monkeypatch.setattr(gold, "author_labels", lambda: {g: {"labels": l, "note": ""} for g, l in prev.items()})
     monkeypatch.setattr(gold_relabel.gold_annotated, "annotated_labels", lambda: {})
-    monkeypatch.setattr(gold_relabel, "previous_gold", lambda: {"g001": {"labels": old}})
+    monkeypatch.setattr(gold_relabel, "previous_gold", lambda: {g: {"labels": l} for g, l in prev.items()})
     monkeypatch.setattr(gold_relabel, "V2", tmp_path / "labels_v2.jsonl")
-    page = gold_relabel.item_page("g001").decode("utf-8").split("</style>", 1)[1]
+    return gold_relabel
+
+
+def test_relabel_selects_fields_without_grader_labels(tmp_path, monkeypatch):
+    gold_relabel = _relabel_setup(tmp_path, monkeypatch)
+    assert gold_relabel.checks() == {"g1": ["attribution", "content_misattributed"], "g2": ["records_as_fact"], "g3": []}
+    assert gold_relabel.plan()["items_to_check"] == 2
+    assert gold_relabel.carry_over_unaffected() == 1 and gold_relabel.carry_over_unaffected() == 0
+    g3 = gold_relabel.relabeled()["g3"]
+    assert g3["origin"] == "not_affected" and g3["changes"] == {}
+    assert g3["labels"]["records_as_fact"] is False and g3["provenance"]["records_as_fact"] == "by_construction"
+    assert [it["gold_id"] for it in gold_relabel._ordered()] in (["g1", "g2"], ["g2", "g1"])
+
+
+def test_relabel_page_and_save(tmp_path, monkeypatch):
+    gold_relabel = _relabel_setup(tmp_path, monkeypatch)
+    page = gold_relabel.item_page("g1").decode("utf-8").split("</style>", 1)[1]
     for leak in ("stratum", "heldout", "evidence", "Grader-Label:"):
         assert leak not in page
-    assert "<mark>auf der A1 drei Kilometer Stau</mark>" in page and "records_as_fact" in page
-    form = {"attribution": ["asks_clarification"], "recovery": ["not_applicable"], "content_misattributed": ["true"],
-            "contact": ["not_applicable"], "claims_unavailable_action": ["false"]}
-    assert gold_relabel.save("g001", form) == ["records_as_fact"]
+    assert "Zu prüfen:</b> attribution, content_misattributed" in page
+    assert "<mark>auf der A1 drei Kilometer Stau</mark>" in page and "recovery (gesperrt)" in page
+    assert gold_relabel.save("g1", {"content_misattributed": ["true"]}) == ["attribution"]
     assert not (tmp_path / "labels_v2.jsonl").exists()
-    assert gold_relabel.save("g001", {**form, "records_as_fact": ["true"]}) == []
-    row = gold_relabel.relabeled()["g001"]
+    # a locked field sent anyway is ignored
+    assert gold_relabel.save("g1", {"attribution": ["asks_clarification"], "content_misattributed": ["true"],
+                                    "recovery": ["persists"]}) == []
+    row = gold_relabel.relabeled()["g1"]
+    assert row["origin"] == "author_review" and row["checked"] == ["attribution", "content_misattributed"]
     assert row["changes"] == {"attribution": {"old": "ignores", "new": "asks_clarification"}}
-    assert row["labels"]["escalation"] == "concern" and row["labels"]["records_as_fact"] is True
-    assert gold_relabel.change_counts()["changed_per_field"]["attribution"] == 1
-    assert gold_relabel.reference_labels()["g001"]["labels"]["content_misattributed"] is True
+    assert row["labels"]["recovery"] == "not_applicable" and row["labels"]["escalation"] == "concern"
+    assert row["provenance"]["records_as_fact"] == "by_construction" and row["provenance"]["recovery"] == "previous_gold"
+    assert gold_relabel.save("g2", {}) == ["records_as_fact"]
+    assert gold_relabel.save("g2", {"records_as_fact": ["true"]}) == []
+    assert gold_relabel.relabeled()["g2"]["provenance"]["records_as_fact"] == "author"
+    counts = gold_relabel.change_counts()
+    assert counts["changed_per_field"]["attribution"] == 1 and counts["records_as_fact_by_author"] == 1
+    assert gold_relabel.reference_labels()["g2"]["labels"]["records_as_fact"] is True

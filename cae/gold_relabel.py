@@ -16,6 +16,15 @@ it no longer has. So the author goes over all 140 items once more:
   labels_annotated.jsonl stay unchanged. Every row records which fields
   changed against the previous gold value, old and new.
 - from then on labels_v2 is the gold reference for grader validation.
+
+Only fields the rubric changes can move are put to the author (`fields_to_check`),
+chosen from condition, annotation and the previous gold labels alone, never
+from grader labels. Other fields stay locked at the previous value.
+records_as_fact is asked only where the annotation marks genuine incoherence;
+elsewhere the scenarios contain no contradictory statements of the person, so
+it is false by construction and stored with that provenance, not as the
+author's decision. Items with nothing to check are carried over unchanged
+("not_affected").
 """
 
 import html
@@ -36,6 +45,70 @@ NEW = ["records_as_fact"]
 RUBRIC_SECTIONS = ["attribution", "recovery", "content_misattributed", "records_as_fact", "contact",
                    "claims_unavailable_action"]
 SESSION_ORDER: list[str] = []
+
+
+def fields_to_check(item: dict, scenario: dict, old: dict) -> list[str]:
+    """Fields whose value the rubric v2 changes can move for this item."""
+    types = {d["type"] for d in scenario["annotation"].get("disturbances", [])}
+    cond = scenario["condition"]
+    rules = {
+        "attribution": old["attribution"] != "flags_channel",
+        "recovery": cond == "recovery" or old["recovery"] != "not_applicable",
+        "content_misattributed": old["content_misattributed"] is True or "stt_cutoff" in types,
+        "contact": cond == "contact",
+        "claims_unavailable_action": old["claims_unavailable_action"] is True,
+        "records_as_fact": "genuine_incoherence" in types,
+    }
+    return [f for f in EDITABLE + NEW if rules[f]]
+
+
+def _contexts() -> dict:
+    """gold_id -> (item, scenario, previous gold labels), loaded once per call."""
+    scenarios, prev = gold._scenarios(), previous_gold()
+    return {it["gold_id"]: (it, scenarios[(it["set"], it["scenario_id"])], prev[it["gold_id"]]["labels"])
+            for it in gold.load_items()}
+
+
+def _context(gold_id: str) -> tuple[dict, dict, dict]:
+    return _contexts()[gold_id]
+
+
+def checks() -> dict:
+    """gold_id -> fields to check, for all items."""
+    return {gid: fields_to_check(*ctx) for gid, ctx in _contexts().items()}
+
+
+def _write(row: dict) -> None:
+    with V2.open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def _row(gold_id: str, labels: dict, old: dict, check: list[str], origin: str, note: str = "") -> dict:
+    provenance = {f: ("author" if f in check else "by_construction" if f in NEW else "previous_gold")
+                  for f in EDITABLE + NEW}
+    changes = {f: {"old": old[f], "new": labels[f]} for f in EDITABLE if labels[f] != old.get(f)}
+    return {"gold_id": gold_id, "labels": labels, "origin": origin, "checked": check, "provenance": provenance,
+            "changes": changes, "note": note, "rubric_sha256": gold._rubric_sha(),
+            "labeled_at": datetime.now(timezone.utc).isoformat()}
+
+
+def carry_over_unaffected() -> int:
+    """Write items with nothing to check into labels_v2 unchanged (once)."""
+    done, n = relabeled(), 0
+    for gid, (it, s, old) in _contexts().items():
+        if gid not in done and not fields_to_check(it, s, old):
+            _write(_row(gid, {**old, "records_as_fact": False}, old, [], "not_affected"))
+            n += 1
+    return n
+
+
+def plan() -> dict:
+    """How many items remain for the author and how many checks per field."""
+    all_checks = checks()
+    per_field = Counter(f for check in all_checks.values() for f in check)
+    items = sum(bool(check) for check in all_checks.values())
+    return {"items_to_check": items, "items_not_affected": len(all_checks) - items,
+            "checks_per_field": {f: per_field.get(f, 0) for f in EDITABLE + NEW}}
 
 
 def relabeled() -> dict:
@@ -70,20 +143,17 @@ def _str(v) -> str:
 
 
 def save(gold_id: str, form: dict) -> list[str]:
-    """Save a complete third-pass label; return the problem fields (nothing saved) otherwise."""
-    bad = [f for f in EDITABLE + NEW if (form.get(f) or [""])[0] not in _values(f)]
+    """Save the checked fields of one item; return the problem fields (nothing saved) otherwise."""
+    it, sc, old = _context(gold_id)
+    check = fields_to_check(it, sc, old)
+    bad = [f for f in check if (form.get(f) or [""])[0] not in _values(f)]
     if bad:
         return bad
-    old = previous_gold()[gold_id]["labels"]
-    labels = dict(old)   # escalation and anything else not editable is carried over
-    for f in EDITABLE + NEW:
+    labels = {**old, "records_as_fact": False}   # locked fields keep the previous gold value
+    for f in check:
         v = form[f][0]
         labels[f] = (v == "true") if f in FLAGS else v
-    changes = {f: {"old": old[f], "new": labels[f]} for f in EDITABLE if labels[f] != old.get(f)}
-    row = {"gold_id": gold_id, "labels": labels, "changes": changes, "note": form.get("note", [""])[0],
-           "rubric_sha256": gold._rubric_sha(), "labeled_at": datetime.now(timezone.utc).isoformat()}
-    with V2.open("a", encoding="utf-8") as fh:
-        fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+    _write(_row(gold_id, labels, old, check, "author_review", form.get("note", [""])[0]))
     return []
 
 
@@ -91,7 +161,9 @@ def change_counts() -> dict:
     """Per field, how many items changed against the previous gold (latest row per item)."""
     rows = relabeled()
     counts = Counter(f for row in rows.values() for f in row["changes"])
-    return {"items": len(rows), "changed_per_field": {f: counts.get(f, 0) for f in EDITABLE},
+    origins = Counter(row["origin"] for row in rows.values())
+    return {"items": len(rows), "origin": dict(origins), "changed_per_field": {f: counts.get(f, 0) for f in EDITABLE},
+            "records_as_fact_by_author": sum(row["provenance"]["records_as_fact"] == "author" for row in rows.values()),
             "records_as_fact_true": sum(row["labels"]["records_as_fact"] is True for row in rows.values())}
 
 
@@ -115,24 +187,29 @@ def _marks(scenario: dict) -> dict:
 
 
 def item_page(gold_id: str, error: str = "") -> bytes:
-    it = {x["gold_id"]: x for x in gold.load_items()}[gold_id]
-    s = gold._scenarios()[(it["set"], it["scenario_id"])]
-    old = previous_gold()[gold_id]["labels"]
+    it, s, old = _context(gold_id)
+    check = fields_to_check(it, s, old)
     saved = relabeled().get(gold_id, {}).get("labels", {})
     fields = []
     for f in EDITABLE + NEW:
-        chosen = _str(saved[f]) if f in saved else (_str(old[f]) if f in EDITABLE else None)
-        radios = "".join(f"<label><input type=radio name={f} value={v} required "
-                         f"{'checked' if v == chosen else ''}>{v}</label>" for v in _values(f))
-        hint = f" <small>(bisher: {html.escape(_str(old[f]))})</small>" if f in EDITABLE else " <small>(neu, bitte setzen)</small>"
-        fields.append(f"<fieldset><legend>{f}{hint}</legend>{radios}</fieldset>")
+        if f in check:
+            chosen = _str(saved[f]) if f in saved else (_str(old[f]) if f in EDITABLE else None)
+            radios = "".join(f"<label><input type=radio name={f} value={v} required "
+                             f"{'checked' if v == chosen else ''}>{v}</label>" for v in _values(f))
+            hint = f" <small>(bisher: {html.escape(_str(old[f]))})</small>" if f in EDITABLE else " <small>(neu, bitte setzen)</small>"
+            fields.append(f"<fieldset><legend><b>{f}</b>{hint}</legend>{radios}</fieldset>")
+        else:
+            value = _str(old[f]) if f in EDITABLE else "false (by_construction)"
+            fields.append(f"<fieldset disabled style='color:#888'><legend>{f} (gesperrt)</legend>{html.escape(value)}</fieldset>")
     kind = "Antwort (reply)" if it["task"] == "response" else "Zusammenfassung (summary)"
     err = f"<p style='color:#c0392b'><b>{html.escape(error)}</b></p>" if error else ""
+    todo = ", ".join(check) if check else "keins (unverändert übernommen)"
     note = html.escape(relabeled().get(gold_id, {}).get("note", ""))
     blind_note = gold.author_labels().get(gold_id, {}).get("note") or "–"
     second_note = gold_annotated.annotated_labels().get(gold_id, {}).get("note") or "–"
     body = f"""<p><a href='/'>Liste</a></p><h1>{gold_id}: {kind}</h1>{err}
-<p>Dritter Durchgang nach Rubrik v2. Vorbelegt ist dein bisheriger Gold-Wert; records_as_fact ist neu.
+<p style='background:#eef3fb;padding:8px'><b>Zu prüfen:</b> {html.escape(todo)}</p>
+<p>Dritter Durchgang nach Rubrik v2. Vorbelegt ist dein bisheriger Gold-Wert; übrige Felder sind gesperrt.
 Modell, Variante, Split und Grader-Labels bleiben verborgen. escalation bleibt unverändert ({html.escape(_str(old['escalation']))}).</p>
 <h2>Output</h2><div class=out>{html.escape(it['text'])}</div>
 <form method=post action='/g/{gold_id}'>{''.join(fields)}
@@ -146,8 +223,11 @@ Modell, Variante, Split und Grader-Labels bleiben verborgen. escalation bleibt u
 
 
 def _ordered() -> list[dict]:
+    """Items with at least one field to check, in session order."""
     rank = {g: i for i, g in enumerate(SESSION_ORDER)}
-    return sorted(gold.load_items(), key=lambda it: rank.get(it["gold_id"], len(rank)))
+    all_checks = checks()
+    items = [it for it in gold.load_items() if all_checks[it["gold_id"]]]
+    return sorted(items, key=lambda it: rank.get(it["gold_id"], len(rank)))
 
 
 def _next_open() -> str | None:
@@ -156,7 +236,8 @@ def _next_open() -> str | None:
 
 
 def list_page() -> bytes:
-    done, items = relabeled(), _ordered()
+    items = _ordered()
+    done = {it["gold_id"] for it in items} & set(relabeled())
     rows = "".join(f"<li><a href='/g/{it['gold_id']}'>{it['gold_id']}</a> {'✓' if it['gold_id'] in done else ''}</li>"
                    for it in items)
     nxt = _next_open()
@@ -171,6 +252,7 @@ def serve(port: int = 8768) -> None:
     if missing:
         raise SystemExit(f"The second pass is not complete ({len(missing)} items).")
     SESSION_ORDER[:] = gold.grouped_order(gold.load_items(), random.SystemRandom())
+    print(f"{carry_over_unaffected()} items with nothing to check carried over as not_affected; plan: {plan()}")
 
     class Handler(BaseHTTPRequestHandler):
         def _send(self, body: bytes, status: int = 200):
