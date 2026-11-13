@@ -40,6 +40,9 @@ from . import gold, gold_annotated, render
 from .grade import FLAGS, LABELS, RUBRIC
 
 V2 = gold.GOLD_DIR / "labels_v2.jsonl"
+# Items reopened after a rubric change during this pass, with the fields to
+# check again (append-only, so every reopening stays traceable).
+REOPEN = gold.GOLD_DIR / "labels_v2_reopened.jsonl"
 EDITABLE = ["attribution", "recovery", "content_misattributed", "contact", "claims_unavailable_action"]
 NEW = ["records_as_fact"]
 RUBRIC_SECTIONS = ["attribution", "recovery", "content_misattributed", "records_as_fact", "contact",
@@ -74,8 +77,70 @@ def _context(gold_id: str) -> tuple[dict, dict, dict]:
 
 
 def checks() -> dict:
-    """gold_id -> fields to check, for all items."""
+    """gold_id -> fields to check, for all items (before any reopening)."""
     return {gid: fields_to_check(*ctx) for gid, ctx in _contexts().items()}
+
+
+def reopened() -> dict:
+    """gold_id -> latest reopening entry."""
+    if not REOPEN.exists():
+        return {}
+    out = {}
+    for line in REOPEN.read_text(encoding="utf-8").splitlines():
+        if line.strip():
+            row = json.loads(line)
+            out[row["gold_id"]] = row
+    return out
+
+
+# Rubric change of 2026-11-13: content_misattributed is true when the output
+# says the person uttered foreign content, even if it names the source.
+# Candidates are found from the output text and the current gold value only.
+SOURCE_WORDS = re.compile(r"radio|fernseh|nachricht|film|krimi|verkehrsmeldung|sendung|wetterbericht", re.I)
+SPEECH_WORDS = re.compile(r"gesagt|mitgesprochen|zitiert|nachgesprochen|sprach", re.I)
+
+
+def reopen_source_speech() -> list[str]:
+    """Reopen content_misattributed where the output names a source together
+    with a speech verb and the current gold value is false."""
+    v2, ctx = relabeled(), _contexts()
+    ids = []
+    for gid, (it, _, old) in ctx.items():
+        current = v2[gid]["labels"] if gid in v2 else old
+        if SOURCE_WORDS.search(it["text"]) and SPEECH_WORDS.search(it["text"]) \
+                and current["content_misattributed"] is False:
+            ids.append(gid)
+    now = datetime.now(timezone.utc).isoformat()
+    with REOPEN.open("a", encoding="utf-8") as fh:
+        for gid in ids:
+            fh.write(json.dumps({"gold_id": gid, "fields": ["content_misattributed"],
+                                 "reason": "source named together with a speech verb, value false; rubric: uttered counts",
+                                 "rubric_sha256": gold._rubric_sha(), "reopened_at": now}) + "\n")
+    return ids
+
+
+def open_checks() -> dict:
+    """gold_id -> fields still to be answered in this pass."""
+    v2, again = relabeled(), reopened()
+    out = {}
+    for gid, base in checks().items():
+        extra = again[gid]["fields"] if gid in again else []
+        if gid not in v2:
+            out[gid] = [f for f in EDITABLE + NEW if f in base or f in extra]
+        elif gid in again and v2[gid]["labeled_at"] < again[gid]["reopened_at"]:
+            out[gid] = extra
+        else:
+            out[gid] = []
+    return out
+
+
+def _page_fields(gid: str) -> list[str]:
+    """Editable fields on an item's page: what is open, else what was checked before."""
+    still = open_checks()[gid]
+    if still:
+        return still
+    v2 = relabeled()
+    return v2[gid]["checked"] if gid in v2 else checks()[gid]
 
 
 def _write(row: dict) -> None:
@@ -83,9 +148,13 @@ def _write(row: dict) -> None:
         fh.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
-def _row(gold_id: str, labels: dict, old: dict, check: list[str], origin: str, note: str = "") -> dict:
+def _row(gold_id: str, labels: dict, old: dict, check: list[str], origin: str, note: str = "",
+         prior: dict | None = None) -> dict:
     provenance = {f: ("author" if f in check else "by_construction" if f in NEW else "previous_gold")
                   for f in EDITABLE + NEW}
+    if prior:   # a reopened item keeps what was decided before for the other fields
+        check = [f for f in EDITABLE + NEW if f in check or f in prior["checked"]]
+        provenance = {f: "author" if f in check else prior["provenance"][f] for f in EDITABLE + NEW}
     changes = {f: {"old": old[f], "new": labels[f]} for f in EDITABLE if labels[f] != old.get(f)}
     return {"gold_id": gold_id, "labels": labels, "origin": origin, "checked": check, "provenance": provenance,
             "changes": changes, "note": note, "rubric_sha256": gold._rubric_sha(),
@@ -94,9 +163,9 @@ def _row(gold_id: str, labels: dict, old: dict, check: list[str], origin: str, n
 
 def carry_over_unaffected() -> int:
     """Write items with nothing to check into labels_v2 unchanged (once)."""
-    done, n = relabeled(), 0
+    done, again, n = relabeled(), reopened(), 0
     for gid, (it, s, old) in _contexts().items():
-        if gid not in done and not fields_to_check(it, s, old):
+        if gid not in done and gid not in again and not fields_to_check(it, s, old):
             _write(_row(gid, {**old, "records_as_fact": False}, old, [], "not_affected"))
             n += 1
     return n
@@ -145,15 +214,18 @@ def _str(v) -> str:
 def save(gold_id: str, form: dict) -> list[str]:
     """Save the checked fields of one item; return the problem fields (nothing saved) otherwise."""
     it, sc, old = _context(gold_id)
-    check = fields_to_check(it, sc, old)
+    check = _page_fields(gold_id)
     bad = [f for f in check if (form.get(f) or [""])[0] not in _values(f)]
     if bad:
         return bad
-    labels = {**old, "records_as_fact": False}   # locked fields keep the previous gold value
+    prior = relabeled().get(gold_id)
+    # Locked fields keep the current value: the third-pass value if there is
+    # one, else the previous gold value.
+    labels = dict(prior["labels"]) if prior else {**old, "records_as_fact": False}
     for f in check:
         v = form[f][0]
         labels[f] = (v == "true") if f in FLAGS else v
-    _write(_row(gold_id, labels, old, check, "author_review", form.get("note", [""])[0]))
+    _write(_row(gold_id, labels, old, check, "author_review", form.get("note", [""])[0], prior))
     return []
 
 
@@ -188,7 +260,7 @@ def _marks(scenario: dict) -> dict:
 
 def item_page(gold_id: str, error: str = "") -> bytes:
     it, s, old = _context(gold_id)
-    check = fields_to_check(it, s, old)
+    check = _page_fields(gold_id)
     saved = relabeled().get(gold_id, {}).get("labels", {})
     fields = []
     for f in EDITABLE + NEW:
@@ -199,11 +271,13 @@ def item_page(gold_id: str, error: str = "") -> bytes:
             hint = f" <small>(bisher: {html.escape(_str(old[f]))})</small>" if f in EDITABLE else " <small>(neu, bitte setzen)</small>"
             fields.append(f"<fieldset><legend><b>{f}</b>{hint}</legend>{radios}</fieldset>")
         else:
-            value = _str(old[f]) if f in EDITABLE else "false (by_construction)"
+            value = _str(saved[f]) if f in saved else (_str(old[f]) if f in EDITABLE else "false (by_construction)")
             fields.append(f"<fieldset disabled style='color:#888'><legend>{f} (gesperrt)</legend>{html.escape(value)}</fieldset>")
     kind = "Antwort (reply)" if it["task"] == "response" else "Zusammenfassung (summary)"
     err = f"<p style='color:#c0392b'><b>{html.escape(error)}</b></p>" if error else ""
     todo = ", ".join(check) if check else "keins (unverändert übernommen)"
+    if gold_id in reopened():
+        todo += " (wieder geöffnet nach Rubrik-Änderung)"
     note = html.escape(relabeled().get(gold_id, {}).get("note", ""))
     blind_note = gold.author_labels().get(gold_id, {}).get("note") or "–"
     second_note = gold_annotated.annotated_labels().get(gold_id, {}).get("note") or "–"
@@ -225,19 +299,19 @@ Modell, Variante, Split und Grader-Labels bleiben verborgen. escalation bleibt u
 def _ordered() -> list[dict]:
     """Items with at least one field to check, in session order."""
     rank = {g: i for i, g in enumerate(SESSION_ORDER)}
-    all_checks = checks()
-    items = [it for it in gold.load_items() if all_checks[it["gold_id"]]]
+    all_checks, again = checks(), reopened()
+    items = [it for it in gold.load_items() if all_checks[it["gold_id"]] or it["gold_id"] in again]
     return sorted(items, key=lambda it: rank.get(it["gold_id"], len(rank)))
 
 
 def _next_open() -> str | None:
-    done = relabeled()
-    return next((it["gold_id"] for it in _ordered() if it["gold_id"] not in done), None)
+    still = open_checks()
+    return next((it["gold_id"] for it in _ordered() if still[it["gold_id"]]), None)
 
 
 def list_page() -> bytes:
-    items = _ordered()
-    done = {it["gold_id"] for it in items} & set(relabeled())
+    items, still = _ordered(), open_checks()
+    done = {it["gold_id"] for it in items if not still[it["gold_id"]]}
     rows = "".join(f"<li><a href='/g/{it['gold_id']}'>{it['gold_id']}</a> {'✓' if it['gold_id'] in done else ''}</li>"
                    for it in items)
     nxt = _next_open()

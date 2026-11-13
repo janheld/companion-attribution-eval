@@ -399,6 +399,7 @@ def _relabel_setup(tmp_path, monkeypatch):
     monkeypatch.setattr(gold_relabel.gold_annotated, "annotated_labels", lambda: {})
     monkeypatch.setattr(gold_relabel, "previous_gold", lambda: {g: {"labels": l} for g, l in prev.items()})
     monkeypatch.setattr(gold_relabel, "V2", tmp_path / "labels_v2.jsonl")
+    monkeypatch.setattr(gold_relabel, "REOPEN", tmp_path / "labels_v2_reopened.jsonl")
     return gold_relabel
 
 
@@ -436,3 +437,21 @@ def test_relabel_page_and_save(tmp_path, monkeypatch):
     counts = gold_relabel.change_counts()
     assert counts["changed_per_field"]["attribution"] == 1 and counts["records_as_fact_by_author"] == 1
     assert gold_relabel.reference_labels()["g2"]["labels"]["records_as_fact"] is True
+
+
+def test_relabel_reopens_only_content_misattributed(tmp_path, monkeypatch):
+    gold_relabel = _relabel_setup(tmp_path, monkeypatch)
+    items = gold.load_items()
+    items[1]["text"] = "Sie hat einen Satz aus dem Radio mitgesprochen."     # g2, value false
+    items[2]["text"] = "Im Radio lief Musik."                                # g3: no speech verb
+    assert gold_relabel.save("g2", {"records_as_fact": ["false"]}) == []
+    assert gold_relabel.reopen_source_speech() == ["g2"]
+    assert gold_relabel.open_checks()["g2"] == ["content_misattributed"]
+    page = gold_relabel.item_page("g2").decode("utf-8")
+    assert "records_as_fact (gesperrt)" in page and "wieder geöffnet" in page
+    assert gold_relabel.save("g2", {"content_misattributed": ["true"], "records_as_fact": ["true"]}) == []
+    row = gold_relabel.relabeled()["g2"]
+    assert row["labels"]["content_misattributed"] is True and row["labels"]["records_as_fact"] is False
+    assert row["checked"] == ["content_misattributed", "records_as_fact"]
+    assert row["provenance"]["records_as_fact"] == "author"
+    assert gold_relabel.open_checks()["g2"] == []
