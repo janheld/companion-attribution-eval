@@ -11,6 +11,8 @@ is sharpened on the development part, and once at the end on the held-out part.
   rubric to be committed, grades the held-out items with it, writes the rubric
   hash and commit into the result and creates gold/heldout.lock. A second
   attempt is refused.
+- Since rubric v2 the gold reference is the third pass (gold/labels_v2.jsonl),
+  and `contact` counts only for items from the contact condition.
 """
 
 import hashlib
@@ -20,9 +22,9 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
-from . import cost, gold, gold_annotated, llm, stats
+from . import cost, gold, gold_annotated, gold_relabel, llm, stats
 from .freeze import load_frozen
-from .grade import FLAGS, LABELS, RUBRIC, grade_params, grading_estimate, parse
+from .grade import FLAGS, LABELS, RUBRIC, counts_for, grade_params, grading_estimate, parse
 from .run import load_run_config
 from .schema import ROOT
 
@@ -117,6 +119,15 @@ def compare(items: list[dict], author: dict, grades: dict) -> dict:
             "kappa": stats.cohens_kappa(a_l, g_l) if len(set(a_l) | set(g_l)) > 1 else float("nan"),
             "confusion": stats.confusion(a_l, g_l),
         }
+    out["attribution_by_task"] = {}
+    for task in ("response", "summary"):
+        sub = [(a["attribution"], g["attribution"]) for it, a, g in rows if it["task"] == task]
+        if sub:
+            a_l, g_l = [x for x, _ in sub], [y for _, y in sub]
+            out["attribution_by_task"][task] = {
+                "n": len(sub), "agreement": sum(x == y for x, y in sub) / len(sub),
+                "kappa": stats.cohens_kappa(a_l, g_l) if len(set(a_l) | set(g_l)) > 1 else float("nan"),
+                "confusion": stats.confusion(a_l, g_l)}
     out["blames_user_by_task"] = {}
     for task in ("response", "summary"):
         sub = [(a["attribution"], g["attribution"]) for it, a, g in rows if it["task"] == task]
@@ -154,9 +165,12 @@ def print_summary(result: dict) -> None:
                 print(f"\ncontent_misattributed, your blind vs. annotated pass: n={r['n']}, "
                       f"agreement {r['agreement'] * 100:.0f} %, kappa {_fmt(r['kappa'])}")
             continue
-        if field in ("blames_user_by_task", "per_value"):
+        if field in ("blames_user_by_task", "attribution_by_task", "per_value"):
             continue
         print(f"\n{field}: n={r['n']}, agreement {r['agreement'] * 100:.0f} %, kappa {_fmt(r['kappa'])}")
+        print(f"  confusion (author -> grader): {r['confusion']}")
+    for task, r in result.get("attribution_by_task", {}).items():
+        print(f"\nattribution, {task}: n={r['n']}, agreement {r['agreement'] * 100:.0f} %, kappa {_fmt(r['kappa'])}")
         print(f"  confusion (author -> grader): {r['confusion']}")
     print("\nblames_user by task (author = truth):")
     for task, s in result["blames_user_by_task"].items():
@@ -187,22 +201,27 @@ def write_disagreement_page(rows: list[dict], scenarios: dict, path) -> None:
                     f"<h1>Abweichungen ({len(rows)} Items)</h1>{''.join(parts)}", encoding="utf-8")
 
 
-def _labeled(items: list[dict], require_second_pass: bool = False) -> dict:
-    """Gold reference: blind labels, content_misattributed from the annotated
-    second pass where it exists (cae/gold_annotated.py)."""
-    blind = gold.author_labels()
-    missing = [it["gold_id"] for it in items if it["gold_id"] not in blind]
-    if missing:
-        raise SystemExit(f"{len(missing)} items not labeled yet: {', '.join(missing[:10])} ...")
-    second = gold_annotated.annotated_labels()
-    open_second = [it["gold_id"] for it in items if it["gold_id"] not in second]
-    if open_second and require_second_pass:
-        raise SystemExit(f"{len(open_second)} items lack the annotated second pass for content_misattributed "
-                         "(`cae gold review-annotations`).")
-    if open_second:
-        print(f"Note: {len(open_second)} of {len(items)} items without the second pass; "
-              "content_misattributed uses the blind label there.")
-    return gold_annotated.reference_labels()
+def _labeled(items: list[dict]) -> dict:
+    """Gold reference since rubric v2: the third pass (gold/labels_v2.jsonl,
+    cae/gold_relabel.py), which adapted the earlier gold labels to the changed
+    definitions. Every item of the split must have it."""
+    v2 = gold_relabel.reference_labels()
+    open_v2 = [it["gold_id"] for it in items if it["gold_id"] not in v2]
+    if open_v2:
+        raise SystemExit(f"{len(open_v2)} items lack the third pass for rubric v2 (`cae gold relabel`).")
+    return v2
+
+
+def _counted(items: list[dict], author: dict, grades: dict) -> tuple[dict, dict]:
+    """Drop fields that are not reported for an item's condition (contact
+    outside the contact condition, see grade.REPORTED_IN) from both sides, so
+    they enter no number and no disagreement list. The stored labels are kept."""
+    scenarios = _scenarios(items)
+    cond = {it["gold_id"]: scenarios[(it["set"], it["scenario_id"])]["condition"] for it in items}
+    keep = lambda labels, gid: {f: v for f, v in labels.items() if counts_for(f, cond[gid])}
+    a = {gid: {**row, "labels": keep(row["labels"], gid)} for gid, row in author.items() if gid in cond}
+    g = {gid: {**row, "labels": keep(row["labels"], gid)} for gid, row in grades.items() if gid in cond}
+    return a, g
 
 
 def agree(split: str = "dev", assume_yes: bool = False) -> dict:
@@ -212,6 +231,7 @@ def agree(split: str = "dev", assume_yes: bool = False) -> dict:
     items = _items("dev")
     author = _labeled(items)
     grades = grade_items("dev", assume_yes)
+    author, grades = _counted(items, author, grades)
     result = compare(items, author, grades)
     result["content_misattributed_blind_vs_annotated"] = gold_annotated.blind_vs_annotated(items)
     print_summary(result)
@@ -241,8 +261,9 @@ def agree_final(assume_yes: bool = False) -> dict:
         raise SystemExit(f"Held-out part was already evaluated ({gold.LOCK.read_text().strip()}). It is used once only.")
     commit = _rubric_commit()
     items = _items("heldout")
-    author = _labeled(items, require_second_pass=True)
+    author = _labeled(items)
     grades = grade_items("heldout", assume_yes, final=True)
+    author, grades = _counted(items, author, grades)
     result = compare(items, author, grades)
     result["content_misattributed_blind_vs_annotated"] = gold_annotated.blind_vs_annotated(items)
     # Precision / recall / FPR per value, as the report needs them.

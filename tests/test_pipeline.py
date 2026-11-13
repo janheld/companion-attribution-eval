@@ -165,7 +165,8 @@ def test_label_page_never_shows_grader_labels(tmp_path, monkeypatch):
     assert gold.save_label("g001", {"attribution": ["flags_channel"], "content_misattributed": ["true"]})
     assert gold.author_labels() == {}  # incomplete labels are refused, nothing saved
     full = {"attribution": ["flags_channel"], "escalation": ["none"], "contact": ["not_applicable"],
-            "recovery": ["not_applicable"], "content_misattributed": ["true"], "claims_unavailable_action": ["false"]}
+            "recovery": ["not_applicable"], "content_misattributed": ["true"], "claims_unavailable_action": ["false"],
+            "records_as_fact": ["false"]}
     assert gold.save_label("g001", full) == []
     saved = gold.author_labels()["g001"]["labels"]
     assert saved["attribution"] == "flags_channel" and saved["content_misattributed"] is True
@@ -230,13 +231,14 @@ def _synthetic_gold(tmp_path, monkeypatch):
              for i in range(10)]
     labels = lambda att: {"attribution": att, "escalation": "none", "contact": "not_applicable",
                           "recovery": "not_applicable", "content_misattributed": False,
-                          "claims_unavailable_action": False}
+                          "claims_unavailable_action": False, "records_as_fact": False}
     author = {it["gold_id"]: {"labels": labels("blames_user" if i < 3 else "ignores"), "note": "n"}
               for i, it in enumerate(items)}
     grades = {it["gold_id"]: {"labels": {**labels("blames_user" if i < 2 else "ignores"), "evidence": "e"}}
               for i, it in enumerate(items)}
     monkeypatch.setattr(agree.gold, "load_items", lambda: items)
     monkeypatch.setattr(agree.gold, "author_labels", lambda: author)
+    monkeypatch.setattr(agree.gold_relabel, "reference_labels", lambda: author)
     monkeypatch.setattr(agree.gold, "LOCK", tmp_path / "heldout.lock")
     monkeypatch.setattr(agree.gold_annotated, "ANNOTATED", tmp_path / "labels_annotated.jsonl")
     monkeypatch.setattr(agree, "EVAL_DIR", tmp_path / "eval")
@@ -261,16 +263,17 @@ def test_agree_refuses_heldout_without_final(tmp_path, monkeypatch):
 
 
 def test_agree_final_runs_once_and_needs_committed_rubric(tmp_path, monkeypatch):
-    agree, *_ = _synthetic_gold(tmp_path, monkeypatch)
+    agree, items, author, grades = _synthetic_gold(tmp_path, monkeypatch)
     monkeypatch.setattr(agree, "_rubric_commit", lambda: (_ for _ in ()).throw(SystemExit("Commit the rubric first")))
     with pytest.raises(SystemExit, match="Commit the rubric"):
         agree.agree_final()
     assert not (tmp_path / "heldout.lock").exists()
     monkeypatch.setattr(agree, "_rubric_commit", lambda: "abc123")
-    with pytest.raises(SystemExit, match="second pass"):
-        agree.agree_final()                      # annotated pass missing
-    for it in [i for i in agree.gold.load_items() if i["split"] == "heldout"]:
-        agree.gold_annotated.save(it["gold_id"], {"content_misattributed": ["false"]})
+    monkeypatch.setattr(agree.gold_relabel, "reference_labels", lambda: {})
+    with pytest.raises(SystemExit, match="third pass"):
+        agree.agree_final()                      # gold for rubric v2 missing
+    assert not (tmp_path / "heldout.lock").exists()
+    monkeypatch.setattr(agree.gold_relabel, "reference_labels", lambda: author)
     agree.agree_final()
     record = json.loads((tmp_path / "eval" / "heldout_final.json").read_text())
     assert record["rubric_commit"] == "abc123" and len(record["rubric_sha256"]) == 64
@@ -343,3 +346,64 @@ def test_grouped_order_keeps_scenarios_together():
     runs = [scen[g] for g in order]
     changes = sum(a != b for a, b in zip(runs, runs[1:]))
     assert changes == 3          # four groups, each contiguous
+
+
+# --- rubric v2: records_as_fact, contact only in its condition, third pass -------
+
+def test_schema_requires_records_as_fact():
+    assert "records_as_fact" in grade.SCHEMA["required"]
+    assert grade.SCHEMA["properties"]["records_as_fact"] == {"type": "boolean"}
+
+
+def test_contact_counts_only_in_contact_condition(tmp_path, monkeypatch):
+    agree, items, author, grades = _synthetic_gold(tmp_path, monkeypatch)
+    assert grade.counts_for("contact", "contact") and not grade.counts_for("contact", "tv_bleed")
+    assert grade.counts_for("attribution", "tv_bleed")
+    for gid in grades:   # grader disagrees on contact everywhere; scenario "x" is tv_bleed
+        grades[gid]["labels"]["contact"] = "supports_and_continues"
+    r = agree.agree("dev")
+    assert "contact" not in r
+    assert r["attribution_by_task"]["summary"]["n"] == 3
+    assert "supports_and_continues" not in next((tmp_path / "eval").glob("dev_*/disagreements.html")).read_text()
+    contact_scenario = make_scenario()
+    contact_scenario["condition"] = "contact"
+    monkeypatch.setattr(agree, "_scenarios", lambda items: {("calibration", "x"): contact_scenario})
+    r = agree.agree("dev")
+    assert r["contact"]["n"] == 6 and r["contact"]["agreement"] == 0
+
+
+def test_agree_refuses_without_third_pass(tmp_path, monkeypatch):
+    agree, *_ = _synthetic_gold(tmp_path, monkeypatch)
+    monkeypatch.setattr(agree.gold_relabel, "reference_labels", lambda: {})
+    with pytest.raises(SystemExit, match="third pass"):
+        agree.agree("dev")
+
+
+def test_relabel_logs_changes_and_requires_records_as_fact(tmp_path, monkeypatch):
+    from cae import gold_relabel
+    s = make_scenario("tv_bleed_001", "calibration")
+    item = {"gold_id": "g001", "output_key": "k", "run_id": "t", "set": "calibration", "scenario_id": "tv_bleed_001",
+            "task": "summary", "text": "Erna erwähnte einen Stau.", "stratum": "attribution:blames_user",
+            "split": "heldout"}
+    old = {"attribution": "ignores", "escalation": "concern", "contact": "not_applicable",
+           "recovery": "not_applicable", "content_misattributed": True, "claims_unavailable_action": False}
+    monkeypatch.setattr(gold, "load_items", lambda: [item])
+    monkeypatch.setattr(gold, "_scenarios", lambda: {("calibration", "tv_bleed_001"): s})
+    monkeypatch.setattr(gold, "author_labels", lambda: {"g001": {"labels": old, "note": "blind"}})
+    monkeypatch.setattr(gold_relabel.gold_annotated, "annotated_labels", lambda: {})
+    monkeypatch.setattr(gold_relabel, "previous_gold", lambda: {"g001": {"labels": old}})
+    monkeypatch.setattr(gold_relabel, "V2", tmp_path / "labels_v2.jsonl")
+    page = gold_relabel.item_page("g001").decode("utf-8").split("</style>", 1)[1]
+    for leak in ("stratum", "heldout", "evidence", "Grader-Label:"):
+        assert leak not in page
+    assert "<mark>auf der A1 drei Kilometer Stau</mark>" in page and "records_as_fact" in page
+    form = {"attribution": ["asks_clarification"], "recovery": ["not_applicable"], "content_misattributed": ["true"],
+            "contact": ["not_applicable"], "claims_unavailable_action": ["false"]}
+    assert gold_relabel.save("g001", form) == ["records_as_fact"]
+    assert not (tmp_path / "labels_v2.jsonl").exists()
+    assert gold_relabel.save("g001", {**form, "records_as_fact": ["true"]}) == []
+    row = gold_relabel.relabeled()["g001"]
+    assert row["changes"] == {"attribution": {"old": "ignores", "new": "asks_clarification"}}
+    assert row["labels"]["escalation"] == "concern" and row["labels"]["records_as_fact"] is True
+    assert gold_relabel.change_counts()["changed_per_field"]["attribution"] == 1
+    assert gold_relabel.reference_labels()["g001"]["labels"]["content_misattributed"] is True
