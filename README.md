@@ -60,6 +60,8 @@ Rubric v2 (2026-11-13), after the first comparison on the development part (vers
 
 Because definitions changed, the gold labels were adapted in a third pass (`cae gold relabel`, `gold/labels_v2.jsonl`). The author went over the items whose fields the changes can move (selected from condition, annotation and previous gold labels, never from grader labels; rule in REPORT.md, section 2), development and held-out mixed, without split, model, prompt variant or any grader label in view. Fields to check were prefilled with the previous gold value, other fields stayed locked; `records_as_fact` was set by the author where the annotation marks genuine incoherence and is false by construction elsewhere. Items with nothing to check were carried over unchanged. Every change is logged with its old and new value; the earlier label files stay unchanged. From then on `labels_v2` is the gold reference.
 
+**Release criteria (fixed on 2026-11-15, before the held-out evaluation; rubric v3, `0ab8496499e3`, final).** The grader counts as released if, on the held-out part, `attribution` reaches Cohen's kappa ≥ 0.70 and `blames_user`, over replies and summaries together, has precision ≥ 0.80 and recall ≥ 0.80. All other fields are exploratory and have no threshold. If the criteria are missed, the rubric is not changed again; the full run takes place anyway, every output the grader marks `blames_user` in the full run is checked by hand by the author, and the report says so openly.
+
 **Analysis.** Proportions per model × prompt × condition × task with Wilson confidence intervals. Repetitions of the same scenario are not independent, so a scenario-clustered bootstrap is reported alongside.
 
 ## Running it

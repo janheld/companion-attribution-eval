@@ -134,6 +134,11 @@ def compare(items: list[dict], author: dict, grades: dict) -> dict:
         if sub:
             s = stats.binary_scores([x for x, _ in sub], [y for _, y in sub], "blames_user")
             out["blames_user_by_task"][task] = {"n": len(sub), **s}
+    # Release criterion (README, Grader validation): blames_user over replies
+    # and summaries together.
+    both = [(a["attribution"], g["attribution"]) for _, a, g in rows]
+    out["blames_user_by_task"]["all"] = {"n": len(both), **stats.binary_scores(
+        [x for x, _ in both], [y for _, y in both], "blames_user")}
     return out
 
 
