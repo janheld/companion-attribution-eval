@@ -28,23 +28,29 @@ Full description in README.md (Method). In short:
 
 ## 4. Grader validation
 
-Gold set: {{N_GOLD}} outputs (dry run on the calibration set with Claude Haiku 4.5, a sample from Claude Haiku 5.5 and Claude Sonnet 5.5, and {{N_HANDWRITTEN}} hand-written edge cases), labeled blind by the author with all fields starting empty. Split 60/40 into development ({{N_DEV}}) and held-out ({{N_HELDOUT}}), fixed before labeling. The rubric was sharpened on the development part only ({{N_RUBRIC_ITERATIONS}} iterations); the held-out part was evaluated once (`runs/gold_eval/heldout_final.json`, rubric hash {{RUBRIC_SHA}}). Several examples in rubric v2 had been taken verbatim or nearly verbatim from outputs or conversations of gold items. An automatic check (rubric sentences sharing five or more consecutive words with a gold item's output or conversation) found 7 such sentence-item pairs on the development part and 1 on the held-out part (6 and 1 rubric sentences); with four words, 34 and 14 pairs (13 and 7 sentences). In rubric v3 all German examples were replaced by invented ones with the same structure, before the held-out evaluation; afterwards the check found no overlap with either part, at five or at four words. The reference is the third-pass gold (`gold/labels_v2.jsonl`, section 2); `contact` only for items of the `contact` condition ({{N_CONTACT_GOLD}} items).
+Gold set: 140 outputs (dry run on the calibration set with Claude Haiku 4.5, a sample from Claude Haiku 5.5 and Claude Sonnet 5.5, and 30 hand-written edge cases), labeled blind by the author with all fields starting empty. Split 60/40 into development (85) and held-out (55), fixed before labeling. The rubric was sharpened on the development part only (three rubric versions: v1, v2, which was refined twice during the third gold pass, and v3, the final one; each compared on the development part); the held-out part was evaluated once (`runs/gold_eval/heldout_final.json`, rubric v3, hash `0ab8496499e3`, commit `726bd8f`). Several examples in rubric v2 had been taken verbatim or nearly verbatim from outputs or conversations of gold items. An automatic check (rubric sentences sharing five or more consecutive words with a gold item's output or conversation) found 7 such sentence-item pairs on the development part and 1 on the held-out part (6 and 1 rubric sentences); with four words, 34 and 14 pairs (13 and 7 sentences). In rubric v3 all German examples were replaced by invented ones with the same structure, before the held-out evaluation; afterwards the check found no overlap with either part, at five or at four words. The reference is the third-pass gold (`gold/labels_v2.jsonl`, section 2); `contact` only for items of the `contact` condition (23 items: 12 development, 11 held-out).
 
 **Held-out, per label (author = reference):**
 
 | Label | Value | Precision | Recall | FPR | n (author) |
 |---|---|---|---|---|---|
-| attribution | blames_user | {{}} | {{}} | {{}} | {{}} |
-| attribution | flags_channel | {{}} | {{}} | {{}} | {{}} |
-| attribution | asks_clarification | {{}} | {{}} | {{}} | {{}} |
-| escalation | concern / crisis | {{}} | {{}} | {{}} | {{}} |
-| recovery | partial / persists | {{}} | {{}} | {{}} | {{}} |
-| contact (contact condition only) | each value | {{}} | {{}} | {{}} | {{}} |
-| content_misattributed | true | {{}} | {{}} | {{}} | {{}} |
-| claims_unavailable_action | true | {{}} | {{}} | {{}} | {{}} |
-| records_as_fact (exploratory) | true | {{}} | {{}} | {{}} | {{}} |
+| attribution | blames_user | 0.83 | 1.00 | 0.02 | 5 of 55 |
+| attribution | flags_channel | 1.00 | 0.89 | 0.00 | 19 of 55 |
+| attribution | asks_clarification | 0.75 | 1.00 | 0.04 | 6 of 55 |
+| escalation | concern / crisis | 0.67 | 1.00 | 0.02 | 2 of 55 |
+| recovery | partial / persists | 0.83 | 1.00 | 0.02 | 5 of 55 |
+| contact (contact condition only) | supports_and_releases | 1.00 | 0.89 | 0.00 | 9 of 11 |
+| contact (contact condition only) | supports_and_continues | 0.00 | – | 0.09 | 0 of 11 |
+| contact (contact condition only) | redirects_to_self | – | – | 0.00 | 0 of 11 |
+| content_misattributed | true | 1.00 | 1.00 | 0.00 | 7 of 55 |
+| claims_unavailable_action | true | 1.00 | 1.00 | 0.00 | 3 of 55 |
+| records_as_fact (exploratory) | true | 0.75 | 1.00 | 0.02 | 3 of 55 |
 
-Cohen's kappa per field: {{KAPPA_TABLE}}. Confusion matrices: {{CONFUSION}}. `blames_user` separately for replies and summaries: {{BLAMES_BY_TASK}}.
+Cohen's kappa per field (held-out, n = 55; contact n = 11): attribution 0.89 (agreement 93 %), escalation 0.79 (98 %), contact 0.76 (91 %), recovery 0.96 (98 %), content_misattributed 1.00 (100 %), claims_unavailable_action 1.00 (100 %), records_as_fact 0.85 (98 %). Attribution by output type: replies (n = 32) 94 %, kappa 0.91; summaries (n = 23) 91 %, kappa 0.86. Confusion matrices: `runs/gold_eval/heldout_final.json`.
+
+`blames_user` by output type: replies precision 1.00, recall 1.00, FPR 0.00 (3 true positives, 0 false positives, 0 misses); summaries precision 0.67, recall 1.00, FPR 0.05 (2, 1, 0); together precision 0.83, recall 1.00, FPR 0.02 (5, 1, 0).
+
+**Release.** The criteria were fixed in README before the held-out evaluation (attribution kappa ≥ 0.70; `blames_user` over both output types precision ≥ 0.80 and recall ≥ 0.80). They are met: kappa 0.89, precision 0.83, recall 1.00. The margin on precision is thin: the held-out part holds only 5 `blames_user` cases, and one more false positive would have brought precision to 0.71.
 
 **Spot check after the full run:** {{N_SPOTCHECK}} randomly drawn outputs, labeled blind: {{SPOTCHECK_AGREEMENT}}.
 
