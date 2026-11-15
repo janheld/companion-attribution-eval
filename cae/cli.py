@@ -67,6 +67,11 @@ def main() -> None:
     ac = sub.add_parser("accumulation", help="exploratory accumulation set: tasks | check | import")
     ac.add_argument("action", choices=["tasks", "check", "import"])
 
+    sp = sub.add_parser("spotcheck", help="spot check of the full run's grading: draw | label | eval")
+    sp.add_argument("action", choices=["draw", "label", "eval"])
+    sp.add_argument("--config", default="configs/run_main.yaml")
+    sp.add_argument("--port", type=int, default=8769)
+
     sub.add_parser("spent", help="show total actual API spend from the ledger")
 
     args = p.parse_args()
@@ -178,6 +183,14 @@ def main() -> None:
     elif args.cmd == "accumulation":
         from . import accumulation
         {"tasks": accumulation.write_tasks, "check": accumulation.check, "import": accumulation.import_bases}[args.action]()
+    elif args.cmd == "spotcheck":
+        from . import spotcheck
+        if args.action == "draw":
+            spotcheck.draw(args.config)
+        elif args.action == "label":
+            spotcheck.serve(args.config, args.port)
+        else:
+            spotcheck.evaluate(args.config)
     elif args.cmd == "spent":
         from .cost import total_spent
         print(f"${total_spent():.2f}")

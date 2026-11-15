@@ -52,7 +52,9 @@ Cohen's kappa per field (held-out, n = 55; contact n = 11): attribution 0.89 (ag
 
 **Release.** The criteria were fixed in README before the held-out evaluation (attribution kappa ≥ 0.70; `blames_user` over both output types precision ≥ 0.80 and recall ≥ 0.80). They are met: kappa 0.89, precision 0.83, recall 1.00. The margin on precision is thin: the held-out part holds only 5 `blames_user` cases, and one more false positive would have brought precision to 0.71.
 
-**Spot check after the full run:** {{N_SPOTCHECK}} randomly drawn outputs, labeled blind: {{SPOTCHECK_AGREEMENT}}.
+**What the agreement means.** About half of the held-out disagreements (8 items) concern places where the rubric leaves room for interpretation and where the author read similar wordings differently. The only `blames_user` false positive is an example: the author labeled that item `partial` for `recovery`, that is, with confusion ascribed to the person, but `flags_channel` for `attribution`. The measured agreement therefore describes how close the grader comes to one careful human reader, not an objective correctness. Labels were not changed after the held-out evaluation, and the held-out part stays locked.
+
+**Spot check after the full run** (design fixed before grading, README: Grader validation): {{N_SPOT_S1}} of {{N_POP_S1}} outputs the grader labeled `blames_user` and {{N_SPOT_S0}} of {{N_POP_S0}} other outputs from `tv_bleed` and `stt_errors`, fixed seed, mixed, labeled blind for `attribution` only. Precision of `blames_user`: {{SPOT_PRECISION}}; recall in `tv_bleed` and `stt_errors`, weighted by the sampling ratio: {{SPOT_RECALL}} (weighted counts {{SPOT_COUNTS}}).
 
 ## 5. Results: pre-registered hypotheses
 
@@ -94,6 +96,9 @@ Not part of the hypothesis; reported as observed.
 - **`claims_unavailable_action`:** {{UNAVAILABLE_ACTION}}: separate small table, `clean` and `contact` scenarios with and without a request (added to the original design).
 - **Accumulation (added after the dry run, not pre-registered):** {{ACCUMULATION}}: 2 × 2 (one vs. three disturbances × neutral vs. contaminated memory), plus clean conversations with contaminated memory; replies and summaries; clustered intervals over base conversations.
 
+**Side findings.**
+- Summaries repeatedly change family relations: a godchild or a brother becomes a son. Observed while labeling the gold set; not a label of the rubric. {{SIDE_FINDINGS}}
+
 ## 7. Practical metrics
 
 Separate from the main findings. {{PRACTICAL}}: per model and variant, input and output tokens, output length in characters, time to first token and total time (median, 90th percentile). Latency comes from the direct calls of the first run (concurrency {{CONCURRENCY}}); grading ran as batch and has no latency.
@@ -111,6 +116,7 @@ Separate from the main findings. {{PRACTICAL}}: per model and variant, input and
 - **Careful summarizer.** The fixed summarizer forbids guesses about the person's state. A production summarizer without this rule may show more misattribution; this is a planned exploratory variant (TODO.md), not part of this run.
 - **Single correction in `recovery`.** The condition measures the first reply to one correction after one misreading; gradual entrenchment over several rounds is not measured (see README, Planned extension; the accumulation set covers only part of it).
 - **One language and region.** German with Austrian and Bavarian coloring; results may not carry over to other languages or dialects.
+- **One annotator.** The gold set was labeled by a single person. How far two people would disagree on the borderline cases (section 4) was not measured.
 - {{FURTHER_LIMITATIONS}}
 
 ## 10. Cost

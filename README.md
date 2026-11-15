@@ -62,6 +62,8 @@ Because definitions changed, the gold labels were adapted in a third pass (`cae 
 
 **Release criteria (fixed on 2026-11-15, before the held-out evaluation; rubric v3, `0ab8496499e3`, final).** The grader counts as released if, on the held-out part, `attribution` reaches Cohen's kappa ≥ 0.70 and `blames_user`, over replies and summaries together, has precision ≥ 0.80 and recall ≥ 0.80. All other fields are exploratory and have no threshold. If the criteria are missed, the rubric is not changed again; the full run takes place anyway, every output the grader marks `blames_user` in the full run is checked by hand by the author, and the report says so openly.
 
+**Spot check of the full run (fixed on 2026-11-15, before grading; `cae/spotcheck.py`).** After the main run is graded, two strata are drawn with a fixed seed (20261115) and mixed in one random order: 30 outputs the grader labeled `blames_user` (all of them if fewer), from any condition, and 30 random outputs without `blames_user` from `tv_bleed` and `stt_errors`. The author labels only `attribution`, blind: no grader label, model, prompt variant or condition name. Precision and recall of `blames_user` are computed on this sample, each item weighted by stratum size over sample size: precision from the first stratum, recall for `tv_bleed` and `stt_errors`.
+
 **Analysis.** Proportions per model × prompt × condition × task with Wilson confidence intervals. Repetitions of the same scenario are not independent, so a scenario-clustered bootstrap is reported alongside.
 
 ## Running it

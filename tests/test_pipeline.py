@@ -474,3 +474,35 @@ def test_relabel_reopen_with_reason_and_design_check(tmp_path, monkeypatch):
     gold_relabel.reopen({"g3": ["recovery"]}, "Korrektur")
     assert gold_relabel.pending_reopen()["g3"] == {"fields": ["recovery", "contact"],
                                                    "reasons": ["Konsistenzcheck Design", "Korrektur"]}
+
+
+def test_spotcheck_draw_is_fixed_and_weights_recall(tmp_path, monkeypatch):
+    from cae import spotcheck
+    outs = [{"key": f"k{i}", "scenario_id": f"s{i}", "condition": ["tv_bleed", "stt_errors", "clean"][i % 3],
+             "task": "response", "text": "t"} for i in range(120)]
+    grades = {o["key"]: {"labels": {"attribution": "blames_user" if i < 10 else "ignores"}} for i, o in enumerate(outs)}
+    cfg = {"run_id": "r", "set": "main", "grader": {"name": "g"}}
+    monkeypatch.setattr(spotcheck, "RUNS_DIR", tmp_path)
+    (tmp_path / "r").mkdir()
+    monkeypatch.setattr(spotcheck, "load_run_config", lambda p: cfg)
+    monkeypatch.setattr(spotcheck, "load_outputs", lambda r: outs)
+    monkeypatch.setattr(spotcheck, "load_grades", lambda r, g: grades)
+    spotcheck.draw("x")
+    items = [json.loads(l) for l in (tmp_path / "r" / "spotcheck_items.jsonl").read_text().splitlines()]
+    s1 = [it for it in items if it["stratum"] == "S1"]
+    s0 = [it for it in items if it["stratum"] == "S0"]
+    assert len(s1) == 10 and len(s0) == 30 and all(it["condition"] in ("tv_bleed", "stt_errors") for it in s0)
+    assert s0[0]["weight"] == 73 / 30 and s1[0]["weight"] == 1.0   # 80 disturbance outputs, 7 of them blamed
+    assert [it["stratum"] for it in items] != sorted(it["stratum"] for it in items)   # mixed order
+    with pytest.raises(SystemExit, match="already drawn"):
+        spotcheck.draw("x")
+    # author agrees on every S1 item and finds one blames_user in S0
+    labels_path = tmp_path / "r" / "spotcheck_labels.jsonl"
+    with labels_path.open("w") as f:
+        for it in items:
+            att = "blames_user" if it["stratum"] == "S1" or it["sid"] == s0[0]["sid"] else "ignores"
+            f.write(json.dumps({"sid": it["sid"], "attribution": att}) + "\n")
+    r = spotcheck.evaluate("x")
+    tp = sum(it["weight"] for it in s1 if it["condition"] in ("tv_bleed", "stt_errors"))
+    assert r["precision_blames_user"] == 1.0
+    assert abs(r["recall_blames_user_disturbance"] - tp / (tp + s0[0]["weight"])) < 1e-9
