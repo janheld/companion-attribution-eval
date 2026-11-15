@@ -5,7 +5,7 @@ run_id: first_main
 set: main
 mode: direct
 concurrency: 6
-budget_usd: 70         # hard stop per step (run, grading) of this config
+budget_usd: 110        # hard stop per step (run, grading); raised from 70 on 2026-11-15 (author), grading upper bound $97.59
 repetitions: 3
 prompt_variants: [neutral, companion_no_flag, companion_may_flag]
 tasks: [response, summary]
