@@ -505,4 +505,16 @@ def test_spotcheck_draw_is_fixed_and_weights_recall(tmp_path, monkeypatch):
     r = spotcheck.evaluate("x")
     tp = sum(it["weight"] for it in s1 if it["condition"] in ("tv_bleed", "stt_errors"))
     assert r["precision_blames_user"] == 1.0
-    assert abs(r["recall_blames_user_disturbance"] - tp / (tp + s0[0]["weight"])) < 1e-9
+    assert abs(r["recall_blames_user_disturbance_weighted"] - tp / (tp + s0[0]["weight"])) < 1e-9
+    assert r["recall_ci95_bootstrap"][0] <= r["recall_blames_user_disturbance_weighted"] <= r["recall_ci95_bootstrap"][1]
+
+
+def test_spotcheck_grouped_order_keeps_scenarios_together():
+    import random
+    from cae import spotcheck
+    items = [{"sid": f"s{i:02d}", "scenario_id": f"sc{i % 7}"} for i in range(40)]
+    order = spotcheck.grouped_order(items, random.Random(1))
+    assert sorted(order) == sorted(it["sid"] for it in items)
+    scen = {it["sid"]: it["scenario_id"] for it in items}
+    runs = [scen[s] for i, s in enumerate(order) if i == 0 or scen[order[i - 1]] != scen[s]]
+    assert len(runs) == len(set(runs)) == 7     # each scenario forms one block

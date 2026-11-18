@@ -1,0 +1,38 @@
+{
+  "precision_blames_user": 0.7333333333333333,
+  "precision_ci95": [
+    0.5555203815871325,
+    0.8581733675241899
+  ],
+  "recall_blames_user_disturbance_weighted": 1.0,
+  "recall_ci95_bootstrap": [
+    1.0,
+    1.0
+  ],
+  "recall_conservative_lower_bound": 0.013418530189582306,
+  "populations": {
+    "grader_blames_user_in_tv_bleed_stt_errors": 22,
+    "other_tv_bleed_stt_errors": 2138
+  },
+  "counts": {
+    "S1_n": 30,
+    "S1_author_blames": 22,
+    "S1_in_tv_bleed_stt_errors_n": 4,
+    "S1_in_tv_bleed_stt_errors_author_blames": 2,
+    "S0_n": 30,
+    "S0_author_blames": 0,
+    "weight_S1": 6.0,
+    "weight_S0": 71.26666666666667
+  },
+  "author_attribution_by_stratum": {
+    "S1": {
+      "blames_user": 22,
+      "asks_clarification": 2,
+      "flags_channel": 6
+    },
+    "S0": {
+      "ignores": 29,
+      "flags_channel": 1
+    }
+  }
+}
