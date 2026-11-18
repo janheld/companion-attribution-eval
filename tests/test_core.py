@@ -279,3 +279,11 @@ def test_time_check_finds_wrong_summary_weekday():
     s["content"]["user_context"]["time_of_day"] = "Montag, 09:40"
     s["content"]["user_context"]["recent_sessions"] = [{"date": "Freitag, vor 2 Tagen", "summary": "x", "notes": []}]
     assert any("does not fit today" in p for p in checks.time_problems(s))
+
+
+def test_paired_bootstrap_keeps_pairs():
+    from cae import stats
+    a = [{"scenario_id": f"s{i}", "v": 1 if i < 5 else 0} for i in range(10)]
+    b = [{"scenario_id": f"s{i}", "v": 1 if i < 5 else 0} for i in range(10)]
+    point, lo, hi = stats.cluster_bootstrap_paired(a, b, lambda r: r["v"])
+    assert point == lo == hi == 0.0   # identical pairs: every resample gives zero difference

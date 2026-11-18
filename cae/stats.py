@@ -105,3 +105,28 @@ def cluster_bootstrap_diff(rows_a: list[dict], rows_b: list[dict], value, cluste
     diffs = sorted(mean(ga, [rng.choice(ka) for _ in ka]) - mean(gb, [rng.choice(kb) for _ in kb])
                    for _ in range(n_boot))
     return point, diffs[int(0.025 * n_boot)], diffs[int(0.975 * n_boot) - 1]
+
+
+def cluster_bootstrap_paired(rows_a: list[dict], rows_b: list[dict], value, cluster: str = "scenario_id",
+                             n_boot: int = 2000, seed: int = 0) -> tuple[float, float, float]:
+    """Difference of means (a - b) when both groups come from the same
+    scenarios (summary vs. reply of one scenario, two prompt variants on one
+    scenario): scenarios are resampled once and enter both groups together,
+    so the pairing is kept. Still clustered by scenario, as pre-registered."""
+    ga, gb = defaultdict(list), defaultdict(list)
+    for r in rows_a:
+        ga[r[cluster]].append(value(r))
+    for r in rows_b:
+        gb[r[cluster]].append(value(r))
+    keys = sorted(set(ga) & set(gb))
+    if not keys:
+        return (float("nan"),) * 3
+    rng = random.Random(seed)
+
+    def diff(sample):
+        va = [v for k in sample for v in ga[k]]
+        vb = [v for k in sample for v in gb[k]]
+        return sum(va) / len(va) - sum(vb) / len(vb)
+    point = diff(keys)
+    diffs = sorted(diff([rng.choice(keys) for _ in keys]) for _ in range(n_boot))
+    return point, diffs[int(0.025 * n_boot)], diffs[int(0.975 * n_boot) - 1]

@@ -67,6 +67,7 @@ def main() -> None:
     ac = sub.add_parser("accumulation", help="exploratory accumulation set: tasks | check | import")
     ac.add_argument("action", choices=["tasks", "check", "import"])
 
+    sub.add_parser("analyze", help="analysis of the first run: results.json, tables.md, figures")
     sp = sub.add_parser("spotcheck", help="spot check of the full run's grading: draw | label | eval")
     sp.add_argument("action", choices=["draw", "label", "eval"])
     sp.add_argument("--config", default="configs/run_main.yaml")
@@ -183,6 +184,11 @@ def main() -> None:
     elif args.cmd == "accumulation":
         from . import accumulation
         {"tasks": accumulation.write_tasks, "check": accumulation.check, "import": accumulation.import_bases}[args.action]()
+    elif args.cmd == "analyze":
+        from . import analyze, report
+        analyze.analyze()
+        report.write()
+        print("runs/analysis/results.json, runs/analysis/tables.md, figures/")
     elif args.cmd == "spotcheck":
         from . import spotcheck
         if args.action == "draw":
