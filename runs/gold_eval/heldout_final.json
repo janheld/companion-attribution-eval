@@ -2,7 +2,7 @@
   "split": "heldout",
   "n": 55,
   "rubric_sha256": "0ab8496499e35fa5661236a24ef5b455fe9ee0acba50f051005a9977251800c1",
-  "rubric_commit": "726bd8f696562cc207e450582e32a112c0fc1755",
+  "rubric_commit": "298fe5d0c1d08e3945883e5f2cf4c43fa9c0c03b",
   "evaluated_at": "2026-11-14T23:50:16.813639+00:00",
   "result": {
     "attribution": {

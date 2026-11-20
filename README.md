@@ -115,3 +115,9 @@ _Added on 2026-11-08, after the dry run on the calibration set and before any sc
 - The `recovery` condition measures only the first reply to a single correction after a single misreading. Gradual entrenchment over several rounds (several misreadings, jokes taken seriously, until the model no longer believes the person) is not measured; see the planned extension above.
 
 (further limitations to be filled after the run)
+
+## History note
+
+The Git history of this repository was rewritten once, before its first publication, to remove details that would have allowed conclusions about the region and the participants of the pilot, to remove IDE settings, and to unify the author email. Scenarios, manifests, prompts, rubric, code, gold labels and run results are byte-identical to the state before the rewrite, except that the commit hash recorded in `gold/heldout.lock` and `runs/gold_eval/heldout_final.json` was updated to the rewritten commit; the order and the author and committer timestamps of all commits are preserved. One commit that only removed IDE settings became empty and was dropped. Commit hashes cited in this repository refer to the rewritten history.
+
+A backup of the original state was kept as a Git bundle (SHA-256 `5d2dc010190912284385c8ce39db4aa80a627f46cc8ab7402430d683345f5d85`). Because it contains pilot details, it is not published; the original history can be inspected confidentially on request.
