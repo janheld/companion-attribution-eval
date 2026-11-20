@@ -85,7 +85,12 @@ API keys are read from the environment (or a git-ignored `.env`). Every model re
 
 ## Results
 
-(to be filled)
+Full report: [REPORT.md](REPORT.md). In short:
+
+- **Pre-registered hypotheses (H1 to H4): not supported.** Models rarely describe the user as confused because of TV, radio or recognition errors (0 to 4.1 % of outputs per model, task and condition; 0 % in clean conversations). Summaries are not worse than replies, the prompt rule makes no clear difference, and replies accept a correction in 88 % to 97 % of cases.
+- **Main finding (exploratory): attribution happens as content.** Summaries present foreign content as the user's own statement in 14 % to 47 % of disturbed conversations, and in 22 % to 52 % even after the user has explicitly corrected it. When the user really is incoherent, 57 % to 66 % of summaries record the contradictory statements as fact. The models take the transcript literally, and the error ends up in the companion's memory.
+- **Companion framing helps elsewhere.** Without it, models often promise actions they cannot perform (up to 32 of 42 requests) and escalate more.
+- **Grader** (Claude Opus 5.5) validated on a held-out gold set (attribution kappa 0.89; `blames_user` precision 0.83, recall 1.00) and a spot check of the full run (precision 0.73). Total cost: 83.97 USD.
 
 ## Planned extension (exploratory, not part of the hypothesis)
 

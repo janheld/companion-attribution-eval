@@ -1,0 +1,192 @@
+{
+  "split": "dev",
+  "rubric_sha256": "0ab8496499e35fa5661236a24ef5b455fe9ee0acba50f051005a9977251800c1",
+  "result": {
+    "attribution": {
+      "n": 85,
+      "agreement": 0.9882352941176471,
+      "kappa": 0.9825962325962326,
+      "confusion": {
+        "ignores": {
+          "ignores": 38
+        },
+        "flags_channel": {
+          "flags_channel": 25
+        },
+        "blames_user": {
+          "blames_user": 12
+        },
+        "asks_clarification": {
+          "asks_clarification": 9,
+          "ignores": 1
+        }
+      }
+    },
+    "escalation": {
+      "n": 85,
+      "agreement": 0.9764705882352941,
+      "kappa": 0.6586345381526101,
+      "confusion": {
+        "none": {
+          "none": 81
+        },
+        "concern": {
+          "none": 2,
+          "concern": 1
+        },
+        "crisis": {
+          "crisis": 1
+        }
+      }
+    },
+    "contact": {
+      "n": 12,
+      "agreement": 1.0,
+      "kappa": 1.0,
+      "confusion": {
+        "supports_and_releases": {
+          "supports_and_releases": 11
+        },
+        "not_applicable": {
+          "not_applicable": 1
+        }
+      }
+    },
+    "recovery": {
+      "n": 85,
+      "agreement": 1.0,
+      "kappa": 1.0,
+      "confusion": {
+        "not_applicable": {
+          "not_applicable": 64
+        },
+        "partial": {
+          "partial": 4
+        },
+        "accepts_correction": {
+          "accepts_correction": 17
+        }
+      }
+    },
+    "content_misattributed": {
+      "n": 85,
+      "agreement": 0.9764705882352941,
+      "kappa": 0.8757309941520466,
+      "confusion": {
+        "false": {
+          "false": 75,
+          "true": 1
+        },
+        "true": {
+          "true": 8,
+          "false": 1
+        }
+      }
+    },
+    "claims_unavailable_action": {
+      "n": 85,
+      "agreement": 1.0,
+      "kappa": 1.0,
+      "confusion": {
+        "false": {
+          "false": 83
+        },
+        "true": {
+          "true": 2
+        }
+      }
+    },
+    "records_as_fact": {
+      "n": 85,
+      "agreement": 0.9764705882352941,
+      "kappa": 0.8446069469835464,
+      "confusion": {
+        "false": {
+          "false": 77,
+          "true": 2
+        },
+        "true": {
+          "true": 6
+        }
+      }
+    },
+    "attribution_by_task": {
+      "response": {
+        "n": 54,
+        "agreement": 0.9814814814814815,
+        "kappa": 0.9717425431711146,
+        "confusion": {
+          "ignores": {
+            "ignores": 24
+          },
+          "flags_channel": {
+            "flags_channel": 18
+          },
+          "asks_clarification": {
+            "asks_clarification": 8,
+            "ignores": 1
+          },
+          "blames_user": {
+            "blames_user": 3
+          }
+        }
+      },
+      "summary": {
+        "n": 31,
+        "agreement": 1.0,
+        "kappa": 1.0,
+        "confusion": {
+          "flags_channel": {
+            "flags_channel": 7
+          },
+          "blames_user": {
+            "blames_user": 9
+          },
+          "ignores": {
+            "ignores": 14
+          },
+          "asks_clarification": {
+            "asks_clarification": 1
+          }
+        }
+      }
+    },
+    "blames_user_by_task": {
+      "response": {
+        "n": 54,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "tn": 51,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": 0.0
+      },
+      "summary": {
+        "n": 31,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "tn": 22,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": 0.0
+      }
+    },
+    "content_misattributed_blind_vs_annotated": {
+      "n": 85,
+      "agreement": 0.9764705882352941,
+      "kappa": 0.8757309941520466,
+      "confusion (blind -> annotated)": {
+        "false": {
+          "false": 75,
+          "true": 1
+        },
+        "true": {
+          "false": 1,
+          "true": 8
+        }
+      }
+    }
+  }
+}

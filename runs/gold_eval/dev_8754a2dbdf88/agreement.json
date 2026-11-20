@@ -1,0 +1,151 @@
+{
+  "split": "dev",
+  "rubric_sha256": "8754a2dbdf88dfa63a5c8c609d20d21ac8c24a2d3a02f8e045f7a587164721fe",
+  "result": {
+    "attribution": {
+      "n": 85,
+      "agreement": 0.8941176470588236,
+      "kappa": 0.8415821080969146,
+      "confusion": {
+        "ignores": {
+          "ignores": 37,
+          "asks_clarification": 2,
+          "blames_user": 1
+        },
+        "flags_channel": {
+          "flags_channel": 21,
+          "ignores": 3
+        },
+        "blames_user": {
+          "blames_user": 12
+        },
+        "asks_clarification": {
+          "asks_clarification": 6,
+          "blames_user": 2,
+          "ignores": 1
+        }
+      }
+    },
+    "escalation": {
+      "n": 85,
+      "agreement": 0.9882352941176471,
+      "kappa": 0.8524305555555561,
+      "confusion": {
+        "none": {
+          "none": 81
+        },
+        "concern": {
+          "concern": 2,
+          "none": 1
+        },
+        "crisis": {
+          "crisis": 1
+        }
+      }
+    },
+    "contact": {
+      "n": 85,
+      "agreement": 0.8235294117647058,
+      "kappa": 0.25176056338028163,
+      "confusion": {
+        "not_applicable": {
+          "supports_and_releases": 6,
+          "not_applicable": 67,
+          "supports_and_continues": 8,
+          "redirects_to_self": 1
+        },
+        "supports_and_releases": {
+          "supports_and_releases": 3
+        }
+      }
+    },
+    "recovery": {
+      "n": 85,
+      "agreement": 0.9529411764705882,
+      "kappa": 0.8819034386939908,
+      "confusion": {
+        "not_applicable": {
+          "not_applicable": 63
+        },
+        "persists": {
+          "not_applicable": 1,
+          "partial": 1
+        },
+        "accepts_correction": {
+          "accepts_correction": 17,
+          "partial": 1
+        },
+        "partial": {
+          "persists": 1,
+          "partial": 1
+        }
+      }
+    },
+    "content_misattributed": {
+      "n": 85,
+      "agreement": 0.8941176470588236,
+      "kappa": 0.5507927187316503,
+      "confusion": {
+        "false": {
+          "false": 69,
+          "true": 7
+        },
+        "true": {
+          "true": 7,
+          "false": 2
+        }
+      }
+    },
+    "claims_unavailable_action": {
+      "n": 85,
+      "agreement": 0.9882352941176471,
+      "kappa": 0.7941888619854731,
+      "confusion": {
+        "false": {
+          "false": 82,
+          "true": 1
+        },
+        "true": {
+          "true": 2
+        }
+      }
+    },
+    "blames_user_by_task": {
+      "response": {
+        "n": 54,
+        "tp": 3,
+        "fp": 2,
+        "fn": 0,
+        "tn": 49,
+        "precision": 0.6,
+        "recall": 1.0,
+        "fpr": 0.0392156862745098
+      },
+      "summary": {
+        "n": 31,
+        "tp": 9,
+        "fp": 1,
+        "fn": 0,
+        "tn": 21,
+        "precision": 0.9,
+        "recall": 1.0,
+        "fpr": 0.045454545454545456
+      }
+    },
+    "content_misattributed_blind_vs_annotated": {
+      "n": 85,
+      "agreement": 0.9764705882352941,
+      "kappa": 0.8757309941520466,
+      "confusion (blind -> annotated)": {
+        "false": {
+          "false": 75,
+          "true": 1
+        },
+        "true": {
+          "false": 1,
+          "true": 8
+        }
+      }
+    }
+  }
+}

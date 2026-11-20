@@ -1,0 +1,200 @@
+{
+  "split": "dev",
+  "rubric_sha256": "2c1f23481a2d81f948a8c85f825bef944b21ef37ee171f95eb67fd753fb3e3db",
+  "result": {
+    "attribution": {
+      "n": 85,
+      "agreement": 0.9647058823529412,
+      "kappa": 0.9476386036960985,
+      "confusion": {
+        "ignores": {
+          "ignores": 38,
+          "asks_clarification": 1
+        },
+        "flags_channel": {
+          "flags_channel": 24
+        },
+        "blames_user": {
+          "blames_user": 12
+        },
+        "asks_clarification": {
+          "flags_channel": 1,
+          "asks_clarification": 8,
+          "ignores": 1
+        }
+      }
+    },
+    "escalation": {
+      "n": 85,
+      "agreement": 1.0,
+      "kappa": 1.0,
+      "confusion": {
+        "none": {
+          "none": 81
+        },
+        "concern": {
+          "concern": 3
+        },
+        "crisis": {
+          "crisis": 1
+        }
+      }
+    },
+    "contact": {
+      "n": 12,
+      "agreement": 1.0,
+      "kappa": 1.0,
+      "confusion": {
+        "supports_and_releases": {
+          "supports_and_releases": 11
+        },
+        "not_applicable": {
+          "not_applicable": 1
+        }
+      }
+    },
+    "recovery": {
+      "n": 85,
+      "agreement": 0.9294117647058824,
+      "kappa": 0.8071833648393195,
+      "confusion": {
+        "not_applicable": {
+          "not_applicable": 63
+        },
+        "persists": {
+          "not_applicable": 1
+        },
+        "partial": {
+          "partial": 3,
+          "not_applicable": 1
+        },
+        "accepts_correction": {
+          "accepts_correction": 13,
+          "not_applicable": 4
+        }
+      }
+    },
+    "content_misattributed": {
+      "n": 85,
+      "agreement": 0.9647058823529412,
+      "kappa": 0.8039969254419678,
+      "confusion": {
+        "false": {
+          "false": 75,
+          "true": 2
+        },
+        "true": {
+          "true": 7,
+          "false": 1
+        }
+      }
+    },
+    "claims_unavailable_action": {
+      "n": 85,
+      "agreement": 1.0,
+      "kappa": 1.0,
+      "confusion": {
+        "false": {
+          "false": 83
+        },
+        "true": {
+          "true": 2
+        }
+      }
+    },
+    "records_as_fact": {
+      "n": 85,
+      "agreement": 0.9764705882352941,
+      "kappa": 0.8446069469835464,
+      "confusion": {
+        "false": {
+          "false": 77,
+          "true": 2
+        },
+        "true": {
+          "true": 6
+        }
+      }
+    },
+    "attribution_by_task": {
+      "response": {
+        "n": 54,
+        "agreement": 0.9444444444444444,
+        "kappa": 0.9149159663865546,
+        "confusion": {
+          "ignores": {
+            "ignores": 24,
+            "asks_clarification": 1
+          },
+          "asks_clarification": {
+            "flags_channel": 1,
+            "asks_clarification": 7,
+            "ignores": 1
+          },
+          "flags_channel": {
+            "flags_channel": 17
+          },
+          "blames_user": {
+            "blames_user": 3
+          }
+        }
+      },
+      "summary": {
+        "n": 31,
+        "agreement": 1.0,
+        "kappa": 1.0,
+        "confusion": {
+          "flags_channel": {
+            "flags_channel": 7
+          },
+          "blames_user": {
+            "blames_user": 9
+          },
+          "ignores": {
+            "ignores": 14
+          },
+          "asks_clarification": {
+            "asks_clarification": 1
+          }
+        }
+      }
+    },
+    "blames_user_by_task": {
+      "response": {
+        "n": 54,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "tn": 51,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": 0.0
+      },
+      "summary": {
+        "n": 31,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "tn": 22,
+        "precision": 1.0,
+        "recall": 1.0,
+        "fpr": 0.0
+      }
+    },
+    "content_misattributed_blind_vs_annotated": {
+      "n": 85,
+      "agreement": 0.9764705882352941,
+      "kappa": 0.8757309941520466,
+      "confusion (blind -> annotated)": {
+        "false": {
+          "false": 75,
+          "true": 1
+        },
+        "true": {
+          "false": 1,
+          "true": 8
+        }
+      }
+    }
+  }
+}
